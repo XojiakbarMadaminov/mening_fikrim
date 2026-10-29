@@ -1,0 +1,52 @@
+{
+    "1587862": {
+        "identity_valid": false,
+        "persisted": false,
+        "error": {
+            "identity": [
+                "Conflicting component requisites: bodies"
+            ]
+        },
+        "requests": 6
+    },
+    "-1587862": {
+        "identity_valid": false,
+        "persisted": false,
+        "error": {
+            "identity": [
+                "Conflicting component requisites: bodies"
+            ]
+        },
+        "requests": 6
+    },
+    "1587860": {
+        "identity_valid": false,
+        "persisted": false,
+        "error": {
+            "identity": [
+                "Conflicting component requisites: bodies"
+            ]
+        },
+        "requests": 6
+    },
+    "8354875": {
+        "identity_valid": false,
+        "persisted": false,
+        "error": {
+            "identity": [
+                "Missing node or nonreciprocal source link."
+            ]
+        },
+        "requests": 7
+    },
+    "-8345596": {
+        "identity_valid": false,
+        "persisted": false,
+        "error": {
+            "identity": [
+                "Missing node or nonreciprocal source link."
+            ]
+        },
+        "requests": 7
+    }
+}

@@ -1,0 +1,1701 @@
+{
+    "run": {
+        "id": 45,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 1,
+        "created_count": 1,
+        "updated_count": 0,
+        "failed_count": 0,
+        "checkpoint": {
+            "limit": 1,
+            "scope": "bounded_sample",
+            "version": 3,
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "status": "Y",
+                    "section": "int"
+                },
+                {
+                    "status": "Y",
+                    "section": "tech"
+                },
+                {
+                    "status": "Y",
+                    "section": "court"
+                },
+                {
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "selection": "explicit_sample",
+            "pilot_kind": "new_collection",
+            "sample_ids": [
+                "4773639"
+            ],
+            "campaign_id": "p5-1-20261029",
+            "segment_index": 0,
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "total": 1,
+                    "last_page": true,
+                    "committed_page": 1,
+                    "page_fingerprint": "ecae8e12cc2bd213975afdfc38111a81ac98ddca3f13bf154979bd9455b19c30"
+                }
+            ],
+            "coverage_verified": false,
+            "partition_parents": [],
+            "discovery_finished": true,
+            "languages_complete": true,
+            "segments_completed": 0,
+            "sample_listing_statuses": {
+                "4773639": "Y"
+            }
+        },
+        "last_error": "Bounded\/partial coverage; inspect the durable item ledger.",
+        "started_at": "2026-10-29T00:37:19.000000Z",
+        "finished_at": "2026-10-29T00:37:29.000000Z"
+    },
+    "summary": {
+        "run_id": 45,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 1,
+        "canonical_document_groups": 1,
+        "canonical_documents_stored": 1,
+        "processed": 1,
+        "created": 1,
+        "updated": 0,
+        "imported": 1,
+        "unchanged": 0,
+        "skipped_alias": 0,
+        "queued": 0,
+        "processing": 0,
+        "pending_retry": 0,
+        "failed": 0,
+        "technical_failed": 0,
+        "review_required": 0,
+        "active": 1,
+        "pending": 0,
+        "inactive": 0,
+        "stored_content_count": 3,
+        "valid_content_count": 3,
+        "persisted_imported": 1,
+        "persisted_unchanged": 0,
+        "imported_with_needs_review": 0,
+        "verified": 1,
+        "extraction_failed": 0,
+        "failed_content_representations": 0,
+        "stored_needs_review_content_count": 0,
+        "duration_seconds": 10,
+        "coverage_verified": false,
+        "gates": {
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": true
+        },
+        "open_items": 0,
+        "html": 1,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "ru": 1,
+            "uz-Cyrl": 1,
+            "uz-Latn": 1
+        },
+        "required_language_failures": 0,
+        "source_status_counts": {
+            "active": 1,
+            "pending": 0,
+            "inactive": 0
+        },
+        "discovery_failed": false,
+        "discovery_error": null,
+        "pending_framework_jobs": 0
+    },
+    "items": [
+        {
+            "id": 644,
+            "scrape_run_id": 45,
+            "source_external_id": "4773639",
+            "document_id": 229,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c1685896f9298b72c708d8af6af2349725172b07b4f3c48ec8b52617637b196a",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "37f518d66ba1c825010b5af3e85af2b9e93f1ac66a4c0d295db36238a86bda36",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "5b418a09d23ffa6e5b496608319546f658fb6dec9a65f86238a3074bbfde26f8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 0.711919,
+                    "fetch_parse_seconds": 10.189455,
+                    "fetch_parse_import_seconds": 10.219883
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 17926,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [
+                            {
+                                "rows": 22,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "Нарбаева Танзила Камаловна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "Председатель Сената Олий Мажлиса Республики Узбекистан, Сопредседатель парламентской комиссии",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Исмоилов Нуриддин Мўйдинхонович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Спикер Законодательной палаты Олий Мажлиса Республики Узбекистан, Сопредседатель парламентской комиссии",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Сафоев Содик Солихович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "первый заместитель председателя Сената Олий Мажлиса Республики Узбекистан, Заместитель сопредседателя парламентской комиссии",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Ходжаева Мавлудахон Исламовна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "заместитель Спикера Законодательной палаты Олий Мажлиса Республики Узбекистан, Заместитель сопредседателя парламентской комиссии",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Гадоев Эркин Файзиевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "председатель Комитета по бюджету и экономическим вопросам Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Туйчиев Анвар Мирзаахмедович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "председатель Комитета по аграрным и водохозяйственным вопросам и экологии Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "Эшмуратов Абдулхаким Хушбокович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "председатель Комитета по судебно-правовым вопросам и противодействию коррупции Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "Бурханов Кутбидин Нукритдинович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "председатель Комитета по вопросам обороны и безопасности Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "Абдуллаев Бахром Исмоилович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "председатель Комитета по вопросам науки, образования и здравоохранения Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "Козихонова Орзигул Муйдиновна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "председатель Комитета по вопросам молодежи, женщин, культуры и спорта Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "Маматкаримов Одилжон Охундедаевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "заместитель председателя Комитета Сената по вопросам международных отношений, внешнеэкономических связей, иностранных инвестиций и туризма Сената Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "Назаров Шарофиддин Хакимович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "председатель Комитета по бюджету и экономическим вопросам Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "Шерматов Улугбек Убайдуллаевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "председатель Комитета по международным вопросам, обороне и безопасности Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "Мамутов Равшан Аминаддинович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "председатель Комитета по аграрным и водным вопросам Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "Агзамова Гулрух Анваровна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "председатель Комитета по вопросам развития демократических институтов и гражданского общества Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "Абдуллаев Илхом Зайирович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "председатель Комитета по вопросам инновационного развития и информационных технологий Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "Ширинов Джахонгир Джаббарович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "председатель Комитета по противодействию коррупции и судебно-правовым вопросам Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "Бекмуродов Бобур Мансурович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "председатель Комитета по вопросам предпринимательства, развития конкуренции и промышленности Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "Жумаев Нодир Хосиятович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "председатель Комитета по науке, образованию, культуре, спорту и делам молодёжи Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "Гаппоров Хайрилло Лутпиллаевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "председатель Комитета по вопросам экологии и охраны окружающей среды Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "По должности",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "председатель Комитета по труду, здравоохранению и социальным вопросам Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "Иззатиллаев Отабек Олимжонович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "Заведующий Отделом работы с международными рейтингами и индексами Канцелярии Сената Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 0
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.020486
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 18353,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [
+                            {
+                                "rows": 22,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "Нарбаева Танзила Камаловна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенатининг Раиси, Парламент комиссияси ҳамраиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Исмоилов Нуриддин Мўйдинхонович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатасининг Спикери, Парламент комиссияси ҳамраиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Сафоев Содиқ Солихович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Раисининг биринчи ўринбосари, Парламент комиссияси ҳамраиси ўринбосари",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Ходжаева Мавлудахон Исламовна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Спикерининг ўринбосари, Парламент комиссияси ҳамраиси ўринбосари",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Гадоев Эркин Файзиевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Бюджет ва иқтисодий масалалар қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Туйчиев Анвар Мирзаахмедович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Аграр, сув хўжалиги масалалари ва экология қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "Эшмуратов Абдулхаким Хушбокович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Суд-ҳуқуқ масалалари ва коррупцияга қарши курашиш қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "Бурханов Кутбидин Нукритдинович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Мудофаа ва хавфсизлик масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "Абдуллаев Бахром Исмоилович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Фан, таълим ва соғлиқни сақлаш масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "Қозихонова Орзигул Мўйдиновна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Ёшлар, хотин-қизлар, маданият ва спорт масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "Маматкаримов Одилжон Охундедаевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати Халқаро муносабатлар, ташқи иқтисодий алоқалар, хорижий инвестициялар ва туризм масалалари қўмитаси раисининг ўринбосари",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "Назаров Шарофиддин Хакимович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Бюджет ва иқтисодий масалалар қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "Шерматов Улуғбек Убайдуллаевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Халқаро ишлар, мудофаа ва хавфсизлик масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "Мамутов Равшан Аминаддинович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Аграр ва сув хўжалиги масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "Агзамова Гулрух Анваровна",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Демократик институтлар ва фуқаролик жамиятини ривожлантириш масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "Абдуллаев Илхом Зайирович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Инновацион ривожланиш ва ахборот технологиялари масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "Ширинов Джахонгир Джаббарович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Коррупцияга қарши курашиш ва суд-ҳуқуқ масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "Бекмуродов Бобур Мансурович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Тадбиркорлик, рақобатни ривожлантириш ва саноат масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "Жумаев Нодир Хосиятович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Фан, таълим, маданият, спорт ва ёшлар масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "Гаппоров Хайрилло Лутпиллаевич",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Экология ва атроф муҳитни муҳофаза қилиш масалалари қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "Лавозими бўйича",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Меҳнат, соғлиқни сақлаш ва ижтимоий масалалар қўмитасининг раиси",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "Иззатиллаев Отабек Олимжонович",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "Ўзбекистон Республикаси Олий Мажлиси Сенати девони Халқаро рейтинг ва индекслар билан ишлаш бўлимининг мудири, Парламент комиссиясининг масъул котиби.",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 0
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.019724
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 19220,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [
+                            {
+                                "rows": 22,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "Narbayeva Tanzila Kamalovna",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senatining Raisi, Parlament komissiyasi hamraisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Ismoilov Nuriddin Moʻydinxonovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining Spikeri, Parlament komissiyasi hamraisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Safoyev Sodiq Solixovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Raisining birinchi oʻrinbosari, Parlament komissiyasi hamraisi oʻrinbosari",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Xodjayeva Mavludaxon Islamovna",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Spikerining oʻrinbosari, Parlament komissiyasi hamraisi oʻrinbosari",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Gadoyev Erkin Fayziyevich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Budjet va iqtisodiy masalalar qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Tuychiyev Anvar Mirzaaxmedovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Agrar, suv xoʻjaligi masalalari va ekologiya qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "Eshmuratov Abdulxakim Xushbokovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 7,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Sud-huquq masalalari va korrupsiyaga qarshi kurashish qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "Burxanov Kutbidin Nukritdinovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 8,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Mudofaa va xavfsizlik masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "Abdullayev Baxrom Ismoilovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 9,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Fan, taʼlim va sogʻliqni saqlash masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "Qozixonova Orzigul Moʻydinovna",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 10,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Yoshlar, xotin-qizlar, madaniyat va sport masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "Mamatkarimov Odiljon Oxundedayevich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 11,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati Xalqaro munosabatlar, tashqi iqtisodiy aloqalar, xorijiy investitsiyalar va turizm masalalari qoʻmitasi raisining oʻrinbosari",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "Nazarov Sharofiddin Xakimovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 12,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Budjet va iqtisodiy masalalar qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "Shermatov Ulugʻbek Ubaydullayevich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 13,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Xalqaro ishlar, mudofaa va xavfsizlik masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "Mamutov Ravshan Aminaddinovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 14,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Agrar va suv xoʻjaligi masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "Agzamova Gulrux Anvarovna",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 15,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Demokratik institutlar va fuqarolik jamiyatini rivojlantirish masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "Abdullayev Ilxom Zayirovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 16,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Innovatsion rivojlanish va axborot texnologiyalari masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "Shirinov Djaxongir Djabbarovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 17,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Korrupsiyaga qarshi kurashish va sud-huquq masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "Bekmurodov Bobur Mansurovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 18,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Tadbirkorlik, raqobatni rivojlantirish va sanoat masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "Jumayev Nodir Xosiyatovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 19,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Fan, taʼlim, madaniyat, sport va yoshlar masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "Gapporov Xayrillo Lutpillayevich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 20,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Ekologiya va atrof muhitni muhofaza qilish masalalari qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "Lavozimi boʻyicha",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 21,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi Mehnat, sogʻliqni saqlash va ijtimoiy masalalar qoʻmitasining raisi",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "Izzatillayev Otabek Olimjonovich",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "—",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 22,
+                                        "text": "Oʻzbekiston Respublikasi Oliy Majlisi Senati devoni Xalqaro reyting va indekslar bilan ishlash boʻlimining mudiri, Parlament komissiyasining masʼul kotibi.",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 0
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.01872
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c1685896f9298b72c708d8af6af2349725172b07b4f3c48ec8b52617637b196a",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "37f518d66ba1c825010b5af3e85af2b9e93f1ac66a4c0d295db36238a86bda36",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "5b418a09d23ffa6e5b496608319546f658fb6dec9a65f86238a3074bbfde26f8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 229,
+                "identity_key": "5ad12cdc8687c21481b5f76b8ae2c1303515f8652f94da3975b36bd8ad1030bf",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 695,
+            "dispatch_token": "6d4f3d07-a9e3-48f1-a306-a63dd617e68f",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:37:19.000000Z",
+            "finished_at": "2026-10-29T00:37:29.000000Z",
+            "created_at": "2026-10-29T00:37:19.000000Z",
+            "updated_at": "2026-10-29T00:37:29.000000Z"
+        }
+    ]
+}

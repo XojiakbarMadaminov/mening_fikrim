@@ -1,0 +1,660 @@
+{
+    "run": {
+        "id": 42,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 5,
+        "created_count": 2,
+        "updated_count": 0,
+        "failed_count": 0,
+        "checkpoint": {
+            "limit": 5,
+            "scope": "bounded_sample",
+            "version": 3,
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "status": "Y",
+                    "section": "int"
+                },
+                {
+                    "status": "Y",
+                    "section": "tech"
+                },
+                {
+                    "status": "Y",
+                    "section": "court"
+                },
+                {
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "selection": "explicit_sample",
+            "pilot_kind": "new_collection",
+            "sample_ids": [
+                "4774596",
+                "-4774596",
+                "5085572",
+                "5085567",
+                "-5085567"
+            ],
+            "campaign_id": "p5-1-20261029",
+            "segment_index": 0,
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "total": 5,
+                    "last_page": true,
+                    "committed_page": 1,
+                    "page_fingerprint": "77d6940f2df2e975e50275dafc5edd4056b15792deb59edc3c31c93ff4b231b0"
+                }
+            ],
+            "coverage_verified": false,
+            "partition_parents": [],
+            "discovery_finished": true,
+            "languages_complete": true,
+            "segments_completed": 0,
+            "sample_listing_statuses": {
+                "4774596": "Y",
+                "5085567": "Y",
+                "5085572": "Y",
+                "-4774596": "Y",
+                "-5085567": "Y"
+            }
+        },
+        "last_error": "Bounded\/partial coverage; inspect the durable item ledger.",
+        "started_at": "2026-10-29T00:36:33.000000Z",
+        "finished_at": "2026-10-29T00:36:51.000000Z"
+    },
+    "summary": {
+        "run_id": 42,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 5,
+        "canonical_document_groups": 2,
+        "canonical_documents_stored": 2,
+        "processed": 5,
+        "created": 2,
+        "updated": 0,
+        "imported": 2,
+        "unchanged": 0,
+        "skipped_alias": 3,
+        "queued": 0,
+        "processing": 0,
+        "pending_retry": 0,
+        "failed": 0,
+        "technical_failed": 0,
+        "review_required": 0,
+        "active": 2,
+        "pending": 0,
+        "inactive": 0,
+        "stored_content_count": 5,
+        "valid_content_count": 5,
+        "persisted_imported": 2,
+        "persisted_unchanged": 0,
+        "imported_with_needs_review": 0,
+        "verified": 2,
+        "extraction_failed": 0,
+        "failed_content_representations": 0,
+        "stored_needs_review_content_count": 0,
+        "duration_seconds": 18,
+        "coverage_verified": false,
+        "gates": {
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": true
+        },
+        "open_items": 0,
+        "html": 2,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "uz-Cyrl": 2,
+            "uz-Latn": 2,
+            "ru": 1
+        },
+        "required_language_failures": 0,
+        "source_status_counts": {
+            "active": 5,
+            "pending": 0,
+            "inactive": 0
+        },
+        "discovery_failed": false,
+        "discovery_error": null,
+        "pending_framework_jobs": 0
+    },
+    "items": [
+        {
+            "id": 634,
+            "scrape_run_id": 42,
+            "source_external_id": "4774596",
+            "document_id": 225,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "3d63da237348076fff46c5091a69e5bca5bd91cdd327be782d5cc7ff6c9a75d0",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "048a830d1c4134d6cfe0d3fbd887a38c5821a314976ef1ff9655c212cd2b0523",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 0.627918,
+                    "fetch_parse_seconds": 6.12952,
+                    "fetch_parse_import_seconds": 6.143897
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 7802,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.010592
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 8163,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.010067
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "3d63da237348076fff46c5091a69e5bca5bd91cdd327be782d5cc7ff6c9a75d0",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "048a830d1c4134d6cfe0d3fbd887a38c5821a314976ef1ff9655c212cd2b0523",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 225,
+                "identity_key": "20af00a470f50a8255d605d196136716eb935070aa799573359cd9cec636893c",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 682,
+            "dispatch_token": "1c1b9fcf-ffdf-42c5-9aa2-9cd29c884591",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:36:33.000000Z",
+            "finished_at": "2026-10-29T00:36:39.000000Z",
+            "created_at": "2026-10-29T00:36:33.000000Z",
+            "updated_at": "2026-10-29T00:36:39.000000Z"
+        },
+        {
+            "id": 635,
+            "scrape_run_id": 42,
+            "source_external_id": "-4774596",
+            "document_id": 225,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "3d63da237348076fff46c5091a69e5bca5bd91cdd327be782d5cc7ff6c9a75d0",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "048a830d1c4134d6cfe0d3fbd887a38c5821a314976ef1ff9655c212cd2b0523",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "3d63da237348076fff46c5091a69e5bca5bd91cdd327be782d5cc7ff6c9a75d0",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "048a830d1c4134d6cfe0d3fbd887a38c5821a314976ef1ff9655c212cd2b0523",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 225,
+                "source_status": "active",
+                "alias_of_item_id": 634,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 683,
+            "dispatch_token": "61f714cf-e53c-41b3-9fe0-1b901aa3f9d9",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:36:39.000000Z",
+            "finished_at": "2026-10-29T00:36:39.000000Z",
+            "created_at": "2026-10-29T00:36:33.000000Z",
+            "updated_at": "2026-10-29T00:36:39.000000Z"
+        },
+        {
+            "id": 636,
+            "scrape_run_id": 42,
+            "source_external_id": "5085572",
+            "document_id": 226,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8e523751f34239482a6b50085a27d843db5c316a2890f75031d53c1c966659a8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1b7a7038da546497155f10094f7adb40e1ae4ea48851de957f3422b8134aa946",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c2214851298c197a2fa7fd5ededaabfcca8d44f0b0ad8366c3d545acacd7f354",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 6.8444009999999995,
+                    "fetch_parse_seconds": 11.897605,
+                    "fetch_parse_import_seconds": 11.911697
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 582,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004286
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 586,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.00421
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 606,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004205
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8e523751f34239482a6b50085a27d843db5c316a2890f75031d53c1c966659a8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1b7a7038da546497155f10094f7adb40e1ae4ea48851de957f3422b8134aa946",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c2214851298c197a2fa7fd5ededaabfcca8d44f0b0ad8366c3d545acacd7f354",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 226,
+                "identity_key": "0451e0f1fa0494f78ad71407faae132f3cbc3e67a1aa6003facd67d0d4d58dc9",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 684,
+            "dispatch_token": "04a548b9-daa1-40b7-8c6b-1c237feb6b10",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:36:39.000000Z",
+            "finished_at": "2026-10-29T00:36:51.000000Z",
+            "created_at": "2026-10-29T00:36:33.000000Z",
+            "updated_at": "2026-10-29T00:36:51.000000Z"
+        },
+        {
+            "id": 637,
+            "scrape_run_id": 42,
+            "source_external_id": "5085567",
+            "document_id": 226,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8e523751f34239482a6b50085a27d843db5c316a2890f75031d53c1c966659a8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1b7a7038da546497155f10094f7adb40e1ae4ea48851de957f3422b8134aa946",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c2214851298c197a2fa7fd5ededaabfcca8d44f0b0ad8366c3d545acacd7f354",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8e523751f34239482a6b50085a27d843db5c316a2890f75031d53c1c966659a8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1b7a7038da546497155f10094f7adb40e1ae4ea48851de957f3422b8134aa946",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c2214851298c197a2fa7fd5ededaabfcca8d44f0b0ad8366c3d545acacd7f354",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 226,
+                "source_status": "active",
+                "alias_of_item_id": 636,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 685,
+            "dispatch_token": "8fbc53d8-d9e5-4388-8504-029dfde178b9",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:36:51.000000Z",
+            "finished_at": "2026-10-29T00:36:51.000000Z",
+            "created_at": "2026-10-29T00:36:33.000000Z",
+            "updated_at": "2026-10-29T00:36:51.000000Z"
+        },
+        {
+            "id": 638,
+            "scrape_run_id": 42,
+            "source_external_id": "-5085567",
+            "document_id": 226,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8e523751f34239482a6b50085a27d843db5c316a2890f75031d53c1c966659a8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1b7a7038da546497155f10094f7adb40e1ae4ea48851de957f3422b8134aa946",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c2214851298c197a2fa7fd5ededaabfcca8d44f0b0ad8366c3d545acacd7f354",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8e523751f34239482a6b50085a27d843db5c316a2890f75031d53c1c966659a8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1b7a7038da546497155f10094f7adb40e1ae4ea48851de957f3422b8134aa946",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c2214851298c197a2fa7fd5ededaabfcca8d44f0b0ad8366c3d545acacd7f354",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 226,
+                "source_status": "active",
+                "alias_of_item_id": 636,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 686,
+            "dispatch_token": "63789cd5-7d96-46f6-8c62-b50b17b271f4",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:36:51.000000Z",
+            "finished_at": "2026-10-29T00:36:51.000000Z",
+            "created_at": "2026-10-29T00:36:33.000000Z",
+            "updated_at": "2026-10-29T00:36:51.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+  "historical_files_unchanged": 433,
+  "implementation_test_files_changed": 11,
+  "all_13_targets_persisted": true,
+  "old_40_and_all_63_content_hashes_preserved": true,
+  "quality_counts": {
+    "verified": 42,
+    "needs_review": 21
+  },
+  "final_run": {
+    "run_id": 10,
+    "mode": "full",
+    "status": "completed_with_errors",
+    "scope": "bounded_sample",
+    "discovered": 19,
+    "canonical_document_groups": 16,
+    "canonical_documents_stored": 16,
+    "processed": 19,
+    "created": 0,
+    "updated": 0,
+    "imported": 0,
+    "unchanged": 4,
+    "skipped_alias": 3,
+    "queued": 0,
+    "processing": 0,
+    "pending_retry": 0,
+    "failed": 0,
+    "technical_failed": 0,
+    "review_required": 12,
+    "active": 10,
+    "pending": 5,
+    "inactive": 1,
+    "stored_content_count": 32,
+    "valid_content_count": 11,
+    "persisted_imported": 0,
+    "persisted_unchanged": 16,
+    "imported_with_needs_review": 12,
+    "verified": 4,
+    "extraction_failed": 0,
+    "failed_content_representations": 0,
+    "stored_needs_review_content_count": 21,
+    "duration_seconds": 193,
+    "coverage_verified": false,
+    "gates": {
+      "quality_passed": false,
+      "jobs_reconciled": true,
+      "coverage_verified": false,
+      "discovery_finished": true,
+      "languages_complete": false
+    },
+    "open_items": 0,
+    "html": 11,
+    "pdf": 5,
+    "ocr": 0,
+    "languages": {
+      "uz-Cyrl": 4,
+      "uz-Latn": 4,
+      "ru": 2,
+      "en": 1
+    },
+    "required_language_failures": 21,
+    "source_status_counts": {
+      "active": 13,
+      "pending": 5,
+      "inactive": 1
+    },
+    "discovery_failed": false,
+    "discovery_error": null,
+    "pending_framework_jobs": 0
+  },
+  "http": {
+    "requests": 286,
+    "statuses": {
+      "200": 286
+    },
+    "minimum_start_interval_seconds": 2.0000291560136247,
+    "budget": 400,
+    "all_intervals_at_least_2s": true,
+    "within_budget": true,
+    "retries": 0,
+    "first_at": "2026-10-28T22:46:31.146890+05:00",
+    "last_at": "2026-10-28T23:02:22.417031+05:00",
+    "window_seconds": 951.270141,
+    "latency_p50_seconds": 0.143624,
+    "latency_p95_seconds": 0.354752
+  }
+}

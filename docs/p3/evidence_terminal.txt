@@ -1,0 +1,17 @@
+{
+  "historical_files": 289,
+  "all_unchanged": true,
+  "source_requests": 289,
+  "groups": 16,
+  "accepted": 3,
+  "review": 13,
+  "final_rows": {
+    "documents": 16,
+    "document_identifiers": 48,
+    "document_contents": 40,
+    "scrape_runs": 7,
+    "scrape_run_items": 112,
+    "jobs": 0,
+    "failed_jobs": 24
+  }
+}

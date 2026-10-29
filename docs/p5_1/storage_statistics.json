@@ -1,0 +1,26 @@
+{
+    "at": "2026-10-29T05:39:44+05:00",
+    "database_bytes": 39548595,
+    "table_bytes": [
+        {
+            "relname": "document_contents",
+            "bytes": 7503872
+        },
+        {
+            "relname": "document_identifiers",
+            "bytes": 598016
+        },
+        {
+            "relname": "documents",
+            "bytes": 2359296
+        },
+        {
+            "relname": "scrape_run_items",
+            "bytes": 11124736
+        },
+        {
+            "relname": "scrape_runs",
+            "bytes": 499712
+        }
+    ]
+}

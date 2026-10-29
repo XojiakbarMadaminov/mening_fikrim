@@ -1,0 +1,17 @@
+{
+  "all_original_record_hashes_preserved": true,
+  "tables": {
+    "document_sources": true,
+    "documents": true,
+    "document_identifiers": true,
+    "document_contents": true,
+    "scrape_runs": true,
+    "scrape_run_items": true,
+    "failed_jobs": true
+  },
+  "content_quality_backfill": {
+    "verified": 40
+  },
+  "original_content_ids": 40,
+  "new_business_tables": 0
+}

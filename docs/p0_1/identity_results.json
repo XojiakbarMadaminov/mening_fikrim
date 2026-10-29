@@ -1,0 +1,237 @@
+{
+  "8506802": {
+    "components": [
+      [
+        "-8506802",
+        "8506802",
+        "8506870",
+        "8507863"
+      ]
+    ],
+    "verified_edges": [
+      [
+        "https://lex.uz/uz/docs/8506802",
+        "https://lex.uz/uz/docs/8507863"
+      ],
+      [
+        "https://lex.uz/uz/docs/8506802",
+        "https://lex.uz/uz/docs/8506870"
+      ],
+      [
+        "https://lex.uz/uz/docs/8506802",
+        "https://lex.uz/uz/docs/-8506802"
+      ],
+      [
+        "https://lex.uz/uz/docs/8507863",
+        "https://lex.uz/uz/docs/8506870"
+      ],
+      [
+        "https://lex.uz/uz/docs/8507863",
+        "https://lex.uz/uz/docs/-8506802"
+      ],
+      [
+        "https://lex.uz/uz/docs/8507863",
+        "https://lex.uz/uz/docs/8506802"
+      ],
+      [
+        "https://lex.uz/uz/docs/8506870",
+        "https://lex.uz/uz/docs/8507863"
+      ],
+      [
+        "https://lex.uz/uz/docs/8506870",
+        "https://lex.uz/uz/docs/-8506802"
+      ],
+      [
+        "https://lex.uz/uz/docs/8506870",
+        "https://lex.uz/uz/docs/8506802"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8506802",
+        "https://lex.uz/uz/docs/8507863"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8506802",
+        "https://lex.uz/uz/docs/8506870"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8506802",
+        "https://lex.uz/uz/docs/8506802"
+      ]
+    ],
+    "rejected_edges": [],
+    "admissible": true,
+    "canonical_candidates": [
+      "-8506802"
+    ]
+  },
+  "8554309": {
+    "components": [
+      [
+        "-8554309",
+        "8554309",
+        "8555578",
+        "8557123"
+      ]
+    ],
+    "verified_edges": [
+      [
+        "https://lex.uz/uz/docs/8554309",
+        "https://lex.uz/uz/docs/8557123"
+      ],
+      [
+        "https://lex.uz/uz/docs/8554309",
+        "https://lex.uz/uz/docs/8555578"
+      ],
+      [
+        "https://lex.uz/uz/docs/8554309",
+        "https://lex.uz/uz/docs/-8554309"
+      ],
+      [
+        "https://lex.uz/uz/docs/8557123",
+        "https://lex.uz/uz/docs/8555578"
+      ],
+      [
+        "https://lex.uz/uz/docs/8557123",
+        "https://lex.uz/uz/docs/-8554309"
+      ],
+      [
+        "https://lex.uz/uz/docs/8557123",
+        "https://lex.uz/uz/docs/8554309"
+      ],
+      [
+        "https://lex.uz/uz/docs/8555578",
+        "https://lex.uz/uz/docs/8557123"
+      ],
+      [
+        "https://lex.uz/uz/docs/8555578",
+        "https://lex.uz/uz/docs/-8554309"
+      ],
+      [
+        "https://lex.uz/uz/docs/8555578",
+        "https://lex.uz/uz/docs/8554309"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8554309",
+        "https://lex.uz/uz/docs/8557123"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8554309",
+        "https://lex.uz/uz/docs/8555578"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8554309",
+        "https://lex.uz/uz/docs/8554309"
+      ]
+    ],
+    "rejected_edges": [],
+    "admissible": true,
+    "canonical_candidates": [
+      "-8554309"
+    ]
+  },
+  "-7655343": {
+    "components": [
+      [
+        "-7655343",
+        "7655343",
+        "7658581",
+        "7658590"
+      ]
+    ],
+    "verified_edges": [
+      [
+        "https://lex.uz/uz/docs/-7655343",
+        "https://lex.uz/uz/docs/7658581"
+      ],
+      [
+        "https://lex.uz/uz/docs/-7655343",
+        "https://lex.uz/uz/docs/7658590"
+      ],
+      [
+        "https://lex.uz/uz/docs/-7655343",
+        "https://lex.uz/uz/docs/7655343"
+      ],
+      [
+        "https://lex.uz/uz/docs/7658581",
+        "https://lex.uz/uz/docs/7658590"
+      ],
+      [
+        "https://lex.uz/uz/docs/7658581",
+        "https://lex.uz/uz/docs/7655343"
+      ],
+      [
+        "https://lex.uz/uz/docs/7658581",
+        "https://lex.uz/uz/docs/-7655343"
+      ],
+      [
+        "https://lex.uz/uz/docs/7658590",
+        "https://lex.uz/uz/docs/7658581"
+      ],
+      [
+        "https://lex.uz/uz/docs/7658590",
+        "https://lex.uz/uz/docs/7655343"
+      ],
+      [
+        "https://lex.uz/uz/docs/7658590",
+        "https://lex.uz/uz/docs/-7655343"
+      ],
+      [
+        "https://lex.uz/uz/docs/7655343",
+        "https://lex.uz/uz/docs/7658581"
+      ],
+      [
+        "https://lex.uz/uz/docs/7655343",
+        "https://lex.uz/uz/docs/7658590"
+      ],
+      [
+        "https://lex.uz/uz/docs/7655343",
+        "https://lex.uz/uz/docs/-7655343"
+      ]
+    ],
+    "rejected_edges": [],
+    "admissible": true,
+    "canonical_candidates": [
+      "-7655343"
+    ]
+  },
+  "-8540314": {
+    "components": [
+      [
+        "-8540314",
+        "8540314",
+        "8543270"
+      ]
+    ],
+    "verified_edges": [
+      [
+        "https://lex.uz/uz/docs/-8540314",
+        "https://lex.uz/uz/docs/8543270"
+      ],
+      [
+        "https://lex.uz/uz/docs/-8540314",
+        "https://lex.uz/uz/docs/8540314"
+      ],
+      [
+        "https://lex.uz/uz/docs/8543270",
+        "https://lex.uz/uz/docs/8540314"
+      ],
+      [
+        "https://lex.uz/uz/docs/8543270",
+        "https://lex.uz/uz/docs/-8540314"
+      ],
+      [
+        "https://lex.uz/uz/docs/8540314",
+        "https://lex.uz/uz/docs/8543270"
+      ],
+      [
+        "https://lex.uz/uz/docs/8540314",
+        "https://lex.uz/uz/docs/-8540314"
+      ]
+    ],
+    "rejected_edges": [],
+    "admissible": true,
+    "canonical_candidates": [
+      "-8540314"
+    ]
+  }
+}

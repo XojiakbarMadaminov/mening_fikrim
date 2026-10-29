@@ -1,0 +1,44 @@
+{
+    "at": "2026-10-29T05:15:44+05:00",
+    "campaign": {
+        "id": "p5-20261028",
+        "request_limit": 4000,
+        "used": 1229,
+        "target": 200,
+        "stage": 200,
+        "baseline_max_id": 29,
+        "baseline_count": 29,
+        "started_at": "2026-10-28T23:35:34+05:00",
+        "stopped": {
+            "reason": "bounded_source_selection_budget_exhausted",
+            "at": "2026-10-29T00:17:16+05:00"
+        },
+        "consecutive_errors": 0
+    },
+    "campaign_hash": "10e340da307f3c3dcacd4c549dbbdc697211343a4ef2a09615b865483d78f910",
+    "postgres": "PostgreSQL 17.11 (Ubuntu 17.11-1.pgdg24.04+2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit",
+    "migrations": [
+        "0001_01_01_000001_create_cache_table",
+        "0001_01_01_000002_create_jobs_table",
+        "2026_10_28_000001_create_document_sources_table",
+        "2026_10_28_000002_create_documents_table",
+        "2026_10_28_000003_create_document_identifiers_table",
+        "2026_10_28_000004_create_document_contents_table",
+        "2026_10_28_000005_create_scrape_runs_table",
+        "2026_10_28_000006_create_scrape_run_items_table",
+        "2026_10_28_000007_add_content_quality_tracking"
+    ],
+    "queue": {
+        "default": "database",
+        "retry_after": 960,
+        "jobs": 0
+    },
+    "safety": {
+        "live": false,
+        "scheduler": false,
+        "workers": 1,
+        "delay_ms": 2000,
+        "request_budget": 400,
+        "page_budget": null
+    }
+}

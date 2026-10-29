@@ -1,0 +1,15 @@
+{
+    "source": "lex",
+    "requested_status": "needs_review",
+    "limit": 20,
+    "dry_run": true,
+    "selected": 20,
+    "checked": 20,
+    "verified": 0,
+    "needs_review": 20,
+    "extraction_failed": 0,
+    "protected": 0,
+    "changed": 0,
+    "skipped_concurrent_change": 0,
+    "note": "Local evidence recheck only; no OCR certification, source fetch or deletion. Extraction failures have no empty content row."
+}

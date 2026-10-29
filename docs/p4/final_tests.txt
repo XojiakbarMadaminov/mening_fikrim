@@ -1,0 +1,12 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...............................................................  63 / 130 ( 48%)
+............................................................... 126 / 130 ( 96%)
+....                                                            130 / 130 (100%)
+
+Time: 00:36.934, Memory: 100.50 MB
+
+[30;42mOK (130 tests, 581 assertions)[0m

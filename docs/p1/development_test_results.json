@@ -1,0 +1,29 @@
+[
+  {
+    "stage": "initial test harness",
+    "tests": "37",
+    "assertions": "0",
+    "errors": "37",
+    "failures": "0",
+    "time": "0.000000",
+    "resolution": "Incorrect HTTP container alias, fixed with the Laravel HTTP Client Factory binding."
+  },
+  {
+    "stage": "JSONB persistence integration",
+    "tests": "37",
+    "assertions": "128",
+    "errors": "9",
+    "failures": "0",
+    "time": "7.414459",
+    "resolution": "Strict array comparison treated PostgreSQL JSONB key order as a requisites conflict; fixed with strict scalar-aware structural comparison."
+  },
+  {
+    "stage": "after integration fixes",
+    "tests": "38",
+    "assertions": "171",
+    "errors": "0",
+    "failures": "0",
+    "time": "7.811497",
+    "resolution": "All 38 tests passed; suite subsequently expanded."
+  }
+]

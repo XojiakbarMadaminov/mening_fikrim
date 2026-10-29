@@ -1,0 +1,6 @@
+  2026-10-28 15:35:34 App\Jobs\DiscoverDocumentsJob#1 ................ RUNNING
+  2026-10-28 15:35:34 App\Jobs\DiscoverDocumentsJob#1 ........... 41.68ms DONE
+  2026-10-28 15:35:34 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:35:39 App\Jobs\ImportDocumentJob#1 .................. 5 с FAIL
+  2026-10-28 15:35:39 App\Jobs\ImportDocumentJob#1 .................. 5 с DONE
+  2026-10-28 15:35:39 Worker STOPPED Maximum jobs exceeded

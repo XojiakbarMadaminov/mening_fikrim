@@ -1,0 +1,25 @@
+  2026-10-28 15:44:42 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:44:52 App\Jobs\ImportDocumentJob#1 ................. 10 с DONE
+  2026-10-28 15:44:52 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:45:04 App\Jobs\ImportDocumentJob#1 ................. 11 с DONE
+  2026-10-28 15:45:04 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:45:16 App\Jobs\ImportDocumentJob#1 ................. 12 с DONE
+  2026-10-28 15:45:16 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:45:28 App\Jobs\ImportDocumentJob#1 ................. 11 с DONE
+  2026-10-28 15:45:28 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:45:40 App\Jobs\ImportDocumentJob#1 ................. 11 с DONE
+  2026-10-28 15:45:40 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:45:52 App\Jobs\ImportDocumentJob#1 ................. 11 с DONE
+  2026-10-28 15:45:52 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:46:04 App\Jobs\ImportDocumentJob#1 ................. 11 с FAIL
+  2026-10-28 15:46:04 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:46:17 App\Jobs\ImportDocumentJob#1 ................. 12 с DONE
+  2026-10-28 15:46:17 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:46:23 App\Jobs\ImportDocumentJob#1 .................. 6 с FAIL
+  2026-10-28 15:46:23 App\Jobs\ImportDocumentJob#1 .................. 6 с DONE
+  2026-10-28 15:46:23 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:46:29 App\Jobs\ImportDocumentJob#1 .................. 6 с FAIL
+  2026-10-28 15:46:29 App\Jobs\ImportDocumentJob#1 .................. 6 с DONE
+  2026-10-28 15:46:29 App\Jobs\ImportDocumentJob#1 ................... RUNNING
+  2026-10-28 15:46:40 App\Jobs\ImportDocumentJob#1 ................. 11 с DONE
+  2026-10-28 15:46:41 Worker STOPPED Queue empty

@@ -1,0 +1,52 @@
+{
+  "engine": "temporary SQLite, JSON TEXT; not PostgreSQL locking/JSONB performance validation",
+  "business_tables": 4,
+  "arrival_permutations": 24,
+  "import_calls": 96,
+  "actions": {
+    "created": 1,
+    "unchanged": 95
+  },
+  "document_ids": [
+    1
+  ],
+  "document_rows": 1,
+  "content_rows": 3,
+  "rejected_update_result": "rejected_preserved",
+  "old_snapshot_preserved": true,
+  "metadata_example": {
+    "lex": {
+      "identity": {
+        "anchor": "-8506802",
+        "aliases": [
+          "-8506802",
+          "8506802",
+          "8506870",
+          "8507863"
+        ],
+        "language_mapping": {
+          "ru": {
+            "external_id": "8507863",
+            "url": "https://lex.uz/uz/docs/8507863",
+            "availability": "metadata_only"
+          },
+          "en": {
+            "external_id": "8506870",
+            "url": "https://lex.uz/uz/docs/8506870",
+            "availability": "full_text"
+          },
+          "uz-Cyrl": {
+            "external_id": "-8506802",
+            "url": "https://lex.uz/uz/docs/-8506802",
+            "availability": "full_text"
+          },
+          "uz-Latn": {
+            "external_id": "8506802",
+            "url": "https://lex.uz/uz/docs/8506802",
+            "availability": "full_text"
+          }
+        }
+      }
+    }
+  }
+}

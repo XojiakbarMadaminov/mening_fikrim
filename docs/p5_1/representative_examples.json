@@ -1,0 +1,270 @@
+{
+  "single_language": {
+    "kind": "live_observation",
+    "document": {
+      "id": 67,
+      "external_id": "8345596",
+      "source_url": "https://lex.uz/uz/docs/8345596",
+      "legal_status": "active",
+      "quality_status": "needs_review",
+      "language_coverage_status": "unknown",
+      "availability": {
+        "en": {
+          "status": "unknown",
+          "evidence": [],
+          "checked_at": "2026-10-29T05:23:40+05:00",
+          "evidence_type": "no_conclusive_source_evidence"
+        },
+        "ru": {
+          "status": "unknown",
+          "evidence": [],
+          "checked_at": "2026-10-29T05:23:40+05:00",
+          "evidence_type": "no_conclusive_source_evidence"
+        },
+        "uz-Cyrl": {
+          "status": "unknown",
+          "evidence": [],
+          "checked_at": "2026-10-29T05:23:40+05:00",
+          "evidence_type": "no_conclusive_source_evidence"
+        },
+        "uz-Latn": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "a9d626d76afabb462ff76d6c4fe025e34f2950c9c0b4f0526ab25ecbe74b5c7d",
+            "raw_language_label": "Узбекский (Л)"
+          },
+          "source_id": "8345596",
+          "checked_at": "2026-10-29T05:23:40+05:00",
+          "source_url": "https://lex.uz/uz/docs/8345596",
+          "evidence_type": "source_card_representation"
+        }
+      },
+      "contents": {
+        "uz-Latn": {
+          "id": 151,
+          "hash": "fa100b6df6a2c64f3a795c681ce36c29b62b9a7baeb7756c9f817966bdd2908f",
+          "characters": 57197,
+          "quality_status": "needs_review",
+          "quality_issues": [
+            "pdf_image_semantics_unverified",
+            "pdf_language_coverage_unconfirmed",
+            "pdf_reading_order_unverified",
+            "pdf_structure_unverified",
+            "quality_review"
+          ],
+          "format": "pdf",
+          "pages": 34,
+          "source_url": "https://lex.uz/uz/docs/8345596",
+          "pending_candidate": false
+        }
+      },
+      "identifiers": [
+        "8345596"
+      ]
+    }
+  },
+  "confirmed_missing_translation": {
+    "kind": "retained_real_source_excerpt_offline",
+    "source_id": "8507863",
+    "source_url": "https://lex.uz/uz/docs/8507863",
+    "original_evidence": "docs/p0/markdown/8506802_ru.md",
+    "evidence_kind": "Actual P0 extracted Russian notice; HTML wrapper in regression is an explicitly controlled reconstruction. Not fetched or written to development in P5.1.",
+    "test_file": "tests/Unit/P51SourceEvidenceTest.php",
+    "live_p51_coverage_gap": true
+  },
+  "unknown_availability": {
+    "kind": "live_observation",
+    "document": {
+      "id": 45,
+      "external_id": "-1597456",
+      "source_url": "https://lex.uz/uz/docs/-1597456",
+      "legal_status": "active",
+      "quality_status": "verified",
+      "language_coverage_status": "unknown",
+      "availability": {
+        "en": {
+          "status": "unknown",
+          "evidence": [],
+          "checked_at": "2026-10-29T05:23:03+05:00",
+          "evidence_type": "no_conclusive_source_evidence"
+        },
+        "ru": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "9c7925305e65067f15bd2a89305c946685e92f4e42d48cb0446624c8ef0cd037",
+            "raw_language_label": "Русский"
+          },
+          "source_id": "1597458",
+          "checked_at": "2026-10-29T05:23:03+05:00",
+          "source_url": "https://lex.uz/uz/docs/1597458",
+          "evidence_type": "source_card_representation"
+        },
+        "uz-Cyrl": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "e0c6995f760054c4ae18c42664416bb8c596fce25b244373da66a448c233d880",
+            "raw_language_label": "Узбекский (к)"
+          },
+          "source_id": "1597456",
+          "checked_at": "2026-10-29T05:23:03+05:00",
+          "source_url": "https://lex.uz/uz/docs/1597456",
+          "evidence_type": "source_card_representation"
+        },
+        "uz-Latn": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "7068bd76b2a60874f3b6987de8db4435ce8e4c3c944666103fe6819cb8fc3089",
+            "raw_language_label": "Узбекский (Л)"
+          },
+          "source_id": "-1597456",
+          "checked_at": "2026-10-29T05:23:03+05:00",
+          "source_url": "https://lex.uz/uz/docs/-1597456",
+          "evidence_type": "source_card_representation"
+        }
+      },
+      "contents": {
+        "ru": {
+          "id": 98,
+          "hash": "ea26d79f53a3bcb0c865d5acb1272c43e1e387f19c866028d5b998a3688564b5",
+          "characters": 968,
+          "quality_status": "verified",
+          "quality_issues": [],
+          "format": "html",
+          "pages": null,
+          "source_url": "https://lex.uz/uz/docs/1597458",
+          "pending_candidate": false
+        },
+        "uz-Cyrl": {
+          "id": 97,
+          "hash": "1031d3e8642535283b07b1562bebfc282d3b868214ee4b0a5a04868e7dd30d94",
+          "characters": 26902,
+          "quality_status": "verified",
+          "quality_issues": [],
+          "format": "html",
+          "pages": null,
+          "source_url": "https://lex.uz/uz/docs/1597456",
+          "pending_candidate": false
+        },
+        "uz-Latn": {
+          "id": 99,
+          "hash": "6ec89c268554cf3f2a7ea72588a64549b06a693b4ee106113e0e8a371757d783",
+          "characters": 28608,
+          "quality_status": "verified",
+          "quality_issues": [],
+          "format": "html",
+          "pages": null,
+          "source_url": "https://lex.uz/uz/docs/-1597456",
+          "pending_candidate": false
+        }
+      },
+      "identifiers": [
+        "1597458",
+        "1597456",
+        "-1597456"
+      ]
+    }
+  },
+  "available_but_extraction_failed": {
+    "kind": "synthetic_regression_only",
+    "test_file": "tests/Feature/LanguageAvailabilityTest.php",
+    "live_coverage_gap": true
+  },
+  "mixed_quality_multilingual": {
+    "kind": "live_observation",
+    "document": {
+      "id": 159,
+      "external_id": "-5210555",
+      "source_url": "https://lex.uz/uz/docs/-5210555",
+      "legal_status": "active",
+      "quality_status": "needs_review",
+      "language_coverage_status": "unknown",
+      "availability": {
+        "en": {
+          "status": "unknown",
+          "evidence": [],
+          "checked_at": "2026-10-29T05:23:27+05:00",
+          "evidence_type": "no_conclusive_source_evidence"
+        },
+        "ru": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "26ee96916c351e78dd7843c6296af9fbf171b2e5b2ea34f8b59934d4e8789eab",
+            "raw_language_label": "Русский"
+          },
+          "source_id": "5210585",
+          "checked_at": "2026-10-29T05:23:27+05:00",
+          "source_url": "https://lex.uz/uz/docs/5210585",
+          "evidence_type": "source_card_representation"
+        },
+        "uz-Cyrl": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "c93ecdc7160d1fa6a79372e7a8d1e1115e10357b9d4cbef69392494200ba1ac0",
+            "raw_language_label": "Узбекский (к)"
+          },
+          "source_id": "5210555",
+          "checked_at": "2026-10-29T05:23:27+05:00",
+          "source_url": "https://lex.uz/uz/docs/5210555",
+          "evidence_type": "source_card_representation"
+        },
+        "uz-Latn": {
+          "status": "available",
+          "evidence": {
+            "html_sha256": "8258b61e3c6a5bb35a9fcd636f47498fa37d65278c4c38c5a35ee31baa65709a",
+            "raw_language_label": "Узбекский (Л)"
+          },
+          "source_id": "-5210555",
+          "checked_at": "2026-10-29T05:23:27+05:00",
+          "source_url": "https://lex.uz/uz/docs/-5210555",
+          "evidence_type": "source_card_representation"
+        }
+      },
+      "contents": {
+        "ru": {
+          "id": 362,
+          "hash": "87bce6b4833fc9ccbf0d1dbe0ceb15699d08807ca5131d12fbfc867e67441017",
+          "characters": 1124,
+          "quality_status": "verified",
+          "quality_issues": [],
+          "format": "html",
+          "pages": null,
+          "source_url": "https://lex.uz/uz/docs/5210585",
+          "pending_candidate": false
+        },
+        "uz-Cyrl": {
+          "id": 363,
+          "hash": "2a0597753e140cf3535f1163a2aec6d3682c96b7e41c205217ae5d56a808941a",
+          "characters": 5191,
+          "quality_status": "needs_review",
+          "quality_issues": [
+            "complex_table_semantics_review",
+            "quality_review"
+          ],
+          "format": "html",
+          "pages": null,
+          "source_url": "https://lex.uz/uz/docs/5210555",
+          "pending_candidate": false
+        },
+        "uz-Latn": {
+          "id": 361,
+          "hash": "1b7fb9c9c9bcfb7a07eb26d4725febea206cf865a0e26e5c8f26bd37d14f4f45",
+          "characters": 5381,
+          "quality_status": "needs_review",
+          "quality_issues": [
+            "complex_table_semantics_review",
+            "quality_review"
+          ],
+          "format": "html",
+          "pages": null,
+          "source_url": "https://lex.uz/uz/docs/-5210555",
+          "pending_candidate": false
+        }
+      },
+      "identifiers": [
+        "-5210555",
+        "5210585",
+        "5210555"
+      ]
+    }
+  }
+}

@@ -1,0 +1,558 @@
+[
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "31.12.2020"
+    },
+    "total": 1429,
+    "unique_ids": 1429,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "01.07.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b"
+      ]
+    },
+    "total": 573,
+    "unique_ids": 573,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "01.04.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361"
+      ]
+    },
+    "total": 309,
+    "unique_ids": 309,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "15.02.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "3166d327847d578a5cf5eeee21bcc955c7ae1fc3d9592d1669a430cf5b7875a7"
+      ]
+    },
+    "total": 60,
+    "unique_ids": 60,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 3
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "16.02.2020",
+      "to": "01.04.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "3166d327847d578a5cf5eeee21bcc955c7ae1fc3d9592d1669a430cf5b7875a7"
+      ]
+    },
+    "total": 249,
+    "unique_ids": 249,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "16.02.2020",
+      "to": "09.03.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "3166d327847d578a5cf5eeee21bcc955c7ae1fc3d9592d1669a430cf5b7875a7",
+        "033baca6bc82505a74a6de19d33c555b6e7558f958d9f5c50974245fae769245"
+      ]
+    },
+    "total": 135,
+    "unique_ids": 135,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 7
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "10.03.2020",
+      "to": "01.04.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "3166d327847d578a5cf5eeee21bcc955c7ae1fc3d9592d1669a430cf5b7875a7",
+        "033baca6bc82505a74a6de19d33c555b6e7558f958d9f5c50974245fae769245"
+      ]
+    },
+    "total": 114,
+    "unique_ids": 114,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 6
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.04.2020",
+      "to": "01.07.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361"
+      ]
+    },
+    "total": 264,
+    "unique_ids": 264,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.04.2020",
+      "to": "17.05.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "ad2b6b9c6aaeed7cd12956277b9400eaf98514b460535796106621b8fdc48464"
+      ]
+    },
+    "total": 96,
+    "unique_ids": 96,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 5
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "18.05.2020",
+      "to": "01.07.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "ad2b6b9c6aaeed7cd12956277b9400eaf98514b460535796106621b8fdc48464"
+      ]
+    },
+    "total": 168,
+    "unique_ids": 168,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "18.05.2020",
+      "to": "09.06.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "ad2b6b9c6aaeed7cd12956277b9400eaf98514b460535796106621b8fdc48464",
+        "18ea49381c32f7a588a15df13701779d6aa8c71c7dfdb7c789f7ab2655a6078b"
+      ]
+    },
+    "total": 69,
+    "unique_ids": 69,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 4
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "10.06.2020",
+      "to": "01.07.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+        "ad2b6b9c6aaeed7cd12956277b9400eaf98514b460535796106621b8fdc48464",
+        "18ea49381c32f7a588a15df13701779d6aa8c71c7dfdb7c789f7ab2655a6078b"
+      ]
+    },
+    "total": 99,
+    "unique_ids": 99,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 5
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.07.2020",
+      "to": "31.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b"
+      ]
+    },
+    "total": 856,
+    "unique_ids": 856,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.07.2020",
+      "to": "01.10.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134"
+      ]
+    },
+    "total": 283,
+    "unique_ids": 283,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.07.2020",
+      "to": "16.08.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "e691443e32f16b188d1a980a9dae35d24f921a5a99d5731e4582ed81cb4cc7fb"
+      ]
+    },
+    "total": 115,
+    "unique_ids": 115,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 6
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "17.08.2020",
+      "to": "01.10.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "e691443e32f16b188d1a980a9dae35d24f921a5a99d5731e4582ed81cb4cc7fb"
+      ]
+    },
+    "total": 168,
+    "unique_ids": 168,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "17.08.2020",
+      "to": "08.09.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "e691443e32f16b188d1a980a9dae35d24f921a5a99d5731e4582ed81cb4cc7fb",
+        "e0f4ae20483086321337c9ac80036bc39c79bba3fe29d61a6d499773e24380a5"
+      ]
+    },
+    "total": 90,
+    "unique_ids": 90,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 5
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "09.09.2020",
+      "to": "01.10.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "e691443e32f16b188d1a980a9dae35d24f921a5a99d5731e4582ed81cb4cc7fb",
+        "e0f4ae20483086321337c9ac80036bc39c79bba3fe29d61a6d499773e24380a5"
+      ]
+    },
+    "total": 78,
+    "unique_ids": 78,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 4
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.10.2020",
+      "to": "31.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134"
+      ]
+    },
+    "total": 573,
+    "unique_ids": 573,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.10.2020",
+      "to": "16.11.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782"
+      ]
+    },
+    "total": 189,
+    "unique_ids": 189,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "02.10.2020",
+      "to": "24.10.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "9b9143360ec55a72d875c0b6b2fb738d592d8999db69465939bf7ab52e9b30a3"
+      ]
+    },
+    "total": 75,
+    "unique_ids": 75,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 4
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "25.10.2020",
+      "to": "16.11.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "9b9143360ec55a72d875c0b6b2fb738d592d8999db69465939bf7ab52e9b30a3"
+      ]
+    },
+    "total": 114,
+    "unique_ids": 114,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 6
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "17.11.2020",
+      "to": "31.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782"
+      ]
+    },
+    "total": 384,
+    "unique_ids": 384,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "17.11.2020",
+      "to": "09.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "53b0b67d4e744d2bc8ecdd92e562fbf12857561ede460b109b2715e00f265275"
+      ]
+    },
+    "total": 195,
+    "unique_ids": 195,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "17.11.2020",
+      "to": "28.11.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "53b0b67d4e744d2bc8ecdd92e562fbf12857561ede460b109b2715e00f265275",
+        "0963b4839c6e129cd0698e4c455ea1c84bb9280d788e8c3964b365eaf3e02b57"
+      ]
+    },
+    "total": 93,
+    "unique_ids": 93,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 5
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "29.11.2020",
+      "to": "09.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "53b0b67d4e744d2bc8ecdd92e562fbf12857561ede460b109b2715e00f265275",
+        "0963b4839c6e129cd0698e4c455ea1c84bb9280d788e8c3964b365eaf3e02b57"
+      ]
+    },
+    "total": 102,
+    "unique_ids": 102,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 6
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "10.12.2020",
+      "to": "31.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "53b0b67d4e744d2bc8ecdd92e562fbf12857561ede460b109b2715e00f265275"
+      ]
+    },
+    "total": 189,
+    "unique_ids": 189,
+    "complete": true,
+    "reason": null,
+    "children": 2,
+    "pages_observed": 1
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "10.12.2020",
+      "to": "20.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "53b0b67d4e744d2bc8ecdd92e562fbf12857561ede460b109b2715e00f265275",
+        "1902b123c9fcfd65459fb78cd6b673a68ac4ebd705cbf46d1523bc5d85c3bcb1"
+      ]
+    },
+    "total": 141,
+    "unique_ids": 141,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 8
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "21.12.2020",
+      "to": "31.12.2020",
+      "ancestors": [
+        "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+        "95d39b8ae4b00f70a66d5f9edbdc0594633b89c52c69a2fae869cebeebc45134",
+        "d63760d9124e02bda62e66189484e6c928e2f2772de557cdc283288ff2056782",
+        "53b0b67d4e744d2bc8ecdd92e562fbf12857561ede460b109b2715e00f265275",
+        "1902b123c9fcfd65459fb78cd6b673a68ac4ebd705cbf46d1523bc5d85c3bcb1"
+      ]
+    },
+    "total": 48,
+    "unique_ids": 48,
+    "complete": true,
+    "reason": null,
+    "children": 0,
+    "pages_observed": 3
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "files_checked": 433,
+  "all_unchanged": true,
+  "changed": [],
+  "unchanged_modules": {
+    "app/Services/Documents/DocumentValidator.php": true,
+    "app/Jobs/ImportDocumentJob.php": true,
+    "app/Services/Scraping/RunItemTracker.php": true,
+    "app/Scraping/LexUz/LexHttpClient.php": true,
+    "app/Scraping/LexUz/LexUzParser.php": true,
+    "app/Scraping/LexUz/PdfTextExtractor.php": true,
+    "app/Scraping/LexUz/PdfQualityInspector.php": true,
+    "app/Scraping/LexUz/inspect_pdf.py": true,
+    "app/Enums/DocumentStatus.php": true
+  }
+}

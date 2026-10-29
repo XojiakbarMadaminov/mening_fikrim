@@ -1,0 +1,12 @@
+{
+    "new": 42,
+    "documents": 229,
+    "contents": 541,
+    "availability": {
+        "available": 118,
+        "not_available": 0,
+        "unknown": 70,
+        "available_but_failed": 0,
+        "unassessed_documents": 182
+    }
+}

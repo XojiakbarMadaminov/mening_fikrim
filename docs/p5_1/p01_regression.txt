@@ -1,0 +1,42 @@
+test_Latin_filter_misses_real_court_subtypes (__main__.DiscoveryTests.test_Latin_filter_misses_real_court_subtypes) ... ok
+test_all_language_last_page_beyond_1000_is_reachable (__main__.DiscoveryTests.test_all_language_last_page_beyond_1000_is_reachable) ... ok
+test_expired_or_cycling_page_cannot_advance_checkpoint (__main__.DiscoveryTests.test_expired_or_cycling_page_cannot_advance_checkpoint) ... ok
+test_historical_split_reconciles (__main__.DiscoveryTests.test_historical_split_reconciles) ... ok
+test_large_last_page_is_reachable_not_full_coverage (__main__.DiscoveryTests.test_large_last_page_is_reachable_not_full_coverage) ... ok
+test_real_restart_reconciles_and_deduplicates (__main__.DiscoveryTests.test_real_restart_reconciles_and_deduplicates) ... ok
+test_strict_completion_never_hides_incomplete_scope (__main__.DiscoveryTests.test_strict_completion_never_hides_incomplete_scope) ... ok
+test_contradicting_requisites_never_silently_merge (__main__.IdentityTests.test_contradicting_requisites_never_silently_merge) ... ok
+test_equal_requisites_without_links_do_not_merge (__main__.IdentityTests.test_equal_requisites_without_links_do_not_merge) ... ok
+test_four_live_components_fifteen_ids (__main__.IdentityTests.test_four_live_components_fifteen_ids) ... ok
+test_missing_optional_publication_is_not_conflict (__main__.IdentityTests.test_missing_optional_publication_is_not_conflict) ... ok
+test_one_way_relation_requires_review (__main__.IdentityTests.test_one_way_relation_requires_review) ... ok
+test_all_101_PDF_pages_accounted_for (__main__.QualityTests.test_all_101_PDF_pages_accounted_for) ... ok
+test_complex_cells_and_spans_preserved_but_not_autoaccepted (__main__.QualityTests.test_complex_cells_and_spans_preserved_but_not_autoaccepted) ... ok
+test_gold_excerpts_do_not_certify_entire_OCR (__main__.QualityTests.test_gold_excerpts_do_not_certify_entire_OCR) ... ok
+test_images_never_silently_vanish_from_admission (__main__.QualityTests.test_images_never_silently_vanish_from_admission) ... ok
+test_partial_layer_above_old_character_threshold_still_triggers (__main__.QualityTests.test_partial_layer_above_old_character_threshold_still_triggers) ... ok
+test_pdf_table_heuristic_is_not_certification (__main__.QualityTests.test_pdf_table_heuristic_is_not_certification) ... ok
+test_real_superscripts_keep_numeric_notation (__main__.QualityTests.test_real_superscripts_keep_numeric_notation) ... ok
+test_scientific_superscripts_are_explicit_and_reviewed (__main__.QualityTests.test_scientific_superscripts_are_explicit_and_reviewed) ... ok
+test_six_previous_numbering_reviews_resolved (__main__.QualityTests.test_six_previous_numbering_reviews_resolved) ... ok
+test_OCR_cannot_certify_status (__main__.StatusTests.test_OCR_cannot_certify_status) ... ok
+test_R_and_N_are_inactive (__main__.StatusTests.test_R_and_N_are_inactive) ... ok
+test_actual_unrecognized_label_fails_closed (__main__.StatusTests.test_actual_unrecognized_label_fails_closed) ... ok
+test_conflict_detected_from_text_without_id_special_case (__main__.StatusTests.test_conflict_detected_from_text_without_id_special_case) ... ok
+test_future_Y_is_pending (__main__.StatusTests.test_future_Y_is_pending) ... ok
+test_future_partial_clause_does_not_make_whole_act_pending (__main__.StatusTests.test_future_partial_clause_does_not_make_whole_act_pending) ... ok
+test_localized_Amalda_needs_live_listing_corroboration (__main__.StatusTests.test_localized_Amalda_needs_live_listing_corroboration) ... ok
+test_missing_or_multiple_effective_dates_fail_closed (__main__.StatusTests.test_missing_or_multiple_effective_dates_fail_closed) ... ok
+test_actual_conflict_and_quality_review_preserve_every_field (__main__.StoreTests.test_actual_conflict_and_quality_review_preserve_every_field) ... ok
+test_all_24_arrival_orders_one_doc_three_actual_contents (__main__.StoreTests.test_all_24_arrival_orders_one_doc_three_actual_contents) ... ok
+test_mid_transaction_shrinkage_rolls_back_all_languages (__main__.StoreTests.test_mid_transaction_shrinkage_rolls_back_all_languages) ... ok
+test_missing_required_language_preserves_every_field (__main__.StoreTests.test_missing_required_language_preserves_every_field) ... ok
+test_persisted_anchor_never_renumbered (__main__.StoreTests.test_persisted_anchor_never_renumbered) ... ok
+test_source_namespace_isolation (__main__.StoreTests.test_source_namespace_isolation) ... ok
+test_unchanged_second_import (__main__.StoreTests.test_unchanged_second_import) ... ok
+test_unproven_entry_is_rejected (__main__.StoreTests.test_unproven_entry_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.711s
+
+OK

@@ -1,0 +1,147 @@
+{
+    "query": {
+        "section": "nat",
+        "status": "Y",
+        "from": "01.01.2010",
+        "to": "31.01.2010"
+    },
+    "result": {
+        "complete": false,
+        "total": 72,
+        "unique_ids": 20,
+        "pages": 1,
+        "restarts": 0,
+        "reason": "bounded_budget"
+    },
+    "pages": [
+        {
+            "page": 1,
+            "total": 72,
+            "rows": [
+                {
+                    "id": "1599418",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1599418",
+                    "title": "О внесении изменений в Положение о порядке повышения квалификации, переподготовки специалистов рынка ценных бумаг",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1599416",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1599416",
+                    "title": "Қимматли қоғозлар бозори мутахассисларининг малакасини ошириш, уларни қайта тайёрлаш тартиби тўғрисидаги низомга ўзгартиришлар киритиш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1599416",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1599416",
+                    "title": "Qimmatli qogʻozlar bozori mutaxassislarining malakasini oshirish, ularni qayta tayyorlash tartibi toʻgʻrisidagi nizomga oʻzgartirishlar kiritish haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597950",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597950",
+                    "title": "Қимматли қоғозлар эмиссияси ва эмиссиявий қимматли қоғозлар чиқарилишларини давлат рўйхатидан ўтказиш қоидаларига ўзгартиришлар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1597950",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1597950",
+                    "title": "Qimmatli qogʻozlar emissiyasi va emissiyaviy qimmatli qogʻozlar chiqarilishlarini davlat roʻyxatidan oʻtkazish qoidalariga oʻzgartirishlar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597946",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597946",
+                    "title": "О внесении изменений в Правила эмиссии ценных бумаг и государственной регистрации выпусков эмиссионных ценных бумаг",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597458",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597458",
+                    "title": "Об утверждении Правил охраны труда для работников учебно-производственных предприятий общества глухих",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597456",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597456",
+                    "title": "Карлар жамиятининг ўқув-ишлаб чиқариш ташкилотлари ходимлари учун меҳнатни муҳофаза қилиш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1597456",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1597456",
+                    "title": "Karlar jamiyatining oʻquv-ishlab chiqarish tashkilotlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1587862",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1587862",
+                    "title": "Почта тўловининг давлат белгилари давлат коллекцияси тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1587862",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1587862",
+                    "title": "Pochta toʻlovining davlat belgilari davlat kolleksiyasi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1587860",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1587860",
+                    "title": "Об утверждении положения о государственной коллекции государственных знаков почтовой оплаты",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583936",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583936",
+                    "title": "О внесении дополнений в Перечень сырья, предназначенного для производства лекарственных средств и изделий медицинского назначения, освобождаемого при импорте от уплаты налога на добавленную стоимость",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1583934",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1583934",
+                    "title": "Dori vositalari va tibbiyot buyumlarini ishlab chiqarish uchun moʻljallangan import qilishda qoʻshilgan qiymat soligʻidan ozod qilinadigan xomashyolar roʻyxatiga qoʻshimchalar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583934",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583934",
+                    "title": "Дори воситалари ва тиббиёт буюмларини ишлаб чиқариш учун мўлжалланган импорт қилишда қўшилган қиймат солиғидан озод қилинадиган хом ашёлар рўйхатига қўшимчалар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7551013",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7551013",
+                    "title": "On the approval of international agreements",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583811",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583811",
+                    "title": "Об утверждении международных договоров",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583808",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583808",
+                    "title": "Халқаро шартномаларни тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1583808",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1583808",
+                    "title": "Xalqaro shartnomalarni tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1581725",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1581725",
+                    "title": "Рухсатномалар, тарқатиш қайдномалари бўйича автотранспорт воситаларига ёнилғи қуйиш учун нефть маҳсулотлари, суюлтирилган ва сиқилган табиий газни бериш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "2063f168cbc166bfa524d5fa8bba0db959d3dd972b52887d728cc2efb19a7ce1",
+            "prefix_fingerprint": "66a924aa8d69f7b192fde7b2887e5e033c3e4d5181d8e610e1af94764f7702c7",
+            "last_page": false
+        }
+    ]
+}

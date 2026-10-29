@@ -1,0 +1,46 @@
+[
+  {
+    "file": "app/Console/Commands/RecheckDocumentQuality.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Models/Document.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Models/DocumentContent.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Scraping/LexUz/LexUzScraper.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Services/Documents/ContentQuality.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Services/Documents/DocumentImporter.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Services/Scraping/ScrapeRunManager.php",
+    "change": "modified"
+  },
+  {
+    "file": "tests/Feature/CorpusCollectionTest.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Feature/DocumentImporterTest.php",
+    "change": "modified"
+  },
+  {
+    "file": "tests/Feature/DurableTrackingTest.php",
+    "change": "modified"
+  },
+  {
+    "file": "database/migrations/2026_10_28_000007_add_content_quality_tracking.php",
+    "change": "added"
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "campaign_id": "p5-1-20261029",
+  "p5_new_canonical": 158,
+  "p5_1_new_canonical": 42,
+  "combined_new_canonical": 200,
+  "target_reached": true,
+  "stop": {
+    "reason": "approved_target_reached",
+    "at": "2026-10-29T05:37:33+05:00"
+  },
+  "baseline_counts": {
+    "document_sources": 2,
+    "documents": 187,
+    "document_identifiers": 509,
+    "document_contents": 433,
+    "scrape_runs": 29,
+    "scrape_run_items": 532,
+    "failed_jobs": 24,
+    "jobs": 0,
+    "migrations": 9
+  },
+  "final_counts": {
+    "documents": 229,
+    "document_identifiers": 625,
+    "document_contents": 541,
+    "scrape_runs": 45,
+    "scrape_run_items": 644,
+    "failed_jobs": 24,
+    "jobs": 0,
+    "migrations": 9
+  },
+  "quality_distribution": {
+    "verified": 449,
+    "needs_review": 92
+  },
+  "new_content_representations": 108,
+  "new_quality_distribution": {
+    "verified": 105,
+    "needs_review": 3
+  },
+  "new_formats": {
+    "html": 108
+  },
+  "new_languages": {
+    "uz-Cyrl": 39,
+    "uz-Latn": 39,
+    "ru": 30
+  },
+  "new_review_issue_counts": {
+    "complex_table_semantics_review": 3,
+    "quality_review": 3
+  },
+  "selected_distinct_entry_ids": 114,
+  "selected_cap": 180,
+  "http": {
+    "count": 414,
+    "reserved_count": 414,
+    "budget": 1800,
+    "statuses": {
+      "200": 414
+    },
+    "minimum_start_interval_seconds": 2.0001405100047123,
+    "retry_requests": 0,
+    "by_context": {
+      "run-30": 24,
+      "p51-identity-1587862": 6,
+      "p51-identity--1587862": 6,
+      "p51-identity-1587860": 6,
+      "p51-identity-8354875": 7,
+      "p51-identity--8345596": 7,
+      "p51-discovery-oliy-2020": 91,
+      "p51-discovery-replay": 3,
+      "run-31": 42,
+      "run-32": 18,
+      "run-33": 30,
+      "run-34": 30,
+      "run-35": 12,
+      "run-36": 6,
+      "run-37": 6,
+      "run-38": 6,
+      "run-39": 42,
+      "run-40": 30,
+      "run-41": 14,
+      "run-42": 10,
+      "run-43": 6,
+      "run-44": 6,
+      "run-45": 6
+    },
+    "response_seconds": 33.14632,
+    "first_at": "2026-10-29T05:22:53.536584+05:00",
+    "last_at": "2026-10-29T05:37:29.796384+05:00"
+  },
+  "technical_failures": 0,
+  "new_failed_jobs": 0,
+  "failed_extraction_representations": 0,
+  "skipped_alias_items": 59,
+  "availability": {
+    "available": 118,
+    "not_available": 0,
+    "unknown": 70,
+    "available_but_failed": 0,
+    "unassessed_documents": 182
+  },
+  "complete_partitions": 29,
+  "incomplete_partitions": 0,
+  "complete_leaf_partitions": 15,
+  "discovery_root_total": 1429,
+  "discovered_unique_source_ids": 1429,
+  "integrity_errors": [],
+  "historical_files_changed": [],
+  "controller_elapsed_seconds": 882.156228272,
+  "recommendation": "CONDITIONAL GO",
+  "canonical_count_proof": {
+    "new_document_ids": [
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229
+    ],
+    "all_new_rows_have_campaign_created_items": true,
+    "already_existing_baseline_groups_touched": 5,
+    "queued_unique_source_ids": 109,
+    "queued_items": 112
+  },
+  "representation_attempts": {
+    "usable": 291,
+    "stored": 291,
+    "verified": 276,
+    "protected_candidates": 0,
+    "persistence_rate_percent": 100.0,
+    "automated_verification_rate_percent": 94.84536082474227,
+    "scope": "Usable identity-admitted run representations, including controls/repeats. Diagnostic-only identity rejections excluded; no failed extraction was encountered."
+  },
+  "tests": {
+    "tests": 172,
+    "assertions": 719,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 50.171353,
+    "pint": "PASS",
+    "p0": 16,
+    "p01": 37
+  },
+  "discovery_attribution": {
+    "mapped_source_ids": 269,
+    "mapped_canonical_groups": 93,
+    "scope": "Only groups proven by existing identifiers; remaining unimported discovery IDs are not inferred canonical documents."
+  }
+}

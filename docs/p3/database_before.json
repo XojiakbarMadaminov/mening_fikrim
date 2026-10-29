@@ -1,0 +1,682 @@
+{
+    "databases": [
+        "mening_fikrim",
+        "mening_fikrim_active",
+        "mening_fikrim_active_test",
+        "mening_fikrim_local",
+        "mening_fikrim_p1",
+        "mening_fikrim_p1_test",
+        "mening_fikrim_test"
+    ],
+    "existing": {
+        "mening_fikrim": {
+            "tables": [
+                "cache",
+                "cache_locks",
+                "embedding_profiles",
+                "failed_jobs",
+                "job_batches",
+                "jobs",
+                "legal_attachments",
+                "legal_discovery_partitions",
+                "legal_document_relations",
+                "legal_document_versions",
+                "legal_documents",
+                "legal_fetch_events",
+                "legal_partition_documents",
+                "legal_provisions",
+                "legal_source_snapshots",
+                "legal_sources",
+                "legal_sync_items",
+                "legal_sync_runs",
+                "migrations",
+                "password_reset_tokens",
+                "personal_access_tokens",
+                "reference_corpus_snapshots",
+                "reference_embeddings",
+                "reference_suggestions",
+                "sessions",
+                "suggestion_check_steps",
+                "suggestion_checks",
+                "users"
+            ],
+            "rows": {
+                "cache": 0,
+                "cache_locks": 0,
+                "embedding_profiles": 0,
+                "failed_jobs": 0,
+                "job_batches": 0,
+                "jobs": 0,
+                "legal_attachments": 0,
+                "legal_discovery_partitions": 0,
+                "legal_document_relations": 3,
+                "legal_document_versions": 1,
+                "legal_documents": 1,
+                "legal_fetch_events": 1,
+                "legal_partition_documents": 0,
+                "legal_provisions": 28,
+                "legal_source_snapshots": 2,
+                "legal_sources": 1,
+                "legal_sync_items": 1,
+                "legal_sync_runs": 1,
+                "migrations": 13,
+                "password_reset_tokens": 0,
+                "personal_access_tokens": 0,
+                "reference_corpus_snapshots": 0,
+                "reference_embeddings": 0,
+                "reference_suggestions": 0,
+                "sessions": 0,
+                "suggestion_check_steps": 0,
+                "suggestion_checks": 0,
+                "users": 0
+            }
+        },
+        "mening_fikrim_active": {
+            "tables": [
+                "cache",
+                "cache_locks",
+                "document_contents",
+                "document_identifiers",
+                "document_sources",
+                "documents",
+                "failed_jobs",
+                "job_batches",
+                "jobs",
+                "migrations",
+                "scrape_runs"
+            ],
+            "rows": {
+                "cache": 8,
+                "cache_locks": 0,
+                "document_contents": 37,
+                "document_identifiers": 45,
+                "document_sources": 2,
+                "documents": 15,
+                "failed_jobs": 24,
+                "job_batches": 0,
+                "jobs": 0,
+                "migrations": 7,
+                "scrape_runs": 3
+            }
+        },
+        "mening_fikrim_active_test": {
+            "tables": [
+                "cache",
+                "cache_locks",
+                "document_contents",
+                "document_identifiers",
+                "document_sources",
+                "documents",
+                "failed_jobs",
+                "job_batches",
+                "jobs",
+                "migrations",
+                "scrape_runs"
+            ],
+            "rows": {
+                "cache": 0,
+                "cache_locks": 0,
+                "document_contents": 3,
+                "document_identifiers": 4,
+                "document_sources": 2,
+                "documents": 2,
+                "failed_jobs": 0,
+                "job_batches": 0,
+                "jobs": 0,
+                "migrations": 7,
+                "scrape_runs": 0
+            }
+        },
+        "mening_fikrim_local": {
+            "tables": [
+                "cache",
+                "cache_locks",
+                "embedding_profiles",
+                "failed_jobs",
+                "job_batches",
+                "jobs",
+                "migrations",
+                "password_reset_tokens",
+                "personal_access_tokens",
+                "reference_corpus_snapshots",
+                "reference_embeddings",
+                "reference_suggestions",
+                "sessions",
+                "suggestion_check_steps",
+                "suggestion_checks",
+                "users"
+            ],
+            "rows": {
+                "cache": 0,
+                "cache_locks": 0,
+                "embedding_profiles": 1,
+                "failed_jobs": 0,
+                "job_batches": 0,
+                "jobs": 0,
+                "migrations": 5,
+                "password_reset_tokens": 0,
+                "personal_access_tokens": 1,
+                "reference_corpus_snapshots": 1,
+                "reference_embeddings": 2,
+                "reference_suggestions": 2,
+                "sessions": 0,
+                "suggestion_check_steps": 16,
+                "suggestion_checks": 4,
+                "users": 1
+            }
+        },
+        "mening_fikrim_p1": {
+            "tables": [
+                "cache",
+                "cache_locks",
+                "document_contents",
+                "document_identifiers",
+                "document_sources",
+                "documents",
+                "failed_jobs",
+                "job_batches",
+                "jobs",
+                "migrations",
+                "scrape_runs"
+            ],
+            "rows": {
+                "cache": 0,
+                "cache_locks": 0,
+                "document_contents": 0,
+                "document_identifiers": 0,
+                "document_sources": 2,
+                "documents": 0,
+                "failed_jobs": 0,
+                "job_batches": 0,
+                "jobs": 0,
+                "migrations": 7,
+                "scrape_runs": 0
+            }
+        },
+        "mening_fikrim_p1_test": {
+            "tables": [
+                "migrations"
+            ],
+            "rows": {
+                "migrations": 0
+            }
+        },
+        "mening_fikrim_test": {
+            "tables": [
+                "cache",
+                "cache_locks",
+                "embedding_profiles",
+                "failed_jobs",
+                "job_batches",
+                "jobs",
+                "legal_attachments",
+                "legal_discovery_partitions",
+                "legal_document_relations",
+                "legal_document_versions",
+                "legal_documents",
+                "legal_fetch_events",
+                "legal_partition_documents",
+                "legal_provisions",
+                "legal_source_snapshots",
+                "legal_sources",
+                "legal_sync_items",
+                "legal_sync_runs",
+                "migrations",
+                "password_reset_tokens",
+                "personal_access_tokens",
+                "reference_corpus_snapshots",
+                "reference_embeddings",
+                "reference_suggestions",
+                "sessions",
+                "suggestion_check_steps",
+                "suggestion_checks",
+                "users"
+            ],
+            "rows": {
+                "cache": 0,
+                "cache_locks": 0,
+                "embedding_profiles": 0,
+                "failed_jobs": 0,
+                "job_batches": 0,
+                "jobs": 0,
+                "legal_attachments": 0,
+                "legal_discovery_partitions": 0,
+                "legal_document_relations": 0,
+                "legal_document_versions": 0,
+                "legal_documents": 0,
+                "legal_fetch_events": 0,
+                "legal_partition_documents": 0,
+                "legal_provisions": 0,
+                "legal_source_snapshots": 0,
+                "legal_sources": 1,
+                "legal_sync_items": 0,
+                "legal_sync_runs": 0,
+                "migrations": 13,
+                "password_reset_tokens": 0,
+                "personal_access_tokens": 0,
+                "reference_corpus_snapshots": 0,
+                "reference_embeddings": 0,
+                "reference_suggestions": 0,
+                "sessions": 0,
+                "suggestion_check_steps": 0,
+                "suggestion_checks": 0,
+                "users": 0
+            }
+        }
+    },
+    "unrelated_table_counts_unchanged": true,
+    "unrelated_comparison": {
+        "mening_fikrim": true,
+        "mening_fikrim_local": true,
+        "mening_fikrim_p1": true,
+        "mening_fikrim_p1_test": true,
+        "mening_fikrim_test": true
+    },
+    "development_statuses": [
+        {
+            "status": "active",
+            "count": 15
+        }
+    ],
+    "development_languages": [
+        {
+            "language": "en",
+            "count": 3
+        },
+        {
+            "language": "ru",
+            "count": 4
+        },
+        {
+            "language": "uz-Cyrl",
+            "count": 15
+        },
+        {
+            "language": "uz-Latn",
+            "count": 15
+        }
+    ],
+    "markdown": [
+        {
+            "id": 1,
+            "document_id": 1,
+            "language": "uz-Latn",
+            "characters": 721465,
+            "heading_count": 688,
+            "empty_heading_count": 1,
+            "hash_matches": true,
+            "prefix": "# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n## UMUMIY QISM\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## \n\n## 1-bob. Asosiy qoida"
+        },
+        {
+            "id": 2,
+            "document_id": 1,
+            "language": "ru",
+            "characters": 664617,
+            "heading_count": 688,
+            "empty_heading_count": 1,
+            "hash_matches": true,
+            "prefix": "# Трудовой кодекс Республики Узбекистан\n\n## ОБЩАЯ ЧАСТЬ\n\n## РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ\n\n## \n\n## Глава 1. Основные положен"
+        },
+        {
+            "id": 3,
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "characters": 680275,
+            "heading_count": 688,
+            "empty_heading_count": 1,
+            "hash_matches": true,
+            "prefix": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n## УМУМИЙ ҚИСМ\n\n## I БЎЛИМ. УМУМИЙ ҚОИДАЛАР\n\n## \n\n## 1-боб. Асосий қоидала"
+        },
+        {
+            "id": 4,
+            "document_id": 2,
+            "language": "uz-Latn",
+            "characters": 5182,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "XALQ DEPUTATLARI DENOV TUMANI KENGASHINING\n\nqarori\n\n# Qattiq maishiy chiqindilarini olib chiqish va hududlarni obodonlas"
+        },
+        {
+            "id": 5,
+            "document_id": 2,
+            "language": "uz-Cyrl",
+            "characters": 4910,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "ХАЛҚ ДЕПУТАТЛАРИ ДЕНОВ ТУМАНИ КЕНГАШИНИНГ\n\nқарори\n\n# Қаттиқ маиший чиқиндиларини олиб чиқиш ва ҳудудларни ободонлаштириш"
+        },
+        {
+            "id": 6,
+            "document_id": 3,
+            "language": "uz-Latn",
+            "characters": 3295,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "XALQ DEPUTATLARI XIVA SHAHAR KENGASHINING\n\nQARORI\n\n# Shahardagi ayrim koʻchalarni birlashtirgan holda qayta nomlash toʻg"
+        },
+        {
+            "id": 7,
+            "document_id": 3,
+            "language": "uz-Cyrl",
+            "characters": 3126,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "ХАЛҚ ДЕПУТАТЛАРИ ХИВА ШАҲАР КЕНГАШИНИНГ\n\nҚАРОРИ\n\n# Шаҳардаги айрим кўчаларни бирлаштирган ҳолда қайта номлаш тўғрисида\n\n"
+        },
+        {
+            "id": 8,
+            "document_id": 4,
+            "language": "uz-Latn",
+            "characters": 2115,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "XALQ DEPUTATLARI TUPROQQAL'A TUMANI KENGASHINING\n\nqarori\n\n# Oʻzbekiston Respublikasining Budjet kodeksining 120 va 148-m"
+        },
+        {
+            "id": 9,
+            "document_id": 4,
+            "language": "uz-Cyrl",
+            "characters": 2036,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "ХАЛҚ ДЕПУТАТЛАРИ ТУПРОҚҚАЛЪА ТУМАНИ КЕНГАШИНИНГ\n\nқарори\n\n# Ўзбекистон Республикасининг Бюджет кодексининг 120 ва 148-мод"
+        },
+        {
+            "id": 10,
+            "document_id": 5,
+            "language": "uz-Latn",
+            "characters": 10660,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi bilan Serbiya Respublikasi oʻrtasida\n\nQoʻshma deklaratsiya\n\n# Strategik sheriklik munosabatlari"
+        },
+        {
+            "id": 11,
+            "document_id": 5,
+            "language": "en",
+            "characters": 9643,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Joint declaration\n\nbetween the Republic of Uzbekistan and the Republic of Serbia\n\n# on the Establishment of Strategic Pa"
+        },
+        {
+            "id": 12,
+            "document_id": 5,
+            "language": "uz-Cyrl",
+            "characters": 10143,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси билан Сербия Республикаси ўртасида\n\nҚўшма декларация\n\n# Стратегик шериклик муносабатларини ўрнат"
+        },
+        {
+            "id": 13,
+            "document_id": 6,
+            "language": "uz-Latn",
+            "characters": 7762,
+            "heading_count": 10,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Hukumati bilan Serbiya Respublikasi Hukumati oʻrtasida\n\nAnglashuv memorandumi\n\n# Oʻrta koridorn"
+        },
+        {
+            "id": 14,
+            "document_id": 6,
+            "language": "en",
+            "characters": 6975,
+            "heading_count": 10,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Memorandum of understanding\n\nbetween the Government of the Republic of Uzbekistan and the Government of the Republic of "
+        },
+        {
+            "id": 15,
+            "document_id": 6,
+            "language": "uz-Cyrl",
+            "characters": 7352,
+            "heading_count": 10,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Ҳукумати билан Сербия Республикаси Ҳукумати ўртасида\n\nАнглашув меморандуми\n\n# Ўрта коридорни қўл"
+        },
+        {
+            "id": 16,
+            "document_id": 7,
+            "language": "uz-Latn",
+            "characters": 4326,
+            "heading_count": 9,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Tashqi ishlar vazirligi bilan Serbiya Respublikasi Tashqi ishlar vazirligi oʻrtasida\n\nAnglashuv"
+        },
+        {
+            "id": 17,
+            "document_id": 7,
+            "language": "en",
+            "characters": 3827,
+            "heading_count": 9,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Memorandum of understanding\n\nbetween The Ministry of Foreign Affairs of the Republic of Uzbekistan and The Ministry of F"
+        },
+        {
+            "id": 18,
+            "document_id": 7,
+            "language": "uz-Cyrl",
+            "characters": 4082,
+            "heading_count": 9,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Ташқи ишлар вазирлиги билан Сербия Республикаси Ташқи ишлар вазирлиги ўртасида\n\nАнглашув меморан"
+        },
+        {
+            "id": 19,
+            "document_id": 8,
+            "language": "uz-Latn",
+            "characters": 16005,
+            "heading_count": 6,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "OʻZBEKISTON RESPUBLIKASI QURILISH VA UY-JOY KOMMUNAL XOʻJALIGI VAZIRINING\n\nBUYRUGʻI\n\n# ShNQ 3.01.01-22 “Qurilishda ishla"
+        },
+        {
+            "id": 20,
+            "document_id": 8,
+            "language": "uz-Cyrl",
+            "characters": 15257,
+            "heading_count": 6,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "ЎЗБЕКИСТОН РЕСПУБЛИКАСИ ҚУРИЛИШ ВА УЙ-ЖОЙ КОММУНАЛ ХЎЖАЛИГИ ВАЗИРИНИНГ\n\nБУЙРУҒИ\n\n# ШНҚ 3.01.01-22 «Қурилишда ишлаб чиқар"
+        },
+        {
+            "id": 21,
+            "document_id": 9,
+            "language": "uz-Latn",
+            "characters": 7041,
+            "heading_count": 2,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi qurilish va uy-joy kommunal xoʻjaligi vazirining\n\nbuyrugʻi\n\n# ShNQ 2.06.16-22 “Sunʼiy suv havza"
+        },
+        {
+            "id": 22,
+            "document_id": 9,
+            "language": "uz-Cyrl",
+            "characters": 6678,
+            "heading_count": 2,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси қурилиш ва уй-жой коммунал хўжалиги вазирининг\n\nбуйруғи\n\n# ШНҚ 2.06.16-22 «Сунъий сув ҳавзалари "
+        },
+        {
+            "id": 23,
+            "document_id": 10,
+            "language": "uz-Latn",
+            "characters": 79297,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Oliy sudi Plenumining\n\nqarori\n\n# Iqtisodiy sudlar tomonidan “Toʻlovga qobiliyatsizlik toʻgʻrisi"
+        },
+        {
+            "id": 24,
+            "document_id": 10,
+            "language": "ru",
+            "characters": 71650,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Постановление\n\nПленума Верховного суда Республики Узбекистан\n\n# О некоторых вопросах применения экономическими судами но"
+        },
+        {
+            "id": 25,
+            "document_id": 10,
+            "language": "uz-Cyrl",
+            "characters": 75009,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Олий суди Пленумининг\n\nқарори\n\n# Иқтисодий судлар томонидан «Тўловга қобилиятсизлик тўғрисида»ги"
+        },
+        {
+            "id": 26,
+            "document_id": 11,
+            "language": "uz-Latn",
+            "characters": 22586,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Oliy sudi Plenumining\n\nqarori\n\n# Oʻzbekiston Respublikasi Oliy sudi Plenumining iqtisodiy va ma"
+        },
+        {
+            "id": 27,
+            "document_id": 11,
+            "language": "ru",
+            "characters": 21954,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Постановление\n\nПленума Верховного суда Республики Узбекистан\n\n# О внесении изменений и дополнений в постановления Пленум"
+        },
+        {
+            "id": 28,
+            "document_id": 11,
+            "language": "uz-Cyrl",
+            "characters": 21448,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Олий суди Пленумининг\n\nқарори\n\n# Ўзбекистон Республикаси Олий суди Пленумининг иқтисодий ва маъм"
+        },
+        {
+            "id": 29,
+            "document_id": 12,
+            "language": "uz-Latn",
+            "characters": 17049,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Oliy sudi plenumining\n\nqarori\n\n# Yer toʻgʻrisidagi qonunchilikni buzish bilan bogʻliq jinoyat i"
+        },
+        {
+            "id": 30,
+            "document_id": 12,
+            "language": "ru",
+            "characters": 15619,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Постановление\n\nпленума Верховного суда Республики Узбекистан\n\n# О некоторых вопросах судебной практики по уголовным дела"
+        },
+        {
+            "id": 31,
+            "document_id": 12,
+            "language": "uz-Cyrl",
+            "characters": 16067,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Олий суди пленумининг\n\nқарори\n\n# Ер тўғрисидаги қонунчиликни бузиш билан боғлиқ жиноят ишлари бў"
+        },
+        {
+            "id": 32,
+            "document_id": 13,
+            "language": "uz-Latn",
+            "characters": 1115,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Oliy Majlisi Senatining\n\nqarori\n\n# “Maʼmuriy tartib-taomillar toʻgʻrisida”gi Oʻzbekiston Respub"
+        },
+        {
+            "id": 33,
+            "document_id": 13,
+            "language": "uz-Cyrl",
+            "characters": 1075,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Олий Мажлиси Сенатининг\n\nқарори\n\n# «Маъмурий тартиб-таомиллар тўғрисида»ги Ўзбекистон Республика"
+        },
+        {
+            "id": 34,
+            "document_id": 14,
+            "language": "uz-Latn",
+            "characters": 1734,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Oliy Majlisi Senatining\n\nqarori\n\n# “Oʻzbekiston Respublikasining ayrim qonun hujjatlariga qoʻsh"
+        },
+        {
+            "id": 35,
+            "document_id": 14,
+            "language": "uz-Cyrl",
+            "characters": 1659,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Олий Мажлиси Сенатининг\n\nқарори\n\n# «Ўзбекистон Республикасининг айрим қонун ҳужжатларига қўшимча"
+        },
+        {
+            "id": 36,
+            "document_id": 15,
+            "language": "uz-Latn",
+            "characters": 1706,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Oʻzbekiston Respublikasi Oliy Majlisi Senatining\n\nqarori\n\n# «O'zbekiston Respublikasining Konstitutsiyaviy sudi to'g'ris"
+        },
+        {
+            "id": 37,
+            "document_id": 15,
+            "language": "uz-Cyrl",
+            "characters": 1631,
+            "heading_count": 1,
+            "empty_heading_count": 0,
+            "hash_matches": true,
+            "prefix": "Ўзбекистон Республикаси Олий Мажлиси Сенатининг\n\nқарори\n\n# «Ўзбекистон Республикасининг Конституциявий суди тўғрисида»ги"
+        }
+    ],
+    "versions": {
+        "laravel": "13.39.0",
+        "php": "8.5.11",
+        "postgresql": "17.11 (Ubuntu 17.11-1.pgdg24.04+2)"
+    },
+    "configuration": {
+        "live_enabled": false,
+        "scheduler_enabled": false,
+        "job_timeout": 900,
+        "retry_after": 960
+    }
+}

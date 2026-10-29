@@ -1,0 +1,53 @@
+P3 FINAL RESULTS — 2026-10-28 (Asia/Tashkent)
+Reports: docs/P3_REPORT.md; docs/SCRAPING_BENCHMARK.md
+
+Tests: PASS 110 tests / 443 assertions, errors=0 failures=0 skipped=0
+Pint: PASS; Composer validate --strict: PASS; platform requirements: PASS
+PHP audit drivers / Python AST: PASS
+
+MIGRATIONS (development):
+Migration name .............................................. Batch / Status  
+  0001_01_01_000001_create_cache_table ............................... [1] Ran  
+  0001_01_01_000002_create_jobs_table ................................ [1] Ran  
+  2026_10_28_000001_create_document_sources_table .................... [1] Ran  
+  2026_10_28_000002_create_documents_table ........................... [1] Ran  
+  2026_10_28_000003_create_document_identifiers_table ................ [1] Ran  
+  2026_10_28_000004_create_document_contents_table ................... [1] Ran  
+  2026_10_28_000005_create_scrape_runs_table ......................... [1] Ran  
+  2026_10_28_000006_create_scrape_run_items_table .................... [2] Ran
+Testing: same 8 migrations Ran; fixed test DB only.
+
+Live: 289 requests, all HTTP 200, minimum interval=2.000021697s; 1 worker; budget=400
+Selected: 19 source IDs / 16 canonical groups; 10 HTML + 6 PDF, plus 2 alternate scan PDF (36 OCR pages).
+Final run 7: 3 unchanged, 13 quality review, 3 skipped_alias; 0 create/update/technical failure.
+Real pending: 8548643 -> canonical -8548637 -> document 16, effective 2027-01-01; 3 valid languages.
+All 40 saved content IDs/hashes unchanged on final repeat.
+
+13 MANDATORY RETESTS:
+https://lex.uz/uz/docs/8548754 | pending | review | unextracted_images
+https://lex.uz/uz/docs/8554309 | active | review | complex_table_semantics_review
+https://lex.uz/uz/docs/-7655343 | active | review | complex_table_semantics_review
+https://lex.uz/uz/docs/-8540314 | active | review | complex_table_semantics_review, unextracted_images, unsupported_superscript
+https://lex.uz/uz/docs/-8102878 | inactive | review | complex_table_semantics_review, unsupported_superscript
+https://lex.uz/uz/docs/8557098 | pending | review | pdf_image_semantics_unverified, pdf_language_coverage_unconfirmed, pdf_reading_order_unverified, pdf_structure_unverified
+https://lex.uz/uz/docs/8554315 | pending | review | pdf_image_semantics_unverified, pdf_language_coverage_unconfirmed, pdf_reading_order_unverified, pdf_structure_unverified
+https://lex.uz/uz/docs/8554432 | active | review | pdf_image_semantics_unverified, pdf_language_coverage_unconfirmed, pdf_reading_order_unverified, pdf_structure_unverified
+https://lex.uz/uz/docs/8554353 | active | review | pdf_image_semantics_unverified, pdf_language_coverage_unconfirmed, pdf_reading_order_unverified, pdf_structure_unverified
+https://lex.uz/uz/docs/8554326 | active | review | pdf_image_semantics_unverified, pdf_language_coverage_unconfirmed, pdf_reading_order_unverified, pdf_structure_unverified
+https://lex.uz/uz/docs/8554321 | active | review | pdf_image_semantics_unverified, pdf_language_coverage_unconfirmed, pdf_reading_order_unverified, pdf_structure_unverified
+https://lex.uz/uz/docs/-8553258 | active | review | complex_table_semantics_review
+https://lex.uz/uz/docs/-8553692 | pending | review | complex_table_semantics_review
+
+DATABASE / QUEUE:
+{"documents": 16, "document_identifiers": 48, "document_contents": 40, "scrape_runs": 7, "scrape_run_items": 112, "jobs": 0, "failed_jobs": 24}
+Ledger statuses: [{"status": "imported", "count": 18}, {"status": "review", "count": 63}, {"status": "skipped_alias", "count": 9}, {"status": "unchanged", "count": 22}]
+New P3 live failed_jobs=0; all 24 P2 failed_jobs preserved by row hash.
+Graceful restart/resume: 18 queue receipts and 19 items unchanged; no duplicate dispatch.
+Historical SHA-256: 289 files unchanged; core importer/validator/model files unchanged.
+
+TEMP / POLICY: private live + benchmark roots deleted; parser temp=0; no active queue worker.
+live=false; scheduler=false; workers=1; request_delay_ms=2000; hard limit=30; env modes=0600.
+
+READINESS: P4 CONDITIONAL GO | 1000 integration NO-GO | Full import NO-GO
+Open: 13 quality reviews; PDF/OCR document certification; global coverage/access/expiry/scale.
+P4 was NOT started. Await explicit user approval before any next stage.

@@ -1,0 +1,2 @@
+Queued bounded full run 3 (limit 1). Use one database worker on queue scraping.
+php artisan documents:sync lex --report=3

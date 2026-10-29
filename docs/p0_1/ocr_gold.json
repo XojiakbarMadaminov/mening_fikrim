@@ -1,0 +1,26 @@
+[
+  {
+    "id": "-8553692",
+    "url": "https://lex.uz/uz/docs/-8553692",
+    "page": 1,
+    "reference": "4. Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради.",
+    "ocr_excerpt": "4. Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради.",
+    "matched": true,
+    "normalized_character_errors": 0,
+    "normalized_reference_chars": 52,
+    "normalized_CER": 0.0,
+    "scope": "One manually transcribed clause; not a document-wide accuracy certificate"
+  },
+  {
+    "id": "-8553258",
+    "url": "https://lex.uz/uz/docs/-8553258",
+    "page": 17,
+    "reference": "39. Ушбу Низом талабларининг бузилишида айбдор бўлган шахслар қонунчилик ҳужжатларига мувофиқ жавоб беради.",
+    "ocr_excerpt": "39, Ушбу Низом талабларини бузилишида айбдор бўлган шахслар қонунчилик ҳужжатларига мувофиқ жавоб беради",
+    "matched": true,
+    "normalized_character_errors": 2,
+    "normalized_reference_chars": 105,
+    "normalized_CER": 0.019048,
+    "scope": "One manually transcribed clause; not a document-wide accuracy certificate"
+  }
+]

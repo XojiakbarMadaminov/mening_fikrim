@@ -1,0 +1,28 @@
+P0 TECHNICAL SPIKE — 2026-10-28, Asia/Tashkent
+Natija: NO-GO — P0 acceptance to'liq o'tmadi.
+
+Live HTTP: 171 urinish; 169x200, robots 1x404, 1 ataylab client ReadTimeout.
+Discovery: official oy 89/89 (5 sahifa); nat oy 80/80 (4 sahifa).
+Global barcha hujjatlar/tillar qamrovi: TASDIQLANMAGAN.
+Sample import: 30 seed; 30 extraction; 0 extraction exception.
+Format: 22 HTML, 8 PDF; 6 text-layer PDF, 2 tabiiy scan.
+PDF: 101 sahifa; OCR: 36 sahifa. To'liq matn variantlari: 62.
+Tillar: uz-Latn 28, uz-Cyrl 24, ru 6, en 4; metadata-only 15 skip.
+Strict quality: 11 PASS, 19 REVIEW (parse muvaffaqiyati sifat kafolati emas).
+Status: active 23, pending 3, inactive 3, unresolved 1.
+Testlar: 16/16 OK; 403/429/retry fault injection localhost'da.
+Import wall-clock: 468.951 s. Live probe: 759.914 s.
+O'lchangan P0 (HTTP boshidan yakuniy auditgacha): 1351.821 s.
+
+Asosiy muammolar:
+- unique status Y/R/N bir xil total va birinchi 20 IDni qaytaradi.
+- PDF interfeys tili va aliaslari haqiqiy tarjima tilini kafolatlamaydi.
+- -8553692: card 23.10.2026, PDF 4-band 01.01.2027; status unresolved.
+- PDF/OCR, murakkab jadval, superscript va rasmlar uchun review zarur.
+- Bulk ruxsat, server maksimal tezligi va universal delta-feed tasdiqlanmadi.
+
+Hisobot: docs/P0_REPORT.md
+TASKS yangilandi; PLAN arxitektura qarorlari o'zgarmadi.
+Asl vaqtinchalik HTML/PDF/PNG/SQLite tozalandi.
+Laravel/production DB/full import: BOSHLANMAGAN.
+P1 tavsiya etilmaydi; foydalanuvchining aniq tasdig'i kutilmoqda.

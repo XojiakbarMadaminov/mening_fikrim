@@ -1,0 +1,121 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...........EE.EEEEE...E..E...........                             37 / 37 (100%)
+
+Time: 00:07.421, Memory: 74.50 MB
+
+There were 9 errors:
+
+1) Tests\Feature\DocumentImporterTest::test_repeated_import_is_idempotent_and_checks_can_advance_without_content_change
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:52
+
+2) Tests\Feature\DocumentImporterTest::test_all_source_entrypoints_reuse_persisted_anchor
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:65
+
+3) Tests\Feature\DocumentImporterTest::test_one_invalid_language_still_saves_other_valid_languages_and_is_incomplete
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:91
+
+4) Tests\Feature\DocumentImporterTest::test_missing_required_text_cannot_borrow_an_old_success_to_mark_complete
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:105
+
+5) Tests\Feature\DocumentImporterTest::test_truncated_text_never_overwrites_previous_valid_content
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:119
+
+6) Tests\Feature\DocumentImporterTest::test_content_hash_changes_without_creating_a_history_row
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:131
+
+7) Tests\Feature\DocumentImporterTest::test_crlf_normalization_does_not_change_hash_or_markdown_structure
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:147
+
+8) Tests\Feature\DocumentImporterTest::test_pending_active_and_revoked_transitions_preserve_text
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:211
+
+9) Tests\Feature\DocumentImporterTest::test_new_verified_language_keeps_original_canonical_anchor
+Illuminate\Validation\ValidationException: Persisted source requisites conflict.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php:70
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:55
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Documents/DocumentImporter.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:31
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:258
+
+ERRORS!
+Tests: 37, Assertions: 128, Errors: 9.

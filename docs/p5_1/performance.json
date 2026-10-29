@@ -1,0 +1,41 @@
+{
+  "controller_elapsed_seconds": 882.156228272,
+  "active_worker_seconds": 590.810722449,
+  "operator_pause_seconds": 0,
+  "pacing_wait_seconds": 741.902418491,
+  "request_response_seconds": 33.14632,
+  "new_documents_per_hour_end_to_end": 171.39821173872582,
+  "new_documents_per_hour_worker": 255.9195259240609,
+  "new_contents_per_hour_end_to_end": 440.7382587567235,
+  "http_requests_per_new_document_including_coverage_and_controls": 9.857142857142858,
+  "html_parse_seconds": {
+    "observations": 141,
+    "sum": 1.007949,
+    "p50": 0.004475,
+    "p95": 0.010592
+  },
+  "pdf_parse_seconds": {
+    "observations": 2,
+    "sum": 27.769211,
+    "p50": 6.744463,
+    "p95": 21.024748
+  },
+  "ocr_seconds": {
+    "observations": 1,
+    "sum": 20.510736,
+    "p50": 20.510736,
+    "p95": 20.510736
+  },
+  "queue_wait_seconds": {
+    "observations": 53,
+    "sum": 1156.384091,
+    "p50": 22.260678,
+    "p95": 59.152874000000004
+  },
+  "worker_db_query_seconds": 7.462749999999982,
+  "transaction_and_reconciliation_seconds_estimate": 1.0008009999999103,
+  "peak_php_bytes": 107479040,
+  "max_self_rss_kib": 217860,
+  "max_child_rss_kib": 197980,
+  "explanation": "One continuous controller. Discovery/diagnostics outside worker included in wall, not operator pauses. Pacing/HTTP/parse/DB overlap within wall; do not sum queue waits across items into wall. Coverage enumeration is intentionally broader than the42-document sample."
+}

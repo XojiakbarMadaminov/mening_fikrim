@@ -1,0 +1,42 @@
+{
+  "requests": 371,
+  "statuses": {
+    "200": 371
+  },
+  "methods": {
+    "GET": 368,
+    "POST": 3
+  },
+  "minimum_start_interval_seconds": 2.000030909985071,
+  "all_start_intervals_at_least_2_seconds": true,
+  "decoded_response_body_bytes": 101149942,
+  "http_response_elapsed_seconds": 80.446063,
+  "first_log_at": "2026-10-28T15:34:23.246368+05:00",
+  "last_log_at": "2026-10-28T16:41:26.777560+05:00",
+  "contexts": {
+    "p2-discovery": {
+      "requests": 11,
+      "decoded_bytes": 2639504
+    },
+    "run-1": {
+      "requests": 154,
+      "decoded_bytes": 43042787
+    },
+    "run-2": {
+      "requests": 156,
+      "decoded_bytes": 48492136
+    },
+    "p2-inactive-fetch": {
+      "requests": 21,
+      "decoded_bytes": 3652951
+    },
+    "run-3": {
+      "requests": 9,
+      "decoded_bytes": 625243
+    },
+    "p2-inactive-quality": {
+      "requests": 20,
+      "decoded_bytes": 2697321
+    }
+  }
+}

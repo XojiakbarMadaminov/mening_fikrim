@@ -1,0 +1,53 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+EEEEEEEE                                                            8 / 8 (100%)
+
+Time: 00:01.472, Memory: 48.50 MB
+
+There were 8 errors:
+
+1) Tests\Feature\ScrapingIntegrationTest::test_http_parser_validator_importer_and_real_database_queue_work_together
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+2) Tests\Feature\ScrapingIntegrationTest::test_aspnet_pagination_uses_current_hidden_fields_and_source_postback_target
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+3) Tests\Feature\ScrapingIntegrationTest::test_invalid_expired_state_restarts_with_fresh_get_without_skipping_a_page
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+4) Tests\Feature\ScrapingIntegrationTest::test_checkpoint_and_queue_insertion_roll_back_together
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+5) Tests\Feature\ScrapingIntegrationTest::test_resume_replays_from_fresh_session_and_deduplicates_committed_identifiers
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+6) Tests\Feature\ScrapingIntegrationTest::test_retry_then_success_is_tracked_by_the_real_database_queue
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+7) Tests\Feature\ScrapingIntegrationTest::test_partial_language_review_keeps_valid_text_and_failed_job_and_never_completes
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+8) Tests\Feature\ScrapingIntegrationTest::test_commands_require_explicit_bounded_limits_and_live_configuration
+Error: Class "Tests\Feature\Queue" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:30
+
+ERRORS!
+Tests: 8, Assertions: 0, Errors: 8.

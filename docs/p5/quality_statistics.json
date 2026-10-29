@@ -1,0 +1,33 @@
+{
+  "total": {
+    "verified": 344,
+    "needs_review": 89
+  },
+  "new_content_quality": {
+    "verified": 302,
+    "needs_review": 68
+  },
+  "new_content_issue_counts": {
+    "complex_table_semantics_review": 58,
+    "quality_review": 67,
+    "missing_document_heading": 3,
+    "invalid_text": 5,
+    "unsupported_superscript": 17,
+    "pdf_image_semantics_unverified": 2,
+    "pdf_language_coverage_unconfirmed": 2,
+    "pdf_reading_order_unverified": 2,
+    "pdf_structure_unverified": 2,
+    "unextracted_images": 12,
+    "low_ocr_confidence": 1,
+    "ocr_critical_tokens_unverified": 1,
+    "ocr_source_identifier_not_certified": 1,
+    "uncertified_ocr": 1
+  },
+  "new_verified_rate": 0.8162162162162162,
+  "new_review_content_persisted": 68,
+  "extraction_failure_items": 0,
+  "failed_representations": 0,
+  "persisted_representation_attempts": 484,
+  "representation_persistence_success_rate": 1.0,
+  "explanation": "Persistence rate uses evaluated full-text language attempts, including repeats; metadata/identity rejections reported separately. Verified is automated validation, not legal certification."
+}

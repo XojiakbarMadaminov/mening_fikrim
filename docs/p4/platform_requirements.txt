@@ -1,0 +1,22 @@
+Deprecation Notice: The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead in phar:///usr/local/bin/composer/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/FileGetContents.php:55
+Checking platform requirements for packages in the vendor dir
+composer-runtime-api 2.2.2      success                                       
+ext-ctype            *          success provided by symfony/polyfill-ctype    
+ext-curl             8.5.11     success                                       
+ext-dom              20031129   success                                       
+ext-fileinfo         8.5.11     success                                       
+ext-filter           8.5.11     success                                       
+ext-hash             8.5.11     success                                       
+ext-iconv            8.5.11     success                                       
+ext-json             8.5.11     success                                       
+ext-libxml           8.5.11     success                                       
+ext-mbstring         *          success provided by symfony/polyfill-mbstring 
+ext-openssl          8.5.11     success                                       
+ext-pcre             8.5.11     success                                       
+ext-pdo_pgsql        8.5.11     success                                       
+ext-phar             8.5.11     success                                       
+ext-session          8.5.11     success                                       
+ext-tokenizer        8.5.11     success                                       
+ext-xml              8.5.11     success                                       
+ext-xmlwriter        8.5.11     success                                       
+php                  8.5.11     success                                       

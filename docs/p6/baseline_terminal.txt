@@ -1,0 +1,24 @@
+{
+    "phase": "baseline",
+    "rows": {
+        "document_sources": 2,
+        "documents": 229,
+        "document_identifiers": 625,
+        "document_contents": 541,
+        "scrape_runs": 45,
+        "scrape_run_items": 644,
+        "failed_jobs": 24,
+        "jobs": 0,
+        "migrations": 9
+    },
+    "quality_counts": {
+        "verified": 449,
+        "needs_review": 92
+    },
+    "configuration": {
+        "live_enabled": false,
+        "scheduler_enabled": false,
+        "workers": 1,
+        "request_delay_ms": 2000
+    }
+}

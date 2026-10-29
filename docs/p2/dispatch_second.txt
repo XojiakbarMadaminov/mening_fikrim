@@ -1,0 +1,3 @@
+Queued bounded full run 2 (limit 27). Use one database worker on queue scraping.
+php artisan documents:sync lex --report=2
+Run ID=2; real listing corroborations=23

@@ -1,0 +1,20 @@
+{
+    "controller_wall_seconds": 2497.234586918,
+    "finished_at": "2026-10-29T00:17:18+05:00",
+    "campaign": {
+        "id": "p5-20261028",
+        "request_limit": 4000,
+        "used": 1229,
+        "target": 200,
+        "stage": 200,
+        "baseline_max_id": 29,
+        "baseline_count": 29,
+        "started_at": "2026-10-28T23:35:34+05:00",
+        "stopped": {
+            "reason": "bounded_source_selection_budget_exhausted",
+            "at": "2026-10-29T00:17:16+05:00"
+        },
+        "consecutive_errors": 0
+    },
+    "new_canonical_documents": 158
+}

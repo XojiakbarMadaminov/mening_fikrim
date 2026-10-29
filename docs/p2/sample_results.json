@@ -1,0 +1,1653 @@
+[
+  {
+    "id": "8496009",
+    "url": "https://lex.uz/uz/docs/8496009",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8498641",
+    "url": "https://lex.uz/uz/docs/8498641",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8501541",
+    "url": "https://lex.uz/uz/docs/8501541",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "en": {
+        "state": "valid",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8502443",
+    "url": "https://lex.uz/uz/docs/8502443",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "en": {
+        "state": "valid",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8503180",
+    "url": "https://lex.uz/uz/docs/8503180",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8506802",
+    "url": "https://lex.uz/uz/docs/8506802",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "en": {
+        "state": "valid",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8519448",
+    "url": "https://lex.uz/uz/docs/8519448",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8520357",
+    "url": "https://lex.uz/uz/docs/8520357",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8546701",
+    "url": "https://lex.uz/uz/docs/8546701",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8547769",
+    "url": "https://lex.uz/uz/docs/8547769",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "8548754",
+    "url": "https://lex.uz/uz/docs/8548754",
+    "status": "pending",
+    "format": "html",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "en": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "unextracted_images"
+    ]
+  },
+  {
+    "id": "8554309",
+    "url": "https://lex.uz/uz/docs/8554309",
+    "status": "active",
+    "format": "html",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "en": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "complex_table_semantics_review"
+    ]
+  },
+  {
+    "id": "8554315",
+    "url": "https://lex.uz/uz/docs/8554315",
+    "status": "pending",
+    "format": "pdf",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ]
+  },
+  {
+    "id": "8554321",
+    "url": "https://lex.uz/uz/docs/8554321",
+    "status": "active",
+    "format": "pdf",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ]
+  },
+  {
+    "id": "8554326",
+    "url": "https://lex.uz/uz/docs/8554326",
+    "status": "active",
+    "format": "pdf",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ]
+  },
+  {
+    "id": "8554353",
+    "url": "https://lex.uz/uz/docs/8554353",
+    "status": "active",
+    "format": "pdf",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ]
+  },
+  {
+    "id": "8554432",
+    "url": "https://lex.uz/uz/docs/8554432",
+    "status": "active",
+    "format": "pdf",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ]
+  },
+  {
+    "id": "8557098",
+    "url": "https://lex.uz/uz/docs/8557098",
+    "status": "pending",
+    "format": "pdf",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ]
+  },
+  {
+    "id": "8557240",
+    "url": "https://lex.uz/uz/docs/8557240",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "-6257288",
+    "url": "https://lex.uz/uz/docs/-6257288",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "-7290944",
+    "url": "https://lex.uz/uz/docs/-7290944",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "-7303292",
+    "url": "https://lex.uz/uz/docs/-7303292",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "-7613661",
+    "url": "https://lex.uz/uz/docs/-7613661",
+    "status": "active",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "created",
+    "languages": {
+      "ru": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "valid",
+        "errors": []
+      },
+      "uz-Latn": {
+        "state": "valid",
+        "errors": []
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "-7655343",
+    "url": "https://lex.uz/uz/docs/-7655343",
+    "status": "active",
+    "format": "html",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "en": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "ru": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "complex_table_semantics_review"
+    ]
+  },
+  {
+    "id": "-8540314",
+    "url": "https://lex.uz/uz/docs/-8540314",
+    "status": "active",
+    "format": "html",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "issues": [
+      "complex_table_semantics_review",
+      "unextracted_images",
+      "unsupported_superscript"
+    ]
+  },
+  {
+    "id": "-8553258",
+    "url": "https://lex.uz/uz/docs/-8553258",
+    "status": "active",
+    "format": "ocr",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review",
+          "uncertified_ocr"
+        ]
+      }
+    },
+    "issues": [
+      "declared_language_script_mismatch",
+      "low_ocr_confidence",
+      "ocr_critical_tokens_unverified",
+      "ocr_source_identifier_not_certified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified",
+      "uncertified_ocr"
+    ]
+  },
+  {
+    "id": "-8553692",
+    "url": "https://lex.uz/uz/docs/-8553692",
+    "status": "active",
+    "format": "ocr",
+    "quality_valid": false,
+    "initial_import_action": "rejected",
+    "languages": {
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review",
+          "uncertified_ocr"
+        ]
+      }
+    },
+    "issues": [
+      "declared_language_script_mismatch",
+      "low_ocr_confidence",
+      "ocr_critical_tokens_unverified",
+      "ocr_source_identifier_not_certified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified",
+      "uncertified_ocr"
+    ]
+  },
+  {
+    "id": "8181977",
+    "url": "https://lex.uz/uz/docs/8181977",
+    "status": "inactive",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "excluded_inactive",
+    "languages": {
+      "uz-Latn": {
+        "errors": [],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": true,
+          "issues": [],
+          "chars": 26691,
+          "headings": {
+            "h1": 1,
+            "h2": 8,
+            "h3": 0
+          },
+          "source_token_count": 2996,
+          "output_token_count": 2996,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 168,
+          "superscripts": [],
+          "images": [],
+          "table_count": 0,
+          "tables": []
+        },
+        "chars": 26691
+      },
+      "uz-Cyrl": {
+        "errors": [],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": true,
+          "issues": [],
+          "chars": 25264,
+          "headings": {
+            "h1": 1,
+            "h2": 8,
+            "h3": 0
+          },
+          "source_token_count": 2996,
+          "output_token_count": 2996,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 168,
+          "superscripts": [],
+          "images": [],
+          "table_count": 0,
+          "tables": []
+        },
+        "chars": 25264
+      }
+    },
+    "issues": []
+  },
+  {
+    "id": "-8102878",
+    "url": "https://lex.uz/uz/docs/-8102878",
+    "status": "inactive",
+    "format": "html",
+    "quality_valid": false,
+    "initial_import_action": "excluded_inactive",
+    "languages": {
+      "uz-Latn": {
+        "errors": [
+          "quality_review"
+        ],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": false,
+          "issues": [
+            "complex_table_semantics_review",
+            "unsupported_superscript"
+          ],
+          "chars": 133880,
+          "headings": {
+            "h1": 1,
+            "h2": 8,
+            "h3": 0
+          },
+          "source_token_count": 14534,
+          "output_token_count": 14534,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 775,
+          "superscripts": [
+            "(xalqaro talabnomaning qabul qiluvchi idora tomonidan belgilanadigan qayd raqami va xalqaro topshirish sanasi)",
+            "(xalqaro talabnomani xalqaro eʼlon qilish raqami va sanasi)",
+            "(jismoniy shaxslar uchun F.I.O.",
+            "yoki yuridik shaxsning taʼsis hujjati boʻyicha toʻliq nomi)"
+          ],
+          "images": [],
+          "table_count": 4,
+          "tables": [
+            {
+              "rows": 48,
+              "columns": 7,
+              "span_count": 92,
+              "span_sample": [
+                {
+                  "row": 1,
+                  "column": 1,
+                  "rowspan": 2,
+                  "colspan": 1
+                },
+                {
+                  "row": 1,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 4
+                },
+                {
+                  "row": 1,
+                  "column": 3,
+                  "rowspan": 2,
+                  "colspan": 5
+                },
+                {
+                  "row": 2,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 4
+                },
+                {
+                  "row": 3,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 4
+                },
+                {
+                  "row": 3,
+                  "column": 3,
+                  "rowspan": 1,
+                  "colspan": 5
+                },
+                {
+                  "row": 4,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 4,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 5,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 5,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 6,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 6,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 7,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 7,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 8,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 10
+                },
+                {
+                  "row": 9,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 10
+                },
+                {
+                  "row": 10,
+                  "column": 1,
+                  "rowspan": 4,
+                  "colspan": 5
+                },
+                {
+                  "row": 10,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 5
+                },
+                {
+                  "row": 11,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 5
+                },
+                {
+                  "row": 12,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 5
+                }
+              ]
+            },
+            {
+              "rows": 27,
+              "columns": 7,
+              "span_count": 22,
+              "span_sample": [
+                {
+                  "row": 1,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 2,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 3,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 4,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 5,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 6,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 7,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 8,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 9,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 10,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 11,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 12,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 13,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 14,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 15,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 16,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 17,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 18,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 19,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 20,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                }
+              ]
+            },
+            {
+              "rows": 40,
+              "columns": 2,
+              "span_count": 34,
+              "span_sample": [
+                {
+                  "row": 6,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 7,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 8,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 9,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 10,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 11,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 12,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 13,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 14,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 15,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 16,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 17,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 18,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 19,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 20,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 21,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 22,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 23,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 24,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 25,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "rows": 27,
+              "columns": 2,
+              "span_count": 0,
+              "span_sample": []
+            }
+          ]
+        },
+        "chars": 133880
+      },
+      "uz-Cyrl": {
+        "errors": [
+          "quality_review"
+        ],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": false,
+          "issues": [
+            "complex_table_semantics_review",
+            "unsupported_superscript"
+          ],
+          "chars": 128320,
+          "headings": {
+            "h1": 1,
+            "h2": 8,
+            "h3": 0
+          },
+          "source_token_count": 14534,
+          "output_token_count": 14534,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 775,
+          "superscripts": [
+            "(халқаро талабноманинг қабул қилувчи идора томонидан белгиланадиган қайд рақами ва халқаро топшириш санаси)",
+            "(халқаро талабномани халқаро эълон қилиш рақами ва санаси)",
+            "(жисмоний шахслар учун Ф.И.О.",
+            "ёки юридик шахснинг таъсис ҳужжати бўйича тўлиқ номи)"
+          ],
+          "images": [],
+          "table_count": 4,
+          "tables": [
+            {
+              "rows": 48,
+              "columns": 7,
+              "span_count": 92,
+              "span_sample": [
+                {
+                  "row": 1,
+                  "column": 1,
+                  "rowspan": 2,
+                  "colspan": 1
+                },
+                {
+                  "row": 1,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 4
+                },
+                {
+                  "row": 1,
+                  "column": 3,
+                  "rowspan": 2,
+                  "colspan": 5
+                },
+                {
+                  "row": 2,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 4
+                },
+                {
+                  "row": 3,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 4
+                },
+                {
+                  "row": 3,
+                  "column": 3,
+                  "rowspan": 1,
+                  "colspan": 5
+                },
+                {
+                  "row": 4,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 4,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 5,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 5,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 6,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 6,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 7,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 3
+                },
+                {
+                  "row": 7,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 8,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 10
+                },
+                {
+                  "row": 9,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 10
+                },
+                {
+                  "row": 10,
+                  "column": 1,
+                  "rowspan": 4,
+                  "colspan": 5
+                },
+                {
+                  "row": 10,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 5
+                },
+                {
+                  "row": 11,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 5
+                },
+                {
+                  "row": 12,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 5
+                }
+              ]
+            },
+            {
+              "rows": 27,
+              "columns": 7,
+              "span_count": 22,
+              "span_sample": [
+                {
+                  "row": 1,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 2,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 3,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 4,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 5,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 6,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 7,
+                  "column": 2,
+                  "rowspan": 1,
+                  "colspan": 6
+                },
+                {
+                  "row": 8,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 9,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 10,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 11,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 12,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 13,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 14,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 15,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 16,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 17,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 18,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 19,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                },
+                {
+                  "row": 20,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 7
+                }
+              ]
+            },
+            {
+              "rows": 40,
+              "columns": 2,
+              "span_count": 34,
+              "span_sample": [
+                {
+                  "row": 6,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 7,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 8,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 9,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 10,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 11,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 12,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 13,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 14,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 15,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 16,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 17,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 18,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 19,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 20,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 21,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 22,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 23,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 24,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                },
+                {
+                  "row": 25,
+                  "column": 1,
+                  "rowspan": 1,
+                  "colspan": 2
+                }
+              ]
+            },
+            {
+              "rows": 27,
+              "columns": 2,
+              "span_count": 0,
+              "span_sample": []
+            }
+          ]
+        },
+        "chars": 128320
+      }
+    },
+    "issues": [
+      "complex_table_semantics_review",
+      "unsupported_superscript"
+    ]
+  },
+  {
+    "id": "-2509996",
+    "url": "https://lex.uz/uz/docs/-2509996",
+    "status": "inactive",
+    "format": "html",
+    "quality_valid": true,
+    "initial_import_action": "excluded_inactive",
+    "languages": {
+      "uz-Latn": {
+        "errors": [],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": true,
+          "issues": [],
+          "chars": 23742,
+          "headings": {
+            "h1": 1,
+            "h2": 5,
+            "h3": 31
+          },
+          "source_token_count": 2764,
+          "output_token_count": 2764,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 175,
+          "superscripts": [],
+          "images": [],
+          "table_count": 0,
+          "tables": []
+        },
+        "chars": 23742
+      },
+      "ru": {
+        "errors": [],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": true,
+          "issues": [],
+          "chars": 21496,
+          "headings": {
+            "h1": 1,
+            "h2": 5,
+            "h3": 31
+          },
+          "source_token_count": 2620,
+          "output_token_count": 2620,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 179,
+          "superscripts": [],
+          "images": [],
+          "table_count": 0,
+          "tables": []
+        },
+        "chars": 21496
+      },
+      "uz-Cyrl": {
+        "errors": [],
+        "quality": {
+          "format": "html",
+          "complete": true,
+          "structure_verified": true,
+          "issues": [],
+          "chars": 22515,
+          "headings": {
+            "h1": 1,
+            "h2": 5,
+            "h3": 31
+          },
+          "source_token_count": 2764,
+          "output_token_count": 2764,
+          "token_fidelity": true,
+          "removed_editorial_nodes": 179,
+          "superscripts": [],
+          "images": [],
+          "table_count": 0,
+          "tables": []
+        },
+        "chars": 22515
+      }
+    },
+    "issues": []
+  }
+]

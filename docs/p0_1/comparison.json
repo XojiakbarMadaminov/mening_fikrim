@@ -1,0 +1,385 @@
+[
+  {
+    "id": "8557098",
+    "url": "https://lex.uz/uz/docs/8557098",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "pending",
+      "source_candidate": "pending",
+      "effective_at": "2027-01-27",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8554315",
+    "url": "https://lex.uz/uz/docs/8554315",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "pending",
+      "source_candidate": "pending",
+      "effective_at": "2027-01-25",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8554432",
+    "url": "https://lex.uz/uz/docs/8554432",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8554353",
+    "url": "https://lex.uz/uz/docs/8554353",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8554326",
+    "url": "https://lex.uz/uz/docs/8554326",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8554321",
+    "url": "https://lex.uz/uz/docs/8554321",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8554309",
+    "url": "https://lex.uz/uz/docs/8554309",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "-8553692",
+    "url": "https://lex.uz/uz/docs/-8553692",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": null,
+      "source_candidate": "active",
+      "effective_at": "2026-10-23",
+      "validation": "review",
+      "issues": [
+        "effective_date_conflict",
+        "ocr_status_evidence_needs_review"
+      ],
+      "text_statements": [
+        {
+          "date": "2027-01-01",
+          "excerpt": "Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради"
+        }
+      ]
+    }
+  },
+  {
+    "id": "-8553258",
+    "url": "https://lex.uz/uz/docs/-8553258",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": null,
+      "source_candidate": "active",
+      "effective_at": "2026-10-23",
+      "validation": "review",
+      "issues": [
+        "ocr_status_evidence_needs_review"
+      ],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8548754",
+    "url": "https://lex.uz/uz/docs/8548754",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "pending",
+      "source_candidate": "pending",
+      "effective_at": "2027-04-22",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "-7655343",
+    "url": "https://lex.uz/uz/docs/-7655343",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2025-10-31",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "-6257288",
+    "url": "https://lex.uz/uz/docs/-6257288",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": true,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2023-04-30",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8519448",
+    "url": "https://lex.uz/uz/docs/8519448",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": true,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-09-29",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8498641",
+    "url": "https://lex.uz/uz/docs/8498641",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8496009",
+    "url": "https://lex.uz/uz/docs/8496009",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8506802",
+    "url": "https://lex.uz/uz/docs/8506802",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8502443",
+    "url": "https://lex.uz/uz/docs/8502443",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8501541",
+    "url": "https://lex.uz/uz/docs/8501541",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "-8540314",
+    "url": "https://lex.uz/uz/docs/-8540314",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-16",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8520357",
+    "url": "https://lex.uz/uz/docs/8520357",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": true,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-02",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8503180",
+    "url": "https://lex.uz/uz/docs/8503180",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "-7613661",
+    "url": "https://lex.uz/uz/docs/-7613661",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "-7303292",
+    "url": "https://lex.uz/uz/docs/-7303292",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": true,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2024-12-16",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "-7290944",
+    "url": "https://lex.uz/uz/docs/-7290944",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": true,
+    "status_validation": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2024-12-16",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "8557240",
+    "url": "https://lex.uz/uz/docs/8557240",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8547769",
+    "url": "https://lex.uz/uz/docs/8547769",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8546701",
+    "url": "https://lex.uz/uz/docs/8546701",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "8181977",
+    "url": "https://lex.uz/uz/docs/8181977",
+    "p0_pass": true,
+    "p01_retested": false,
+    "p01_pass": null,
+    "status_validation": null
+  },
+  {
+    "id": "-8102878",
+    "url": "https://lex.uz/uz/docs/-8102878",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": false,
+    "status_validation": {
+      "business_status": "inactive",
+      "source_candidate": "inactive",
+      "effective_at": "2026-03-30",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  },
+  {
+    "id": "-2509996",
+    "url": "https://lex.uz/uz/docs/-2509996",
+    "p0_pass": false,
+    "p01_retested": true,
+    "p01_pass": true,
+    "status_validation": {
+      "business_status": "inactive",
+      "source_candidate": "inactive",
+      "effective_at": "2014-12-04",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    }
+  }
+]

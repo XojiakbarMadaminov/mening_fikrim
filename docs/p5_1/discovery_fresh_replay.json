@@ -1,0 +1,21 @@
+{
+    "query": {
+        "section": "oliy",
+        "status": "Y",
+        "from": "01.01.2020",
+        "to": "15.02.2020",
+        "ancestors": [
+            "fcaba3cb5a6f2e56e551e95274624f51c03609f1354e5149e8c08ebaf7cdce5b",
+            "d79397282950b1e607bb112ebcf984ec263aca033f1dba644afe5408a6926361",
+            "3166d327847d578a5cf5eeee21bcc955c7ae1fc3d9592d1669a430cf5b7875a7"
+        ]
+    },
+    "result": {
+        "complete": true,
+        "total": 60,
+        "unique_ids": 60,
+        "pages": 3,
+        "restarts": 0
+    },
+    "stable_order_and_total": true
+}

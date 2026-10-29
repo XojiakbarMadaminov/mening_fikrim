@@ -1,0 +1,56 @@
+{
+  "started_at": "2026-10-28T05:59:47.022510+00:00",
+  "finished_at": "2026-10-28T06:05:01.900487+00:00",
+  "elapsed_seconds": 314.878,
+  "sample_count": 30,
+  "parse_success": 30,
+  "strict_quality_pass": 11,
+  "sqlite_rows": 30,
+  "import_wall_seconds": 468.951,
+  "import_first_request": "2026-10-28T05:57:12.948999+00:00",
+  "import_finished": "2026-10-28T06:05:01.900487+00:00",
+  "review_documents": 19,
+  "extraction_errors": 0,
+  "status_counts": {
+    "pending": 3,
+    "active": 23,
+    "unresolved": 1,
+    "inactive": 3
+  },
+  "html_documents": 22,
+  "pdf_documents": 8,
+  "text_pdf_documents": 6,
+  "ocr_documents": 2,
+  "ocr_pages": 36,
+  "pdf_pages": 101,
+  "full_text_variants": 62,
+  "metadata_only_variants": 15,
+  "languages": {
+    "uz-Latn": 28,
+    "uz-Cyrl": 24,
+    "ru": 6,
+    "en": 4
+  },
+  "html_token_fidelity_pass": 54,
+  "html_variants": 54,
+  "table_variants": 14,
+  "image_variants": 4,
+  "requests": 171,
+  "http_statuses": {
+    "404": 1,
+    "200": 169,
+    "client_error": 1
+  },
+  "response_bytes": 61118599,
+  "observed_min_request_start_gap_seconds": 1.997196,
+  "first_request": "2026-10-28T05:53:16.975535+00:00",
+  "last_request": "2026-10-28T06:05:56.889972+00:00",
+  "source_probe_span_seconds": 759.914,
+  "http_200_latency_seconds": {
+    "median": 0.031,
+    "max": 3.442
+  },
+  "audit_completed_at": "2026-10-28T06:15:48.796236+00:00",
+  "p0_measured_elapsed_seconds": 1351.821,
+  "p0_measured_elapsed_definition": "First recorded live HTTP attempt through final report, cleanup and offline verification; initial plan reading/setup excluded."
+}

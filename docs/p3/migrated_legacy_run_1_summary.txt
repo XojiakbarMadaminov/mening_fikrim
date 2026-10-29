@@ -1,0 +1,51 @@
+{
+    "run_id": 1,
+    "mode": "full",
+    "status": "completed_with_errors",
+    "scope": "bounded_sample",
+    "discovered": 27,
+    "canonical_document_groups": 15,
+    "canonical_documents_stored": 15,
+    "processed": 27,
+    "created": 15,
+    "updated": 0,
+    "imported": 15,
+    "unchanged": 0,
+    "skipped_alias": 0,
+    "queued": 0,
+    "processing": 0,
+    "pending_retry": 0,
+    "failed": 0,
+    "technical_failed": 0,
+    "review_required": 12,
+    "active": 15,
+    "pending": 0,
+    "inactive": 0,
+    "stored_content_count": 37,
+    "valid_content_count": 37,
+    "duration_seconds": 789,
+    "coverage_verified": false,
+    "gates": {
+        "quality_passed": false,
+        "jobs_reconciled": true,
+        "coverage_verified": false,
+        "discovery_finished": true,
+        "languages_complete": false
+    },
+    "open_items": 0,
+    "html": 19,
+    "pdf": 6,
+    "ocr": 2,
+    "languages": {
+        "uz-Cyrl": 15,
+        "uz-Latn": 15,
+        "en": 3,
+        "ru": 4
+    },
+    "required_language_failures": 18,
+    "source_status_counts": {
+        "active": 24,
+        "pending": 3,
+        "inactive": 0
+    }
+}

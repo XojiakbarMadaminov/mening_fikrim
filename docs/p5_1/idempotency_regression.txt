@@ -1,0 +1,78 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+.....................................[41;37mF[0m...[41;37mF[0m[41;37mF[0m[41;37mF[0m...................  63 / 163 ( 38%)
+....[41;37mF[0m......[41;37mF[0m................................................... 126 / 163 ( 77%)
+.....................................                           163 / 163 (100%)
+
+Time: 00:49.603, Memory: 104.50 MB
+
+There were 6 failures:
+
+1) Tests\Feature\ConcurrentImportTest::test_two_real_php_processes_wait_on_postgresql_lock_and_converge_to_one_document
+Failed asserting that two arrays are identical.
+--- Expected
++++ Actual
+@@ @@
+ Array &0 [
+     0 => 'created',
+-    1 => 'unchanged',
++    1 => 'updated',
+ ]
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ConcurrentImportTest.php:57
+
+2) Tests\Feature\CorpusCollectionTest::test_review_reimport_and_all_canonical_aliases_reuse_one_document_and_one_row_per_language
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'unchanged'
++'updated'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:98
+
+3) Tests\Feature\CorpusCollectionTest::test_json_numeric_diagnostics_do_not_mark_identical_content_as_updated_after_round_trip
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'unchanged'
++'updated'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:111
+
+4) Tests\Feature\CorpusCollectionTest::test_lower_quality_different_text_is_retained_as_candidate_without_overwriting_verified_content
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'unchanged'
++'updated'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:130
+
+5) Tests\Feature\DocumentImporterTest::test_repeated_import_is_idempotent_and_checks_can_advance_without_content_change
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'unchanged'
++'updated'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:58
+
+6) Tests\Feature\DocumentImporterTest::test_crlf_normalization_does_not_change_hash_or_markdown_structure
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'unchanged'
++'updated'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:152
+
+[37;41mFAILURES![0m
+[37;41mTests: 163[0m[37;41m, Assertions: 669[0m[37;41m, Failures: 6[0m[37;41m.[0m

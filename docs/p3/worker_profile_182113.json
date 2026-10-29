@@ -1,0 +1,42 @@
+{
+    "wall_seconds": 14.434411602,
+    "php_peak_bytes": 40370176,
+    "self_usage": {
+        "ru_oublock": 152,
+        "ru_inblock": 0,
+        "ru_msgsnd": 0,
+        "ru_msgrcv": 0,
+        "ru_maxrss": 79192,
+        "ru_ixrss": 0,
+        "ru_idrss": 0,
+        "ru_minflt": 13375,
+        "ru_majflt": 0,
+        "ru_nsignals": 0,
+        "ru_nvcsw": 837,
+        "ru_nivcsw": 29,
+        "ru_nswap": 0,
+        "ru_utime.tv_usec": 615017,
+        "ru_utime.tv_sec": 0,
+        "ru_stime.tv_usec": 64315,
+        "ru_stime.tv_sec": 0
+    },
+    "child_usage": {
+        "ru_oublock": 0,
+        "ru_inblock": 0,
+        "ru_msgsnd": 0,
+        "ru_msgrcv": 0,
+        "ru_maxrss": 63220,
+        "ru_ixrss": 0,
+        "ru_idrss": 0,
+        "ru_minflt": 316,
+        "ru_majflt": 0,
+        "ru_nsignals": 0,
+        "ru_nvcsw": 4,
+        "ru_nivcsw": 4,
+        "ru_nswap": 0,
+        "ru_utime.tv_usec": 2841,
+        "ru_utime.tv_sec": 0,
+        "ru_stime.tv_usec": 2573,
+        "ru_stime.tv_sec": 0
+    }
+}

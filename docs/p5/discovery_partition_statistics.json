@@ -1,0 +1,113 @@
+[
+  {
+    "query": {
+      "section": "nat",
+      "status": "Y",
+      "from": "01.01.2010",
+      "to": "31.01.2010"
+    },
+    "source_total": 72,
+    "enumerated_unique_source_ids": 72,
+    "complete": true,
+    "replay_stable": true,
+    "mapped_to_stored_canonical_source_ids": 69,
+    "unmapped_enumerated_ids": [
+      "-1587862",
+      "1587860",
+      "1587862"
+    ],
+    "stored_canonical_groups_in_enumerated_ids": 21,
+    "not_enumerated_source_records": 0
+  },
+  {
+    "query": {
+      "section": "loc",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "31.01.2020"
+    },
+    "source_total": 93,
+    "enumerated_unique_source_ids": 93,
+    "complete": true,
+    "replay_stable": true,
+    "mapped_to_stored_canonical_source_ids": 93,
+    "unmapped_enumerated_ids": [],
+    "stored_canonical_groups_in_enumerated_ids": 47,
+    "not_enumerated_source_records": 0
+  },
+  {
+    "query": {
+      "section": "int",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "31.12.2020"
+    },
+    "source_total": 7,
+    "enumerated_unique_source_ids": 7,
+    "complete": true,
+    "replay_stable": true,
+    "mapped_to_stored_canonical_source_ids": 7,
+    "unmapped_enumerated_ids": [],
+    "stored_canonical_groups_in_enumerated_ids": 2,
+    "not_enumerated_source_records": 0
+  },
+  {
+    "query": {
+      "section": "tech",
+      "status": "Y",
+      "from": "01.01.2026",
+      "to": "28.10.2026"
+    },
+    "source_total": 105,
+    "enumerated_unique_source_ids": 105,
+    "complete": true,
+    "replay_stable": true,
+    "mapped_to_stored_canonical_source_ids": 103,
+    "unmapped_enumerated_ids": [
+      "-8345596",
+      "8354875"
+    ],
+    "stored_canonical_groups_in_enumerated_ids": 35,
+    "not_enumerated_source_records": 0
+  },
+  {
+    "query": {
+      "section": "court",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "31.12.2020"
+    },
+    "source_total": 11,
+    "enumerated_unique_source_ids": 11,
+    "complete": true,
+    "replay_stable": true,
+    "mapped_to_stored_canonical_source_ids": 11,
+    "unmapped_enumerated_ids": [],
+    "stored_canonical_groups_in_enumerated_ids": 5,
+    "not_enumerated_source_records": 0
+  },
+  {
+    "query": {
+      "section": "oliy",
+      "status": "Y",
+      "from": "01.01.2020",
+      "to": "31.12.2020"
+    },
+    "source_total": 1429,
+    "enumerated_unique_source_ids": 160,
+    "complete": false,
+    "replay_stable": true,
+    "mapped_to_stored_canonical_source_ids": 153,
+    "unmapped_enumerated_ids": [
+      "-5283810",
+      "-5283904",
+      "5283703",
+      "5283810",
+      "5283815",
+      "5283904",
+      "5283913"
+    ],
+    "stored_canonical_groups_in_enumerated_ids": 51,
+    "not_enumerated_source_records": 1269
+  }
+]

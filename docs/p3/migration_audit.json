@@ -1,0 +1,103 @@
+{
+    "development_contents_identical_to_p2_before_p3_import": true,
+    "documents": 15,
+    "identifiers": 45,
+    "contents": 37,
+    "historical_failed_jobs_hashes": {
+        "1": "ba8c4dab75c9edc2ed1b28a0e545abf3562cf89d78fe274e6d6b76d7f93313e8",
+        "2": "1dc6c70ad0d653aa878e4207a971248220c93c375c6c4b33fec5966b136c1695",
+        "3": "3933b358a3bc50c2ccce2eafb78417942552c86a3d8a9a800f739bdb6f4f2ab8",
+        "4": "ff25f4f3e2b0f68714128afc1212ea1b0f766692b633fb14f2f32c7b63cfbce4",
+        "5": "16ed30ab61b632bef4a8700c973c1113951d7162c8322785cd104058cfff6796",
+        "6": "51e01689ceafd35c3f131577f618f95c26b57b3d6fe4d2b0f2bbf7260eaf611b",
+        "7": "66638e15ebce38642d9212544b7f1f7da8c7126be2f7ebf4a35b491890a0633e",
+        "8": "f147533f929523c5b9c67015af6feac96d1e2d2b6146270389617a2c7d9d54e6",
+        "9": "3dfa25895ce9bca5b7f97ece8f2a7a48658fb02068bae650848db71076dab8a3",
+        "10": "23147b9a2fd6713b4ff4cbb0d0406fbb8c27acd6dfd6729d5153669d73f0e0ef",
+        "11": "8bb06df99856357bbadfd1d1bbccb7d137c7a7da45b8f31832180d1267d3cbb7",
+        "12": "feb9d49247e593f5accc960867c8ab4fc43df5feaa3229809f4fae015102505a",
+        "13": "b83e28554f057e3f51e46d02b1a78569d6d2f41222d6c86626f3d2e9333e5b18",
+        "14": "b1e5f3214f72e9d48450ebec63a746282c33e81091921126d84ed5aad4febf8a",
+        "15": "5390a13080e561244973c38ea1c1abdb36f170039955915696953d2fbcb1d8eb",
+        "16": "f0e7a330d2d69872ab9b6882b9304d9c938334851521a03f447e30fb15dc6c17",
+        "17": "de012239657cafeb38f7e5789c50d3df3366a73be0c956ebe9b2485662e49296",
+        "18": "71b9d80352e61c0e199afed10ba10c7baa6a310f0092b0981d5d07aa798e199b",
+        "19": "5b3ee65992cc8d02eb4b717f6139ab6bc4b17cf091cb83d766ce56424034294a",
+        "20": "599aaf9a621156c18da5bebb36829fab24afabc844fcb0dc4569624b510d2851",
+        "21": "e3c8a309cb9e34f385c74cb3017c3248b4ebb51961619919643a705431df3867",
+        "22": "4cee5e8164fd34e4fe160f1ac451f157b0a657de97cdd242ce0d132a6ea1318a",
+        "23": "07fbe30f4b6a9232883fd8dc4c6e547a64e06a62844ee179ecb5341a5ae61fc2",
+        "24": "ded888a3776f5507fcb5bc7ad433de95cf24342e0e3ec1f95becd203687b8652"
+    },
+    "legacy_item_statuses": [
+        {
+            "scrape_run_id": 1,
+            "status": "imported",
+            "count": 15
+        },
+        {
+            "scrape_run_id": 1,
+            "status": "review",
+            "count": 12
+        },
+        {
+            "scrape_run_id": 2,
+            "status": "review",
+            "count": 12
+        },
+        {
+            "scrape_run_id": 2,
+            "status": "unchanged",
+            "count": 15
+        },
+        {
+            "scrape_run_id": 3,
+            "status": "unchanged",
+            "count": 1
+        }
+    ],
+    "legacy_runs": [
+        {
+            "id": 1,
+            "source_id": 1,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "processed_count": 27,
+            "created_count": 15,
+            "updated_count": 0,
+            "failed_count": 0,
+            "checkpoint": "{\"limit\": 27, \"scope\": \"bounded_sample\", \"version\": 3, \"segments\": [{\"status\": \"Y\", \"section\": \"nat\"}, {\"status\": \"Y\", \"section\": \"loc\"}, {\"status\": \"Y\", \"section\": \"int\"}, {\"status\": \"Y\", \"section\": \"tech\"}, {\"status\": \"Y\", \"section\": \"court\"}, {\"status\": \"Y\", \"section\": \"oliy\"}], \"selection\": \"explicit_sample\", \"sample_ids\": [\"8557098\", \"8554315\", \"8554432\", \"8554353\", \"8554326\", \"8554321\", \"8554309\", \"-8553692\", \"-8553258\", \"8548754\", \"-7655343\", \"-6257288\", \"8519448\", \"8498641\", \"8496009\", \"8506802\", \"8502443\", \"8501541\", \"-8540314\", \"8520357\", \"8503180\", \"-7613661\", \"-7303292\", \"-7290944\", \"8557240\", \"8547769\", \"8546701\"], \"segment_index\": 0, \"quality_passed\": false, \"jobs_reconciled\": true, \"segment_results\": [{\"total\": 27, \"last_page\": true, \"committed_page\": 1, \"page_fingerprint\": \"125ad9ffbce2a36988135e37dd1ae54c6ccc189768e07cc09834248e1dd08d4c\"}], \"coverage_verified\": false, \"discovery_finished\": true, \"languages_complete\": false, \"legacy_failed_count\": 12, \"sample_listing_statuses\": {\"8496009\": \"Y\", \"8498641\": \"Y\", \"8501541\": \"Y\", \"8502443\": \"Y\", \"8503180\": \"Y\", \"8506802\": \"Y\", \"8519448\": \"Y\", \"8520357\": \"Y\", \"8546701\": \"Y\", \"8547769\": \"Y\", \"8554309\": \"Y\", \"8554315\": \"Y\", \"8554321\": \"Y\", \"8554326\": \"Y\", \"8554353\": \"Y\", \"8554432\": \"Y\", \"8557098\": \"Y\", \"8557240\": \"Y\", \"-7290944\": \"Y\", \"-7303292\": \"Y\", \"-7613661\": \"Y\", \"-8540314\": \"Y\", \"-8553692\": \"Y\"}, \"legacy_checkpoint_sha256\": \"6edf4dcdd6ec3cbfa680339fc2947a0c0f3c6d6433dfad6ac2cb06bbf438961a\"}",
+            "last_error": "Language\/structure quality validation requires review.",
+            "started_at": "2026-10-28 15:35:33+05",
+            "finished_at": "2026-10-28 15:48:42+05"
+        },
+        {
+            "id": 2,
+            "source_id": 1,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "processed_count": 27,
+            "created_count": 0,
+            "updated_count": 0,
+            "failed_count": 0,
+            "checkpoint": "{\"limit\": 27, \"scope\": \"bounded_sample\", \"version\": 3, \"segments\": [{\"status\": \"Y\", \"section\": \"nat\"}, {\"status\": \"Y\", \"section\": \"loc\"}, {\"status\": \"Y\", \"section\": \"int\"}, {\"status\": \"Y\", \"section\": \"tech\"}, {\"status\": \"Y\", \"section\": \"court\"}, {\"status\": \"Y\", \"section\": \"oliy\"}], \"selection\": \"explicit_sample\", \"sample_ids\": [\"8557098\", \"8554315\", \"8554432\", \"8554353\", \"8554326\", \"8554321\", \"8554309\", \"-8553692\", \"-8553258\", \"8548754\", \"-7655343\", \"-6257288\", \"8519448\", \"8498641\", \"8496009\", \"8506802\", \"8502443\", \"8501541\", \"-8540314\", \"8520357\", \"8503180\", \"-7613661\", \"-7303292\", \"-7290944\", \"8557240\", \"8547769\", \"8546701\"], \"segment_index\": 0, \"quality_passed\": false, \"jobs_reconciled\": true, \"segment_results\": [{\"total\": 27, \"last_page\": true, \"committed_page\": 1, \"page_fingerprint\": \"125ad9ffbce2a36988135e37dd1ae54c6ccc189768e07cc09834248e1dd08d4c\"}], \"coverage_verified\": false, \"discovery_finished\": true, \"languages_complete\": false, \"legacy_failed_count\": 12, \"sample_listing_statuses\": {\"8496009\": \"Y\", \"8498641\": \"Y\", \"8501541\": \"Y\", \"8502443\": \"Y\", \"8503180\": \"Y\", \"8506802\": \"Y\", \"8519448\": \"Y\", \"8520357\": \"Y\", \"8546701\": \"Y\", \"8547769\": \"Y\", \"8554309\": \"Y\", \"8554315\": \"Y\", \"8554321\": \"Y\", \"8554326\": \"Y\", \"8554353\": \"Y\", \"8554432\": \"Y\", \"8557098\": \"Y\", \"8557240\": \"Y\", \"-7290944\": \"Y\", \"-7303292\": \"Y\", \"-7613661\": \"Y\", \"-8540314\": \"Y\", \"-8553692\": \"Y\"}, \"legacy_checkpoint_sha256\": \"424577b928440656dcc7385c158a7ec5603816856944c9e54074808fa3420e13\"}",
+            "last_error": "Language\/structure quality validation requires review.",
+            "started_at": "2026-10-28 15:50:59+05",
+            "finished_at": "2026-10-28 15:58:49+05"
+        },
+        {
+            "id": 3,
+            "source_id": 1,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "processed_count": 1,
+            "created_count": 0,
+            "updated_count": 0,
+            "failed_count": 0,
+            "checkpoint": "{\"limit\": 1, \"scope\": \"bounded_sample\", \"version\": 3, \"segments\": [{\"status\": \"Y\", \"section\": \"int\"}], \"sample_ids\": [], \"bounded_stop\": true, \"segment_index\": 0, \"quality_passed\": true, \"jobs_reconciled\": true, \"segment_results\": [{\"pages\": 1, \"total\": 4997, \"reason\": \"bounded_budget\", \"complete\": false, \"restarts\": 0, \"last_page\": false, \"unique_ids\": 20, \"committed_page\": 1, \"page_fingerprint\": \"1733bb3f450c11eeefb9b880d7711a00b8018dc507d5be4c14d852a0e8c4bac1\", \"prefix_fingerprint\": \"790accec146a6241f4e07fb32dde3412d148684a8b785e8b0cb6d82ffd3029cf\"}], \"coverage_verified\": false, \"discovery_finished\": true, \"languages_complete\": true, \"legacy_failed_count\": 0, \"legacy_checkpoint_sha256\": \"70a3d7fa3672bf328c58405e1beeb74d783c1ddc98222493a56bde57d25ce65a\"}",
+            "last_error": "Bounded sample; global coverage is not verified.",
+            "started_at": "2026-10-28 16:06:01+05",
+            "finished_at": "2026-10-28 16:06:18+05"
+        }
+    ]
+}

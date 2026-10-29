@@ -1,0 +1,18 @@
+[
+  {
+    "id": "-8553258",
+    "markdown_hash_verified": true,
+    "replay_markdown_identical": true,
+    "excerpt_reextracted_identically": true,
+    "CER": 0.01904761904761905,
+    "WER": 0.07692307692307693
+  },
+  {
+    "id": "-8553692",
+    "markdown_hash_verified": true,
+    "replay_markdown_identical": true,
+    "excerpt_reextracted_identically": true,
+    "CER": 0,
+    "WER": 0
+  }
+]

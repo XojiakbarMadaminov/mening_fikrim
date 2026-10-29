@@ -1,0 +1,32 @@
+{
+  "php": "8.5.11",
+  "composer": "2.8.5",
+  "postgresql": "17.11",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "databases": [
+    "mening_fikrim_p1",
+    "mening_fikrim_p1_test"
+  ],
+  "packages": {
+    "laravel/framework": "v13.39.0",
+    "symfony/dom-crawler": "v8.1.5",
+    "symfony/css-selector": "v8.1.6",
+    "symfony/process": "v8.1.9",
+    "phpunit/phpunit": "12.5.42"
+  },
+  "extensions": [
+    "pdo_pgsql",
+    "curl",
+    "dom",
+    "mbstring",
+    "xml",
+    "fileinfo",
+    "openssl",
+    "pcntl"
+  ],
+  "queue": "database",
+  "cache": "database",
+  "timezone": "Asia/Tashkent",
+  "credentials": "Only ignored local .env files; not recorded here"
+}

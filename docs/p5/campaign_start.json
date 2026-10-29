@@ -1,0 +1,15 @@
+{
+    "campaign": {
+        "id": "p5-20261028",
+        "request_limit": 4000,
+        "used": 0,
+        "target": 200,
+        "stage": 30,
+        "baseline_max_id": 29,
+        "baseline_count": 29,
+        "started_at": "2026-10-28T23:35:34+05:00",
+        "stopped": null,
+        "consecutive_errors": 0
+    },
+    "new_canonical_documents": 0
+}

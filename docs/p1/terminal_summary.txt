@@ -1,0 +1,12 @@
+P1 YAKUNLANDI — Laravel 13.39.0, PHP 8.5.11, PostgreSQL 17.11
+Migrations: 7/7 Ran; 5 biznes jadval + Laravel queue/cache infrastruktura.
+Tests: 46/46 passed, 187 assertions; failures=0, errors=0, skipped=0.
+Parallel import: 2 PHP process / 2 haqiqiy PostgreSQL lock waiter -> 1 document, 4 identifier, 3 content.
+Rollback: controlled application exception va haqiqiy PostgreSQL P0001 fault snapshotni saqladi.
+Independent languages, old good text, metadata effective date precedence va strict completion testlari otdi.
+Dastlabki HTTP binding/JSONB comparison xatolari tuzatildi; hozir ochiq failing test yoq.
+184 P0/P0.1 artifact o‘zgarmadi; P1da Lex.uz requestlari 0; mavjud baza o‘zgartirilmadi.
+Yangi ilova bazasi: faqat 2 source, 0 document/content/run/job. Fixture yozuvlari alohida _test bazasida.
+P2: texnik GO, aniq tasdiq kutiladi. Full import: NO-GO, alohida ruxsat kerak.
+Hisobot: /home/xojiakbar/PhpstormProjects/mening_fikrim/docs/P1_REPORT.md
+Fayllar: /home/xojiakbar/PhpstormProjects/mening_fikrim/docs/p1/files.json

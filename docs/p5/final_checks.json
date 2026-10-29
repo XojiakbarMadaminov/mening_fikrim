@@ -1,0 +1,49 @@
+{
+    "database": "mening_fikrim_active",
+    "counts": {
+        "documents": 187,
+        "document_identifiers": 509,
+        "document_contents": 433,
+        "scrape_runs": 29,
+        "scrape_run_items": 532,
+        "jobs": 0,
+        "failed_jobs": 24,
+        "migrations": 9
+    },
+    "defaults": {
+        "live": false,
+        "scheduler": false,
+        "workers": 1,
+        "delay_ms": 2000,
+        "per_run_requests": 400
+    },
+    "campaign": {
+        "id": "p5-20261028",
+        "request_limit": 4000,
+        "used": 1229,
+        "target": 200,
+        "stage": 200,
+        "baseline_max_id": 29,
+        "baseline_count": 29,
+        "started_at": "2026-10-28T23:35:34+05:00",
+        "stopped": {
+            "reason": "bounded_source_selection_budget_exhausted",
+            "at": "2026-10-29T00:17:16+05:00"
+        },
+        "consecutive_errors": 0
+    },
+    "temp_files": [],
+    "env_permissions": {
+        ".env": "0600",
+        ".env.testing": "0600"
+    },
+    "test_database": "mening_fikrim_active_test",
+    "test_counts": {
+        "documents": 0,
+        "document_sources": 2,
+        "migrations": 9,
+        "jobs": 0,
+        "failed_jobs": 0
+    },
+    "pass": true
+}

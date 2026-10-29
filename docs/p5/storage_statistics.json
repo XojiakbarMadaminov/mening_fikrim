@@ -1,0 +1,43 @@
+{
+    "postgresql_version": "PostgreSQL 17.11 (Ubuntu 17.11-1.pgdg24.04+2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit",
+    "measurement_notes": "Markdown: UTF-8 octet_length. Metadata\/candidate: pg_column_size, potentially compressed. Relations include indexes\/TOAST; baseline physical bytes were not measured, so physical growth is unknown.",
+    "at": "2026-10-29T00:18:16+05:00",
+    "tables": {
+        "documents": 2326528,
+        "document_identifiers": 499712,
+        "document_contents": 7086080,
+        "scrape_runs": 499712,
+        "scrape_run_items": 10747904,
+        "failed_jobs": 172032,
+        "jobs": 155648,
+        "cache": 81920
+    },
+    "baseline_physical_bytes": null,
+    "new_content_logical_bytes": {
+        "markdown": 6730853,
+        "extraction_metadata": 945615,
+        "pending_candidates": 0
+    },
+    "legal_statuses_all": {
+        "inactive": 1,
+        "active": 179,
+        "pending": 7
+    },
+    "legal_statuses_new": {
+        "pending": 2,
+        "active": 156
+    },
+    "document_types_new": {
+        "Положение": 1,
+        "Соглашение": 2,
+        "Постановление": 65,
+        "Правила": 6,
+        "Приговор": 1,
+        "Распоряжение": 1,
+        "Определение": 1,
+        "Нормативы": 1,
+        "Приказ": 33,
+        "Решение": 47
+    },
+    "new_pending_candidates": 0
+}

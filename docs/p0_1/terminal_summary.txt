@@ -1,0 +1,22 @@
+P0.1 — YAKUNIY NATIJA
+P1: CONDITIONAL GO. Full import: NO-GO.
+
+139 real Lex.uz HTTP request, hammasi 200; minimum interval 2.050024 s.
+Identity: 4 verified guruh, 15 ID, 42 directed edge. abs(id) ishlatilmadi.
+Temporary 4-table model: 24 kelish tartibi/96 import chaqiruvi => 1 doc, 3 full contents.
+Created 1 / unchanged 95; source namespace va persisted anchor saqlandi.
+Discovery: 17 core test, 12 to'liq reconciliation; barcha tillardagi sud F/H/J 4/856/1.
+Katta pagination: 15787/790-sahifa va 55971/2799-sahifa reachable; global coverage isbotlanmagan.
+Resume: 80 unique, 20 duplicate skip. Real expiry kuzatilmadi; invalid state local guard o'tdi.
+19 eski review retest: 6 yangi pass, 13 review. Eski 11 pass qayta parse qilinmadi.
+17/30 — faqat carry-forward bilan kompozit hisob; 30 ta yangi retest emas.
+PDF 101 sahifa; OCR 36 sahifa. OCR to'liq normativ accuracy sifatida qabul qilinmadi.
+Status date conflict avtomatik aniqlandi; quality/review eski ishonchli snapshotni bosmadi.
+37 yangi + 16 regressiya test: PASS, raw fayllar tozalangandan keyin ham.
+150 vaqtinchalik raw/SQLite fayl tozalandi. PLAN hash o'zgarmadi.
+O'lchangan P0.1: 3121.179 s; yakun 12:25:31 +05.
+
+Hisobot: docs/P0_1_REPORT.md
+Tasdiqlashga takliflar: docs/P0_1_PLAN_PROPOSALS.md
+TASKS yangilandi. Laravel/production DB/full import boshlanmagan.
+P1 uchun foydalanuvchining aniq tasdig'i kutilmoqda.

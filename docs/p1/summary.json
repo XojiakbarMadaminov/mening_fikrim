@@ -1,0 +1,20 @@
+{
+  "php": "8.5.11",
+  "laravel": "13.39.0",
+  "postgresql": "17.11",
+  "composer": "2.8.5",
+  "phpunit": "12.5.42",
+  "test_database": "mening_fikrim_p1_test",
+  "tests": 46,
+  "assertions": 187,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "suite_seconds": 9.694817,
+  "business_tables": 5,
+  "migration_files": 7,
+  "p0_fixture_files_unchanged": 184,
+  "live_lex_requests_in_p1": 0,
+  "p2_readiness": "GO for next separately approved development scope",
+  "full_import": "NO-GO; separate authorization and remaining gates required"
+}

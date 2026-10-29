@@ -1,0 +1,64 @@
+Deprecation Notice: The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead in phar:///usr/local/bin/composer/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/FileGetContents.php:55
+> @php artisan config:clear --ansi
+
+  [37;44m INFO [39;49m Configuration cache cleared successfully.  
+
+> @php artisan test '--colors=never' '--log-junit' 'docs/p1/junit.xml'
+
+   PASS  Tests\Unit\DocumentValidatorTest
+  ✓ all four saved identity graphs are verified without fetching         0.31s  
+  ✓ a one way link is not identity proof                                 0.06s  
+  ✓ matching requisites titles and hashes without links do not merge     0.05s  
+  ✓ conflicting requisites require review                                0.05s  
+  ✓ unknown and internally conflicting metadata fail closed              0.01s  
+  ✓ pending becomes active at tashkent midnight only with source active… 0.05s  
+  ✓ source revoked is inactive and n is never assumed pending            0.05s  
+  ✓ actual metadata pdf mismatch is only a warning for status            0.05s  
+  ✓ actual pdf and ocr quality reviews are not overridden by status      0.14s  
+  ✓ page mismatch and uncertified ocr fail even when candidate claims g… 0.05s  
+  ✓ missing optional field cannot bridge two conflicting publication da… 0.05s  
+
+   PASS  Tests\Feature\ConcurrentImportTest
+  ✓ two real php processes wait on postgresql lock and converge to one…  0.56s  
+
+   PASS  Tests\Feature\DocumentImporterTest
+  ✓ real four identifier fixture maps to one document and three full te… 0.23s  
+  ✓ repeated import is idempotent and checks can advance without conten… 0.29s  
+  ✓ all source entrypoints reuse persisted anchor                        0.30s  
+  ✓ source namespace does not collide for identical external ids         0.29s  
+  ✓ one invalid language still saves other valid languages and is incom… 0.29s  
+  ✓ missing required text cannot borrow an old success to mark complete  0.29s  
+  ✓ truncated text never overwrites previous valid content               0.29s  
+  ✓ content hash changes without creating a history row                  0.30s  
+  ✓ crlf normalization does not change hash or markdown structure        0.28s  
+  ✓ conflicting mappings fail closed without automatic merge             0.30s  
+  ✓ database failure after first language insert rolls back every write  0.23s  
+  ✓ unknown metadata preserves entire existing document                  0.27s  
+  ✓ pending active and revoked transitions preserve text                 0.27s  
+  ✓ actual scan metadata date wins warning persists and bad ocr cannot…  0.22s  
+  ✓ all bad languages cannot create an empty document                    0.21s  
+  ✓ new verified language keeps original canonical anchor                0.25s  
+  ✓ real postgresql exception mid update rolls back metadata identifier… 0.30s  
+  ✓ persisted requisites cannot be replaced by a different but internal… 0.28s  
+  ✓ verified identifiers cannot silently disappear from a smaller graph  0.29s  
+  ✓ stale verification cannot overwrite a newer successful check         0.27s  
+  ✓ incomplete queue job exposes failure after valid languages commit    0.23s  
+  ✓ metadata only translation payload is never persisted as content      0.23s  
+  ✓ new inactive document is not admitted but existing documents can be… 0.21s  
+
+   PASS  Tests\Feature\FoundationDatabaseTest
+  ✓ real postgresql schema has exactly five business tables and jsonb c… 0.18s  
+  ✓ migrations roll back and reapply on postgresql                       0.22s  
+  ✓ source seeding is idempotent and preserves disabled sources          0.17s  
+  ✓ all relationships and casts work                                     0.24s  
+  ✓ one source identifier cannot belong to two documents                 0.17s  
+  ✓ foreign keys reject missing and cross source references              0.16s  
+  ✓ content language unique and document delete cascades                 0.23s  
+  ✓ nullable manual anchors and business status checks                   0.15s  
+  ✓ strict completion requires all gates and zero failures even for dir… 0.18s  
+  ✓ database queue dispatch is after commit and rollback does not leave… 0.29s  
+  ✓ queue timing configuration and no live schedules                     0.15s  
+
+  Tests:    46 passed (187 assertions)
+  Duration: 9.81s
+

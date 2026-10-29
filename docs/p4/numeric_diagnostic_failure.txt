@@ -1,0 +1,23 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+[41;37mF[0m                                                                   1 / 1 (100%)
+
+Time: 00:00.477, Memory: 77.26 MB
+
+There was 1 failure:
+
+1) Tests\Feature\CorpusCollectionTest::test_json_numeric_diagnostics_do_not_mark_identical_content_as_updated_after_round_trip
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'unchanged'
++'updated'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:111
+
+[37;41mFAILURES![0m
+[37;41mTests: 1[0m[37;41m, Assertions: 1[0m[37;41m, Failures: 1[0m[37;41m.[0m

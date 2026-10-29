@@ -1,0 +1,18 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+........[41;37mF[0m......                                                   15 / 15 (100%)
+
+Time: 00:08.229, Memory: 91.27 MB
+
+There was 1 failure:
+
+1) Tests\Feature\CorpusCollectionTest::test_review_queue_item_is_persisted_without_failed_job_and_next_import_runs
+Failed asserting that 1 is identical to 2.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:186
+
+[37;41mFAILURES![0m
+[37;41mTests: 15[0m[37;41m, Assertions: 107[0m[37;41m, Failures: 1[0m[37;41m.[0m

@@ -1,0 +1,28 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...........................................................F..... 65 / 67 ( 97%)
+F.                                                                67 / 67 (100%)
+
+Time: 00:13.601, Memory: 84.50 MB
+
+There were 2 failures:
+
+1) Tests\Feature\ScrapingIntegrationTest::test_http_parser_validator_importer_and_real_database_queue_work_together
+Failed asserting that table [documents] matches expected entries count of 1. Entries found: 0.
+.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:45
+
+2) Tests\Feature\ScrapingIntegrationTest::test_partial_language_review_keeps_valid_text_and_failed_job_and_never_completes
+Failed asserting that table [failed_jobs] matches expected entries count of 1. Entries found: 0.
+.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:178
+
+FAILURES!
+Tests: 67, Assertions: 266, Failures: 2.

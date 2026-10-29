@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "tests": {
+    "name": "/home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml",
+    "tests": "143",
+    "assertions": "619",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "time": "43.920044"
+  },
+  "historical_files": 530,
+  "local_report_links_valid": true,
+  "request_accounting_consistent": true,
+  "canonical_attribution_consistent": true
+}

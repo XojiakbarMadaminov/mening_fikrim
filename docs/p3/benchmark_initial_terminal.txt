@@ -1,0 +1,4 @@
+OFFLINE workers=1 interval=2000 ms; 35.261 s; valid=3 review=3 min_gap=2.000066
+OFFLINE workers=2 interval=2000 ms; 35.261 s; valid=3 review=3 min_gap=2.000036
+OFFLINE workers=1 interval=1000 ms; 25.311 s; valid=3 review=3 min_gap=1.000065
+OFFLINE workers=2 interval=1000 ms; 25.307 s; valid=3 review=3 min_gap=1.000037

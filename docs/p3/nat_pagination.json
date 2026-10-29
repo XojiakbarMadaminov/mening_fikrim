@@ -1,0 +1,270 @@
+{
+    "result": {
+        "complete": false,
+        "total": 55982,
+        "unique_ids": 40,
+        "pages": 2,
+        "restarts": 0,
+        "reason": "bounded_budget"
+    },
+    "pages": [
+        {
+            "page": 1,
+            "total": 55982,
+            "rows": [
+                {
+                    "id": "-8557098",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8557098",
+                    "title": "Уран қазиб олиш бўйича кончилик фаолияти учун радиацияни бошқариш режасига қўйиладиган талабларни тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8557098",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8557098",
+                    "title": "Uran qazib olish boʻyicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qoʻyiladigan talablarni tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8554315",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8554315",
+                    "title": "Тўлов свитчи орқали чакана тўловларни ўтказиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554315",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554315",
+                    "title": "Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554436",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554436",
+                    "title": "О внесении изменений и дополнений в Правила предоставления и публикации информации на рынке ценных бумаг",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8554432",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8554432",
+                    "title": "Қимматли қоғозлар бозорида ахборот тақдим этиш ва эълон қилиш қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554432",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554432",
+                    "title": "Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554368",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554368",
+                    "title": "О внесении изменений в Положение о порядке формирования тарифов на коммунальные услуги",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8554353",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8554353",
+                    "title": "Коммунал хизматларга тарифларни шакллантириш бўйича низомга ўзгартиришлар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554353",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554353",
+                    "title": "Kommunal xizmatlarga tariflarni shakllantirish boʻyicha nizomga oʻzgartirishlar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8554326",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8554326",
+                    "title": "Маҳаллий тадбиркорлик субъектларининг халқаро товар деривативлари биржалари савдоларида иштирок этиши устидан назоратни таъминлаш ва уларнинг манфаатларини ҳимоя қилиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554326",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554326",
+                    "title": "Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari birjalari savdolarida ishtirok etishi ustidan nazoratni taʼminlash va ularning manfaatlarini himoya qilish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8554321",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8554321",
+                    "title": "Фавқулодда вазиятлар юзага келишининг олдини олиш ҳамда ёнғин хавфсизлиги соҳасида инсон ҳаёти ва соғлиғига юқори хавф солувчи омиллар реестрига киритиладиган маълумотлар рўйхатини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554321",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554321",
+                    "title": "Favqulodda vaziyatlar yuzaga kelishining oldini olish hamda yongʻin xavfsizligi sohasida inson hayoti va sogʻligʻiga yuqori xavf soluvchi omillar reyestriga kiritiladigan maʼlumotlar roʻyxatini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8559662",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8559662",
+                    "title": "On the approval of the Regulation on the procedure for the operation and maintenance of elevators",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8559660",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8559660",
+                    "title": "Об утверждении Положения о порядке эксплуатации и технического обслуживания лифта",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8553692",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8553692",
+                    "title": "Лифтдан фойдаланиш ва унга техник хизмат кўрсатиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8553692",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8553692",
+                    "title": "Liftdan foydalanish va unga texnik xizmat koʻrsatish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8557123",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8557123",
+                    "title": "О приведении наименований насосных станций в системе Министерства водного хозяйства в соответствие с правилами и нормами государственного языка, а также присвоении некоторым из них новых наименований",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8555578",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8555578",
+                    "title": "On bringing the names of pumping stations within the system of the Ministry of Water Resources into conformity with the rules and standards of the state language and renaming certain stations",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "1be7208b535344c030ff4f418904c02d976de72c9a07d9fb1fe5d916dd9a8ef6",
+            "prefix_fingerprint": "600931b68ee5087ed84c1a0ed35da9b63e20cc47a0a70f647ca3999eab5a5b41",
+            "last_page": false
+        },
+        {
+            "page": 2,
+            "total": 55982,
+            "rows": [
+                {
+                    "id": "-8554309",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8554309",
+                    "title": "Сув хўжалиги вазирлиги тизимидаги насос станцияларининг номларини давлат тили қоида ва меъёрларига мувофиқлаштириш ҳамда уларнинг айримларига янги ном бериш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8554309",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8554309",
+                    "title": "Suv xoʻjaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va meʼyorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8558806",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8558806",
+                    "title": "On additional measures to ensure the environmentally safe operation of greenhouse farms in the city of Tashkent and adjacent territories",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8558804",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8558804",
+                    "title": "О дополнительных мерах по обеспечению экологически безопасной деятельности тепличных хозяйств в городе Ташкенте и на прилегающих территориях",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8553258",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8553258",
+                    "title": "Тошкент шаҳри ва унга туташ ҳудудларда иссиқхона хўжаликларининг экологик хавфсиз фаолият юритишини таъминлашга доир қўшимча чора-тадбирлар тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8553258",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8553258",
+                    "title": "Toshkent shahri va unga tutash hududlarda issiqxona xoʻjaliklarining ekologik xavfsiz faoliyat yuritishini taʼminlashga doir qoʻshimcha chora-tadbirlar toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8549969",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8549969",
+                    "title": "On amendments to the Law of the Republic of Uzbekistan “On the introduction of the Uzbek alphabet based on the Latin script”",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8549958",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8549958",
+                    "title": "О внесении изменений в Закон Республики Узбекистан «О введении узбекского алфавита, основанного на латинской графике»",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8548754",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8548754",
+                    "title": "«Лотин ёзувига асосланган ўзбек алифбосини жорий этиш тўғрисида»ги Ўзбекистон Республикаси Қонунига ўзгартириш киритиш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8548754",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8548754",
+                    "title": "“Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuniga oʻzgartirish kiritish haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8558469",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8558469",
+                    "title": "On measures to fundamentally improve the quality of design and survey work implementation",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8558463",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8558463",
+                    "title": "О мерах по коренному совершенствованию качества проведения проектно-изыскательских работ",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8553231",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8553231",
+                    "title": "Лойиҳа-қидирув ишларини амалга ошириш сифатини тубдан такомиллаштириш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8553231",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8553231",
+                    "title": "Loyiha-qidiruv ishlarini amalga oshirish sifatini tubdan takomillashtirish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8557103",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8557103",
+                    "title": "Об утверждении Положения о порядке определения прочих расходов подрядных организаций при расчете договорных текущих цен объектов строительства",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8555571",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8555571",
+                    "title": "On approval of the Regulation on the procedure for determining other expenses of contracting organizations when calculating current contractual prices for construction projects",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8552693",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8552693",
+                    "title": "Қурилиш объектларининг шартномавий жорий нархларини ҳисоблашда пудрат ташкилотларининг бошқа харажатларини аниқлаштириш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-8552693",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8552693",
+                    "title": "Qurilish obyektlarining shartnomaviy joriy narxlarini hisoblashda pudrat tashkilotlarining boshqa xarajatlarini aniqlashtirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8560037",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8560037",
+                    "title": "On amendments and additions to Resolution No. 500 of the Cabinet of Ministers dated September 27, 2023, “On approval of certain regulatory legal acts governing the activities of the Inspectorate for Control over the Safety of Water Management Facilities and Water Use under the Ministry of Water Resources of the Republic of Uzbekistan,” in connection with the adoption of the Water Code of the Republic of Uzbekistan",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "8558671",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8558671",
+                    "title": "О внесении изменений и дополнений в постановление Кабинета Министров от 27 сентября 2023 года № 500 «Об утверждении некоторых нормативно-правовых актов, регулирующих деятельность Инспекции по контролю за безопасностью объектов водного хозяйства и водопользованием при Министерстве водного хозяйства Республики Узбекистан» в связи с принятием Водного кодекса Республики Узбекистан",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "ad068a86ec261159f61d9575904a0bbad919bd5f3070434cda7e6e92f7bd1e85",
+            "prefix_fingerprint": "9cebe1a997218ccc179bc2be784b55c0bd07019c8b456aead75ff8e129fc8344",
+            "last_page": false
+        }
+    ]
+}

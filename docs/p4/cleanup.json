@@ -1,0 +1,17 @@
+{
+  "raw_source_capture": false,
+  "p4_raw_source_files": [],
+  "parser_temp_entries": [],
+  "active_queue_worker_pids": [],
+  "new_unprotected_python_cache_files_removed": [
+    "docs/p0/__pycache__/sample_import.cpython-312.pyc",
+    "docs/p0/__pycache__/discovery_probe.cpython-312.pyc",
+    "docs/p0/__pycache__/http_probe.cpython-312.pyc",
+    "docs/p0_1/__pycache__/store_probe.cpython-312.pyc",
+    "docs/p0_1/__pycache__/rules.cpython-312.pyc",
+    "docs/p0_1/__pycache__/pdf_checks.cpython-312.pyc",
+    "docs/p0_1/__pycache__/support.cpython-312.pyc"
+  ],
+  "historical_files_preserved": true,
+  "p0_rootless_toolchain_preserved": true
+}

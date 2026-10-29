@@ -1,0 +1,3906 @@
+{
+  "-8553258": {
+    "offline_replay_of_fresh_real_pdf": true,
+    "resource_url": "https://lex.uz/pdffile/-8553258",
+    "source_sha256": "56de648020634c94adb29460b539a885eb7a7d99183dd38b6dc9207b9c765296",
+    "markdown_hash_unchanged": true,
+    "quality": {
+      "format": "ocr",
+      "complete": true,
+      "structure_verified": false,
+      "document_certified": false,
+      "issues": [
+        "declared_language_script_mismatch",
+        "low_ocr_confidence",
+        "ocr_critical_tokens_unverified",
+        "ocr_source_identifier_not_certified",
+        "pdf_image_semantics_unverified",
+        "pdf_language_coverage_unconfirmed",
+        "pdf_reading_order_unverified",
+        "pdf_structure_unverified",
+        "uncertified_ocr"
+      ],
+      "pages_expected": 17,
+      "pages_extracted": 17,
+      "ocr_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "page_stats": [
+        {
+          "page": 1,
+          "chars": 1897,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 36,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 1,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    266,
+                    334,
+                    278,
+                    29
+                  ],
+                  "confidence": 49.740479,
+                  "word": "OʻZBEKISTON",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 36,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "84c1b381af71730b00f18f6ab2626c1ce6f9a96a85b6ceab134e677f1c4d8488",
+            "mean_confidence": 95.2626,
+            "low_confidence_fraction": 0.00448,
+            "words": 223,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 2,
+          "chars": 2536,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 44,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 4,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    480,
+                    279,
+                    135,
+                    38
+                  ],
+                  "confidence": 60.170551,
+                  "word": "(СЕМ5)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    479,
+                    881,
+                    123,
+                    37
+                  ],
+                  "confidence": 55.363403,
+                  "word": "бўлган",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1085,
+                    1976,
+                    134,
+                    38
+                  ],
+                  "confidence": 53.910976,
+                  "word": "(СЕМ8)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    214,
+                    2222,
+                    179,
+                    28
+                  ],
+                  "confidence": 7.439209,
+                  "word": "шартнома",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 44,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "3f4fc33978c73daed56f189c5a41bcbb87df2cd9361c7de5bca3e6496625eea1",
+            "mean_confidence": 94.8489,
+            "low_confidence_fraction": 0.01361,
+            "words": 294,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 3,
+          "chars": 2572,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 44,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 1,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1267,
+                    299,
+                    69,
+                    20
+                  ],
+                  "confidence": 56.574821,
+                  "word": "млн",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 44,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "ab2e423964646b6dda7524d067c6b81efa2b932adb3a344d63d0aaa0b65a437b",
+            "mean_confidence": 95.285,
+            "low_confidence_fraction": 0.00328,
+            "words": 305,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 4,
+          "chars": 2424,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    439,
+                    638,
+                    47,
+                    29
+                  ],
+                  "confidence": 0,
+                  "word": "Ш",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    497,
+                    648,
+                    125,
+                    28
+                  ],
+                  "confidence": 0,
+                  "word": "чораги",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    611,
+                    1844,
+                    374,
+                    38
+                  ],
+                  "confidence": 65.789093,
+                  "word": "чиқарувчиларетказиб",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "3f364ac721d6ba2f6e1a8fb6c6d5b1b0e520d0ce95847e0b406d1ed2987022b5",
+            "mean_confidence": 94.7428,
+            "low_confidence_fraction": 0.01087,
+            "words": 276,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 5,
+          "chars": 2727,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 45,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 7,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    257,
+                    230,
+                    238,
+                    39
+                  ],
+                  "confidence": 52.923893,
+                  "word": "филътрлардан",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    458,
+                    590,
+                    163,
+                    27
+                  ],
+                  "confidence": 35.124702,
+                  "word": "туманида",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    719,
+                    779,
+                    255,
+                    40
+                  ],
+                  "confidence": 36.205811,
+                  "word": "филтратларни",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    380,
+                    1135,
+                    255,
+                    40
+                  ],
+                  "confidence": 69.562424,
+                  "word": "филътратларни",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    335,
+                    1286,
+                    29,
+                    37
+                  ],
+                  "confidence": 59.62965,
+                  "word": "Гг)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1374,
+                    1536,
+                    186,
+                    46
+                  ],
+                  "confidence": 47.785229,
+                  "word": "топширади.",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    227,
+                    1635,
+                    211,
+                    28
+                  ],
+                  "confidence": 69.445152,
+                  "word": "ПФ-184-сон",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 45,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "3dc454c9c5b171986eeab4131dd06d9aff7afd438e7bdd20785255f015d2881e",
+            "mean_confidence": 94.3604,
+            "low_confidence_fraction": 0.02215,
+            "words": 316,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 6,
+          "chars": 1622,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 29,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 2,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    242,
+                    1310,
+                    243,
+                    28
+                  ],
+                  "confidence": 0,
+                  "word": "ҳужжатларига",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    593,
+                    1349,
+                    227,
+                    33
+                  ],
+                  "confidence": 44.422066,
+                  "word": "Маҳкамасига",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 29,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "9d880b99aaf4663e5f3789cb8ed8a2e9eb8a826bcd060c6b5b832d18741e0bee",
+            "mean_confidence": 94.3417,
+            "low_confidence_fraction": 0.0107,
+            "words": 187,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 7,
+          "chars": 2057,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 11,
+          "text_vertical_coverage": 0.09394,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 40,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    721,
+                    934,
+                    304,
+                    38
+                  ],
+                  "confidence": 39.619347,
+                  "word": "ифлослантирувнчи",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    669,
+                    989,
+                    139,
+                    20
+                  ],
+                  "confidence": 61.611866,
+                  "word": "чанг-газ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1076,
+                    991,
+                    278,
+                    29
+                  ],
+                  "confidence": 50.565819,
+                  "word": "ускуналарининг",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 40,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "8ad3993adc289cd529267426534fc38930698e715de982b6b2c483d83bae2833",
+            "mean_confidence": 94.6395,
+            "low_confidence_fraction": 0.01277,
+            "words": 235,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 8,
+          "chars": 2222,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 41,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 5,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1221,
+                    586,
+                    238,
+                    30
+                  ],
+                  "confidence": 41.627373,
+                  "word": "олиштозалаш",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    759,
+                    749,
+                    21,
+                    3
+                  ],
+                  "confidence": 63.448559,
+                  "word": "–",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    571,
+                    880,
+                    125,
+                    28
+                  ],
+                  "confidence": 38.711601,
+                  "word": "модул",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    816,
+                    1519,
+                    163,
+                    38
+                  ],
+                  "confidence": 2.914772,
+                  "word": "филътрни",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    638,
+                    1725,
+                    112,
+                    28
+                  ],
+                  "confidence": 54.183815,
+                  "word": "кувват",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 41,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "a3e62fcd5f9b6baf9470170c42ab2cc3321ce0f4083780055cbe8d9a5a42d2b6",
+            "mean_confidence": 94.136,
+            "low_confidence_fraction": 0.01792,
+            "words": 279,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 9,
+          "chars": 1720,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 40,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 53,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    98,
+                    76,
+                    170,
+                    26
+                  ],
+                  "confidence": 50.751553,
+                  "word": "23.10.2026-у.",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    348,
+                    180,
+                    39,
+                    2
+                  ],
+                  "confidence": 0,
+                  "word": "=",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    475,
+                    180,
+                    10,
+                    2
+                  ],
+                  "confidence": 38.888214,
+                  "word": "Б",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    507,
+                    180,
+                    150,
+                    59
+                  ],
+                  "confidence": 0,
+                  "word": "три",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    668,
+                    203,
+                    208,
+                    36
+                  ],
+                  "confidence": 44.187263,
+                  "word": "ўркатияган",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    888,
+                    181,
+                    102,
+                    58
+                  ],
+                  "confidence": 51.188133,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    992,
+                    181,
+                    37,
+                    50
+                  ],
+                  "confidence": 27.158302,
+                  "word": "И",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1040,
+                    181,
+                    154,
+                    3
+                  ],
+                  "confidence": 50.810852,
+                  "word": "2",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1395,
+                    183,
+                    102,
+                    3
+                  ],
+                  "confidence": 6.69368,
+                  "word": "B",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    242,
+                    220,
+                    120,
+                    78
+                  ],
+                  "confidence": 34.653954,
+                  "word": "Турух",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    251,
+                    385,
+                    74,
+                    3
+                  ],
+                  "confidence": 14.358223,
+                  "word": "A",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    626,
+                    387,
+                    47,
+                    2
+                  ],
+                  "confidence": 23.688629,
+                  "word": "Yii",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    764,
+                    387,
+                    47,
+                    2
+                  ],
+                  "confidence": 0,
+                  "word": "s-",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    939,
+                    387,
+                    27,
+                    3
+                  ],
+                  "confidence": 42.190216,
+                  "word": "ни",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1142,
+                    391,
+                    2,
+                    8
+                  ],
+                  "confidence": 38.022964,
+                  "word": "I",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    377,
+                    390,
+                    2,
+                    30
+                  ],
+                  "confidence": 69.140236,
+                  "word": "!",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    391,
+                    622,
+                    108,
+                    27
+                  ],
+                  "confidence": 19.763885,
+                  "word": "ТЎМВт",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1137,
+                    670,
+                    88,
+                    36
+                  ],
+                  "confidence": 21.654625,
+                  "word": "ШЕР",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    235,
+                    710,
+                    283,
+                    33
+                  ],
+                  "confidence": 0,
+                  "word": "—УМУ1А4МВТ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1137,
+                    709,
+                    3,
+                    35
+                  ],
+                  "confidence": 47.613316,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1208,
+                    698,
+                    101,
+                    27
+                  ],
+                  "confidence": 38.871647,
+                  "word": "иирик",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    235,
+                    744,
+                    3,
+                    27
+                  ],
+                  "confidence": 66.037506,
+                  "word": "1",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    666,
+                    778,
+                    26,
+                    49
+                  ],
+                  "confidence": 21.030182,
+                  "word": "ў;",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1185,
+                    779,
+                    123,
+                    49
+                  ],
+                  "confidence": 63.322788,
+                  "word": "бўйича",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    382,
+                    1299,
+                    12,
+                    28
+                  ],
+                  "confidence": 44.270844,
+                  "word": "Б",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    405,
+                    1298,
+                    103,
+                    37
+                  ],
+                  "confidence": 44.270844,
+                  "word": "тоифа",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    293,
+                    1623,
+                    350,
+                    59
+                  ],
+                  "confidence": 0.515587,
+                  "word": "\"Ифлослантирувчи",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1055,
+                    1654,
+                    33,
+                    18
+                  ],
+                  "confidence": 20.459732,
+                  "word": "мг",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1100,
+                    1644,
+                    69,
+                    28
+                  ],
+                  "confidence": 20.459732,
+                  "word": "Нм\"",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1388,
+                    1623,
+                    135,
+                    50
+                  ],
+                  "confidence": 0,
+                  "word": "мини",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    225,
+                    1689,
+                    134,
+                    57
+                  ],
+                  "confidence": 17.825607,
+                  "word": "Қаттиқ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1100,
+                    1688,
+                    36,
+                    3
+                  ],
+                  "confidence": 51.629902,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    241,
+                    1754,
+                    142,
+                    58
+                  ],
+                  "confidence": 12.170486,
+                  "word": "иа",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    380,
+                    1723,
+                    16,
+                    93
+                  ],
+                  "confidence": 22.080559,
+                  "word": "Б",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    469,
+                    1784,
+                    189,
+                    27
+                  ],
+                  "confidence": 10.980789,
+                  "word": "io",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    669,
+                    1753,
+                    82,
+                    69
+                  ],
+                  "confidence": 67.459816,
+                  "word": "50,",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    826,
+                    1753,
+                    26,
+                    2
+                  ],
+                  "confidence": 0,
+                  "word": "ш-",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    950,
+                    1753,
+                    29,
+                    2
+                  ],
+                  "confidence": 26.888535,
+                  "word": "==",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    962,
+                    1753,
+                    122,
+                    68
+                  ],
+                  "confidence": 24.527199,
+                  "word": "ЎТИ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1276,
+                    1817,
+                    41,
+                    3
+                  ],
+                  "confidence": 37.148384,
+                  "word": "б",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1339,
+                    1753,
+                    88,
+                    67
+                  ],
+                  "confidence": 12.532738,
+                  "word": "ГА",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1497,
+                    1753,
+                    55,
+                    3
+                  ],
+                  "confidence": 19.310089,
+                  "word": "n",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    228,
+                    1820,
+                    108,
+                    50
+                  ],
+                  "confidence": 67.481949,
+                  "word": "Азот",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    504,
+                    1819,
+                    258,
+                    50
+                  ],
+                  "confidence": 48.033062,
+                  "word": "NO",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    962,
+                    1818,
+                    111,
+                    68
+                  ],
+                  "confidence": 51.036308,
+                  "word": "300",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1120,
+                    1818,
+                    8,
+                    2
+                  ],
+                  "confidence": 67.758865,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1264,
+                    1882,
+                    5,
+                    2
+                  ],
+                  "confidence": 27.640533,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1328,
+                    1818,
+                    211,
+                    66
+                  ],
+                  "confidence": 64.038437,
+                  "word": "400",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    223,
+                    1926,
+                    155,
+                    19
+                  ],
+                  "confidence": 49.639137,
+                  "word": "\"Углерод",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    554,
+                    1883,
+                    147,
+                    68
+                  ],
+                  "confidence": 30.88559,
+                  "word": "СО",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    842,
+                    1884,
+                    34,
+                    42
+                  ],
+                  "confidence": 8.756287,
+                  "word": "Б",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1457,
+                    1883,
+                    20,
+                    2
+                  ],
+                  "confidence": 0,
+                  "word": "-",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1201,
+                    1969,
+                    315,
+                    27
+                  ],
+                  "confidence": 59.830738,
+                  "word": "конуентрациялари",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 40,
+              "tall_line_count": 2,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "4772752c9b307226ebc094ed9958b7b8e37842a6a0ab23d9b85fb4ed8f83b27d",
+            "mean_confidence": 81.4993,
+            "low_confidence_fraction": 0.20784,
+            "words": 255,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 10,
+          "chars": 1687,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 39,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 18,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    255,
+                    612,
+                    48,
+                    34
+                  ],
+                  "confidence": 60.06179,
+                  "word": "67",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    314,
+                    591,
+                    72,
+                    49
+                  ],
+                  "confidence": 56.255806,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    871,
+                    593,
+                    16,
+                    3
+                  ],
+                  "confidence": 19.69326,
+                  "word": "ВТ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    966,
+                    594,
+                    45,
+                    3
+                  ],
+                  "confidence": 56.097618,
+                  "word": "4",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1290,
+                    596,
+                    53,
+                    49
+                  ],
+                  "confidence": 52.119148,
+                  "word": "56",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1497,
+                    597,
+                    73,
+                    2
+                  ],
+                  "confidence": 28.856117,
+                  "word": "==.",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    246,
+                    656,
+                    150,
+                    68
+                  ],
+                  "confidence": 29.190643,
+                  "word": "Ўлан",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    381,
+                    678,
+                    45,
+                    46
+                  ],
+                  "confidence": 35.232056,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    727,
+                    658,
+                    4,
+                    2
+                  ],
+                  "confidence": 34.334297,
+                  "word": "mo",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1046,
+                    659,
+                    26,
+                    3
+                  ],
+                  "confidence": 63.539055,
+                  "word": "й",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1201,
+                    660,
+                    84,
+                    3
+                  ],
+                  "confidence": 33.938843,
+                  "word": "ШРИ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1304,
+                    682,
+                    37,
+                    28
+                  ],
+                  "confidence": 57.7687,
+                  "word": "5;",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1395,
+                    661,
+                    85,
+                    3
+                  ],
+                  "confidence": 29.203705,
+                  "word": "ai",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    678,
+                    787,
+                    13,
+                    3
+                  ],
+                  "confidence": 39.894333,
+                  "word": "б",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1304,
+                    746,
+                    38,
+                    28
+                  ],
+                  "confidence": 35.832939,
+                  "word": "0",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    288,
+                    993,
+                    176,
+                    29
+                  ],
+                  "confidence": 43.715752,
+                  "word": "З-жадвал.",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    327,
+                    1583,
+                    19,
+                    28
+                  ],
+                  "confidence": 52.946568,
+                  "word": "Nn",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    418,
+                    1722,
+                    20,
+                    4
+                  ],
+                  "confidence": 65.969978,
+                  "word": "7",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 39,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "7e9cad8823cf621767c503612a3306db0e48339a6f8ace9ce1da0ca049565798",
+            "mean_confidence": 90.0261,
+            "low_confidence_fraction": 0.0766,
+            "words": 235,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 11,
+          "chars": 2526,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 45,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 45,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "13db9354e0c96ecdec663b9dce72863081985847172096b7be17d933bc9fd17e",
+            "mean_confidence": 95.4592,
+            "low_confidence_fraction": 0,
+            "words": 303,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 12,
+          "chars": 2204,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 43,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 1,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1405,
+                    1692,
+                    158,
+                    37
+                  ],
+                  "confidence": 56.277344,
+                  "word": "филътрда",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 43,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "bfdbe5a42d4e5d0317aa4a56452ace9aba0810a4411882001ae46fb575da8b37",
+            "mean_confidence": 95.4721,
+            "low_confidence_fraction": 0.00373,
+            "words": 268,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 13,
+          "chars": 2089,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 40,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 7,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    754,
+                    349,
+                    187,
+                    38
+                  ],
+                  "confidence": 0,
+                  "word": "филтрлар,",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    952,
+                    350,
+                    311,
+                    38
+                  ],
+                  "confidence": 39.835899,
+                  "word": "электрофилвтрлар",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    380,
+                    672,
+                    94,
+                    27
+                  ],
+                  "confidence": 9.703613,
+                  "word": "тутун",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    237,
+                    709,
+                    306,
+                    37
+                  ],
+                  "confidence": 34.999435,
+                  "word": "(десулъфуризация",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    335,
+                    870,
+                    29,
+                    37
+                  ],
+                  "confidence": 63.648312,
+                  "word": "8)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1289,
+                    870,
+                    118,
+                    38
+                  ],
+                  "confidence": 0,
+                  "word": "филтр",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    235,
+                    917,
+                    220,
+                    37
+                  ],
+                  "confidence": 24.550636,
+                  "word": "филтрловчи",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 40,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "4f8b8c7335a28d344c65ef08078030852f5659e8ca3d6a6eadb51afbceb45c91",
+            "mean_confidence": 93.2559,
+            "low_confidence_fraction": 0.02767,
+            "words": 253,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 14,
+          "chars": 2461,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 45,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1215,
+                    1738,
+                    137,
+                    20
+                  ],
+                  "confidence": 62.328415,
+                  "word": "чанг-гаа",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    333,
+                    1932,
+                    28,
+                    37
+                  ],
+                  "confidence": 69.526505,
+                  "word": "Г)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    232,
+                    1988,
+                    161,
+                    28
+                  ],
+                  "confidence": 68.41111,
+                  "word": "тақдирда:",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 45,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "062216259de37172d36a689abc3f75a4816361ca615f9279d680462ea3ffdc23",
+            "mean_confidence": 95.2754,
+            "low_confidence_fraction": 0.01064,
+            "words": 282,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 15,
+          "chars": 2335,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 1,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1311,
+                    771,
+                    88,
+                    33
+                  ],
+                  "confidence": 41.159763,
+                  "word": "РМ.о,",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "513ea20bc00622f92c5b3dd440b012d8c38c05fabf9c9c26056c18980547d127",
+            "mean_confidence": 94.9446,
+            "low_confidence_fraction": 0.00376,
+            "words": 266,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 16,
+          "chars": 2345,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "106f4a352591fe8aa688ce7b8af7e46d0211863f060ce04e53d9e7cb65ef8819",
+            "mean_confidence": 95.1847,
+            "low_confidence_fraction": 0,
+            "words": 265,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 17,
+          "chars": 1265,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 22,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 2,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1310,
+                    282,
+                    275,
+                    29
+                  ],
+                  "confidence": 62.56155,
+                  "word": "ускуналарининг",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    676,
+                    1146,
+                    215,
+                    37
+                  ],
+                  "confidence": 63.819077,
+                  "word": "талабларини",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 22,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "c4e66e949e97bcad249e27e95cd1dcd37f309936d0e955b98d1cc4ec33400f46",
+            "mean_confidence": 95.1593,
+            "low_confidence_fraction": 0.01429,
+            "words": 140,
+            "model": "uzb_cyrl+uzb"
+          }
+        }
+      ],
+      "critical_tokens": {
+        "document_number": {
+          "expected": "586",
+          "found": true
+        },
+        "issued_date": {
+          "expected": "22.10.2026",
+          "found": false
+        }
+      },
+      "validation_levels": {
+        "bytes_valid": true,
+        "page_accounting_valid": true,
+        "text_layer_extraction_valid": false,
+        "text_extraction_nonempty": true,
+        "reading_order_verified": false,
+        "table_section_structure_verified": false,
+        "language_coverage_verified": false,
+        "ocr_accuracy_verified": false
+      },
+      "layout_diagnostics": {
+        "engine": "pdfplumber",
+        "version": "0.11.10",
+        "pages": [
+          {
+            "page": 1,
+            "image_count": 13,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 2,
+            "image_count": 11,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 3,
+            "image_count": 5,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 4,
+            "image_count": 16,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 5,
+            "image_count": 12,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 6,
+            "image_count": 4,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 7,
+            "image_count": 6,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 8,
+            "image_count": 11,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 9,
+            "image_count": 18,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 10,
+            "image_count": 14,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 11,
+            "image_count": 11,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 12,
+            "image_count": 17,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 13,
+            "image_count": 11,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 14,
+            "image_count": 14,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 15,
+            "image_count": 18,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 16,
+            "image_count": 11,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 17,
+            "image_count": 8,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          }
+        ],
+        "document_certified": false
+      },
+      "provenance": {
+        "parser": "P3-poppler-tesseract",
+        "source_sha256": "56de648020634c94adb29460b539a885eb7a7d99183dd38b6dc9207b9c765296",
+        "markdown_sha256": "4632a8ce8e69656a3baa27531f38414d5961ae5636b9a3c28ff7b18886b417a5",
+        "physical_language": "uz-Cyrl",
+        "declared_language": "uz-Latn",
+        "raster_max_pixels": 2400,
+        "ocr_dpi": 200
+      },
+      "timings": {
+        "pdf_parse_seconds": 80.797043,
+        "ocr_seconds": 71.117802
+      },
+      "source_id_check": "Source URL/card identity is checked separately; OCR cannot certify the source identifier."
+    },
+    "gold": {
+      "page": 17,
+      "reference": "39. Ушбу Низом талабларининг бузилишида айбдор бўлган шахслар қонунчилик ҳужжатларига мувофиқ жавоб беради.",
+      "observed": "39, Ушбу Низом талабларини бузилишида айбдор бўлган шахслар қонунчилик ҳужжатларига мувофиқ жавоб беради",
+      "metrics": {
+        "normalization": "Unicode lowercase; punctuation to spaces; compact whitespace",
+        "reference_chars": 105,
+        "character_errors": 2,
+        "CER": 0.01904761904761905,
+        "word_errors": 1,
+        "WER": 0.07692307692307693,
+        "document_certified": false,
+        "scope": "excerpt_only"
+      }
+    }
+  },
+  "-8553692": {
+    "offline_replay_of_fresh_real_pdf": true,
+    "resource_url": "https://lex.uz/pdffile/-8553692",
+    "source_sha256": "74578a77260f51b31a7f44444fc362b5a2f6f57d1ebdbd46d88c544019a5e63c",
+    "markdown_hash_unchanged": true,
+    "quality": {
+      "format": "ocr",
+      "complete": true,
+      "structure_verified": false,
+      "document_certified": false,
+      "issues": [
+        "declared_language_script_mismatch",
+        "low_ocr_confidence",
+        "ocr_critical_tokens_unverified",
+        "ocr_source_identifier_not_certified",
+        "pdf_image_semantics_unverified",
+        "pdf_language_coverage_unconfirmed",
+        "pdf_reading_order_unverified",
+        "pdf_structure_unverified",
+        "uncertified_ocr"
+      ],
+      "pages_expected": 19,
+      "pages_extracted": 19,
+      "ocr_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "page_stats": [
+        {
+          "page": 1,
+          "chars": 1638,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 35,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 2,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    787,
+                    266,
+                    24,
+                    37
+                  ],
+                  "confidence": 42.626694,
+                  "word": "€,",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    748,
+                    465,
+                    31,
+                    25
+                  ],
+                  "confidence": 60.684162,
+                  "word": "У",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 35,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "3fbafc75a2d9e397361c31e09c21c009aa331b81eb5d895eb565ef4fd27602d5",
+            "mean_confidence": 94.8014,
+            "low_confidence_fraction": 0.00995,
+            "words": 201,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 2,
+          "chars": 329,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 8,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 8,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "9a1958bf184006d03e8cb7d2420d4f02c7033e315fb7c5a46900723b38adc6a5",
+            "mean_confidence": 94.78,
+            "low_confidence_fraction": 0,
+            "words": 39,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 3,
+          "chars": 1797,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 38,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 38,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "01ef2ef7d0fb2401c44b456d86fa3978d2c168b1fa91fc1814fe0aa05b67e3a4",
+            "mean_confidence": 94.983,
+            "low_confidence_fraction": 0,
+            "words": 210,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 4,
+          "chars": 2396,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    942,
+                    322,
+                    138,
+                    30
+                  ],
+                  "confidence": 33.449532,
+                  "word": "19ОЛЕС",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    234,
+                    693,
+                    316,
+                    38
+                  ],
+                  "confidence": 14.165306,
+                  "word": "кўтариштушириш",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    331,
+                    1023,
+                    128,
+                    28
+                  ],
+                  "confidence": 63.027031,
+                  "word": "масъул",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "08833359217bea36f63bf3f0f49e62bdcce429baf66608ae1c640ed10031dcbc",
+            "mean_confidence": 94.6602,
+            "low_confidence_fraction": 0.01017,
+            "words": 295,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 5,
+          "chars": 2418,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 41,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 41,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "ee809402881dd14665c602b566cd54314472867a700e1ab6034a438c80eeedfa",
+            "mean_confidence": 95.5516,
+            "low_confidence_fraction": 0,
+            "words": 293,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 6,
+          "chars": 2522,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "d8ba0a6188ab2beebdb69f20fac8895aa3aaf743f7470ed5a017308faaccc396",
+            "mean_confidence": 95.575,
+            "low_confidence_fraction": 0,
+            "words": 295,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 7,
+          "chars": 2358,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 2,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1457,
+                    1244,
+                    44,
+                    47
+                  ],
+                  "confidence": 47.757793,
+                  "word": "ва)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1508,
+                    1251,
+                    51,
+                    26
+                  ],
+                  "confidence": 47.757793,
+                  "word": "ёки",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "eeb4e1177b4c4daaacad4edc0cab6ce8afb6a3eacabe7b616d4d6d6fae0b2ce6",
+            "mean_confidence": 95.1964,
+            "low_confidence_fraction": 0.00699,
+            "words": 286,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 8,
+          "chars": 2341,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 41,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 41,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "c26ec6bee901e2a5488e58326048afde952fbaf7a95c9b1335ddc8009a5ca9d0",
+            "mean_confidence": 95.577,
+            "low_confidence_fraction": 0,
+            "words": 292,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 9,
+          "chars": 1901,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 40,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 40,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "2c0a842e54a7b38279ff168cd4378b2598d37ca54880dd13fce72e939e0b8739",
+            "mean_confidence": 95.7873,
+            "low_confidence_fraction": 0,
+            "words": 235,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 10,
+          "chars": 1794,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 39,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 39,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "e6b88eaef60d8692e5fbadc779568b736feefc43ed3ec08513188d80e8aabfbd",
+            "mean_confidence": 95.6103,
+            "low_confidence_fraction": 0,
+            "words": 224,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 11,
+          "chars": 2438,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 1,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    665,
+                    1769,
+                    191,
+                    35
+                  ],
+                  "confidence": 58.639275,
+                  "word": "кўрсатувчи",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "ba934737012487bb9e5087d6dd3610f1f8684b85371c4c020681733c2d3b4be1",
+            "mean_confidence": 95.4985,
+            "low_confidence_fraction": 0.00323,
+            "words": 310,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 12,
+          "chars": 2198,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 42,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 0,
+              "regions": [],
+              "sample_truncated": false,
+              "line_count": 42,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "5085bbc74ac8e6d73b12559b9f89cfcde449ffca18725950a2f52883bd3b8664",
+            "mean_confidence": 96.0514,
+            "low_confidence_fraction": 0,
+            "words": 276,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 13,
+          "chars": 2074,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 39,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    98,
+                    42,
+                    86,
+                    21
+                  ],
+                  "confidence": 69.284058,
+                  "word": "ОММВ:",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    203,
+                    42,
+                    249,
+                    20
+                  ],
+                  "confidence": 60.465366,
+                  "word": "0912615881070-в0п",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    820,
+                    2101,
+                    81,
+                    29
+                  ],
+                  "confidence": 69.389374,
+                  "word": "бино",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 39,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "1edd9e4f3f1b7258c234d845f8db40598499037adb6cfec1e7ca2c33269d49ed",
+            "mean_confidence": 95.357,
+            "low_confidence_fraction": 0.01167,
+            "words": 257,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 14,
+          "chars": 2309,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 41,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    98,
+                    62,
+                    170,
+                    47
+                  ],
+                  "confidence": 50.751553,
+                  "word": "23.10.2026-у.",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1517,
+                    420,
+                    7,
+                    3
+                  ],
+                  "confidence": 62.547462,
+                  "word": "7",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    308,
+                    490,
+                    2,
+                    2
+                  ],
+                  "confidence": 4.434311,
+                  "word": "—",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 41,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "e58b696491e2c65bda60227d6fe7a5fdb9a89eadca8adecdf3055e6f2aa9a13d",
+            "mean_confidence": 95.2855,
+            "low_confidence_fraction": 0.01034,
+            "words": 290,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 15,
+          "chars": 1021,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 19,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 2,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    98,
+                    62,
+                    170,
+                    50
+                  ],
+                  "confidence": 54.195221,
+                  "word": "23,10.2026-у.",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1244,
+                    641,
+                    153,
+                    29
+                  ],
+                  "confidence": 67.879532,
+                  "word": "ҳуқуқига",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 19,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "3cd4808d47b6d386647208c05a1dc8c28830959042a93c1fb642ba53fda76f23",
+            "mean_confidence": 95.0239,
+            "low_confidence_fraction": 0.01739,
+            "words": 115,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 16,
+          "chars": 1480,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 71,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 2,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1249,
+                    1728,
+                    56,
+                    30
+                  ],
+                  "confidence": 68.105057,
+                  "word": "ОК-",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1165,
+                    1893,
+                    138,
+                    24
+                  ],
+                  "confidence": 63.440868,
+                  "word": "такдирда,",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 71,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "abb85c6727becda59c8591b10791e17b24630169ecd39fb27e4d311722dbeecb",
+            "mean_confidence": 94.8312,
+            "low_confidence_fraction": 0.0117,
+            "words": 171,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 17,
+          "chars": 1710,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 35,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 3,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    329,
+                    1777,
+                    78,
+                    34
+                  ],
+                  "confidence": 59.403839,
+                  "word": "\"401,",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    420,
+                    1781,
+                    191,
+                    38
+                  ],
+                  "confidence": 50.637939,
+                  "word": "Лифтларни",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    387,
+                    2006,
+                    244,
+                    28
+                  ],
+                  "confidence": 68.982903,
+                  "word": "шуғулланувчи",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 35,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "6eca837106a4154e445f6f2659a9356e2c1694f55eb3ac7ffae9af733008e9e0",
+            "mean_confidence": 94.0552,
+            "low_confidence_fraction": 0.01471,
+            "words": 204,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 18,
+          "chars": 255,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 6,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 1,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    336,
+                    197,
+                    60,
+                    33
+                  ],
+                  "confidence": 63.381042,
+                  "word": "40\".",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 6,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "22d083ac8ef0a0d4c40210b36db235a94221a2b4cfe308071da8cf7bbba4eeb4",
+            "mean_confidence": 93.8022,
+            "low_confidence_fraction": 0.03333,
+            "words": 30,
+            "model": "uzb_cyrl+uzb"
+          }
+        },
+        {
+          "page": 19,
+          "chars": 821,
+          "ocr": true,
+          "image_coverage": 1,
+          "body_chars": 0,
+          "text_vertical_coverage": 0.02735,
+          "layout": {
+            "multi_column_suspected": false,
+            "out_of_page_text_boxes": 0,
+            "reading_order_verified": false,
+            "missing_or_merged_lines_verified": false
+          },
+          "confidence": {
+            "line_count": 18,
+            "suspicious_word_boxes": 0,
+            "review_regions": {
+              "coordinate_space": "OCR raster pixels",
+              "raster_size": {
+                "width": 1698,
+                "height": 2400
+              },
+              "region_count": 5,
+              "regions": [
+                {
+                  "bbox_xywh": [
+                    1044,
+                    241,
+                    33,
+                    24
+                  ],
+                  "confidence": 63.725338,
+                  "word": "22",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1088,
+                    241,
+                    14,
+                    10
+                  ],
+                  "confidence": 63.725338,
+                  "word": "\"",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    804,
+                    503,
+                    198,
+                    29
+                  ],
+                  "confidence": 39.797623,
+                  "word": "РУЙИФХАТИ",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1055,
+                    1080,
+                    168,
+                    33
+                  ],
+                  "confidence": 1.819,
+                  "word": "тасдиқр)",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                },
+                {
+                  "bbox_xywh": [
+                    1340,
+                    1084,
+                    22,
+                    5
+                  ],
+                  "confidence": 44.422943,
+                  "word": "i5",
+                  "reasons": [
+                    "low_word_confidence"
+                  ]
+                }
+              ],
+              "sample_truncated": false,
+              "line_count": 18,
+              "tall_line_count": 0,
+              "missing_or_merged_lines_verified": false
+            },
+            "tsv_sha256": "5d91827e5704aeb79e95cf958764e419f096ba4a45fd54faa4bfd5e2408108bb",
+            "mean_confidence": 91.5985,
+            "low_confidence_fraction": 0.05376,
+            "words": 93,
+            "model": "uzb_cyrl+uzb"
+          }
+        }
+      ],
+      "critical_tokens": {
+        "document_number": {
+          "expected": "588",
+          "found": true
+        },
+        "issued_date": {
+          "expected": "22.10.2026",
+          "found": false
+        }
+      },
+      "validation_levels": {
+        "bytes_valid": true,
+        "page_accounting_valid": true,
+        "text_layer_extraction_valid": false,
+        "text_extraction_nonempty": true,
+        "reading_order_verified": false,
+        "table_section_structure_verified": false,
+        "language_coverage_verified": false,
+        "ocr_accuracy_verified": false
+      },
+      "layout_diagnostics": {
+        "engine": "pdfplumber",
+        "version": "0.11.10",
+        "pages": [
+          {
+            "page": 1,
+            "image_count": 24,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 2,
+            "image_count": 4,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 3,
+            "image_count": 12,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 4,
+            "image_count": 9,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 5,
+            "image_count": 14,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 6,
+            "image_count": 17,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 7,
+            "image_count": 11,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 8,
+            "image_count": 12,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 9,
+            "image_count": 10,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 10,
+            "image_count": 6,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 11,
+            "image_count": 13,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 12,
+            "image_count": 16,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 13,
+            "image_count": 12,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 14,
+            "image_count": 12,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 15,
+            "image_count": 5,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 16,
+            "image_count": 7,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 17,
+            "image_count": 9,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 18,
+            "image_count": 3,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          },
+          {
+            "page": 19,
+            "image_count": 6,
+            "trials": [
+              {
+                "tolerance": 3,
+                "tables": []
+              },
+              {
+                "tolerance": 8,
+                "tables": []
+              }
+            ],
+            "settings_disagree": false,
+            "table_relationships_verified": false
+          }
+        ],
+        "document_certified": false
+      },
+      "provenance": {
+        "parser": "P3-poppler-tesseract",
+        "source_sha256": "74578a77260f51b31a7f44444fc362b5a2f6f57d1ebdbd46d88c544019a5e63c",
+        "markdown_sha256": "072c8d43c8fc3d9f957f52a2ce457d7096216fd323ee99be95ca145d9d092aee",
+        "physical_language": "uz-Cyrl",
+        "declared_language": "uz-Latn",
+        "raster_max_pixels": 2400,
+        "ocr_dpi": 200
+      },
+      "timings": {
+        "pdf_parse_seconds": 71.239692,
+        "ocr_seconds": 63.187109
+      },
+      "source_id_check": "Source URL/card identity is checked separately; OCR cannot certify the source identifier."
+    },
+    "gold": {
+      "page": 1,
+      "reference": "4. Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради.",
+      "observed": "4. Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради.",
+      "metrics": {
+        "normalization": "Unicode lowercase; punctuation to spaces; compact whitespace",
+        "reference_chars": 52,
+        "character_errors": 0,
+        "CER": 0,
+        "word_errors": 0,
+        "WER": 0,
+        "document_certified": false,
+        "scope": "excerpt_only"
+      }
+    },
+    "gold_replay_matcher_failure": {
+      "matched": false,
+      "cause": "PHP converts numeric string object keys to integers; strict string ID comparison chose clause-39 matcher for clause-4 document",
+      "reconciled_from": "SHA-256 verified original P3 Markdown; identical replay Markdown hash; same exact excerpt re-extracted without HTTP or OCR",
+      "corrected_driver": "local_ocr_regions.php explicitly casts ID to string"
+    }
+  }
+}

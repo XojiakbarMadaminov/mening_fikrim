@@ -1,0 +1,9 @@
+{
+  "run_id": 7,
+  "run_seconds": 193,
+  "requests": 90,
+  "requests_per_second": 0.46632124352331605,
+  "accepted_revalidated_groups_per_hour": 55.95854922279793,
+  "review_groups_per_hour": 242.48704663212436,
+  "note": "3 already-stored accepted groups revalidated, no new document in run 7; final worker process wall 193.660023289s"
+}

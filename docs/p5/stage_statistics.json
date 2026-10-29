@@ -1,0 +1,72 @@
+[
+  {
+    "stage": "B",
+    "target_cumulative_new": 30,
+    "actual_cumulative_new": 30,
+    "new_documents": 30,
+    "new_contents": 69,
+    "verified_contents_delta": 61,
+    "needs_review_contents_delta": 8,
+    "selected_source_ids": 59,
+    "skipped_aliases": 19,
+    "technical_failures": 0,
+    "http_requests_import_only": 216,
+    "run_ids": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "completed": true,
+    "duration_seconds_run_start_to_finish_sum": 424.0
+  },
+  {
+    "stage": "C",
+    "target_cumulative_new": 100,
+    "actual_cumulative_new": 100,
+    "new_documents": 70,
+    "new_contents": 168,
+    "verified_contents_delta": 136,
+    "needs_review_contents_delta": 32,
+    "selected_source_ids": 154,
+    "skipped_aliases": 68,
+    "technical_failures": 0,
+    "http_requests_import_only": 487,
+    "run_ids": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "completed": true,
+    "duration_seconds_run_start_to_finish_sum": 982.0
+  },
+  {
+    "stage": "D",
+    "target_cumulative_new": 200,
+    "actual_cumulative_new": 158,
+    "new_documents": 58,
+    "new_contents": 133,
+    "verified_contents_delta": 105,
+    "needs_review_contents_delta": 28,
+    "selected_source_ids": 150,
+    "skipped_aliases": 65,
+    "technical_failures": 0,
+    "http_requests_import_only": 471,
+    "run_ids": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "completed": false,
+    "duration_seconds_run_start_to_finish_sum": 958.0
+  }
+]

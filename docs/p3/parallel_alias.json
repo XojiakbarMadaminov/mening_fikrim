@@ -1,0 +1,519 @@
+{
+    "offline": true,
+    "summary": {
+        "run_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 3,
+        "canonical_document_groups": 1,
+        "canonical_documents_stored": 1,
+        "processed": 3,
+        "created": 1,
+        "updated": 0,
+        "imported": 1,
+        "unchanged": 0,
+        "skipped_alias": 2,
+        "queued": 0,
+        "processing": 0,
+        "pending_retry": 0,
+        "failed": 0,
+        "technical_failed": 0,
+        "review_required": 0,
+        "active": 1,
+        "pending": 0,
+        "inactive": 0,
+        "stored_content_count": 3,
+        "valid_content_count": 3,
+        "duration_seconds": 6,
+        "coverage_verified": false,
+        "gates": {
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": true
+        },
+        "open_items": 0,
+        "html": 1,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "en": 1,
+            "uz-Cyrl": 1,
+            "uz-Latn": 1
+        },
+        "required_language_failures": 0,
+        "source_status_counts": {
+            "active": 3,
+            "pending": 0,
+            "inactive": 0
+        }
+    },
+    "items": [
+        {
+            "id": 1,
+            "scrape_run_id": 1,
+            "source_external_id": "8506802",
+            "document_id": 1,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": null,
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "en": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": []
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 0.346269,
+                    "fetch_parse_seconds": 2.097291,
+                    "fetch_parse_import_seconds": 2.120607
+                },
+                "quality": {
+                    "en": {
+                        "format": "html",
+                        "issues": []
+                    },
+                    "uz-Cyrl": {
+                        "format": "html",
+                        "issues": []
+                    },
+                    "uz-Latn": {
+                        "format": "html",
+                        "issues": []
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "en": {
+                        "state": "valid",
+                        "errors": []
+                    },
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": []
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "document_id": 1,
+                "identity_key": "d912c785dd66c55767ce6b80786a7313be25d517e55d2c13e1be8a0fc1a3df04",
+                "source_status": "active",
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 2,
+            "dispatch_token": "7da0c29a-bb33-4c3c-807d-61b353f59fba",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T13:15:14.000000Z",
+            "finished_at": "2026-10-28T13:15:16.000000Z",
+            "created_at": "2026-10-28T13:15:14.000000Z",
+            "updated_at": "2026-10-28T13:15:16.000000Z"
+        },
+        {
+            "id": 2,
+            "scrape_run_id": 1,
+            "source_external_id": "-8506802",
+            "document_id": 1,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": null,
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "en": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": []
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "metrics": {
+                    "queue_wait_seconds": 0.346832,
+                    "fetch_parse_seconds": 6.101219,
+                    "fetch_parse_import_seconds": 6.128072
+                },
+                "quality": {
+                    "en": {
+                        "format": "html",
+                        "issues": []
+                    },
+                    "uz-Cyrl": {
+                        "format": "html",
+                        "issues": []
+                    },
+                    "uz-Latn": {
+                        "format": "html",
+                        "issues": []
+                    }
+                },
+                "complete": true,
+                "languages": {
+                    "en": {
+                        "state": "valid",
+                        "errors": []
+                    },
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": []
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "document_id": 1,
+                "source_status": "active",
+                "alias_of_item_id": 1,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 3,
+            "dispatch_token": "6e696ede-3c1f-4231-82a1-cf8777d7f81b",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T13:15:14.000000Z",
+            "finished_at": "2026-10-28T13:15:20.000000Z",
+            "created_at": "2026-10-28T13:15:14.000000Z",
+            "updated_at": "2026-10-28T13:15:20.000000Z"
+        },
+        {
+            "id": 3,
+            "scrape_run_id": 1,
+            "source_external_id": "8506870",
+            "document_id": 1,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": null,
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "en": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": []
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "en": {
+                        "state": "valid",
+                        "errors": []
+                    },
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": []
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "document_id": 1,
+                "source_status": "active",
+                "alias_of_item_id": 1,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 4,
+            "dispatch_token": "b64ebf70-2161-4cd7-b45c-2b5c0836b718",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T13:15:16.000000Z",
+            "finished_at": "2026-10-28T13:15:16.000000Z",
+            "created_at": "2026-10-28T13:15:14.000000Z",
+            "updated_at": "2026-10-28T13:15:16.000000Z"
+        }
+    ],
+    "worker_profiles": [
+        {
+            "pid": 1396461,
+            "wall_seconds": 7.24037687,
+            "php_peak_bytes": 58720256,
+            "self_usage": {
+                "ru_oublock": 0,
+                "ru_inblock": 0,
+                "ru_msgsnd": 0,
+                "ru_msgrcv": 0,
+                "ru_maxrss": 103496,
+                "ru_ixrss": 0,
+                "ru_idrss": 0,
+                "ru_minflt": 19650,
+                "ru_majflt": 0,
+                "ru_nsignals": 0,
+                "ru_nvcsw": 329,
+                "ru_nivcsw": 15,
+                "ru_nswap": 0,
+                "ru_utime.tv_usec": 293811,
+                "ru_utime.tv_sec": 0,
+                "ru_stime.tv_usec": 64015,
+                "ru_stime.tv_sec": 0
+            },
+            "child_usage": {
+                "ru_oublock": 0,
+                "ru_inblock": 0,
+                "ru_msgsnd": 0,
+                "ru_msgrcv": 0,
+                "ru_maxrss": 63288,
+                "ru_ixrss": 0,
+                "ru_idrss": 0,
+                "ru_minflt": 318,
+                "ru_majflt": 0,
+                "ru_nsignals": 0,
+                "ru_nvcsw": 5,
+                "ru_nivcsw": 6,
+                "ru_nswap": 0,
+                "ru_utime.tv_usec": 0,
+                "ru_utime.tv_sec": 0,
+                "ru_stime.tv_usec": 4790,
+                "ru_stime.tv_sec": 0
+            },
+            "lock_queries": [
+                {
+                    "source_lock": false,
+                    "seconds": 0.00111
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00047999999999999996
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.0008100000000000001
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00067
+                },
+                {
+                    "source_lock": true,
+                    "seconds": 0.00108
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00041
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00035
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00041999999999999996
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00026000000000000003
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.0004
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00055
+                }
+            ],
+            "transactions_seconds": [
+                0.007634731,
+                0.010557314,
+                0.038831381,
+                0.001696823,
+                0.00848745,
+                0.001001824
+            ]
+        },
+        {
+            "pid": 1396462,
+            "wall_seconds": 3.248399575,
+            "php_peak_bytes": 58720256,
+            "self_usage": {
+                "ru_oublock": 8,
+                "ru_inblock": 0,
+                "ru_msgsnd": 0,
+                "ru_msgrcv": 0,
+                "ru_maxrss": 102976,
+                "ru_ixrss": 0,
+                "ru_idrss": 0,
+                "ru_minflt": 19642,
+                "ru_majflt": 0,
+                "ru_nsignals": 0,
+                "ru_nvcsw": 312,
+                "ru_nivcsw": 15,
+                "ru_nswap": 0,
+                "ru_utime.tv_usec": 291092,
+                "ru_utime.tv_sec": 0,
+                "ru_stime.tv_usec": 54519,
+                "ru_stime.tv_sec": 0
+            },
+            "child_usage": {
+                "ru_oublock": 0,
+                "ru_inblock": 0,
+                "ru_msgsnd": 0,
+                "ru_msgrcv": 0,
+                "ru_maxrss": 62740,
+                "ru_ixrss": 0,
+                "ru_idrss": 0,
+                "ru_minflt": 317,
+                "ru_majflt": 0,
+                "ru_nsignals": 0,
+                "ru_nvcsw": 5,
+                "ru_nivcsw": 7,
+                "ru_nswap": 0,
+                "ru_utime.tv_usec": 2296,
+                "ru_utime.tv_sec": 0,
+                "ru_stime.tv_usec": 2046,
+                "ru_stime.tv_sec": 0
+            },
+            "lock_queries": [
+                {
+                    "source_lock": false,
+                    "seconds": 0.0008
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00054
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00047999999999999996
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00041999999999999996
+                },
+                {
+                    "source_lock": true,
+                    "seconds": 0.0005
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.0007199999999999999
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00064
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00035999999999999997
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00041
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00041
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00034
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00037
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00029
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00025
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00028000000000000003
+                },
+                {
+                    "source_lock": false,
+                    "seconds": 0.00023999999999999998
+                }
+            ],
+            "transactions_seconds": [
+                0.006830686,
+                0.010725792,
+                0.036871494,
+                0.001626057,
+                0.003461417,
+                0.002079739,
+                0.003554333,
+                0.006266053,
+                0.001512065,
+                0.002276896,
+                0.000491956
+            ]
+        }
+    ]
+}

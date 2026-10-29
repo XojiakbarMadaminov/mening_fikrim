@@ -1,0 +1,36 @@
+{
+  "changed_existing": [
+    "README.md",
+    "app/Console/Commands/ManagePilotCampaign.php",
+    "app/Models/Document.php",
+    "app/Scraping/LexUz/LexUzParser.php",
+    "app/Scraping/LexUz/LexUzScraper.php",
+    "app/Services/Documents/DocumentImporter.php",
+    "app/Services/Documents/DocumentValidator.php",
+    "app/Services/Scraping/PilotCampaign.php",
+    "app/Services/Scraping/ScrapeRunManager.php",
+    "docs/IMPORT_CONTRACT.md",
+    "docs/LEX_SCRAPING_PLAN.md",
+    "docs/LEX_SCRAPING_TASKS.md"
+  ],
+  "new_source_or_test_files": [
+    "app/Services/Documents/LanguageAvailability.php",
+    "app/Services/Scraping/BoundedDiscovery.php",
+    "tests/Feature/BoundedDiscoveryTest.php",
+    "tests/Feature/FollowupCampaignTest.php",
+    "tests/Feature/LanguageAvailabilityTest.php",
+    "tests/Unit/P51SourceEvidenceTest.php"
+  ],
+  "new_migrations": [],
+  "critical_unchanged": {
+    "app/Scraping/LexUz/HtmlMarkdownParser.php": true,
+    "app/Scraping/LexUz/PdfTextExtractor.php": true,
+    "app/Scraping/LexUz/PdfQualityInspector.php": true,
+    "app/Services/Documents/ContentQuality.php": true,
+    "app/Scraping/LexUz/LexHttpClient.php": true,
+    "app/Services/Scraping/RunItemTracker.php": true,
+    "AGENTS.md": true
+  },
+  "evidence_directory": "docs/p5_1",
+  "new_report": "docs/P5_1_REPORT.md"
+}

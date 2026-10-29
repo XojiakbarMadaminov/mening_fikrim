@@ -1,0 +1,24 @@
+{
+    "campaign": {
+        "id": "p5-1-20261029",
+        "request_limit": 1800,
+        "used": 0,
+        "target": 42,
+        "stage": 20,
+        "stages": [
+            20,
+            42
+        ],
+        "source_limit": 180,
+        "selected_ids": [],
+        "audit_count": null,
+        "previous_id": "p5-20261028",
+        "previous_state_sha256": "10e340da307f3c3dcacd4c549dbbdc697211343a4ef2a09615b865483d78f910",
+        "baseline_max_id": 187,
+        "baseline_count": 187,
+        "started_at": "2026-10-29T05:22:53+05:00",
+        "stopped": null,
+        "consecutive_errors": 0
+    },
+    "new_canonical_documents": 0
+}

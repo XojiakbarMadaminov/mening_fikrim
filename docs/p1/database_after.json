@@ -1,0 +1,16 @@
+{
+  "existing_database": "mening_fikrim_active",
+  "existing_public_tables": [],
+  "p1_database": "mening_fikrim_p1",
+  "p1_rows": {
+    "document_sources": 2,
+    "documents": 0,
+    "document_identifiers": 0,
+    "document_contents": 0,
+    "scrape_runs": 0,
+    "jobs": 0
+  },
+  "existing_schema_unchanged": true,
+  "fixtures_unchanged": true,
+  "fixture_files": 184
+}

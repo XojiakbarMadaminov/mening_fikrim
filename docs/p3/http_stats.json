@@ -1,0 +1,16 @@
+{
+  "requests": 289,
+  "statuses": {
+    "200": 289
+  },
+  "minimum_start_interval_seconds": 2.000021696992917,
+  "all_intervals_at_least_2s": true,
+  "campaign_budget": 400,
+  "within_budget": true,
+  "decoded_response_bytes": 120690043,
+  "latency_p50_seconds": 0.088779,
+  "latency_p95_seconds": 0.78167,
+  "first_at": "2026-10-28T17:57:25.050455+05:00",
+  "last_at": "2026-10-28T18:38:50.003072+05:00",
+  "http_retries": 0
+}

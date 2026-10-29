@@ -1,0 +1,71 @@
+{
+  "controller_elapsed_seconds": 2497.234586918,
+  "active_worker_seconds": 2377.9501156779997,
+  "operator_pause_seconds": 0,
+  "explanation": "One uninterrupted controller invocation; worker time includes pacing/network/parser/DB/retries. Controller minus worker includes discovery, audits, queue orchestration and file I/O, not operator pauses. Queue waiting percentiles are not additive to elapsed time.",
+  "network_pacing_and_backoff_wait_seconds": 2267.142398356,
+  "job_fetch_parse_import_seconds": 2242.198605,
+  "transaction_and_reconciliation_seconds_estimate": 6.36198000000001,
+  "all_worker_database_query_seconds": 30.8977400000002,
+  "peak_php_bytes": 113770496,
+  "max_self_rss_kib": 247596,
+  "max_child_rss_kib": 178472,
+  "html_parse_seconds": {
+    "observations": 482,
+    "sum": 11.79766,
+    "p50": 0.006047,
+    "p95": 0.086585
+  },
+  "pdf_parse_seconds": {
+    "observations": 2,
+    "sum": 27.773225,
+    "p50": 6.742802,
+    "p95": 21.030423
+  },
+  "ocr_seconds": {
+    "observations": 1,
+    "sum": 20.513313,
+    "p50": 20.513313
+  },
+  "queue_wait_seconds": {
+    "p50": 68.790568,
+    "p95": 182.699603
+  },
+  "new_documents_per_hour_worker": 239.19761657313995,
+  "new_documents_per_hour_end_to_end": 227.7719534158756,
+  "new_contents_per_hour_worker": 560.1463172915303,
+  "new_contents_per_hour_end_to_end": 533.3900174928732,
+  "requests_per_new_document_all_overhead": 7.7784810126582276,
+  "queue_retry_attempts": 0,
+  "technical_failure_rate_items": 0.0,
+  "projections": {
+    "1000": {
+      "same_mix_hours": 4.390356165467651,
+      "same_mix_requests": 7779,
+      "planning_range_hours_1x_to_3x": [
+        4.390356165467651,
+        13.171068496402953
+      ],
+      "ocr_sensitivity_extra_hours_per_10_percent_at_60s_per_doc": 1.6666666666666667
+    },
+    "10000": {
+      "same_mix_hours": 43.903561654676516,
+      "same_mix_requests": 77785,
+      "planning_range_hours_1x_to_3x": [
+        43.903561654676516,
+        131.71068496402955
+      ],
+      "ocr_sensitivity_extra_hours_per_10_percent_at_60s_per_doc": 16.666666666666668
+    },
+    "100000": {
+      "same_mix_hours": 439.0356165467651,
+      "same_mix_requests": 777849,
+      "planning_range_hours_1x_to_3x": [
+        439.0356165467651,
+        1317.1068496402952
+      ],
+      "ocr_sensitivity_extra_hours_per_10_percent_at_60s_per_doc": 166.66666666666666
+    }
+  },
+  "projection_limitations": "Linear planning estimates only; this sample mix, observed discovery/alias/retry overhead included. 1x–3x is a planning scenario, not a confidence interval. Unseen scanned PDFs, long tables, drift, access stops and multi-day worker/cache reliability may dominate; 60s OCR sensitivity is an assumption, not measured OCR throughput."
+}

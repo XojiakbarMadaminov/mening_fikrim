@@ -1,0 +1,33 @@
+{
+  "baseline": {
+    "document_sources": 2,
+    "documents": 187,
+    "document_identifiers": 509,
+    "document_contents": 433,
+    "scrape_runs": 29,
+    "scrape_run_items": 532,
+    "failed_jobs": 24,
+    "jobs": 0,
+    "migrations": 9
+  },
+  "baseline_tests": {
+    "tests": 143,
+    "assertions": 619,
+    "pass": true
+  },
+  "prelive_tests": {
+    "tests": 166,
+    "assertions": 696,
+    "pass": true
+  },
+  "migrations": 9,
+  "workers": 1,
+  "delay_ms": 2000,
+  "page_cap": 8,
+  "per_context_requests": 400,
+  "queue": "database",
+  "retry_after_seconds": 960,
+  "scheduler_enabled": false,
+  "p5_state_preserved": true,
+  "note": "Original preflight JSON page_budget=null is a diagnostic key typo (scraping.discovery_page_budget); actual scraping.page_budget=8 in unchanged config, used explicitly by driver and confirmed in final_checks. The original evidence was not rewritten."
+}

@@ -1,0 +1,4178 @@
+[
+    {
+        "offline": true,
+        "workers": 1,
+        "interval_ms": 2000,
+        "wall_seconds": 35.191802015,
+        "request_count": 12,
+        "minimum_start_interval_seconds": 2.0000658280041534,
+        "requests_per_second": 0.3409885062119062,
+        "valid_documents_per_hour": 306.88965559071556,
+        "review_documents_per_hour": 306.88965559071556,
+        "summary": {
+            "run_id": 5,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "scope": "bounded_sample",
+            "discovered": 6,
+            "canonical_document_groups": 6,
+            "canonical_documents_stored": 3,
+            "processed": 6,
+            "created": 3,
+            "updated": 0,
+            "imported": 3,
+            "unchanged": 0,
+            "skipped_alias": 0,
+            "queued": 0,
+            "processing": 0,
+            "pending_retry": 0,
+            "failed": 0,
+            "technical_failed": 0,
+            "review_required": 3,
+            "active": 3,
+            "pending": 0,
+            "inactive": 0,
+            "stored_content_count": 3,
+            "valid_content_count": 3,
+            "duration_seconds": 34,
+            "coverage_verified": false,
+            "gates": {
+                "quality_passed": false,
+                "jobs_reconciled": true,
+                "coverage_verified": false,
+                "discovery_finished": true,
+                "languages_complete": false
+            },
+            "open_items": 0,
+            "html": 4,
+            "pdf": 0,
+            "ocr": 2,
+            "languages": {
+                "uz-Latn": 3
+            },
+            "required_language_failures": 3,
+            "source_status_counts": {
+                "active": 6,
+                "pending": 0,
+                "inactive": 0
+            }
+        },
+        "requests": [
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99005000",
+                "attempt": 1,
+                "start_monotonic": 204216.436506449,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.043342
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99005000",
+                "attempt": 1,
+                "start_monotonic": 204218.436662528,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.028551
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99005001",
+                "attempt": 1,
+                "start_monotonic": 204220.436816862,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.027245
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99005001",
+                "attempt": 1,
+                "start_monotonic": 204222.436935378,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026675
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99005002",
+                "attempt": 1,
+                "start_monotonic": 204224.437086155,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026903
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99005002",
+                "attempt": 1,
+                "start_monotonic": 204226.437153131,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026976
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99005003",
+                "attempt": 1,
+                "start_monotonic": 204228.437308905,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.024259
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99005003",
+                "attempt": 1,
+                "start_monotonic": 204230.437471133,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.024191
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99005004",
+                "attempt": 1,
+                "start_monotonic": 204232.437585299,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026734
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99005004",
+                "attempt": 1,
+                "start_monotonic": 204234.437651127,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.027001
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99005005",
+                "attempt": 1,
+                "start_monotonic": 204241.325112233,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.023255
+            },
+            {
+                "context": "run-5",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99005005",
+                "attempt": 1,
+                "start_monotonic": 204243.325185308,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.02664
+            }
+        ],
+        "workers_profile": [
+            {
+                "pid": 1381710,
+                "wall_seconds": 34.870364289,
+                "php_peak_bytes": 63438848,
+                "self_usage": {
+                    "ru_oublock": 16,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 108156,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 31746,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 1052,
+                    "ru_nivcsw": 48,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 595322,
+                    "ru_utime.tv_sec": 0,
+                    "ru_stime.tv_usec": 93521,
+                    "ru_stime.tv_sec": 0
+                },
+                "child_usage": {
+                    "ru_oublock": 208,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 138712,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 84275,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 7,
+                    "ru_nivcsw": 381,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 207595,
+                    "ru_utime.tv_sec": 13,
+                    "ru_stime.tv_usec": 341421,
+                    "ru_stime.tv_sec": 0
+                },
+                "lock_queries": [
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00091
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035999999999999997
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0003
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00041999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00085
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00078
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00074
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00066
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00045
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0009
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00074
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008100000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00076
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00025
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00023
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00054
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00023
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008399999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008399999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008100000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005200000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007700000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0006
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00074
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00031
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00065
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00079
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00078
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007099999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007199999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00027
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00031
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007199999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00022
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00051
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00095
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00087
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00057
+                    }
+                ],
+                "transactions_seconds": [
+                    0.007757788,
+                    0.01095761,
+                    0.026424326,
+                    0.00268482,
+                    0.003696353,
+                    0.001855405,
+                    0.004158748,
+                    0.015488102,
+                    0.00266873,
+                    0.003430545,
+                    0.001513833,
+                    0.00413593,
+                    0.018597692,
+                    0.001894741,
+                    0.004174388,
+                    0.005019627,
+                    0.003277686,
+                    0.015439456,
+                    0.002576266,
+                    0.004089979,
+                    0.002333772,
+                    0.003613723,
+                    0.015005866,
+                    0.002276595,
+                    0.002354773,
+                    0.001744462,
+                    0.003300669,
+                    0.015492297,
+                    0.003076137,
+                    0.014753765,
+                    0.000915219
+                ]
+            }
+        ],
+        "lock_wait_samples_at_100ms": 0,
+        "items": [
+            {
+                "id": 25,
+                "scrape_run_id": 5,
+                "source_external_id": "99005000",
+                "document_id": 13,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 1.204625,
+                        "fetch_parse_seconds": 2.116776
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.006358
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 13,
+                    "identity_key": "7d2efecfb5c5ec5e34dbcae37eff878d1a8eddcd6894c805999fb826b7d48484",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 30,
+                "dispatch_token": "84008658-3696-49c0-9aa5-a82c44cbc942",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:49:13.000000Z",
+                "finished_at": "2026-10-28T12:49:15.000000Z",
+                "created_at": "2026-10-28T12:49:12.000000Z",
+                "updated_at": "2026-10-28T12:49:15.000000Z"
+            },
+            {
+                "id": 26,
+                "scrape_run_id": 5,
+                "source_external_id": "99005001",
+                "document_id": 14,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 3.355174,
+                        "fetch_parse_seconds": 3.944782
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000581
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 14,
+                    "identity_key": "12caef8be667d2c0910a5783c249501a6a901dfc0f02db2481f3c15bac2e43e3",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 31,
+                "dispatch_token": "ff11a482-b1ab-47d3-940d-bd9b22908f18",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:49:15.000000Z",
+                "finished_at": "2026-10-28T12:49:19.000000Z",
+                "created_at": "2026-10-28T12:49:12.000000Z",
+                "updated_at": "2026-10-28T12:49:19.000000Z"
+            },
+            {
+                "id": 27,
+                "scrape_run_id": 5,
+                "source_external_id": "99005002",
+                "document_id": 15,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 7.321268,
+                        "fetch_parse_seconds": 3.977362
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000548
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 15,
+                    "identity_key": "524143f2592c33a228596f4cbbdeb67138598fbf44baf20dbc62c8555cb70ec8",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 32,
+                "dispatch_token": "042182df-b6b0-4fd7-889f-2f5bbb4d3bab",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:49:19.000000Z",
+                "finished_at": "2026-10-28T12:49:23.000000Z",
+                "created_at": "2026-10-28T12:49:12.000000Z",
+                "updated_at": "2026-10-28T12:49:23.000000Z"
+            },
+            {
+                "id": 28,
+                "scrape_run_id": 5,
+                "source_external_id": "99005003",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000558
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 11.330157999999999,
+                        "fetch_parse_seconds": 3.964477
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000558
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "5b12ee7ca79befb4f04c0b751c023617586aeec84e55d3bf0f71e13f6ad4a027",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 33,
+                "dispatch_token": "52ae12ec-2aae-41e9-a9e5-3a371b1a5a0f",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:49:23.000000Z",
+                "finished_at": "2026-10-28T12:49:27.000000Z",
+                "created_at": "2026-10-28T12:49:12.000000Z",
+                "updated_at": "2026-10-28T12:49:27.000000Z"
+            },
+            {
+                "id": 29,
+                "scrape_run_id": 5,
+                "source_external_id": "99005004",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.778693571
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 15.323082000000001,
+                        "fetch_parse_seconds": 10.754212
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.778693571
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "22caaaff7d7ef78941cf2bcfc238b48d3654f952598018dd3872a672182ec876",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 34,
+                "dispatch_token": "13ee6c6f-a304-4058-a9d2-f361137868f7",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:49:27.000000Z",
+                "finished_at": "2026-10-28T12:49:38.000000Z",
+                "created_at": "2026-10-28T12:49:12.000000Z",
+                "updated_at": "2026-10-28T12:49:38.000000Z"
+            },
+            {
+                "id": 30,
+                "scrape_run_id": 5,
+                "source_external_id": "99005005",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.772662362
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 26.100542,
+                        "fetch_parse_seconds": 8.855761
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.772662362
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "a3ca44805972871538a228a7013101bba23acdba189bdb2e4e488b6767c0b0f9",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 35,
+                "dispatch_token": "a6898413-93d0-49a4-98f8-9e476f6ca2ae",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:49:38.000000Z",
+                "finished_at": "2026-10-28T12:49:46.000000Z",
+                "created_at": "2026-10-28T12:49:12.000000Z",
+                "updated_at": "2026-10-28T12:49:46.000000Z"
+            }
+        ]
+    },
+    {
+        "offline": true,
+        "workers": 2,
+        "interval_ms": 2000,
+        "wall_seconds": 30.340096216,
+        "request_count": 12,
+        "minimum_start_interval_seconds": 2.0000219409994315,
+        "requests_per_second": 0.39551621440382057,
+        "valid_documents_per_hour": 355.96459296343846,
+        "review_documents_per_hour": 355.96459296343846,
+        "summary": {
+            "run_id": 6,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "scope": "bounded_sample",
+            "discovered": 6,
+            "canonical_document_groups": 6,
+            "canonical_documents_stored": 3,
+            "processed": 6,
+            "created": 3,
+            "updated": 0,
+            "imported": 3,
+            "unchanged": 0,
+            "skipped_alias": 0,
+            "queued": 0,
+            "processing": 0,
+            "pending_retry": 0,
+            "failed": 0,
+            "technical_failed": 0,
+            "review_required": 3,
+            "active": 3,
+            "pending": 0,
+            "inactive": 0,
+            "stored_content_count": 3,
+            "valid_content_count": 3,
+            "duration_seconds": 29,
+            "coverage_verified": false,
+            "gates": {
+                "quality_passed": false,
+                "jobs_reconciled": true,
+                "coverage_verified": false,
+                "discovery_finished": true,
+                "languages_complete": false
+            },
+            "open_items": 0,
+            "html": 4,
+            "pdf": 0,
+            "ocr": 2,
+            "languages": {
+                "uz-Latn": 3
+            },
+            "required_language_failures": 3,
+            "source_status_counts": {
+                "active": 6,
+                "pending": 0,
+                "inactive": 0
+            }
+        },
+        "requests": [
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99006000",
+                "attempt": 1,
+                "start_monotonic": 204251.686144134,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.043673
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99006000",
+                "attempt": 1,
+                "start_monotonic": 204253.686213268,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026866
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99006002",
+                "attempt": 1,
+                "start_monotonic": 204255.686339713,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026864
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99006002",
+                "attempt": 1,
+                "start_monotonic": 204257.68645366,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026677
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99006001",
+                "attempt": 1,
+                "start_monotonic": 204259.686521066,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.046099
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99006001",
+                "attempt": 1,
+                "start_monotonic": 204261.686592396,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.023845
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99006004",
+                "attempt": 1,
+                "start_monotonic": 204263.686661856,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.02679
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99006004",
+                "attempt": 1,
+                "start_monotonic": 204265.686737519,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026588
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99006003",
+                "attempt": 1,
+                "start_monotonic": 204267.686806069,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026523
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99006003",
+                "attempt": 1,
+                "start_monotonic": 204269.686873731,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026773
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99006005",
+                "attempt": 1,
+                "start_monotonic": 204271.68699231,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026561
+            },
+            {
+                "context": "run-6",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99006005",
+                "attempt": 1,
+                "start_monotonic": 204273.687014251,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026754
+            }
+        ],
+        "workers_profile": [
+            {
+                "pid": 1381864,
+                "wall_seconds": 29.989448684,
+                "php_peak_bytes": 63438848,
+                "self_usage": {
+                    "ru_oublock": 16,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 108432,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 27247,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 938,
+                    "ru_nivcsw": 39,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 481577,
+                    "ru_utime.tv_sec": 0,
+                    "ru_stime.tv_usec": 91162,
+                    "ru_stime.tv_sec": 0
+                },
+                "child_usage": {
+                    "ru_oublock": 104,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 138368,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 42297,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 6,
+                    "ru_nivcsw": 267,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 611095,
+                    "ru_utime.tv_sec": 6,
+                    "ru_stime.tv_usec": 179957,
+                    "ru_stime.tv_sec": 0
+                },
+                "lock_queries": [
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00095
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00065
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00057
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00058
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00075
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007199999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00057
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00027
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0004
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00067
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00027
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00038
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0006
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00076
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00044
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00023999999999999998
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00026000000000000003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00054
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00058
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00054
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00062
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00023
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00031
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00088
+                    }
+                ],
+                "transactions_seconds": [
+                    0.007244217,
+                    0.010186477,
+                    0.025124301,
+                    0.002220372,
+                    0.005051782,
+                    0.002868549,
+                    0.003552064,
+                    0.016660077,
+                    0.002156681,
+                    0.00320489,
+                    0.002176808,
+                    0.003075244,
+                    0.010714525,
+                    0.002053325,
+                    0.003246326,
+                    0.001995986,
+                    0.003286456,
+                    0.010778486,
+                    0.001622928,
+                    0.010011817,
+                    0.001475798
+                ]
+            },
+            {
+                "pid": 1381865,
+                "wall_seconds": 21.97523339,
+                "php_peak_bytes": 63438848,
+                "self_usage": {
+                    "ru_oublock": 0,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 107680,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 22726,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 554,
+                    "ru_nivcsw": 15,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 374111,
+                    "ru_utime.tv_sec": 0,
+                    "ru_stime.tv_usec": 61362,
+                    "ru_stime.tv_sec": 0
+                },
+                "child_usage": {
+                    "ru_oublock": 104,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 138524,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 42295,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 5,
+                    "ru_nivcsw": 185,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 624290,
+                    "ru_utime.tv_sec": 6,
+                    "ru_stime.tv_usec": 159657,
+                    "ru_stime.tv_sec": 0
+                },
+                "lock_queries": [
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0009599999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00058
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005600000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00028000000000000003
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00066
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00026000000000000003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00031
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00032
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005200000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00053
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00053
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005899999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00045
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007700000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00025
+                    }
+                ],
+                "transactions_seconds": [
+                    0.005225328,
+                    0.011086751,
+                    0.024424142,
+                    0.001852405,
+                    0.003952134,
+                    0.002174131,
+                    0.00395818,
+                    0.01473197,
+                    0.001917467,
+                    0.004015229,
+                    0.000505741
+                ]
+            }
+        ],
+        "lock_wait_samples_at_100ms": 0,
+        "items": [
+            {
+                "id": 31,
+                "scrape_run_id": 6,
+                "source_external_id": "99006000",
+                "document_id": 16,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 0.455113,
+                        "fetch_parse_seconds": 2.115253
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.006327
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 16,
+                    "identity_key": "6274fc685b4f19e6d6ba27414ce046988ed8be2143531316dfb651a01fef6e1e",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 37,
+                "dispatch_token": "a5f382f8-9c28-4da2-afe6-3debde56f6ba",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:49:48.000000Z",
+                "finished_at": "2026-10-28T12:49:50.000000Z",
+                "created_at": "2026-10-28T12:49:48.000000Z",
+                "updated_at": "2026-10-28T12:49:50.000000Z"
+            },
+            {
+                "id": 32,
+                "scrape_run_id": 6,
+                "source_external_id": "99006001",
+                "document_id": 18,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 0.45754700000000004,
+                        "fetch_parse_seconds": 10.108577
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.006227
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 18,
+                    "identity_key": "6d7b896a2a4a7aae7dbd2a6c769b61ec0679aa174784ae6c6cd4f059ff529f17",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 38,
+                "dispatch_token": "1155cf7d-1795-48d7-a02b-3525b0f7c14f",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:49:48.000000Z",
+                "finished_at": "2026-10-28T12:49:58.000000Z",
+                "created_at": "2026-10-28T12:49:48.000000Z",
+                "updated_at": "2026-10-28T12:49:58.000000Z"
+            },
+            {
+                "id": 33,
+                "scrape_run_id": 6,
+                "source_external_id": "99006002",
+                "document_id": 17,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 2.605006,
+                        "fetch_parse_seconds": 3.946279
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000566
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 17,
+                    "identity_key": "a43c3929b517ccae515931ab8818eb2f5728f4082b859de4269c5424a84d93e9",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 39,
+                "dispatch_token": "7d4b2471-7a98-478b-ad2d-eb975d41b609",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:49:50.000000Z",
+                "finished_at": "2026-10-28T12:49:54.000000Z",
+                "created_at": "2026-10-28T12:49:48.000000Z",
+                "updated_at": "2026-10-28T12:49:54.000000Z"
+            },
+            {
+                "id": 34,
+                "scrape_run_id": 6,
+                "source_external_id": "99006003",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000581
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 6.573949,
+                        "fetch_parse_seconds": 11.973859
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000581
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "c33800317a329fa6bbea9bc79979a215aaf2fbd3459b96fd8b41b93e3eaa9c1d",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 40,
+                "dispatch_token": "38421e19-ee34-4f83-af76-ae52c97c3c73",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:49:54.000000Z",
+                "finished_at": "2026-10-28T12:50:06.000000Z",
+                "created_at": "2026-10-28T12:49:48.000000Z",
+                "updated_at": "2026-10-28T12:50:06.000000Z"
+            },
+            {
+                "id": 35,
+                "scrape_run_id": 6,
+                "source_external_id": "99006004",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.785252498
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 10.598479,
+                        "fetch_parse_seconds": 10.733246
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.785252498
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "d0355a05af2acff39c181a0d0d7e59c957ea8cf421bfbec5d04412329c273f74",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 41,
+                "dispatch_token": "9f9a8749-5d3f-45dc-9f3b-30bad9661bfa",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:49:58.000000Z",
+                "finished_at": "2026-10-28T12:50:09.000000Z",
+                "created_at": "2026-10-28T12:49:48.000000Z",
+                "updated_at": "2026-10-28T12:50:09.000000Z"
+            },
+            {
+                "id": 36,
+                "scrape_run_id": 6,
+                "source_external_id": "99006005",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.791979141
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 18.568847,
+                        "fetch_parse_seconds": 10.769586
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.791979141
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "a8d828915635d1ce34b1f1c01811378f101e17c8d04b85bfb8b0823b2b28bb3d",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 42,
+                "dispatch_token": "24a9f950-272e-46f7-87f8-492fb13e0370",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:06.000000Z",
+                "finished_at": "2026-10-28T12:50:17.000000Z",
+                "created_at": "2026-10-28T12:49:48.000000Z",
+                "updated_at": "2026-10-28T12:50:17.000000Z"
+            }
+        ]
+    },
+    {
+        "offline": true,
+        "workers": 1,
+        "interval_ms": 1000,
+        "wall_seconds": 25.19935202,
+        "request_count": 12,
+        "minimum_start_interval_seconds": 1.000065555999754,
+        "requests_per_second": 0.47620272102536393,
+        "valid_documents_per_hour": 428.5824489228275,
+        "review_documents_per_hour": 428.5824489228275,
+        "summary": {
+            "run_id": 7,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "scope": "bounded_sample",
+            "discovered": 6,
+            "canonical_document_groups": 6,
+            "canonical_documents_stored": 3,
+            "processed": 6,
+            "created": 3,
+            "updated": 0,
+            "imported": 3,
+            "unchanged": 0,
+            "skipped_alias": 0,
+            "queued": 0,
+            "processing": 0,
+            "pending_retry": 0,
+            "failed": 0,
+            "technical_failed": 0,
+            "review_required": 3,
+            "active": 3,
+            "pending": 0,
+            "inactive": 0,
+            "stored_content_count": 3,
+            "valid_content_count": 3,
+            "duration_seconds": 24,
+            "coverage_verified": false,
+            "gates": {
+                "quality_passed": false,
+                "jobs_reconciled": true,
+                "coverage_verified": false,
+                "discovery_finished": true,
+                "languages_complete": false
+            },
+            "open_items": 0,
+            "html": 4,
+            "pdf": 0,
+            "ocr": 2,
+            "languages": {
+                "uz-Latn": 3
+            },
+            "required_language_failures": 3,
+            "source_status_counts": {
+                "active": 6,
+                "pending": 0,
+                "inactive": 0
+            }
+        },
+        "requests": [
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99007000",
+                "attempt": 1,
+                "start_monotonic": 204282.087127594,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.043954
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99007000",
+                "attempt": 1,
+                "start_monotonic": 204283.08719625,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026601
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99007001",
+                "attempt": 1,
+                "start_monotonic": 204284.08731559,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026908
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99007001",
+                "attempt": 1,
+                "start_monotonic": 204285.087381146,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026743
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99007002",
+                "attempt": 1,
+                "start_monotonic": 204286.087447989,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026609
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99007002",
+                "attempt": 1,
+                "start_monotonic": 204287.087513794,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.0265
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99007003",
+                "attempt": 1,
+                "start_monotonic": 204288.087582624,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.02673
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99007003",
+                "attempt": 1,
+                "start_monotonic": 204289.087651578,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026607
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99007004",
+                "attempt": 1,
+                "start_monotonic": 204290.087770023,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026983
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99007004",
+                "attempt": 1,
+                "start_monotonic": 204291.087837053,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026493
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99007005",
+                "attempt": 1,
+                "start_monotonic": 204297.9674145,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.023173
+            },
+            {
+                "context": "run-7",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99007005",
+                "attempt": 1,
+                "start_monotonic": 204298.967542289,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026451
+            }
+        ],
+        "workers_profile": [
+            {
+                "pid": 1382083,
+                "wall_seconds": 24.862380781,
+                "php_peak_bytes": 63438848,
+                "self_usage": {
+                    "ru_oublock": 16,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 107808,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 31749,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 1057,
+                    "ru_nivcsw": 38,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 595785,
+                    "ru_utime.tv_sec": 0,
+                    "ru_stime.tv_usec": 93495,
+                    "ru_stime.tv_sec": 0
+                },
+                "child_usage": {
+                    "ru_oublock": 208,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 138380,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 84275,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 5,
+                    "ru_nivcsw": 401,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 214110,
+                    "ru_utime.tv_sec": 13,
+                    "ru_stime.tv_usec": 336458,
+                    "ru_stime.tv_sec": 0
+                },
+                "lock_queries": [
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00079
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00057
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00079
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00073
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.0009
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00047999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00044
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00032
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00073
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00032
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00032
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00033
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0006
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00028000000000000003
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00022
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00062
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00049
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00079
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00085
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00045
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008399999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00045
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00044
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0004
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00079
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007199999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0007700000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00062
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0008900000000000001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0011200000000000001
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00027
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035999999999999997
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00051
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035999999999999997
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00033
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00037
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00064
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00067
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00062
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00066
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00066
+                    }
+                ],
+                "transactions_seconds": [
+                    0.007281625,
+                    0.010265875,
+                    0.027847797,
+                    0.00200662,
+                    0.004444007,
+                    0.00225799,
+                    0.003177117,
+                    0.015711096,
+                    0.001777922,
+                    0.003025684,
+                    0.001870873,
+                    0.005930527,
+                    0.015619828,
+                    0.002665754,
+                    0.004715876,
+                    0.003557141,
+                    0.004437407,
+                    0.01029391,
+                    0.002892989,
+                    0.003831004,
+                    0.002479263,
+                    0.004508638,
+                    0.014316194,
+                    0.00176769,
+                    0.002785908,
+                    0.001896402,
+                    0.003222673,
+                    0.014198346,
+                    0.002593215,
+                    0.009293922,
+                    0.001047679
+                ]
+            }
+        ],
+        "lock_wait_samples_at_100ms": 0,
+        "items": [
+            {
+                "id": 37,
+                "scrape_run_id": 7,
+                "source_external_id": "99007000",
+                "document_id": 19,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 0.85437,
+                        "fetch_parse_seconds": 1.124342
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.006883
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 19,
+                    "identity_key": "cc2b5dc98951c0ab0329035b1591f1350fc576c1d3cb7852ba0a715bbe194625",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 44,
+                "dispatch_token": "f7421036-4ed5-44fe-bafa-f0615e3680b0",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:50:18.000000Z",
+                "finished_at": "2026-10-28T12:50:19.000000Z",
+                "created_at": "2026-10-28T12:50:18.000000Z",
+                "updated_at": "2026-10-28T12:50:19.000000Z"
+            },
+            {
+                "id": 38,
+                "scrape_run_id": 7,
+                "source_external_id": "99007001",
+                "document_id": 20,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 2.010623,
+                        "fetch_parse_seconds": 1.940666
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000565
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 20,
+                    "identity_key": "3c59c76b9ee397da2f965779a8c511e1230fd3206e8f82cb5e0a82e7f7db2ecd",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 45,
+                "dispatch_token": "937b9d65-a9c4-4206-be23-5dd76cf1be30",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:50:20.000000Z",
+                "finished_at": "2026-10-28T12:50:21.000000Z",
+                "created_at": "2026-10-28T12:50:18.000000Z",
+                "updated_at": "2026-10-28T12:50:21.000000Z"
+            },
+            {
+                "id": 39,
+                "scrape_run_id": 7,
+                "source_external_id": "99007002",
+                "document_id": 21,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 3.972709,
+                        "fetch_parse_seconds": 1.973174
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000565
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 21,
+                    "identity_key": "8110a2b2302c216d771b51152283ce133f04dfea7518eb3b894142ffa8b93fd3",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 46,
+                "dispatch_token": "28756018-4a02-4aea-a792-9bb3d5eaa84b",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:50:21.000000Z",
+                "finished_at": "2026-10-28T12:50:23.000000Z",
+                "created_at": "2026-10-28T12:50:18.000000Z",
+                "updated_at": "2026-10-28T12:50:23.000000Z"
+            },
+            {
+                "id": 40,
+                "scrape_run_id": 7,
+                "source_external_id": "99007003",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000552
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 5.977822,
+                        "fetch_parse_seconds": 1.969085
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000552
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "c6904af5bb2aa6db2822c925a5decd773f7b989887cb585ff1d46b5137954e42",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 47,
+                "dispatch_token": "a7923951-e852-4fcc-8ff8-f29a407da9d3",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:23.000000Z",
+                "finished_at": "2026-10-28T12:50:25.000000Z",
+                "created_at": "2026-10-28T12:50:18.000000Z",
+                "updated_at": "2026-10-28T12:50:25.000000Z"
+            },
+            {
+                "id": 41,
+                "scrape_run_id": 7,
+                "source_external_id": "99007004",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.772496809
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 7.970823,
+                        "fetch_parse_seconds": 8.750335
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.772496809
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "565cb4d2af762efc0b40310480a3e1bcb47d8843306a1f870a33aafc67d2d394",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 48,
+                "dispatch_token": "12b752f9-dbb9-4fe7-9073-753f04d5e1bb",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:25.000000Z",
+                "finished_at": "2026-10-28T12:50:34.000000Z",
+                "created_at": "2026-10-28T12:50:18.000000Z",
+                "updated_at": "2026-10-28T12:50:34.000000Z"
+            },
+            {
+                "id": 42,
+                "scrape_run_id": 7,
+                "source_external_id": "99007005",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.78045029
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 16.743994999999998,
+                        "fetch_parse_seconds": 7.863501
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.78045029
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "73d3d9ba97ce68a9d15a2e5c4c82b74f94ee4efd881b4e88f5a9aa1d125b3f72",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 49,
+                "dispatch_token": "5b552608-8f28-43ba-9602-a1ce12d5e2bb",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:34.000000Z",
+                "finished_at": "2026-10-28T12:50:42.000000Z",
+                "created_at": "2026-10-28T12:50:18.000000Z",
+                "updated_at": "2026-10-28T12:50:42.000000Z"
+            }
+        ]
+    },
+    {
+        "offline": true,
+        "workers": 2,
+        "interval_ms": 1000,
+        "wall_seconds": 19.293708872,
+        "request_count": 12,
+        "minimum_start_interval_seconds": 1.0000656560005154,
+        "requests_per_second": 0.6219643967684721,
+        "valid_documents_per_hour": 559.767957091625,
+        "review_documents_per_hour": 559.767957091625,
+        "summary": {
+            "run_id": 8,
+            "mode": "full",
+            "status": "completed_with_errors",
+            "scope": "bounded_sample",
+            "discovered": 6,
+            "canonical_document_groups": 6,
+            "canonical_documents_stored": 3,
+            "processed": 6,
+            "created": 3,
+            "updated": 0,
+            "imported": 3,
+            "unchanged": 0,
+            "skipped_alias": 0,
+            "queued": 0,
+            "processing": 0,
+            "pending_retry": 0,
+            "failed": 0,
+            "technical_failed": 0,
+            "review_required": 3,
+            "active": 3,
+            "pending": 0,
+            "inactive": 0,
+            "stored_content_count": 3,
+            "valid_content_count": 3,
+            "duration_seconds": 19,
+            "coverage_verified": false,
+            "gates": {
+                "quality_passed": false,
+                "jobs_reconciled": true,
+                "coverage_verified": false,
+                "discovery_finished": true,
+                "languages_complete": false
+            },
+            "open_items": 0,
+            "html": 4,
+            "pdf": 0,
+            "ocr": 2,
+            "languages": {
+                "uz-Latn": 3
+            },
+            "required_language_failures": 3,
+            "source_status_counts": {
+                "active": 6,
+                "pending": 0,
+                "inactive": 0
+            }
+        },
+        "requests": [
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99008001",
+                "attempt": 1,
+                "start_monotonic": 204307.336877259,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.043822
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99008001",
+                "attempt": 1,
+                "start_monotonic": 204308.336947219,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026938
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99008002",
+                "attempt": 1,
+                "start_monotonic": 204309.337104717,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026973
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99008002",
+                "attempt": 1,
+                "start_monotonic": 204310.337170373,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.02401
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99008003",
+                "attempt": 1,
+                "start_monotonic": 204311.337268438,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026687
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99008003",
+                "attempt": 1,
+                "start_monotonic": 204312.337384677,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.024025
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99008000",
+                "attempt": 1,
+                "start_monotonic": 204313.337506066,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.046836
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99008000",
+                "attempt": 1,
+                "start_monotonic": 204314.337627718,
+                "status": 200,
+                "bytes": 1692,
+                "sha256": "990d62605fc0b04420fb9f3a6d61ab7367513a20abbf769722e0e016ec403e1f",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.027037
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99008004",
+                "attempt": 1,
+                "start_monotonic": 204315.337742102,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026389
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99008004",
+                "attempt": 1,
+                "start_monotonic": 204316.337859112,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026392
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/document\/99008005",
+                "attempt": 1,
+                "start_monotonic": 204317.337930123,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.026856
+            },
+            {
+                "context": "run-8",
+                "method": "GET",
+                "url": "https:\/\/lex.uz\/__offline__\/content\/99008005",
+                "attempt": 1,
+                "start_monotonic": 204318.337999406,
+                "status": 200,
+                "bytes": 1727,
+                "sha256": "ac6ac7d2cc0454cbe5477b9a12a92eb46a8822f3b02ee52fba0823ebb75d2686",
+                "content_type": "text\/html",
+                "elapsed_seconds": 0.027645
+            }
+        ],
+        "workers_profile": [
+            {
+                "pid": 1382179,
+                "wall_seconds": 18.998640192,
+                "php_peak_bytes": 63438848,
+                "self_usage": {
+                    "ru_oublock": 0,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 107708,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 22717,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 607,
+                    "ru_nivcsw": 16,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 365672,
+                    "ru_utime.tv_sec": 0,
+                    "ru_stime.tv_usec": 72538,
+                    "ru_stime.tv_sec": 0
+                },
+                "child_usage": {
+                    "ru_oublock": 104,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 138708,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 42300,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 6,
+                    "ru_nivcsw": 63,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 616125,
+                    "ru_utime.tv_sec": 6,
+                    "ru_stime.tv_usec": 174566,
+                    "ru_stime.tv_sec": 0
+                },
+                "lock_queries": [
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0009699999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00075
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00044
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00066
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00033
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00031
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00058
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00064
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00065
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00045
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00062
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00061
+                    }
+                ],
+                "transactions_seconds": [
+                    0.00853079,
+                    0.01120474,
+                    0.020769698,
+                    0.001643929,
+                    0.003058116,
+                    0.002125661,
+                    0.003412875,
+                    0.01742615,
+                    0.002337915,
+                    0.009238331,
+                    0.000918624
+                ]
+            },
+            {
+                "pid": 1382180,
+                "wall_seconds": 16.988810214,
+                "php_peak_bytes": 63438848,
+                "self_usage": {
+                    "ru_oublock": 16,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 108412,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 27248,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 747,
+                    "ru_nivcsw": 23,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 465279,
+                    "ru_utime.tv_sec": 0,
+                    "ru_stime.tv_usec": 82517,
+                    "ru_stime.tv_sec": 0
+                },
+                "child_usage": {
+                    "ru_oublock": 104,
+                    "ru_inblock": 0,
+                    "ru_msgsnd": 0,
+                    "ru_msgrcv": 0,
+                    "ru_maxrss": 138596,
+                    "ru_ixrss": 0,
+                    "ru_idrss": 0,
+                    "ru_minflt": 42299,
+                    "ru_majflt": 0,
+                    "ru_nsignals": 0,
+                    "ru_nvcsw": 5,
+                    "ru_nivcsw": 173,
+                    "ru_nswap": 0,
+                    "ru_utime.tv_usec": 621639,
+                    "ru_utime.tv_sec": 6,
+                    "ru_stime.tv_usec": 168409,
+                    "ru_stime.tv_sec": 0
+                },
+                "lock_queries": [
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00111
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0014
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0004
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00067
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00047
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0004
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00057
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00066
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00075
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00058
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00045
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00046
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00028000000000000003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00031
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00035999999999999997
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00054
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0005899999999999999
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00086
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00051
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00039
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00074
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00023
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00026000000000000003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00063
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041999999999999996
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00034
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00062
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00043
+                    },
+                    {
+                        "source_lock": true,
+                        "seconds": 0.00035999999999999997
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00026000000000000003
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00041
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.001
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.00064
+                    },
+                    {
+                        "source_lock": false,
+                        "seconds": 0.0006
+                    }
+                ],
+                "transactions_seconds": [
+                    0.007899924,
+                    0.01188509,
+                    0.027410982,
+                    0.002182927,
+                    0.004375754,
+                    0.002386158,
+                    0.003745068,
+                    0.013511183,
+                    0.00164017,
+                    0.003360742,
+                    0.002064248,
+                    0.004000485,
+                    0.010080185,
+                    0.001644126,
+                    0.003122921,
+                    0.001945044,
+                    0.003198868,
+                    0.013015997,
+                    0.002575821,
+                    0.003624917,
+                    0.001097268
+                ]
+            }
+        ],
+        "lock_wait_samples_at_100ms": 0,
+        "items": [
+            {
+                "id": 43,
+                "scrape_run_id": 8,
+                "source_external_id": "99008000",
+                "document_id": 24,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 1.104733,
+                        "fetch_parse_seconds": 7.117528
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.006337
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 24,
+                    "identity_key": "ab10b1613478a499352855476cdf86f95a61ad0c3214c9be0657a1c874a4bac6",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 51,
+                "dispatch_token": "17081f49-851d-4032-861b-bae8f11a36e3",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:50:44.000000Z",
+                "finished_at": "2026-10-28T12:50:51.000000Z",
+                "created_at": "2026-10-28T12:50:43.000000Z",
+                "updated_at": "2026-10-28T12:50:51.000000Z"
+            },
+            {
+                "id": 44,
+                "scrape_run_id": 8,
+                "source_external_id": "99008001",
+                "document_id": 22,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 1.1041869999999998,
+                        "fetch_parse_seconds": 1.116844
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.006316
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 22,
+                    "identity_key": "d1f594b75dab0967e7d1cd1b56f993c8551da870a46cac4a0b3540ad7e5581ff",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 52,
+                "dispatch_token": "82ed630e-4ca3-4673-b8e4-110e5a9fdaa1",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:50:44.000000Z",
+                "finished_at": "2026-10-28T12:50:45.000000Z",
+                "created_at": "2026-10-28T12:50:43.000000Z",
+                "updated_at": "2026-10-28T12:50:45.000000Z"
+            },
+            {
+                "id": 45,
+                "scrape_run_id": 8,
+                "source_external_id": "99008002",
+                "document_id": 23,
+                "status": "imported",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "created",
+                "review_reasons": null,
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": []
+                    }
+                },
+                "outcome": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 2.255534,
+                        "fetch_parse_seconds": 1.943132
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [],
+                            "issues": [],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000577
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 23,
+                    "identity_key": "28a8e2913986eb1abc2f76e002274ba24cc0532db03c42eb7307107c14dad088",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 53,
+                "dispatch_token": "693332c2-a6dc-4870-aa92-791d9189c21b",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": null,
+                "started_at": "2026-10-28T12:50:45.000000Z",
+                "finished_at": "2026-10-28T12:50:47.000000Z",
+                "created_at": "2026-10-28T12:50:43.000000Z",
+                "updated_at": "2026-10-28T12:50:47.000000Z"
+            },
+            {
+                "id": 46,
+                "scrape_run_id": 8,
+                "source_external_id": "99008003",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000605
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "metrics": {
+                        "queue_wait_seconds": 4.22195,
+                        "fetch_parse_seconds": 1.975553
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "chars": 1602,
+                            "format": "html",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "src": "\/controlled-diagram.png"
+                                }
+                            ],
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "tables": [],
+                            "timings": {
+                                "html_parse_seconds": 0.000605
+                            },
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "8ea04780f451b16d016c3540530212f3d5b28854c17bb0684a9c99880e111cd5",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 54,
+                "dispatch_token": "df5f015d-0caf-4848-90e2-cc80ef1517ee",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:47.000000Z",
+                "finished_at": "2026-10-28T12:50:49.000000Z",
+                "created_at": "2026-10-28T12:50:43.000000Z",
+                "updated_at": "2026-10-28T12:50:49.000000Z"
+            },
+            {
+                "id": 47,
+                "scrape_run_id": 8,
+                "source_external_id": "99008004",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.790103376
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 6.215832000000001,
+                        "fetch_parse_seconds": 10.771354
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.790103376
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "5fcdd1e18fc923d4fedd000e23feb6f96ead1b54e9e284a678e24bbe1b05ea56",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 55,
+                "dispatch_token": "4833d7ba-368f-4f3c-ac4d-6fb1e4129cdf",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:49.000000Z",
+                "finished_at": "2026-10-28T12:50:59.000000Z",
+                "created_at": "2026-10-28T12:50:43.000000Z",
+                "updated_at": "2026-10-28T12:50:59.000000Z"
+            },
+            {
+                "id": 48,
+                "scrape_run_id": 8,
+                "source_external_id": "99008005",
+                "document_id": null,
+                "status": "review",
+                "attempts": 1,
+                "listing_status": null,
+                "action": "rejected",
+                "review_reasons": {
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.790459347
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "validation": "Language\/structure quality requires review."
+                },
+                "language_results": {
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review",
+                            "uncertified_ocr"
+                        ]
+                    }
+                },
+                "outcome": {
+                    "error": "Language\/structure quality requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "metrics": {
+                        "queue_wait_seconds": 8.248135,
+                        "fetch_parse_seconds": 10.742119
+                    },
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "ocr",
+                            "issues": [
+                                "uncertified_ocr"
+                            ],
+                            "timings": {
+                                "ocr_seconds": 6.790459347
+                            },
+                            "pages_expected": 1,
+                            "pages_extracted": 1
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "identity_key": "3e640f69a0825ea2366f6c7ce4abb250fbf99a2813ac2cbf47901c8c676e08b5",
+                    "source_status": "active",
+                    "identity_verified": true
+                },
+                "discovery_signatures": [
+                    "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+                ],
+                "queue_job_id": 56,
+                "dispatch_token": "b4401dde-ebdb-46db-9e26-0c3d76a70b61",
+                "available_at": null,
+                "lease_expires_at": null,
+                "last_error": "Language\/structure quality requires review.",
+                "started_at": "2026-10-28T12:50:51.000000Z",
+                "finished_at": "2026-10-28T12:51:01.000000Z",
+                "created_at": "2026-10-28T12:50:43.000000Z",
+                "updated_at": "2026-10-28T12:51:01.000000Z"
+            }
+        ]
+    }
+]

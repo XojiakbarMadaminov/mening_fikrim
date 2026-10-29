@@ -1,0 +1,32 @@
+{
+  "robots": {
+    "url": "https://lex.uz/robots.txt",
+    "status": 404,
+    "crawl_delay_available": false
+  },
+  "rss": {
+    "url": "https://lex.uz/uz/rss",
+    "items": 129,
+    "item_fields": [
+      "title",
+      "guid",
+      "link",
+      "description",
+      "creator",
+      "pubDate"
+    ],
+    "known_inactive_8181977_in_feed": false,
+    "complete_revision_and_inactivation_feed_confirmed": false
+  },
+  "terms_pages_read": [
+    "https://lex.uz/uz/axborot",
+    "https://lex.uz/agreement"
+  ],
+  "other_pages_read": [
+    "https://lex.uz/uz/user_guide",
+    "https://lex.uz/uz/offline",
+    "https://lex.uz/uz/statistic"
+  ],
+  "public_bulk_api_confirmed": false,
+  "bulk_permission_confirmed": false
+}

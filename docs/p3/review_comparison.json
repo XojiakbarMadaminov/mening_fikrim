@@ -1,0 +1,433 @@
+[
+  {
+    "id": "8548754",
+    "url": "https://lex.uz/uz/docs/8548754",
+    "p2_format": "html",
+    "p2_issues": [
+      "unextracted_images"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "pending",
+    "p3_issues": [
+      "unextracted_images"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "en": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "8554309",
+    "url": "https://lex.uz/uz/docs/8554309",
+    "p2_format": "html",
+    "p2_issues": [
+      "complex_table_semantics_review"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "complex_table_semantics_review"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "en": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "-7655343",
+    "url": "https://lex.uz/uz/docs/-7655343",
+    "p2_format": "html",
+    "p2_issues": [
+      "complex_table_semantics_review"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "complex_table_semantics_review"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "en": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "ru": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "-8540314",
+    "url": "https://lex.uz/uz/docs/-8540314",
+    "p2_format": "html",
+    "p2_issues": [
+      "complex_table_semantics_review",
+      "unextracted_images",
+      "unsupported_superscript"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "complex_table_semantics_review",
+      "unextracted_images",
+      "unsupported_superscript"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "-8102878",
+    "url": "https://lex.uz/uz/docs/-8102878",
+    "p2_format": "html",
+    "p2_issues": [
+      "complex_table_semantics_review",
+      "unsupported_superscript"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "inactive",
+    "p3_issues": [
+      "complex_table_semantics_review",
+      "unsupported_superscript"
+    ],
+    "admission_error": "{\"status\":[\"Initial admission is limited to active and pending documents.\"]}",
+    "full_text_language_results": [],
+    "physical_source_change": false
+  },
+  {
+    "id": "8557098",
+    "url": "https://lex.uz/uz/docs/8557098",
+    "p2_format": "pdf",
+    "p2_issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ],
+    "p3_format": "pdf",
+    "p3_status": "review",
+    "source_status": "pending",
+    "p3_issues": [
+      "pdf_image_semantics_unverified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_reading_order_unverified",
+      "pdf_structure_unverified"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "8554315",
+    "url": "https://lex.uz/uz/docs/8554315",
+    "p2_format": "pdf",
+    "p2_issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ],
+    "p3_format": "pdf",
+    "p3_status": "review",
+    "source_status": "pending",
+    "p3_issues": [
+      "pdf_image_semantics_unverified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_reading_order_unverified",
+      "pdf_structure_unverified"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "8554432",
+    "url": "https://lex.uz/uz/docs/8554432",
+    "p2_format": "pdf",
+    "p2_issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ],
+    "p3_format": "pdf",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "pdf_image_semantics_unverified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_reading_order_unverified",
+      "pdf_structure_unverified"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "8554353",
+    "url": "https://lex.uz/uz/docs/8554353",
+    "p2_format": "pdf",
+    "p2_issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ],
+    "p3_format": "pdf",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "pdf_image_semantics_unverified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_reading_order_unverified",
+      "pdf_structure_unverified"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "8554326",
+    "url": "https://lex.uz/uz/docs/8554326",
+    "p2_format": "pdf",
+    "p2_issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ],
+    "p3_format": "pdf",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "pdf_image_semantics_unverified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_reading_order_unverified",
+      "pdf_structure_unverified"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "8554321",
+    "url": "https://lex.uz/uz/docs/8554321",
+    "p2_format": "pdf",
+    "p2_issues": [
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified"
+    ],
+    "p3_format": "pdf",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "pdf_image_semantics_unverified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_reading_order_unverified",
+      "pdf_structure_unverified"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": false
+  },
+  {
+    "id": "-8553258",
+    "url": "https://lex.uz/uz/docs/-8553258",
+    "p2_format": "ocr",
+    "p2_issues": [
+      "declared_language_script_mismatch",
+      "low_ocr_confidence",
+      "ocr_critical_tokens_unverified",
+      "ocr_source_identifier_not_certified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified",
+      "uncertified_ocr"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "active",
+    "p3_issues": [
+      "complex_table_semantics_review"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "en": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": true
+  },
+  {
+    "id": "-8553692",
+    "url": "https://lex.uz/uz/docs/-8553692",
+    "p2_format": "ocr",
+    "p2_issues": [
+      "declared_language_script_mismatch",
+      "low_ocr_confidence",
+      "ocr_critical_tokens_unverified",
+      "ocr_source_identifier_not_certified",
+      "pdf_language_coverage_unconfirmed",
+      "pdf_structure_unverified",
+      "uncertified_ocr"
+    ],
+    "p3_format": "html",
+    "p3_status": "review",
+    "source_status": "pending",
+    "p3_issues": [
+      "complex_table_semantics_review"
+    ],
+    "admission_error": "Language/structure quality requires review.",
+    "full_text_language_results": {
+      "en": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "ru": {
+        "state": "metadata_only",
+        "errors": []
+      },
+      "uz-Cyrl": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      },
+      "uz-Latn": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ]
+      }
+    },
+    "physical_source_change": true
+  }
+]

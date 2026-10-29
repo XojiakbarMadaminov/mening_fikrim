@@ -1,0 +1,24 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...............................................................  63 / 171 ( 36%)
+................................................[31;1mE[0m.............. 126 / 171 ( 73%)
+.............................................                   171 / 171 (100%)
+
+Time: 00:50.134, Memory: 104.50 MB
+
+There was 1 error:
+
+1) Tests\Feature\FollowupCampaignTest::test_preceding_run_receipts_cannot_execute_under_followup
+RuntimeException: Existing campaign or queued work: refuse to reset a budget.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/PilotCampaign.php:28
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Cache/Lock.php:132
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/PilotCampaign.php:26
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FollowupCampaignTest.php:22
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FollowupCampaignTest.php:57
+
+[37;41mERRORS![0m
+[37;41mTests: 171[0m[37;41m, Assertions: 714[0m[37;41m, Errors: 1[0m[37;41m.[0m

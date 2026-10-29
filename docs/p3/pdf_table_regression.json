@@ -1,0 +1,13 @@
+{
+  "id": "8557098",
+  "page": 9,
+  "source_sha256": "6d3d8dc461697f83ebf4131833715a4f706c85e40a9221943e4887012e8f5d83",
+  "expected_rows": 9,
+  "expected_columns": 5,
+  "actual_rows": 9,
+  "actual_columns": 5,
+  "all_45_cell_values_match_p01_reference": true,
+  "settings_disagree": true,
+  "table_relationships_verified": false,
+  "visual_review_performed": true
+}

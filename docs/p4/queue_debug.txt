@@ -1,0 +1,132 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+[31;1mE[0m                                                                   1 / 1 (100%)
+
+Time: 00:00.330, Memory: 46.50 MB
+
+There was 1 error:
+
+1) Tests\Feature\CorpusCollectionTest::test_review_queue_item_is_persisted_without_failed_job_and_next_import_runs
+Illuminate\Database\QueryException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "$1"
+LINE 1: ...nding_candidate) = 'object' AND pending_candidate $1& ARRAY[...
+                                                             ^ (Connection: pgsql, Host: 127.0.0.1, Port: 5432, Database: mening_fikrim_active_test, SQL: ALTER TABLE document_contents ADD CONSTRAINT contents_candidate_check CHECK (pending_candidate IS NULL OR (jsonb_typeof(pending_candidate) = 'object' AND pending_candidate ?& ARRAY['quality_status','content','content_hash','quality_issues','extraction_metadata'] AND pending_candidate->>'quality_status' = 'needs_review' AND jsonb_typeof(pending_candidate->'content') = 'string' AND jsonb_typeof(pending_candidate->'quality_issues') = 'array' AND jsonb_typeof(pending_candidate->'extraction_metadata') = 'object' AND length(btrim(pending_candidate->>'content')) > 0 AND pending_candidate->>'content_hash' ~ '^[a-f0-9]{64}$')))
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:864
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:820
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:597
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/database/migrations/2026_10_28_000007_add_content_quality_tracking.php:39
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:518
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:443
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:451
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:253
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:867
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:253
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:211
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:138
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:686
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:111
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:90
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Util.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:292
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Command/Command.php:285
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:261
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:68
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Util.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:292
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Command/Command.php:285
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:261
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:1129
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:380
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:219
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Application.php:165
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:450
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:452
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:676
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:85
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:37
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:20
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:241
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:107
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:75
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:27
+
+Caused by
+PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "$1"
+LINE 1: ...nding_candidate) = 'object' AND pending_candidate $1& ARRAY[...
+                                                             ^
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:608
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:853
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:820
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:597
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/database/migrations/2026_10_28_000007_add_content_quality_tracking.php:39
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:518
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:443
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:451
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:253
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:867
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:253
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:211
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:138
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:686
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:111
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:90
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Util.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:292
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Command/Command.php:285
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:261
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:68
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:29
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Util.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:292
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Command/Command.php:285
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:261
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:1129
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:380
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:219
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Application.php:165
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:450
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:452
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:676
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:85
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:37
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:20
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:241
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:107
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:75
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:27
+
+[37;41mERRORS![0m
+[37;41mTests: 1[0m[37;41m, Assertions: 0[0m[37;41m, Errors: 1[0m[37;41m.[0m

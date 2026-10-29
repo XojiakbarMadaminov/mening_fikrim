@@ -1,0 +1,22 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+..........[31;1mE[0m........                                               19 / 19 (100%)
+
+Time: 00:04.519, Memory: 80.50 MB
+
+There was 1 error:
+
+1) Tests\Feature\PilotCampaignTest::test_429_latches_stop_without_inline_retry_and_survives_new_client
+App\Scraping\LexUz\LexRequestException: Lex.uz cooldown is still active.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Scraping/LexUz/LexHttpClient.php:68
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Cache/Lock.php:132
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Scraping/LexUz/LexHttpClient.php:65
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Scraping/LexUz/LexHttpClient.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/PilotCampaignTest.php:54
+
+[37;41mERRORS![0m
+[37;41mTests: 19[0m[37;41m, Assertions: 45[0m[37;41m, Errors: 1[0m[37;41m.[0m

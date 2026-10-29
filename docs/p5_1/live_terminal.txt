@@ -1,0 +1,408 @@
+RUN 30 kind=language_pdf_ocr_controls source_ids=5 stage=20
+  2026-10-29 05:22:53 App\Jobs\DiscoverDocumentsJob#30 ............... RUNNING
+  2026-10-29 05:22:53 App\Jobs\DiscoverDocumentsJob#30 .......... 59.62ms DONE
+  2026-10-29 05:22:53 App\Jobs\ImportDocumentJob#30 .................. RUNNING
+  2026-10-29 05:23:03 App\Jobs\ImportDocumentJob#30 ................ 10 с DONE
+  2026-10-29 05:23:03 App\Jobs\ImportDocumentJob#30 .................. RUNNING
+  2026-10-29 05:23:15 App\Jobs\ImportDocumentJob#30 ................ 12 с DONE
+  2026-10-29 05:23:15 App\Jobs\ImportDocumentJob#30 .................. RUNNING
+  2026-10-29 05:23:27 App\Jobs\ImportDocumentJob#30 ................ 11 с DONE
+  2026-10-29 05:23:27 App\Jobs\ImportDocumentJob#30 .................. RUNNING
+  2026-10-29 05:23:40 App\Jobs\ImportDocumentJob#30 ................ 12 с DONE
+  2026-10-29 05:23:40 App\Jobs\ImportDocumentJob#30 .................. RUNNING
+  2026-10-29 05:24:05 App\Jobs\ImportDocumentJob#30 ................ 25 с DONE
+  2026-10-29 05:24:06 Worker STOPPED Queue empty
+after_run_30 documents=187 contents=433 new=0 integrity=PASS
+IDENTITY 1587862 {"identity_valid":false,"persisted":false,"error":{"identity":["Conflicting component requisites: bodies"]},"requests":6}
+IDENTITY -1587862 {"identity_valid":false,"persisted":false,"error":{"identity":["Conflicting component requisites: bodies"]},"requests":6}
+IDENTITY 1587860 {"identity_valid":false,"persisted":false,"error":{"identity":["Conflicting component requisites: bodies"]},"requests":6}
+IDENTITY 8354875 {"identity_valid":false,"persisted":false,"error":{"identity":["Missing node or nonreciprocal source link."]},"requests":7}
+IDENTITY -8345596 {"identity_valid":false,"persisted":false,"error":{"identity":["Missing node or nonreciprocal source link."]},"requests":7}
+DISCOVERY page=1 total=1429 rows=20
+DISCOVERY page=1 total=573 rows=20
+DISCOVERY page=1 total=309 rows=20
+DISCOVERY page=1 total=60 rows=20
+DISCOVERY page=2 total=60 rows=20
+DISCOVERY page=3 total=60 rows=20
+DISCOVERY page=1 total=249 rows=20
+DISCOVERY page=1 total=135 rows=20
+DISCOVERY page=2 total=135 rows=20
+DISCOVERY page=3 total=135 rows=20
+DISCOVERY page=4 total=135 rows=20
+DISCOVERY page=5 total=135 rows=20
+DISCOVERY page=6 total=135 rows=20
+DISCOVERY page=7 total=135 rows=15
+DISCOVERY page=1 total=114 rows=20
+DISCOVERY page=2 total=114 rows=20
+DISCOVERY page=3 total=114 rows=20
+DISCOVERY page=4 total=114 rows=20
+DISCOVERY page=5 total=114 rows=20
+DISCOVERY page=6 total=114 rows=14
+DISCOVERY page=1 total=264 rows=20
+DISCOVERY page=1 total=96 rows=20
+DISCOVERY page=2 total=96 rows=20
+DISCOVERY page=3 total=96 rows=20
+DISCOVERY page=4 total=96 rows=20
+DISCOVERY page=5 total=96 rows=16
+DISCOVERY page=1 total=168 rows=20
+DISCOVERY page=1 total=69 rows=20
+DISCOVERY page=2 total=69 rows=20
+DISCOVERY page=3 total=69 rows=20
+DISCOVERY page=4 total=69 rows=9
+DISCOVERY page=1 total=99 rows=20
+DISCOVERY page=2 total=99 rows=20
+DISCOVERY page=3 total=99 rows=20
+DISCOVERY page=4 total=99 rows=20
+DISCOVERY page=5 total=99 rows=19
+DISCOVERY page=1 total=856 rows=20
+DISCOVERY page=1 total=283 rows=20
+DISCOVERY page=1 total=115 rows=20
+DISCOVERY page=2 total=115 rows=20
+DISCOVERY page=3 total=115 rows=20
+DISCOVERY page=4 total=115 rows=20
+DISCOVERY page=5 total=115 rows=20
+DISCOVERY page=6 total=115 rows=15
+DISCOVERY page=1 total=168 rows=20
+DISCOVERY page=1 total=90 rows=20
+DISCOVERY page=2 total=90 rows=20
+DISCOVERY page=3 total=90 rows=20
+DISCOVERY page=4 total=90 rows=20
+DISCOVERY page=5 total=90 rows=10
+DISCOVERY page=1 total=78 rows=20
+DISCOVERY page=2 total=78 rows=20
+DISCOVERY page=3 total=78 rows=20
+DISCOVERY page=4 total=78 rows=18
+DISCOVERY page=1 total=573 rows=20
+DISCOVERY page=1 total=189 rows=20
+DISCOVERY page=1 total=75 rows=20
+DISCOVERY page=2 total=75 rows=20
+DISCOVERY page=3 total=75 rows=20
+DISCOVERY page=4 total=75 rows=15
+DISCOVERY page=1 total=114 rows=20
+DISCOVERY page=2 total=114 rows=20
+DISCOVERY page=3 total=114 rows=20
+DISCOVERY page=4 total=114 rows=20
+DISCOVERY page=5 total=114 rows=20
+DISCOVERY page=6 total=114 rows=14
+DISCOVERY page=1 total=384 rows=20
+DISCOVERY page=1 total=195 rows=20
+DISCOVERY page=1 total=93 rows=20
+DISCOVERY page=2 total=93 rows=20
+DISCOVERY page=3 total=93 rows=20
+DISCOVERY page=4 total=93 rows=20
+DISCOVERY page=5 total=93 rows=13
+DISCOVERY page=1 total=102 rows=20
+DISCOVERY page=2 total=102 rows=20
+DISCOVERY page=3 total=102 rows=20
+DISCOVERY page=4 total=102 rows=20
+DISCOVERY page=5 total=102 rows=20
+DISCOVERY page=6 total=102 rows=2
+DISCOVERY page=1 total=189 rows=20
+DISCOVERY page=1 total=141 rows=20
+DISCOVERY page=2 total=141 rows=20
+DISCOVERY page=3 total=141 rows=20
+DISCOVERY page=4 total=141 rows=20
+DISCOVERY page=5 total=141 rows=20
+DISCOVERY page=6 total=141 rows=20
+DISCOVERY page=7 total=141 rows=20
+DISCOVERY page=8 total=141 rows=1
+DISCOVERY page=1 total=48 rows=20
+DISCOVERY page=2 total=48 rows=20
+DISCOVERY page=3 total=48 rows=8
+COVERAGE complete=true unique=1429 partitions=29
+stage_b_results documents=187 contents=433 new=0 integrity=PASS
+RUN 31 kind=new_collection source_ids=20 stage=20
+  2026-10-29 05:28:29 App\Jobs\DiscoverDocumentsJob#31 ............... RUNNING
+  2026-10-29 05:28:29 App\Jobs\DiscoverDocumentsJob#31 ......... 104.43ms DONE
+  2026-10-29 05:28:29 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:28:40 App\Jobs\ImportDocumentJob#31 ................ 10 с DONE
+  2026-10-29 05:28:40 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:28:40 App\Jobs\ImportDocumentJob#31 ............. 26.22ms DONE
+  2026-10-29 05:28:40 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:28:40 App\Jobs\ImportDocumentJob#31 ............. 23.31ms DONE
+  2026-10-29 05:28:40 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:28:52 App\Jobs\ImportDocumentJob#31 ................ 11 с DONE
+  2026-10-29 05:28:52 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:28:52 App\Jobs\ImportDocumentJob#31 ............. 22.30ms DONE
+  2026-10-29 05:28:52 Worker STOPPED Maximum jobs exceeded
+  2026-10-29 05:28:52 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:28:52 App\Jobs\ImportDocumentJob#31 ............. 18.30ms DONE
+  2026-10-29 05:28:52 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:04 App\Jobs\ImportDocumentJob#31 ................ 11 с DONE
+  2026-10-29 05:29:04 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:04 App\Jobs\ImportDocumentJob#31 ............. 21.29ms DONE
+  2026-10-29 05:29:04 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:04 App\Jobs\ImportDocumentJob#31 ............. 20.60ms DONE
+  2026-10-29 05:29:04 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:16 App\Jobs\ImportDocumentJob#31 ................ 11 с DONE
+  2026-10-29 05:29:16 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:16 App\Jobs\ImportDocumentJob#31 ............. 21.29ms DONE
+  2026-10-29 05:29:16 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:16 App\Jobs\ImportDocumentJob#31 ............. 27.05ms DONE
+  2026-10-29 05:29:16 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:28 App\Jobs\ImportDocumentJob#31 ................ 11 с DONE
+  2026-10-29 05:29:28 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:28 App\Jobs\ImportDocumentJob#31 ............. 22.39ms DONE
+  2026-10-29 05:29:28 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:28 App\Jobs\ImportDocumentJob#31 ............. 22.84ms DONE
+  2026-10-29 05:29:28 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:40 App\Jobs\ImportDocumentJob#31 ................ 11 с DONE
+  2026-10-29 05:29:40 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:40 App\Jobs\ImportDocumentJob#31 ............. 23.57ms DONE
+  2026-10-29 05:29:40 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:40 App\Jobs\ImportDocumentJob#31 ............. 24.13ms DONE
+  2026-10-29 05:29:40 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:52 App\Jobs\ImportDocumentJob#31 ................ 11 с DONE
+  2026-10-29 05:29:52 App\Jobs\ImportDocumentJob#31 .................. RUNNING
+  2026-10-29 05:29:52 App\Jobs\ImportDocumentJob#31 ............. 24.60ms DONE
+  2026-10-29 05:29:53 Worker STOPPED Queue empty
+after_run_31 documents=194 contents=448 new=7 integrity=PASS
+repeat_before documents=194 contents=448 new=7 integrity=PASS
+RUN 32 kind=repeat_control source_ids=3 stage=20
+  2026-10-29 05:29:55 App\Jobs\DiscoverDocumentsJob#32 ............... RUNNING
+  2026-10-29 05:29:55 App\Jobs\DiscoverDocumentsJob#32 .......... 33.03ms DONE
+  2026-10-29 05:29:55 App\Jobs\ImportDocumentJob#32 .................. RUNNING
+  2026-10-29 05:30:06 App\Jobs\ImportDocumentJob#32 ................ 10 с DONE
+  2026-10-29 05:30:06 App\Jobs\ImportDocumentJob#32 .................. RUNNING
+  2026-10-29 05:30:18 App\Jobs\ImportDocumentJob#32 ................ 11 с DONE
+  2026-10-29 05:30:18 App\Jobs\ImportDocumentJob#32 .................. RUNNING
+  2026-10-29 05:30:30 App\Jobs\ImportDocumentJob#32 ................ 12 с DONE
+  2026-10-29 05:30:31 Worker STOPPED Queue empty
+after_run_32 documents=194 contents=448 new=7 integrity=PASS
+repeat_after documents=194 contents=448 new=7 integrity=PASS
+RUN 33 kind=new_collection source_ids=13 stage=20
+  2026-10-29 05:30:33 App\Jobs\DiscoverDocumentsJob#33 ............... RUNNING
+  2026-10-29 05:30:33 App\Jobs\DiscoverDocumentsJob#33 .......... 78.12ms DONE
+  2026-10-29 05:30:33 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:30:44 App\Jobs\ImportDocumentJob#33 ................ 10 с DONE
+  2026-10-29 05:30:44 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:30:44 App\Jobs\ImportDocumentJob#33 ............. 20.00ms DONE
+  2026-10-29 05:30:44 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:30:44 App\Jobs\ImportDocumentJob#33 ............. 19.66ms DONE
+  2026-10-29 05:30:44 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:30:56 App\Jobs\ImportDocumentJob#33 ................ 11 с DONE
+  2026-10-29 05:30:56 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:30:56 App\Jobs\ImportDocumentJob#33 ............. 25.51ms DONE
+  2026-10-29 05:30:56 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:30:56 App\Jobs\ImportDocumentJob#33 ............. 29.12ms DONE
+  2026-10-29 05:30:56 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:08 App\Jobs\ImportDocumentJob#33 ................ 11 с DONE
+  2026-10-29 05:31:08 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:08 App\Jobs\ImportDocumentJob#33 ............. 26.57ms DONE
+  2026-10-29 05:31:08 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:08 App\Jobs\ImportDocumentJob#33 ............. 27.91ms DONE
+  2026-10-29 05:31:08 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:20 App\Jobs\ImportDocumentJob#33 ................ 11 с DONE
+  2026-10-29 05:31:20 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:20 App\Jobs\ImportDocumentJob#33 ............. 20.10ms DONE
+  2026-10-29 05:31:20 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:20 App\Jobs\ImportDocumentJob#33 ............. 19.49ms DONE
+  2026-10-29 05:31:20 App\Jobs\ImportDocumentJob#33 .................. RUNNING
+  2026-10-29 05:31:32 App\Jobs\ImportDocumentJob#33 ................ 11 с DONE
+  2026-10-29 05:31:33 Worker STOPPED Queue empty
+after_run_33 documents=199 contents=463 new=12 integrity=PASS
+RUN 34 kind=new_collection source_ids=8 stage=20
+  2026-10-29 05:31:34 App\Jobs\DiscoverDocumentsJob#34 ............... RUNNING
+  2026-10-29 05:31:34 App\Jobs\DiscoverDocumentsJob#34 .......... 49.75ms DONE
+  2026-10-29 05:31:34 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:31:44 App\Jobs\ImportDocumentJob#34 ................ 10 с DONE
+  2026-10-29 05:31:44 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:31:44 App\Jobs\ImportDocumentJob#34 ............. 23.00ms DONE
+  2026-10-29 05:31:44 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:31:44 App\Jobs\ImportDocumentJob#34 ............. 22.37ms DONE
+  2026-10-29 05:31:44 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:31:56 App\Jobs\ImportDocumentJob#34 ................ 11 с DONE
+  2026-10-29 05:31:56 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:31:56 App\Jobs\ImportDocumentJob#34 ............. 26.23ms DONE
+  2026-10-29 05:31:56 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:32:08 App\Jobs\ImportDocumentJob#34 ................ 11 с DONE
+  2026-10-29 05:32:08 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:32:20 App\Jobs\ImportDocumentJob#34 ................ 12 с DONE
+  2026-10-29 05:32:20 App\Jobs\ImportDocumentJob#34 .................. RUNNING
+  2026-10-29 05:32:32 App\Jobs\ImportDocumentJob#34 ................ 11 с DONE
+  2026-10-29 05:32:33 Worker STOPPED Queue empty
+after_run_34 documents=202 contents=472 new=15 integrity=PASS
+RUN 35 kind=new_collection source_ids=5 stage=20
+  2026-10-29 05:32:35 App\Jobs\DiscoverDocumentsJob#35 ............... RUNNING
+  2026-10-29 05:32:35 App\Jobs\DiscoverDocumentsJob#35 .......... 36.72ms DONE
+  2026-10-29 05:32:35 App\Jobs\ImportDocumentJob#35 .................. RUNNING
+  2026-10-29 05:32:45 App\Jobs\ImportDocumentJob#35 ................ 10 с DONE
+  2026-10-29 05:32:45 App\Jobs\ImportDocumentJob#35 .................. RUNNING
+  2026-10-29 05:32:45 App\Jobs\ImportDocumentJob#35 ............. 19.79ms DONE
+  2026-10-29 05:32:45 App\Jobs\ImportDocumentJob#35 .................. RUNNING
+  2026-10-29 05:32:45 App\Jobs\ImportDocumentJob#35 ............. 27.06ms DONE
+  2026-10-29 05:32:45 App\Jobs\ImportDocumentJob#35 .................. RUNNING
+  2026-10-29 05:32:57 App\Jobs\ImportDocumentJob#35 ................ 11 с DONE
+  2026-10-29 05:32:57 App\Jobs\ImportDocumentJob#35 .................. RUNNING
+  2026-10-29 05:32:57 App\Jobs\ImportDocumentJob#35 ............. 32.80ms DONE
+  2026-10-29 05:32:58 Worker STOPPED Queue empty
+after_run_35 documents=204 contents=478 new=17 integrity=PASS
+RUN 36 kind=new_collection source_ids=3 stage=20
+  2026-10-29 05:32:59 App\Jobs\DiscoverDocumentsJob#36 ............... RUNNING
+  2026-10-29 05:32:59 App\Jobs\DiscoverDocumentsJob#36 .......... 35.27ms DONE
+  2026-10-29 05:32:59 App\Jobs\ImportDocumentJob#36 .................. RUNNING
+  2026-10-29 05:33:10 App\Jobs\ImportDocumentJob#36 ................ 10 с DONE
+  2026-10-29 05:33:10 App\Jobs\ImportDocumentJob#36 .................. RUNNING
+  2026-10-29 05:33:10 App\Jobs\ImportDocumentJob#36 ............. 26.93ms DONE
+  2026-10-29 05:33:10 App\Jobs\ImportDocumentJob#36 .................. RUNNING
+  2026-10-29 05:33:10 App\Jobs\ImportDocumentJob#36 ............. 34.03ms DONE
+  2026-10-29 05:33:11 Worker STOPPED Queue empty
+after_run_36 documents=205 contents=481 new=18 integrity=PASS
+RUN 37 kind=new_collection source_ids=2 stage=20
+  2026-10-29 05:33:12 App\Jobs\DiscoverDocumentsJob#37 ............... RUNNING
+  2026-10-29 05:33:12 App\Jobs\DiscoverDocumentsJob#37 .......... 26.18ms DONE
+  2026-10-29 05:33:12 App\Jobs\ImportDocumentJob#37 .................. RUNNING
+  2026-10-29 05:33:22 App\Jobs\ImportDocumentJob#37 ................ 10 с DONE
+  2026-10-29 05:33:22 App\Jobs\ImportDocumentJob#37 .................. RUNNING
+  2026-10-29 05:33:22 App\Jobs\ImportDocumentJob#37 ............. 29.78ms DONE
+  2026-10-29 05:33:23 Worker STOPPED Queue empty
+after_run_37 documents=206 contents=484 new=19 integrity=PASS
+RUN 38 kind=new_collection source_ids=1 stage=20
+  2026-10-29 05:33:25 App\Jobs\DiscoverDocumentsJob#38 ............... RUNNING
+  2026-10-29 05:33:25 App\Jobs\DiscoverDocumentsJob#38 .......... 25.27ms DONE
+  2026-10-29 05:33:25 App\Jobs\ImportDocumentJob#38 .................. RUNNING
+  2026-10-29 05:33:35 App\Jobs\ImportDocumentJob#38 ................ 10 с DONE
+  2026-10-29 05:33:36 Worker STOPPED Queue empty
+after_run_38 documents=207 contents=487 new=20 integrity=PASS
+stage_c_results documents=207 contents=487 new=20 integrity=PASS
+RUN 39 kind=new_collection source_ids=20 stage=42
+  2026-10-29 05:33:39 App\Jobs\DiscoverDocumentsJob#39 ............... RUNNING
+  2026-10-29 05:33:39 App\Jobs\DiscoverDocumentsJob#39 ......... 118.48ms DONE
+  2026-10-29 05:33:39 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:33:49 App\Jobs\ImportDocumentJob#39 ................ 10 с DONE
+  2026-10-29 05:33:49 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:33:49 App\Jobs\ImportDocumentJob#39 ............. 20.43ms DONE
+  2026-10-29 05:33:49 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:33:49 App\Jobs\ImportDocumentJob#39 ............. 20.96ms DONE
+  2026-10-29 05:33:49 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:01 App\Jobs\ImportDocumentJob#39 ................ 11 с DONE
+  2026-10-29 05:34:01 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:01 App\Jobs\ImportDocumentJob#39 ............. 19.41ms DONE
+  2026-10-29 05:34:01 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:01 App\Jobs\ImportDocumentJob#39 ............. 17.88ms DONE
+  2026-10-29 05:34:01 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:09 App\Jobs\ImportDocumentJob#39 ................. 7 с DONE
+  2026-10-29 05:34:09 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:13 App\Jobs\ImportDocumentJob#39 ................. 3 с DONE
+  2026-10-29 05:34:13 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:13 App\Jobs\ImportDocumentJob#39 ............. 22.92ms DONE
+  2026-10-29 05:34:13 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:25 App\Jobs\ImportDocumentJob#39 ................ 11 с DONE
+  2026-10-29 05:34:25 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:25 App\Jobs\ImportDocumentJob#39 ............. 26.78ms DONE
+  2026-10-29 05:34:25 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:25 App\Jobs\ImportDocumentJob#39 ............. 22.91ms DONE
+  2026-10-29 05:34:25 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:37 App\Jobs\ImportDocumentJob#39 ................ 11 с DONE
+  2026-10-29 05:34:37 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:37 App\Jobs\ImportDocumentJob#39 ............. 24.88ms DONE
+  2026-10-29 05:34:37 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:37 App\Jobs\ImportDocumentJob#39 ............. 22.18ms DONE
+  2026-10-29 05:34:37 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:49 App\Jobs\ImportDocumentJob#39 ................ 11 с DONE
+  2026-10-29 05:34:49 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:49 App\Jobs\ImportDocumentJob#39 ............. 24.30ms DONE
+  2026-10-29 05:34:49 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:34:49 App\Jobs\ImportDocumentJob#39 ............. 27.22ms DONE
+  2026-10-29 05:34:49 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:35:01 App\Jobs\ImportDocumentJob#39 ................ 11 с DONE
+  2026-10-29 05:35:01 App\Jobs\ImportDocumentJob#39 .................. RUNNING
+  2026-10-29 05:35:01 App\Jobs\ImportDocumentJob#39 ............. 27.58ms DONE
+  2026-10-29 05:35:02 Worker STOPPED Queue empty
+after_run_39 documents=215 contents=507 new=28 integrity=PASS
+RUN 40 kind=new_collection source_ids=14 stage=42
+  2026-10-29 05:35:04 App\Jobs\DiscoverDocumentsJob#40 ............... RUNNING
+  2026-10-29 05:35:04 App\Jobs\DiscoverDocumentsJob#40 .......... 83.59ms DONE
+  2026-10-29 05:35:04 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:14 App\Jobs\ImportDocumentJob#40 ................ 10 с DONE
+  2026-10-29 05:35:14 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:14 App\Jobs\ImportDocumentJob#40 ............. 20.29ms DONE
+  2026-10-29 05:35:14 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:14 App\Jobs\ImportDocumentJob#40 ............. 26.25ms DONE
+  2026-10-29 05:35:14 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:26 App\Jobs\ImportDocumentJob#40 ................ 11 с DONE
+  2026-10-29 05:35:26 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:26 App\Jobs\ImportDocumentJob#40 ............. 20.05ms DONE
+  2026-10-29 05:35:26 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:26 App\Jobs\ImportDocumentJob#40 ............. 23.25ms DONE
+  2026-10-29 05:35:26 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:30 App\Jobs\ImportDocumentJob#40 ................. 3 с DONE
+  2026-10-29 05:35:30 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:38 App\Jobs\ImportDocumentJob#40 ................. 8 с DONE
+  2026-10-29 05:35:38 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:38 App\Jobs\ImportDocumentJob#40 ............. 20.16ms DONE
+  2026-10-29 05:35:38 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:50 App\Jobs\ImportDocumentJob#40 ................ 11 с DONE
+  2026-10-29 05:35:50 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:50 App\Jobs\ImportDocumentJob#40 ............. 26.44ms DONE
+  2026-10-29 05:35:50 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:50 App\Jobs\ImportDocumentJob#40 ............. 22.40ms DONE
+  2026-10-29 05:35:50 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:35:54 App\Jobs\ImportDocumentJob#40 ................. 3 с DONE
+  2026-10-29 05:35:54 App\Jobs\ImportDocumentJob#40 .................. RUNNING
+  2026-10-29 05:36:02 App\Jobs\ImportDocumentJob#40 ................. 8 с DONE
+  2026-10-29 05:36:03 Worker STOPPED Queue empty
+after_run_40 documents=222 contents=522 new=35 integrity=PASS
+RUN 41 kind=new_collection source_ids=7 stage=42
+  2026-10-29 05:36:04 App\Jobs\DiscoverDocumentsJob#41 ............... RUNNING
+  2026-10-29 05:36:05 App\Jobs\DiscoverDocumentsJob#41 .......... 44.77ms DONE
+  2026-10-29 05:36:05 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:15 App\Jobs\ImportDocumentJob#41 ................ 10 с DONE
+  2026-10-29 05:36:15 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:15 App\Jobs\ImportDocumentJob#41 ............. 20.04ms DONE
+  2026-10-29 05:36:15 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:15 App\Jobs\ImportDocumentJob#41 ............. 19.65ms DONE
+  2026-10-29 05:36:15 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:27 App\Jobs\ImportDocumentJob#41 ................ 11 с DONE
+  2026-10-29 05:36:27 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:27 App\Jobs\ImportDocumentJob#41 ............. 22.95ms DONE
+  2026-10-29 05:36:27 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:27 App\Jobs\ImportDocumentJob#41 ............. 24.08ms DONE
+  2026-10-29 05:36:27 App\Jobs\ImportDocumentJob#41 .................. RUNNING
+  2026-10-29 05:36:31 App\Jobs\ImportDocumentJob#41 ................. 3 с DONE
+  2026-10-29 05:36:32 Worker STOPPED Queue empty
+after_run_41 documents=224 contents=528 new=37 integrity=PASS
+RUN 42 kind=new_collection source_ids=5 stage=42
+  2026-10-29 05:36:33 App\Jobs\DiscoverDocumentsJob#42 ............... RUNNING
+  2026-10-29 05:36:33 App\Jobs\DiscoverDocumentsJob#42 .......... 50.51ms DONE
+  2026-10-29 05:36:33 App\Jobs\ImportDocumentJob#42 .................. RUNNING
+  2026-10-29 05:36:39 App\Jobs\ImportDocumentJob#42 ................. 6 с DONE
+  2026-10-29 05:36:39 App\Jobs\ImportDocumentJob#42 .................. RUNNING
+  2026-10-29 05:36:39 App\Jobs\ImportDocumentJob#42 ............. 30.13ms DONE
+  2026-10-29 05:36:39 App\Jobs\ImportDocumentJob#42 .................. RUNNING
+  2026-10-29 05:36:51 App\Jobs\ImportDocumentJob#42 ................ 11 с DONE
+  2026-10-29 05:36:51 App\Jobs\ImportDocumentJob#42 .................. RUNNING
+  2026-10-29 05:36:51 App\Jobs\ImportDocumentJob#42 ............. 21.25ms DONE
+  2026-10-29 05:36:51 App\Jobs\ImportDocumentJob#42 .................. RUNNING
+  2026-10-29 05:36:51 App\Jobs\ImportDocumentJob#42 ............. 28.74ms DONE
+  2026-10-29 05:36:52 Worker STOPPED Queue empty
+after_run_42 documents=226 contents=533 new=39 integrity=PASS
+RUN 43 kind=new_collection source_ids=3 stage=42
+  2026-10-29 05:36:54 App\Jobs\DiscoverDocumentsJob#43 ............... RUNNING
+  2026-10-29 05:36:54 App\Jobs\DiscoverDocumentsJob#43 .......... 37.34ms DONE
+  2026-10-29 05:36:54 App\Jobs\ImportDocumentJob#43 .................. RUNNING
+  2026-10-29 05:37:04 App\Jobs\ImportDocumentJob#43 ................ 10 с DONE
+  2026-10-29 05:37:04 App\Jobs\ImportDocumentJob#43 .................. RUNNING
+  2026-10-29 05:37:04 App\Jobs\ImportDocumentJob#43 ............. 28.23ms DONE
+  2026-10-29 05:37:04 App\Jobs\ImportDocumentJob#43 .................. RUNNING
+  2026-10-29 05:37:04 App\Jobs\ImportDocumentJob#43 ............. 36.65ms DONE
+  2026-10-29 05:37:05 Worker STOPPED Queue empty
+after_run_43 documents=227 contents=535 new=40 integrity=PASS
+RUN 44 kind=new_collection source_ids=2 stage=42
+  2026-10-29 05:37:07 App\Jobs\DiscoverDocumentsJob#44 ............... RUNNING
+  2026-10-29 05:37:07 App\Jobs\DiscoverDocumentsJob#44 .......... 28.77ms DONE
+  2026-10-29 05:37:07 App\Jobs\ImportDocumentJob#44 .................. RUNNING
+  2026-10-29 05:37:17 App\Jobs\ImportDocumentJob#44 ................ 10 с DONE
+  2026-10-29 05:37:17 App\Jobs\ImportDocumentJob#44 .................. RUNNING
+  2026-10-29 05:37:17 App\Jobs\ImportDocumentJob#44 ............. 29.66ms DONE
+  2026-10-29 05:37:18 Worker STOPPED Queue empty
+after_run_44 documents=228 contents=538 new=41 integrity=PASS
+RUN 45 kind=new_collection source_ids=1 stage=42
+  2026-10-29 05:37:19 App\Jobs\DiscoverDocumentsJob#45 ............... RUNNING
+  2026-10-29 05:37:19 App\Jobs\DiscoverDocumentsJob#45 .......... 20.30ms DONE
+  2026-10-29 05:37:19 App\Jobs\ImportDocumentJob#45 .................. RUNNING
+  2026-10-29 05:37:29 App\Jobs\ImportDocumentJob#45 ................ 10 с DONE
+  2026-10-29 05:37:30 Worker STOPPED Queue empty
+after_run_45 documents=229 contents=541 new=42 integrity=PASS
+stage_d_results documents=229 contents=541 new=42 integrity=PASS
+integrity_audit documents=229 contents=541 new=42 integrity=PASS

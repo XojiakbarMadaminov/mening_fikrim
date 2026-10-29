@@ -1,0 +1,54 @@
+{
+  "-8553258": {
+    "pages": 17,
+    "region_count": 111,
+    "samples_truncated_pages": 0,
+    "mean_confidence_min": 81.4993,
+    "mean_confidence_max": 95.4721,
+    "pages_mean_below_90": 1,
+    "pages_low_fraction_above_5_percent": 2,
+    "document_certified": false,
+    "markdown_hash_unchanged": true,
+    "gold": {
+      "page": 17,
+      "reference": "39. Ушбу Низом талабларининг бузилишида айбдор бўлган шахслар қонунчилик ҳужжатларига мувофиқ жавоб беради.",
+      "observed": "39, Ушбу Низом талабларини бузилишида айбдор бўлган шахслар қонунчилик ҳужжатларига мувофиқ жавоб беради",
+      "metrics": {
+        "normalization": "Unicode lowercase; punctuation to spaces; compact whitespace",
+        "reference_chars": 105,
+        "character_errors": 2,
+        "CER": 0.01904761904761905,
+        "word_errors": 1,
+        "WER": 0.07692307692307693,
+        "document_certified": false,
+        "scope": "excerpt_only"
+      }
+    }
+  },
+  "-8553692": {
+    "pages": 19,
+    "region_count": 27,
+    "samples_truncated_pages": 0,
+    "mean_confidence_min": 91.5985,
+    "mean_confidence_max": 96.0514,
+    "pages_mean_below_90": 0,
+    "pages_low_fraction_above_5_percent": 1,
+    "document_certified": false,
+    "markdown_hash_unchanged": true,
+    "gold": {
+      "page": 1,
+      "reference": "4. Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради.",
+      "observed": "4. Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради.",
+      "metrics": {
+        "normalization": "Unicode lowercase; punctuation to spaces; compact whitespace",
+        "reference_chars": 52,
+        "character_errors": 0,
+        "CER": 0,
+        "word_errors": 0,
+        "WER": 0,
+        "document_certified": false,
+        "scope": "excerpt_only"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+  2026-10-28 18:20:59 App\Jobs\DiscoverDocumentsJob#6 ................ RUNNING
+  2026-10-28 18:20:59 App\Jobs\DiscoverDocumentsJob#6 .......... 141.29ms DONE
+  2026-10-28 18:20:59 App\Jobs\ImportDocumentJob#6 ................... RUNNING
+  2026-10-28 18:21:13 App\Jobs\ImportDocumentJob#6 ................. 14 с DONE
+  2026-10-28 18:21:13 Worker STOPPED Received restart signal

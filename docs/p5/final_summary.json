@@ -1,0 +1,59 @@
+{
+  "new_canonical_documents": 158,
+  "total_documents": 187,
+  "total_contents": 433,
+  "quality_counts": {
+    "verified": 344,
+    "needs_review": 89
+  },
+  "new_content_representations": 370,
+  "updated_content_representations": 0,
+  "unchanged_representation_attempts": 8,
+  "unchanged_basis": "Fresh full-text evaluations matching the preceding run snapshot; alias skips and metadata-only excluded.",
+  "discovered_unique_source_ids": 448,
+  "selected_source_id_attempts": 363,
+  "distinct_selected_source_ids": 360,
+  "canonical_groups_stored": 158,
+  "proven_unpersisted_groups": 0,
+  "baseline_existing_canonical_documents_discovered": 3,
+  "baseline_existing_listing_source_ids": 9,
+  "baseline_existing_canonical_documents_touched": 0,
+  "skipped_alias_items": 152,
+  "known_identifier_ids_excluded_before_queue": 81,
+  "new_identifiers": 427,
+  "technical_failed_items": 0,
+  "new_failed_jobs": 0,
+  "final_unmapped_attempted_source_ids": [
+    "-1587862",
+    "-8345596",
+    "1587860",
+    "1587862",
+    "8354875"
+  ],
+  "unselected_unmapped_listing_ids": [
+    "-5283810",
+    "-5283904",
+    "5283703",
+    "5283810",
+    "5283815",
+    "5283904",
+    "5283913"
+  ],
+  "review_items_later_resolved_by_alias": 3,
+  "unassociated_review_items": 8,
+  "pending_items": 0,
+  "pending_jobs": 0,
+  "unattributed_new_document_ids": [],
+  "canonical_count_matches_controller": true,
+  "http_requests": 1229,
+  "controller_seconds": 2497.234586918,
+  "integrity_errors": [],
+  "historical_files_changed": [],
+  "stop": {
+    "reason": "bounded_source_selection_budget_exhausted",
+    "at": "2026-10-29T00:17:16+05:00"
+  },
+  "recommendation": "NO-GO",
+  "recommendation_scope": "Expansion to a 1000-document pilot; controlled P5 collection remained safe but exact200 gate was not achieved.",
+  "next_step": "Review five unassociated attempted source IDs, capture/test localized language labels, split incomplete date partitions, and authorize a bounded supplementary42-new-document run with recalibrated source-ID budget before deciding on1000. Do not automatically resume."
+}

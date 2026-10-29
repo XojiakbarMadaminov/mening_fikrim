@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-28T07:03:27.522947+00:00",
+  "requests": 139,
+  "http_statuses": {
+    "200": 139
+  },
+  "first_request": "2026-10-28T06:33:30.372897+00:00",
+  "last_request": "2026-10-28T07:03:00.649424+00:00",
+  "min_monotonic_start_gap_seconds": 2.050024,
+  "source_response_bytes": 52970120,
+  "identity_groups": 4,
+  "identity_nodes": 15,
+  "identity_directed_edges": 42,
+  "review_seeds_retested": 19,
+  "html_seeds": 11,
+  "pdf_seeds": 8,
+  "html_full_variants": 28,
+  "html_metadata_only": 7,
+  "new_pass_in_previous_19": 6,
+  "remaining_review_in_previous_19": 13,
+  "p0_pass_carried_not_retested": 11,
+  "combined_30_with_carry_forward_pass": 17,
+  "pdf_pages": 101,
+  "ocr_pages": 36,
+  "ocr_seconds": 130.996,
+  "ocr_page_confidence_range": [
+    81.69,
+    96.05
+  ],
+  "ocr_confidence_review_pages": 2,
+  "discovery_cases": 17,
+  "fully_reconciled_cases": 12,
+  "global_coverage_confirmed": false,
+  "production_database_accessed": false,
+  "laravel_created": false,
+  "audit_completed_at": "2026-10-28T07:25:31.551656+00:00",
+  "measured_elapsed_seconds": 3121.179,
+  "new_tests_passed": 37,
+  "p0_regression_tests_passed": 16,
+  "p1_recommendation": "CONDITIONAL GO",
+  "full_import_recommendation": "NO-GO"
+}

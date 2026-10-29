@@ -1,0 +1,38 @@
+{
+  "existing_p4_p5_behavior_preserved": true,
+  "availability_independent": true,
+  "confirmed_absence_not_error": {
+    "offline": true,
+    "fresh_live_cases": 0
+  },
+  "unknown_not_absence": true,
+  "raw_labels_normalized": true,
+  "quality_coverage_separate": true,
+  "bounded_subdivision": true,
+  "incomplete_visible": true,
+  "identity_guards_preserved": true,
+  "pdf_ocr_check": {
+    "real_repeated_samples": 2,
+    "additional_unique_samples": 0,
+    "gap_documented": true
+  },
+  "separate_campaign": true,
+  "additional_new_canonical": 42,
+  "combined_new_canonical": 200,
+  "verified_content_preserved": true,
+  "duplicate_and_orphan_checks_pass": true,
+  "tests": {
+    "tests": 172,
+    "assertions": 719,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 50.171353,
+    "pint": "PASS",
+    "p0": 16,
+    "p01": 37
+  },
+  "report_exists": true,
+  "recommendation": "CONDITIONAL GO",
+  "further_stage_started": false
+}

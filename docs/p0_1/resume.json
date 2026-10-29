@@ -1,0 +1,1365 @@
+{
+  "checkpoint": {
+    "url": "https://lex.uz/uz/search/nat?lang=4&from=01.10.2026&to=28.10.2026",
+    "seen_ids": [
+      "-8548625",
+      "-8548630",
+      "-8551484",
+      "-8552693",
+      "-8553231",
+      "-8553258",
+      "-8553692",
+      "8548598",
+      "8548620",
+      "8548637",
+      "8548754",
+      "8551474",
+      "8551489",
+      "8554309",
+      "8554315",
+      "8554321",
+      "8554326",
+      "8554353",
+      "8554432",
+      "8557098"
+    ],
+    "page_committed": 1,
+    "source_total": 80
+  },
+  "replay_pages": [
+    {
+      "total": 80,
+      "rows": [
+        {
+          "id": "8557098",
+          "url": "https://lex.uz/uz/docs/8557098",
+          "title": "Uran qazib olish boʻyicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qoʻyiladigan talablarni tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "1 Uran qazib olish boʻyicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qoʻyiladigan talablarni tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasining qarori, 23.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3962"
+        },
+        {
+          "id": "8554315",
+          "url": "https://lex.uz/uz/docs/8554315",
+          "title": "Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "2 Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 23.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3960"
+        },
+        {
+          "id": "8554432",
+          "url": "https://lex.uz/uz/docs/8554432",
+          "title": "Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "3 Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasi Istiqbolli loyihalar milliy agentligi direktorining buyrugʻi, 23.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 2383-7"
+        },
+        {
+          "id": "8554353",
+          "url": "https://lex.uz/uz/docs/8554353",
+          "title": "Kommunal xizmatlarga tariflarni shakllantirish boʻyicha nizomga oʻzgartirishlar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "4 Kommunal xizmatlarga tariflarni shakllantirish boʻyicha nizomga oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi, Oʻzbekiston Respublikasi Qurilish va uy-joy kommunal xoʻjaligi vazirligining qarori, 23.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 2198-3"
+        },
+        {
+          "id": "8554326",
+          "url": "https://lex.uz/uz/docs/8554326",
+          "title": "Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari birjalari savdolarida ishtirok etishi ustidan nazoratni taʼminlash va ularning manfaatlarini himoya qilish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "5 Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari birjalari savdolarida ishtirok etishi ustidan nazoratni taʼminlash va ularning manfaatlarini himoya qilish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Raqobatni rivojlantirish va isteʼmolchilar huquqlarini himoya qilish qoʻmitasining qarori, 23.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3961"
+        },
+        {
+          "id": "8554321",
+          "url": "https://lex.uz/uz/docs/8554321",
+          "title": "Favqulodda vaziyatlar yuzaga kelishining oldini olish hamda yongʻin xavfsizligi sohasida inson hayoti va sogʻligʻiga yuqori xavf soluvchi omillar reyestriga kiritiladigan maʼlumotlar roʻyxatini tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "6 Favqulodda vaziyatlar yuzaga kelishining oldini olish hamda yongʻin xavfsizligi sohasida inson hayoti va sogʻligʻiga yuqori xavf soluvchi omillar reyestriga kiritiladigan maʼlumotlar roʻyxatini tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi favqulodda vaziyatlar vazirining buyrugʻi, 23.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3963"
+        },
+        {
+          "id": "8554309",
+          "url": "https://lex.uz/uz/docs/8554309",
+          "title": "Suv xoʻjaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va meʼyorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "7 Suv xoʻjaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va meʼyorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 22.10.2026 yildagi 587-son"
+        },
+        {
+          "id": "-8553692",
+          "url": "https://lex.uz/uz/docs/-8553692",
+          "title": "Liftdan foydalanish va unga texnik xizmat koʻrsatish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "8 Liftdan foydalanish va unga texnik xizmat koʻrsatish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 22.10.2026 yildagi 588-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8553258",
+          "url": "https://lex.uz/uz/docs/-8553258",
+          "title": "Toshkent shahri va unga tutash hududlarda issiqxona xoʻjaliklarining ekologik xavfsiz faoliyat yuritishini taʼminlashga doir qoʻshimcha chora-tadbirlar toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "9 Toshkent shahri va unga tutash hududlarda issiqxona xoʻjaliklarining ekologik xavfsiz faoliyat yuritishini taʼminlashga doir qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 22.10.2026 yildagi 586-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8548754",
+          "url": "https://lex.uz/uz/docs/8548754",
+          "title": "“Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuniga oʻzgartirish kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "10 “Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuniga oʻzgartirish kiritish haqida Oʻzbekiston Respublikasining Qonuni, 21.10.2026 yildagi O‘RQ-1184-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8553231",
+          "url": "https://lex.uz/uz/docs/-8553231",
+          "title": "Loyiha-qidiruv ishlarini amalga oshirish sifatini tubdan takomillashtirish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "11 Loyiha-qidiruv ishlarini amalga oshirish sifatini tubdan takomillashtirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 21.10.2026 yildagi 584-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8552693",
+          "url": "https://lex.uz/uz/docs/-8552693",
+          "title": "Qurilish obyektlarining shartnomaviy joriy narxlarini hisoblashda pudrat tashkilotlarining boshqa xarajatlarini aniqlashtirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "12 Qurilish obyektlarining shartnomaviy joriy narxlarini hisoblashda pudrat tashkilotlarining boshqa xarajatlarini aniqlashtirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 21.10.2026 yildagi 583-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8551484",
+          "url": "https://lex.uz/uz/docs/-8551484",
+          "title": "Oʻzbekiston Respublikasining Suv kodeksi qabul qilingani munosabati bilan Vazirlar Mahkamasining “Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi faoliyatini tartibga soluvchi ayrim normativ-huquqiy hujjatlarni tasdiqlash toʻgʻrisida” 2023-yil 27-sentabrdagi 500-son qaroriga oʻzgartirish va qoʻshimchalar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "13 Oʻzbekiston Respublikasining Suv kodeksi qabul qilingani munosabati bilan Vazirlar Mahkamasining “Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi faoliyatini tartibga soluvchi ayrim normativ-huquqiy hujjatlarni tasdiqlash toʻgʻrisida” 2023-yil 27-sentabrdagi 500-son qaroriga oʻzgartirish va qoʻshimchalar kiritish haqida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 21.10.2026 yildagi 585-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8548598",
+          "url": "https://lex.uz/uz/docs/8548598",
+          "title": "Oʻzbekiston Respublikasi budjet hisobining standarti (6-sonli BHS) “Ijara”ni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "14 Oʻzbekiston Respublikasi budjet hisobining standarti (6-sonli BHS) “Ijara”ni tasdiqlash haqida Oʻzbekiston Respublikasi iqtisodiyot va moliya vazirining buyrugʻi, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3957"
+        },
+        {
+          "id": "8548637",
+          "url": "https://lex.uz/uz/docs/8548637",
+          "title": "“Muvofiqlikni baholash sohasida xodim sifatida ishtirok etishga talabgor boʻlgan mutaxassislarni sertifikatlashtirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida”gi buyruqni, shuningdek unga oʻzgartirishlarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida.",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "15 “Muvofiqlikni baholash sohasida xodim sifatida ishtirok etishga talabgor boʻlgan mutaxassislarni sertifikatlashtirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida”gi buyruqni, shuningdek unga oʻzgartirishlarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida. Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligi direktorining buyrugʻi, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 2748-4"
+        },
+        {
+          "id": "8551489",
+          "url": "https://lex.uz/uz/docs/8551489",
+          "title": "Vazirlik va idoralar tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "16 Vazirlik va idoralar tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasi adliya vazirining buyrugʻi, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3958"
+        },
+        {
+          "id": "8551474",
+          "url": "https://lex.uz/uz/docs/8551474",
+          "title": "Vazirlik va idoralar tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "17 Vazirlik va idoralar tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasi adliya vazirining buyrugʻi, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3959"
+        },
+        {
+          "id": "-8548630",
+          "url": "https://lex.uz/uz/docs/-8548630",
+          "title": "Sunʼiy intellektga oid amaliy loyihalarni yanada qoʻllab-quvvatlash chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "18 Sunʼiy intellektga oid amaliy loyihalarni yanada qoʻllab-quvvatlash chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 20.10.2026 yildagi 581-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8548625",
+          "url": "https://lex.uz/uz/docs/-8548625",
+          "title": "Sport agenti va sport ligasi hamda sport tadbirlarini tartibga solishga qaratilgan ayrim normativ-huquqiy hujjatlarni tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "19 Sport agenti va sport ligasi hamda sport tadbirlarini tartibga solishga qaratilgan ayrim normativ-huquqiy hujjatlarni tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 20.10.2026 yildagi 580-son"
+        },
+        {
+          "id": "8548620",
+          "url": "https://lex.uz/uz/docs/8548620",
+          "title": "Bank hisobvaraqlarini ochish, yuritish va yopish tartibi toʻgʻrisidagi yoʻriqnomaga qoʻshimcha va oʻzgartirishlar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "20 Bank hisobvaraqlarini ochish, yuritish va yopish tartibi toʻgʻrisidagi yoʻriqnomaga qoʻshimcha va oʻzgartirishlar kiritish haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3420-3"
+        }
+      ],
+      "next": "javascript:__doPostBack('ucFoundActsControl$LinkButton1','')"
+    },
+    {
+      "total": 80,
+      "rows": [
+        {
+          "id": "8548503",
+          "url": "https://lex.uz/uz/docs/8548503",
+          "title": "“Yuridik shaxslarni yirik soliq toʻlovchilar toifasiga kiritishning mezonlarini belgilash toʻgʻrisidagi nizomni tasdiqlash haqida”gi qaror, shuningdek unga oʻzgartirish va qoʻshimchalarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "21 “Yuridik shaxslarni yirik soliq toʻlovchilar toifasiga kiritishning mezonlarini belgilash toʻgʻrisidagi nizomni tasdiqlash haqida”gi qaror, shuningdek unga oʻzgartirish va qoʻshimchalarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida Oʻzbekiston Respublikasi soliq qoʻmitasining qarori, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3172-4"
+        },
+        {
+          "id": "8547860",
+          "url": "https://lex.uz/uz/docs/8547860",
+          "title": "Oʻzbekiston Respublikasi Davlat budjeti pul mablagʻlarini kassali rejalashtirish va boshqarishni amalga oshirish boʻyicha hujjat shakllari va ularni taqdim qilish tartibi toʻgʻrisidagi yoʻriqnomaning 5-bandiga oʻzgartirish va qoʻshimcha kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "22 Oʻzbekiston Respublikasi Davlat budjeti pul mablagʻlarini kassali rejalashtirish va boshqarishni amalga oshirish boʻyicha hujjat shakllari va ularni taqdim qilish tartibi toʻgʻrisidagi yoʻriqnomaning 5-bandiga oʻzgartirish va qoʻshimcha kiritish toʻgʻrisida Oʻzbekiston Respublikasi iqtisodiyot va moliya vazirining buyrugʻi, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3009-4"
+        },
+        {
+          "id": "-8547765",
+          "url": "https://lex.uz/uz/docs/-8547765",
+          "title": "Xorijda istiqomat qilayotgan vatandoshlar va ularning oila aʼzolarini Oʻzbekiston Respublikasiga taklif qilish hamda fuqaroligi boʻlmagan shaxslarning biometrik harakatlanish hujjatlarini rasmiylashtirish boʻyicha davlat xizmatlarini koʻrsatish tartibini takomillashtirish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "23 Xorijda istiqomat qilayotgan vatandoshlar va ularning oila aʼzolarini Oʻzbekiston Respublikasiga taklif qilish hamda fuqaroligi boʻlmagan shaxslarning biometrik harakatlanish hujjatlarini rasmiylashtirish boʻyicha davlat xizmatlarini koʻrsatish tartibini takomillashtirish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 20.10.2026 yildagi 579-son"
+        },
+        {
+          "id": "-8547667",
+          "url": "https://lex.uz/uz/docs/-8547667",
+          "title": "Oʻzbekiston Respublikasining ayrim qonun hujjatlariga tadbirkorlik subyektlari uchun tartibga solish yukini kamaytirishga qaratilgan oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "24 Oʻzbekiston Respublikasining ayrim qonun hujjatlariga tadbirkorlik subyektlari uchun tartibga solish yukini kamaytirishga qaratilgan oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasining Qonuni, 20.10.2026 yildagi O‘RQ-1183-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8548649",
+          "url": "https://lex.uz/uz/docs/-8548649",
+          "title": "Tibbiyot va farmatsevtika xodimlarini davlat roʻyxatidan oʻtkazish orqali ularga kasbiy faoliyatni amalga oshirish huquqini berish tizimini joriy etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "25 Tibbiyot va farmatsevtika xodimlarini davlat roʻyxatidan oʻtkazish orqali ularga kasbiy faoliyatni amalga oshirish huquqini berish tizimini joriy etish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 577-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8548735",
+          "url": "https://lex.uz/uz/docs/-8548735",
+          "title": "Uzluksiz taʼlim tizimida psixologik xizmat sohasini ilmiy asosda rivojlantirish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "26 Uzluksiz taʼlim tizimida psixologik xizmat sohasini ilmiy asosda rivojlantirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 19.10.2026 yildagi PQ-379-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8547582",
+          "url": "https://lex.uz/uz/docs/-8547582",
+          "title": "Taʼlim va ilm-fan vazirligi faoliyatini tashkil etish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "27 Taʼlim va ilm-fan vazirligi faoliyatini tashkil etish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 19.10.2026 yildagi PQ-380-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8546900",
+          "url": "https://lex.uz/uz/docs/8546900",
+          "title": "Oʻzbekiston Respublikasi Markaziy banki tomonidan moliyaviy xizmatlar sohasidagi maxsus huquqiy rejimni joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "28 Oʻzbekiston Respublikasi Markaziy banki tomonidan moliyaviy xizmatlar sohasidagi maxsus huquqiy rejimni joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 19.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3956"
+        },
+        {
+          "id": "-8545690",
+          "url": "https://lex.uz/uz/docs/-8545690",
+          "title": "Fuqarolarga davlat pensiyalarini tayinlash boʻyicha ixcham xizmat koʻrsatish tizimini bosqichma-bosqich joriy etish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "29 Fuqarolarga davlat pensiyalarini tayinlash boʻyicha ixcham xizmat koʻrsatish tizimini bosqichma-bosqich joriy etish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 576-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8545685",
+          "url": "https://lex.uz/uz/docs/-8545685",
+          "title": "Buyuk tabib va qomusiy olim Abu Ali ibn Sino ilmiy merosini chuqur oʻrganish va uni keng targʻib qilish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "30 Buyuk tabib va qomusiy olim Abu Ali ibn Sino ilmiy merosini chuqur oʻrganish va uni keng targʻib qilish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 575-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8545680",
+          "url": "https://lex.uz/uz/docs/-8545680",
+          "title": "Soliq organlari xodimlari hamda Navoiy va Chirchiq shaharlarida hisobga qoʻyilgan jismoniy shaxslar tomonidan oʻzining jami yillik daromadlari toʻgʻrisidagi deklaratsiyani taqdim etish amaliyotini tajriba-sinov tariqasida joriy etish tartibi boʻyicha vaqtinchalik maʼmuriy reglamentni tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "31 Soliq organlari xodimlari hamda Navoiy va Chirchiq shaharlarida hisobga qoʻyilgan jismoniy shaxslar tomonidan oʻzining jami yillik daromadlari toʻgʻrisidagi deklaratsiyani taqdim etish amaliyotini tajriba-sinov tariqasida joriy etish tartibi boʻyicha vaqtinchalik maʼmuriy reglamentni tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 574-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8540162",
+          "url": "https://lex.uz/uz/docs/8540162",
+          "title": "Konsert-tomosha va gastrol faoliyatida qonunchilikka rioya etilishi ustidan nazoratni amalga oshirishda “Xavfni tahlil qilish” elektron tizimini joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "32 Konsert-tomosha va gastrol faoliyatida qonunchilikka rioya etilishi ustidan nazoratni amalga oshirishda “Xavfni tahlil qilish” elektron tizimini joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi madaniyat vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3955"
+        },
+        {
+          "id": "8545660",
+          "url": "https://lex.uz/uz/docs/8545660",
+          "title": "Oʻzbekiston Respublikasi Transport vazirligi tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirishlar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "33 Oʻzbekiston Respublikasi Transport vazirligi tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasi transport vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3954"
+        },
+        {
+          "id": "8543784",
+          "url": "https://lex.uz/uz/docs/8543784",
+          "title": "Pochta aloqasi xizmatlarini koʻrsatish qoidalariga oʻzgartirishlar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "34 Pochta aloqasi xizmatlarini koʻrsatish qoidalariga oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasi raqamli texnologiyalar vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 2219-19"
+        },
+        {
+          "id": "8543762",
+          "url": "https://lex.uz/uz/docs/8543762",
+          "title": "Temir yoʻl kesishmalaridan foydalanish qoidalarining 1-bandiga oʻzgartirish kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "35 Temir yoʻl kesishmalaridan foydalanish qoidalarining 1-bandiga oʻzgartirish kiritish toʻgʻrisida Oʻzbekiston Respublikasi transport vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3363-4"
+        },
+        {
+          "id": "-8540167",
+          "url": "https://lex.uz/uz/docs/-8540167",
+          "title": "Toshkent xalqaro moda akademiyasini tashkil etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "36 Toshkent xalqaro moda akademiyasini tashkil etish toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 16.10.2026 yildagi PQ-378-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8537824",
+          "url": "https://lex.uz/uz/docs/8537824",
+          "title": "Oʻzbekiston Respublikasi fuqaro aviatsiyasi havo kemalarining uchishga yaroqlilikni taʼminlash boʻyicha aviatsiya qoidalarini tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "37 Oʻzbekiston Respublikasi fuqaro aviatsiyasi havo kemalarining uchishga yaroqlilikni taʼminlash boʻyicha aviatsiya qoidalarini tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Fuqaro aviatsiyasi agentligi direktorining buyrugʻi, 14.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3953"
+        },
+        {
+          "id": "-8537661",
+          "url": "https://lex.uz/uz/docs/-8537661",
+          "title": "Bolalarni zoʻravonlikning barcha shakllaridan himoya qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "38 Bolalarni zoʻravonlikning barcha shakllaridan himoya qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasining Qonuni, 14.10.2026 yildagi O‘RQ-1180-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8537977",
+          "url": "https://lex.uz/uz/docs/-8537977",
+          "title": "Bolalarni ijtimoiy himoya qilish tizimini takomillashtirishga qaratilgan qoʻshimcha chora-tadbirlar toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "39 Bolalarni ijtimoiy himoya qilish tizimini takomillashtirishga qaratilgan qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 14.10.2026 yildagi PQ-375-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8537831",
+          "url": "https://lex.uz/uz/docs/-8537831",
+          "title": "Karantin ostidagi mahsulotlar uchun ruxsat etish xususiyatiga ega hujjatlarni berishda ushbu mahsulotlar fitosanitariya holatini oʻrganish maqsadida mutaxassislarni xorijiy mamlakatlarga yuborish zaruratini aniqlash mezonlari va yuborish tartibi toʻgʻrisidagi nizomga oʻzgartirishlar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "40 Karantin ostidagi mahsulotlar uchun ruxsat etish xususiyatiga ega hujjatlarni berishda ushbu mahsulotlar fitosanitariya holatini oʻrganish maqsadida mutaxassislarni xorijiy mamlakatlarga yuborish zaruratini aniqlash mezonlari va yuborish tartibi toʻgʻrisidagi nizomga oʻzgartirishlar kiritish haqida Oʻzbekiston Respublikasi Oziq-ovqat mahsulotlari xavfsizligi qoʻmitasining qarori, 14.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3185-3"
+        }
+      ],
+      "next": "javascript:__doPostBack('ucFoundActsControl$LinkButton1','')"
+    },
+    {
+      "total": 80,
+      "rows": [
+        {
+          "id": "8537139",
+          "url": "https://lex.uz/uz/docs/8537139",
+          "title": "Yuk ortish va tushirish ishlarida yukchilar uchun ishlarning xavfsizligi qoidalarining 18-bandiga oʻzgartirish kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "41 Yuk ortish va tushirish ishlarida yukchilar uchun ishlarning xavfsizligi qoidalarining 18-bandiga oʻzgartirish kiritish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasining qarori, 14.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3844-1"
+        },
+        {
+          "id": "-8537099",
+          "url": "https://lex.uz/uz/docs/-8537099",
+          "title": "Xalqaro shartnomani tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "42 Xalqaro shartnomani tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 14.10.2026 yildagi PQ-373-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8537009",
+          "url": "https://lex.uz/uz/docs/-8537009",
+          "title": "Yaylov yerlaridan samarali foydalanish va chorvachilik xoʻjaliklarini davlat tomonidan qoʻllab-quvvatlashga doir qoʻshimcha chora-tadbirlar toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "43 Yaylov yerlaridan samarali foydalanish va chorvachilik xoʻjaliklarini davlat tomonidan qoʻllab-quvvatlashga doir qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 14.10.2026 yildagi PQ-374-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8537007",
+          "url": "https://lex.uz/uz/docs/-8537007",
+          "title": "Oʻzbekiston Respublikasining ayrim qonun hujjatlariga qoʻshimcha va oʻzgartirishlar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "44 Oʻzbekiston Respublikasining ayrim qonun hujjatlariga qoʻshimcha va oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasining Qonuni, 14.10.2026 yildagi O‘RQ-1182-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8536927",
+          "url": "https://lex.uz/uz/docs/-8536927",
+          "title": "Oʻzbekiston Respublikasining Konstitutsiyaviy sudi toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "45 Oʻzbekiston Respublikasining Konstitutsiyaviy sudi toʻgʻrisida Oʻzbekiston Respublikasining Konstitutsiyaviy qonuni, 14.10.2026 yildagi O‘RQ-1181-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8537985",
+          "url": "https://lex.uz/uz/docs/-8537985",
+          "title": "Oʻzbekiston Respublikasi Hukumatining ayrim qarorlariga oʻzgartirish va qoʻshimchalar kiritish, shuningdek, baʼzilarini oʻz kuchini yoʻqotgan deb hisoblash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "46 Oʻzbekiston Respublikasi Hukumatining ayrim qarorlariga oʻzgartirish va qoʻshimchalar kiritish, shuningdek, baʼzilarini oʻz kuchini yoʻqotgan deb hisoblash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 13.10.2026 yildagi 563-son"
+        },
+        {
+          "id": "-8536685",
+          "url": "https://lex.uz/uz/docs/-8536685",
+          "title": "Ilgʻor “yashil” texnologiyalar asosida issiqxona xoʻjaliklarini rivojlantirish va aholi tomorqa yer maydonlaridan samarali foydalanish boʻyicha qoʻshimcha chora-tadbirlar toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "47 Ilgʻor “yashil” texnologiyalar asosida issiqxona xoʻjaliklarini rivojlantirish va aholi tomorqa yer maydonlaridan samarali foydalanish boʻyicha qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 13.10.2026 yildagi PQ-371-son"
+        },
+        {
+          "id": "-8536018",
+          "url": "https://lex.uz/uz/docs/-8536018",
+          "title": "Nodavlat jismoniy tarbiya va sport tashkilotlari, shuningdek, sport inshootlari reyestrlariga doir ayrim normativ-huquqiy hujjatlarni tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "48 Nodavlat jismoniy tarbiya va sport tashkilotlari, shuningdek, sport inshootlari reyestrlariga doir ayrim normativ-huquqiy hujjatlarni tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 13.10.2026 yildagi 561-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8534708",
+          "url": "https://lex.uz/uz/docs/-8534708",
+          "title": "“Surxon-Agro” erkin iqtisodiy zonasida investitsiya loyihalarini jadal amalga oshirish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "49 “Surxon-Agro” erkin iqtisodiy zonasida investitsiya loyihalarini jadal amalga oshirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining Farmoni, 13.10.2026 yildagi PF-224-son"
+        },
+        {
+          "id": "-8536692",
+          "url": "https://lex.uz/uz/docs/-8536692",
+          "title": "Transport-logistika tizimini rivojlantirishga doir qoʻshimcha chora-tadbirlar toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "50 Transport-logistika tizimini rivojlantirishga doir qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 12.10.2026 yildagi PQ-368-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8533672",
+          "url": "https://lex.uz/uz/docs/-8533672",
+          "title": "Vazirlar Mahkamasining 2022-yil 20-apreldagi 200-son qarori bilan tasdiqlangan Qurilishi tugallangan obyektni topshirish-qabul qilish va foydalanish uchun ruxsatnoma berish boʻyicha davlat xizmatlarini koʻrsatishning maʼmuriy reglamentiga qurilishi tugallangan obyektlarni foydalanishga qabul qilish tartibini takomillashtirishga qaratilgan oʻzgartirish kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "51 Vazirlar Mahkamasining 2022-yil 20-apreldagi 200-son qarori bilan tasdiqlangan Qurilishi tugallangan obyektni topshirish-qabul qilish va foydalanish uchun ruxsatnoma berish boʻyicha davlat xizmatlarini koʻrsatishning maʼmuriy reglamentiga qurilishi tugallangan obyektlarni foydalanishga qabul qilish tartibini takomillashtirishga qaratilgan oʻzgartirish kiritish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 12.10.2026 yildagi 560-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8534041",
+          "url": "https://lex.uz/uz/docs/-8534041",
+          "title": "Arxiv ishi va ish yuritishga oid hujjatlar loyihalarini ekspertizadan oʻtkazish boʻyicha davlat xizmatini koʻrsatishning maʼmuriy reglamentini tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "52 Arxiv ishi va ish yuritishga oid hujjatlar loyihalarini ekspertizadan oʻtkazish boʻyicha davlat xizmatini koʻrsatishning maʼmuriy reglamentini tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 10.10.2026 yildagi 559-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8530607",
+          "url": "https://lex.uz/uz/docs/-8530607",
+          "title": "Davlat organlari va tashkilotlari faoliyatida korrupsiyaga oid xavf-xatarlarni aniqlash va baholash uslubiyotini tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "53 Davlat organlari va tashkilotlari faoliyatida korrupsiyaga oid xavf-xatarlarni aniqlash va baholash uslubiyotini tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Korrupsiyaga qarshi kurashish agentligi, Oʻzbekiston Respublikasi Adliya vazirligining qarori, 10.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3952"
+        },
+        {
+          "id": "8530799",
+          "url": "https://lex.uz/uz/docs/8530799",
+          "title": "Tijorat banklarida korporativ boshqaruv toʻgʻrisidagi nizomga oʻzgartirish va qoʻshimchalar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "54 Tijorat banklarida korporativ boshqaruv toʻgʻrisidagi nizomga oʻzgartirish va qoʻshimchalar kiritish haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 09.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3254-2"
+        },
+        {
+          "id": "8529453",
+          "url": "https://lex.uz/uz/docs/8529453",
+          "title": "Bank xizmatlari isteʼmolchilari bilan oʻzaro munosabatlarni amalga oshirishda tijorat banklarining faoliyatiga qoʻyiladigan minimal talablar toʻgʻrisidagi nizomning 35-1-bandiga qoʻshimcha kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "55 Bank xizmatlari isteʼmolchilari bilan oʻzaro munosabatlarni amalga oshirishda tijorat banklarining faoliyatiga qoʻyiladigan minimal talablar toʻgʻrisidagi nizomning 35-1-bandiga qoʻshimcha kiritish haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 09.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3030-13"
+        },
+        {
+          "id": "-8536680",
+          "url": "https://lex.uz/uz/docs/-8536680",
+          "title": "Oʻzbekiston Respublikasida biznesni roʻyxatga olishni oʻtkazish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "56 Oʻzbekiston Respublikasida biznesni roʻyxatga olishni oʻtkazish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 557-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8536671",
+          "url": "https://lex.uz/uz/docs/-8536671",
+          "title": "2027-2028-yillarda Oʻzbekiston Respublikasida multiindikator klaster kuzatuvini oʻtkazish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "57 2027-2028-yillarda Oʻzbekiston Respublikasida multiindikator klaster kuzatuvini oʻtkazish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 556-son"
+        },
+        {
+          "id": "-8530785",
+          "url": "https://lex.uz/uz/docs/-8530785",
+          "title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasining ijro etuvchi tuzilmasini yanada takomillashtirish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "58 Oʻzbekiston Respublikasi Vazirlar Mahkamasining ijro etuvchi tuzilmasini yanada takomillashtirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining Farmoni, 09.10.2026 yildagi PF-217-son"
+        },
+        {
+          "id": "8529653",
+          "url": "https://lex.uz/uz/docs/8529653",
+          "title": "Tijorat banklarida kassa ishini tashkil etish, naqd pul va boshqa qimmatliklarni inkassatsiya qilishga doir yoʻriqnomaga qoʻshimcha va oʻzgartirishlar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "59 Tijorat banklarida kassa ishini tashkil etish, naqd pul va boshqa qimmatliklarni inkassatsiya qilishga doir yoʻriqnomaga qoʻshimcha va oʻzgartirishlar kiritish haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 09.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3028-11"
+        },
+        {
+          "id": "-8540128",
+          "url": "https://lex.uz/uz/docs/-8540128",
+          "title": "Hududiy ijtimoiy xizmatlar markazlarida aholining ehtiyojmand qatlamlariga kompleks ijtimoiy va reabilitatsiya xizmatlari koʻrsatishni tashkil etish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "60 Hududiy ijtimoiy xizmatlar markazlarida aholining ehtiyojmand qatlamlariga kompleks ijtimoiy va reabilitatsiya xizmatlari koʻrsatishni tashkil etish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 555-son"
+        }
+      ],
+      "next": "javascript:__doPostBack('ucFoundActsControl$LinkButton1','')"
+    },
+    {
+      "total": 80,
+      "rows": [
+        {
+          "id": "8529450",
+          "url": "https://lex.uz/uz/docs/8529450",
+          "title": "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligi tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirishlar kiritish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "61 Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligi tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasi davlat aktivlarini boshqarish agentligi direktorining buyrugʻi, 09.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3951"
+        },
+        {
+          "id": "-8529444",
+          "url": "https://lex.uz/uz/docs/-8529444",
+          "title": "Limonchilikka ixtisoslashgan mahallalarda muhandislik-kommunikatsiya infratuzilmasi obyektlarini qurish, rekonstruksiya qilish va mukammal taʼmirlash tartibini belgilash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "62 Limonchilikka ixtisoslashgan mahallalarda muhandislik-kommunikatsiya infratuzilmasi obyektlarini qurish, rekonstruksiya qilish va mukammal taʼmirlash tartibini belgilash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 550-son"
+        },
+        {
+          "id": "-8529435",
+          "url": "https://lex.uz/uz/docs/-8529435",
+          "title": "Eng yaxshi soliq toʻlovchi mahallalarni aniqlash mezonlari va tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "63 Eng yaxshi soliq toʻlovchi mahallalarni aniqlash mezonlari va tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 548-son"
+        },
+        {
+          "id": "-8529433",
+          "url": "https://lex.uz/uz/docs/-8529433",
+          "title": "Yangi ishlanmalarga asoslangan “spin-off” korxonalarini tashkil etish hamda yangi ishlanmalarni tijoratlashtirishga tayyorlash loyihalarini moliyalashtirish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "64 Yangi ishlanmalarga asoslangan “spin-off” korxonalarini tashkil etish hamda yangi ishlanmalarni tijoratlashtirishga tayyorlash loyihalarini moliyalashtirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 554-son"
+        },
+        {
+          "id": "-8529419",
+          "url": "https://lex.uz/uz/docs/-8529419",
+          "title": "Innovatsiya va startap loyihalar parki faoliyatini tashkil qilish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "65 Innovatsiya va startap loyihalar parki faoliyatini tashkil qilish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 553-son"
+        },
+        {
+          "id": "-8529417",
+          "url": "https://lex.uz/uz/docs/-8529417",
+          "title": "Kasbiy taʼlim tashkilotlarining ishlab chiqarish taʼlimi ustalariga kasbiy sertifikat berish tizimini joriy etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "66 Kasbiy taʼlim tashkilotlarining ishlab chiqarish taʼlimi ustalariga kasbiy sertifikat berish tizimini joriy etish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 552-son"
+        },
+        {
+          "id": "-8529415",
+          "url": "https://lex.uz/uz/docs/-8529415",
+          "title": "Suv resurslaridan foydalanganlik uchun soliq maʼmurchiligini takomillashtirishning qoʻshimcha chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "67 Suv resurslaridan foydalanganlik uchun soliq maʼmurchiligini takomillashtirishning qoʻshimcha chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 546-son"
+        },
+        {
+          "id": "-8529407",
+          "url": "https://lex.uz/uz/docs/-8529407",
+          "title": "Davlat mulkini ijaraga berish boʻyicha davlat xizmatini koʻrsatishning maʼmuriy reglamentini tasdiqlash toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "68 Davlat mulkini ijaraga berish boʻyicha davlat xizmatini koʻrsatishning maʼmuriy reglamentini tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 551-son"
+        },
+        {
+          "id": "-8529405",
+          "url": "https://lex.uz/uz/docs/-8529405",
+          "title": "Aholi tomorqalaridan yuqori daromad olishni ragʻbatlantirish uchun qoʻshimcha shart-sharoitlar yaratish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "69 Aholi tomorqalaridan yuqori daromad olishni ragʻbatlantirish uchun qoʻshimcha shart-sharoitlar yaratish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 547-son"
+        },
+        {
+          "id": "-8529397",
+          "url": "https://lex.uz/uz/docs/-8529397",
+          "title": "“Sanoat rivojiga qoʻshgan hissasi uchun” koʻkrak nishonini taʼsis etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "70 “Sanoat rivojiga qoʻshgan hissasi uchun” koʻkrak nishonini taʼsis etish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 09.10.2026 yildagi 545-son"
+        },
+        {
+          "id": "-8529466",
+          "url": "https://lex.uz/uz/docs/-8529466",
+          "title": "“Inson faxri” milliy mukofotini taʼsis etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "71 “Inson faxri” milliy mukofotini taʼsis etish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 07.10.2026 yildagi 540-son"
+        },
+        {
+          "id": "-8527137",
+          "url": "https://lex.uz/uz/docs/-8527137",
+          "title": "Patent vakilligi institutini yanada takomillashtirish boʻyicha qoʻshimcha chora-tadbirlar toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "72 Patent vakilligi institutini yanada takomillashtirish boʻyicha qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 07.10.2026 yildagi 542-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8524386",
+          "url": "https://lex.uz/uz/docs/8524386",
+          "title": "Qishloq xoʻjaligi korxonalari tomonidan birja savdolari orqali xarid qilingan dizel yoqilgʻisi qiymatining bir qismini qoplash uchun subsidiya ajratish tartibi toʻgʻrisidagi vaqtinchalik nizomga oʻzgartirish va qoʻshimchalar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "73 Qishloq xoʻjaligi korxonalari tomonidan birja savdolari orqali xarid qilingan dizel yoqilgʻisi qiymatining bir qismini qoplash uchun subsidiya ajratish tartibi toʻgʻrisidagi vaqtinchalik nizomga oʻzgartirish va qoʻshimchalar kiritish haqida Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirining buyrugʻi, 06.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3912-1"
+        },
+        {
+          "id": "-8523611",
+          "url": "https://lex.uz/uz/docs/-8523611",
+          "title": "Odam savdosidan jabrlangan shaxslarga ijtimoiy xizmatlar koʻrsatish tizimini samarali yoʻlga qoʻyish  chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "74 Odam savdosidan jabrlangan shaxslarga ijtimoiy xizmatlar koʻrsatish tizimini samarali yoʻlga qoʻyish  chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 06.10.2026 yildagi 539-son"
+        },
+        {
+          "id": "-8519451",
+          "url": "https://lex.uz/uz/docs/-8519451",
+          "title": "Davlat organlari va tashkilotlarining, davlat ishtirokidagi korxonalarning komplayens va korrupsiyaga qarshi ichki nazorat tuzilmalari faoliyati toʻgʻrisidagi namunaviy nizomni tasdiqlash haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "75 Davlat organlari va tashkilotlarining, davlat ishtirokidagi korxonalarning komplayens va korrupsiyaga qarshi ichki nazorat tuzilmalari faoliyati toʻgʻrisidagi namunaviy nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Korrupsiyaga qarshi kurashish agentligi direktorining buyrugʻi, 03.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3950"
+        },
+        {
+          "id": "-8519155",
+          "url": "https://lex.uz/uz/docs/-8519155",
+          "title": "Oʻzbekiston Respublikasi Taʼlim va ilm-fan vazirligini tashkil etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "76 Oʻzbekiston Respublikasi Taʼlim va ilm-fan vazirligini tashkil etish toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining Farmoni, 03.10.2026 yildagi PF-213-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "8518014",
+          "url": "https://lex.uz/uz/docs/8518014",
+          "title": "Banklar va nobank kredit tashkilotlariga nisbatan choralar va sanksiyalar qoʻllash tartibi toʻgʻrisidagi nizomga oʻzgartirish va qoʻshimchalar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "77 Banklar va nobank kredit tashkilotlariga nisbatan choralar va sanksiyalar qoʻllash tartibi toʻgʻrisidagi nizomga oʻzgartirish va qoʻshimchalar kiritish haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 03.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3492-2"
+        },
+        {
+          "id": "8517342",
+          "url": "https://lex.uz/uz/docs/8517342",
+          "title": "Mikromoliya tashkilotlari, faktoring tashkilotlari va lombardlar faoliyatini muvofiqlashtirish va tartibga solish toʻgʻrisidagi nizomga oʻzgartirish va qoʻshimchalar kiritish haqida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "78 Mikromoliya tashkilotlari, faktoring tashkilotlari va lombardlar faoliyatini muvofiqlashtirish va tartibga solish toʻgʻrisidagi nizomga oʻzgartirish va qoʻshimchalar kiritish haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 02.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3412-2"
+        },
+        {
+          "id": "-8517651",
+          "url": "https://lex.uz/uz/docs/-8517651",
+          "title": "Oʻzbekistonda Xitoy Xalq Respublikasining Lyaoning pedagogika universiteti filialini tashkil etish toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "79 Oʻzbekistonda Xitoy Xalq Respublikasining Lyaoning pedagogika universiteti filialini tashkil etish toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 02.10.2026 yildagi PQ-359-son Qo‘shimcha ma’lumotlar"
+        },
+        {
+          "id": "-8517348",
+          "url": "https://lex.uz/uz/docs/-8517348",
+          "title": "Ayrim davlat oliy taʼlim muassasalarining boshqaruv tizimini yanada takomillashtirish chora-tadbirlari toʻgʻrisida",
+          "status_classes": [
+            [
+              "fa",
+              "fa-check-circle",
+              "status_code_y"
+            ]
+          ],
+          "description": "80 Ayrim davlat oliy taʼlim muassasalarining boshqaruv tizimini yanada takomillashtirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 02.10.2026 yildagi PQ-358-son Qo‘shimcha ma’lumotlar"
+        }
+      ],
+      "next": null
+    }
+  ],
+  "old_viewstate_new_cookiejar": {
+    "total": 80,
+    "rows": [
+      {
+        "id": "8548503",
+        "url": "https://lex.uz/uz/docs/8548503",
+        "title": "“Yuridik shaxslarni yirik soliq toʻlovchilar toifasiga kiritishning mezonlarini belgilash toʻgʻrisidagi nizomni tasdiqlash haqida”gi qaror, shuningdek unga oʻzgartirish va qoʻshimchalarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "21 “Yuridik shaxslarni yirik soliq toʻlovchilar toifasiga kiritishning mezonlarini belgilash toʻgʻrisidagi nizomni tasdiqlash haqida”gi qaror, shuningdek unga oʻzgartirish va qoʻshimchalarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida Oʻzbekiston Respublikasi soliq qoʻmitasining qarori, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3172-4"
+      },
+      {
+        "id": "8547860",
+        "url": "https://lex.uz/uz/docs/8547860",
+        "title": "Oʻzbekiston Respublikasi Davlat budjeti pul mablagʻlarini kassali rejalashtirish va boshqarishni amalga oshirish boʻyicha hujjat shakllari va ularni taqdim qilish tartibi toʻgʻrisidagi yoʻriqnomaning 5-bandiga oʻzgartirish va qoʻshimcha kiritish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "22 Oʻzbekiston Respublikasi Davlat budjeti pul mablagʻlarini kassali rejalashtirish va boshqarishni amalga oshirish boʻyicha hujjat shakllari va ularni taqdim qilish tartibi toʻgʻrisidagi yoʻriqnomaning 5-bandiga oʻzgartirish va qoʻshimcha kiritish toʻgʻrisida Oʻzbekiston Respublikasi iqtisodiyot va moliya vazirining buyrugʻi, 20.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3009-4"
+      },
+      {
+        "id": "-8547765",
+        "url": "https://lex.uz/uz/docs/-8547765",
+        "title": "Xorijda istiqomat qilayotgan vatandoshlar va ularning oila aʼzolarini Oʻzbekiston Respublikasiga taklif qilish hamda fuqaroligi boʻlmagan shaxslarning biometrik harakatlanish hujjatlarini rasmiylashtirish boʻyicha davlat xizmatlarini koʻrsatish tartibini takomillashtirish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "23 Xorijda istiqomat qilayotgan vatandoshlar va ularning oila aʼzolarini Oʻzbekiston Respublikasiga taklif qilish hamda fuqaroligi boʻlmagan shaxslarning biometrik harakatlanish hujjatlarini rasmiylashtirish boʻyicha davlat xizmatlarini koʻrsatish tartibini takomillashtirish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 20.10.2026 yildagi 579-son"
+      },
+      {
+        "id": "-8547667",
+        "url": "https://lex.uz/uz/docs/-8547667",
+        "title": "Oʻzbekiston Respublikasining ayrim qonun hujjatlariga tadbirkorlik subyektlari uchun tartibga solish yukini kamaytirishga qaratilgan oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "24 Oʻzbekiston Respublikasining ayrim qonun hujjatlariga tadbirkorlik subyektlari uchun tartibga solish yukini kamaytirishga qaratilgan oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasining Qonuni, 20.10.2026 yildagi O‘RQ-1183-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8548649",
+        "url": "https://lex.uz/uz/docs/-8548649",
+        "title": "Tibbiyot va farmatsevtika xodimlarini davlat roʻyxatidan oʻtkazish orqali ularga kasbiy faoliyatni amalga oshirish huquqini berish tizimini joriy etish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "25 Tibbiyot va farmatsevtika xodimlarini davlat roʻyxatidan oʻtkazish orqali ularga kasbiy faoliyatni amalga oshirish huquqini berish tizimini joriy etish toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 577-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8548735",
+        "url": "https://lex.uz/uz/docs/-8548735",
+        "title": "Uzluksiz taʼlim tizimida psixologik xizmat sohasini ilmiy asosda rivojlantirish chora-tadbirlari toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "26 Uzluksiz taʼlim tizimida psixologik xizmat sohasini ilmiy asosda rivojlantirish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 19.10.2026 yildagi PQ-379-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8547582",
+        "url": "https://lex.uz/uz/docs/-8547582",
+        "title": "Taʼlim va ilm-fan vazirligi faoliyatini tashkil etish chora-tadbirlari toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "27 Taʼlim va ilm-fan vazirligi faoliyatini tashkil etish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 19.10.2026 yildagi PQ-380-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "8546900",
+        "url": "https://lex.uz/uz/docs/8546900",
+        "title": "Oʻzbekiston Respublikasi Markaziy banki tomonidan moliyaviy xizmatlar sohasidagi maxsus huquqiy rejimni joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "28 Oʻzbekiston Respublikasi Markaziy banki tomonidan moliyaviy xizmatlar sohasidagi maxsus huquqiy rejimni joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi Markaziy banki boshqaruvining qarori, 19.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3956"
+      },
+      {
+        "id": "-8545690",
+        "url": "https://lex.uz/uz/docs/-8545690",
+        "title": "Fuqarolarga davlat pensiyalarini tayinlash boʻyicha ixcham xizmat koʻrsatish tizimini bosqichma-bosqich joriy etish chora-tadbirlari toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "29 Fuqarolarga davlat pensiyalarini tayinlash boʻyicha ixcham xizmat koʻrsatish tizimini bosqichma-bosqich joriy etish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 576-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8545685",
+        "url": "https://lex.uz/uz/docs/-8545685",
+        "title": "Buyuk tabib va qomusiy olim Abu Ali ibn Sino ilmiy merosini chuqur oʻrganish va uni keng targʻib qilish chora-tadbirlari toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "30 Buyuk tabib va qomusiy olim Abu Ali ibn Sino ilmiy merosini chuqur oʻrganish va uni keng targʻib qilish chora-tadbirlari toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 575-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8545680",
+        "url": "https://lex.uz/uz/docs/-8545680",
+        "title": "Soliq organlari xodimlari hamda Navoiy va Chirchiq shaharlarida hisobga qoʻyilgan jismoniy shaxslar tomonidan oʻzining jami yillik daromadlari toʻgʻrisidagi deklaratsiyani taqdim etish amaliyotini tajriba-sinov tariqasida joriy etish tartibi boʻyicha vaqtinchalik maʼmuriy reglamentni tasdiqlash toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "31 Soliq organlari xodimlari hamda Navoiy va Chirchiq shaharlarida hisobga qoʻyilgan jismoniy shaxslar tomonidan oʻzining jami yillik daromadlari toʻgʻrisidagi deklaratsiyani taqdim etish amaliyotini tajriba-sinov tariqasida joriy etish tartibi boʻyicha vaqtinchalik maʼmuriy reglamentni tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori, 19.10.2026 yildagi 574-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "8540162",
+        "url": "https://lex.uz/uz/docs/8540162",
+        "title": "Konsert-tomosha va gastrol faoliyatida qonunchilikka rioya etilishi ustidan nazoratni amalga oshirishda “Xavfni tahlil qilish” elektron tizimini joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "32 Konsert-tomosha va gastrol faoliyatida qonunchilikka rioya etilishi ustidan nazoratni amalga oshirishda “Xavfni tahlil qilish” elektron tizimini joriy etish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida Oʻzbekiston Respublikasi madaniyat vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3955"
+      },
+      {
+        "id": "8545660",
+        "url": "https://lex.uz/uz/docs/8545660",
+        "title": "Oʻzbekiston Respublikasi Transport vazirligi tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirishlar kiritish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "33 Oʻzbekiston Respublikasi Transport vazirligi tomonidan qabul qilingan ayrim idoraviy normativ-huquqiy hujjatlarga oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasi transport vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3954"
+      },
+      {
+        "id": "8543784",
+        "url": "https://lex.uz/uz/docs/8543784",
+        "title": "Pochta aloqasi xizmatlarini koʻrsatish qoidalariga oʻzgartirishlar kiritish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "34 Pochta aloqasi xizmatlarini koʻrsatish qoidalariga oʻzgartirishlar kiritish toʻgʻrisida Oʻzbekiston Respublikasi raqamli texnologiyalar vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 2219-19"
+      },
+      {
+        "id": "8543762",
+        "url": "https://lex.uz/uz/docs/8543762",
+        "title": "Temir yoʻl kesishmalaridan foydalanish qoidalarining 1-bandiga oʻzgartirish kiritish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "35 Temir yoʻl kesishmalaridan foydalanish qoidalarining 1-bandiga oʻzgartirish kiritish toʻgʻrisida Oʻzbekiston Respublikasi transport vazirining buyrugʻi, 16.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3363-4"
+      },
+      {
+        "id": "-8540167",
+        "url": "https://lex.uz/uz/docs/-8540167",
+        "title": "Toshkent xalqaro moda akademiyasini tashkil etish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "36 Toshkent xalqaro moda akademiyasini tashkil etish toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 16.10.2026 yildagi PQ-378-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "8537824",
+        "url": "https://lex.uz/uz/docs/8537824",
+        "title": "Oʻzbekiston Respublikasi fuqaro aviatsiyasi havo kemalarining uchishga yaroqlilikni taʼminlash boʻyicha aviatsiya qoidalarini tasdiqlash toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "37 Oʻzbekiston Respublikasi fuqaro aviatsiyasi havo kemalarining uchishga yaroqlilikni taʼminlash boʻyicha aviatsiya qoidalarini tasdiqlash toʻgʻrisida Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Fuqaro aviatsiyasi agentligi direktorining buyrugʻi, 14.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3953"
+      },
+      {
+        "id": "-8537661",
+        "url": "https://lex.uz/uz/docs/-8537661",
+        "title": "Bolalarni zoʻravonlikning barcha shakllaridan himoya qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "38 Bolalarni zoʻravonlikning barcha shakllaridan himoya qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida Oʻzbekiston Respublikasining Qonuni, 14.10.2026 yildagi O‘RQ-1180-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8537977",
+        "url": "https://lex.uz/uz/docs/-8537977",
+        "title": "Bolalarni ijtimoiy himoya qilish tizimini takomillashtirishga qaratilgan qoʻshimcha chora-tadbirlar toʻgʻrisida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "39 Bolalarni ijtimoiy himoya qilish tizimini takomillashtirishga qaratilgan qoʻshimcha chora-tadbirlar toʻgʻrisida Oʻzbekiston Respublikasi Prezidentining qarori, 14.10.2026 yildagi PQ-375-son Qo‘shimcha ma’lumotlar"
+      },
+      {
+        "id": "-8537831",
+        "url": "https://lex.uz/uz/docs/-8537831",
+        "title": "Karantin ostidagi mahsulotlar uchun ruxsat etish xususiyatiga ega hujjatlarni berishda ushbu mahsulotlar fitosanitariya holatini oʻrganish maqsadida mutaxassislarni xorijiy mamlakatlarga yuborish zaruratini aniqlash mezonlari va yuborish tartibi toʻgʻrisidagi nizomga oʻzgartirishlar kiritish haqida",
+        "status_classes": [
+          [
+            "fa",
+            "fa-check-circle",
+            "status_code_y"
+          ]
+        ],
+        "description": "40 Karantin ostidagi mahsulotlar uchun ruxsat etish xususiyatiga ega hujjatlarni berishda ushbu mahsulotlar fitosanitariya holatini oʻrganish maqsadida mutaxassislarni xorijiy mamlakatlarga yuborish zaruratini aniqlash mezonlari va yuborish tartibi toʻgʻrisidagi nizomga oʻzgartirishlar kiritish haqida Oʻzbekiston Respublikasi Oziq-ovqat mahsulotlari xavfsizligi qoʻmitasining qarori, 14.10.2026 yilda ro‘yxatdan o‘tgan, ro‘yxat raqami 3185-3"
+      }
+    ],
+    "next": "javascript:__doPostBack('ucFoundActsControl$LinkButton1','')"
+  },
+  "unique_count": 80,
+  "duplicates_skipped": 20,
+  "reconciled": true,
+  "actual_token_expiration_tested": false
+}

@@ -1,0 +1,1122 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m                             37 / 37 (100%)
+
+Time: 00:00.340, Memory: 44.50 MB
+
+[4mDocument Importer (Tests\Feature\DocumentImporter)[0m
+[33m ✘ [0mReal four identifier fixture maps to one document and three full texts
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mRepeated import is idempotent and checks can advance without content change
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mAll source entrypoints reuse persisted anchor
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mSource namespace does not collide for identical external ids
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mOne invalid language still saves other valid languages and is incomplete
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mMissing required text cannot borrow an old success to mark complete
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mTruncated text never overwrites previous valid content
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mContent hash changes without creating a history row
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mCrlf normalization does not change hash or markdown structure
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mConflicting mappings fail closed without automatic merge
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mDatabase failure after first language insert rolls back every write
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mUnknown metadata preserves entire existing document
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mPending active and revoked transitions preserve text
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mActual scan metadata date wins warning persists and bad ocr cannot replace old text
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mAll bad languages cannot create an empty document
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+[33m ✘ [0mNew verified language keeps original canonical anchor
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mFeature[2m/[22mDocumentImporterTest.php[2m:[22m[34m25[0m
+   [33m┴[0m
+
+[4mDocument Validator (Tests\Unit\DocumentValidator)[0m
+[33m ✘ [0mAll four saved identity graphs are verified without fetching
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mA one way link is not identity proof
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mMatching requisites titles and hashes without links do not merge
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mConflicting requisites require review
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mUnknown and internally conflicting metadata fail closed
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mPending becomes active at tashkent midnight only with source active metadata
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mSource revoked is inactive and N is never assumed pending
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mActual metadata pdf mismatch is only a warning for status
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mActual pdf and ocr quality reviews are not overridden by status
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mPage mismatch and uncertified ocr fail even when candidate claims good quality
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+
+[4mFoundation Database (Tests\Feature\FoundationDatabase)[0m
+[33m ✘ [0mReal postgresql schema has exactly five business tables and jsonb columns
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mMigrations roll back and reapply on postgresql
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mSource seeding is idempotent and preserves disabled sources
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mAll relationships and casts work
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mOne source identifier cannot belong to two documents
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mForeign keys reject missing and cross source references
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mContent language unique and document delete cascades
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mNullable manual anchors and business status checks
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mStrict completion requires all gates and zero failures even for direct sql
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mDatabase queue dispatch is after commit and rollback does not leave a job
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+[33m ✘ [0mQueue timing configuration and no live schedules
+   [33m┐[0m
+   [33m├[0m [43;30mIlluminate\Contracts\Container\BindingResolutionException: Target class [http] does not exist.[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1153[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m│[0m  
+   [33m│[0m Caused by:
+   [33m├[0m [43;30mReflectionException: Class "http" does not exist[0m
+   [33m│[0m
+   [33m│[0m [2m/[22mhome[2m/[22mxojiakbar[2m/[22mPhpstormProjects[2m/[22mmening_fikrim[2m/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1151[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php[22m[2m:[22m[34m939[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1086[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m867[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mFoundation[2m/[22mApplication.php[2m:[22m[34m1066[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/[22mContainer[2m/[22mContainer.php[2m:[22m[34m1850[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mtests[2m/[22mTestCase.php[2m:[22m[34m16[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/[22mvendor[2m/[22mlaravel[2m/[22mframework[2m/[22msrc[2m/[22mIlluminate[2m/[22mFoundation[2m/[22mTesting[2m/[22mTestCase.php[2m:[22m[34m85[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mConcerns[2m/[22mInteractsWithTestCaseLifecycle.php[2m:[22m[34m102[0m
+   [33m│[0m [2m/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/[22mTestCase.php[2m:[22m[34m75[0m
+   [33m┴[0m
+
+[37;41mERRORS![0m
+[37;41mTests: 37[0m[37;41m, Assertions: 0[0m[37;41m, Errors: 37[0m[37;41m.[0m

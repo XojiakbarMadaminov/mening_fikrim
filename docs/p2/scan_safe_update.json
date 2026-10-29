@@ -1,0 +1,36 @@
+{
+    "database": "mening_fikrim_active_test",
+    "controlled_prior_content": true,
+    "real_source_status": "active",
+    "effective_at": "2026-10-23",
+    "last_checked_at": "2026-10-20T12:00:00+05:00",
+    "old_hash_preserved": true,
+    "result": {
+        "document_id": 2,
+        "action": "updated",
+        "complete": false,
+        "languages": {
+            "uz-Cyrl": {
+                "state": "review",
+                "errors": [
+                    "quality_review",
+                    "uncertified_ocr"
+                ]
+            }
+        },
+        "warnings": [
+            {
+                "code": "effective_date_mismatch",
+                "source_effective_at": "2026-10-23",
+                "text_effective_at": "2027-01-01"
+            }
+        ]
+    },
+    "stored_warnings": [
+        {
+            "code": "effective_date_mismatch",
+            "text_effective_at": "2027-01-01",
+            "source_effective_at": "2026-10-23"
+        }
+    ]
+}

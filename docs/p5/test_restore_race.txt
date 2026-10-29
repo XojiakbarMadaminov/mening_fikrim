@@ -1,0 +1,110 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...............................................................  63 / 142 ( 44%)
+............................................................... 126 / 142 ( 88%)
+.............[31;1mE[0m..                                                142 / 142 (100%)
+
+Time: 00:40.019, Memory: 100.50 MB
+
+There was 1 error:
+
+1) Tests\Feature\ScrapingIntegrationTest::test_crash_after_limit_commit_finishes_discovery_without_skipping_pending_imports
+Illuminate\Database\QueryException: SQLSTATE[2BP01]: Dependent objects still exist: 7 ERROR:  cannot drop table document_sources because other objects depend on it
+DETAIL:  constraint scrape_runs_source_id_foreign on table scrape_runs depends on table document_sources
+HINT:  Use DROP ... CASCADE to drop the dependent objects too. (Connection: pgsql, Host: 127.0.0.1, Port: 5432, Database: mening_fikrim_active_test, SQL: drop table if exists "document_sources")
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:864
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:820
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:597
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:122
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:722
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:568
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/database/migrations/2026_10_28_000001_create_document_sources_table.php:26
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:518
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:443
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:451
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:417
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:867
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:417
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:340
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:284
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php:61
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:686
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php:60
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Util.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:292
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Command/Command.php:285
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:261
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:1129
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:380
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:219
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Application.php:165
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:450
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:452
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:676
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:85
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:24
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:335
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:130
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:101
+
+Caused by
+PDOException: SQLSTATE[2BP01]: Dependent objects still exist: 7 ERROR:  cannot drop table document_sources because other objects depend on it
+DETAIL:  constraint scrape_runs_source_id_foreign on table scrape_runs depends on table document_sources
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:608
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:853
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:820
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Connection.php:597
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:122
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:722
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:568
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/database/migrations/2026_10_28_000001_create_document_sources_table.php:26
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:518
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:443
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:451
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:417
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:867
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:417
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:340
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:284
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php:61
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:686
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php:60
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Util.php:43
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:96
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:292
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Command/Command.php:285
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Command.php:261
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:1129
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:380
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/symfony/console/Application.php:219
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Console/Application.php:165
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:450
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:452
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:676
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:85
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:24
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:335
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithTestCaseLifecycle.php:130
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:101
+
+[37;41mERRORS![0m
+[37;41mTests: 142[0m[37;41m, Assertions: 614[0m[37;41m, Errors: 1[0m[37;41m.[0m

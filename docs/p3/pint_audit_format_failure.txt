@@ -1,0 +1,1 @@
+{"tool":"pint","result":"fail","files":[{"path":"docs\/p3\/content_audit.php","fixers":["single_space_around_construct","method_argument_space","array_indentation","ternary_operator_spaces","whitespace_after_comma_in_array","no_multiple_statements_per_line","space_after_semicolon","braces_position","statement_indentation","binary_operator_spaces"]}]}

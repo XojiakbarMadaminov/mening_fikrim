@@ -1,0 +1,114 @@
+[
+  {
+    "file": "app/Console/Commands/SyncDocuments.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Jobs/DiscoverDocumentsJob.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Jobs/ImportDocumentJob.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Models/ScrapeRun.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Models/ScrapeRunItem.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Scraping/LexUz/HtmlMarkdownParser.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Scraping/LexUz/LexHttpClient.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Scraping/LexUz/LexUzParser.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Scraping/LexUz/LexUzScraper.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Scraping/LexUz/PdfQualityInspector.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Scraping/LexUz/PdfTextExtractor.php",
+    "change": "modified"
+  },
+  {
+    "file": "app/Scraping/LexUz/SourceReviewException.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Scraping/LexUz/inspect_pdf.py",
+    "change": "added"
+  },
+  {
+    "file": "app/Services/Scraping/DiscoveryPlanner.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Services/Scraping/RunItemTracker.php",
+    "change": "added"
+  },
+  {
+    "file": "app/Services/Scraping/ScrapeRunManager.php",
+    "change": "modified"
+  },
+  {
+    "file": "config/scraping.php",
+    "change": "modified"
+  },
+  {
+    "file": "tests/Feature/ConcurrentItemTest.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Feature/DiscoveryPartitionTest.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Feature/DocumentImporterTest.php",
+    "change": "modified"
+  },
+  {
+    "file": "tests/Feature/DurableTrackingTest.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Feature/FoundationDatabaseTest.php",
+    "change": "modified"
+  },
+  {
+    "file": "tests/Feature/ScrapingIntegrationTest.php",
+    "change": "modified"
+  },
+  {
+    "file": "tests/Fixtures/BenchmarkScraper.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Support/benchmark_worker.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Support/item_race.php",
+    "change": "added"
+  },
+  {
+    "file": "tests/Unit/P3ParserQualityTest.php",
+    "change": "added"
+  },
+  {
+    "file": "database/migrations/2026_10_28_000006_create_scrape_run_items_table.php",
+    "change": "added"
+  }
+]

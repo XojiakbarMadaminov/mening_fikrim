@@ -1,0 +1,2662 @@
+{
+    "run": {
+        "id": 13,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 20,
+        "created_count": 10,
+        "updated_count": 0,
+        "failed_count": 0,
+        "checkpoint": {
+            "limit": 20,
+            "scope": "bounded_sample",
+            "version": 3,
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "status": "Y",
+                    "section": "int"
+                },
+                {
+                    "status": "Y",
+                    "section": "tech"
+                },
+                {
+                    "status": "Y",
+                    "section": "court"
+                },
+                {
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "selection": "explicit_sample",
+            "pilot_kind": "new_collection",
+            "sample_ids": [
+                "4752666",
+                "-4752666",
+                "4986081",
+                "1597458",
+                "-5145413",
+                "-4947843",
+                "5279763",
+                "1597456",
+                "5145413",
+                "4947843",
+                "-5279732",
+                "-1597456",
+                "4920310",
+                "4953974",
+                "5279732",
+                "1587862",
+                "-4920310",
+                "8409799",
+                "4953970",
+                "5277170"
+            ],
+            "campaign_id": "p5-20261028",
+            "segment_index": 0,
+            "quality_passed": false,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "total": 20,
+                    "last_page": true,
+                    "committed_page": 1,
+                    "page_fingerprint": "0f6810e841365987c921da2808d660bcf68775f20ef09b6adfa9757339f6ae48"
+                }
+            ],
+            "coverage_verified": false,
+            "partition_parents": [],
+            "discovery_finished": true,
+            "languages_complete": false,
+            "segments_completed": 0,
+            "sample_listing_statuses": {
+                "1587862": "Y",
+                "1597456": "Y",
+                "1597458": "Y",
+                "4752666": "Y",
+                "4920310": "Y",
+                "4947843": "Y",
+                "4953970": "Y",
+                "4953974": "Y",
+                "4986081": "Y",
+                "5145413": "Y",
+                "5277170": "Y",
+                "5279732": "Y",
+                "5279763": "Y",
+                "8409799": "Y",
+                "-1597456": "Y",
+                "-4752666": "Y",
+                "-4920310": "Y",
+                "-4947843": "Y",
+                "-5145413": "Y",
+                "-5279732": "Y"
+            }
+        },
+        "last_error": "Bounded\/partial coverage; inspect the durable item ledger.",
+        "started_at": "2026-10-28T18:40:19.000000Z",
+        "finished_at": "2026-10-28T18:42:17.000000Z"
+    },
+    "summary": {
+        "run_id": 13,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 20,
+        "canonical_document_groups": 10,
+        "canonical_documents_stored": 10,
+        "processed": 20,
+        "created": 10,
+        "updated": 0,
+        "imported": 9,
+        "unchanged": 0,
+        "skipped_alias": 8,
+        "queued": 0,
+        "processing": 0,
+        "pending_retry": 0,
+        "failed": 0,
+        "technical_failed": 0,
+        "review_required": 3,
+        "active": 10,
+        "pending": 0,
+        "inactive": 0,
+        "stored_content_count": 21,
+        "valid_content_count": 19,
+        "persisted_imported": 10,
+        "persisted_unchanged": 0,
+        "imported_with_needs_review": 1,
+        "verified": 9,
+        "extraction_failed": 0,
+        "failed_content_representations": 0,
+        "stored_needs_review_content_count": 2,
+        "duration_seconds": 118,
+        "coverage_verified": false,
+        "gates": {
+            "quality_passed": false,
+            "jobs_reconciled": true,
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": false
+        },
+        "open_items": 0,
+        "html": 10,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "uz-Cyrl": 9,
+            "uz-Latn": 8,
+            "ru": 2
+        },
+        "required_language_failures": 2,
+        "source_status_counts": {
+            "active": 18,
+            "pending": 0,
+            "inactive": 0
+        },
+        "discovery_failed": false,
+        "discovery_error": null,
+        "pending_framework_jobs": 0
+    },
+    "items": [
+        {
+            "id": 193,
+            "scrape_run_id": 13,
+            "source_external_id": "4752666",
+            "document_id": 40,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "21f68399724e1631e492183166c96f61f59f54af4808e4be627d37ae57eb2b71",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "5f7f574eea7ce0f7be25aa7d53732fcfd81480a65b1a7769d5be63220ed5ed65",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 0.328144,
+                    "fetch_parse_seconds": 6.205725,
+                    "fetch_parse_import_seconds": 6.216586
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 232,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.00397
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 244,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004226
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "21f68399724e1631e492183166c96f61f59f54af4808e4be627d37ae57eb2b71",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "5f7f574eea7ce0f7be25aa7d53732fcfd81480a65b1a7769d5be63220ed5ed65",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 40,
+                "identity_key": "82445e5f4851b58161acc0207f0e3994c9213348c8aad2810c34a8802722d7b8",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 212,
+            "dispatch_token": "05bd94a1-76d9-4b8b-9512-90bb1eb97605",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:40:19.000000Z",
+            "finished_at": "2026-10-28T18:40:25.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:40:25.000000Z"
+        },
+        {
+            "id": 194,
+            "scrape_run_id": 13,
+            "source_external_id": "-4752666",
+            "document_id": 40,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "21f68399724e1631e492183166c96f61f59f54af4808e4be627d37ae57eb2b71",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "5f7f574eea7ce0f7be25aa7d53732fcfd81480a65b1a7769d5be63220ed5ed65",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "21f68399724e1631e492183166c96f61f59f54af4808e4be627d37ae57eb2b71",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "5f7f574eea7ce0f7be25aa7d53732fcfd81480a65b1a7769d5be63220ed5ed65",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 40,
+                "source_status": "active",
+                "alias_of_item_id": 193,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 213,
+            "dispatch_token": "5fee4eac-33e4-4ef3-bcaf-c67854c86d97",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:40:25.000000Z",
+            "finished_at": "2026-10-28T18:40:25.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:40:25.000000Z"
+        },
+        {
+            "id": 195,
+            "scrape_run_id": 13,
+            "source_external_id": "4986081",
+            "document_id": 41,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8c39bde0d2c01b39340f6355b6f21121c64f4372df8b40e34275eddfe6b25c64",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 6.606743000000001,
+                    "fetch_parse_seconds": 3.946157,
+                    "fetch_parse_import_seconds": 3.957901
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 7414,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.007224
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8c39bde0d2c01b39340f6355b6f21121c64f4372df8b40e34275eddfe6b25c64",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 41,
+                "identity_key": "6fc1466aca5d3f737c7e5fba37c6356e756aad677d107b8338b6d60749fc429c",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 1
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 214,
+            "dispatch_token": "bcb33dfc-0aa1-435a-b1e7-760cb08e650e",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:40:25.000000Z",
+            "finished_at": "2026-10-28T18:40:29.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:40:29.000000Z"
+        },
+        {
+            "id": 196,
+            "scrape_run_id": 13,
+            "source_external_id": "1597458",
+            "document_id": null,
+            "status": "review",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "rejected",
+            "review_reasons": {
+                "quality": [],
+                "languages": [],
+                "validation": "Unknown source document language: Русча"
+            },
+            "language_results": [],
+            "outcome": {
+                "error": "Unknown source document language: Русча",
+                "state": "review",
+                "action": "rejected",
+                "complete": false,
+                "languages": [],
+                "document_id": null
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 215,
+            "dispatch_token": "a9878e45-2817-4e7d-ac6a-36484941fbb9",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": "Unknown source document language: Русча",
+            "started_at": "2026-10-28T18:40:29.000000Z",
+            "finished_at": "2026-10-28T18:40:41.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:40:41.000000Z"
+        },
+        {
+            "id": 197,
+            "scrape_run_id": 13,
+            "source_external_id": "-5145413",
+            "document_id": 42,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a4ee102f1b0fe52b7fd151b5fa667f6e643b293314f935df9e62fe8de3f7a6be",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a85d7d46f16de054524804e0953054fbb436c2e20b84c6661467b3147b53b442",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 22.549506,
+                    "fetch_parse_seconds": 8.015956,
+                    "fetch_parse_import_seconds": 8.028049
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 205,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.003736
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 215,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.003749
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a4ee102f1b0fe52b7fd151b5fa667f6e643b293314f935df9e62fe8de3f7a6be",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a85d7d46f16de054524804e0953054fbb436c2e20b84c6661467b3147b53b442",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 42,
+                "identity_key": "3d395013736f725559df29ac0ba6450fbf375d0f60c8dc7be9de6b2daf45be72",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 216,
+            "dispatch_token": "352dad9b-145e-4b5b-aa51-31d5a6905029",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:40:41.000000Z",
+            "finished_at": "2026-10-28T18:40:49.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:40:49.000000Z"
+        },
+        {
+            "id": 198,
+            "scrape_run_id": 13,
+            "source_external_id": "-4947843",
+            "document_id": 43,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "bd2c91b8631c1a8ec2791a5211d6781e7cb0e59c131601241742f219a16e7ae4",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "de4208e9d3329fdf9fad396fc191d7a610ec10c5538bb12ffb54ca88c81a40ad",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 30.601264,
+                    "fetch_parse_seconds": 8.141031,
+                    "fetch_parse_import_seconds": 8.203616
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 181174,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.086585
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 190442,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.08124
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "bd2c91b8631c1a8ec2791a5211d6781e7cb0e59c131601241742f219a16e7ae4",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "de4208e9d3329fdf9fad396fc191d7a610ec10c5538bb12ffb54ca88c81a40ad",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 43,
+                "identity_key": "b8dc94014d8332e1769978234a28de7ea0b2ea6ed86bc1a8ed0be3c9b90802db",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 217,
+            "dispatch_token": "b78f674e-9f37-4109-8370-c7176edda1ac",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:40:49.000000Z",
+            "finished_at": "2026-10-28T18:40:57.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:40:57.000000Z"
+        },
+        {
+            "id": 199,
+            "scrape_run_id": 13,
+            "source_external_id": "5279763",
+            "document_id": 44,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 38.832899,
+                    "fetch_parse_seconds": 11.710425,
+                    "fetch_parse_import_seconds": 11.727372
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 542,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004424
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 1842,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004793
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1908,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004575
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 44,
+                "identity_key": "dce899c9a4af47be3c5a342f912b51b02368503320bc331cbbf3d1f0467e9760",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 218,
+            "dispatch_token": "5ed7cb96-71a2-4860-b015-9158b0d5cc94",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:40:57.000000Z",
+            "finished_at": "2026-10-28T18:41:09.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:09.000000Z"
+        },
+        {
+            "id": 200,
+            "scrape_run_id": 13,
+            "source_external_id": "1597456",
+            "document_id": 45,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "ea26d79f53a3bcb0c865d5acb1272c43e1e387f19c866028d5b998a3688564b5",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1031d3e8642535283b07b1562bebfc282d3b868214ee4b0a5a04868e7dd30d94",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6ec89c268554cf3f2a7ea72588a64549b06a693b4ee106113e0e8a371757d783",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 50.588563,
+                    "fetch_parse_seconds": 12.011485,
+                    "fetch_parse_import_seconds": 12.03317
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 968,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004931
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 26902,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.037617
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 21,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 28608,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.035937
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 21,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "ea26d79f53a3bcb0c865d5acb1272c43e1e387f19c866028d5b998a3688564b5",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1031d3e8642535283b07b1562bebfc282d3b868214ee4b0a5a04868e7dd30d94",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6ec89c268554cf3f2a7ea72588a64549b06a693b4ee106113e0e8a371757d783",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 45,
+                "identity_key": "4a3c9be3fd863b6cdd0fcebaa688ccb8113525228069cd5ced9959f35fb1cf7d",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 219,
+            "dispatch_token": "956b5115-f437-4ba9-83c7-b1b0074f32f3",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:09.000000Z",
+            "finished_at": "2026-10-28T18:41:21.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:21.000000Z"
+        },
+        {
+            "id": 201,
+            "scrape_run_id": 13,
+            "source_external_id": "5145413",
+            "document_id": 42,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a4ee102f1b0fe52b7fd151b5fa667f6e643b293314f935df9e62fe8de3f7a6be",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a85d7d46f16de054524804e0953054fbb436c2e20b84c6661467b3147b53b442",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a4ee102f1b0fe52b7fd151b5fa667f6e643b293314f935df9e62fe8de3f7a6be",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a85d7d46f16de054524804e0953054fbb436c2e20b84c6661467b3147b53b442",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 42,
+                "source_status": "active",
+                "alias_of_item_id": 197,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 220,
+            "dispatch_token": "c6893eb2-c230-4995-862e-5d1819159f3d",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:21.000000Z",
+            "finished_at": "2026-10-28T18:41:21.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:21.000000Z"
+        },
+        {
+            "id": 202,
+            "scrape_run_id": 13,
+            "source_external_id": "4947843",
+            "document_id": 43,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "bd2c91b8631c1a8ec2791a5211d6781e7cb0e59c131601241742f219a16e7ae4",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "de4208e9d3329fdf9fad396fc191d7a610ec10c5538bb12ffb54ca88c81a40ad",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "bd2c91b8631c1a8ec2791a5211d6781e7cb0e59c131601241742f219a16e7ae4",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "de4208e9d3329fdf9fad396fc191d7a610ec10c5538bb12ffb54ca88c81a40ad",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 43,
+                "source_status": "active",
+                "alias_of_item_id": 198,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 221,
+            "dispatch_token": "90d04662-4553-477c-b01a-36729c475533",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:21.000000Z",
+            "finished_at": "2026-10-28T18:41:21.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:21.000000Z"
+        },
+        {
+            "id": 203,
+            "scrape_run_id": 13,
+            "source_external_id": "-5279732",
+            "document_id": 44,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 44,
+                "source_status": "active",
+                "alias_of_item_id": 199,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 222,
+            "dispatch_token": "54231000-e785-4dc1-a836-a64a20c930cc",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:21.000000Z",
+            "finished_at": "2026-10-28T18:41:21.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:21.000000Z"
+        },
+        {
+            "id": 204,
+            "scrape_run_id": 13,
+            "source_external_id": "-1597456",
+            "document_id": 45,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "ea26d79f53a3bcb0c865d5acb1272c43e1e387f19c866028d5b998a3688564b5",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1031d3e8642535283b07b1562bebfc282d3b868214ee4b0a5a04868e7dd30d94",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6ec89c268554cf3f2a7ea72588a64549b06a693b4ee106113e0e8a371757d783",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "ea26d79f53a3bcb0c865d5acb1272c43e1e387f19c866028d5b998a3688564b5",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1031d3e8642535283b07b1562bebfc282d3b868214ee4b0a5a04868e7dd30d94",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6ec89c268554cf3f2a7ea72588a64549b06a693b4ee106113e0e8a371757d783",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 45,
+                "source_status": "active",
+                "alias_of_item_id": 200,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 223,
+            "dispatch_token": "1a5b00c1-b6ef-42d5-b4d6-b14cfcf65e9e",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:21.000000Z",
+            "finished_at": "2026-10-28T18:41:21.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:21.000000Z"
+        },
+        {
+            "id": 205,
+            "scrape_run_id": 13,
+            "source_external_id": "4920310",
+            "document_id": 46,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6455980359fe6af84fe5e78801f3544beb92d63e78695ffbb0d9c9a6d40a8121",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a69de7992ed5460c6e39b49f74626ea6c3f8c4f821353caf02ee8e9850f7c648",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 62.777286999999994,
+                    "fetch_parse_seconds": 7.74015,
+                    "fetch_parse_import_seconds": 7.752958
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 175,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.003684
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 182,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.003608
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6455980359fe6af84fe5e78801f3544beb92d63e78695ffbb0d9c9a6d40a8121",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a69de7992ed5460c6e39b49f74626ea6c3f8c4f821353caf02ee8e9850f7c648",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 46,
+                "identity_key": "e52b6f67132b13f8a1e50c989d3d5213530aa9d93ebf1d9d79643a3f43a9cfa9",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 224,
+            "dispatch_token": "34d2edde-e599-400f-8328-e9c1fbc436e3",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:21.000000Z",
+            "finished_at": "2026-10-28T18:41:29.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:29.000000Z"
+        },
+        {
+            "id": 206,
+            "scrape_run_id": 13,
+            "source_external_id": "4953974",
+            "document_id": 47,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "dd62cbbd5d1bf4b44a16de4123605fbcd7ee4447432bad5c331bbe9b24fb2de7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a5121340a8ed2b4b890cc84d5e08c46db8e1c8e606dacf7947084756c233bb21",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 70.56324400000001,
+                    "fetch_parse_seconds": 12.129226,
+                    "fetch_parse_import_seconds": 12.178947
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 505,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004768
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 142113,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.070336
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 149151,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.062723
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 4,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "dd62cbbd5d1bf4b44a16de4123605fbcd7ee4447432bad5c331bbe9b24fb2de7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a5121340a8ed2b4b890cc84d5e08c46db8e1c8e606dacf7947084756c233bb21",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 47,
+                "identity_key": "26956759e710d4eb6752eeee95996ae80a983f25e0934992434352afdca71242",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 225,
+            "dispatch_token": "c34e3222-7de0-4a83-8271-38ec100422e5",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:29.000000Z",
+            "finished_at": "2026-10-28T18:41:41.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:41.000000Z"
+        },
+        {
+            "id": 207,
+            "scrape_run_id": 13,
+            "source_external_id": "5279732",
+            "document_id": 44,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 44,
+                "source_status": "active",
+                "alias_of_item_id": 199,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 226,
+            "dispatch_token": "a4d15b54-e35e-4f2c-931b-6055f21085e4",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:41.000000Z",
+            "finished_at": "2026-10-28T18:41:41.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:41.000000Z"
+        },
+        {
+            "id": 208,
+            "scrape_run_id": 13,
+            "source_external_id": "1587862",
+            "document_id": null,
+            "status": "review",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "rejected",
+            "review_reasons": {
+                "quality": [],
+                "languages": [],
+                "validation": "{\"identity\":[\"Conflicting component requisites: bodies\"]}"
+            },
+            "language_results": [],
+            "outcome": {
+                "error": "{\"identity\":[\"Conflicting component requisites: bodies\"]}",
+                "state": "review",
+                "action": "rejected",
+                "format": null,
+                "quality": [],
+                "complete": false,
+                "languages": [],
+                "document_id": null,
+                "identity_key": null,
+                "source_status": null,
+                "identity_verified": false
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 227,
+            "dispatch_token": "822976fd-9e60-4a8c-b5d7-bd61b71a64d4",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": "{\"identity\":[\"Conflicting component requisites: bodies\"]}",
+            "started_at": "2026-10-28T18:41:41.000000Z",
+            "finished_at": "2026-10-28T18:41:53.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:53.000000Z"
+        },
+        {
+            "id": 209,
+            "scrape_run_id": 13,
+            "source_external_id": "-4920310",
+            "document_id": 46,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6455980359fe6af84fe5e78801f3544beb92d63e78695ffbb0d9c9a6d40a8121",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a69de7992ed5460c6e39b49f74626ea6c3f8c4f821353caf02ee8e9850f7c648",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6455980359fe6af84fe5e78801f3544beb92d63e78695ffbb0d9c9a6d40a8121",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a69de7992ed5460c6e39b49f74626ea6c3f8c4f821353caf02ee8e9850f7c648",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 46,
+                "source_status": "active",
+                "alias_of_item_id": 205,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 228,
+            "dispatch_token": "ef98d759-0449-4a3d-8183-008e3b37a1c9",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:41:53.000000Z",
+            "finished_at": "2026-10-28T18:41:53.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:41:53.000000Z"
+        },
+        {
+            "id": 210,
+            "scrape_run_id": 13,
+            "source_external_id": "8409799",
+            "document_id": 48,
+            "status": "review",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": {
+                "quality": {
+                    "ru": {
+                        "chars": 582,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.00407
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 13905,
+                        "format": "html",
+                        "images": [],
+                        "issues": [
+                            "complex_table_semantics_review"
+                        ],
+                        "tables": [
+                            {
+                                "rows": 6,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "1¹-жадвал",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Автотураргоҳ тури",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 2
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Энг яқин эвакуация чиқиш жойигача бўлган масофа, м",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Автомобиль ўрни эвакуация чиқишлари орасида жойлашганда",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Хонанинг боши берк қисмида жойлашганда",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Ер ости",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "40",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "20",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Ер усти",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "60",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "25",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Изоҳ. Эвакуация йўлининг узунлиги автомобилларнинг жойлашувини ҳисобга олган ҳолда ўтиш жойлари ва ўтиш йўлларининг ўрта чизиғи бўйлаб ўлчаш орқали амалга оширилади.",
+                                        "column": 1,
+                                        "colspan": 3,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 4
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.018788
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 14611,
+                        "format": "html",
+                        "images": [],
+                        "issues": [
+                            "complex_table_semantics_review"
+                        ],
+                        "tables": [
+                            {
+                                "rows": 6,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "1¹-jadval",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Avtoturargoh turi",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 2
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Eng yaqin evakuatsiya chiqish joyigacha boʻlgan masofa, m",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Avtomobil oʻrni evakuatsiya chiqishlari orasida joylashganda",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Xonaning boshi berk qismida joylashganda",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Yer osti",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "40",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "20",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Yer usti",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "60",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "25",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Izoh. Evakuatsiya yoʻlining uzunligi avtomobillarning joylashuvini hisobga olgan holda oʻtish joylari va oʻtish yoʻllarining oʻrta chizigʻi boʻylab oʻlchash orqali amalga oshiriladi.",
+                                        "column": 1,
+                                        "colspan": 3,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 4
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.018229
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ],
+                        "persistence": "stored",
+                        "extracted_hash": "28c898d6373734044e57f8bde3fdbc382c9d45fa1f9beeaf0f74b5c75aeeee69",
+                        "quality_issues": [
+                            "complex_table_semantics_review",
+                            "quality_review"
+                        ],
+                        "quality_status": "needs_review",
+                        "stored_quality_status": "needs_review"
+                    },
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ],
+                        "persistence": "stored",
+                        "extracted_hash": "f9d9c02ffbc74c34006c9997677e0c3b07f4fa9bd48b6bed4bf7802b18925609",
+                        "quality_issues": [
+                            "complex_table_semantics_review",
+                            "quality_review"
+                        ],
+                        "quality_status": "needs_review",
+                        "stored_quality_status": "needs_review"
+                    }
+                },
+                "validation": "Language\/structure quality requires review."
+            },
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "review",
+                    "errors": [
+                        "quality_review"
+                    ],
+                    "persistence": "stored",
+                    "extracted_hash": "28c898d6373734044e57f8bde3fdbc382c9d45fa1f9beeaf0f74b5c75aeeee69",
+                    "quality_issues": [
+                        "complex_table_semantics_review",
+                        "quality_review"
+                    ],
+                    "quality_status": "needs_review",
+                    "stored_quality_status": "needs_review"
+                },
+                "uz-Latn": {
+                    "state": "review",
+                    "errors": [
+                        "quality_review"
+                    ],
+                    "persistence": "stored",
+                    "extracted_hash": "f9d9c02ffbc74c34006c9997677e0c3b07f4fa9bd48b6bed4bf7802b18925609",
+                    "quality_issues": [
+                        "complex_table_semantics_review",
+                        "quality_review"
+                    ],
+                    "quality_status": "needs_review",
+                    "stored_quality_status": "needs_review"
+                }
+            },
+            "outcome": {
+                "error": "Language\/structure quality requires review.",
+                "state": "review",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 94.63092900000001,
+                    "fetch_parse_seconds": 11.933406,
+                    "fetch_parse_import_seconds": 11.955022
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 582,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.00407
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 13905,
+                        "format": "html",
+                        "images": [],
+                        "issues": [
+                            "complex_table_semantics_review"
+                        ],
+                        "tables": [
+                            {
+                                "rows": 6,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "1¹-жадвал",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Автотураргоҳ тури",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 2
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Энг яқин эвакуация чиқиш жойигача бўлган масофа, м",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Автомобиль ўрни эвакуация чиқишлари орасида жойлашганда",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Хонанинг боши берк қисмида жойлашганда",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Ер ости",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "40",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "20",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Ер усти",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "60",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "25",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Изоҳ. Эвакуация йўлининг узунлиги автомобилларнинг жойлашувини ҳисобга олган ҳолда ўтиш жойлари ва ўтиш йўлларининг ўрта чизиғи бўйлаб ўлчаш орқали амалга оширилади.",
+                                        "column": 1,
+                                        "colspan": 3,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 4
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.018788
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 14611,
+                        "format": "html",
+                        "images": [],
+                        "issues": [
+                            "complex_table_semantics_review"
+                        ],
+                        "tables": [
+                            {
+                                "rows": 6,
+                                "cells": [
+                                    {
+                                        "row": 1,
+                                        "text": "",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 1,
+                                        "text": "1¹-jadval",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Avtoturargoh turi",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 2
+                                    },
+                                    {
+                                        "row": 2,
+                                        "text": "Eng yaqin evakuatsiya chiqish joyigacha boʻlgan masofa, m",
+                                        "column": 2,
+                                        "colspan": 2,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Avtomobil oʻrni evakuatsiya chiqishlari orasida joylashganda",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 3,
+                                        "text": "Xonaning boshi berk qismida joylashganda",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "Yer osti",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "40",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 4,
+                                        "text": "20",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "Yer usti",
+                                        "column": 1,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "60",
+                                        "column": 2,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 5,
+                                        "text": "25",
+                                        "column": 3,
+                                        "colspan": 1,
+                                        "rowspan": 1
+                                    },
+                                    {
+                                        "row": 6,
+                                        "text": "Izoh. Evakuatsiya yoʻlining uzunligi avtomobillarning joylashuvini hisobga olgan holda oʻtish joylari va oʻtish yoʻllarining oʻrta chizigʻi boʻylab oʻlchash orqali amalga oshiriladi.",
+                                        "column": 1,
+                                        "colspan": 3,
+                                        "rowspan": 1
+                                    }
+                                ],
+                                "table": 1,
+                                "nested": false,
+                                "columns": 3,
+                                "span_count": 4
+                            }
+                        ],
+                        "timings": {
+                            "html_parse_seconds": 0.018229
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": false,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ],
+                        "persistence": "stored",
+                        "extracted_hash": "28c898d6373734044e57f8bde3fdbc382c9d45fa1f9beeaf0f74b5c75aeeee69",
+                        "quality_issues": [
+                            "complex_table_semantics_review",
+                            "quality_review"
+                        ],
+                        "quality_status": "needs_review",
+                        "stored_quality_status": "needs_review"
+                    },
+                    "uz-Latn": {
+                        "state": "review",
+                        "errors": [
+                            "quality_review"
+                        ],
+                        "persistence": "stored",
+                        "extracted_hash": "f9d9c02ffbc74c34006c9997677e0c3b07f4fa9bd48b6bed4bf7802b18925609",
+                        "quality_issues": [
+                            "complex_table_semantics_review",
+                            "quality_review"
+                        ],
+                        "quality_status": "needs_review",
+                        "stored_quality_status": "needs_review"
+                    }
+                },
+                "document_id": 48,
+                "identity_key": "19a596ef44486467a8a91e6e46a3c67a5c2817004bf2502b1c64b366ec4fbbf4",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "needs_review",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 229,
+            "dispatch_token": "3d0de2c0-4233-4b14-88ca-5e7b1414e0e6",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": "Language\/structure quality requires review.",
+            "started_at": "2026-10-28T18:41:53.000000Z",
+            "finished_at": "2026-10-28T18:42:05.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:42:05.000000Z"
+        },
+        {
+            "id": 211,
+            "scrape_run_id": 13,
+            "source_external_id": "4953970",
+            "document_id": 47,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "dd62cbbd5d1bf4b44a16de4123605fbcd7ee4447432bad5c331bbe9b24fb2de7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a5121340a8ed2b4b890cc84d5e08c46db8e1c8e606dacf7947084756c233bb21",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "dd62cbbd5d1bf4b44a16de4123605fbcd7ee4447432bad5c331bbe9b24fb2de7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a5121340a8ed2b4b890cc84d5e08c46db8e1c8e606dacf7947084756c233bb21",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 47,
+                "source_status": "active",
+                "alias_of_item_id": 206,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 230,
+            "dispatch_token": "af5b1882-383f-4dbf-8ad8-91eac79078da",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:42:05.000000Z",
+            "finished_at": "2026-10-28T18:42:05.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:42:05.000000Z"
+        },
+        {
+            "id": 212,
+            "scrape_run_id": 13,
+            "source_external_id": "5277170",
+            "document_id": 49,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "52985d97267357d657d4e36df4f8e347694ffc1466d536129311ffc999ad8938",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "03bc186c908109ca046daca367f2b1b412f54697eb9a9594fca8ab07c8649787",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "169bcf759890e3b41220ea2dad86847528e7f8a607fcc3894641d6b466ac9fea",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 106.653708,
+                    "fetch_parse_seconds": 11.873135,
+                    "fetch_parse_import_seconds": 11.887223
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 926,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004291
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 981,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004295
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1028,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004218
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "52985d97267357d657d4e36df4f8e347694ffc1466d536129311ffc999ad8938",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "03bc186c908109ca046daca367f2b1b412f54697eb9a9594fca8ab07c8649787",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "169bcf759890e3b41220ea2dad86847528e7f8a607fcc3894641d6b466ac9fea",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 49,
+                "identity_key": "e8038b18f83e830d18520170f8a78d858c8071fcc5fefbd2672cdca2ad8d4b65",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 231,
+            "dispatch_token": "329ad8cd-ff04-4718-955e-17b640bc86ae",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-28T18:42:05.000000Z",
+            "finished_at": "2026-10-28T18:42:17.000000Z",
+            "created_at": "2026-10-28T18:40:19.000000Z",
+            "updated_at": "2026-10-28T18:42:17.000000Z"
+        }
+    ]
+}

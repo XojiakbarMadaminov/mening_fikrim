@@ -1,0 +1,1001 @@
+{
+    "nat": {
+        "query": {
+            "section": "nat",
+            "status": "Y"
+        },
+        "result": {
+            "complete": false,
+            "total": 55986,
+            "unique_ids": 40,
+            "pages": 2,
+            "restarts": 0,
+            "reason": "bounded_budget"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "total": 55986,
+                "rows": [
+                    {
+                        "id": "8559901",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8559901",
+                        "title": "О мерах по упорядочению использования территорий водохранилищ и прилегающих к ним зон, а также обеспечению безопасности на них",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8559898",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8559898",
+                        "title": "Сув омборлари ва уларга туташ ҳудудлардан фойдаланишни тартибга солиш ҳамда хавфсизликни таъминлаш чора-тадбирлари тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8559898",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8559898",
+                        "title": "Suv omborlari va ularga tutash hududlardan foydalanishni tartibga solish hamda xavfsizlikni taʼminlash chora-tadbirlari toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8557098",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8557098",
+                        "title": "Уран қазиб олиш бўйича кончилик фаолияти учун радиацияни бошқариш режасига қўйиладиган талабларни тасдиқлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8557098",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8557098",
+                        "title": "Uran qazib olish boʻyicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qoʻyiladigan talablarni tasdiqlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8559831",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8559831",
+                        "title": "Об утверждении Положения о порядке проведения розничных платежей через платежного свитчи",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8554315",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8554315",
+                        "title": "Тўлов свитчи орқали чакана тўловларни ўтказиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554315",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554315",
+                        "title": "Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554436",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554436",
+                        "title": "О внесении изменений и дополнений в Правила предоставления и публикации информации на рынке ценных бумаг",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8554432",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8554432",
+                        "title": "Қимматли қоғозлар бозорида ахборот тақдим этиш ва эълон қилиш қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554432",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554432",
+                        "title": "Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554368",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554368",
+                        "title": "О внесении изменений в Положение о порядке формирования тарифов на коммунальные услуги",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8554353",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8554353",
+                        "title": "Коммунал хизматларга тарифларни шакллантириш бўйича низомга ўзгартиришлар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554353",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554353",
+                        "title": "Kommunal xizmatlarga tariflarni shakllantirish boʻyicha nizomga oʻzgartirishlar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8554326",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8554326",
+                        "title": "Маҳаллий тадбиркорлик субъектларининг халқаро товар деривативлари биржалари савдоларида иштирок этиши устидан назоратни таъминлаш ва уларнинг манфаатларини ҳимоя қилиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554326",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554326",
+                        "title": "Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari birjalari savdolarida ishtirok etishi ustidan nazoratni taʼminlash va ularning manfaatlarini himoya qilish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8554321",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8554321",
+                        "title": "Фавқулодда вазиятлар юзага келишининг олдини олиш ҳамда ёнғин хавфсизлиги соҳасида инсон ҳаёти ва соғлиғига юқори хавф солувчи омиллар реестрига киритиладиган маълумотлар рўйхатини тасдиқлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554321",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554321",
+                        "title": "Favqulodda vaziyatlar yuzaga kelishining oldini olish hamda yongʻin xavfsizligi sohasida inson hayoti va sogʻligʻiga yuqori xavf soluvchi omillar reyestriga kiritiladigan maʼlumotlar roʻyxatini tasdiqlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8559662",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8559662",
+                        "title": "On the approval of the Regulation on the procedure for the operation and maintenance of elevators",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8559660",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8559660",
+                        "title": "Об утверждении Положения о порядке эксплуатации и технического обслуживания лифта",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "afa905fc00714219b02850d0d1f32b29767c114747bc5f4e22134ae82a692a3d",
+                "prefix_fingerprint": "4969b1590b15f125ce757b72f4c756c1512419e048f170b9448e2ea4be9a4bf6",
+                "last_page": false
+            },
+            {
+                "page": 2,
+                "total": 55986,
+                "rows": [
+                    {
+                        "id": "8553692",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8553692",
+                        "title": "Лифтдан фойдаланиш ва унга техник хизмат кўрсатиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8553692",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8553692",
+                        "title": "Liftdan foydalanish va unga texnik xizmat koʻrsatish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8557123",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8557123",
+                        "title": "О приведении наименований насосных станций в системе Министерства водного хозяйства в соответствие с правилами и нормами государственного языка, а также присвоении некоторым из них новых наименований",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555578",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555578",
+                        "title": "On bringing the names of pumping stations within the system of the Ministry of Water Resources into conformity with the rules and standards of the state language and renaming certain stations",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8554309",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8554309",
+                        "title": "Сув хўжалиги вазирлиги тизимидаги насос станцияларининг номларини давлат тили қоида ва меъёрларига мувофиқлаштириш ҳамда уларнинг айримларига янги ном бериш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8554309",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8554309",
+                        "title": "Suv xoʻjaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va meʼyorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8558806",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8558806",
+                        "title": "On additional measures to ensure the environmentally safe operation of greenhouse farms in the city of Tashkent and adjacent territories",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8558804",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8558804",
+                        "title": "О дополнительных мерах по обеспечению экологически безопасной деятельности тепличных хозяйств в городе Ташкенте и на прилегающих территориях",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8553258",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8553258",
+                        "title": "Тошкент шаҳри ва унга туташ ҳудудларда иссиқхона хўжаликларининг экологик хавфсиз фаолият юритишини таъминлашга доир қўшимча чора-тадбирлар тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8553258",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8553258",
+                        "title": "Toshkent shahri va unga tutash hududlarda issiqxona xoʻjaliklarining ekologik xavfsiz faoliyat yuritishini taʼminlashga doir qoʻshimcha chora-tadbirlar toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8549969",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8549969",
+                        "title": "On amendments to the Law of the Republic of Uzbekistan “On the introduction of the Uzbek alphabet based on the Latin script”",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8549958",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8549958",
+                        "title": "О внесении изменений в Закон Республики Узбекистан «О введении узбекского алфавита, основанного на латинской графике»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8548754",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8548754",
+                        "title": "«Лотин ёзувига асосланган ўзбек алифбосини жорий этиш тўғрисида»ги Ўзбекистон Республикаси Қонунига ўзгартириш киритиш ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8548754",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8548754",
+                        "title": "“Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuniga oʻzgartirish kiritish haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8558469",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8558469",
+                        "title": "On measures to fundamentally improve the quality of design and survey work implementation",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8558463",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8558463",
+                        "title": "О мерах по коренному совершенствованию качества проведения проектно-изыскательских работ",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8553231",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8553231",
+                        "title": "Лойиҳа-қидирув ишларини амалга ошириш сифатини тубдан такомиллаштириш чора-тадбирлари тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8553231",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8553231",
+                        "title": "Loyiha-qidiruv ishlarini amalga oshirish sifatini tubdan takomillashtirish chora-tadbirlari toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8557103",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8557103",
+                        "title": "Об утверждении Положения о порядке определения прочих расходов подрядных организаций при расчете договорных текущих цен объектов строительства",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555571",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555571",
+                        "title": "On approval of the Regulation on the procedure for determining other expenses of contracting organizations when calculating current contractual prices for construction projects",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "771147ae6a12603da889d83f4a48d8d244cfe05607f252bf483d6696ed6320a9",
+                "prefix_fingerprint": "76406816784f17e9c5e35d59ae22af612956cb7a52d2c77cebc726957c71cef9",
+                "last_page": false
+            }
+        ]
+    },
+    "loc": {
+        "query": {
+            "section": "loc",
+            "status": "Y"
+        },
+        "result": {
+            "complete": false,
+            "total": 22307,
+            "unique_ids": 20,
+            "pages": 1,
+            "restarts": 0,
+            "reason": "bounded_budget"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "total": 22307,
+                "rows": [
+                    {
+                        "id": "-8519448",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8519448",
+                        "title": "Қаттиқ маиший чиқиндиларини олиб чиқиш ва ҳудудларни ободонлаштириш хизматини кўрсатиш бўйича тўлов тарифларини тасдиқлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8519448",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8519448",
+                        "title": "Qattiq maishiy chiqindilarini olib chiqish va hududlarni obodonlashtirish xizmatini koʻrsatish boʻyicha toʻlov tariflarini tasdiqlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8498641",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8498641",
+                        "title": "Шаҳардаги айрим кўчаларни бирлаштирган ҳолда қайта номлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8498641",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8498641",
+                        "title": "Shahardagi ayrim koʻchalarni birlashtirgan holda qayta nomlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8496009",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8496009",
+                        "title": "Ўзбекистон Республикасининг Бюджет кодексининг 148-моддасига асосан бюджетдан ажратиладиган маблағларнинг харажатлар ёйилмасига тегишли ўзгартиришлар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8496009",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8496009",
+                        "title": "Oʻzbekiston Respublikasining Budjet kodeksining 148-moddasiga asosan budjetdan ajratiladigan mablagʻlarning xarajatlar yoyilmasiga tegishli oʻzgartirishlar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8493498",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8493498",
+                        "title": "Касби туманида мактаб ёшидаги болаларни умумий ўрта таълимга тўлиқ қамраб олиш юзасидан тумандаги умумтаълим муассасаларининг микроҳудудларини белгилаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8493498",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8493498",
+                        "title": "Kasbi tumanida maktab yoshidagi bolalarni umumiy oʻrta taʼlimga toʻliq qamrab olish yuzasidan tumandagi umumtaʼlim muassasalarining mikrohududlarini belgilash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8493088",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8493088",
+                        "title": "Миробод туманидаги юридик шахслар ва якка тартибдаги тадбиркорлар ҳудудида ободонлаштириш, кўкаламзорлаштириш хизматларини кўрсатиш ва бунинг натижасида юзага келган каттиқ ва маиший чиқиндиларини олиб чиқиб кетиш хизматлари учун тўлов тарифи миқдорини тасдиқлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8493088",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8493088",
+                        "title": "Mirobod tumanidagi yuridik shaxslar va yakka tartibdagi tadbirkorlar hududida obodonlashtirish, koʻkalamzorlashtirish xizmatlarini koʻrsatish va buning natijasida yuzaga kelgan kattiq va maishiy chiqindilarini olib chiqib ketish xizmatlari uchun toʻlov tarifi miqdorini tasdiqlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8494095",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8494095",
+                        "title": "Туман ҳокимининг 2018 йил 16 октябрь кунидаги 3049-сонли қарорига тузатиш киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8494095",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8494095",
+                        "title": "Tuman hokimining 2018-yil 16-oktabr kunidagi 3049-sonli qaroriga tuzatish kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8493159",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8493159",
+                        "title": "Асака туманида маиший чиқиндиларни тўплаш ва олиб чиқиб кетиш бўйича хизмат кўрсатиш учун тўлов тарифлари миқдорини кўриб чиқиш ва тасдиқлаш ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8493159",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8493159",
+                        "title": "Asaka tumanida maishiy chiqindilarni toʻplash va olib chiqib ketish boʻyicha xizmat koʻrsatish uchun toʻlov tariflari miqdorini koʻrib chiqish va tasdiqlash haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8493067",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8493067",
+                        "title": "Шароф Рашидов туманида мактаб ёшидаги болаларни умумий ўрта таълимга тўлиқ қамраб олиш юзасидан тумандаги умумтаълим муассасаларининг микроҳудудларини белгилаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8493067",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8493067",
+                        "title": "Sharof Rashidov tumanida maktab yoshidagi bolalarni umumiy oʻrta taʼlimga toʻliq qamrab olish yuzasidan tumandagi umumtaʼlim muassasalarining mikrohududlarini belgilash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8493136",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8493136",
+                        "title": "Qońırat rayonı Abadanlastırıw basqarmasınıń shıǵındılardı alıp shıǵıw hám aymaqlardı abadanlastırıw xızmetin kórsetkenlik boyınsha tarifler tastıyıqlaw haqqında",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8493536",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8493536",
+                        "title": "Яккабоғ туман ободонлаштириш бошқармаси томонидан кўрсатиладиган ободонлаштириш ва маиший чиқинди хизматлари учун тўлов тарифлари миқдорини тасдиқлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8493536",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8493536",
+                        "title": "Yakkabogʻ tuman obodonlashtirish boshqarmasi tomonidan koʻrsatiladigan obodonlashtirish va maishiy chiqindi xizmatlari uchun toʻlov tariflari miqdorini tasdiqlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8493476",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8493476",
+                        "title": "Яккабоғ туманидаги географик объект (маҳалла фуқаролар йиғини)ни номини қайта номлаш тўғрисида",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "327950d4d6ccbcae3f25ea39eeaf78f95c1560a1b46f89cd9d354b7acfd01b86",
+                "prefix_fingerprint": "49575476e27f050f852624fd8f9a7fb1681f55bce2de3d10681d681bbf4d38d7",
+                "last_page": false
+            }
+        ]
+    },
+    "int": {
+        "query": {
+            "section": "int",
+            "status": "Y"
+        },
+        "result": {
+            "complete": false,
+            "total": 4997,
+            "unique_ids": 20,
+            "pages": 1,
+            "restarts": 0,
+            "reason": "bounded_budget"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "total": 4997,
+                "rows": [
+                    {
+                        "id": "8507863",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8507863",
+                        "title": "Об установлении отношений стратегического партнерства",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8506870",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8506870",
+                        "title": "On the Establishment of Strategic Partnership Relationships",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8506802",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8506802",
+                        "title": "Стратегик шериклик муносабатларини ўрнатиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8506802",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8506802",
+                        "title": "Strategik sheriklik munosabatlarini oʻrnatish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8503039",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8503039",
+                        "title": "О сотрудничестве в области охраны окружающей среды",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8502922",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8502922",
+                        "title": "О сотрудничестве в поддержку Среднего коридора",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8502762",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8502762",
+                        "title": "On Cooperation in support of the Middle Corridor",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8502443",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8502443",
+                        "title": "Ўрта коридорни қўллаб-қувватлаш бўйича ҳамкорлик тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8502443",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8502443",
+                        "title": "Oʻrta koridorni qoʻllab-quvvatlash boʻyicha hamkorlik toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8502402",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8502402",
+                        "title": "О сотрудничестве в области экономической дипломатии",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8501623",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8501623",
+                        "title": "On Cooperation in the field of Economic Diplomacy",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8501541",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8501541",
+                        "title": "Иқтисодий дипломатия соҳасида ҳамкорлик тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8501541",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8501541",
+                        "title": "Iqtisodiy diplomatiya sohasida hamkorlik toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8499725",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8499725",
+                        "title": "On Cooperation in the field of Environmental Protection",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8498577",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8498577",
+                        "title": "Атроф-муҳитни муҳофаза қилиш соҳасидаги ҳамкорлик тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8498577",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8498577",
+                        "title": "Atrof-muhitni muhofaza qilish sohasidagi hamkorlik toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8498535",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8498535",
+                        "title": "О сотрудничестве в области защиты и поощрения статуса лиц с инвалидностью",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8498342",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8498342",
+                        "title": "In the field of the Protection and Promotion of the Position of Persons with Disabilities",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8498167",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8498167",
+                        "title": "Ногиронлиги бўлган шахсларнинг мақомини ҳимоя қилиш ва рағбатлантириш соҳасидаги ҳамкорлик тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8498167",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8498167",
+                        "title": "Nogironligi boʻlgan shaxslarning maqomini himoya qilish va ragʻbatlantirish sohasidagi hamkorlik toʻgʻrisida",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "1733bb3f450c11eeefb9b880d7711a00b8018dc507d5be4c14d852a0e8c4bac1",
+                "prefix_fingerprint": "790accec146a6241f4e07fb32dde3412d148684a8b785e8b0cb6d82ffd3029cf",
+                "last_page": false
+            }
+        ]
+    },
+    "tech": {
+        "query": {
+            "section": "tech",
+            "status": "Y"
+        },
+        "result": {
+            "complete": false,
+            "total": 3221,
+            "unique_ids": 20,
+            "pages": 1,
+            "restarts": 0,
+            "reason": "bounded_budget"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "total": 3221,
+                "rows": [
+                    {
+                        "id": "8543270",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8543270",
+                        "title": "Об утверждении градостроительных норм и правил ГНП 2.01.03-26 «Строительство в сейсмических районах»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8540314",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8540314",
+                        "title": "ШНҚ 2.01.03-26 «Сейсмик ҳудудларда қурилиш» шаҳарсозлик нормалари ва қоидаларини тасдиқлаш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8540314",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8540314",
+                        "title": "SHNQ 2.01.03-26 “Seysmik hududlarda qurilish” shaharsozlik normalari va qoidalarini tasdiqlash toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8520615",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8520615",
+                        "title": "О внесении изменений и дополнений в градостроительные нормы и правила ГНП 3.01.01-22 «Организация производства в строительстве»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8520357",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8520357",
+                        "title": "ШНҚ 3.01.01-22 «Қурилишда ишлаб чиқаришни ташкил қилиш» шаҳарсозлик нормалари ва қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8520357",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8520357",
+                        "title": "ShNQ 3.01.01-22 “Qurilishda ishlab chiqarishni tashkil qilish” shaharsozlik normalari va qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8503608",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8503608",
+                        "title": "О внесении изменений и дополнений в градостроительные нормы и правила ГНП 2.06.16-22 «Руководство по проектированию и строительству противофильтрационных устройств из полиэтиленовой пленки для искусственных водоемов»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8503180",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8503180",
+                        "title": "ШНҚ 2.06.16-22 «Сунъий сув ҳавзалари учун полиэтилен плёнкадан фильтрацияга қарши мосламаларни лойиҳалаш ва қуриш бўйича қўлланма» шаҳарсозлик нормалари ва қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8503180",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8503180",
+                        "title": "ShNQ 2.06.16-22 “Sunʼiy suv havzalari uchun polietilen plyonkadan filtratsiyaga qarshi moslamalarni loyihalash va qurish boʻyicha qoʻllanma” shaharsozlik normalari va qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8409799",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8409799",
+                        "title": "О внесении изменений и дополнений в градостроительные нормы и правила ШНК 2.05.07-24 «Автостоянки»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8409789",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8409789",
+                        "title": "ШНҚ 2.05.07-24 «Автотураргоҳлар» шаҳарсозлик нормалари ва қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8409789",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8409789",
+                        "title": "SHNQ 2.05.07-24 “Avtoturargohlar” shaharsozlik normalari va qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8398995",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8398995",
+                        "title": "О внесении изменений и дополнений в градостроительные нормы и правила ШНК 2.07.07-24 «Подземные пространства»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8395796",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8395796",
+                        "title": "ШНҚ 2.07.07-24 «Ер ости маконлари» шаҳарсозлик нормалари ва қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8395796",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8395796",
+                        "title": "SHNQ 2.07.07-24 “Yer osti makonlari” shaharsozlik normalari va qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8361087",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8361087",
+                        "title": "О внесении изменений и дополнений в градостроительные нормы и правила ГНП 2.08.05-23 «Медицинские организации. Требования к проектированию»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8353081",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8353081",
+                        "title": "ШНҚ 2.08.05-23 «Тиббиёт ташкилотлари. Лойиҳалаш талаблари» шаҳарсозлик нормалари ва қоидаларига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8353081",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8353081",
+                        "title": "SHNQ 2.08.05-23 “Tibbiyot tashkilotlari. Loyihalash talablari” shaharsozlik normalari va qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8359611",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8359611",
+                        "title": "О внесении изменений в градостроительные нормы и правила ГНП 2.08.06-23 «Образовательные организации. Требования к проектированию»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8352956",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8352956",
+                        "title": "ШНҚ 2.08.06-23 «Таълим ташкилотлари. Лойиҳалаш талаблари» шаҳарсозлик нормалари ва қоидаларига ўзгартиришлар киритиш тўғрисида",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "f69daef0b0bfa2fbe10e27ff4611a2ab2e07e25b7818144352cb80bd6b40512b",
+                "prefix_fingerprint": "03de6d12fcdfe7d15fac8f9f244c86be239fdc732351929776322b663faae05b",
+                "last_page": false
+            }
+        ]
+    },
+    "court": {
+        "query": {
+            "section": "court",
+            "status": "Y"
+        },
+        "result": {
+            "complete": false,
+            "total": 1613,
+            "unique_ids": 20,
+            "pages": 1,
+            "restarts": 0,
+            "reason": "bounded_budget"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "total": 1613,
+                "rows": [
+                    {
+                        "id": "7613664",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/7613664",
+                        "title": "О некоторых вопросах применения экономическими судами норм Закона Республики Узбекистан «О неплатежеспособности»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "7613661",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/7613661",
+                        "title": "Иқтисодий судлар томонидан «Тўловга қобилиятсизлик тўғрисида»ги Ўзбекистон Республикаси Қонуни нормаларини қўллашнинг айрим масалалари тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-7613661",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-7613661",
+                        "title": "Iqtisodiy sudlar tomonidan “Toʻlovga qobiliyatsizlik toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni normalarini qoʻllashning ayrim masalalari toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "7303298",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/7303298",
+                        "title": "О внесении изменений и дополнений в постановления Пленума Верховного суда Республики Узбекистан о практике взыскания судебных расходов по экономическим и административным делам",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "7303292",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/7303292",
+                        "title": "Ўзбекистон Республикаси Олий суди Пленумининг иқтисодий ва маъмурий ишлар бўйича суд харажатларини ундириш амалиёти тўғрисидаги қарорларига ўзгартириш ва қўшимчалар киритиш ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-7303292",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-7303292",
+                        "title": "Oʻzbekiston Respublikasi Oliy sudi Plenumining iqtisodiy va maʼmuriy ishlar boʻyicha sud xarajatlarini undirish amaliyoti toʻgʻrisidagi qarorlariga oʻzgartirish va qoʻshimchalar kiritish haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "7291209",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/7291209",
+                        "title": "О некоторых вопросах судебной практики по уголовным делам, связанным с нарушением земельного законодательства",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "7290944",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/7290944",
+                        "title": "Ер тўғрисидаги қонунчиликни бузиш билан боғлиқ жиноят ишлари бўйича суд амалиётининг айрим масалалари тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-7290944",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-7290944",
+                        "title": "Yer toʻgʻrisidagi qonunchilikni buzish bilan bogʻliq jinoyat ishlari boʻyicha sud amaliyotining ayrim masalalari toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "6783137",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/6783137",
+                        "title": "4-1203-2301\/1131-сонли иш",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-6783137",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-6783137",
+                        "title": "4-1203-2301\/1131-sonli ish",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "6783559",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/6783559",
+                        "title": "4-1701-2301\/7281-сонли иқтисодий иш",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-6783559",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-6783559",
+                        "title": "4-1701-2301\/7281-sonli iqtisodiy ish",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "6783186",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/6783186",
+                        "title": "4-1701-2303\/7430-сонли иқтисодий иш",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-6783186",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-6783186",
+                        "title": "4-1701-2303\/7430-sonli iqtisodiy ish",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "6783216",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/6783216",
+                        "title": "4-12-2303\/7-сонли иқтисодий иш",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-6783216",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-6783216",
+                        "title": "4-12-2303\/7-sonli iqtisodiy ish",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "6783170",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/6783170",
+                        "title": "4-10-2310\/534-сонли иш",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-6783170",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-6783170",
+                        "title": "4-10-2310\/534-sonli ish",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "6783022",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/6783022",
+                        "title": "4-1101-2203\/4984-сонли иқтисодий иш",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "3f5b62c8d981a52c5d14735e5af08ee768e5bdc7ae77c88697423ace4be63f4e",
+                "prefix_fingerprint": "768f9b5c82a44c760d29ea7db4164ef4b653a02807da7d16d58bbae0975bc413",
+                "last_page": false
+            }
+        ]
+    },
+    "oliy": {
+        "query": {
+            "section": "oliy",
+            "status": "Y"
+        },
+        "result": {
+            "complete": false,
+            "total": 30900,
+            "unique_ids": 20,
+            "pages": 1,
+            "restarts": 0,
+            "reason": "bounded_budget"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "total": 30900,
+                "rows": [
+                    {
+                        "id": "8557374",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8557374",
+                        "title": "О Законе Республики Узбекистан «Об административных процедурах»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8557240",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8557240",
+                        "title": "«Маъмурий тартиб-таомиллар тўғрисида»ги Ўзбекистон Республикаси Қонуни ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8557240",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8557240",
+                        "title": "“Maʼmuriy tartib-taomillar toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8547789",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8547789",
+                        "title": "О Конституционном Законе Республики Узбекистан «О Конституционном суде Республики Узбекистан»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8547769",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8547769",
+                        "title": "«Ўзбекистон Республикасининг Конституциявий суди тўғрисида»ги Ўзбекистон Республикаси Конституциявий Қонуни ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8547769",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8547769",
+                        "title": "«O'zbekiston Respublikasining Konstitutsiyaviy sudi to'g'risida»gi O'zbekiston Respublikasi Konstitutsiyaviy Qonuni haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8546727",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8546727",
+                        "title": "О Законе Республики Узбекистан «О внесении дополнений и изменений в некоторые законодательные акты Республики Узбекистан»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8546701",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8546701",
+                        "title": "«Ўзбекистон Республикасининг айрим қонун ҳужжатларига қўшимча ва ўзгартиришлар киритиш тўғрисида»ги Ўзбекистон Республикаси Қонуни ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8546701",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8546701",
+                        "title": "“Oʻzbekiston Respublikasining ayrim qonun hujjatlariga qoʻshimcha va oʻzgartirishlar kiritish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8540296",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8540296",
+                        "title": "О Законе Республики Узбекистан «О внесении изменений и дополнений в некоторые законодательные акты Республики Узбекистан в связи с совершенствованием системы защиты детей от всех форм насилия»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8540277",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8540277",
+                        "title": "«Болаларни зўравонликнинг барча шаклларидан ҳимоя қилиш тизими такомиллаштирилиши муносабати билан Ўзбекистон Республикасининг айрим қонун ҳужжатларига ўзгартириш ва қўшимчалар киритиш тўғрисида»ги Ўзбекистон Республикаси Қонуни ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8540277",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8540277",
+                        "title": "“Bolalarni zoʻravonlikning barcha shakllaridan himoya qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555253",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555253",
+                        "title": "О проекте закона Республики Узбекистан № ПЗ-280 «О внесении изменений и дополнений в некоторые законодательные акты Республики Узбекистан в связи с совершенствованием системы защиты детей от всех форм насилия»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555239",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555239",
+                        "title": "«Болаларни зўравонликнинг барча шаклларидан ҳимоя қилиш тизими такомиллаштирилиши муносабати билан Ўзбекистон Республикасининг айрим қонун ҳужжатларига ўзгартириш ва қўшимчалар киритиш тўғрисида»ги ҚЛ-280-сонли Ўзбекистон Республикаси қонуни лойиҳаси ҳақида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8555239",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8555239",
+                        "title": "“Bolalarni zoʻravonlikning barcha shakllaridan himoya qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida”gi QL-280-sonli Oʻzbekiston Respublikasi qonuni loyihasi haqida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555177",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555177",
+                        "title": "О повестке дня заседания Законодательной палаты Олий Мажлиса Республики Узбекистан",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555082",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555082",
+                        "title": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатасининг навбатдаги мажлисини ўтказиш тўғрисида",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "-8555082",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/-8555082",
+                        "title": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining navbatdagi majlisini oʻtkazish toʻgʻrisida",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555035",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555035",
+                        "title": "О проекте закона Республики Узбекистан «О внесении изменений и дополнений в некоторые законодательные акты Республики Узбекистан в связи с совершенствованием системы защиты детей от всех форм насилия»",
+                        "listing_status": "Y"
+                    },
+                    {
+                        "id": "8555031",
+                        "url": "https:\/\/lex.uz\/uz\/docs\/8555031",
+                        "title": "«Болаларни зўравонликнинг барча шаклларидан ҳимоя қилиш тизими такомиллаштирилиши муносабати билан Ўзбекистон Республикасининг айрим қонун ҳужжатларига ўзгартириш ва қўшимчалар киритиш тўғрисида»ги Ўзбекистон Республикаси қонуни лойиҳаси ҳақида",
+                        "listing_status": "Y"
+                    }
+                ],
+                "fingerprint": "0f56e72566e193bfd81381b4602ff72801c26929cd9d8d13ed31ca74c027af7b",
+                "prefix_fingerprint": "a3d7ea207d408bc427132ff27a5bd41188bcab79abe23cd36465d2f3ddbeae57",
+                "last_page": false
+            }
+        ]
+    }
+}

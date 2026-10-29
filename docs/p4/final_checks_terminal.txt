@@ -1,0 +1,25 @@
+{
+    "database_names_unchanged": true,
+    "same_six_business_tables": true,
+    "test_rows": {
+        "migrations": 9,
+        "documents": 0,
+        "document_sources": 2,
+        "document_contents": 0,
+        "scrape_run_items": 0,
+        "jobs": 0,
+        "failed_jobs": 0
+    },
+    "live_enabled": false,
+    "scheduler_enabled": false,
+    "workers": 1,
+    "request_delay_ms": 2000,
+    "max_documents_per_run": 30,
+    "queue_jobs": 0,
+    "open_items": 0,
+    "env_permissions": {
+        ".env": "0600",
+        ".env.testing": "0600"
+    },
+    "all_checks_passed": true
+}

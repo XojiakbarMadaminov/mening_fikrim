@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "errors": [],
+  "original_rows_checked": {
+    "document_sources": 2,
+    "documents": 29,
+    "document_identifiers": 82,
+    "document_contents": 63,
+    "scrape_runs": 10,
+    "scrape_run_items": 169,
+    "failed_jobs": 24,
+    "migrations": 9
+  },
+  "content_quality_timestamps_checked": 63,
+  "note": "Content record hashes follow baseline audit convention, excluding quality/extraction/candidate columns; stored quality/issues/check/fetch/candidate hash compared separately. No raw legal text or credentials serialized."
+}

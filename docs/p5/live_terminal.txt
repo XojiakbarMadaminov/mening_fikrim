@@ -1,0 +1,840 @@
+DISCOVERY nat pass=1 total=72 unique=72 complete=true
+DISCOVERY nat pass=2 total=72 unique=72 complete=true
+DISCOVERY loc pass=1 total=93 unique=93 complete=true
+DISCOVERY loc pass=2 total=93 unique=93 complete=true
+DISCOVERY int pass=1 total=7 unique=7 complete=true
+DISCOVERY int pass=2 total=7 unique=7 complete=true
+DISCOVERY tech pass=1 total=105 unique=105 complete=true
+DISCOVERY tech pass=2 total=105 unique=105 complete=true
+DISCOVERY court pass=1 total=11 unique=11 complete=true
+DISCOVERY court pass=2 total=11 unique=11 complete=true
+DISCOVERY oliy pass=1 total=1429 unique=160 complete=false
+DISCOVERY oliy pass=2 total=1429 unique=160 complete=false
+RUN 11 kind=new_collection source_ids=20 stage=30
+  2026-10-28 23:37:29 App\Jobs\DiscoverDocumentsJob#11 ............... RUNNING
+  2026-10-28 23:37:29 App\Jobs\DiscoverDocumentsJob#11 ......... 122.11ms DONE
+  2026-10-28 23:37:29 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:37:41 App\Jobs\ImportDocumentJob#11 ................ 11 с DONE
+  2026-10-28 23:37:41 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:37:49 App\Jobs\ImportDocumentJob#11 ................. 7 с DONE
+  2026-10-28 23:37:49 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:01 App\Jobs\ImportDocumentJob#11 ................ 11 с DONE
+  2026-10-28 23:38:01 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:09 App\Jobs\ImportDocumentJob#11 ................. 8 с DONE
+  2026-10-28 23:38:09 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 ................ 12 с DONE
+  2026-10-28 23:38:21 Worker STOPPED Maximum jobs exceeded
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 ............. 22.60ms DONE
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 ............. 30.65ms DONE
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 ............. 26.08ms DONE
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 ............. 29.37ms DONE
+  2026-10-28 23:38:21 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:33 App\Jobs\ImportDocumentJob#11 ................ 11 с DONE
+  2026-10-28 23:38:33 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:33 App\Jobs\ImportDocumentJob#11 ............. 22.69ms DONE
+  2026-10-28 23:38:33 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:41 App\Jobs\ImportDocumentJob#11 ................. 7 с DONE
+  2026-10-28 23:38:41 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:41 App\Jobs\ImportDocumentJob#11 ............. 20.66ms DONE
+  2026-10-28 23:38:41 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:38:53 App\Jobs\ImportDocumentJob#11 ................ 12 с DONE
+  2026-10-28 23:38:53 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:39:05 App\Jobs\ImportDocumentJob#11 ................ 12 с DONE
+  2026-10-28 23:39:05 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:39:17 App\Jobs\ImportDocumentJob#11 ................ 11 с DONE
+  2026-10-28 23:39:17 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:39:17 App\Jobs\ImportDocumentJob#11 ............. 20.43ms DONE
+  2026-10-28 23:39:17 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:39:33 App\Jobs\ImportDocumentJob#11 ................ 15 с DONE
+  2026-10-28 23:39:33 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:39:33 App\Jobs\ImportDocumentJob#11 ............. 25.62ms DONE
+  2026-10-28 23:39:33 App\Jobs\ImportDocumentJob#11 .................. RUNNING
+  2026-10-28 23:39:45 App\Jobs\ImportDocumentJob#11 ................ 11 с DONE
+  2026-10-28 23:39:46 Worker STOPPED Queue empty
+after_run_11 documents=39 contents=87 new=10 integrity=PASS
+repeat_before documents=39 contents=87 new=10 integrity=PASS
+RUN 12 kind=repeat_control source_ids=3 stage=30
+  2026-10-28 23:39:47 App\Jobs\DiscoverDocumentsJob#12 ............... RUNNING
+  2026-10-28 23:39:47 App\Jobs\DiscoverDocumentsJob#12 .......... 32.50ms DONE
+  2026-10-28 23:39:47 App\Jobs\ImportDocumentJob#12 .................. RUNNING
+  2026-10-28 23:39:57 App\Jobs\ImportDocumentJob#12 ................ 10 с DONE
+  2026-10-28 23:39:57 App\Jobs\ImportDocumentJob#12 .................. RUNNING
+  2026-10-28 23:40:05 App\Jobs\ImportDocumentJob#12 ................. 8 с DONE
+  2026-10-28 23:40:05 App\Jobs\ImportDocumentJob#12 .................. RUNNING
+  2026-10-28 23:40:17 App\Jobs\ImportDocumentJob#12 ................ 12 с DONE
+  2026-10-28 23:40:18 Worker STOPPED Queue empty
+after_run_12 documents=39 contents=87 new=10 integrity=PASS
+repeat_after documents=39 contents=87 new=10 integrity=PASS
+RUN 13 kind=new_collection source_ids=20 stage=30
+  2026-10-28 23:40:19 App\Jobs\DiscoverDocumentsJob#13 ............... RUNNING
+  2026-10-28 23:40:19 App\Jobs\DiscoverDocumentsJob#13 ......... 131.89ms DONE
+  2026-10-28 23:40:19 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:40:25 App\Jobs\ImportDocumentJob#13 ................. 6 с DONE
+  2026-10-28 23:40:25 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:40:25 App\Jobs\ImportDocumentJob#13 ............. 25.28ms DONE
+  2026-10-28 23:40:25 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:40:29 App\Jobs\ImportDocumentJob#13 ................. 3 с DONE
+  2026-10-28 23:40:29 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:40:41 App\Jobs\ImportDocumentJob#13 ................ 11 с DONE
+  2026-10-28 23:40:41 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:40:49 App\Jobs\ImportDocumentJob#13 ................. 8 с DONE
+  2026-10-28 23:40:49 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:40:57 App\Jobs\ImportDocumentJob#13 ................. 8 с DONE
+  2026-10-28 23:40:57 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:09 App\Jobs\ImportDocumentJob#13 ................ 11 с DONE
+  2026-10-28 23:41:09 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 ................ 12 с DONE
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 ............. 25.35ms DONE
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 ............. 24.10ms DONE
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 ............. 23.51ms DONE
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 ............. 24.95ms DONE
+  2026-10-28 23:41:21 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:29 App\Jobs\ImportDocumentJob#13 ................. 7 с DONE
+  2026-10-28 23:41:29 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:41 App\Jobs\ImportDocumentJob#13 ................ 12 с DONE
+  2026-10-28 23:41:41 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:41 App\Jobs\ImportDocumentJob#13 ............. 24.74ms DONE
+  2026-10-28 23:41:41 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:53 App\Jobs\ImportDocumentJob#13 ................ 11 с DONE
+  2026-10-28 23:41:53 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:41:53 App\Jobs\ImportDocumentJob#13 ............. 29.70ms DONE
+  2026-10-28 23:41:53 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:42:05 App\Jobs\ImportDocumentJob#13 ................ 11 с DONE
+  2026-10-28 23:42:05 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:42:05 App\Jobs\ImportDocumentJob#13 ............. 28.14ms DONE
+  2026-10-28 23:42:05 App\Jobs\ImportDocumentJob#13 .................. RUNNING
+  2026-10-28 23:42:17 App\Jobs\ImportDocumentJob#13 ................ 11 с DONE
+  2026-10-28 23:42:18 Worker STOPPED Queue empty
+after_run_13 documents=49 contents=108 new=20 integrity=PASS
+RUN 14 kind=new_collection source_ids=10 stage=30
+  2026-10-28 23:42:18 App\Jobs\DiscoverDocumentsJob#14 ............... RUNNING
+  2026-10-28 23:42:18 App\Jobs\DiscoverDocumentsJob#14 .......... 60.64ms DONE
+  2026-10-28 23:42:18 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:42:29 App\Jobs\ImportDocumentJob#14 ................ 10 с DONE
+  2026-10-28 23:42:29 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:42:37 App\Jobs\ImportDocumentJob#14 ................. 7 с DONE
+  2026-10-28 23:42:37 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:42:49 App\Jobs\ImportDocumentJob#14 ................ 12 с DONE
+  2026-10-28 23:42:49 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:42:49 App\Jobs\ImportDocumentJob#14 ............. 20.17ms DONE
+  2026-10-28 23:42:49 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:43:01 App\Jobs\ImportDocumentJob#14 ................ 12 с DONE
+  2026-10-28 23:43:01 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:43:09 App\Jobs\ImportDocumentJob#14 ................. 7 с DONE
+  2026-10-28 23:43:09 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:43:21 App\Jobs\ImportDocumentJob#14 ................ 12 с DONE
+  2026-10-28 23:43:21 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:43:33 App\Jobs\ImportDocumentJob#14 ................ 11 с DONE
+  2026-10-28 23:43:33 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:43:45 App\Jobs\ImportDocumentJob#14 ................ 12 с DONE
+  2026-10-28 23:43:45 App\Jobs\ImportDocumentJob#14 .................. RUNNING
+  2026-10-28 23:43:45 App\Jobs\ImportDocumentJob#14 ............. 25.17ms DONE
+  2026-10-28 23:43:46 Worker STOPPED Queue empty
+after_run_14 documents=54 contents=120 new=25 integrity=PASS
+RUN 15 kind=new_collection source_ids=5 stage=30
+  2026-10-28 23:43:47 App\Jobs\DiscoverDocumentsJob#15 ............... RUNNING
+  2026-10-28 23:43:47 App\Jobs\DiscoverDocumentsJob#15 .......... 38.42ms DONE
+  2026-10-28 23:43:47 App\Jobs\ImportDocumentJob#15 .................. RUNNING
+  2026-10-28 23:43:53 App\Jobs\ImportDocumentJob#15 ................. 6 с DONE
+  2026-10-28 23:43:53 App\Jobs\ImportDocumentJob#15 .................. RUNNING
+  2026-10-28 23:44:09 App\Jobs\ImportDocumentJob#15 ................ 16 с DONE
+  2026-10-28 23:44:09 App\Jobs\ImportDocumentJob#15 .................. RUNNING
+  2026-10-28 23:44:09 App\Jobs\ImportDocumentJob#15 ............. 21.84ms DONE
+  2026-10-28 23:44:09 App\Jobs\ImportDocumentJob#15 .................. RUNNING
+  2026-10-28 23:44:21 App\Jobs\ImportDocumentJob#15 ................ 11 с DONE
+  2026-10-28 23:44:21 App\Jobs\ImportDocumentJob#15 .................. RUNNING
+  2026-10-28 23:44:33 App\Jobs\ImportDocumentJob#15 ................ 11 с DONE
+  2026-10-28 23:44:34 Worker STOPPED Queue empty
+after_run_15 documents=58 contents=130 new=29 integrity=PASS
+RUN 16 kind=new_collection source_ids=1 stage=30
+  2026-10-28 23:44:34 App\Jobs\DiscoverDocumentsJob#16 ............... RUNNING
+  2026-10-28 23:44:34 App\Jobs\DiscoverDocumentsJob#16 .......... 20.04ms DONE
+  2026-10-28 23:44:34 App\Jobs\ImportDocumentJob#16 .................. RUNNING
+  2026-10-28 23:44:41 App\Jobs\ImportDocumentJob#16 ................. 6 с DONE
+  2026-10-28 23:44:42 Worker STOPPED Queue empty
+after_run_16 documents=59 contents=132 new=30 integrity=PASS
+stage_b_results documents=59 contents=132 new=30 integrity=PASS
+RUN 17 kind=new_collection source_ids=30 stage=100
+  2026-10-28 23:44:43 App\Jobs\DiscoverDocumentsJob#17 ............... RUNNING
+  2026-10-28 23:44:43 App\Jobs\DiscoverDocumentsJob#17 ......... 169.47ms DONE
+  2026-10-28 23:44:43 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:44:53 App\Jobs\ImportDocumentJob#17 ................ 10 с DONE
+  2026-10-28 23:44:53 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:05 App\Jobs\ImportDocumentJob#17 ................ 11 с DONE
+  2026-10-28 23:45:05 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:17 App\Jobs\ImportDocumentJob#17 ................ 12 с DONE
+  2026-10-28 23:45:17 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 ................ 12 с DONE
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 ............. 23.30ms DONE
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 ............. 25.66ms DONE
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:29 App\Jobs\ImportDocumentJob#17 ............. 21.80ms DONE
+  2026-10-28 23:45:30 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 ................ 11 с DONE
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 ............. 27.16ms DONE
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 ............. 21.48ms DONE
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 ............. 19.45ms DONE
+  2026-10-28 23:45:42 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:45:54 App\Jobs\ImportDocumentJob#17 ................ 11 с DONE
+  2026-10-28 23:45:54 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:46:05 App\Jobs\ImportDocumentJob#17 ................ 11 с DONE
+  2026-10-28 23:46:05 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:46:26 App\Jobs\ImportDocumentJob#17 ................ 20 с DONE
+  2026-10-28 23:46:26 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:46:36 App\Jobs\ImportDocumentJob#17 ................ 10 с DONE
+  2026-10-28 23:46:36 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:46:48 App\Jobs\ImportDocumentJob#17 ................ 12 с DONE
+  2026-10-28 23:46:48 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:46:48 App\Jobs\ImportDocumentJob#17 ............. 23.96ms DONE
+  2026-10-28 23:46:48 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 ................ 20 с DONE
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 ............. 28.17ms DONE
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 ............. 24.23ms DONE
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 ............. 25.46ms DONE
+  2026-10-28 23:47:09 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:20 App\Jobs\ImportDocumentJob#17 ................ 10 с DONE
+  2026-10-28 23:47:20 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:20 App\Jobs\ImportDocumentJob#17 ............. 23.61ms DONE
+  2026-10-28 23:47:20 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:20 App\Jobs\ImportDocumentJob#17 ............. 24.58ms DONE
+  2026-10-28 23:47:20 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:26 App\Jobs\ImportDocumentJob#17 ................. 6 с DONE
+  2026-10-28 23:47:26 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:38 App\Jobs\ImportDocumentJob#17 ................ 11 с DONE
+  2026-10-28 23:47:38 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:47:50 App\Jobs\ImportDocumentJob#17 ................ 11 с DONE
+  2026-10-28 23:47:50 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:48:02 App\Jobs\ImportDocumentJob#17 ................ 12 с DONE
+  2026-10-28 23:48:02 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:48:02 App\Jobs\ImportDocumentJob#17 ............. 24.17ms DONE
+  2026-10-28 23:48:02 App\Jobs\ImportDocumentJob#17 .................. RUNNING
+  2026-10-28 23:48:02 App\Jobs\ImportDocumentJob#17 ............. 29.88ms DONE
+  2026-10-28 23:48:02 Worker STOPPED Maximum jobs exceeded
+after_run_17 documents=71 contents=161 new=42 integrity=PASS
+RUN 18 kind=new_collection source_ids=30 stage=100
+  2026-10-28 23:48:03 App\Jobs\DiscoverDocumentsJob#18 ............... RUNNING
+  2026-10-28 23:48:03 App\Jobs\DiscoverDocumentsJob#18 ......... 171.75ms DONE
+  2026-10-28 23:48:03 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:10 App\Jobs\ImportDocumentJob#18 ................. 7 с DONE
+  2026-10-28 23:48:10 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:10 App\Jobs\ImportDocumentJob#18 ............. 22.97ms DONE
+  2026-10-28 23:48:10 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:22 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:48:22 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:34 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:48:34 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:46 App\Jobs\ImportDocumentJob#18 ................ 12 с DONE
+  2026-10-28 23:48:46 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:54 App\Jobs\ImportDocumentJob#18 ................. 7 с DONE
+  2026-10-28 23:48:54 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:54 App\Jobs\ImportDocumentJob#18 ............. 27.73ms DONE
+  2026-10-28 23:48:54 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:48:54 App\Jobs\ImportDocumentJob#18 ............. 25.40ms DONE
+  2026-10-28 23:48:54 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 ................ 12 с DONE
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 ............. 22.52ms DONE
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 ............. 22.98ms DONE
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 ............. 28.43ms DONE
+  2026-10-28 23:49:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:18 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:49:18 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:22 App\Jobs\ImportDocumentJob#18 ................. 3 с DONE
+  2026-10-28 23:49:22 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:34 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:49:34 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:46 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:49:46 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:49:58 App\Jobs\ImportDocumentJob#18 ................ 12 с DONE
+  2026-10-28 23:49:58 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ................. 7 с DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 22.04ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 22.18ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 23.31ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 22.27ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 23.87ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 24.81ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 ............. 25.23ms DONE
+  2026-10-28 23:50:06 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:14 App\Jobs\ImportDocumentJob#18 ................. 7 с DONE
+  2026-10-28 23:50:14 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:26 App\Jobs\ImportDocumentJob#18 ................ 12 с DONE
+  2026-10-28 23:50:26 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:38 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:50:38 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:50 App\Jobs\ImportDocumentJob#18 ................ 11 с DONE
+  2026-10-28 23:50:50 App\Jobs\ImportDocumentJob#18 .................. RUNNING
+  2026-10-28 23:50:50 App\Jobs\ImportDocumentJob#18 ............. 23.18ms DONE
+  2026-10-28 23:50:50 Worker STOPPED Maximum jobs exceeded
+after_run_18 documents=85 contents=194 new=56 integrity=PASS
+RUN 19 kind=new_collection source_ids=30 stage=100
+  2026-10-28 23:50:50 App\Jobs\DiscoverDocumentsJob#19 ............... RUNNING
+  2026-10-28 23:50:51 App\Jobs\DiscoverDocumentsJob#19 ......... 167.96ms DONE
+  2026-10-28 23:50:51 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:50:58 App\Jobs\ImportDocumentJob#19 ................. 7 с DONE
+  2026-10-28 23:50:58 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:50:58 App\Jobs\ImportDocumentJob#19 ............. 22.21ms DONE
+  2026-10-28 23:50:58 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:10 App\Jobs\ImportDocumentJob#19 ................ 12 с DONE
+  2026-10-28 23:51:10 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:22 App\Jobs\ImportDocumentJob#19 ................ 11 с DONE
+  2026-10-28 23:51:22 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:34 App\Jobs\ImportDocumentJob#19 ................ 12 с DONE
+  2026-10-28 23:51:34 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:46 App\Jobs\ImportDocumentJob#19 ................ 11 с DONE
+  2026-10-28 23:51:46 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 ................ 12 с DONE
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 ............. 23.76ms DONE
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 ............. 20.57ms DONE
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 ............. 27.22ms DONE
+  2026-10-28 23:51:58 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 ................ 11 с DONE
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 ............. 20.29ms DONE
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 ............. 20.05ms DONE
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 ............. 26.92ms DONE
+  2026-10-28 23:52:10 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:22 App\Jobs\ImportDocumentJob#19 ................ 11 с DONE
+  2026-10-28 23:52:22 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:34 App\Jobs\ImportDocumentJob#19 ................ 11 с DONE
+  2026-10-28 23:52:34 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:48 App\Jobs\ImportDocumentJob#19 ................ 13 с DONE
+  2026-10-28 23:52:48 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ................. 9 с DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 25.38ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 19.00ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 20.76ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 22.12ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 19.94ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 19.86ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 ............. 21.22ms DONE
+  2026-10-28 23:52:57 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:53:05 App\Jobs\ImportDocumentJob#19 ................. 7 с DONE
+  2026-10-28 23:53:05 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:53:17 App\Jobs\ImportDocumentJob#19 ................ 11 с DONE
+  2026-10-28 23:53:17 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:53:29 App\Jobs\ImportDocumentJob#19 ................ 12 с DONE
+  2026-10-28 23:53:29 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:53:41 App\Jobs\ImportDocumentJob#19 ................ 12 с DONE
+  2026-10-28 23:53:41 App\Jobs\ImportDocumentJob#19 .................. RUNNING
+  2026-10-28 23:53:41 App\Jobs\ImportDocumentJob#19 ............. 28.52ms DONE
+  2026-10-28 23:53:41 Worker STOPPED Maximum jobs exceeded
+after_run_19 documents=98 contents=226 new=69 integrity=PASS
+RUN 20 kind=new_collection source_ids=30 stage=100
+  2026-10-28 23:53:42 App\Jobs\DiscoverDocumentsJob#20 ............... RUNNING
+  2026-10-28 23:53:42 App\Jobs\DiscoverDocumentsJob#20 ......... 169.50ms DONE
+  2026-10-28 23:53:42 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:53:53 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:53:53 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 ................. 8 с DONE
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 ............. 22.76ms DONE
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 ............. 27.66ms DONE
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 ............. 27.73ms DONE
+  2026-10-28 23:54:01 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:13 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:54:13 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:29 App\Jobs\ImportDocumentJob#20 ................ 16 с DONE
+  2026-10-28 23:54:29 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 ................. 7 с DONE
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 ............. 22.99ms DONE
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 ............. 21.56ms DONE
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 ............. 23.04ms DONE
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 ............. 27.57ms DONE
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 ............. 26.53ms DONE
+  2026-10-28 23:54:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:54:49 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:54:49 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:02 App\Jobs\ImportDocumentJob#20 ................ 12 с DONE
+  2026-10-28 23:55:02 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:13 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:55:13 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:13 App\Jobs\ImportDocumentJob#20 ............. 23.53ms DONE
+  2026-10-28 23:55:13 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:13 App\Jobs\ImportDocumentJob#20 ............. 23.31ms DONE
+  2026-10-28 23:55:13 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:26 App\Jobs\ImportDocumentJob#20 ................ 12 с DONE
+  2026-10-28 23:55:26 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:37 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:55:37 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:49 App\Jobs\ImportDocumentJob#20 ................ 12 с DONE
+  2026-10-28 23:55:49 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:55:49 App\Jobs\ImportDocumentJob#20 ............. 23.01ms DONE
+  2026-10-28 23:55:49 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:02 App\Jobs\ImportDocumentJob#20 ................ 12 с DONE
+  2026-10-28 23:56:02 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:13 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:56:13 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:13 App\Jobs\ImportDocumentJob#20 ............. 29.12ms DONE
+  2026-10-28 23:56:13 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:21 App\Jobs\ImportDocumentJob#20 ................. 7 с DONE
+  2026-10-28 23:56:21 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:33 App\Jobs\ImportDocumentJob#20 ................ 12 с DONE
+  2026-10-28 23:56:33 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:45 App\Jobs\ImportDocumentJob#20 ................ 11 с DONE
+  2026-10-28 23:56:45 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:45 App\Jobs\ImportDocumentJob#20 ............. 19.92ms DONE
+  2026-10-28 23:56:45 App\Jobs\ImportDocumentJob#20 .................. RUNNING
+  2026-10-28 23:56:45 App\Jobs\ImportDocumentJob#20 ............. 28.14ms DONE
+  2026-10-28 23:56:45 Worker STOPPED Maximum jobs exceeded
+after_run_20 documents=110 contents=254 new=81 integrity=PASS
+RUN 21 kind=new_collection source_ids=19 stage=100
+  2026-10-28 23:56:46 App\Jobs\DiscoverDocumentsJob#21 ............... RUNNING
+  2026-10-28 23:56:46 App\Jobs\DiscoverDocumentsJob#21 ......... 104.06ms DONE
+  2026-10-28 23:56:46 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:01 App\Jobs\ImportDocumentJob#21 ................ 15 с DONE
+  2026-10-28 23:57:01 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:13 App\Jobs\ImportDocumentJob#21 ................ 12 с DONE
+  2026-10-28 23:57:13 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:13 App\Jobs\ImportDocumentJob#21 ............. 26.07ms DONE
+  2026-10-28 23:57:13 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:13 App\Jobs\ImportDocumentJob#21 ............. 18.64ms DONE
+  2026-10-28 23:57:13 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:25 App\Jobs\ImportDocumentJob#21 ................ 11 с DONE
+  2026-10-28 23:57:25 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 ................ 11 с DONE
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 ............. 27.74ms DONE
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 ............. 20.36ms DONE
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 ............. 28.12ms DONE
+  2026-10-28 23:57:37 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:49 App\Jobs\ImportDocumentJob#21 ................ 11 с DONE
+  2026-10-28 23:57:49 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:49 App\Jobs\ImportDocumentJob#21 ............. 24.67ms DONE
+  2026-10-28 23:57:49 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:57 App\Jobs\ImportDocumentJob#21 ................. 7 с DONE
+  2026-10-28 23:57:57 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:57:57 App\Jobs\ImportDocumentJob#21 ............. 27.96ms DONE
+  2026-10-28 23:57:57 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:58:09 App\Jobs\ImportDocumentJob#21 ................ 11 с DONE
+  2026-10-28 23:58:09 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:58:25 App\Jobs\ImportDocumentJob#21 ................ 16 с DONE
+  2026-10-28 23:58:25 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:58:25 App\Jobs\ImportDocumentJob#21 ............. 29.63ms DONE
+  2026-10-28 23:58:25 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:58:37 App\Jobs\ImportDocumentJob#21 ................ 11 с DONE
+  2026-10-28 23:58:37 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:58:49 App\Jobs\ImportDocumentJob#21 ................ 12 с DONE
+  2026-10-28 23:58:49 App\Jobs\ImportDocumentJob#21 .................. RUNNING
+  2026-10-28 23:59:05 App\Jobs\ImportDocumentJob#21 ................ 16 с DONE
+  2026-10-28 23:59:06 Worker STOPPED Queue empty
+after_run_21 documents=119 contents=277 new=90 integrity=PASS
+RUN 22 kind=new_collection source_ids=10 stage=100
+  2026-10-28 23:59:07 App\Jobs\DiscoverDocumentsJob#22 ............... RUNNING
+  2026-10-28 23:59:07 App\Jobs\DiscoverDocumentsJob#22 .......... 58.04ms DONE
+  2026-10-28 23:59:07 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-28 23:59:13 App\Jobs\ImportDocumentJob#22 ................. 6 с DONE
+  2026-10-28 23:59:13 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-28 23:59:29 App\Jobs\ImportDocumentJob#22 ................ 16 с DONE
+  2026-10-28 23:59:29 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-28 23:59:29 App\Jobs\ImportDocumentJob#22 ............. 23.26ms DONE
+  2026-10-28 23:59:29 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-28 23:59:37 App\Jobs\ImportDocumentJob#22 ................. 7 с DONE
+  2026-10-28 23:59:37 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-28 23:59:49 App\Jobs\ImportDocumentJob#22 ................ 12 с DONE
+  2026-10-28 23:59:49 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-29 00:00:01 App\Jobs\ImportDocumentJob#22 ................ 11 с DONE
+  2026-10-29 00:00:01 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-29 00:00:01 App\Jobs\ImportDocumentJob#22 ............. 23.15ms DONE
+  2026-10-29 00:00:01 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-29 00:00:13 App\Jobs\ImportDocumentJob#22 ................ 12 с DONE
+  2026-10-29 00:00:13 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-29 00:00:25 App\Jobs\ImportDocumentJob#22 ................ 11 с DONE
+  2026-10-29 00:00:25 App\Jobs\ImportDocumentJob#22 .................. RUNNING
+  2026-10-29 00:00:33 App\Jobs\ImportDocumentJob#22 ................. 7 с DONE
+  2026-10-29 00:00:34 Worker STOPPED Queue empty
+after_run_22 documents=125 contents=291 new=96 integrity=PASS
+RUN 23 kind=new_collection source_ids=4 stage=100
+  2026-10-29 00:00:35 App\Jobs\DiscoverDocumentsJob#23 ............... RUNNING
+  2026-10-29 00:00:35 App\Jobs\DiscoverDocumentsJob#23 .......... 42.53ms DONE
+  2026-10-29 00:00:35 App\Jobs\ImportDocumentJob#23 .................. RUNNING
+  2026-10-29 00:00:45 App\Jobs\ImportDocumentJob#23 ................ 10 с DONE
+  2026-10-29 00:00:45 App\Jobs\ImportDocumentJob#23 .................. RUNNING
+  2026-10-29 00:00:58 App\Jobs\ImportDocumentJob#23 ................ 12 с DONE
+  2026-10-29 00:00:58 App\Jobs\ImportDocumentJob#23 .................. RUNNING
+  2026-10-29 00:01:10 App\Jobs\ImportDocumentJob#23 ................ 12 с DONE
+  2026-10-29 00:01:10 App\Jobs\ImportDocumentJob#23 .................. RUNNING
+  2026-10-29 00:01:10 App\Jobs\ImportDocumentJob#23 ............. 34.73ms DONE
+  2026-10-29 00:01:11 Worker STOPPED Queue empty
+after_run_23 documents=128 contents=299 new=99 integrity=PASS
+RUN 24 kind=new_collection source_ids=1 stage=100
+  2026-10-29 00:01:12 App\Jobs\DiscoverDocumentsJob#24 ............... RUNNING
+  2026-10-29 00:01:12 App\Jobs\DiscoverDocumentsJob#24 .......... 24.83ms DONE
+  2026-10-29 00:01:12 App\Jobs\ImportDocumentJob#24 .................. RUNNING
+  2026-10-29 00:01:14 App\Jobs\ImportDocumentJob#24 ................. 2 с DONE
+  2026-10-29 00:01:15 Worker STOPPED Queue empty
+after_run_24 documents=129 contents=300 new=100 integrity=PASS
+stage_c_results documents=129 contents=300 new=100 integrity=PASS
+RUN 25 kind=new_collection source_ids=30 stage=200
+  2026-10-29 00:01:16 App\Jobs\DiscoverDocumentsJob#25 ............... RUNNING
+  2026-10-29 00:01:16 App\Jobs\DiscoverDocumentsJob#25 ......... 171.95ms DONE
+  2026-10-29 00:01:16 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:01:18 App\Jobs\ImportDocumentJob#25 ................. 2 с DONE
+  2026-10-29 00:01:18 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:01:26 App\Jobs\ImportDocumentJob#25 ................. 8 с DONE
+  2026-10-29 00:01:26 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:01:38 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:01:38 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:01:50 App\Jobs\ImportDocumentJob#25 ................ 12 с DONE
+  2026-10-29 00:01:50 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:01:50 App\Jobs\ImportDocumentJob#25 ............. 19.78ms DONE
+  2026-10-29 00:01:50 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:01:50 App\Jobs\ImportDocumentJob#25 ............. 23.76ms DONE
+  2026-10-29 00:01:50 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:02 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:02:02 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:10 App\Jobs\ImportDocumentJob#25 ................. 7 с DONE
+  2026-10-29 00:02:10 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:10 App\Jobs\ImportDocumentJob#25 ............. 26.99ms DONE
+  2026-10-29 00:02:10 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:22 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:02:22 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:22 App\Jobs\ImportDocumentJob#25 ............. 20.52ms DONE
+  2026-10-29 00:02:22 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:34 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:02:34 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:46 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:02:46 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:02:50 App\Jobs\ImportDocumentJob#25 ................. 3 с DONE
+  2026-10-29 00:02:50 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:02 App\Jobs\ImportDocumentJob#25 ................ 12 с DONE
+  2026-10-29 00:03:02 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:14 App\Jobs\ImportDocumentJob#25 ................ 12 с DONE
+  2026-10-29 00:03:14 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:22 App\Jobs\ImportDocumentJob#25 ................. 7 с DONE
+  2026-10-29 00:03:22 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:34 App\Jobs\ImportDocumentJob#25 ................ 12 с DONE
+  2026-10-29 00:03:34 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:46 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:03:46 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:46 App\Jobs\ImportDocumentJob#25 ............. 19.89ms DONE
+  2026-10-29 00:03:46 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:03:58 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:03:58 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:10 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:04:10 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:18 App\Jobs\ImportDocumentJob#25 ................. 7 с DONE
+  2026-10-29 00:04:18 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:18 App\Jobs\ImportDocumentJob#25 ............. 20.82ms DONE
+  2026-10-29 00:04:18 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:30 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:04:30 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:30 App\Jobs\ImportDocumentJob#25 ............. 20.66ms DONE
+  2026-10-29 00:04:30 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:30 App\Jobs\ImportDocumentJob#25 ............. 19.56ms DONE
+  2026-10-29 00:04:30 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:42 App\Jobs\ImportDocumentJob#25 ................ 11 с DONE
+  2026-10-29 00:04:42 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:04:50 App\Jobs\ImportDocumentJob#25 ................. 7 с DONE
+  2026-10-29 00:04:50 App\Jobs\ImportDocumentJob#25 .................. RUNNING
+  2026-10-29 00:05:02 App\Jobs\ImportDocumentJob#25 ................ 12 с DONE
+  2026-10-29 00:05:02 Worker STOPPED Maximum jobs exceeded
+after_run_25 documents=143 contents=329 new=114 integrity=PASS
+RUN 26 kind=new_collection source_ids=30 stage=200
+  2026-10-29 00:05:03 App\Jobs\DiscoverDocumentsJob#26 ............... RUNNING
+  2026-10-29 00:05:03 App\Jobs\DiscoverDocumentsJob#26 ......... 157.94ms DONE
+  2026-10-29 00:05:03 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:05:14 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:05:14 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:05:26 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:05:26 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:05:34 App\Jobs\ImportDocumentJob#26 ................. 7 с DONE
+  2026-10-29 00:05:34 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:05:46 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:05:46 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:05:46 App\Jobs\ImportDocumentJob#26 ............. 19.44ms DONE
+  2026-10-29 00:05:46 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:05:58 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:05:58 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:10 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:06:10 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:18 App\Jobs\ImportDocumentJob#26 ................. 7 с DONE
+  2026-10-29 00:06:18 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:30 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:06:30 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:30 App\Jobs\ImportDocumentJob#26 ............. 22.98ms DONE
+  2026-10-29 00:06:30 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:30 App\Jobs\ImportDocumentJob#26 ............. 24.61ms DONE
+  2026-10-29 00:06:30 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:42 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:06:42 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:42 App\Jobs\ImportDocumentJob#26 ............. 23.25ms DONE
+  2026-10-29 00:06:42 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:06:50 App\Jobs\ImportDocumentJob#26 ................. 7 с DONE
+  2026-10-29 00:06:50 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:02 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:07:02 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:14 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:07:14 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:14 App\Jobs\ImportDocumentJob#26 ............. 25.10ms DONE
+  2026-10-29 00:07:14 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:14 App\Jobs\ImportDocumentJob#26 ............. 24.36ms DONE
+  2026-10-29 00:07:14 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:26 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:07:26 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:34 App\Jobs\ImportDocumentJob#26 ................. 8 с DONE
+  2026-10-29 00:07:34 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:34 App\Jobs\ImportDocumentJob#26 ............. 20.77ms DONE
+  2026-10-29 00:07:34 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:46 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:07:46 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:46 App\Jobs\ImportDocumentJob#26 ............. 24.11ms DONE
+  2026-10-29 00:07:46 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:07:58 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:07:58 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:08:10 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:08:10 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:08:18 App\Jobs\ImportDocumentJob#26 ................. 7 с DONE
+  2026-10-29 00:08:18 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:08:30 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:08:30 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:08:42 App\Jobs\ImportDocumentJob#26 ................ 11 с DONE
+  2026-10-29 00:08:42 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:08:42 App\Jobs\ImportDocumentJob#26 ............. 21.77ms DONE
+  2026-10-29 00:08:42 App\Jobs\ImportDocumentJob#26 .................. RUNNING
+  2026-10-29 00:08:54 App\Jobs\ImportDocumentJob#26 ................ 12 с DONE
+  2026-10-29 00:08:54 Worker STOPPED Maximum jobs exceeded
+after_run_26 documents=155 contents=356 new=126 integrity=PASS
+RUN 27 kind=new_collection source_ids=30 stage=200
+  2026-10-29 00:08:55 App\Jobs\DiscoverDocumentsJob#27 ............... RUNNING
+  2026-10-29 00:08:55 App\Jobs\DiscoverDocumentsJob#27 ......... 171.56ms DONE
+  2026-10-29 00:08:55 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:08:58 App\Jobs\ImportDocumentJob#27 ................. 3 с DONE
+  2026-10-29 00:08:58 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:09:11 App\Jobs\ImportDocumentJob#27 ................ 12 с DONE
+  2026-10-29 00:09:11 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:09:22 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:09:22 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:09:49 App\Jobs\ImportDocumentJob#27 ................ 27 с DONE
+  2026-10-29 00:09:49 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:00 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:10:00 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:12 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:10:12 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:19 App\Jobs\ImportDocumentJob#27 ................. 7 с DONE
+  2026-10-29 00:10:19 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:32 App\Jobs\ImportDocumentJob#27 ................ 12 с DONE
+  2026-10-29 00:10:32 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:43 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:10:44 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:44 App\Jobs\ImportDocumentJob#27 ............. 25.04ms DONE
+  2026-10-29 00:10:44 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:10:57 App\Jobs\ImportDocumentJob#27 ................ 13 с DONE
+  2026-10-29 00:10:57 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:07 App\Jobs\ImportDocumentJob#27 ................ 10 с DONE
+  2026-10-29 00:11:07 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:15 App\Jobs\ImportDocumentJob#27 ................. 7 с DONE
+  2026-10-29 00:11:15 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:29 App\Jobs\ImportDocumentJob#27 ................ 13 с DONE
+  2026-10-29 00:11:29 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:29 App\Jobs\ImportDocumentJob#27 ............. 26.30ms DONE
+  2026-10-29 00:11:29 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:29 App\Jobs\ImportDocumentJob#27 ............. 27.27ms DONE
+  2026-10-29 00:11:29 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:41 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:11:41 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:41 App\Jobs\ImportDocumentJob#27 ............. 22.77ms DONE
+  2026-10-29 00:11:41 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:11:52 App\Jobs\ImportDocumentJob#27 ................ 10 с DONE
+  2026-10-29 00:11:52 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 ............. 26.53ms DONE
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 ............. 21.35ms DONE
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 ............. 20.93ms DONE
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 ............. 30.39ms DONE
+  2026-10-29 00:12:04 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:15 App\Jobs\ImportDocumentJob#27 ................ 11 с DONE
+  2026-10-29 00:12:15 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 ................ 12 с DONE
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 ............. 20.82ms DONE
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 ............. 22.01ms DONE
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 ............. 23.55ms DONE
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 .................. RUNNING
+  2026-10-29 00:12:28 App\Jobs\ImportDocumentJob#27 ............. 26.26ms DONE
+  2026-10-29 00:12:28 Worker STOPPED Maximum jobs exceeded
+after_run_27 documents=167 contents=379 new=138 integrity=PASS
+RUN 28 kind=new_collection source_ids=30 stage=200
+  2026-10-29 00:12:28 App\Jobs\DiscoverDocumentsJob#28 ............... RUNNING
+  2026-10-29 00:12:29 App\Jobs\DiscoverDocumentsJob#28 ......... 181.14ms DONE
+  2026-10-29 00:12:29 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:12:40 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:12:40 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:12:52 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:12:52 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:04 App\Jobs\ImportDocumentJob#28 ................ 12 с DONE
+  2026-10-29 00:13:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:04 App\Jobs\ImportDocumentJob#28 ............. 28.56ms DONE
+  2026-10-29 00:13:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:16 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:13:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:16 App\Jobs\ImportDocumentJob#28 ............. 26.06ms DONE
+  2026-10-29 00:13:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:28 App\Jobs\ImportDocumentJob#28 ................ 12 с DONE
+  2026-10-29 00:13:28 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:40 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:13:40 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:52 App\Jobs\ImportDocumentJob#28 ................ 12 с DONE
+  2026-10-29 00:13:52 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:13:52 App\Jobs\ImportDocumentJob#28 ............. 23.54ms DONE
+  2026-10-29 00:13:52 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:04 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:14:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:04 App\Jobs\ImportDocumentJob#28 ............. 21.24ms DONE
+  2026-10-29 00:14:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:16 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:14:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:16 App\Jobs\ImportDocumentJob#28 ............. 25.14ms DONE
+  2026-10-29 00:14:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:16 App\Jobs\ImportDocumentJob#28 ............. 21.81ms DONE
+  2026-10-29 00:14:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:28 App\Jobs\ImportDocumentJob#28 ................ 12 с DONE
+  2026-10-29 00:14:28 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:28 App\Jobs\ImportDocumentJob#28 ............. 22.57ms DONE
+  2026-10-29 00:14:28 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:28 App\Jobs\ImportDocumentJob#28 ............. 20.91ms DONE
+  2026-10-29 00:14:28 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:39 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:14:40 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:40 App\Jobs\ImportDocumentJob#28 ............. 26.58ms DONE
+  2026-10-29 00:14:40 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:40 App\Jobs\ImportDocumentJob#28 ............. 27.00ms DONE
+  2026-10-29 00:14:40 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:52 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:14:52 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:52 App\Jobs\ImportDocumentJob#28 ............. 20.81ms DONE
+  2026-10-29 00:14:52 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:14:52 App\Jobs\ImportDocumentJob#28 ............. 22.13ms DONE
+  2026-10-29 00:14:52 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:15:04 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:15:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:15:04 App\Jobs\ImportDocumentJob#28 ............. 25.72ms DONE
+  2026-10-29 00:15:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:15:04 App\Jobs\ImportDocumentJob#28 ............. 26.91ms DONE
+  2026-10-29 00:15:04 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:15:16 App\Jobs\ImportDocumentJob#28 ................ 11 с DONE
+  2026-10-29 00:15:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:15:16 App\Jobs\ImportDocumentJob#28 ............. 26.49ms DONE
+  2026-10-29 00:15:16 App\Jobs\ImportDocumentJob#28 .................. RUNNING
+  2026-10-29 00:15:16 App\Jobs\ImportDocumentJob#28 ............. 30.11ms DONE
+  2026-10-29 00:15:16 Worker STOPPED Maximum jobs exceeded
+after_run_28 documents=177 contents=403 new=148 integrity=PASS
+RUN 29 kind=new_collection source_ids=30 stage=200
+  2026-10-29 00:15:16 App\Jobs\DiscoverDocumentsJob#29 ............... RUNNING
+  2026-10-29 00:15:16 App\Jobs\DiscoverDocumentsJob#29 ......... 178.56ms DONE
+  2026-10-29 00:15:16 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:28 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:15:28 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:28 App\Jobs\ImportDocumentJob#29 ............. 23.11ms DONE
+  2026-10-29 00:15:28 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:28 App\Jobs\ImportDocumentJob#29 ............. 20.06ms DONE
+  2026-10-29 00:15:28 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:40 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:15:40 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:40 App\Jobs\ImportDocumentJob#29 ............. 23.43ms DONE
+  2026-10-29 00:15:40 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:40 App\Jobs\ImportDocumentJob#29 ............. 23.90ms DONE
+  2026-10-29 00:15:40 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:52 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:15:52 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:52 App\Jobs\ImportDocumentJob#29 ............. 19.41ms DONE
+  2026-10-29 00:15:52 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:15:52 App\Jobs\ImportDocumentJob#29 ............. 30.31ms DONE
+  2026-10-29 00:15:52 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:04 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:16:04 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:04 App\Jobs\ImportDocumentJob#29 ............. 25.09ms DONE
+  2026-10-29 00:16:04 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:04 App\Jobs\ImportDocumentJob#29 ............. 23.68ms DONE
+  2026-10-29 00:16:04 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:16 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:16:16 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:16 App\Jobs\ImportDocumentJob#29 ............. 23.97ms DONE
+  2026-10-29 00:16:16 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:16 App\Jobs\ImportDocumentJob#29 ............. 22.22ms DONE
+  2026-10-29 00:16:16 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:28 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:16:28 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:28 App\Jobs\ImportDocumentJob#29 ............. 27.62ms DONE
+  2026-10-29 00:16:28 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:28 App\Jobs\ImportDocumentJob#29 ............. 28.93ms DONE
+  2026-10-29 00:16:28 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:40 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:16:40 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:40 App\Jobs\ImportDocumentJob#29 ............. 28.23ms DONE
+  2026-10-29 00:16:40 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:40 App\Jobs\ImportDocumentJob#29 ............. 26.41ms DONE
+  2026-10-29 00:16:40 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:52 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:16:52 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:52 App\Jobs\ImportDocumentJob#29 ............. 25.89ms DONE
+  2026-10-29 00:16:52 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:16:52 App\Jobs\ImportDocumentJob#29 ............. 21.82ms DONE
+  2026-10-29 00:16:52 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:17:04 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:17:04 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:17:04 App\Jobs\ImportDocumentJob#29 ............. 26.59ms DONE
+  2026-10-29 00:17:04 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:17:04 App\Jobs\ImportDocumentJob#29 ............. 27.30ms DONE
+  2026-10-29 00:17:04 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:17:16 App\Jobs\ImportDocumentJob#29 ................ 11 с DONE
+  2026-10-29 00:17:16 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:17:16 App\Jobs\ImportDocumentJob#29 ............. 18.32ms DONE
+  2026-10-29 00:17:16 App\Jobs\ImportDocumentJob#29 .................. RUNNING
+  2026-10-29 00:17:16 App\Jobs\ImportDocumentJob#29 ............. 37.00ms DONE
+  2026-10-29 00:17:16 Worker STOPPED Maximum jobs exceeded
+after_run_29 documents=187 contents=433 new=158 integrity=PASS
+stage_d_results documents=187 contents=433 new=158 integrity=PASS
+integrity_audit documents=187 contents=433 new=158 integrity=PASS

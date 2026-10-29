@@ -1,0 +1,54 @@
+P4 CORPUS COLLECTION MVP — FINAL
+Reports: docs/P4_REPORT.md; docs/p4/README.md
+
+IMPLEMENTATION: usable review text persists; content quality is independent of legal status.
+Verified text protected by pending_candidate; empty/unusable extraction has no content row.
+Local documents:quality-recheck supports status, limit1..30 and dry-run; no HTTP/OCR/deletion.
+
+TESTS: 130 tests / 581 assertions PASS;0failures/errors/skipped.
+Legacy P0:16 PASS; P0.1:37 PASS (offline/localhost only).
+Pint, Composer strict validate and platform requirements: PASS.
+
+MIGRATIONS:
+Migration name .............................................. Batch / Status  
+  0001_01_01_000001_create_cache_table ............................... [1] Ran  
+  0001_01_01_000002_create_jobs_table ................................ [1] Ran  
+  2026_10_28_000001_create_document_sources_table .................... [1] Ran  
+  2026_10_28_000002_create_documents_table ........................... [1] Ran  
+  2026_10_28_000003_create_document_identifiers_table ................ [1] Ran  
+  2026_10_28_000004_create_document_contents_table ................... [1] Ran  
+  2026_10_28_000005_create_scrape_runs_table ......................... [1] Ran  
+  2026_10_28_000006_create_scrape_run_items_table .................... [2] Ran  
+  2026_10_28_000007_add_content_quality_tracking ..................... [3] Ran
+Same six business tables; no new database or development reset.
+
+LIVE IMPORT:19source IDs /16canonical groups;13old review targets persisted.
+12groups/21texts need review;1source changed to HTML and2texts passed existing automation.
+Run8:13created+3updated; original40 content IDs/hash preserved.
+Final run10:0created/0updated; persisted_unchanged=16; skipped_alias=3; technical_failed=0.
+All63content IDs/hash stable across repeated imports; source control card conflict was retained in run9 and fresh run10 passed.
+HTTP:286 requests,286x200,min gap=2.000029156s,budget400; one worker.
+
+13 TARGET RESULTS:
+https://lex.uz/uz/docs/8548754 -> document 17 -> needs_review -> 2 language contents
+https://lex.uz/uz/docs/8554309 -> document 18 -> needs_review -> 2 language contents
+https://lex.uz/uz/docs/-7655343 -> document 19 -> needs_review -> 4 language contents
+https://lex.uz/uz/docs/-8540314 -> document 20 -> needs_review -> 2 language contents
+https://lex.uz/uz/docs/-8102878 -> document 21 -> needs_review -> 2 language contents
+https://lex.uz/uz/docs/8557098 -> document 22 -> needs_review -> 1 language contents
+https://lex.uz/uz/docs/8554315 -> document 23 -> verified -> 2 language contents
+https://lex.uz/uz/docs/8554432 -> document 24 -> needs_review -> 1 language contents
+https://lex.uz/uz/docs/8554353 -> document 25 -> needs_review -> 1 language contents
+https://lex.uz/uz/docs/8554326 -> document 26 -> needs_review -> 1 language contents
+https://lex.uz/uz/docs/8554321 -> document 27 -> needs_review -> 1 language contents
+https://lex.uz/uz/docs/-8553258 -> document 28 -> needs_review -> 2 language contents
+https://lex.uz/uz/docs/-8553692 -> document 29 -> needs_review -> 2 language contents
+
+FINAL DATABASE:
+{"document_sources": 2, "documents": 29, "document_identifiers": 82, "document_contents": 63, "scrape_runs": 10, "scrape_run_items": 169, "failed_jobs": 24, "jobs": 0, "migrations": 9}
+Content quality:42verified/21needs_review. Old24failed_jobs retained; no new P4 live technical failed job.
+Recheck repeated:21checked/21needs_review/0changed; all63source-fetch times/hash unchanged.
+433historical artifacts unchanged. Defaultlive=false,scheduler=false,worker1,delay2000ms;queue0,temp0.
+
+LIMITATIONS:quality uncertainty retained; source identity contradictions still fail closed; originals not retained; latest candidate only.
+No1000/full import, scheduling, newOCR, AI, frontend or next stage started.

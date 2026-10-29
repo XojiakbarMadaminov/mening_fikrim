@@ -1,0 +1,59 @@
+{
+    "processes": 2,
+    "observed_postgresql_lock_waiters": 2,
+    "results": [
+        {
+            "document_id": 1,
+            "action": "created",
+            "complete": true,
+            "languages": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "en": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": []
+                }
+            },
+            "warnings": []
+        },
+        {
+            "document_id": 1,
+            "action": "unchanged",
+            "complete": true,
+            "languages": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "en": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": []
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": []
+                }
+            },
+            "warnings": []
+        }
+    ],
+    "rows": {
+        "documents": 1,
+        "identifiers": 4,
+        "contents": 3
+    }
+}

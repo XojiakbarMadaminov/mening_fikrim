@@ -1,0 +1,20 @@
+P5.1 FINAL — CONDITIONAL GO for separately authorized P6
+P5 NEW canonical:158
+P5.1 additional NEW canonical:42
+Combined NEW canonical:200/200
+Final database:229 documents /625 identifiers /541 contents
+Content quality:449 verified /92 needs_review
+New contents:108 (105 verified /3 needs_review)
+Language observations:118 available /0 confirmed unavailable /70 unknown /0 available-but-failed
+Legacy documents without fresh availability evidence:182
+Discovery oliy:Y:2020:1429/1429 source IDs;29 resolved nodes,15 leaves,0 unresolved incomplete
+Selected entry IDs:114/180;aliases skipped:59
+HTTP requests:414/1800,414x200,retries0,min start interval2.000140510s
+Live controller:882.156s (14m42s);worker590.811s
+Technical failures:0;new failed jobs:0;old failed jobs24 preserved
+Original433content hashes,quality/issues/canonical IDs and P5 stopped state/ledger preserved
+Historical643files:0changed;duplicates/orphans:0
+Tests:172PASS/719assertions;PintPASS;P0offline16/P0.1offline37PASS
+Migrations:new0,existing9Ran;test schema restored;live/scheduler defaultsfalse
+STOP:approved_target_reached;no further live traffic or P6 started
+Report:docs/P5_1_REPORT.md

@@ -1,0 +1,3934 @@
+[
+  {
+    "id": "8557098",
+    "url": "https://lex.uz/uz/docs/8557098",
+    "format": "PDF",
+    "pages": 9,
+    "ocr_pages": 0,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 1410,
+        "body_chars": 1336,
+        "image_rectangle_coverage": 0.0155,
+        "text_vertical_coverage": 0.8429,
+        "images": 1,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 253,
+        "body_chars": 196,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.4044,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 2493,
+        "body_chars": 2345,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8115,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              83.664,
+              310.25,
+              554.38,
+              758.74
+            ],
+            "rows": 25,
+            "columns": 1,
+            "cells": [
+              [
+                "1. Mazkur hujjatda quyidagi tushunchalar qoʻllaniladi:"
+              ],
+              [
+                "yer qaʼridan foydalanuvchi–Oʻzbekiston Respublikasining “Yer qaʼri toʻgʻrisida”gi"
+              ],
+              [
+                "Qonuniga muvofiq yer qaʼri uchastkalaridan foydalanish huquqiga doir ruxsatnomaga ega"
+              ],
+              [
+                "boʻlgan yuridik yoki jismoniy shaxs;"
+              ],
+              [
+                "konchilik faoliyati – konni oʻzlashtirish bilan bogʻliq faoliyat, shu jumladan,"
+              ],
+              [
+                "qidiruv, geologik jihatdan oʻrganish, konchilik faoliyatining infratuzilma obyektlarini"
+              ],
+              [
+                "qurish va ularga xizmat koʻrsatish, qazib olish, konsentratsiya, boyitish yoki qayta ishlash,"
+              ],
+              [
+                "ishlov berish, separatsiya hamda transportda tashish, shuningdek qattiq holdagi foydali"
+              ],
+              [
+                "qazilmalarni geologik jihatdan oʻrganish oʻtkazish, oʻzlashtirish, ishlab chiqarish yoki"
+              ],
+              [
+                "qayta ishlash maqsadida amalga oshiriladigan boshqa yordamchi faoliyat turlari;"
+              ],
+              [
+                "maxsus vakolatli organ –Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi"
+              ],
+              [
+                "Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasi;"
+              ],
+              [
+                "radiatsiyani boshqarish – uran qazib olish bilan bogʻliq faoliyatda xodimlar, aholi"
+              ],
+              [
+                "va atrof-muhitni ionlashtiruvchi nurlanishning zararli taʼsiridan muhofaza qilish hamda"
+              ],
+              [
+                "radiatsiyaviy xavfsizlikni taʼminlashga qaratilgan tashkiliy, texnik va boshqa chora-"
+              ],
+              [
+                "tadbirlar tizimi;"
+              ],
+              [
+                "radiatsiyani boshqarish rejasi – uran qazib olish bilan bog‘liq konchilik"
+              ],
+              [
+                "faoliyatida radiatsiyaviy xavflarni aniqlash va baholash, xodimlar, aholi hamda atrof-"
+              ],
+              [
+                "muhitni ionlashtiruvchi nurlanish ta’siridan muhofaza qilish, nurlanish dozalarini nazorat"
+              ],
+              [
+                "qilish va maqbullashtirish, radiatsiyaviy monitoringni tashkil etish bo‘yicha chora-"
+              ],
+              [
+                "tadbirlar, shuningdek ularni amalga oshirish uchun mas’ul shaxslar, muddatlar va zarur"
+              ],
+              [
+                "resurslarni belgilovchi hujjat."
+              ],
+              [
+                "2. Ushbu hujjatning talablari uranni qazib olish boʻyicha faoliyat bilan"
+              ],
+              [
+                "shugʻullanadigan yer qaʼridan foydalanuvchi (bundan buyon matnda yer qaʼridan"
+              ],
+              [
+                "foydalanuvchi deb yuritiladi) yuridik yoki jismoniy shaxslarga nisbatan tatbiq etiladi."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "layer_chars": 2826,
+        "body_chars": 2601,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8256,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              83.664,
+              56.639999999999986,
+              554.38,
+              775.06
+            ],
+            "rows": 42,
+            "columns": 1,
+            "cells": [
+              [
+                "3. Uran qazib olish bo‘yicha konni o‘zlashtirish loyihasining tarkibiga radiatsiyani"
+              ],
+              [
+                "boshqarish rejasi kiritiladi."
+              ],
+              [
+                ""
+              ],
+              [
+                "2-bob. Radiatsiyani boshqarish rejasini ishlab chiqish, taqdim etish,"
+              ],
+              [
+                "ko‘rib chiqish va qayta ko‘rib chiqishga"
+              ],
+              [
+                "qo‘yiladigan talablar"
+              ],
+              [
+                ""
+              ],
+              [
+                "4.Radiatsiyani boshqarishning dastlabki rejasi yer qa’ridan foydalanuvchining"
+              ],
+              [
+                "radiatsiyaviy xavfsizlik uchun mas’ul shaxsi tomonidan ushbu hujjat ilovasida belgilangan"
+              ],
+              [
+                "shaklga muvofiq ishlab chiqiladi va rasmiylashtiriladi."
+              ],
+              [
+                "5.To‘ldirilgan radiatsiyani boshqarishning dastlabkirejasi yer qaʼridan foydalanuvchi"
+              ],
+              [
+                "rahbari tomonidan kelishiladi hamda tasdiqlash uchun maxsus vakolatli organga yozma yoki"
+              ],
+              [
+                "elektronshakldataqdim etiladi."
+              ],
+              [
+                "6. Maxsus vakolatli organradiatsiyaniboshqarishning dastlabki rejasinikelib tushgan"
+              ],
+              [
+                "kundan e’tiboran besh ish kuni ichida ko‘rib chiqadi."
+              ],
+              [
+                "Radiatsiyani boshqarishning dastlabki rejasini ko‘rib chiqish uchun belgilangan"
+              ],
+              [
+                "muddat davomida taklif va e’tirozlar mavjud bo‘lmagan taqdirda, maxsus vakolatli organ"
+              ],
+              [
+                "mazkur muddat tugagan kundan boshlab bir ish kuni ichida uni tasdiqlaydi va tasdiqlangan"
+              ],
+              [
+                "rejani yer qa’ridan foydalanuvchiga yozma yoki elektron shaklda yuboradi."
+              ],
+              [
+                "Radiatsiyani boshqarish rejasi yuzasidan asoslantirilgan taklif va e’tirozlar mavjud"
+              ],
+              [
+                "bo‘lganda, maxsus vakolatli organ ular haqida u kelib tushgan kundan e’tiboran besh ish"
+              ],
+              [
+                "kuni ichida yer qaʼridan foydalanuvchiga yozma yoki elektron shaklda xabar beradi."
+              ],
+              [
+                "7. Yer qaʼridan foydalanuvchi taklif va e’tirozlarni inobatga olgan holda, ular"
+              ],
+              [
+                "to‘g‘risidagi xabarni olgan kundan e’tiboran o‘n ish kuni ichida radiatsiyani boshqarish"
+              ],
+              [
+                "rejasiningqayta ishlangan tahririni maxsus vakolatli organga taqdim etadi."
+              ],
+              [
+                "Qayta ishlanganradiatsiyani boshqarish rejasiniko‘rib chiqish va tasdiqlash mazkur"
+              ],
+              [
+                "hujjatning 6-bandida belgilangan tartibda amalga oshiriladi."
+              ],
+              [
+                "8. Tasdiqlangan radiatsiyani boshqarish rejasi har besh yilda bir marta, shuningdek"
+              ],
+              [
+                "radiatsiyaviy xavfsizlikka ta’sir ko‘rsatuvchi texnologik o‘zgartirishlar kiritilgan taqdirda,"
+              ],
+              [
+                "qayta ko‘rib chiqiladi."
+              ],
+              [
+                "9. Maxsus vakolatli organ radiatsiyani boshqarish rejasini ko‘rib chiqish natijasida"
+              ],
+              [
+                "unga o‘zgartirishlar kiritish zarurligi to‘g‘risida taklif va e’tirozlar bildirgan taqdirda, yer"
+              ],
+              [
+                "qa’ridan foydalanuvchi mazkur taklif va e’tirozlarni olgan kundan keyingi ish kunidan"
+              ],
+              [
+                "e’tiboran o‘n ish kuni ichida rejaning qayta ishlangan tahririni tayyorlaydi hamda"
+              ],
+              [
+                "tasdiqlash uchun maxsus vakolatli organga yozma yoki elektron shakldataqdim etadi."
+              ],
+              [
+                "10. Mazkur hujjatning 9-bandiga muvofiq taqdim etilgan radiatsiyani boshqarish"
+              ],
+              [
+                "rejasining qayta ishlangan tahririni ko‘rib chiqish ushbu hujjatning 6-bandida belgilangan"
+              ],
+              [
+                "tartibda amalga oshiriladi."
+              ],
+              [
+                ""
+              ],
+              [
+                "3-bob. Radiatsiyani boshqarish rejasining mazmuniga qo‘yiladigan talablar"
+              ],
+              [
+                ""
+              ],
+              [
+                "11. Radiatsiyani boshqarish rejasi quyidagi bo‘limlarni o‘z ichiga oladi:"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "layer_chars": 2536,
+        "body_chars": 2419,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.793,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              83.664,
+              56.639999999999986,
+              554.38,
+              747.82
+            ],
+            "rows": 38,
+            "columns": 1,
+            "cells": [
+              [
+                "a) umumiy ma’lumotlar:"
+              ],
+              [
+                "yer qa’ridan foydalanuvchining to‘liq nomi, tashkiliy-huquqiy shakli va aloqa manzili"
+              ],
+              [
+                "hamda rekvizitlari;"
+              ],
+              [
+                "uran qazib olish obyektining nomi va joylashgan manzili;"
+              ],
+              [
+                "radiatsiyaviy xavfsizlikni ta’minlash uchun mas’ul bo‘lgan shaxslarning familiyasi,"
+              ],
+              [
+                "ismi, otasining ismi, lavozimi va aloqa ma’lumotlari;"
+              ],
+              [
+                "uran qazib olish usuli (ochiq usul, shaxta usuli, yer ostida eritib qazib olish"
+              ],
+              [
+                "va boshqalar);"
+              ],
+              [
+                "b) radiatsiyaviy xavflar va ularning manbalari to‘g‘risidagi ma’lumotlar:"
+              ],
+              [
+                "uran konining tavsifi va radiatsiyaviy xavfsizlikka ta’sir ko‘rsatuvchi asosiy"
+              ],
+              [
+                "xususiyatlar;"
+              ],
+              [
+                "aniqlangan yoki yuzaga kelishi mumkin bo‘lgan radiatsiyaviy xavf omillari (uran,"
+              ],
+              [
+                "toriy, radiy, radon, radioaktiv chang va boshqalar);"
+              ],
+              [
+                "ionlashtiruvchi nurlanish manbalari, ular bilan bog‘liq texnologik jarayonlar"
+              ],
+              [
+                "va manbalarning joylashuvi;"
+              ],
+              [
+                "radiatsiyaviy xavflarni aniqlash va baholash natijalari;"
+              ],
+              [
+                "d) xodimlarni radiatsiyadan himoya qilish bo‘yicha ma’lumotlar:"
+              ],
+              [
+                "Xodimlarni tibbiy ko‘rikdan o‘tkazish tartibi to‘g‘risidagi nizom (ro‘yxat raqami"
+              ],
+              [
+                "2387, 2012-yil 29-avgust) talablariga muvofiq majburiy tibbiy ko‘rikdan o‘tishi lozim"
+              ],
+              [
+                "bo‘lgan xodimlar toifalari hamda ularning dastlabki va davriy tibbiy ko‘rikdan o‘tkazilishini"
+              ],
+              [
+                "ta’minlash choralari;"
+              ],
+              [
+                "O‘zbekiston Respublikasi Vazirlar Mahkamasining 2021-yil 29-sentabrdagi 613-son"
+              ],
+              [
+                "qarori bilan tasdiqlangan Nurlanish olishning individual dozalarini nazorat qilish"
+              ],
+              [
+                "va hisobga olish yagona davlat tizimi toʻgʻrisidaginizomtalablariga muvofiq xodimlarning"
+              ],
+              [
+                "individual nurlanish dozalarini nazorat qilish va hisobga olish tartibi;"
+              ],
+              [
+                "xodimlarni shaxsiy himoya vositalari bilan ta’minlash, ulardan foydalanish, ularni"
+              ],
+              [
+                "saqlash va almashtirish tartibi;"
+              ],
+              [
+                "SanQvaM 0193-06 “Radiatsiya xavfsizligi normalari (RXN-2006)” va “Radiatsiya"
+              ],
+              [
+                "xavfsizligini ta’minlashning asosiy sanitariya qoidalari (RXTASQ-2006)” talablariga"
+              ],
+              [
+                "muvofiq radiatsiyaviy xavflarni baholash hamda xodimlarning nurlanish dozalarini nazorat"
+              ],
+              [
+                "qilish choralari;"
+              ],
+              [
+                "O‘zbekiston Respublikasi Vazirlar Mahkamasining 2022-yil 10-yanvardagi 13-son"
+              ],
+              [
+                "qarori bilan tasdiqlangan Atom energiyasidan foydalanish sohasida faoliyat olib boradigan"
+              ],
+              [
+                "ekspluatatsiya qiluvchi tashkilotlar va boshqa yuridik shaxslar xodimlarini tayyorlash,"
+              ],
+              [
+                "qayta tayyorlash, ularning malakasini oshirish hamda ularni attestatsiyadan o‘tkazish"
+              ],
+              [
+                "tartibi to‘g‘risidagi nizom talablariga muvofiq xodimlarni tayyorlash, qayta tayyorlash,"
+              ],
+              [
+                "malakasini oshirish va attestatsiyadan o‘tkazish tartibi;"
+              ],
+              [
+                "e) radiatsiyaviy vaziyat monitoringi to‘g‘risidagi ma’lumotlar:"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "layer_chars": 1319,
+        "body_chars": 1170,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.439,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              83.664,
+              56.639999999999986,
+              554.38,
+              449.71
+            ],
+            "rows": 23,
+            "columns": 1,
+            "cells": [
+              [
+                "ish joylarida gamma nurlanish dozasi quvvati, radon konsentratsiyasi va havodagi"
+              ],
+              [
+                "radioaktiv aerozollar monitoringini tashkil etish tartibi;"
+              ],
+              [
+                "radiatsiyaviy parametrlarni o‘lchash dasturi;"
+              ],
+              [
+                "radiatsiyaviy parametrlarni o‘lchash usullari va davriyligi;"
+              ],
+              [
+                "monitoring natijalarini qayd etish, saqlash va tahlil qilish tartibi;"
+              ],
+              [
+                "nazorat darajalari oshirilgan hollarda amalga oshiriladigan chora-tadbirlar;"
+              ],
+              [
+                "f) radioaktiv moddalar, radioaktiv chiqindilar va radioaktiv ifloslanishni nazorat"
+              ],
+              [
+                "qilish to‘g‘risidagi ma’lumotlar:"
+              ],
+              [
+                "O‘zbekiston Respublikasi Vazirlar Mahkamasining 2009-yil 13-avgustdagi 231-son"
+              ],
+              [
+                "qarori bilan tasdiqlangan Radioaktiv moddalar va radioaktiv chiqindilar aylanishini davlat"
+              ],
+              [
+                "tomonidan hisobga olish va nazorat qilish tartibi to‘g‘risidagi nizom talablariga muvofiq"
+              ],
+              [
+                "radioaktiv moddalar va radioaktiv chiqindilarni hisobga olish, yig‘ish, saqlash va nazorat"
+              ],
+              [
+                "qilish tartibi;"
+              ],
+              [
+                "radioaktiv chiqindilarni saqlash inshootlari hamda oqova suvlarni tozalash tizimlarining"
+              ],
+              [
+                "tavsifi;"
+              ],
+              [
+                "radioaktiv moddalar chiqarilishi va radioaktiv tashlanmalar ustidan nazoratni"
+              ],
+              [
+                "tashkil etish tartibi;"
+              ],
+              [
+                "atrof-muhitga radiatsiyaviy ta’sirni baholash tartibi."
+              ],
+              [
+                ""
+              ],
+              [
+                "4-bob. Yakuniy qoida"
+              ],
+              [
+                ""
+              ],
+              [
+                "12. Mazkur hujjatning buzilishida aybdor boʻlgan shaxslar qonunchilik hujjatlarida"
+              ],
+              [
+                "belgilangan tartibda javobgar boʻladilar."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "layer_chars": 1059,
+        "body_chars": 979,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7816,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 8,
+        "layer_chars": 2424,
+        "body_chars": 2327,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8218,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 9,
+        "layer_chars": 891,
+        "body_chars": 816,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8216,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              42.857142857142854,
+              154.31882352941176,
+              793.9,
+              377.38
+            ],
+            "rows": 11,
+            "columns": 11,
+            "cells": [
+              [
+                "T/r",
+                null,
+                null,
+                "",
+                "Chora-tadbir yoki",
+                "",
+                "Mas’ul shaxs",
+                "",
+                "Bajarish",
+                "",
+                "Zarur resurslar va bajarilganini tasdiqlovchi hujjat"
+              ],
+              [
+                null,
+                null,
+                null,
+                null,
+                "Radiatsiyani boshqarish",
+                null,
+                null,
+                null,
+                "muddati",
+                null,
+                null
+              ],
+              [
+                null,
+                null,
+                null,
+                null,
+                "rejasi bandi",
+                null,
+                null,
+                null,
+                "davriyligi",
+                null,
+                null
+              ],
+              [
+                "",
+                "1",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "2",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "3",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "4",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "5",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "6",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "7",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ],
+              [
+                "",
+                "8",
+                "",
+                "",
+                null,
+                null,
+                "",
+                "",
+                null,
+                null,
+                ""
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "detected_language": "uz-Latn",
+    "headings": [
+      {
+        "page": 3,
+        "kind": "chapter",
+        "text": "1-bob. Umumiy qoidalar"
+      },
+      {
+        "page": 4,
+        "kind": "chapter",
+        "text": "2-bob. Radiatsiyani boshqarish rejasini ishlab chiqish, taqdim etish,"
+      },
+      {
+        "page": 4,
+        "kind": "chapter",
+        "text": "3-bob. Radiatsiyani boshqarish rejasining mazmuniga qo‘yiladigan talablar"
+      },
+      {
+        "page": 6,
+        "kind": "chapter",
+        "text": "4-bob. Yakuniy qoida"
+      }
+    ],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified",
+      "pdf_table_reading_order_review"
+    ],
+    "markdown": "markdown/8557098_uz-Latn.md",
+    "status": {
+      "business_status": "pending",
+      "source_candidate": "pending",
+      "effective_at": "2027-01-27",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "8554315",
+    "url": "https://lex.uz/uz/docs/8554315",
+    "format": "PDF",
+    "pages": 13,
+    "ocr_pages": 0,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 1303,
+        "body_chars": 1232,
+        "image_rectangle_coverage": 0.0155,
+        "text_vertical_coverage": 0.7811,
+        "images": 1,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 151,
+        "body_chars": 144,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.6296,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 1902,
+        "body_chars": 1784,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8368,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 4,
+        "layer_chars": 2052,
+        "body_chars": 1908,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8056,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 5,
+        "layer_chars": 2042,
+        "body_chars": 1888,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.818,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 6,
+        "layer_chars": 1994,
+        "body_chars": 1883,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8403,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 7,
+        "layer_chars": 1985,
+        "body_chars": 1839,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8165,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 8,
+        "layer_chars": 2180,
+        "body_chars": 2079,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.818,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 9,
+        "layer_chars": 1992,
+        "body_chars": 1781,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8263,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 10,
+        "layer_chars": 2045,
+        "body_chars": 1889,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8067,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 11,
+        "layer_chars": 2165,
+        "body_chars": 2014,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8287,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 12,
+        "layer_chars": 1854,
+        "body_chars": 1704,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8367,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 13,
+        "layer_chars": 1127,
+        "body_chars": 1042,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.527,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      }
+    ],
+    "detected_language": "uz-Latn",
+    "headings": [
+      {
+        "page": 3,
+        "kind": "chapter",
+        "text": "1-bob. Umumiy qoidalar"
+      },
+      {
+        "page": 4,
+        "kind": "chapter",
+        "text": "2-bob. Toʻlov svitchi orqali faoliyat yurituvchi subyektlar"
+      },
+      {
+        "page": 5,
+        "kind": "chapter",
+        "text": "3-bob. Toʻlov svitchiga ulanish"
+      },
+      {
+        "page": 8,
+        "kind": "chapter",
+        "text": "4-bob. Ishtirokchilar va ulangan subyektlarning vazifalari"
+      },
+      {
+        "page": 9,
+        "kind": "chapter",
+        "text": "5-bob. Toʻlov operatsiyalarini amalga oshirish va hisob-kitob qilish"
+      },
+      {
+        "page": 11,
+        "kind": "chapter",
+        "text": "6-bob. Axborot xavfsizligi, kiberxavfsizlik va tavakkalchiliklarni boshqarish"
+      },
+      {
+        "page": 12,
+        "kind": "chapter",
+        "text": "7-bob. Monitoring va nazoratni amalga oshirish hamda hisobotlarni taqdim etish"
+      },
+      {
+        "page": 12,
+        "kind": "chapter",
+        "text": "8-bob. Toʻlov svitchining barqarorligi va uzluksiz faoliyat yuritishini ta’minlash"
+      },
+      {
+        "page": 13,
+        "kind": "chapter",
+        "text": "9-bob. Yakunlovchi qoida"
+      }
+    ],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified"
+    ],
+    "markdown": "markdown/8554315_uz-Latn.md",
+    "status": {
+      "business_status": "pending",
+      "source_candidate": "pending",
+      "effective_at": "2027-01-25",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "8554432",
+    "url": "https://lex.uz/uz/docs/8554432",
+    "format": "PDF",
+    "pages": 20,
+    "ocr_pages": 0,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 1556,
+        "body_chars": 1483,
+        "image_rectangle_coverage": 0.0155,
+        "text_vertical_coverage": 0.7493,
+        "images": 1,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 2020,
+        "body_chars": 1896,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8168,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 2064,
+        "body_chars": 1910,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8255,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 4,
+        "layer_chars": 1909,
+        "body_chars": 1754,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8041,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 5,
+        "layer_chars": 683,
+        "body_chars": 569,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.2164,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 6,
+        "layer_chars": 574,
+        "body_chars": 508,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7823,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.12499048099991,
+              311.6183333252674,
+              799.8570797988566,
+              538.1126575372217
+            ],
+            "rows": 10,
+            "columns": 3,
+            "cells": [
+              [
+                "1.",
+                "EMITENTNING NOMI",
+                null
+              ],
+              [
+                null,
+                "To‘liq:",
+                ""
+              ],
+              [
+                null,
+                "Qisqartirilgan:",
+                ""
+              ],
+              [
+                null,
+                "Birja tikerining nomi:*",
+                ""
+              ],
+              [
+                "2.",
+                "ALOQA MA’LUMOTLARI",
+                null
+              ],
+              [
+                null,
+                "Joylashgan yeri:",
+                ""
+              ],
+              [
+                null,
+                "Pochta manzili:",
+                ""
+              ],
+              [
+                null,
+                "Elektron pochta\nmanzili:*",
+                ""
+              ],
+              [
+                null,
+                "Rasmiy veb-sayti:*",
+                ""
+              ],
+              [
+                null,
+                "BANK REKVIZITLARI",
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "layer_chars": 514,
+        "body_chars": 463,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7773,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.124990616,
+              95.62379388000033,
+              799.857104712,
+              526.8630022800006
+            ],
+            "rows": 14,
+            "columns": 7,
+            "cells": [
+              [
+                null,
+                "Hisob raqami:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "MFO:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                "4.",
+                "RO‘YXATDAN O‘TKAZISH VA IDENTIFIKATSIYA RAQAMLARI:",
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "ro‘yxatdan o‘tkazuvchi\norgan tomonidan\nberilgan:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "davlat soliq xizmati\norgani tomonidan\nberilgan (STIR):",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "davlat statistika organi tomonidan berilgan raqamlar:",
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "MSHT:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "KTUT:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "IFUT:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "MHOBT:",
+                "",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                "5.",
+                "AKSIYADORLIK JAMIYATLARI UCHUN MOLIYAVIY HOLAT\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                "Satr kodi**",
+                "Izoh***\n(tartib raqami)",
+                "20__ y. ___ ________\nholatiga",
+                "20__ y. ___ ________\nholatiga"
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 8,
+        "layer_chars": 744,
+        "body_chars": 686,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7546,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.124990616,
+              56.62510293600042,
+              799.857104712,
+              469.11478053600047
+            ],
+            "rows": 9,
+            "columns": 14,
+            "cells": [
+              [
+                "6.",
+                "AKSIYADORLIK JAMIYATLARI UCHUN FOYDA YOKI ZARAR VA BOSHQA UMUMLASHGAN\nDAROMAD\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                null,
+                "Satr kodi**",
+                null,
+                "Izoh***",
+                null,
+                "20___ y. yil uchun",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                "7.",
+                "AKSIYADORLIK JAMIYATLARI UCHUN XUSUSIY KAPITALDAGI O‘ZGARISHLAR\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Koʻrsatkich-\nlar nomi",
+                "Satr kodi**",
+                "Izoh***\n(izohning tartib raqami)",
+                null,
+                "Ustav kapitali",
+                null,
+                "Qo‘shilgan\nkapital",
+                "Rezerv\nkapitali",
+                "Taqsim-\nlanma-gan\nfoyda\n(qoplan-\nmagan zarar)",
+                "Boshqa umum-\nlashgan daromad-\nning kompo-nentlari",
+                null,
+                "Xususiy\nkapital-ning\nboshqa\nkompo-\nnentlari",
+                "Jami\nxususi\ny\nkapital"
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                null,
+                "",
+                null,
+                "",
+                "",
+                "",
+                "",
+                null,
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                null,
+                "",
+                null,
+                "",
+                "",
+                "",
+                "",
+                null,
+                "",
+                ""
+              ],
+              [
+                null,
+                "AKSIYADORLIK JAMIYATLARI UCHUN PUL MABLAG‘LARI HARAKATI\n(BILVOSITA USUL)\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "layer_chars": 736,
+        "body_chars": 679,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8061,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.124990616,
+              93.37403642400011,
+              799.8571047120001,
+              463.1147838000005
+            ],
+            "rows": 11,
+            "columns": 6,
+            "cells": [
+              [
+                null,
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "9.",
+                "SUG‘URTA KOMPANIYALARI UCHUN MOLIYAVIY HOLAT\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                "Satr kodi**",
+                "Izoh***\n(tartib raqami)",
+                "20__ y. ___ ________\nholatiga",
+                "20__ y. ___ ________\nholatiga"
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "10.",
+                "SUG‘URTA KOMPANIYALARI UCHUN FOYDA YOKI ZARAR VA BOSHQA UMUMLASHGAN\nDAROMAD\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                "Satr kodi**",
+                "Izoh***",
+                "20___ y. yil uchun",
+                "20___ y. yil uchun"
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                null,
+                "SUG‘URTA KOMPANIYALARI UCHUN XUSUSIY KAPITALDAGI O‘ZGARISHLAR\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "layer_chars": 595,
+        "body_chars": 559,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7922,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.124990616,
+              96.37429447200009,
+              799.8571047120001,
+              535.1133151920002
+            ],
+            "rows": 12,
+            "columns": 15,
+            "cells": [
+              [
+                null,
+                "",
+                "",
+                "",
+                null,
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                null,
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                ""
+              ],
+              [
+                "12.",
+                "SUG‘URTA KOMPANIYALARI UCHUN PUL MABLAG‘LARI HARAKATI\n(BILVOSITA USUL)\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                null,
+                "Satr kodi**",
+                null,
+                "Izoh***\n(izohning tartib\nraqami)",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                "13.",
+                "BANKLAR UCHUN MOLIYAVIY HOLAT\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                null,
+                "Satr kodi**",
+                null,
+                "Izoh***\n(tartib raqami)",
+                null,
+                null,
+                "20__ y. ___ ________\nholatiga",
+                null,
+                null,
+                "20__ y. ___ ________\nholatiga",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                null,
+                "BANKLAR UCHUN FOYDA YOKI ZARAR VA BOSHQA UMUMLASHGAN DAROMAD\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                null,
+                "Satr kodi**",
+                null,
+                "Izoh***",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "layer_chars": 626,
+        "body_chars": 583,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7796,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.10713388247618,
+              76.87463556000046,
+              799.857104712,
+              475.1146697520001
+            ],
+            "rows": 9,
+            "columns": 15,
+            "cells": [
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                "15.",
+                "BANKLAR UCHUN XUSUSIY KAPITALDAGI O‘ZGARISHLAR\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Koʻrs\nat-\nkichl\nar\nnomi",
+                "Satr kodi**",
+                "Izoh***\n(izohning tartib raqami)",
+                null,
+                "Ustav kapitali",
+                null,
+                "Qo‘shilgan\nkapital",
+                "Rezerv\nkapitali",
+                null,
+                "Taqsim-\nlanmagan\nfoyda\n(qoplan-\nmagan zarar)",
+                "Boshqa umum-\nlashgan daromad-\nning kompo-nentlari",
+                null,
+                "Xususiy\nkapital-ning\nboshqa\nkompo-\nnentlari",
+                "Jami xususiy\nkapital"
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                null,
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                ""
+              ],
+              [
+                null,
+                "",
+                "",
+                "",
+                null,
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                "",
+                null,
+                "",
+                ""
+              ],
+              [
+                "16.",
+                "BANKLAR UCHUN PUL MABLAG‘LARI HARAKATI (BILVOSITA USUL)\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                null,
+                "Satr kodi**",
+                null,
+                "Izoh***\n(izohning tartib\nraqami)",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null,
+                "20___ y. yil uchun",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null,
+                "",
+                null,
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "layer_chars": 354,
+        "body_chars": 300,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.2668,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 13,
+        "layer_chars": 929,
+        "body_chars": 857,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8539,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.12498982399958,
+              229.12077046242473,
+              553.1132735996242,
+              791.606688461973
+            ],
+            "rows": 15,
+            "columns": 3,
+            "cells": [
+              [
+                "1.",
+                "EMITENTNING NOMI",
+                null
+              ],
+              [
+                null,
+                "To‘liq:",
+                ""
+              ],
+              [
+                null,
+                "Qisqartirilgan:",
+                ""
+              ],
+              [
+                null,
+                "Birja tikerining nomi:*",
+                ""
+              ],
+              [
+                "2.",
+                "ALOQA MA’LUMOTLARI",
+                null
+              ],
+              [
+                null,
+                "Joylashgan yeri:",
+                ""
+              ],
+              [
+                null,
+                "Pochta manzili:",
+                ""
+              ],
+              [
+                null,
+                "Elektron pochta manzili:*",
+                ""
+              ],
+              [
+                null,
+                "Rasmiy veb-sayti:*",
+                ""
+              ],
+              [
+                null,
+                "AXBOROT",
+                null
+              ],
+              [
+                null,
+                "Axborotning nomi:",
+                "Ustav fondida (ustav\nkapitalida) davlat ulushi 50\nfoizdan yuqori boʻlgan\nxoʻjalik jamiyatlari,\nshuningdek, ularning\ntarkibidagi xoʻjalik\njamiyatlari kuzatuv\nkengashlarining davlat\nxaridlari yillik va choraklik\nreja-jadvallari hamda\nimport qilish\nrejalashtirilgan tovarlar\n(ishlar, xizmatlar)\nroʻyxatlarini tasdiqlash\nboʻyicha qarori"
+              ],
+              [
+                null,
+                "Boshqaruv organi nomi:",
+                ""
+              ],
+              [
+                null,
+                "Yig‘ilish/majlis o‘tkazish sanasi:",
+                ""
+              ],
+              [
+                null,
+                "Yig‘ilish/majlis bayonnomasi tuzilgan sana:",
+                ""
+              ],
+              [
+                null,
+                "Yig‘ilish/majlis o‘tkazilgan joy:",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "layer_chars": 729,
+        "body_chars": 645,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.5787,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              109.12439004000001,
+              76.87427901600029,
+              552.9356519475594,
+              342.36763514400025
+            ],
+            "rows": 8,
+            "columns": 8,
+            "cells": [
+              [
+                "Davlat xaridlari yillik va choraklik reja-\njadvallari hamda import qilish rejalashtirilgan\ntovarlar (ishlar, xizmatlar) ro‘yxatlari",
+                null,
+                null,
+                null,
+                null,
+                "",
+                null,
+                null
+              ],
+              [
+                "№",
+                "Ovoz\nberishg\na\nqo‘yilga\nn\nmasalal\nar",
+                "Ovoz berish yakunlari",
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                null,
+                "yoqlash",
+                null,
+                "qarshi",
+                null,
+                "betaraflar",
+                null
+              ],
+              [
+                null,
+                null,
+                "%",
+                "soni",
+                "%",
+                "soni",
+                "%",
+                "soni"
+              ],
+              [
+                "1.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Yig‘ilish/majlis tomonidan qabul qilingan qarorlarning to‘liq bayoni:",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                "1.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "2.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "layer_chars": 1132,
+        "body_chars": 1059,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8539,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.16446251999955,
+              232.82367565591926,
+              553.2382704702908,
+              985.4767077658156
+            ],
+            "rows": 17,
+            "columns": 3,
+            "cells": [
+              [
+                "1.",
+                "EMITENTNING NOMI",
+                null
+              ],
+              [
+                null,
+                "To‘liq:",
+                ""
+              ],
+              [
+                null,
+                "Qisqartirilgan:",
+                ""
+              ],
+              [
+                null,
+                "Birja tikerining nomi:*",
+                ""
+              ],
+              [
+                "2.",
+                "ALOQA MA’LUMOTLARI",
+                null
+              ],
+              [
+                null,
+                "Joylashgan yeri:",
+                ""
+              ],
+              [
+                null,
+                "Pochta manzili:",
+                ""
+              ],
+              [
+                null,
+                "Elektron pochta manzili:*",
+                ""
+              ],
+              [
+                null,
+                "Rasmiy veb-sayti:*",
+                ""
+              ],
+              [
+                "3.",
+                "ʻ ʻ\nMUHIM FAKT TO G RISIDA AXBOROT",
+                null
+              ],
+              [
+                null,
+                "Muhim faktning raqami:",
+                "09"
+              ],
+              [
+                null,
+                "Muhim faktning nomi:",
+                "Filiallar (tijorat banklari uchun\nfiliallar va bank xizmatlari ofislari)\nro‘yxatidagi o‘zgarishlar"
+              ],
+              [
+                null,
+                "Emitentning qaror qabul qilgan organi:",
+                ""
+              ],
+              [
+                null,
+                "Qaror qabul qilingan sana:",
+                ""
+              ],
+              [
+                null,
+                "Bayonnoma tuzilgan sana:",
+                ""
+              ],
+              [
+                null,
+                "Emitent tomonidan yuridik shaxslarni\ndavlat roʻyxatidan oʻtkazuvchi organga\ntegishli xabarnoma yuborilgan sana yoki\nemitentning filiallari roʻyxatidagi\noʻzgarishlarni nazarda tutuvchi tegishli\nhujjat davlat roʻyxatidan oʻtkazilgan\nsana yoxud Oʻzbekiston Respublikasi\nMarkaziy bankining filiallar, bank\nxizmatlari ofislari roʻyxatidagi\noʻzgarishlarni nazarda tutuvchi tegishli\nqarori qabul qilingan sana (tijorat\nbanklari uchun):",
+                ""
+              ],
+              [
+                "",
+                "15",
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "layer_chars": 1492,
+        "body_chars": 1349,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.772,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.12499056674999,
+              56.25014956800021,
+              553.0791890667105,
+              250.93645408658818
+            ],
+            "rows": 8,
+            "columns": 6,
+            "cells": [
+              [
+                "",
+                "Filiallar (tijorat banklari uchun filiallar va bank xizmatlari ofislari)\nro‘yxatidagi o‘zgarishlar to‘g‘risida axborot",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Toʻliq nomi",
+                null,
+                "Joylashgan yeri (pochta manzili)",
+                null,
+                "Oʻzgarish turi (tashkil\netilgan/yopilgan)"
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                null,
+                ""
+              ],
+              [
+                null,
+                "O‘zgarishlarni hisobga olgan holda filiallar (tijorat banklari uchun filiallar va\nbank xizmatlari ofislari) ro‘yxati",
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "№",
+                "Toʻliq nomi",
+                null,
+                "Joylashgan yeri (pochta manzili)",
+                null
+              ],
+              [
+                null,
+                "1.",
+                "",
+                null,
+                "",
+                null
+              ],
+              [
+                null,
+                "2.",
+                "",
+                null,
+                "",
+                null
+              ],
+              [
+                "",
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "layer_chars": 974,
+        "body_chars": 906,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.837,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.12498982399958,
+              226.12035146641153,
+              553.1132735996242,
+              739.1075086819995
+            ],
+            "rows": 19,
+            "columns": 3,
+            "cells": [
+              [
+                "1.",
+                "EMITENTNING NOMI",
+                null
+              ],
+              [
+                null,
+                "To‘liq:",
+                ""
+              ],
+              [
+                null,
+                "Qisqartirilgan:",
+                ""
+              ],
+              [
+                null,
+                "Birja tikerining nomi:*",
+                ""
+              ],
+              [
+                "2.",
+                "ALOQA MA’LUMOTLARI",
+                null
+              ],
+              [
+                null,
+                "Joylashgan yeri:",
+                ""
+              ],
+              [
+                null,
+                "Pochta manzili:",
+                ""
+              ],
+              [
+                null,
+                "Elektron pochta manzili:*",
+                ""
+              ],
+              [
+                null,
+                "Rasmiy veb-sayti:*",
+                ""
+              ],
+              [
+                null,
+                "ʻ ʻ\nMUHIM FAKT TO G RISIDA AXBOROT",
+                null
+              ],
+              [
+                null,
+                "Muhim faktning raqami:",
+                "25"
+              ],
+              [
+                null,
+                "Muhim faktning nomi:",
+                "Qimmatli qog‘ozlarni chiqarish (shu\njumladan, xalqaro obligatsiyalarni\nchiqarish)"
+              ],
+              [
+                null,
+                "Emitentning qaror qabul qilgan\norgani:",
+                ""
+              ],
+              [
+                null,
+                "Qaror qabul qilingan sana:**",
+                ""
+              ],
+              [
+                null,
+                "Qimmatli qog‘ozning turi:",
+                ""
+              ],
+              [
+                null,
+                "Qimmatli qog‘ozlarning soni:",
+                ""
+              ],
+              [
+                null,
+                "Bir dona qimmatli qog‘ozning\nnominal qiymati:",
+                ""
+              ],
+              [
+                null,
+                "Chiqarilishning umumiy summasi:",
+                ""
+              ],
+              [
+                null,
+                "Chiqarilishning davlat ro‘yxatidan\no‘tkazilgan sanasi (xalqaro\nobligatsiyalarning ro‘yxatdan\no‘tkazilgan sanasi):",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "layer_chars": 686,
+        "body_chars": 597,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.4059,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              106.124465112,
+              93.37481498399973,
+              552.4382951255254,
+              130.12389535199907
+            ],
+            "rows": 1,
+            "columns": 2,
+            "cells": [
+              [
+                "Qimmatli qog‘ozlarni joylashtirish\nusuli:",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "layer_chars": 837,
+        "body_chars": 763,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8343,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.1062402933996,
+              317.5986773463497,
+              553.1320231302242,
+              1148.9726004976833
+            ],
+            "rows": 19,
+            "columns": 3,
+            "cells": [
+              [
+                "1.",
+                "INVESTITSIYA VOSITACHISINING NOMI",
+                null
+              ],
+              [
+                null,
+                "To‘liq:",
+                ""
+              ],
+              [
+                null,
+                "Qisqartirilgan:",
+                ""
+              ],
+              [
+                "2.",
+                "ALOQA MA’LUMOTLARI",
+                null
+              ],
+              [
+                null,
+                "Joylashgan yeri:",
+                ""
+              ],
+              [
+                null,
+                "Pochta manzili:",
+                ""
+              ],
+              [
+                null,
+                "Elektron pochta\nmanzili:**",
+                ""
+              ],
+              [
+                null,
+                "Rasmiy veb-sayti:**",
+                ""
+              ],
+              [
+                "3.",
+                "BANK REKVIZITLARI",
+                null
+              ],
+              [
+                null,
+                "Xizmat ko‘rsatuvchi\nbankning nomi:",
+                ""
+              ],
+              [
+                null,
+                "Hisob raqami:",
+                ""
+              ],
+              [
+                null,
+                "MFO:",
+                ""
+              ],
+              [
+                "4.",
+                "RO‘YXATDAN O‘TKAZISH VA IDENTIFIKATSIYA RAQAMLARI:",
+                null
+              ],
+              [
+                null,
+                "ro‘yxatdan\no‘tkazuvchi organ\ntomonidan berilgan:",
+                ""
+              ],
+              [
+                null,
+                "davlat soliq xizmati\norgani tomonidan\nberilgan (STIR):",
+                ""
+              ],
+              [
+                null,
+                "davlat statistika organi tomonidan berilgan raqamlar:",
+                null
+              ],
+              [
+                null,
+                "MSHT:",
+                ""
+              ],
+              [
+                null,
+                "KTUT:",
+                ""
+              ],
+              [
+                "19",
+                null,
+                null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "layer_chars": 1093,
+        "body_chars": 1021,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7551,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.09374136516665,
+              56.250138431997925,
+              553.1445283608177,
+              407.6360819722091
+            ],
+            "rows": 11,
+            "columns": 9,
+            "cells": [
+              [
+                "",
+                "IFUT:",
+                "",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "MHOBT:",
+                "",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                "5.",
+                "INVESTITSIYA VOSITACHILARI UCHUN BUXGALTERIYA\nBALANSI\n(ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                "Satr\nkodi",
+                "Hisobot davri boshiga",
+                null,
+                null,
+                "Hisobot davri\noxiriga",
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                "",
+                null,
+                null,
+                "",
+                null
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                "",
+                null,
+                null,
+                "",
+                null
+              ],
+              [
+                "6.",
+                "INVESTITSIYA VOSITACHILARI UCHUN MOLIYAVIY\nNATIJALAR TO‘G‘RISIDAGI HISOBOT (ming so‘mda)",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                null,
+                "Ko‘rsatkichlar nomi",
+                null,
+                "Satr\nkodi",
+                "O‘tgan yilning shu\ndavrida",
+                null,
+                "Hisobot davrida",
+                null,
+                null
+              ],
+              [
+                null,
+                null,
+                null,
+                null,
+                "Daromadla\nr (foyda)",
+                "Xarajatlar\n(zararlar)",
+                "Darom\nadlar\n(foyda)",
+                null,
+                "Xarajatlar\n(zararlar)"
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                "",
+                "",
+                "",
+                null,
+                ""
+              ],
+              [
+                null,
+                "",
+                null,
+                "",
+                "",
+                "",
+                "",
+                null,
+                ""
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "detected_language": "uz-Latn",
+    "headings": [
+      {
+        "page": 6,
+        "kind": "appendix",
+        "text": "1-ILOVA"
+      },
+      {
+        "page": 6,
+        "kind": "appendix",
+        "text": "11-ILOVA"
+      },
+      {
+        "page": 13,
+        "kind": "appendix",
+        "text": "2-ILOVA"
+      },
+      {
+        "page": 13,
+        "kind": "appendix",
+        "text": "29-ILOVA"
+      },
+      {
+        "page": 15,
+        "kind": "appendix",
+        "text": "3-ILOVA"
+      },
+      {
+        "page": 17,
+        "kind": "appendix",
+        "text": "4-ILOVA"
+      },
+      {
+        "page": 19,
+        "kind": "appendix",
+        "text": "5-ILOVA"
+      },
+      {
+        "page": 19,
+        "kind": "appendix",
+        "text": "41-ILOVA"
+      }
+    ],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified",
+      "pdf_table_reading_order_review"
+    ],
+    "markdown": "markdown/8554432_uz-Latn.md",
+    "status": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "8554353",
+    "url": "https://lex.uz/uz/docs/8554353",
+    "format": "PDF",
+    "pages": 4,
+    "ocr_pages": 0,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 1806,
+        "body_chars": 1732,
+        "image_rectangle_coverage": 0.0155,
+        "text_vertical_coverage": 0.7381,
+        "images": 1,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 246,
+        "body_chars": 195,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.5176,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 2078,
+        "body_chars": 1954,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8382,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 4,
+        "layer_chars": 451,
+        "body_chars": 321,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.082,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      }
+    ],
+    "detected_language": "uz-Latn",
+    "headings": [],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified"
+    ],
+    "markdown": "markdown/8554353_uz-Latn.md",
+    "status": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "8554326",
+    "url": "https://lex.uz/uz/docs/8554326",
+    "format": "PDF",
+    "pages": 9,
+    "ocr_pages": 0,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 1559,
+        "body_chars": 1483,
+        "image_rectangle_coverage": 0.0155,
+        "text_vertical_coverage": 0.7568,
+        "images": 1,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 364,
+        "body_chars": 295,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.4215,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 1950,
+        "body_chars": 1803,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8267,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 4,
+        "layer_chars": 2293,
+        "body_chars": 2150,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8157,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 5,
+        "layer_chars": 2271,
+        "body_chars": 2140,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8373,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 6,
+        "layer_chars": 2373,
+        "body_chars": 2163,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8264,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 7,
+        "layer_chars": 2284,
+        "body_chars": 2144,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8367,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 8,
+        "layer_chars": 2055,
+        "body_chars": 1844,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8257,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 9,
+        "layer_chars": 1964,
+        "body_chars": 1793,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8117,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      }
+    ],
+    "detected_language": "uz-Latn",
+    "headings": [
+      {
+        "page": 3,
+        "kind": "chapter",
+        "text": "1-bob. Umumiy qoidalar"
+      },
+      {
+        "page": 4,
+        "kind": "chapter",
+        "text": "2-bob. Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari"
+      },
+      {
+        "page": 5,
+        "kind": "chapter",
+        "text": "3-bob. Xalqaro tovar derivativlari birjalarida ishtirok etuvchilarning huquq"
+      },
+      {
+        "page": 9,
+        "kind": "chapter",
+        "text": "4-bob. Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari"
+      },
+      {
+        "page": 9,
+        "kind": "chapter",
+        "text": "5-bob. Yakuniy qoida"
+      }
+    ],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified"
+    ],
+    "markdown": "markdown/8554326_uz-Latn.md",
+    "status": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "8554321",
+    "url": "https://lex.uz/uz/docs/8554321",
+    "format": "PDF",
+    "pages": 10,
+    "ocr_pages": 0,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 1506,
+        "body_chars": 1434,
+        "image_rectangle_coverage": 0.0155,
+        "text_vertical_coverage": 0.8099,
+        "images": 1,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 168,
+        "body_chars": 108,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.163,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 1409,
+        "body_chars": 1326,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7798,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": [
+          {
+            "bbox": [
+              85.12499323099995,
+              261.3700082812802,
+              799.8571778488573,
+              328.1183445152668
+            ],
+            "rows": 1,
+            "columns": 5,
+            "cells": [
+              [
+                "T/r",
+                "Inson hayoti va\nʻ ʻ\nsog lig iga yuqori\nxavf soluvchi nazorat\nsohasi nomi",
+                "Inson hayoti va\nʻ ʻ\nsog lig iga yuqori xavf\nsoluvchi omillar",
+                "Mazkur omilning yuqori xavf soluvchi\nomil etib hisoblanishiga asos",
+                "Nazorat\nqiluvchi\norgan nomi"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "layer_chars": 1317,
+        "body_chars": 1267,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.819,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 5,
+        "layer_chars": 1361,
+        "body_chars": 1309,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.819,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 6,
+        "layer_chars": 1431,
+        "body_chars": 1386,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8265,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 7,
+        "layer_chars": 1424,
+        "body_chars": 1361,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.8189,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 8,
+        "layer_chars": 1249,
+        "body_chars": 1183,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7912,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 9,
+        "layer_chars": 1143,
+        "body_chars": 1077,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7874,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      },
+      {
+        "page": 10,
+        "layer_chars": 1247,
+        "body_chars": 1180,
+        "image_rectangle_coverage": 0.0,
+        "text_vertical_coverage": 0.7748,
+        "images": 0,
+        "needs_ocr": false,
+        "image_backed_text_review": false,
+        "tables": []
+      }
+    ],
+    "detected_language": "uz-Latn",
+    "headings": [],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified",
+      "pdf_table_reading_order_review"
+    ],
+    "markdown": "markdown/8554321_uz-Latn.md",
+    "status": {
+      "business_status": "active",
+      "source_candidate": "active",
+      "effective_at": "2026-10-24",
+      "validation": "valid",
+      "issues": [],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "-8553692",
+    "url": "https://lex.uz/uz/docs/-8553692",
+    "format": "PDF",
+    "pages": 19,
+    "ocr_pages": 19,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 24,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 193,
+        "ocr_chars": 1971,
+        "mean_word_confidence": 94.77,
+        "below_70_fraction": 0.0104,
+        "ocr_seconds": 3.669,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 4,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 39,
+        "ocr_chars": 326,
+        "mean_word_confidence": 94.78,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 1.459,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 12,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 209,
+        "ocr_chars": 1811,
+        "mean_word_confidence": 95.04,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.166,
+        "tables": []
+      },
+      {
+        "page": 4,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 9,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 295,
+        "ocr_chars": 2385,
+        "mean_word_confidence": 94.66,
+        "below_70_fraction": 0.0102,
+        "ocr_seconds": 4.672,
+        "tables": []
+      },
+      {
+        "page": 5,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 14,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 292,
+        "ocr_chars": 2443,
+        "mean_word_confidence": 95.55,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.866,
+        "tables": []
+      },
+      {
+        "page": 6,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 17,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 295,
+        "ocr_chars": 2515,
+        "mean_word_confidence": 95.57,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.98,
+        "tables": []
+      },
+      {
+        "page": 7,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 11,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 286,
+        "ocr_chars": 2346,
+        "mean_word_confidence": 95.2,
+        "below_70_fraction": 0.007,
+        "ocr_seconds": 3.78,
+        "tables": []
+      },
+      {
+        "page": 8,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 12,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 292,
+        "ocr_chars": 2330,
+        "mean_word_confidence": 95.58,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.743,
+        "tables": []
+      },
+      {
+        "page": 9,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 10,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 235,
+        "ocr_chars": 1881,
+        "mean_word_confidence": 95.79,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.027,
+        "tables": []
+      },
+      {
+        "page": 10,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 6,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 224,
+        "ocr_chars": 1765,
+        "mean_word_confidence": 95.61,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.066,
+        "tables": []
+      },
+      {
+        "page": 11,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 13,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 212,
+        "ocr_chars": 6545,
+        "mean_word_confidence": 95.43,
+        "below_70_fraction": 0.0047,
+        "ocr_seconds": 3.822,
+        "tables": []
+      },
+      {
+        "page": 12,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 16,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 276,
+        "ocr_chars": 2183,
+        "mean_word_confidence": 96.05,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 3.771,
+        "tables": []
+      },
+      {
+        "page": 13,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 12,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 257,
+        "ocr_chars": 2060,
+        "mean_word_confidence": 95.36,
+        "below_70_fraction": 0.0117,
+        "ocr_seconds": 3.648,
+        "tables": []
+      },
+      {
+        "page": 14,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 12,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 290,
+        "ocr_chars": 2297,
+        "mean_word_confidence": 95.29,
+        "below_70_fraction": 0.0103,
+        "ocr_seconds": 3.788,
+        "tables": []
+      },
+      {
+        "page": 15,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 5,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 115,
+        "ocr_chars": 1015,
+        "mean_word_confidence": 95.02,
+        "below_70_fraction": 0.0174,
+        "ocr_seconds": 2.172,
+        "tables": []
+      },
+      {
+        "page": 16,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 7,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 171,
+        "ocr_chars": 1448,
+        "mean_word_confidence": 94.83,
+        "below_70_fraction": 0.0117,
+        "ocr_seconds": 3.605,
+        "tables": []
+      },
+      {
+        "page": 17,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 9,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 84,
+        "ocr_chars": 6960,
+        "mean_word_confidence": 93.32,
+        "below_70_fraction": 0.0119,
+        "ocr_seconds": 3.137,
+        "tables": []
+      },
+      {
+        "page": 18,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 3,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 30,
+        "ocr_chars": 253,
+        "mean_word_confidence": 93.8,
+        "below_70_fraction": 0.0333,
+        "ocr_seconds": 1.106,
+        "tables": []
+      },
+      {
+        "page": 19,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 6,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 49,
+        "ocr_chars": 2674,
+        "mean_word_confidence": 92.39,
+        "below_70_fraction": 0.0204,
+        "ocr_seconds": 2.224,
+        "tables": []
+      }
+    ],
+    "detected_language": "uz-Cyrl",
+    "headings": [
+      {
+        "page": 3,
+        "kind": "appendix",
+        "text": "1-илова"
+      },
+      {
+        "page": 3,
+        "kind": "chapter",
+        "text": "1-боб. Умумий қоидалар"
+      },
+      {
+        "page": 5,
+        "kind": "chapter",
+        "text": "2-боб. Лифтни рўйхатдан ўтказиш"
+      },
+      {
+        "page": 7,
+        "kind": "chapter",
+        "text": "3-боб. Лифтдан фойдаланиш шартлари"
+      },
+      {
+        "page": 8,
+        "kind": "chapter",
+        "text": "4-боб. Лифтга техник хизмат кўрсатиш тартиби ва шартлари"
+      },
+      {
+        "page": 12,
+        "kind": "chapter",
+        "text": "5-боб. Лифтга техник хизмат кўрсатувчи ташкилотлар"
+      },
+      {
+        "page": 13,
+        "kind": "chapter",
+        "text": "6-боб. Сотувдан кейинги ва кафолат муддати давомидаги хизматлар"
+      },
+      {
+        "page": 14,
+        "kind": "chapter",
+        "text": "7-боб. Техник хизмат кўрсатишни таъминлаш"
+      },
+      {
+        "page": 15,
+        "kind": "chapter",
+        "text": "8-боб. Якунловчи қоидалар"
+      },
+      {
+        "page": 17,
+        "kind": "appendix",
+        "text": "2-илова"
+      },
+      {
+        "page": 19,
+        "kind": "appendix",
+        "text": "3-илова"
+      }
+    ],
+    "quality_issues": [
+      "pdf_structure_unverified",
+      "image_semantics_unverified",
+      "ocr_accuracy_not_document_certified"
+    ],
+    "markdown": "markdown/-8553692_uz-Cyrl.md",
+    "status": {
+      "business_status": null,
+      "source_candidate": "active",
+      "effective_at": "2026-10-23",
+      "validation": "review",
+      "issues": [
+        "effective_date_conflict",
+        "ocr_status_evidence_needs_review"
+      ],
+      "text_statements": [
+        {
+          "date": "2027-01-01",
+          "excerpt": "Ушбу қарор 2027 йил 1 январдан бошлаб кучга киради"
+        }
+      ]
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  },
+  {
+    "id": "-8553258",
+    "url": "https://lex.uz/uz/docs/-8553258",
+    "format": "PDF",
+    "pages": 17,
+    "ocr_pages": 17,
+    "page_stats": [
+      {
+        "page": 1,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 13,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 223,
+        "ocr_chars": 1885,
+        "mean_word_confidence": 95.26,
+        "below_70_fraction": 0.0045,
+        "ocr_seconds": 3.369,
+        "tables": []
+      },
+      {
+        "page": 2,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 11,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 294,
+        "ocr_chars": 2524,
+        "mean_word_confidence": 94.85,
+        "below_70_fraction": 0.0136,
+        "ocr_seconds": 4.453,
+        "tables": []
+      },
+      {
+        "page": 3,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 5,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 305,
+        "ocr_chars": 2556,
+        "mean_word_confidence": 95.29,
+        "below_70_fraction": 0.0033,
+        "ocr_seconds": 4.325,
+        "tables": []
+      },
+      {
+        "page": 4,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 16,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 275,
+        "ocr_chars": 2439,
+        "mean_word_confidence": 94.75,
+        "below_70_fraction": 0.0109,
+        "ocr_seconds": 4.172,
+        "tables": []
+      },
+      {
+        "page": 5,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 12,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 316,
+        "ocr_chars": 2716,
+        "mean_word_confidence": 94.36,
+        "below_70_fraction": 0.0222,
+        "ocr_seconds": 5.207,
+        "tables": []
+      },
+      {
+        "page": 6,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 4,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 176,
+        "ocr_chars": 2076,
+        "mean_word_confidence": 94.27,
+        "below_70_fraction": 0.0114,
+        "ocr_seconds": 3.372,
+        "tables": []
+      },
+      {
+        "page": 7,
+        "layer_chars": 52,
+        "body_chars": 11,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0.0157,
+        "images": 6,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 235,
+        "ocr_chars": 2045,
+        "mean_word_confidence": 94.64,
+        "below_70_fraction": 0.0128,
+        "ocr_seconds": 3.86,
+        "tables": []
+      },
+      {
+        "page": 8,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 11,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 279,
+        "ocr_chars": 2210,
+        "mean_word_confidence": 94.14,
+        "below_70_fraction": 0.0179,
+        "ocr_seconds": 4.528,
+        "tables": []
+      },
+      {
+        "page": 9,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 18,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 224,
+        "ocr_chars": 3277,
+        "mean_word_confidence": 81.69,
+        "below_70_fraction": 0.2098,
+        "ocr_seconds": 4.881,
+        "tables": []
+      },
+      {
+        "page": 10,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 14,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 235,
+        "ocr_chars": 1672,
+        "mean_word_confidence": 90.03,
+        "below_70_fraction": 0.0766,
+        "ocr_seconds": 3.926,
+        "tables": []
+      },
+      {
+        "page": 11,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 11,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 303,
+        "ocr_chars": 2513,
+        "mean_word_confidence": 95.46,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 4.137,
+        "tables": []
+      },
+      {
+        "page": 12,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 17,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 268,
+        "ocr_chars": 2187,
+        "mean_word_confidence": 95.47,
+        "below_70_fraction": 0.0037,
+        "ocr_seconds": 3.669,
+        "tables": []
+      },
+      {
+        "page": 13,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 11,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 253,
+        "ocr_chars": 2074,
+        "mean_word_confidence": 93.26,
+        "below_70_fraction": 0.0277,
+        "ocr_seconds": 4.018,
+        "tables": []
+      },
+      {
+        "page": 14,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 14,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 282,
+        "ocr_chars": 2449,
+        "mean_word_confidence": 95.28,
+        "below_70_fraction": 0.0106,
+        "ocr_seconds": 4.389,
+        "tables": []
+      },
+      {
+        "page": 15,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 18,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 266,
+        "ocr_chars": 2321,
+        "mean_word_confidence": 94.94,
+        "below_70_fraction": 0.0038,
+        "ocr_seconds": 3.969,
+        "tables": []
+      },
+      {
+        "page": 16,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 11,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 265,
+        "ocr_chars": 2331,
+        "mean_word_confidence": 95.18,
+        "below_70_fraction": 0.0,
+        "ocr_seconds": 4.366,
+        "tables": []
+      },
+      {
+        "page": 17,
+        "layer_chars": 38,
+        "body_chars": 0,
+        "image_rectangle_coverage": 1,
+        "text_vertical_coverage": 0,
+        "images": 8,
+        "needs_ocr": true,
+        "image_backed_text_review": false,
+        "ocr_words": 140,
+        "ocr_chars": 1258,
+        "mean_word_confidence": 95.16,
+        "below_70_fraction": 0.0143,
+        "ocr_seconds": 2.654,
+        "tables": []
+      }
+    ],
+    "detected_language": "uz-Cyrl",
+    "headings": [
+      {
+        "page": 7,
+        "kind": "chapter",
+        "text": "2-боб. Асосий тушунчалар"
+      },
+      {
+        "page": 8,
+        "kind": "chapter",
+        "text": "3-боб. Қувват, ёқилғи тури ва жойлаштириш шартлари"
+      },
+      {
+        "page": 9,
+        "kind": "chapter",
+        "text": "4-боб. Йўл қўйиладиган ташламалар меъёрлари"
+      },
+      {
+        "page": 10,
+        "kind": "chapter",
+        "text": "5-боб. Мажбурий экологик ва техник талаблар"
+      },
+      {
+        "page": 12,
+        "kind": "chapter",
+        "text": "6-боб. Тизим ва ускуналарни узлуксиз энергия таъминоти"
+      },
+      {
+        "page": 12,
+        "kind": "chapter",
+        "text": "7-боб. Чиқиндилар билан ишлаш"
+      },
+      {
+        "page": 15,
+        "kind": "chapter",
+        "text": "9-боб. Фойдаланишга топшириш ва мувофиқликни тасдиқлаш"
+      },
+      {
+        "page": 17,
+        "kind": "chapter",
+        "text": "12-боб. Якунловчи қоидалар"
+      }
+    ],
+    "quality_issues": [
+      "image_semantics_unverified",
+      "ocr_accuracy_not_document_certified",
+      "ocr_confidence_threshold_failed",
+      "pdf_structure_unverified"
+    ],
+    "markdown": "markdown/-8553258_uz-Cyrl.md",
+    "status": {
+      "business_status": null,
+      "source_candidate": "active",
+      "effective_at": "2026-10-23",
+      "validation": "review",
+      "issues": [
+        "ocr_status_evidence_needs_review"
+      ],
+      "text_statements": []
+    },
+    "page_count_verified": true,
+    "full_import_accepted": false,
+    "corroborating_listing_status": "Y"
+  }
+]

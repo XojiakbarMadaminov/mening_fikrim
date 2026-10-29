@@ -1,0 +1,1362 @@
+{
+  "scope": "Latest real P3 fetched candidates; no raw HTML/PDF or full legal text retained here",
+  "groups": 16,
+  "identity_nodes": 42,
+  "availability_counts": {
+    "full_text": 31,
+    "metadata_only": 11
+  },
+  "entries": [
+    {
+      "entry_id": "-6257288",
+      "source_url": "https://lex.uz/uz/docs/-6257288",
+      "identity": [
+        {
+          "external_id": "-6257288",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/-6257288",
+          "availability": "full_text",
+          "links": [
+            "6257291",
+            "6257288",
+            "-6257288"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2022-10-28",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2022-10-29"
+          }
+        },
+        {
+          "external_id": "6257291",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/6257291",
+          "availability": "full_text",
+          "links": [
+            "6257291",
+            "6257288",
+            "-6257288"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2022-10-28",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2022-10-29"
+          }
+        },
+        {
+          "external_id": "6257288",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/6257288",
+          "availability": "full_text",
+          "links": [
+            "6257291",
+            "6257288",
+            "-6257288"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2022-10-28",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2022-10-29"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2023-04-30",
+        "effective_at_candidates": [
+          "2023-04-30"
+        ]
+      },
+      "document_number": null,
+      "issued_at": "2022-10-28",
+      "title": "O‘zbekiston Respublikasining Mehnat kodeksi"
+    },
+    {
+      "entry_id": "-7655343",
+      "source_url": "https://lex.uz/uz/docs/-7655343",
+      "identity": [
+        {
+          "external_id": "-7655343",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/-7655343",
+          "availability": "full_text",
+          "links": [
+            "7658581",
+            "7658590",
+            "7655343",
+            "-7655343"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2025-07-30",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2025-07-30"
+          }
+        },
+        {
+          "external_id": "7658581",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/7658581",
+          "availability": "full_text",
+          "links": [
+            "7658581",
+            "7658590",
+            "7655343",
+            "-7655343"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2025-07-30",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "7658590",
+          "language": "en",
+          "source_url": "https://lex.uz/uz/docs/7658590",
+          "availability": "full_text",
+          "links": [
+            "7658581",
+            "7658590",
+            "7655343",
+            "-7655343"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2025-07-30",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "7655343",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/7655343",
+          "availability": "full_text",
+          "links": [
+            "7658581",
+            "7658590",
+            "7655343",
+            "-7655343"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Кодекс",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2025-07-30",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2025-07-30"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2025-10-31",
+        "effective_at_candidates": [
+          "2025-10-31"
+        ]
+      },
+      "document_number": null,
+      "issued_at": "2025-07-30",
+      "title": "O‘zbekiston Respublikasining Suv kodeksi"
+    },
+    {
+      "entry_id": "-8102878",
+      "source_url": "https://lex.uz/uz/docs/-8102878",
+      "identity": [
+        {
+          "external_id": "-8102878",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/-8102878",
+          "availability": "full_text",
+          "links": [
+            "8104355",
+            "8102878",
+            "-8102878"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство юстиции Республики Узбекистан",
+                "date": "2026-03-27",
+                "number": "12"
+              }
+            ],
+            "registration_number": "3801",
+            "registration_date": "2026-03-27",
+            "publication_date": "2026-03-30"
+          }
+        },
+        {
+          "external_id": "8104355",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8104355",
+          "availability": "metadata_only",
+          "links": [
+            "8104355",
+            "8102878",
+            "-8102878"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство юстиции Республики Узбекистан",
+                "date": "2026-03-27",
+                "number": "12"
+              }
+            ],
+            "registration_number": "3801",
+            "registration_date": "2026-03-27",
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8102878",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/8102878",
+          "availability": "full_text",
+          "links": [
+            "8104355",
+            "8102878",
+            "-8102878"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство юстиции Республики Узбекистан",
+                "date": "2026-03-27",
+                "number": "12"
+              }
+            ],
+            "registration_number": "3801",
+            "registration_date": "2026-03-27",
+            "publication_date": "2026-03-30"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "revoked",
+        "effective_at": "2026-03-30",
+        "effective_at_candidates": [
+          "2026-03-30"
+        ]
+      },
+      "document_number": "12",
+      "issued_at": "2026-03-27",
+      "title": "Ixtiroga patent berish uchun talabnomani tuzish, topshirish va ko‘rib chiqish qoidalarini tasdiqlash to‘g‘risida"
+    },
+    {
+      "entry_id": "-8540314",
+      "source_url": "https://lex.uz/uz/docs/-8540314",
+      "identity": [
+        {
+          "external_id": "-8540314",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/-8540314",
+          "availability": "full_text",
+          "links": [
+            "8543270",
+            "8540314",
+            "-8540314"
+          ],
+          "requisites": {
+            "type": "Технические документы",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство строительства и жилищно-коммунального хозяйства",
+                "date": "2026-09-26",
+                "number": "01/2-38"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8543270",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8543270",
+          "availability": "metadata_only",
+          "links": [
+            "8543270",
+            "8540314",
+            "-8540314"
+          ],
+          "requisites": {
+            "type": "Технические документы",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство строительства и жилищно-коммунального хозяйства",
+                "date": "2026-09-26",
+                "number": "01/2-38"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8540314",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/8540314",
+          "availability": "full_text",
+          "links": [
+            "8543270",
+            "8540314",
+            "-8540314"
+          ],
+          "requisites": {
+            "type": "Технические документы",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство строительства и жилищно-коммунального хозяйства",
+                "date": "2026-09-26",
+                "number": "01/2-38"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-16",
+        "effective_at_candidates": [
+          "2026-10-16"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "01/2-38",
+      "issued_at": "2026-09-26",
+      "title": "SHNQ 2.01.03-26 “Seysmik hududlarda qurilish” shaharsozlik normalari va qoidalarini tasdiqlash to‘g‘risida"
+    },
+    {
+      "entry_id": "-8553258",
+      "source_url": "https://lex.uz/uz/docs/-8553258",
+      "identity": [
+        {
+          "external_id": "-8553258",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/-8553258",
+          "availability": "full_text",
+          "links": [
+            "8558804",
+            "8558806",
+            "8553258",
+            "-8553258"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "586"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-23"
+          }
+        },
+        {
+          "external_id": "8558804",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8558804",
+          "availability": "metadata_only",
+          "links": [
+            "8558804",
+            "8558806",
+            "8553258",
+            "-8553258"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "586"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8558806",
+          "language": "en",
+          "source_url": "https://lex.uz/uz/docs/8558806",
+          "availability": "metadata_only",
+          "links": [
+            "8558804",
+            "8558806",
+            "8553258",
+            "-8553258"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "586"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8553258",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/8553258",
+          "availability": "full_text",
+          "links": [
+            "8558804",
+            "8558806",
+            "8553258",
+            "-8553258"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "586"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-23"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-23",
+        "effective_at_candidates": [
+          "2026-10-23"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "586",
+      "issued_at": "2026-10-22",
+      "title": "Toshkent shahri va unga tutash hududlarda issiqxona xo‘jaliklarining ekologik xavfsiz faoliyat yuritishini ta’minlashga doir qo‘shimcha chora-tadbirlar to‘g‘risida"
+    },
+    {
+      "entry_id": "-8553692",
+      "source_url": "https://lex.uz/uz/docs/-8553692",
+      "identity": [
+        {
+          "external_id": "-8553692",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/-8553692",
+          "availability": "full_text",
+          "links": [
+            "8559660",
+            "8559662",
+            "8553692",
+            "-8553692"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "588"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-23"
+          }
+        },
+        {
+          "external_id": "8559660",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8559660",
+          "availability": "metadata_only",
+          "links": [
+            "8559660",
+            "8559662",
+            "8553692",
+            "-8553692"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "588"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8559662",
+          "language": "en",
+          "source_url": "https://lex.uz/uz/docs/8559662",
+          "availability": "metadata_only",
+          "links": [
+            "8559660",
+            "8559662",
+            "8553692",
+            "-8553692"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "588"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8553692",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/8553692",
+          "availability": "full_text",
+          "links": [
+            "8559660",
+            "8559662",
+            "8553692",
+            "-8553692"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "588"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-23"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2027-01-01",
+        "effective_at_candidates": [
+          "2027-01-01"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "588",
+      "issued_at": "2026-10-22",
+      "title": "Liftdan foydalanish va unga texnik xizmat ko‘rsatish tartibi to‘g‘risidagi nizomni tasdiqlash haqida"
+    },
+    {
+      "entry_id": "8506802",
+      "source_url": "https://lex.uz/uz/docs/8506802",
+      "identity": [
+        {
+          "external_id": "8506802",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8506802",
+          "availability": "full_text",
+          "links": [
+            "8507863",
+            "8506870",
+            "-8506802",
+            "8506802"
+          ],
+          "requisites": {
+            "type": "Международные акты",
+            "form": "Декларация",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-09-08",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8507863",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8507863",
+          "availability": "metadata_only",
+          "links": [
+            "8507863",
+            "8506870",
+            "-8506802",
+            "8506802"
+          ],
+          "requisites": {
+            "type": "Международные акты",
+            "form": "Декларация",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-09-08",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8506870",
+          "language": "en",
+          "source_url": "https://lex.uz/uz/docs/8506870",
+          "availability": "full_text",
+          "links": [
+            "8507863",
+            "8506870",
+            "-8506802",
+            "8506802"
+          ],
+          "requisites": {
+            "type": "Международные акты",
+            "form": "Декларация",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-09-08",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "-8506802",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/-8506802",
+          "availability": "full_text",
+          "links": [
+            "8507863",
+            "8506870",
+            "-8506802",
+            "8506802"
+          ],
+          "requisites": {
+            "type": "Международные акты",
+            "form": "Декларация",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-09-08",
+                "number": ""
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-09-08",
+        "effective_at_candidates": [
+          "2026-09-08"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": null,
+      "issued_at": "2026-09-08",
+      "title": "Strategik sheriklik munosabatlarini o‘rnatish to‘g‘risida"
+    },
+    {
+      "entry_id": "8548643",
+      "source_url": "https://lex.uz/uz/docs/8548637",
+      "identity": [
+        {
+          "external_id": "8548643",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8548643",
+          "availability": "full_text",
+          "links": [
+            "8548643",
+            "-8548637",
+            "8548637"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Узбекское агентство по техническому регулированию при Кабинете Министров",
+                "date": "2026-09-30",
+                "number": "68"
+              }
+            ],
+            "registration_number": "2748-4",
+            "registration_date": "2026-10-20",
+            "publication_date": "2026-10-21"
+          }
+        },
+        {
+          "external_id": "-8548637",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/-8548637",
+          "availability": "full_text",
+          "links": [
+            "8548643",
+            "-8548637",
+            "8548637"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Узбекское агентство по техническому регулированию при Кабинете Министров",
+                "date": "2026-09-30",
+                "number": "68"
+              }
+            ],
+            "registration_number": "2748-4",
+            "registration_date": "2026-10-20",
+            "publication_date": "2026-10-21"
+          }
+        },
+        {
+          "external_id": "8548637",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8548637",
+          "availability": "full_text",
+          "links": [
+            "8548643",
+            "-8548637",
+            "8548637"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Узбекское агентство по техническому регулированию при Кабинете Министров",
+                "date": "2026-09-30",
+                "number": "68"
+              }
+            ],
+            "registration_number": "2748-4",
+            "registration_date": "2026-10-20",
+            "publication_date": "2026-10-21"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2027-01-01",
+        "effective_at_candidates": [
+          "2027-01-01"
+        ]
+      },
+      "document_number": "68",
+      "issued_at": "2026-09-30",
+      "title": "“Muvofiqlikni baholash sohasida xodim sifatida ishtirok etishga talabgor boʻlgan mutaxassislarni sertifikatlashtirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida”gi buyruqni, shuningdek unga oʻzgartirishlarni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida."
+    },
+    {
+      "entry_id": "8548754",
+      "source_url": "https://lex.uz/uz/docs/8548754",
+      "identity": [
+        {
+          "external_id": "8548754",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8548754",
+          "availability": "full_text",
+          "links": [
+            "8549958",
+            "8549969",
+            "-8548754",
+            "8548754"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Закон",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2026-10-21",
+                "number": "1184"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-21"
+          }
+        },
+        {
+          "external_id": "8549958",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8549958",
+          "availability": "metadata_only",
+          "links": [
+            "8549958",
+            "8549969",
+            "-8548754",
+            "8548754"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Закон",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2026-10-21",
+                "number": "1184"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8549969",
+          "language": "en",
+          "source_url": "https://lex.uz/uz/docs/8549969",
+          "availability": "metadata_only",
+          "links": [
+            "8549958",
+            "8549969",
+            "-8548754",
+            "8548754"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Закон",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2026-10-21",
+                "number": "1184"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "-8548754",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/-8548754",
+          "availability": "full_text",
+          "links": [
+            "8549958",
+            "8549969",
+            "-8548754",
+            "8548754"
+          ],
+          "requisites": {
+            "type": "Законодательные акты",
+            "form": "Закон",
+            "bodies": [
+              {
+                "issuer": "Олий Мажлис Республики Узбекистан",
+                "date": "2026-10-21",
+                "number": "1184"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-21"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2027-04-22",
+        "effective_at_candidates": [
+          "2027-04-22"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "1184",
+      "issued_at": "2026-10-21",
+      "title": "“Lotin yozuviga asoslangan o‘zbek alifbosini joriy etish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartirish kiritish haqida"
+    },
+    {
+      "entry_id": "8554309",
+      "source_url": "https://lex.uz/uz/docs/8554309",
+      "identity": [
+        {
+          "external_id": "8554309",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8554309",
+          "availability": "full_text",
+          "links": [
+            "8557123",
+            "8555578",
+            "-8554309",
+            "8554309"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "587"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-24"
+          }
+        },
+        {
+          "external_id": "8557123",
+          "language": "ru",
+          "source_url": "https://lex.uz/uz/docs/8557123",
+          "availability": "metadata_only",
+          "links": [
+            "8557123",
+            "8555578",
+            "-8554309",
+            "8554309"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "587"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "8555578",
+          "language": "en",
+          "source_url": "https://lex.uz/uz/docs/8555578",
+          "availability": "metadata_only",
+          "links": [
+            "8557123",
+            "8555578",
+            "-8554309",
+            "8554309"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "587"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": null
+          }
+        },
+        {
+          "external_id": "-8554309",
+          "language": "uz-Cyrl",
+          "source_url": "https://lex.uz/uz/docs/-8554309",
+          "availability": "full_text",
+          "links": [
+            "8557123",
+            "8555578",
+            "-8554309",
+            "8554309"
+          ],
+          "requisites": {
+            "type": "Решения Правительства",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Кабинет Министров Республики Узбекистан",
+                "date": "2026-10-22",
+                "number": "587"
+              }
+            ],
+            "registration_number": null,
+            "registration_date": null,
+            "publication_date": "2026-10-24"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-24",
+        "effective_at_candidates": [
+          "2026-10-24"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "587",
+      "issued_at": "2026-10-22",
+      "title": "Suv xo‘jaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va me’yorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish to‘g‘risida"
+    },
+    {
+      "entry_id": "8554315",
+      "source_url": "https://lex.uz/uz/docs/8554315",
+      "identity": [
+        {
+          "external_id": "8554315",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8554315",
+          "availability": "full_text",
+          "links": [
+            "8554315"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Центральный банк Республики Узбекистан",
+                "date": "2026-09-25",
+                "number": "22/4"
+              }
+            ],
+            "registration_number": "3960",
+            "registration_date": "2026-10-23",
+            "publication_date": "2026-10-24"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2027-01-25",
+        "effective_at_candidates": [
+          "2027-01-25"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "22/4",
+      "issued_at": "2026-09-25",
+      "title": "Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida"
+    },
+    {
+      "entry_id": "8554321",
+      "source_url": "https://lex.uz/uz/docs/8554321",
+      "identity": [
+        {
+          "external_id": "8554321",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8554321",
+          "availability": "full_text",
+          "links": [
+            "8554321"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Министерство по чрезвычайным ситуациям Республики Узбекистан",
+                "date": "2026-10-17",
+                "number": "233"
+              }
+            ],
+            "registration_number": "3963",
+            "registration_date": "2026-10-23",
+            "publication_date": "2026-10-24"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-24",
+        "effective_at_candidates": [
+          "2026-10-24"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "233",
+      "issued_at": "2026-10-17",
+      "title": "Favqulodda vaziyatlar yuzaga kelishining oldini olish hamda yongʻin xavfsizligi sohasida inson hayoti va sogʻligʻiga yuqori xavf soluvchi omillar reyestriga kiritiladigan maʼlumotlar roʻyxatini tasdiqlash toʻgʻrisida"
+    },
+    {
+      "entry_id": "8554326",
+      "source_url": "https://lex.uz/uz/docs/8554326",
+      "identity": [
+        {
+          "external_id": "8554326",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8554326",
+          "availability": "full_text",
+          "links": [
+            "8554326"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Комитет по развитию конкуренции и защите прав потребителей Республики Узбекистан",
+                "date": "2026-09-25",
+                "number": "05/15-05/01"
+              }
+            ],
+            "registration_number": "3961",
+            "registration_date": "2026-10-23",
+            "publication_date": "2026-10-24"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-24",
+        "effective_at_candidates": [
+          "2026-10-24"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "05/15-05/01",
+      "issued_at": "2026-09-25",
+      "title": "Mahalliy tadbirkorlik subyektlarining xalqaro tovar derivativlari birjalari savdolarida ishtirok etishi ustidan nazoratni taʼminlash va ularning manfaatlarini himoya qilish tartibi to‘g‘risidagi nizomni tasdiqlash haqida"
+    },
+    {
+      "entry_id": "8554353",
+      "source_url": "https://lex.uz/uz/docs/8554353",
+      "identity": [
+        {
+          "external_id": "8554353",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8554353",
+          "availability": "full_text",
+          "links": [
+            "8554353"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Министерство строительства и жилищно-коммунального хозяйства",
+                "date": "2026-09-11",
+                "number": "5-15070"
+              },
+              {
+                "issuer": "Министерство экономики и финансов",
+                "date": "2026-09-21",
+                "number": "399"
+              }
+            ],
+            "registration_number": "2198-3",
+            "registration_date": "2026-10-23",
+            "publication_date": "2026-10-24"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-24",
+        "effective_at_candidates": [
+          "2026-10-24"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "399",
+      "issued_at": "2026-09-21",
+      "title": "Kommunal xizmatlarga tariflarni shakllantirish boʻyicha nizomga oʻzgartirishlar kiritish toʻgʻrisida"
+    },
+    {
+      "entry_id": "8554432",
+      "source_url": "https://lex.uz/uz/docs/8554432",
+      "identity": [
+        {
+          "external_id": "8554432",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8554432",
+          "availability": "full_text",
+          "links": [
+            "8554432"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Приказ",
+            "bodies": [
+              {
+                "issuer": "Национальное агентство перспективных проектов Республики Узбекистан",
+                "date": "2026-09-16",
+                "number": "27"
+              }
+            ],
+            "registration_number": "2383-7",
+            "registration_date": "2026-10-23",
+            "publication_date": "2026-10-24"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2026-10-24",
+        "effective_at_candidates": [
+          "2026-10-24"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "27",
+      "issued_at": "2026-09-16",
+      "title": "Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga o‘zgartirish va qo‘shimchalar kiritish to‘g‘risida"
+    },
+    {
+      "entry_id": "8557098",
+      "source_url": "https://lex.uz/uz/docs/8557098",
+      "identity": [
+        {
+          "external_id": "8557098",
+          "language": "uz-Latn",
+          "source_url": "https://lex.uz/uz/docs/8557098",
+          "availability": "full_text",
+          "links": [
+            "8557098"
+          ],
+          "requisites": {
+            "type": "Акты министерств, государственных комитетов и ведомств",
+            "form": "Постановление",
+            "bodies": [
+              {
+                "issuer": "Комитет промышленной, радиационной и ядерной безопасности при Кабинете Министров Республики Узбекистан",
+                "date": "2026-10-06",
+                "number": "51"
+              }
+            ],
+            "registration_number": "3962",
+            "registration_date": "2026-10-23",
+            "publication_date": "2026-10-26"
+          }
+        }
+      ],
+      "status_evidence": {
+        "authority": "source_metadata",
+        "state": "active",
+        "effective_at": "2027-01-27",
+        "effective_at_candidates": [
+          "2027-01-27"
+        ],
+        "listing_state": "active"
+      },
+      "document_number": "51",
+      "issued_at": "2026-10-06",
+      "title": "Uran qazib olish bo‘yicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qo‘yiladigan talablarni tasdiqlash to‘g‘risida"
+    }
+  ]
+}

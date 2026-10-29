@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml" tests="4" assertions="13" errors="0" failures="0" skipped="0" time="0.203277">
+    <testsuite name="Unit" tests="4" assertions="13" errors="0" failures="0" skipped="0" time="0.203277">
+      <testsuite name="Tests\Unit\P51SourceEvidenceTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/P51SourceEvidenceTest.php" tests="4" assertions="13" errors="0" failures="0" skipped="0" time="0.203277">
+        <testcase name="test_real_number_diacritic_conflict_is_not_normalized_into_a_speculative_merge" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/P51SourceEvidenceTest.php" line="23" class="Tests\Unit\P51SourceEvidenceTest" classname="Tests.Unit.P51SourceEvidenceTest" assertions="4" time="0.134321"/>
+        <testcase name="test_real_pdf_viewer_does_not_prove_reciprocal_translation_links" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/P51SourceEvidenceTest.php" line="34" class="Tests\Unit\P51SourceEvidenceTest" classname="Tests.Unit.P51SourceEvidenceTest" assertions="3" time="0.025145"/>
+        <testcase name="test_missing_target_remains_an_identity_failure" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/P51SourceEvidenceTest.php" line="43" class="Tests\Unit\P51SourceEvidenceTest" classname="Tests.Unit.P51SourceEvidenceTest" assertions="2" time="0.021727"/>
+        <testcase name="test_actual_p5_raw_label_diagnostics_now_normalize_to_russian" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/P51SourceEvidenceTest.php" line="51" class="Tests\Unit\P51SourceEvidenceTest" classname="Tests.Unit.P51SourceEvidenceTest" assertions="4" time="0.022084"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

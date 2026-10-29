@@ -1,0 +1,31 @@
+{
+    "run_id": 3,
+    "status": "completed_with_errors",
+    "scope": "bounded_sample",
+    "discovered": 1,
+    "processed": 1,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 1,
+    "failed": 0,
+    "review_required": 0,
+    "active": 1,
+    "pending": 0,
+    "inactive": 0,
+    "html": 1,
+    "pdf": 0,
+    "ocr": 0,
+    "languages": {
+        "en": 1,
+        "uz-Cyrl": 1,
+        "uz-Latn": 1
+    },
+    "duration_seconds": 17,
+    "source_status_counts": {
+        "active": 1,
+        "pending": 0,
+        "inactive": 0
+    },
+    "coverage_verified": false,
+    "open_items": 0
+}

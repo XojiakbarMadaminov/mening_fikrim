@@ -1,0 +1,17 @@
+{
+  "requests": 1229,
+  "budget": 4000,
+  "reserved": 1229,
+  "statuses": {
+    "200": 1229
+  },
+  "retries": 0,
+  "min_interval_seconds": 2.0001317730057053,
+  "all_intervals_at_least_2s": true,
+  "response_bytes": 115755558,
+  "http_seconds": 115.335659,
+  "latency_p50_seconds": 0.074038,
+  "latency_p95_seconds": 0.125743,
+  "first_at": "2026-10-28T23:35:41.671702+05:00",
+  "last_at": "2026-10-29T00:17:15.962380+05:00"
+}

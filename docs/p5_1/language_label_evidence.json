@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "1597458",
+    "raw_label": "Русча",
+    "evidence_file": "docs/p5/run_13.json",
+    "evidence_kind": "actual P5 parser diagnostic; not reconstructed raw response",
+    "observed_at": "2026-10-28T18:40:41.000000Z"
+  },
+  {
+    "source_id": "5210585",
+    "raw_label": "Ruscha",
+    "evidence_file": "docs/p5/run_27.json",
+    "evidence_kind": "actual P5 parser diagnostic; not reconstructed raw response",
+    "observed_at": "2026-10-28T19:09:22.000000Z"
+  },
+  {
+    "source_id": "8119972",
+    "raw_label": "Ruscha",
+    "evidence_file": "docs/p5/run_26.json",
+    "evidence_kind": "actual P5 parser diagnostic; not reconstructed raw response",
+    "observed_at": "2026-10-28T19:05:58.000000Z"
+  }
+]

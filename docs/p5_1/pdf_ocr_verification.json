@@ -1,0 +1,100 @@
+{
+  "samples": [
+    {
+      "source_id": "8345596",
+      "document_id": 67,
+      "run_id": 30,
+      "format": "pdf",
+      "language": "uz-Latn",
+      "characters": 57197,
+      "pages": 34,
+      "pages_extracted": 34,
+      "quality": {
+        "state": "review",
+        "errors": [
+          "quality_review"
+        ],
+        "persistence": "stored",
+        "extracted_hash": "fa100b6df6a2c64f3a795c681ce36c29b62b9a7baeb7756c9f817966bdd2908f",
+        "quality_issues": [
+          "pdf_image_semantics_unverified",
+          "pdf_language_coverage_unconfirmed",
+          "pdf_reading_order_unverified",
+          "pdf_structure_unverified",
+          "quality_review"
+        ],
+        "quality_status": "needs_review",
+        "stored_quality_status": "needs_review"
+      },
+      "issues": [
+        "pdf_image_semantics_unverified",
+        "pdf_language_coverage_unconfirmed",
+        "pdf_reading_order_unverified",
+        "pdf_structure_unverified"
+      ],
+      "timings": {
+        "ocr_seconds": 0,
+        "pdf_parse_seconds": 6.744463
+      },
+      "ocr_pages": [],
+      "persistence": "stored"
+    },
+    {
+      "source_id": "4797522",
+      "document_id": 158,
+      "run_id": 30,
+      "format": "ocr",
+      "language": "uz-Cyrl",
+      "characters": 7316,
+      "pages": 7,
+      "pages_extracted": 7,
+      "quality": {
+        "state": "review",
+        "errors": [
+          "quality_review",
+          "uncertified_ocr"
+        ],
+        "persistence": "stored",
+        "extracted_hash": "20cbb256c5300a5e8e463d29d8a8c7055320d35c074f285797da59f0c0455173",
+        "quality_issues": [
+          "low_ocr_confidence",
+          "ocr_critical_tokens_unverified",
+          "ocr_source_identifier_not_certified",
+          "pdf_image_semantics_unverified",
+          "pdf_language_coverage_unconfirmed",
+          "pdf_reading_order_unverified",
+          "pdf_structure_unverified",
+          "uncertified_ocr",
+          "quality_review"
+        ],
+        "quality_status": "needs_review",
+        "stored_quality_status": "needs_review"
+      },
+      "issues": [
+        "low_ocr_confidence",
+        "ocr_critical_tokens_unverified",
+        "ocr_source_identifier_not_certified",
+        "pdf_image_semantics_unverified",
+        "pdf_language_coverage_unconfirmed",
+        "pdf_reading_order_unverified",
+        "pdf_structure_unverified",
+        "uncertified_ocr"
+      ],
+      "timings": {
+        "ocr_seconds": 20.510736,
+        "pdf_parse_seconds": 21.024748
+      },
+      "ocr_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "persistence": "stored"
+    }
+  ],
+  "scope": "Existing real targeted sources only; diagnostic-only repeated PDF extraction is not an additional persisted sample or accuracy certification."
+}

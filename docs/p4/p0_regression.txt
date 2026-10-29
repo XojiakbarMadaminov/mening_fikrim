@@ -1,0 +1,26 @@
+test_403_stops_without_retry (__main__.FaultInjectionTests.test_403_stops_without_retry) ... {"name": "forbidden", "status": 403, "bytes": 28, "elapsed_seconds": 0.004}
+ok
+test_429_retry_after_then_success (__main__.FaultInjectionTests.test_429_retry_after_then_success) ... {"name": "retry", "status": 429, "bytes": 28, "elapsed_seconds": 0.003}
+{"name": "retry", "status": 200, "bytes": 28, "elapsed_seconds": 0.003}
+ok
+test_read_timeout_exhausts_at_bound (__main__.FaultInjectionTests.test_read_timeout_exhausts_at_bound) ... {"name": "timeout", "error": "ReadTimeout", "elapsed_seconds": 0.012}
+{"name": "timeout", "error": "ReadTimeout", "elapsed_seconds": 0.011}
+ok
+test_N_is_old_edition_not_pending (__main__.FixtureTests.test_N_is_old_edition_not_pending) ... ok
+test_actual_language_links_have_distinct_ids (__main__.FixtureTests.test_actual_language_links_have_distinct_ids) ... ok
+test_bounded_pagination_reconciles (__main__.FixtureTests.test_bounded_pagination_reconciles) ... ok
+test_default_current_revision_is_recorded (__main__.FixtureTests.test_default_current_revision_is_recorded) ... ok
+test_global_interface_menu_not_translations (__main__.FixtureTests.test_global_interface_menu_not_translations) ... ok
+test_inactive_label_from_real_card (__main__.FixtureTests.test_inactive_label_from_real_card) ... ok
+test_large_code_keeps_593_articles_and_last_text (__main__.FixtureTests.test_large_code_keeps_593_articles_and_last_text) ... ok
+test_metadata_only_translation_is_detected (__main__.FixtureTests.test_metadata_only_translation_is_detected) ... ok
+test_pending_requires_date_not_source_Y (__main__.FixtureTests.test_pending_requires_date_not_source_Y) ... ok
+test_real_source_excerpt_removes_editorial_ui (__main__.FixtureTests.test_real_source_excerpt_removes_editorial_ui) ... ok
+test_scanned_pdf_conflict_is_quarantined (__main__.FixtureTests.test_scanned_pdf_conflict_is_quarantined) ... ok
+test_unknown_status_fails_closed (__main__.FixtureTests.test_unknown_status_fails_closed) ... ok
+test_viewer_is_not_a_pdf (__main__.FixtureTests.test_viewer_is_not_a_pdf) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 8.684s
+
+OK

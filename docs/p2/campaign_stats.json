@@ -1,0 +1,134 @@
+{
+  "distinct_document_groups": 30,
+  "valid": 17,
+  "review": 13,
+  "technical_failed_final": 0,
+  "formats": {
+    "html": 22,
+    "pdf": 6,
+    "ocr": 2
+  },
+  "source_statuses": {
+    "active": 24,
+    "pending": 3,
+    "inactive": 3
+  },
+  "full_text_variants_27_initial": 55,
+  "metadata_only_variants_27_initial": 13,
+  "full_text_variants_3_inactive": 7,
+  "pdf_pages_per_unique_pass": 101,
+  "ocr_pages_per_unique_pass": 36,
+  "ocr": {
+    "-8553258": {
+      "language": "uz-Cyrl",
+      "pages": 17,
+      "min_mean_confidence": 81.4993,
+      "max_mean_confidence": 95.4721,
+      "pages_mean_below_90": 1,
+      "pages_low_word_fraction_above_5_percent": 2
+    },
+    "-8553692": {
+      "language": "uz-Cyrl",
+      "pages": 19,
+      "min_mean_confidence": 91.5985,
+      "max_mean_confidence": 96.0514,
+      "pages_mean_below_90": 0,
+      "pages_low_word_fraction_above_5_percent": 1
+    }
+  },
+  "first_run": {
+    "run_id": 1,
+    "status": "completed_with_errors",
+    "scope": "bounded_sample",
+    "discovered": 27,
+    "processed": 27,
+    "created": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "failed": 0,
+    "review_required": 12,
+    "active": 15,
+    "pending": 0,
+    "inactive": 0,
+    "html": 19,
+    "pdf": 6,
+    "ocr": 2,
+    "languages": {
+      "uz-Cyrl": 15,
+      "uz-Latn": 15,
+      "en": 3,
+      "ru": 4
+    },
+    "duration_seconds": 789,
+    "source_status_counts": {
+      "active": 24,
+      "pending": 3,
+      "inactive": 0
+    },
+    "coverage_verified": false,
+    "open_items": 0
+  },
+  "repeat_run": {
+    "run_id": 2,
+    "status": "completed_with_errors",
+    "scope": "bounded_sample",
+    "discovered": 27,
+    "processed": 27,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "failed": 0,
+    "review_required": 12,
+    "active": 15,
+    "pending": 0,
+    "inactive": 0,
+    "html": 19,
+    "pdf": 6,
+    "ocr": 2,
+    "languages": {
+      "uz-Cyrl": 15,
+      "uz-Latn": 15,
+      "en": 3,
+      "ru": 4
+    },
+    "duration_seconds": 470,
+    "source_status_counts": {
+      "active": 24,
+      "pending": 3,
+      "inactive": 0
+    },
+    "coverage_verified": false,
+    "open_items": 0
+  },
+  "discovery_queue_run": {
+    "run_id": 3,
+    "status": "completed_with_errors",
+    "scope": "bounded_sample",
+    "discovered": 1,
+    "processed": 1,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 1,
+    "failed": 0,
+    "review_required": 0,
+    "active": 1,
+    "pending": 0,
+    "inactive": 0,
+    "html": 1,
+    "pdf": 0,
+    "ocr": 0,
+    "languages": {
+      "en": 1,
+      "uz-Cyrl": 1,
+      "uz-Latn": 1
+    },
+    "duration_seconds": 17,
+    "source_status_counts": {
+      "active": 1,
+      "pending": 0,
+      "inactive": 0
+    },
+    "coverage_verified": false,
+    "open_items": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "query": {
+        "section": "nat",
+        "status": "Y",
+        "from": "01.01.2010",
+        "to": "31.01.2010"
+    },
+    "interrupted_result": {
+        "complete": false,
+        "total": 72,
+        "unique_ids": 20,
+        "pages": 1,
+        "restarts": 0,
+        "reason": "bounded_budget"
+    },
+    "fresh_replay_result": {
+        "complete": true,
+        "total": 72,
+        "unique_ids": 72,
+        "pages": 4,
+        "restarts": 0
+    },
+    "duplicate_prefix_ids": 20,
+    "stable_against_complete_partition": true,
+    "scope": "real shared scraper fresh-session replay after bounded stop; no imports dispatched by this coverage probe"
+}

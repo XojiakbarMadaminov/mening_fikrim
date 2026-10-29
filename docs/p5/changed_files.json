@@ -1,0 +1,38 @@
+[
+  {
+    "path": "app/Jobs/DiscoverDocumentsJob.php",
+    "change": "modified"
+  },
+  {
+    "path": "app/Jobs/ImportDocumentJob.php",
+    "change": "modified"
+  },
+  {
+    "path": "app/Providers/AppServiceProvider.php",
+    "change": "modified"
+  },
+  {
+    "path": "app/Services/Scraping/ScrapeRunManager.php",
+    "change": "modified"
+  },
+  {
+    "path": "app/Services/Scraping/PilotStoppedException.php",
+    "change": "added"
+  },
+  {
+    "path": "app/Services/Scraping/PilotCampaign.php",
+    "change": "added"
+  },
+  {
+    "path": "app/Scraping/LexUz/LexHttpClient.php",
+    "change": "modified"
+  },
+  {
+    "path": "app/Console/Commands/ManagePilotCampaign.php",
+    "change": "added"
+  },
+  {
+    "path": "tests/Feature/PilotCampaignTest.php",
+    "change": "added"
+  }
+]

@@ -1,0 +1,2315 @@
+{
+    "run": {
+        "id": 39,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 20,
+        "created_count": 8,
+        "updated_count": 0,
+        "failed_count": 0,
+        "checkpoint": {
+            "limit": 20,
+            "scope": "bounded_sample",
+            "version": 3,
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "status": "Y",
+                    "section": "int"
+                },
+                {
+                    "status": "Y",
+                    "section": "tech"
+                },
+                {
+                    "status": "Y",
+                    "section": "court"
+                },
+                {
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "selection": "explicit_sample",
+            "pilot_kind": "new_collection",
+            "sample_ids": [
+                "5090429",
+                "5090427",
+                "-5090427",
+                "5090047",
+                "-5090042",
+                "5090042",
+                "5443019",
+                "-4886234",
+                "4886234",
+                "5090781",
+                "-5090776",
+                "5090776",
+                "5090564",
+                "5090561",
+                "-5090561",
+                "5089998",
+                "-5089996",
+                "5089996",
+                "5089921",
+                "5089917"
+            ],
+            "campaign_id": "p5-1-20261029",
+            "segment_index": 0,
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "total": 20,
+                    "last_page": true,
+                    "committed_page": 1,
+                    "page_fingerprint": "83c6c4575d3bd59e4bce43462bb6e28e33cd3bc85730421db05a1fb4bda8326a"
+                }
+            ],
+            "coverage_verified": false,
+            "partition_parents": [],
+            "discovery_finished": true,
+            "languages_complete": true,
+            "segments_completed": 0,
+            "sample_listing_statuses": {
+                "4886234": "Y",
+                "5089917": "Y",
+                "5089921": "Y",
+                "5089996": "Y",
+                "5089998": "Y",
+                "5090042": "Y",
+                "5090047": "Y",
+                "5090427": "Y",
+                "5090429": "Y",
+                "5090561": "Y",
+                "5090564": "Y",
+                "5090776": "Y",
+                "5090781": "Y",
+                "5443019": "Y",
+                "-4886234": "Y",
+                "-5089996": "Y",
+                "-5090042": "Y",
+                "-5090427": "Y",
+                "-5090561": "Y",
+                "-5090776": "Y"
+            }
+        },
+        "last_error": "Bounded\/partial coverage; inspect the durable item ledger.",
+        "started_at": "2026-10-29T00:33:39.000000Z",
+        "finished_at": "2026-10-29T00:35:01.000000Z"
+    },
+    "summary": {
+        "run_id": 39,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 20,
+        "canonical_document_groups": 8,
+        "canonical_documents_stored": 8,
+        "processed": 20,
+        "created": 8,
+        "updated": 0,
+        "imported": 8,
+        "unchanged": 0,
+        "skipped_alias": 12,
+        "queued": 0,
+        "processing": 0,
+        "pending_retry": 0,
+        "failed": 0,
+        "technical_failed": 0,
+        "review_required": 0,
+        "active": 8,
+        "pending": 0,
+        "inactive": 0,
+        "stored_content_count": 20,
+        "valid_content_count": 20,
+        "persisted_imported": 8,
+        "persisted_unchanged": 0,
+        "imported_with_needs_review": 0,
+        "verified": 8,
+        "extraction_failed": 0,
+        "failed_content_representations": 0,
+        "stored_needs_review_content_count": 0,
+        "duration_seconds": 82,
+        "coverage_verified": false,
+        "gates": {
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": true
+        },
+        "open_items": 0,
+        "html": 8,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "ru": 6,
+            "uz-Cyrl": 7,
+            "uz-Latn": 7
+        },
+        "required_language_failures": 0,
+        "source_status_counts": {
+            "active": 20,
+            "pending": 0,
+            "inactive": 0
+        },
+        "discovery_failed": false,
+        "discovery_error": null,
+        "pending_framework_jobs": 0
+    },
+    "items": [
+        {
+            "id": 593,
+            "scrape_run_id": 39,
+            "source_external_id": "5090429",
+            "document_id": 208,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6f7b1053361e7aed7027b121562152e69a2e8ea4ad2ecfb26ecb37d8a688b7d8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a9211abe6ac87b60fa7f79660073fe94d90601cc6e5e77e9c0d70fdc74fc4091",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c0cf6e6b4221c90d47013660619e85e43b90b7be5b438fba85fe2a59d5829af7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 0.656535,
+                    "fetch_parse_seconds": 10.113489,
+                    "fetch_parse_import_seconds": 10.132152
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 977,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004466
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 1032,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004436
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1077,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004621
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6f7b1053361e7aed7027b121562152e69a2e8ea4ad2ecfb26ecb37d8a688b7d8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a9211abe6ac87b60fa7f79660073fe94d90601cc6e5e77e9c0d70fdc74fc4091",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c0cf6e6b4221c90d47013660619e85e43b90b7be5b438fba85fe2a59d5829af7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 208,
+                "identity_key": "cdedaac2ac33923fd55677793b805474a50cb52d4a99ea60ae4d56d19782b942",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 638,
+            "dispatch_token": "a7ce79f0-6bb7-44a0-ba7a-d05469907838",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:33:39.000000Z",
+            "finished_at": "2026-10-29T00:33:49.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:33:49.000000Z"
+        },
+        {
+            "id": 594,
+            "scrape_run_id": 39,
+            "source_external_id": "5090427",
+            "document_id": 208,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6f7b1053361e7aed7027b121562152e69a2e8ea4ad2ecfb26ecb37d8a688b7d8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a9211abe6ac87b60fa7f79660073fe94d90601cc6e5e77e9c0d70fdc74fc4091",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c0cf6e6b4221c90d47013660619e85e43b90b7be5b438fba85fe2a59d5829af7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6f7b1053361e7aed7027b121562152e69a2e8ea4ad2ecfb26ecb37d8a688b7d8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a9211abe6ac87b60fa7f79660073fe94d90601cc6e5e77e9c0d70fdc74fc4091",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c0cf6e6b4221c90d47013660619e85e43b90b7be5b438fba85fe2a59d5829af7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 208,
+                "source_status": "active",
+                "alias_of_item_id": 593,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 639,
+            "dispatch_token": "0e69a238-5975-4e85-9d0d-664f7917d0c3",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:33:49.000000Z",
+            "finished_at": "2026-10-29T00:33:49.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:33:49.000000Z"
+        },
+        {
+            "id": 595,
+            "scrape_run_id": 39,
+            "source_external_id": "-5090427",
+            "document_id": 208,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "6f7b1053361e7aed7027b121562152e69a2e8ea4ad2ecfb26ecb37d8a688b7d8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "a9211abe6ac87b60fa7f79660073fe94d90601cc6e5e77e9c0d70fdc74fc4091",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c0cf6e6b4221c90d47013660619e85e43b90b7be5b438fba85fe2a59d5829af7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "6f7b1053361e7aed7027b121562152e69a2e8ea4ad2ecfb26ecb37d8a688b7d8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "a9211abe6ac87b60fa7f79660073fe94d90601cc6e5e77e9c0d70fdc74fc4091",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c0cf6e6b4221c90d47013660619e85e43b90b7be5b438fba85fe2a59d5829af7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 208,
+                "source_status": "active",
+                "alias_of_item_id": 593,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 640,
+            "dispatch_token": "ca696543-b3dc-4430-a4ef-5a9439a9523d",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:33:49.000000Z",
+            "finished_at": "2026-10-29T00:33:49.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:33:49.000000Z"
+        },
+        {
+            "id": 596,
+            "scrape_run_id": 39,
+            "source_external_id": "5090047",
+            "document_id": 209,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "99512f504700f923449fd96c27d4f5939b9750448ee1acae72691c39752f20f1",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "dd11ad9e07d28296eaccf4aa32881eb4876f974e1920f9c642906d4f43d9a60f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "fcec36530d7284e39af8c04f51d29a9dc457c7fcad14db50c5df3c7e80c5ab9f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 10.871491,
+                    "fetch_parse_seconds": 11.925474,
+                    "fetch_parse_import_seconds": 11.94122
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 2256,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.005481
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 2508,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.005397
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 2659,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.005581
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "99512f504700f923449fd96c27d4f5939b9750448ee1acae72691c39752f20f1",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "dd11ad9e07d28296eaccf4aa32881eb4876f974e1920f9c642906d4f43d9a60f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "fcec36530d7284e39af8c04f51d29a9dc457c7fcad14db50c5df3c7e80c5ab9f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 209,
+                "identity_key": "130b88deb8bdf057acd857092fda5bc57aae3d53cf78f986ca3b10d77d7b794a",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 641,
+            "dispatch_token": "bd6e8ba6-d30e-4d53-85c9-12d878ad433c",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:33:49.000000Z",
+            "finished_at": "2026-10-29T00:34:01.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:01.000000Z"
+        },
+        {
+            "id": 597,
+            "scrape_run_id": 39,
+            "source_external_id": "-5090042",
+            "document_id": 209,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "99512f504700f923449fd96c27d4f5939b9750448ee1acae72691c39752f20f1",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "dd11ad9e07d28296eaccf4aa32881eb4876f974e1920f9c642906d4f43d9a60f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "fcec36530d7284e39af8c04f51d29a9dc457c7fcad14db50c5df3c7e80c5ab9f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "99512f504700f923449fd96c27d4f5939b9750448ee1acae72691c39752f20f1",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "dd11ad9e07d28296eaccf4aa32881eb4876f974e1920f9c642906d4f43d9a60f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "fcec36530d7284e39af8c04f51d29a9dc457c7fcad14db50c5df3c7e80c5ab9f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 209,
+                "source_status": "active",
+                "alias_of_item_id": 596,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 642,
+            "dispatch_token": "35766067-85e6-4b56-9406-9ae81dc24483",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:01.000000Z",
+            "finished_at": "2026-10-29T00:34:01.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:01.000000Z"
+        },
+        {
+            "id": 598,
+            "scrape_run_id": 39,
+            "source_external_id": "5090042",
+            "document_id": 209,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "99512f504700f923449fd96c27d4f5939b9750448ee1acae72691c39752f20f1",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "dd11ad9e07d28296eaccf4aa32881eb4876f974e1920f9c642906d4f43d9a60f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "fcec36530d7284e39af8c04f51d29a9dc457c7fcad14db50c5df3c7e80c5ab9f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "99512f504700f923449fd96c27d4f5939b9750448ee1acae72691c39752f20f1",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "dd11ad9e07d28296eaccf4aa32881eb4876f974e1920f9c642906d4f43d9a60f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "fcec36530d7284e39af8c04f51d29a9dc457c7fcad14db50c5df3c7e80c5ab9f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 209,
+                "source_status": "active",
+                "alias_of_item_id": 596,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 643,
+            "dispatch_token": "2657b6be-82d1-45bc-805d-3a6451c93048",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:01.000000Z",
+            "finished_at": "2026-10-29T00:34:01.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:01.000000Z"
+        },
+        {
+            "id": 599,
+            "scrape_run_id": 39,
+            "source_external_id": "5443019",
+            "document_id": 210,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "7653b063975eb381a424b17eb07c96b2553c2dae29c04f7af57c35fbaf3fc5e8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 22.885338,
+                    "fetch_parse_seconds": 7.877369,
+                    "fetch_parse_import_seconds": 7.887983
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 613,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004194
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 418,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004431
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "7653b063975eb381a424b17eb07c96b2553c2dae29c04f7af57c35fbaf3fc5e8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 210,
+                "identity_key": "59653cf33949b33fd34f12e1211128181f159daba31ede82d34179d922cdd4b4",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 1
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 644,
+            "dispatch_token": "1e229314-7eb8-4ae3-ab19-3d4297919519",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:01.000000Z",
+            "finished_at": "2026-10-29T00:34:09.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:09.000000Z"
+        },
+        {
+            "id": 600,
+            "scrape_run_id": 39,
+            "source_external_id": "-4886234",
+            "document_id": 211,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e66dd181e9522938e6cc58fbd5d4532977adc195014bb45247a0b8827160d2a6",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 30.806232,
+                    "fetch_parse_seconds": 3.944153,
+                    "fetch_parse_import_seconds": 3.955013
+                },
+                "quality": {
+                    "uz-Latn": {
+                        "chars": 439,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004108
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e66dd181e9522938e6cc58fbd5d4532977adc195014bb45247a0b8827160d2a6",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 211,
+                "identity_key": "8ade535318c32c4ede9c18d8e60b9e953f198eacbfbe255134d36c67d49b37a5",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 1
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 645,
+            "dispatch_token": "14ca7754-db1b-4389-9bfe-779b3cf25f4b",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:09.000000Z",
+            "finished_at": "2026-10-29T00:34:13.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:13.000000Z"
+        },
+        {
+            "id": 601,
+            "scrape_run_id": 39,
+            "source_external_id": "4886234",
+            "document_id": 210,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "metadata_only",
+                    "errors": []
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "7653b063975eb381a424b17eb07c96b2553c2dae29c04f7af57c35fbaf3fc5e8",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "metadata_only",
+                        "errors": []
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "7653b063975eb381a424b17eb07c96b2553c2dae29c04f7af57c35fbaf3fc5e8",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 210,
+                "source_status": "active",
+                "alias_of_item_id": 599,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 646,
+            "dispatch_token": "1a0884dd-f4cd-43db-8cd0-b149d4f6bfa4",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:13.000000Z",
+            "finished_at": "2026-10-29T00:34:13.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:13.000000Z"
+        },
+        {
+            "id": 602,
+            "scrape_run_id": 39,
+            "source_external_id": "5090781",
+            "document_id": 212,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "b1c2605077c38853fadf72585cba8f968b5c525293545079a7f315057e30d3f7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1eada606874667f6b72ecaf609a694ddb7829ac39b0526fa54621c841cbfed4f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e6a2a59f8dea2475a1b1396fa3ad72e15e0a43be680f231c40b6b65309560049",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 34.82788,
+                    "fetch_parse_seconds": 11.95034,
+                    "fetch_parse_import_seconds": 11.967906
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 1120,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004877
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 1252,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004603
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1318,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004541
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "b1c2605077c38853fadf72585cba8f968b5c525293545079a7f315057e30d3f7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1eada606874667f6b72ecaf609a694ddb7829ac39b0526fa54621c841cbfed4f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e6a2a59f8dea2475a1b1396fa3ad72e15e0a43be680f231c40b6b65309560049",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 212,
+                "identity_key": "5c707c7fc4329865343bc89676b4c5a4659accc5fb9058b2dc159f9c9b249bd7",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 647,
+            "dispatch_token": "8e651af9-1619-48e8-b7c2-0f2192278ad2",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:13.000000Z",
+            "finished_at": "2026-10-29T00:34:25.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:25.000000Z"
+        },
+        {
+            "id": 603,
+            "scrape_run_id": 39,
+            "source_external_id": "-5090776",
+            "document_id": 212,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "b1c2605077c38853fadf72585cba8f968b5c525293545079a7f315057e30d3f7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1eada606874667f6b72ecaf609a694ddb7829ac39b0526fa54621c841cbfed4f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e6a2a59f8dea2475a1b1396fa3ad72e15e0a43be680f231c40b6b65309560049",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "b1c2605077c38853fadf72585cba8f968b5c525293545079a7f315057e30d3f7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1eada606874667f6b72ecaf609a694ddb7829ac39b0526fa54621c841cbfed4f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e6a2a59f8dea2475a1b1396fa3ad72e15e0a43be680f231c40b6b65309560049",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 212,
+                "source_status": "active",
+                "alias_of_item_id": 602,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 648,
+            "dispatch_token": "51c77ff8-915c-4fab-b9d6-01c11ffaf6bc",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:25.000000Z",
+            "finished_at": "2026-10-29T00:34:25.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:25.000000Z"
+        },
+        {
+            "id": 604,
+            "scrape_run_id": 39,
+            "source_external_id": "5090776",
+            "document_id": 212,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "b1c2605077c38853fadf72585cba8f968b5c525293545079a7f315057e30d3f7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "1eada606874667f6b72ecaf609a694ddb7829ac39b0526fa54621c841cbfed4f",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "e6a2a59f8dea2475a1b1396fa3ad72e15e0a43be680f231c40b6b65309560049",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "b1c2605077c38853fadf72585cba8f968b5c525293545079a7f315057e30d3f7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "1eada606874667f6b72ecaf609a694ddb7829ac39b0526fa54621c841cbfed4f",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "e6a2a59f8dea2475a1b1396fa3ad72e15e0a43be680f231c40b6b65309560049",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 212,
+                "source_status": "active",
+                "alias_of_item_id": 602,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 649,
+            "dispatch_token": "9cb1ca6c-850b-4cc7-bf4a-67dbf7af195b",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:25.000000Z",
+            "finished_at": "2026-10-29T00:34:25.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:25.000000Z"
+        },
+        {
+            "id": 605,
+            "scrape_run_id": 39,
+            "source_external_id": "5090564",
+            "document_id": 213,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c0176e0922c87888e038f94793e92bde6cda18a12cf13a5fe1f480a765d4418e",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "30b1d7e005e50c0210570f7825ad7fdad94929a16a4898d18416c26bec2358c7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "82547a07cadf9fcbefa8597762d474fc125bed89a7762400c9e1cfe6b3ec9e4b",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 46.887687,
+                    "fetch_parse_seconds": 11.884607,
+                    "fetch_parse_import_seconds": 11.902207
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 947,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004476
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 1021,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.00442
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1065,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004322
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c0176e0922c87888e038f94793e92bde6cda18a12cf13a5fe1f480a765d4418e",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "30b1d7e005e50c0210570f7825ad7fdad94929a16a4898d18416c26bec2358c7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "82547a07cadf9fcbefa8597762d474fc125bed89a7762400c9e1cfe6b3ec9e4b",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 213,
+                "identity_key": "1334ce0566d0bc95dac608670344b8edb049dbe3e183cac8395226ba9efd741f",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 650,
+            "dispatch_token": "d3149d03-8e22-47fa-8f14-f14c0e08186c",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:25.000000Z",
+            "finished_at": "2026-10-29T00:34:37.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:37.000000Z"
+        },
+        {
+            "id": 606,
+            "scrape_run_id": 39,
+            "source_external_id": "5090561",
+            "document_id": 213,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c0176e0922c87888e038f94793e92bde6cda18a12cf13a5fe1f480a765d4418e",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "30b1d7e005e50c0210570f7825ad7fdad94929a16a4898d18416c26bec2358c7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "82547a07cadf9fcbefa8597762d474fc125bed89a7762400c9e1cfe6b3ec9e4b",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c0176e0922c87888e038f94793e92bde6cda18a12cf13a5fe1f480a765d4418e",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "30b1d7e005e50c0210570f7825ad7fdad94929a16a4898d18416c26bec2358c7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "82547a07cadf9fcbefa8597762d474fc125bed89a7762400c9e1cfe6b3ec9e4b",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 213,
+                "source_status": "active",
+                "alias_of_item_id": 605,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 651,
+            "dispatch_token": "8750f1bc-177b-4e4f-8d53-b1eac3bc04fa",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:37.000000Z",
+            "finished_at": "2026-10-29T00:34:37.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:37.000000Z"
+        },
+        {
+            "id": 607,
+            "scrape_run_id": 39,
+            "source_external_id": "-5090561",
+            "document_id": 213,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "c0176e0922c87888e038f94793e92bde6cda18a12cf13a5fe1f480a765d4418e",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "30b1d7e005e50c0210570f7825ad7fdad94929a16a4898d18416c26bec2358c7",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "82547a07cadf9fcbefa8597762d474fc125bed89a7762400c9e1cfe6b3ec9e4b",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "c0176e0922c87888e038f94793e92bde6cda18a12cf13a5fe1f480a765d4418e",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "30b1d7e005e50c0210570f7825ad7fdad94929a16a4898d18416c26bec2358c7",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "82547a07cadf9fcbefa8597762d474fc125bed89a7762400c9e1cfe6b3ec9e4b",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 213,
+                "source_status": "active",
+                "alias_of_item_id": 605,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 652,
+            "dispatch_token": "c1de201c-4f26-462f-be02-e20f0c436e58",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:37.000000Z",
+            "finished_at": "2026-10-29T00:34:37.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:37.000000Z"
+        },
+        {
+            "id": 608,
+            "scrape_run_id": 39,
+            "source_external_id": "5089998",
+            "document_id": 214,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "3ef27f9ed9c983ba2e7fdf99eabe60c9a3c6c4b34697b4bd7ec701e28c682edd",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "4f31929809d2002a7c08db28b3014fc43edcf9a75d83e7cdb578ff6e79979c95",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8ad6fded4f0a4526f3062862c23e76eff42c8e4b8e7bc1a31da3c6649313431d",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 58.878029999999995,
+                    "fetch_parse_seconds": 11.89903,
+                    "fetch_parse_import_seconds": 11.913465
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 1140,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004644
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 1228,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004413
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1283,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004342
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "3ef27f9ed9c983ba2e7fdf99eabe60c9a3c6c4b34697b4bd7ec701e28c682edd",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "4f31929809d2002a7c08db28b3014fc43edcf9a75d83e7cdb578ff6e79979c95",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8ad6fded4f0a4526f3062862c23e76eff42c8e4b8e7bc1a31da3c6649313431d",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 214,
+                "identity_key": "d3baa5370ab3cbd0c756172d0a548ee2e6b6bfcde72b92a534b146ff23189ebf",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 653,
+            "dispatch_token": "ab6386b7-4bfc-42d9-8524-9890e77e0d59",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:37.000000Z",
+            "finished_at": "2026-10-29T00:34:49.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:49.000000Z"
+        },
+        {
+            "id": 609,
+            "scrape_run_id": 39,
+            "source_external_id": "-5089996",
+            "document_id": 214,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "3ef27f9ed9c983ba2e7fdf99eabe60c9a3c6c4b34697b4bd7ec701e28c682edd",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "4f31929809d2002a7c08db28b3014fc43edcf9a75d83e7cdb578ff6e79979c95",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8ad6fded4f0a4526f3062862c23e76eff42c8e4b8e7bc1a31da3c6649313431d",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "3ef27f9ed9c983ba2e7fdf99eabe60c9a3c6c4b34697b4bd7ec701e28c682edd",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "4f31929809d2002a7c08db28b3014fc43edcf9a75d83e7cdb578ff6e79979c95",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8ad6fded4f0a4526f3062862c23e76eff42c8e4b8e7bc1a31da3c6649313431d",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 214,
+                "source_status": "active",
+                "alias_of_item_id": 608,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 654,
+            "dispatch_token": "a54a72c2-60bb-45df-8c1b-e2c95c53f1a1",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:49.000000Z",
+            "finished_at": "2026-10-29T00:34:49.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:49.000000Z"
+        },
+        {
+            "id": 610,
+            "scrape_run_id": 39,
+            "source_external_id": "5089996",
+            "document_id": 214,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "3ef27f9ed9c983ba2e7fdf99eabe60c9a3c6c4b34697b4bd7ec701e28c682edd",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "4f31929809d2002a7c08db28b3014fc43edcf9a75d83e7cdb578ff6e79979c95",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8ad6fded4f0a4526f3062862c23e76eff42c8e4b8e7bc1a31da3c6649313431d",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "3ef27f9ed9c983ba2e7fdf99eabe60c9a3c6c4b34697b4bd7ec701e28c682edd",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "4f31929809d2002a7c08db28b3014fc43edcf9a75d83e7cdb578ff6e79979c95",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8ad6fded4f0a4526f3062862c23e76eff42c8e4b8e7bc1a31da3c6649313431d",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 214,
+                "source_status": "active",
+                "alias_of_item_id": 608,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 655,
+            "dispatch_token": "6aca8282-f046-478f-a90c-236bd4db2e36",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:49.000000Z",
+            "finished_at": "2026-10-29T00:34:49.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:34:49.000000Z"
+        },
+        {
+            "id": 611,
+            "scrape_run_id": 39,
+            "source_external_id": "5089921",
+            "document_id": 215,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "09ea9df62f9f8474bafc93404603a93ba4b7efe90f25d97a3fe5b5ee0aa0781d",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "0c89198b6b9a0bd6b3f9da2126e4935026b7eff2122316fd4fb40cd794f3e0f5",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "13957df54e1cf4c3ee75b747895a199b6a69a508a0c1b02e6b88055028426938",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "metrics": {
+                    "queue_wait_seconds": 70.881566,
+                    "fetch_parse_seconds": 11.897571,
+                    "fetch_parse_import_seconds": 11.910828
+                },
+                "quality": {
+                    "ru": {
+                        "chars": 1008,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004495
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Cyrl": {
+                        "chars": 1070,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004478
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 1114,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.004387
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "09ea9df62f9f8474bafc93404603a93ba4b7efe90f25d97a3fe5b5ee0aa0781d",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "0c89198b6b9a0bd6b3f9da2126e4935026b7eff2122316fd4fb40cd794f3e0f5",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "13957df54e1cf4c3ee75b747895a199b6a69a508a0c1b02e6b88055028426938",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 215,
+                "identity_key": "489099323bcc3145b682165856c47a51ae04efb3aeff842574ff26e5c0f50591",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 3
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 656,
+            "dispatch_token": "f047dc7d-b76c-4bfe-945d-c7f3e50af50f",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:34:49.000000Z",
+            "finished_at": "2026-10-29T00:35:01.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:35:01.000000Z"
+        },
+        {
+            "id": 612,
+            "scrape_run_id": 39,
+            "source_external_id": "5089917",
+            "document_id": 215,
+            "status": "skipped_alias",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "skipped_alias",
+            "review_reasons": null,
+            "language_results": {
+                "ru": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "09ea9df62f9f8474bafc93404603a93ba4b7efe90f25d97a3fe5b5ee0aa0781d",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "0c89198b6b9a0bd6b3f9da2126e4935026b7eff2122316fd4fb40cd794f3e0f5",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "13957df54e1cf4c3ee75b747895a199b6a69a508a0c1b02e6b88055028426938",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "action": "skipped_alias",
+                "complete": true,
+                "languages": {
+                    "ru": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "09ea9df62f9f8474bafc93404603a93ba4b7efe90f25d97a3fe5b5ee0aa0781d",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "0c89198b6b9a0bd6b3f9da2126e4935026b7eff2122316fd4fb40cd794f3e0f5",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "13957df54e1cf4c3ee75b747895a199b6a69a508a0c1b02e6b88055028426938",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 215,
+                "source_status": "active",
+                "alias_of_item_id": 611,
+                "identity_verified": true
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 657,
+            "dispatch_token": "b7905847-b0a3-4b1b-9066-461b7d3dc650",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T00:35:01.000000Z",
+            "finished_at": "2026-10-29T00:35:01.000000Z",
+            "created_at": "2026-10-29T00:33:39.000000Z",
+            "updated_at": "2026-10-29T00:35:01.000000Z"
+        }
+    ]
+}

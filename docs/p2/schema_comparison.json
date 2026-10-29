@@ -1,0 +1,982 @@
+{
+  "development": "mening_fikrim_active",
+  "reference": "mening_fikrim_p1",
+  "schema_equal": true,
+  "sha256": "5c51a27b9d1d458ea7750d7aa68ffcd48dec9612bfab4ffa973ab2e236f385eb",
+  "schema": {
+    "columns": [
+      {
+        "table_name": "cache",
+        "column_name": "key",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "cache",
+        "column_name": "value",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "cache",
+        "column_name": "expiration",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "cache_locks",
+        "column_name": "key",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "cache_locks",
+        "column_name": "owner",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "cache_locks",
+        "column_name": "expiration",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('document_contents_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "document_id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "language",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "title",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "content",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "content_hash",
+        "data_type": "character",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "last_fetched_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 8
+      },
+      {
+        "table_name": "document_contents",
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 9
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('document_identifiers_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "document_id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "source_id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "external_id",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "language",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "source_url",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "metadata",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 8
+      },
+      {
+        "table_name": "document_identifiers",
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 9
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('document_sources_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "name",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "slug",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "type",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "base_url",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "is_active",
+        "data_type": "boolean",
+        "is_nullable": "NO",
+        "column_default": "true",
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "document_sources",
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 8
+      },
+      {
+        "table_name": "documents",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('documents_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "documents",
+        "column_name": "source_id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "documents",
+        "column_name": "external_id",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "documents",
+        "column_name": "title",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "documents",
+        "column_name": "document_type",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "documents",
+        "column_name": "document_number",
+        "data_type": "character varying",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "documents",
+        "column_name": "status",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "documents",
+        "column_name": "issued_at",
+        "data_type": "date",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 8
+      },
+      {
+        "table_name": "documents",
+        "column_name": "published_at",
+        "data_type": "date",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 9
+      },
+      {
+        "table_name": "documents",
+        "column_name": "effective_at",
+        "data_type": "date",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 10
+      },
+      {
+        "table_name": "documents",
+        "column_name": "source_url",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 11
+      },
+      {
+        "table_name": "documents",
+        "column_name": "metadata",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "column_default": "'{}'::jsonb",
+        "ordinal_position": 12
+      },
+      {
+        "table_name": "documents",
+        "column_name": "last_checked_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 13
+      },
+      {
+        "table_name": "documents",
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 14
+      },
+      {
+        "table_name": "documents",
+        "column_name": "updated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 15
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('failed_jobs_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "uuid",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "connection",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "queue",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "payload",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "exception",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "failed_jobs",
+        "column_name": "failed_at",
+        "data_type": "timestamp without time zone",
+        "is_nullable": "NO",
+        "column_default": "CURRENT_TIMESTAMP",
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "id",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "name",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "total_jobs",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "pending_jobs",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "failed_jobs",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "failed_job_ids",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "options",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "cancelled_at",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 8
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "created_at",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 9
+      },
+      {
+        "table_name": "job_batches",
+        "column_name": "finished_at",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 10
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('jobs_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "queue",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "payload",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "attempts",
+        "data_type": "smallint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "reserved_at",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "available_at",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "jobs",
+        "column_name": "created_at",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "migrations",
+        "column_name": "id",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "nextval('migrations_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "migrations",
+        "column_name": "migration",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "migrations",
+        "column_name": "batch",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": "nextval('scrape_runs_id_seq'::regclass)",
+        "ordinal_position": 1
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "source_id",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 2
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "mode",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 3
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "status",
+        "data_type": "character varying",
+        "is_nullable": "NO",
+        "column_default": "'running'::character varying",
+        "ordinal_position": 4
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "processed_count",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "0",
+        "ordinal_position": 5
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "created_count",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "0",
+        "ordinal_position": 6
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "updated_count",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "0",
+        "ordinal_position": 7
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "failed_count",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "column_default": "0",
+        "ordinal_position": 8
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "checkpoint",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 9
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "last_error",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 10
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "started_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "column_default": null,
+        "ordinal_position": 11
+      },
+      {
+        "table_name": "scrape_runs",
+        "column_name": "finished_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "column_default": null,
+        "ordinal_position": 12
+      }
+    ],
+    "constraints": [
+      {
+        "relname": "cache",
+        "conname": "cache_pkey",
+        "definition": "PRIMARY KEY (key)"
+      },
+      {
+        "relname": "cache_locks",
+        "conname": "cache_locks_pkey",
+        "definition": "PRIMARY KEY (key)"
+      },
+      {
+        "relname": "document_contents",
+        "conname": "contents_hash_check",
+        "definition": "CHECK ((content_hash ~ '^[a-f0-9]{64}$'::text))"
+      },
+      {
+        "relname": "document_contents",
+        "conname": "contents_nonempty_check",
+        "definition": "CHECK ((length(btrim(content)) > 0))"
+      },
+      {
+        "relname": "document_contents",
+        "conname": "document_contents_document_id_foreign",
+        "definition": "FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE"
+      },
+      {
+        "relname": "document_contents",
+        "conname": "document_contents_document_id_language_unique",
+        "definition": "UNIQUE (document_id, language)"
+      },
+      {
+        "relname": "document_contents",
+        "conname": "document_contents_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "document_identifiers",
+        "conname": "document_identifiers_document_id_source_id_foreign",
+        "definition": "FOREIGN KEY (document_id, source_id) REFERENCES documents(id, source_id) ON DELETE CASCADE"
+      },
+      {
+        "relname": "document_identifiers",
+        "conname": "document_identifiers_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "document_identifiers",
+        "conname": "document_identifiers_source_id_external_id_unique",
+        "definition": "UNIQUE (source_id, external_id)"
+      },
+      {
+        "relname": "document_identifiers",
+        "conname": "document_identifiers_source_id_foreign",
+        "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+      },
+      {
+        "relname": "document_sources",
+        "conname": "document_sources_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "document_sources",
+        "conname": "document_sources_slug_unique",
+        "definition": "UNIQUE (slug)"
+      },
+      {
+        "relname": "document_sources",
+        "conname": "sources_type_check",
+        "definition": "CHECK (((type)::text = ANY ((ARRAY['scraper'::character varying, 'manual'::character varying])::text[])))"
+      },
+      {
+        "relname": "documents",
+        "conname": "documents_id_source_id_unique",
+        "definition": "UNIQUE (id, source_id)"
+      },
+      {
+        "relname": "documents",
+        "conname": "documents_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "documents",
+        "conname": "documents_source_id_external_id_unique",
+        "definition": "UNIQUE (source_id, external_id)"
+      },
+      {
+        "relname": "documents",
+        "conname": "documents_source_id_foreign",
+        "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+      },
+      {
+        "relname": "documents",
+        "conname": "documents_status_check",
+        "definition": "CHECK (((status)::text = ANY ((ARRAY['active'::character varying, 'pending'::character varying, 'inactive'::character varying])::text[])))"
+      },
+      {
+        "relname": "failed_jobs",
+        "conname": "failed_jobs_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "failed_jobs",
+        "conname": "failed_jobs_uuid_unique",
+        "definition": "UNIQUE (uuid)"
+      },
+      {
+        "relname": "job_batches",
+        "conname": "job_batches_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "jobs",
+        "conname": "jobs_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "migrations",
+        "conname": "migrations_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "scrape_runs",
+        "conname": "runs_completion_check",
+        "definition": "CHECK ((((status)::text <> 'completed'::text) OR ((failed_count = 0) AND ((checkpoint @> '{\"quality_passed\": true, \"jobs_reconciled\": true, \"coverage_verified\": true, \"discovery_finished\": true, \"languages_complete\": true}'::jsonb) IS TRUE))))"
+      },
+      {
+        "relname": "scrape_runs",
+        "conname": "runs_counts_check",
+        "definition": "CHECK (((processed_count >= 0) AND (created_count >= 0) AND (updated_count >= 0) AND (failed_count >= 0) AND ((created_count + updated_count) <= processed_count) AND (failed_count <= processed_count)))"
+      },
+      {
+        "relname": "scrape_runs",
+        "conname": "runs_mode_check",
+        "definition": "CHECK (((mode)::text = ANY ((ARRAY['full'::character varying, 'daily'::character varying, 'recheck'::character varying])::text[])))"
+      },
+      {
+        "relname": "scrape_runs",
+        "conname": "runs_status_check",
+        "definition": "CHECK (((status)::text = ANY ((ARRAY['running'::character varying, 'completed'::character varying, 'completed_with_errors'::character varying, 'failed'::character varying])::text[])))"
+      },
+      {
+        "relname": "scrape_runs",
+        "conname": "scrape_runs_pkey",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "relname": "scrape_runs",
+        "conname": "scrape_runs_source_id_foreign",
+        "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+      }
+    ],
+    "indexes": [
+      {
+        "tablename": "cache",
+        "indexname": "cache_expiration_index",
+        "indexdef": "CREATE INDEX cache_expiration_index ON public.cache USING btree (expiration)"
+      },
+      {
+        "tablename": "cache",
+        "indexname": "cache_pkey",
+        "indexdef": "CREATE UNIQUE INDEX cache_pkey ON public.cache USING btree (key)"
+      },
+      {
+        "tablename": "cache_locks",
+        "indexname": "cache_locks_expiration_index",
+        "indexdef": "CREATE INDEX cache_locks_expiration_index ON public.cache_locks USING btree (expiration)"
+      },
+      {
+        "tablename": "cache_locks",
+        "indexname": "cache_locks_pkey",
+        "indexdef": "CREATE UNIQUE INDEX cache_locks_pkey ON public.cache_locks USING btree (key)"
+      },
+      {
+        "tablename": "document_contents",
+        "indexname": "document_contents_document_id_language_unique",
+        "indexdef": "CREATE UNIQUE INDEX document_contents_document_id_language_unique ON public.document_contents USING btree (document_id, language)"
+      },
+      {
+        "tablename": "document_contents",
+        "indexname": "document_contents_pkey",
+        "indexdef": "CREATE UNIQUE INDEX document_contents_pkey ON public.document_contents USING btree (id)"
+      },
+      {
+        "tablename": "document_identifiers",
+        "indexname": "document_identifiers_document_id_index",
+        "indexdef": "CREATE INDEX document_identifiers_document_id_index ON public.document_identifiers USING btree (document_id)"
+      },
+      {
+        "tablename": "document_identifiers",
+        "indexname": "document_identifiers_pkey",
+        "indexdef": "CREATE UNIQUE INDEX document_identifiers_pkey ON public.document_identifiers USING btree (id)"
+      },
+      {
+        "tablename": "document_identifiers",
+        "indexname": "document_identifiers_source_id_external_id_unique",
+        "indexdef": "CREATE UNIQUE INDEX document_identifiers_source_id_external_id_unique ON public.document_identifiers USING btree (source_id, external_id)"
+      },
+      {
+        "tablename": "document_sources",
+        "indexname": "document_sources_pkey",
+        "indexdef": "CREATE UNIQUE INDEX document_sources_pkey ON public.document_sources USING btree (id)"
+      },
+      {
+        "tablename": "document_sources",
+        "indexname": "document_sources_slug_unique",
+        "indexdef": "CREATE UNIQUE INDEX document_sources_slug_unique ON public.document_sources USING btree (slug)"
+      },
+      {
+        "tablename": "documents",
+        "indexname": "documents_id_source_id_unique",
+        "indexdef": "CREATE UNIQUE INDEX documents_id_source_id_unique ON public.documents USING btree (id, source_id)"
+      },
+      {
+        "tablename": "documents",
+        "indexname": "documents_pkey",
+        "indexdef": "CREATE UNIQUE INDEX documents_pkey ON public.documents USING btree (id)"
+      },
+      {
+        "tablename": "documents",
+        "indexname": "documents_source_id_external_id_unique",
+        "indexdef": "CREATE UNIQUE INDEX documents_source_id_external_id_unique ON public.documents USING btree (source_id, external_id)"
+      },
+      {
+        "tablename": "documents",
+        "indexname": "documents_source_id_status_last_checked_at_index",
+        "indexdef": "CREATE INDEX documents_source_id_status_last_checked_at_index ON public.documents USING btree (source_id, status, last_checked_at)"
+      },
+      {
+        "tablename": "documents",
+        "indexname": "documents_status_effective_at_index",
+        "indexdef": "CREATE INDEX documents_status_effective_at_index ON public.documents USING btree (status, effective_at)"
+      },
+      {
+        "tablename": "failed_jobs",
+        "indexname": "failed_jobs_connection_queue_failed_at_index",
+        "indexdef": "CREATE INDEX failed_jobs_connection_queue_failed_at_index ON public.failed_jobs USING btree (connection, queue, failed_at)"
+      },
+      {
+        "tablename": "failed_jobs",
+        "indexname": "failed_jobs_pkey",
+        "indexdef": "CREATE UNIQUE INDEX failed_jobs_pkey ON public.failed_jobs USING btree (id)"
+      },
+      {
+        "tablename": "failed_jobs",
+        "indexname": "failed_jobs_uuid_unique",
+        "indexdef": "CREATE UNIQUE INDEX failed_jobs_uuid_unique ON public.failed_jobs USING btree (uuid)"
+      },
+      {
+        "tablename": "job_batches",
+        "indexname": "job_batches_pkey",
+        "indexdef": "CREATE UNIQUE INDEX job_batches_pkey ON public.job_batches USING btree (id)"
+      },
+      {
+        "tablename": "jobs",
+        "indexname": "jobs_pkey",
+        "indexdef": "CREATE UNIQUE INDEX jobs_pkey ON public.jobs USING btree (id)"
+      },
+      {
+        "tablename": "jobs",
+        "indexname": "jobs_queue_index",
+        "indexdef": "CREATE INDEX jobs_queue_index ON public.jobs USING btree (queue)"
+      },
+      {
+        "tablename": "migrations",
+        "indexname": "migrations_pkey",
+        "indexdef": "CREATE UNIQUE INDEX migrations_pkey ON public.migrations USING btree (id)"
+      },
+      {
+        "tablename": "scrape_runs",
+        "indexname": "scrape_runs_pkey",
+        "indexdef": "CREATE UNIQUE INDEX scrape_runs_pkey ON public.scrape_runs USING btree (id)"
+      },
+      {
+        "tablename": "scrape_runs",
+        "indexname": "scrape_runs_source_id_started_at_index",
+        "indexdef": "CREATE INDEX scrape_runs_source_id_started_at_index ON public.scrape_runs USING btree (source_id, started_at)"
+      },
+      {
+        "tablename": "scrape_runs",
+        "indexname": "scrape_runs_source_id_status_index",
+        "indexdef": "CREATE INDEX scrape_runs_source_id_status_index ON public.scrape_runs USING btree (source_id, status)"
+      }
+    ]
+  }
+}

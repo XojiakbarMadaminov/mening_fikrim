@@ -1,0 +1,22 @@
+{
+  "new_content_representations": 108,
+  "new_formats": {
+    "html": 108
+  },
+  "new_languages": {
+    "uz-Cyrl": 39,
+    "uz-Latn": 39,
+    "ru": 30
+  },
+  "new_quality": {
+    "verified": 105,
+    "needs_review": 3
+  },
+  "new_review_issues": {
+    "complex_table_semantics_review": 3,
+    "quality_review": 3
+  },
+  "failed_extraction_representations": 0,
+  "pdf_ocr": "pdf_ocr_verification.json",
+  "scope": "New unique canonical content rows; controls and alias/repeat executions counted separately."
+}

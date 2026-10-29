@@ -1,0 +1,53 @@
+{
+  "F": {
+    "url": "https://lex.uz/uz/search/court?lang=4&status=Y&court_form=F",
+    "total": 0,
+    "pages": [
+      {
+        "total": 0,
+        "rows": [],
+        "next": null,
+        "empty_confirmed": true,
+        "row_numbers": []
+      }
+    ],
+    "unique_ids": [],
+    "duplicate_records": 0,
+    "reconciled": true,
+    "stopped_at_budget": false
+  },
+  "H": {
+    "url": "https://lex.uz/uz/search/court?lang=4&status=Y&court_form=H",
+    "total": 0,
+    "pages": [
+      {
+        "total": 0,
+        "rows": [],
+        "next": null,
+        "empty_confirmed": true,
+        "row_numbers": []
+      }
+    ],
+    "unique_ids": [],
+    "duplicate_records": 0,
+    "reconciled": true,
+    "stopped_at_budget": false
+  },
+  "J": {
+    "url": "https://lex.uz/uz/search/court?lang=4&status=Y&court_form=J",
+    "total": 0,
+    "pages": [
+      {
+        "total": 0,
+        "rows": [],
+        "next": null,
+        "empty_confirmed": true,
+        "row_numbers": []
+      }
+    ],
+    "unique_ids": [],
+    "duplicate_records": 0,
+    "reconciled": true,
+    "stopped_at_budget": false
+  }
+}

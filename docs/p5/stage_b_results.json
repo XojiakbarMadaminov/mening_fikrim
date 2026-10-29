@@ -1,0 +1,3241 @@
+{
+    "at": "2026-10-28T23:44:42+05:00",
+    "rows": {
+        "documents": 59,
+        "document_identifiers": 161,
+        "document_contents": 132,
+        "scrape_runs": 16,
+        "scrape_run_items": 228,
+        "failed_jobs": 24,
+        "jobs": 0,
+        "migrations": 9
+    },
+    "contents": {
+        "1": {
+            "document_id": 1,
+            "language": "uz-Latn",
+            "hash": "f4aa01ce50a5d59ae66c9525da0f97bec0a95cc5d809a640a5a60392441ad9bd",
+            "hash_matches": true,
+            "characters": 721460,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-6257288",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "2": {
+            "document_id": 1,
+            "language": "ru",
+            "hash": "6a8eadeab8857f2dfcca71956dabff6f6ce9087237ac231dc038debfdef1efcd",
+            "hash_matches": true,
+            "characters": 664612,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/6257291",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "3": {
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "hash": "57aa68e6725200d239bef9e7c458eccc1aebfd377d6ae1cb3b1edc26015ae2fe",
+            "hash_matches": true,
+            "characters": 680270,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/6257288",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "4": {
+            "document_id": 2,
+            "language": "uz-Latn",
+            "hash": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27",
+            "hash_matches": true,
+            "characters": 5182,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8519448",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "5": {
+            "document_id": 2,
+            "language": "uz-Cyrl",
+            "hash": "b2d2160b22f267636a9768631f834f60cc626eb2c9463f682be39299e70be975",
+            "hash_matches": true,
+            "characters": 4910,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8519448",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "6": {
+            "document_id": 3,
+            "language": "uz-Latn",
+            "hash": "9738138bbc429e427b20a2f1517aa14cb19898addf7a4b5ce2b799ab4e4d8947",
+            "hash_matches": true,
+            "characters": 3295,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8498641",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "7": {
+            "document_id": 3,
+            "language": "uz-Cyrl",
+            "hash": "f38c8c349fd792ba6e893ebcdb19f936eb3774f8353fa12ba7dc7da308fffcaa",
+            "hash_matches": true,
+            "characters": 3126,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8498641",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "8": {
+            "document_id": 4,
+            "language": "uz-Latn",
+            "hash": "94a4fb280a56ac6082a7614b0c8a4697d48e3a75fbfd1816ca0ca017045f9448",
+            "hash_matches": true,
+            "characters": 2115,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8496009",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "9": {
+            "document_id": 4,
+            "language": "uz-Cyrl",
+            "hash": "acd433b621e0391b5d402c1a113311e82e8fb376e19ec8f60d29ba137e0aeac3",
+            "hash_matches": true,
+            "characters": 2036,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8496009",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "10": {
+            "document_id": 5,
+            "language": "uz-Latn",
+            "hash": "57a524c395f43514ba433c98c5aa3a1f4aecf56066b01377560d3ef5b8f03383",
+            "hash_matches": true,
+            "characters": 10660,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8506802",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "11": {
+            "document_id": 5,
+            "language": "en",
+            "hash": "dfc66579055ecc76d9fedb73159cac458b1d0f5a97c5ba0d0c0225ec5f2ff58c",
+            "hash_matches": true,
+            "characters": 9643,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8506870",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "12": {
+            "document_id": 5,
+            "language": "uz-Cyrl",
+            "hash": "322ff2446e915e697ec5ae05b1fb6524895c2ac488670332472f9feef412edd3",
+            "hash_matches": true,
+            "characters": 10143,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8506802",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "13": {
+            "document_id": 6,
+            "language": "uz-Latn",
+            "hash": "c202d10e913747e1833560354c72027d17341c18a5bdc790b19997fcb4d1e537",
+            "hash_matches": true,
+            "characters": 7762,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8502443",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "14": {
+            "document_id": 6,
+            "language": "en",
+            "hash": "2cfb744a546d5576cebbe679412792b0422131cc547203bd95353ce83d5f166b",
+            "hash_matches": true,
+            "characters": 6975,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8502762",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "15": {
+            "document_id": 6,
+            "language": "uz-Cyrl",
+            "hash": "e56cdc01ec331b635efad9458b24a599804c4063b658f4b53bf394514dddeb85",
+            "hash_matches": true,
+            "characters": 7352,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8502443",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "16": {
+            "document_id": 7,
+            "language": "uz-Latn",
+            "hash": "42e2d384cc89f82a022209d9b34679b304b64a26e92692014a643c907574686d",
+            "hash_matches": true,
+            "characters": 4326,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8501541",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "17": {
+            "document_id": 7,
+            "language": "en",
+            "hash": "d5263c0d3925d0f153435cccf6b05c885223ac4d26e7e36304158e4f1ee7ea0b",
+            "hash_matches": true,
+            "characters": 3827,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8501623",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "18": {
+            "document_id": 7,
+            "language": "uz-Cyrl",
+            "hash": "9e31fd36218040ab899d91549ca34af8960e556577d0f061e08d5df406ce141c",
+            "hash_matches": true,
+            "characters": 4082,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8501541",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "19": {
+            "document_id": 8,
+            "language": "uz-Latn",
+            "hash": "88022e48131451431ec7bdd17a846462893e31999e5faf0a7284926bbefd701a",
+            "hash_matches": true,
+            "characters": 16005,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8520357",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "20": {
+            "document_id": 8,
+            "language": "uz-Cyrl",
+            "hash": "da2e0a41a72dccc9a0c68889d0508bfd1b76f2199a790a754ea248b7ea6939ca",
+            "hash_matches": true,
+            "characters": 15257,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8520357",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "21": {
+            "document_id": 9,
+            "language": "uz-Latn",
+            "hash": "14c62d6ad92efc0087ab558c2493fdd62229f1b526595c537fd71c76c709416f",
+            "hash_matches": true,
+            "characters": 7041,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8503180",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "22": {
+            "document_id": 9,
+            "language": "uz-Cyrl",
+            "hash": "0f9bb603e59f244c8d32021796999f8e981ec1da62931e892341eda87e822e99",
+            "hash_matches": true,
+            "characters": 6678,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8503180",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "23": {
+            "document_id": 10,
+            "language": "uz-Latn",
+            "hash": "22700b186d9072b268400cc21df5a92af6a415e5e3c1c2a9f2c617f21c6dce05",
+            "hash_matches": true,
+            "characters": 79297,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-7613661",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "24": {
+            "document_id": 10,
+            "language": "ru",
+            "hash": "cdd73bbe9388e577b5a550fac74dbae57d7a24df31d7f1a5acb7077fcbb23271",
+            "hash_matches": true,
+            "characters": 71650,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7613664",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "25": {
+            "document_id": 10,
+            "language": "uz-Cyrl",
+            "hash": "0e66169c176f0bc96e279546cca623fd74efe4d6ab7071f22bd99d058e711914",
+            "hash_matches": true,
+            "characters": 75009,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7613661",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "26": {
+            "document_id": 11,
+            "language": "uz-Latn",
+            "hash": "7bacdd608561c735837e47720ff4ab0fa3de9fdc4d1633b717d29856a3519b9e",
+            "hash_matches": true,
+            "characters": 22586,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-7303292",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "27": {
+            "document_id": 11,
+            "language": "ru",
+            "hash": "bbfa1a379496ac892c84af7c7709afcb4a12832588a7cc3494be0745c340fa42",
+            "hash_matches": true,
+            "characters": 21954,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7303298",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "28": {
+            "document_id": 11,
+            "language": "uz-Cyrl",
+            "hash": "6623854c54f0b2680d1caf9179ffd6b105faa1bf42e2f389a2dc06397f838422",
+            "hash_matches": true,
+            "characters": 21448,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7303292",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "29": {
+            "document_id": 12,
+            "language": "uz-Latn",
+            "hash": "c34667fe5b649816437c5c3c27dc05f6533347e726b9c0caefdb2ccd2b93c7ff",
+            "hash_matches": true,
+            "characters": 17049,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-7290944",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "30": {
+            "document_id": 12,
+            "language": "ru",
+            "hash": "e981f2455e6617d93e026d1737221f0ef986d26c1585eecfe54b8cc7889b7afc",
+            "hash_matches": true,
+            "characters": 15619,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7291209",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "31": {
+            "document_id": 12,
+            "language": "uz-Cyrl",
+            "hash": "505dd48acad652e0a08b1c8da02e1a1454de2811861d2856c82ec3f5062d304c",
+            "hash_matches": true,
+            "characters": 16067,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7290944",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "32": {
+            "document_id": 13,
+            "language": "uz-Latn",
+            "hash": "1f6258ca98a7dd1179b3270460f2edcddd6f15c0bd5ce49880a7f158bceb4343",
+            "hash_matches": true,
+            "characters": 1115,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8557240",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "33": {
+            "document_id": 13,
+            "language": "uz-Cyrl",
+            "hash": "8f8dde29537e4e4707bbc13472babf28843b754c497e27ebe9f0d837b83f4ade",
+            "hash_matches": true,
+            "characters": 1075,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8557240",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "34": {
+            "document_id": 14,
+            "language": "uz-Latn",
+            "hash": "91082c21ebc74231730d63f42666ff003474778ca85c0a6a5c78951d0741643d",
+            "hash_matches": true,
+            "characters": 1734,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8546701",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "35": {
+            "document_id": 14,
+            "language": "uz-Cyrl",
+            "hash": "5957f046a15a3d2314e464f90a4445d08c34e4e48d96ef1b09fe2ee48fdd0379",
+            "hash_matches": true,
+            "characters": 1659,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8546701",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "36": {
+            "document_id": 15,
+            "language": "uz-Latn",
+            "hash": "e518f7d7129040b0e04f48a1a14d12886e711e8e5756f2067e0702db00d004bd",
+            "hash_matches": true,
+            "characters": 1706,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8547769",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "37": {
+            "document_id": 15,
+            "language": "uz-Cyrl",
+            "hash": "6b0ba579f08a7d9d9dcda184f538938416215cf58bf09577953d7a08d3b0ec16",
+            "hash_matches": true,
+            "characters": 1631,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8547769",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "38": {
+            "document_id": 16,
+            "language": "ru",
+            "hash": "7b4925c6eaf968a3b618f574b162a476c98a6b7f1b46055eff8e60bbce1cd39e",
+            "hash_matches": true,
+            "characters": 3431,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8548643",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "39": {
+            "document_id": 16,
+            "language": "uz-Cyrl",
+            "hash": "c1e425bb0ece1c9c754240d9537f7c86fd8a8b76d54caad287079ded9928b800",
+            "hash_matches": true,
+            "characters": 3728,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8548637",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "40": {
+            "document_id": 16,
+            "language": "uz-Latn",
+            "hash": "a3d0d7b6e0c000dd771ca6c76bb6e885091130f0c1fb792c24ed969b921bf148",
+            "hash_matches": true,
+            "characters": 3892,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8548637",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "41": {
+            "document_id": 17,
+            "language": "uz-Latn",
+            "hash": "a25fcf8d7c489c0cf888003fd28d0812c766becbe543ed2c77836f5880093ddb",
+            "hash_matches": true,
+            "characters": 4085,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "unextracted_images",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8548754",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "42": {
+            "document_id": 17,
+            "language": "uz-Cyrl",
+            "hash": "42090b5bbd8ad00dcd67355cb68255a3270e3dc4192fc05597d8888fe736f3ba",
+            "hash_matches": true,
+            "characters": 3944,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "unextracted_images",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8548754",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "43": {
+            "document_id": 18,
+            "language": "uz-Latn",
+            "hash": "f81f4a13877a721dfc827fac00f2866d9061fa96488989278acd475e3e6f3a32",
+            "hash_matches": true,
+            "characters": 489684,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554309",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "44": {
+            "document_id": 18,
+            "language": "uz-Cyrl",
+            "hash": "7b8b64176db429aafb27c4b323d27c24e04b71d75206780a4c2bd8db60c63c61",
+            "hash_matches": true,
+            "characters": 475634,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8554309",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "45": {
+            "document_id": 19,
+            "language": "uz-Latn",
+            "hash": "aa2b27b59a1d6b8db60afd4fa8dc1cda866445adf30ef8b438ce6f9c78d3d4c7",
+            "hash_matches": true,
+            "characters": 250010,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-7655343",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "46": {
+            "document_id": 19,
+            "language": "ru",
+            "hash": "3a304b465a42a93a8820640ec21f8d5a220f6df4851c7e404f87547dae4db278",
+            "hash_matches": true,
+            "characters": 224788,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7658581",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "47": {
+            "document_id": 19,
+            "language": "en",
+            "hash": "aa3297aba31f593c0725202bbab352e963daa267ba52ad6d3b2d5d92bd2e44b8",
+            "hash_matches": true,
+            "characters": 229759,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7658590",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "48": {
+            "document_id": 19,
+            "language": "uz-Cyrl",
+            "hash": "4b39fa4c7a15949fd2c2cb9e24dd258a46140f7e61fd480bbbea63291125cc95",
+            "hash_matches": true,
+            "characters": 237764,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/7655343",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "49": {
+            "document_id": 20,
+            "language": "uz-Latn",
+            "hash": "375fe41518c0a63e5468113e296197fc8d774fcbbee9e11a046a5cfb42f53c9b",
+            "hash_matches": true,
+            "characters": 556083,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "unextracted_images",
+                "unsupported_superscript",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8540314",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "50": {
+            "document_id": 20,
+            "language": "uz-Cyrl",
+            "hash": "dd693a6bd4c1b60d6ed00ed7a2149a7dc0b0424874c713d36f826b5d8e88e936",
+            "hash_matches": true,
+            "characters": 542055,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "unextracted_images",
+                "unsupported_superscript",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8540314",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "51": {
+            "document_id": 21,
+            "language": "uz-Latn",
+            "hash": "2927f07da6715e7dba1938b7811c9f51bbc8b14d08ffe8eb312ddc04f5d90a27",
+            "hash_matches": true,
+            "characters": 139280,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "unsupported_superscript",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8102878",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "52": {
+            "document_id": 21,
+            "language": "uz-Cyrl",
+            "hash": "0528743111ce26e3ccb262b1177cba78f9145d00ba3a3edc3d1e7fe9a7005fa6",
+            "hash_matches": true,
+            "characters": 133720,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "unsupported_superscript",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8102878",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "53": {
+            "document_id": 22,
+            "language": "uz-Latn",
+            "hash": "4983b656408fe94e88de727fee610ca60ed32e6ea1f7971e623473d617a8543c",
+            "hash_matches": true,
+            "characters": 21154,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8557098",
+            "format": "pdf",
+            "pending_candidate_hash": null
+        },
+        "54": {
+            "document_id": 23,
+            "language": "uz-Latn",
+            "hash": "e304c6c9c9ae26ae6871f0765dd4676412a04805a9e2153582a33cf4529515fc",
+            "hash_matches": true,
+            "characters": 22433,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554315",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "55": {
+            "document_id": 23,
+            "language": "uz-Cyrl",
+            "hash": "3dc6f1fdb74aa36c4b868789b50d6b93e5862e066423260e16e372da3f80766a",
+            "hash_matches": true,
+            "characters": 21235,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8554315",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "56": {
+            "document_id": 24,
+            "language": "uz-Latn",
+            "hash": "07555ca6b78ec9315af3e4d4c97c4f2ecec0acbfb43a44f969e9de67225452f2",
+            "hash_matches": true,
+            "characters": 37021,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554432",
+            "format": "pdf",
+            "pending_candidate_hash": null
+        },
+        "57": {
+            "document_id": 25,
+            "language": "uz-Latn",
+            "hash": "6478d7d6b5e079436b2f5944dd28454368261dbf9cf0d99821c7e5e36764e88f",
+            "hash_matches": true,
+            "characters": 6587,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554353",
+            "format": "pdf",
+            "pending_candidate_hash": null
+        },
+        "58": {
+            "document_id": 26,
+            "language": "uz-Latn",
+            "hash": "475e852a1c2ba5c230a80e23bf54e10eea93d2b68e6502d313e3e9b34bcfa229",
+            "hash_matches": true,
+            "characters": 22257,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554326",
+            "format": "pdf",
+            "pending_candidate_hash": null
+        },
+        "59": {
+            "document_id": 27,
+            "language": "uz-Latn",
+            "hash": "4cc61ca38014ad0c25b3fe41cec33b43d91eb477f00c8db3af821b29f4d23466",
+            "hash_matches": true,
+            "characters": 21150,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554321",
+            "format": "pdf",
+            "pending_candidate_hash": null
+        },
+        "60": {
+            "document_id": 28,
+            "language": "uz-Latn",
+            "hash": "913fc6eef7e6ea07e789a9606859da472bc8aa7971f32ac27d2307ab381cbf84",
+            "hash_matches": true,
+            "characters": 38635,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553258",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "61": {
+            "document_id": 28,
+            "language": "uz-Cyrl",
+            "hash": "5e17416a3ad31c2138b83ad150eecc157f006c3d3f8c52221a9c38118caa0d50",
+            "hash_matches": true,
+            "characters": 36627,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8553258",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "62": {
+            "document_id": 29,
+            "language": "uz-Latn",
+            "hash": "3f821f4a287da2ca781677aebd592aa9fa0801bb932bd4c0b8586b5e490e610c",
+            "hash_matches": true,
+            "characters": 37432,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553692",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "63": {
+            "document_id": 29,
+            "language": "uz-Cyrl",
+            "hash": "a4ac7404f725da99f8f836309e49a339e2a29ab353f699a76b1765bc0455a3ad",
+            "hash_matches": true,
+            "characters": 35561,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8553692",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "64": {
+            "document_id": 30,
+            "language": "ru",
+            "hash": "c6b2e0bdd8094f8922fdefe04a57373ef039f178a474e5430193c7c17dedc72f",
+            "hash_matches": true,
+            "characters": 4138,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1599418",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "65": {
+            "document_id": 30,
+            "language": "uz-Cyrl",
+            "hash": "fe7ee4c6ce4aca5e2c1da5a509868d49f2ef5d00ecf7ecb180c75180c014f4c9",
+            "hash_matches": true,
+            "characters": 4465,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1599416",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "66": {
+            "document_id": 30,
+            "language": "uz-Latn",
+            "hash": "198358507cf496016e7413e241fb0e2536ee79a52db725f95fc8a7ee76ad2c82",
+            "hash_matches": true,
+            "characters": 4681,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-1599416",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "67": {
+            "document_id": 31,
+            "language": "uz-Latn",
+            "hash": "400467afa1529b96a8ac20f504f10a6362d7255674c02d7741a37a8921bb4ac3",
+            "hash_matches": true,
+            "characters": 226,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4928235",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "68": {
+            "document_id": 31,
+            "language": "uz-Cyrl",
+            "hash": "ef33cf9fafe8824e56b8e26ba722804fbe44b94a19edaf480d265e9a47367299",
+            "hash_matches": true,
+            "characters": 218,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4928235",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "69": {
+            "document_id": 32,
+            "language": "ru",
+            "hash": "6d1e0791017048cb83ed51c202cfdf96f360414e64c80c80e2cbb58fefdf9ce3",
+            "hash_matches": true,
+            "characters": 6017,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5440990",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "70": {
+            "document_id": 32,
+            "language": "uz-Cyrl",
+            "hash": "3a5e9dd516d023d4e3626b96110224aee443ff408179a54df01668dfdf57f45b",
+            "hash_matches": true,
+            "characters": 153,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5440987",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "71": {
+            "document_id": 32,
+            "language": "uz-Latn",
+            "hash": "d70191b225c0b876199c365d46ecee887d3e48446a85e1cd65b64bd48fa0e195",
+            "hash_matches": true,
+            "characters": 159,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5440987",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "72": {
+            "document_id": 33,
+            "language": "uz-Latn",
+            "hash": "416ea73354c146e431378d15452b9feca3abdd0d6a96758b47572d08f81865e8",
+            "hash_matches": true,
+            "characters": 7373,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5289314",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "73": {
+            "document_id": 33,
+            "language": "uz-Cyrl",
+            "hash": "1c3ef6bf02662161fd706f709fb9f134547a6dc84da07774465e751af3a547fe",
+            "hash_matches": true,
+            "characters": 7067,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5289314",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "74": {
+            "document_id": 34,
+            "language": "uz-Cyrl",
+            "hash": "f549c04801bfed370ab43006fdfc63b6ac6bbbb39756bd978f5f29372e669b72",
+            "hash_matches": true,
+            "characters": 17415,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5208013",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "75": {
+            "document_id": 34,
+            "language": "uz-Latn",
+            "hash": "90225b6e9e93d1acfa6d14a22ecc983fd2d2f9fbd34c5fc012051d207511c5d1",
+            "hash_matches": true,
+            "characters": 17974,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5208013",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "76": {
+            "document_id": 35,
+            "language": "uz-Latn",
+            "hash": "dddae9a0ad4881a9aad256a4c139caffe52f8b9bd49516382b0249e2688a91ee",
+            "hash_matches": true,
+            "characters": 243,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4928151",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "77": {
+            "document_id": 35,
+            "language": "uz-Cyrl",
+            "hash": "4c1cf83b274228d3805ee832deec7e51e33236c4519adb37242eb6ad4da4c78d",
+            "hash_matches": true,
+            "characters": 232,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4928151",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "78": {
+            "document_id": 36,
+            "language": "uz-Cyrl",
+            "hash": "4094200182fe79dead55d2e2f400a6ca95225788c2d07e4df93d1744bd81fcf5",
+            "hash_matches": true,
+            "characters": 10197,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4986382",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "79": {
+            "document_id": 36,
+            "language": "uz-Latn",
+            "hash": "b7952344656f2e4243b92441ea983615cc15ed8ad5021f2b8deb0e950e93baab",
+            "hash_matches": true,
+            "characters": 10722,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4986382",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "80": {
+            "document_id": 37,
+            "language": "uz-Cyrl",
+            "hash": "1756fd060653887f5e51b7a803fae47b3d7102d0f2881a789f11138eb03600b5",
+            "hash_matches": true,
+            "characters": 4997,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1597950",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "81": {
+            "document_id": 37,
+            "language": "ru",
+            "hash": "2d1378987ffe306bdc4dc150e230059abac7c9ffab7b834f813597494dd0686a",
+            "hash_matches": true,
+            "characters": 4687,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1597946",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "82": {
+            "document_id": 37,
+            "language": "uz-Latn",
+            "hash": "eddadb04d161838fe44d3fc9d4a271e3cac8245eda1c231fdb93f9d7fe5376f1",
+            "hash_matches": true,
+            "characters": 5274,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-1597950",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "83": {
+            "document_id": 38,
+            "language": "en",
+            "hash": "6833f8e3cadcf9330f3922f48e674655d41c4a0e75b2852474aa65d02841f2cc",
+            "hash_matches": true,
+            "characters": 4543,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "missing_document_heading",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5137552",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "84": {
+            "document_id": 38,
+            "language": "uz-Cyrl",
+            "hash": "63cc37bc07f324db9df503e5e17f377c78b606a47f1122cb81e25ec22f9672f1",
+            "hash_matches": true,
+            "characters": 4523,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "missing_document_heading",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5137320",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "85": {
+            "document_id": 38,
+            "language": "uz-Latn",
+            "hash": "220130845bee061e569a603c7b4fba18527f0aefd06cdaadafa2433a53cba971",
+            "hash_matches": true,
+            "characters": 4761,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "missing_document_heading",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5137320",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "86": {
+            "document_id": 39,
+            "language": "uz-Cyrl",
+            "hash": "0cc9224329f3f276d517c29a3789ec67c9485ce54cb49076daaa641d5067c52f",
+            "hash_matches": true,
+            "characters": 285,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5279048",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "87": {
+            "document_id": 39,
+            "language": "uz-Latn",
+            "hash": "be001fa2dc1acc67673346ef53ab288ef7762351dee795c6ce721eda6ddf47df",
+            "hash_matches": true,
+            "characters": 302,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5279048",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "88": {
+            "document_id": 40,
+            "language": "uz-Cyrl",
+            "hash": "21f68399724e1631e492183166c96f61f59f54af4808e4be627d37ae57eb2b71",
+            "hash_matches": true,
+            "characters": 232,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4752666",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "89": {
+            "document_id": 40,
+            "language": "uz-Latn",
+            "hash": "5f7f574eea7ce0f7be25aa7d53732fcfd81480a65b1a7769d5be63220ed5ed65",
+            "hash_matches": true,
+            "characters": 244,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4752666",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "90": {
+            "document_id": 41,
+            "language": "uz-Cyrl",
+            "hash": "8c39bde0d2c01b39340f6355b6f21121c64f4372df8b40e34275eddfe6b25c64",
+            "hash_matches": true,
+            "characters": 7414,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4986081",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "91": {
+            "document_id": 42,
+            "language": "uz-Latn",
+            "hash": "a85d7d46f16de054524804e0953054fbb436c2e20b84c6661467b3147b53b442",
+            "hash_matches": true,
+            "characters": 215,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5145413",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "92": {
+            "document_id": 42,
+            "language": "uz-Cyrl",
+            "hash": "a4ee102f1b0fe52b7fd151b5fa667f6e643b293314f935df9e62fe8de3f7a6be",
+            "hash_matches": true,
+            "characters": 205,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5145413",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "93": {
+            "document_id": 43,
+            "language": "uz-Latn",
+            "hash": "de4208e9d3329fdf9fad396fc191d7a610ec10c5538bb12ffb54ca88c81a40ad",
+            "hash_matches": true,
+            "characters": 190442,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4947843",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "94": {
+            "document_id": 43,
+            "language": "uz-Cyrl",
+            "hash": "bd2c91b8631c1a8ec2791a5211d6781e7cb0e59c131601241742f219a16e7ae4",
+            "hash_matches": true,
+            "characters": 181174,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4947843",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "95": {
+            "document_id": 44,
+            "language": "uz-Cyrl",
+            "hash": "8b98b6fec7195c49bbd34b6adc7e4c09aa04832ddb3aeb7676f131017be381e9",
+            "hash_matches": true,
+            "characters": 1842,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5279732",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "96": {
+            "document_id": 44,
+            "language": "uz-Latn",
+            "hash": "e072daa6ade710cc6769baa1f5cf645f5a0162dbf4a893b7e2719f275387c6ab",
+            "hash_matches": true,
+            "characters": 1908,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5279732",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "97": {
+            "document_id": 45,
+            "language": "uz-Cyrl",
+            "hash": "1031d3e8642535283b07b1562bebfc282d3b868214ee4b0a5a04868e7dd30d94",
+            "hash_matches": true,
+            "characters": 26902,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1597456",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "98": {
+            "document_id": 45,
+            "language": "ru",
+            "hash": "ea26d79f53a3bcb0c865d5acb1272c43e1e387f19c866028d5b998a3688564b5",
+            "hash_matches": true,
+            "characters": 968,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1597458",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "99": {
+            "document_id": 45,
+            "language": "uz-Latn",
+            "hash": "6ec89c268554cf3f2a7ea72588a64549b06a693b4ee106113e0e8a371757d783",
+            "hash_matches": true,
+            "characters": 28608,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-1597456",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "100": {
+            "document_id": 46,
+            "language": "uz-Cyrl",
+            "hash": "6455980359fe6af84fe5e78801f3544beb92d63e78695ffbb0d9c9a6d40a8121",
+            "hash_matches": true,
+            "characters": 175,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4920310",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "101": {
+            "document_id": 46,
+            "language": "uz-Latn",
+            "hash": "a69de7992ed5460c6e39b49f74626ea6c3f8c4f821353caf02ee8e9850f7c648",
+            "hash_matches": true,
+            "characters": 182,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4920310",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "102": {
+            "document_id": 47,
+            "language": "uz-Cyrl",
+            "hash": "dd62cbbd5d1bf4b44a16de4123605fbcd7ee4447432bad5c331bbe9b24fb2de7",
+            "hash_matches": true,
+            "characters": 142113,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4953970",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "103": {
+            "document_id": 47,
+            "language": "uz-Latn",
+            "hash": "a5121340a8ed2b4b890cc84d5e08c46db8e1c8e606dacf7947084756c233bb21",
+            "hash_matches": true,
+            "characters": 149151,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4953970",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "104": {
+            "document_id": 48,
+            "language": "uz-Cyrl",
+            "hash": "28c898d6373734044e57f8bde3fdbc382c9d45fa1f9beeaf0f74b5c75aeeee69",
+            "hash_matches": true,
+            "characters": 13905,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8409789",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "105": {
+            "document_id": 48,
+            "language": "uz-Latn",
+            "hash": "f9d9c02ffbc74c34006c9997677e0c3b07f4fa9bd48b6bed4bf7802b18925609",
+            "hash_matches": true,
+            "characters": 14611,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "complex_table_semantics_review",
+                "quality_review"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8409789",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "106": {
+            "document_id": 49,
+            "language": "ru",
+            "hash": "52985d97267357d657d4e36df4f8e347694ffc1466d536129311ffc999ad8938",
+            "hash_matches": true,
+            "characters": 926,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5277170",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "107": {
+            "document_id": 49,
+            "language": "uz-Cyrl",
+            "hash": "03bc186c908109ca046daca367f2b1b412f54697eb9a9594fca8ab07c8649787",
+            "hash_matches": true,
+            "characters": 981,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5277165",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "108": {
+            "document_id": 49,
+            "language": "uz-Latn",
+            "hash": "169bcf759890e3b41220ea2dad86847528e7f8a607fcc3894641d6b466ac9fea",
+            "hash_matches": true,
+            "characters": 1028,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5277165",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "109": {
+            "document_id": 50,
+            "language": "uz-Cyrl",
+            "hash": "9fbeb63cc692c9adb25e603222620f01f24475015b2620798333c21feba2ca5a",
+            "hash_matches": true,
+            "characters": 247,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/4854754",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "110": {
+            "document_id": 50,
+            "language": "uz-Latn",
+            "hash": "331e589abd4dbb61aa1a0975382b3f17869105f5904b5e63fe0d22114813e33d",
+            "hash_matches": true,
+            "characters": 260,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-4854754",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "111": {
+            "document_id": 51,
+            "language": "ru",
+            "hash": "77ab7dd1c1068d2e987da72fcbd9d0c864e56db1c3e89aa6b2ceb6403254dd84",
+            "hash_matches": true,
+            "characters": 28430,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1583936",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "112": {
+            "document_id": 51,
+            "language": "uz-Cyrl",
+            "hash": "8b85643f6e134aef10d1e0fa9c47b194b5c64e92ffb73abc7f34cbadbb9bd666",
+            "hash_matches": true,
+            "characters": 27484,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1583934",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "113": {
+            "document_id": 51,
+            "language": "uz-Latn",
+            "hash": "af9d28e855f56c4b382a34b10c10018219fcbcde80bc9acbd5cde3ae16002ed6",
+            "hash_matches": true,
+            "characters": 27928,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "invalid_text"
+            ],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-1583934",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "114": {
+            "document_id": 52,
+            "language": "uz-Cyrl",
+            "hash": "582b1dc323a1263c40c0aa95cca56b51e8da91983679b08cb3c9ea862f602d7c",
+            "hash_matches": true,
+            "characters": 212,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5145547",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "115": {
+            "document_id": 52,
+            "language": "uz-Latn",
+            "hash": "42d63160a8b6937eb1eee296e53ed0d9e44f6d842e6d95e071dd9630abd632bd",
+            "hash_matches": true,
+            "characters": 223,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5145547",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "116": {
+            "document_id": 53,
+            "language": "uz-Cyrl",
+            "hash": "3e42e65b7b6d8874ea084efc8ad8b0993fa06eabfb07e230a28b2b8ab28ddeed",
+            "hash_matches": true,
+            "characters": 5515,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8395796",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "117": {
+            "document_id": 53,
+            "language": "uz-Latn",
+            "hash": "568a2945e12b9ea72356d027070c83012139840d8f6df0d5da9779b64f638c93",
+            "hash_matches": true,
+            "characters": 5851,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8395796",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "118": {
+            "document_id": 54,
+            "language": "ru",
+            "hash": "06af31b1f9dc362409b23bd4321be573cd0a36225c25ccb5065af8394093a1c4",
+            "hash_matches": true,
+            "characters": 546,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5276997",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "119": {
+            "document_id": 54,
+            "language": "uz-Cyrl",
+            "hash": "9acebc0489e363678ab6a8cb143255913cced79bc90793aee2c55e4035538c65",
+            "hash_matches": true,
+            "characters": 573,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5276993",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "120": {
+            "document_id": 54,
+            "language": "uz-Latn",
+            "hash": "56232ca67eba99f9be81cabcad13040160d2ec33e3c1278797d34f5c1890a2d4",
+            "hash_matches": true,
+            "characters": 592,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5276993",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "121": {
+            "document_id": 55,
+            "language": "uz-Latn",
+            "hash": "35c9c7f658b15c24a6b546f56716bbb24ca963085e26462dd5180bed8b239efd",
+            "hash_matches": true,
+            "characters": 201,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5131527",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "122": {
+            "document_id": 55,
+            "language": "uz-Cyrl",
+            "hash": "1d2f5912e46499d224419065b3c08f869d42c0270d6afe65e81c0a654700ee0d",
+            "hash_matches": true,
+            "characters": 193,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5131527",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "123": {
+            "document_id": 56,
+            "language": "ru",
+            "hash": "10cee7c14611339791387c6df83635e22bd40311fafc4ce8f0f8437c0dd13e17",
+            "hash_matches": true,
+            "characters": 1909,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1583811",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "124": {
+            "document_id": 56,
+            "language": "uz-Cyrl",
+            "hash": "5a4d986e64cf9ee63fcfca4d2795bfc954a501be189045aeded29f09fa3148fc",
+            "hash_matches": true,
+            "characters": 1849,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/1583808",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "125": {
+            "document_id": 56,
+            "language": "uz-Latn",
+            "hash": "49e26f49679475cf947013f240ac2f2c2248cc8cb70c5ff0ea25f90f9ce0acd3",
+            "hash_matches": true,
+            "characters": 1945,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-1583808",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "126": {
+            "document_id": 57,
+            "language": "uz-Cyrl",
+            "hash": "30658a2795dc390eea5ca7b12538cdc2b15a603ac7d56d0386954301bba2ce9f",
+            "hash_matches": true,
+            "characters": 10717,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8353081",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "127": {
+            "document_id": 57,
+            "language": "uz-Latn",
+            "hash": "86a3140707280ea15fec7dd003d436d4482c7ef3735389e0fc9b2614455e8cf3",
+            "hash_matches": true,
+            "characters": 11265,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8353081",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "128": {
+            "document_id": 58,
+            "language": "ru",
+            "hash": "4eaa4d133f27215c0a0774c93db9720b74b4b861688ec86c9ea5152d390762df",
+            "hash_matches": true,
+            "characters": 523,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5276730",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "129": {
+            "document_id": 58,
+            "language": "uz-Cyrl",
+            "hash": "6b8c455b73656ef8c2524b7c7c9821bd987218da857eebf67e1897150eacb54e",
+            "hash_matches": true,
+            "characters": 554,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5276723",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "130": {
+            "document_id": 58,
+            "language": "uz-Latn",
+            "hash": "3972bad022d7463dba798edb62fc3c0e4406eaaacc962424da3649bac3e39f68",
+            "hash_matches": true,
+            "characters": 574,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5276723",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "131": {
+            "document_id": 59,
+            "language": "uz-Latn",
+            "hash": "18e39cc9e5242dcabd6ac6714151c8f6e3a290f8b2d0404c61007a29e62a3c1a",
+            "hash_matches": true,
+            "characters": 198,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-5131412",
+            "format": "html",
+            "pending_candidate_hash": null
+        },
+        "132": {
+            "document_id": 59,
+            "language": "uz-Cyrl",
+            "hash": "9981b526ab6b317d31969da75963057dfd0327dbcc31c7c4585ed23de6b9c108",
+            "hash_matches": true,
+            "characters": 191,
+            "quality_status": "verified",
+            "quality_issues": [],
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/5131412",
+            "format": "html",
+            "pending_candidate_hash": null
+        }
+    },
+    "documents": [
+        {
+            "id": 1,
+            "source_id": 1,
+            "external_id": "-6257288",
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "source_id": 1,
+            "external_id": "-8519448",
+            "status": "active"
+        },
+        {
+            "id": 3,
+            "source_id": 1,
+            "external_id": "-8498641",
+            "status": "active"
+        },
+        {
+            "id": 4,
+            "source_id": 1,
+            "external_id": "-8496009",
+            "status": "active"
+        },
+        {
+            "id": 5,
+            "source_id": 1,
+            "external_id": "-8506802",
+            "status": "active"
+        },
+        {
+            "id": 6,
+            "source_id": 1,
+            "external_id": "-8502443",
+            "status": "active"
+        },
+        {
+            "id": 7,
+            "source_id": 1,
+            "external_id": "-8501541",
+            "status": "active"
+        },
+        {
+            "id": 8,
+            "source_id": 1,
+            "external_id": "-8520357",
+            "status": "active"
+        },
+        {
+            "id": 9,
+            "source_id": 1,
+            "external_id": "-8503180",
+            "status": "active"
+        },
+        {
+            "id": 10,
+            "source_id": 1,
+            "external_id": "-7613661",
+            "status": "active"
+        },
+        {
+            "id": 11,
+            "source_id": 1,
+            "external_id": "-7303292",
+            "status": "active"
+        },
+        {
+            "id": 12,
+            "source_id": 1,
+            "external_id": "-7290944",
+            "status": "active"
+        },
+        {
+            "id": 13,
+            "source_id": 1,
+            "external_id": "-8557240",
+            "status": "active"
+        },
+        {
+            "id": 14,
+            "source_id": 1,
+            "external_id": "-8546701",
+            "status": "active"
+        },
+        {
+            "id": 15,
+            "source_id": 1,
+            "external_id": "-8547769",
+            "status": "active"
+        },
+        {
+            "id": 16,
+            "source_id": 1,
+            "external_id": "-8548637",
+            "status": "pending"
+        },
+        {
+            "id": 17,
+            "source_id": 1,
+            "external_id": "-8548754",
+            "status": "pending"
+        },
+        {
+            "id": 18,
+            "source_id": 1,
+            "external_id": "-8554309",
+            "status": "active"
+        },
+        {
+            "id": 19,
+            "source_id": 1,
+            "external_id": "-7655343",
+            "status": "active"
+        },
+        {
+            "id": 20,
+            "source_id": 1,
+            "external_id": "-8540314",
+            "status": "active"
+        },
+        {
+            "id": 21,
+            "source_id": 1,
+            "external_id": "-8102878",
+            "status": "inactive"
+        },
+        {
+            "id": 22,
+            "source_id": 1,
+            "external_id": "8557098",
+            "status": "pending"
+        },
+        {
+            "id": 23,
+            "source_id": 1,
+            "external_id": "-8554315",
+            "status": "pending"
+        },
+        {
+            "id": 24,
+            "source_id": 1,
+            "external_id": "8554432",
+            "status": "active"
+        },
+        {
+            "id": 25,
+            "source_id": 1,
+            "external_id": "8554353",
+            "status": "active"
+        },
+        {
+            "id": 26,
+            "source_id": 1,
+            "external_id": "8554326",
+            "status": "active"
+        },
+        {
+            "id": 27,
+            "source_id": 1,
+            "external_id": "8554321",
+            "status": "active"
+        },
+        {
+            "id": 28,
+            "source_id": 1,
+            "external_id": "-8553258",
+            "status": "active"
+        },
+        {
+            "id": 29,
+            "source_id": 1,
+            "external_id": "-8553692",
+            "status": "pending"
+        },
+        {
+            "id": 30,
+            "source_id": 1,
+            "external_id": "-1599416",
+            "status": "active"
+        },
+        {
+            "id": 31,
+            "source_id": 1,
+            "external_id": "-4928235",
+            "status": "active"
+        },
+        {
+            "id": 32,
+            "source_id": 1,
+            "external_id": "-5440987",
+            "status": "active"
+        },
+        {
+            "id": 33,
+            "source_id": 1,
+            "external_id": "-5289314",
+            "status": "active"
+        },
+        {
+            "id": 34,
+            "source_id": 1,
+            "external_id": "-5208013",
+            "status": "active"
+        },
+        {
+            "id": 35,
+            "source_id": 1,
+            "external_id": "-4928151",
+            "status": "active"
+        },
+        {
+            "id": 36,
+            "source_id": 1,
+            "external_id": "-4986382",
+            "status": "active"
+        },
+        {
+            "id": 37,
+            "source_id": 1,
+            "external_id": "-1597950",
+            "status": "active"
+        },
+        {
+            "id": 38,
+            "source_id": 1,
+            "external_id": "-5137320",
+            "status": "active"
+        },
+        {
+            "id": 39,
+            "source_id": 1,
+            "external_id": "-5279048",
+            "status": "active"
+        },
+        {
+            "id": 40,
+            "source_id": 1,
+            "external_id": "-4752666",
+            "status": "active"
+        },
+        {
+            "id": 41,
+            "source_id": 1,
+            "external_id": "4986081",
+            "status": "active"
+        },
+        {
+            "id": 42,
+            "source_id": 1,
+            "external_id": "-5145413",
+            "status": "active"
+        },
+        {
+            "id": 43,
+            "source_id": 1,
+            "external_id": "-4947843",
+            "status": "active"
+        },
+        {
+            "id": 44,
+            "source_id": 1,
+            "external_id": "-5279732",
+            "status": "active"
+        },
+        {
+            "id": 45,
+            "source_id": 1,
+            "external_id": "-1597456",
+            "status": "active"
+        },
+        {
+            "id": 46,
+            "source_id": 1,
+            "external_id": "-4920310",
+            "status": "active"
+        },
+        {
+            "id": 47,
+            "source_id": 1,
+            "external_id": "-4953970",
+            "status": "active"
+        },
+        {
+            "id": 48,
+            "source_id": 1,
+            "external_id": "-8409789",
+            "status": "active"
+        },
+        {
+            "id": 49,
+            "source_id": 1,
+            "external_id": "-5277165",
+            "status": "active"
+        },
+        {
+            "id": 50,
+            "source_id": 1,
+            "external_id": "-4854754",
+            "status": "active"
+        },
+        {
+            "id": 51,
+            "source_id": 1,
+            "external_id": "-1583934",
+            "status": "active"
+        },
+        {
+            "id": 52,
+            "source_id": 1,
+            "external_id": "-5145547",
+            "status": "active"
+        },
+        {
+            "id": 53,
+            "source_id": 1,
+            "external_id": "-8395796",
+            "status": "active"
+        },
+        {
+            "id": 54,
+            "source_id": 1,
+            "external_id": "-5276993",
+            "status": "active"
+        },
+        {
+            "id": 55,
+            "source_id": 1,
+            "external_id": "-5131527",
+            "status": "active"
+        },
+        {
+            "id": 56,
+            "source_id": 1,
+            "external_id": "-1583808",
+            "status": "active"
+        },
+        {
+            "id": 57,
+            "source_id": 1,
+            "external_id": "-8353081",
+            "status": "active"
+        },
+        {
+            "id": 58,
+            "source_id": 1,
+            "external_id": "-5276723",
+            "status": "active"
+        },
+        {
+            "id": 59,
+            "source_id": 1,
+            "external_id": "-5131412",
+            "status": "active"
+        }
+    ],
+    "identifiers": [
+        {
+            "id": 1,
+            "source_id": 1,
+            "document_id": 1,
+            "external_id": "-6257288",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 2,
+            "source_id": 1,
+            "document_id": 1,
+            "external_id": "6257291",
+            "language": "ru"
+        },
+        {
+            "id": 3,
+            "source_id": 1,
+            "document_id": 1,
+            "external_id": "6257288",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 4,
+            "source_id": 1,
+            "document_id": 2,
+            "external_id": "8519448",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 5,
+            "source_id": 1,
+            "document_id": 2,
+            "external_id": "-8519448",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 6,
+            "source_id": 1,
+            "document_id": 3,
+            "external_id": "8498641",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 7,
+            "source_id": 1,
+            "document_id": 3,
+            "external_id": "-8498641",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 8,
+            "source_id": 1,
+            "document_id": 4,
+            "external_id": "8496009",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 9,
+            "source_id": 1,
+            "document_id": 4,
+            "external_id": "-8496009",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 10,
+            "source_id": 1,
+            "document_id": 5,
+            "external_id": "8506802",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 11,
+            "source_id": 1,
+            "document_id": 5,
+            "external_id": "8507863",
+            "language": "ru"
+        },
+        {
+            "id": 12,
+            "source_id": 1,
+            "document_id": 5,
+            "external_id": "8506870",
+            "language": "en"
+        },
+        {
+            "id": 13,
+            "source_id": 1,
+            "document_id": 5,
+            "external_id": "-8506802",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 14,
+            "source_id": 1,
+            "document_id": 6,
+            "external_id": "8502443",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 15,
+            "source_id": 1,
+            "document_id": 6,
+            "external_id": "8502922",
+            "language": "ru"
+        },
+        {
+            "id": 16,
+            "source_id": 1,
+            "document_id": 6,
+            "external_id": "8502762",
+            "language": "en"
+        },
+        {
+            "id": 17,
+            "source_id": 1,
+            "document_id": 6,
+            "external_id": "-8502443",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 18,
+            "source_id": 1,
+            "document_id": 7,
+            "external_id": "8501541",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 19,
+            "source_id": 1,
+            "document_id": 7,
+            "external_id": "8502402",
+            "language": "ru"
+        },
+        {
+            "id": 20,
+            "source_id": 1,
+            "document_id": 7,
+            "external_id": "8501623",
+            "language": "en"
+        },
+        {
+            "id": 21,
+            "source_id": 1,
+            "document_id": 7,
+            "external_id": "-8501541",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 22,
+            "source_id": 1,
+            "document_id": 8,
+            "external_id": "8520357",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 23,
+            "source_id": 1,
+            "document_id": 8,
+            "external_id": "8520615",
+            "language": "ru"
+        },
+        {
+            "id": 24,
+            "source_id": 1,
+            "document_id": 8,
+            "external_id": "-8520357",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 25,
+            "source_id": 1,
+            "document_id": 9,
+            "external_id": "8503180",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 26,
+            "source_id": 1,
+            "document_id": 9,
+            "external_id": "8503608",
+            "language": "ru"
+        },
+        {
+            "id": 27,
+            "source_id": 1,
+            "document_id": 9,
+            "external_id": "-8503180",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 28,
+            "source_id": 1,
+            "document_id": 10,
+            "external_id": "-7613661",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 29,
+            "source_id": 1,
+            "document_id": 10,
+            "external_id": "7613664",
+            "language": "ru"
+        },
+        {
+            "id": 30,
+            "source_id": 1,
+            "document_id": 10,
+            "external_id": "7613661",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 31,
+            "source_id": 1,
+            "document_id": 11,
+            "external_id": "-7303292",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 32,
+            "source_id": 1,
+            "document_id": 11,
+            "external_id": "7303298",
+            "language": "ru"
+        },
+        {
+            "id": 33,
+            "source_id": 1,
+            "document_id": 11,
+            "external_id": "7303292",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 34,
+            "source_id": 1,
+            "document_id": 12,
+            "external_id": "-7290944",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 35,
+            "source_id": 1,
+            "document_id": 12,
+            "external_id": "7291209",
+            "language": "ru"
+        },
+        {
+            "id": 36,
+            "source_id": 1,
+            "document_id": 12,
+            "external_id": "7290944",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 37,
+            "source_id": 1,
+            "document_id": 13,
+            "external_id": "8557240",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 38,
+            "source_id": 1,
+            "document_id": 13,
+            "external_id": "8557374",
+            "language": "ru"
+        },
+        {
+            "id": 39,
+            "source_id": 1,
+            "document_id": 13,
+            "external_id": "-8557240",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 40,
+            "source_id": 1,
+            "document_id": 14,
+            "external_id": "8546701",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 41,
+            "source_id": 1,
+            "document_id": 14,
+            "external_id": "8546727",
+            "language": "ru"
+        },
+        {
+            "id": 42,
+            "source_id": 1,
+            "document_id": 14,
+            "external_id": "-8546701",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 43,
+            "source_id": 1,
+            "document_id": 15,
+            "external_id": "8547769",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 44,
+            "source_id": 1,
+            "document_id": 15,
+            "external_id": "8547789",
+            "language": "ru"
+        },
+        {
+            "id": 45,
+            "source_id": 1,
+            "document_id": 15,
+            "external_id": "-8547769",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 46,
+            "source_id": 1,
+            "document_id": 16,
+            "external_id": "8548643",
+            "language": "ru"
+        },
+        {
+            "id": 47,
+            "source_id": 1,
+            "document_id": 16,
+            "external_id": "-8548637",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 48,
+            "source_id": 1,
+            "document_id": 16,
+            "external_id": "8548637",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 49,
+            "source_id": 1,
+            "document_id": 17,
+            "external_id": "8548754",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 50,
+            "source_id": 1,
+            "document_id": 17,
+            "external_id": "8549958",
+            "language": "ru"
+        },
+        {
+            "id": 51,
+            "source_id": 1,
+            "document_id": 17,
+            "external_id": "8549969",
+            "language": "en"
+        },
+        {
+            "id": 52,
+            "source_id": 1,
+            "document_id": 17,
+            "external_id": "-8548754",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 53,
+            "source_id": 1,
+            "document_id": 18,
+            "external_id": "8554309",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 54,
+            "source_id": 1,
+            "document_id": 18,
+            "external_id": "8557123",
+            "language": "ru"
+        },
+        {
+            "id": 55,
+            "source_id": 1,
+            "document_id": 18,
+            "external_id": "8555578",
+            "language": "en"
+        },
+        {
+            "id": 56,
+            "source_id": 1,
+            "document_id": 18,
+            "external_id": "-8554309",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 57,
+            "source_id": 1,
+            "document_id": 19,
+            "external_id": "-7655343",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 58,
+            "source_id": 1,
+            "document_id": 19,
+            "external_id": "7658581",
+            "language": "ru"
+        },
+        {
+            "id": 59,
+            "source_id": 1,
+            "document_id": 19,
+            "external_id": "7658590",
+            "language": "en"
+        },
+        {
+            "id": 60,
+            "source_id": 1,
+            "document_id": 19,
+            "external_id": "7655343",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 61,
+            "source_id": 1,
+            "document_id": 20,
+            "external_id": "-8540314",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 62,
+            "source_id": 1,
+            "document_id": 20,
+            "external_id": "8543270",
+            "language": "ru"
+        },
+        {
+            "id": 63,
+            "source_id": 1,
+            "document_id": 20,
+            "external_id": "8540314",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 64,
+            "source_id": 1,
+            "document_id": 21,
+            "external_id": "-8102878",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 65,
+            "source_id": 1,
+            "document_id": 21,
+            "external_id": "8104355",
+            "language": "ru"
+        },
+        {
+            "id": 66,
+            "source_id": 1,
+            "document_id": 21,
+            "external_id": "8102878",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 67,
+            "source_id": 1,
+            "document_id": 22,
+            "external_id": "8557098",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 68,
+            "source_id": 1,
+            "document_id": 23,
+            "external_id": "8554315",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 69,
+            "source_id": 1,
+            "document_id": 23,
+            "external_id": "8559831",
+            "language": "ru"
+        },
+        {
+            "id": 70,
+            "source_id": 1,
+            "document_id": 23,
+            "external_id": "-8554315",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 71,
+            "source_id": 1,
+            "document_id": 24,
+            "external_id": "8554432",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 72,
+            "source_id": 1,
+            "document_id": 25,
+            "external_id": "8554353",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 73,
+            "source_id": 1,
+            "document_id": 26,
+            "external_id": "8554326",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 74,
+            "source_id": 1,
+            "document_id": 27,
+            "external_id": "8554321",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 75,
+            "source_id": 1,
+            "document_id": 28,
+            "external_id": "-8553258",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 76,
+            "source_id": 1,
+            "document_id": 28,
+            "external_id": "8558804",
+            "language": "ru"
+        },
+        {
+            "id": 77,
+            "source_id": 1,
+            "document_id": 28,
+            "external_id": "8558806",
+            "language": "en"
+        },
+        {
+            "id": 78,
+            "source_id": 1,
+            "document_id": 28,
+            "external_id": "8553258",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 79,
+            "source_id": 1,
+            "document_id": 29,
+            "external_id": "-8553692",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 80,
+            "source_id": 1,
+            "document_id": 29,
+            "external_id": "8559660",
+            "language": "ru"
+        },
+        {
+            "id": 81,
+            "source_id": 1,
+            "document_id": 29,
+            "external_id": "8559662",
+            "language": "en"
+        },
+        {
+            "id": 82,
+            "source_id": 1,
+            "document_id": 29,
+            "external_id": "8553692",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 83,
+            "source_id": 1,
+            "document_id": 30,
+            "external_id": "1599418",
+            "language": "ru"
+        },
+        {
+            "id": 84,
+            "source_id": 1,
+            "document_id": 30,
+            "external_id": "1599416",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 85,
+            "source_id": 1,
+            "document_id": 30,
+            "external_id": "-1599416",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 86,
+            "source_id": 1,
+            "document_id": 31,
+            "external_id": "-4928235",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 87,
+            "source_id": 1,
+            "document_id": 31,
+            "external_id": "4928235",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 88,
+            "source_id": 1,
+            "document_id": 32,
+            "external_id": "5440990",
+            "language": "ru"
+        },
+        {
+            "id": 89,
+            "source_id": 1,
+            "document_id": 32,
+            "external_id": "5440987",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 90,
+            "source_id": 1,
+            "document_id": 32,
+            "external_id": "-5440987",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 91,
+            "source_id": 1,
+            "document_id": 33,
+            "external_id": "-5289314",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 92,
+            "source_id": 1,
+            "document_id": 33,
+            "external_id": "5289314",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 93,
+            "source_id": 1,
+            "document_id": 34,
+            "external_id": "5211352",
+            "language": "ru"
+        },
+        {
+            "id": 94,
+            "source_id": 1,
+            "document_id": 34,
+            "external_id": "5208013",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 95,
+            "source_id": 1,
+            "document_id": 34,
+            "external_id": "-5208013",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 96,
+            "source_id": 1,
+            "document_id": 35,
+            "external_id": "-4928151",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 97,
+            "source_id": 1,
+            "document_id": 35,
+            "external_id": "4928151",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 98,
+            "source_id": 1,
+            "document_id": 36,
+            "external_id": "6182601",
+            "language": "ru"
+        },
+        {
+            "id": 99,
+            "source_id": 1,
+            "document_id": 36,
+            "external_id": "4986382",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 100,
+            "source_id": 1,
+            "document_id": 36,
+            "external_id": "-4986382",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 101,
+            "source_id": 1,
+            "document_id": 37,
+            "external_id": "1597950",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 102,
+            "source_id": 1,
+            "document_id": 37,
+            "external_id": "1597946",
+            "language": "ru"
+        },
+        {
+            "id": 103,
+            "source_id": 1,
+            "document_id": 37,
+            "external_id": "-1597950",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 104,
+            "source_id": 1,
+            "document_id": 38,
+            "external_id": "5138998",
+            "language": "ru"
+        },
+        {
+            "id": 105,
+            "source_id": 1,
+            "document_id": 38,
+            "external_id": "5137552",
+            "language": "en"
+        },
+        {
+            "id": 106,
+            "source_id": 1,
+            "document_id": 38,
+            "external_id": "5137320",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 107,
+            "source_id": 1,
+            "document_id": 38,
+            "external_id": "-5137320",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 108,
+            "source_id": 1,
+            "document_id": 39,
+            "external_id": "5279050",
+            "language": "ru"
+        },
+        {
+            "id": 109,
+            "source_id": 1,
+            "document_id": 39,
+            "external_id": "5279048",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 110,
+            "source_id": 1,
+            "document_id": 39,
+            "external_id": "-5279048",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 111,
+            "source_id": 1,
+            "document_id": 40,
+            "external_id": "4752666",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 112,
+            "source_id": 1,
+            "document_id": 40,
+            "external_id": "-4752666",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 113,
+            "source_id": 1,
+            "document_id": 41,
+            "external_id": "4986081",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 114,
+            "source_id": 1,
+            "document_id": 42,
+            "external_id": "-5145413",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 115,
+            "source_id": 1,
+            "document_id": 42,
+            "external_id": "5145413",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 116,
+            "source_id": 1,
+            "document_id": 43,
+            "external_id": "-4947843",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 117,
+            "source_id": 1,
+            "document_id": 43,
+            "external_id": "4947843",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 118,
+            "source_id": 1,
+            "document_id": 44,
+            "external_id": "5279763",
+            "language": "ru"
+        },
+        {
+            "id": 119,
+            "source_id": 1,
+            "document_id": 44,
+            "external_id": "5279732",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 120,
+            "source_id": 1,
+            "document_id": 44,
+            "external_id": "-5279732",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 121,
+            "source_id": 1,
+            "document_id": 45,
+            "external_id": "1597456",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 122,
+            "source_id": 1,
+            "document_id": 45,
+            "external_id": "1597458",
+            "language": "ru"
+        },
+        {
+            "id": 123,
+            "source_id": 1,
+            "document_id": 45,
+            "external_id": "-1597456",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 124,
+            "source_id": 1,
+            "document_id": 46,
+            "external_id": "4920310",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 125,
+            "source_id": 1,
+            "document_id": 46,
+            "external_id": "-4920310",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 126,
+            "source_id": 1,
+            "document_id": 47,
+            "external_id": "4953974",
+            "language": "ru"
+        },
+        {
+            "id": 127,
+            "source_id": 1,
+            "document_id": 47,
+            "external_id": "4953970",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 128,
+            "source_id": 1,
+            "document_id": 47,
+            "external_id": "-4953970",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 129,
+            "source_id": 1,
+            "document_id": 48,
+            "external_id": "8409799",
+            "language": "ru"
+        },
+        {
+            "id": 130,
+            "source_id": 1,
+            "document_id": 48,
+            "external_id": "-8409789",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 131,
+            "source_id": 1,
+            "document_id": 48,
+            "external_id": "8409789",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 132,
+            "source_id": 1,
+            "document_id": 49,
+            "external_id": "5277170",
+            "language": "ru"
+        },
+        {
+            "id": 133,
+            "source_id": 1,
+            "document_id": 49,
+            "external_id": "5277165",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 134,
+            "source_id": 1,
+            "document_id": 49,
+            "external_id": "-5277165",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 135,
+            "source_id": 1,
+            "document_id": 50,
+            "external_id": "4854754",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 136,
+            "source_id": 1,
+            "document_id": 50,
+            "external_id": "-4854754",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 137,
+            "source_id": 1,
+            "document_id": 51,
+            "external_id": "1583936",
+            "language": "ru"
+        },
+        {
+            "id": 138,
+            "source_id": 1,
+            "document_id": 51,
+            "external_id": "1583934",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 139,
+            "source_id": 1,
+            "document_id": 51,
+            "external_id": "-1583934",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 140,
+            "source_id": 1,
+            "document_id": 52,
+            "external_id": "5145547",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 141,
+            "source_id": 1,
+            "document_id": 52,
+            "external_id": "-5145547",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 142,
+            "source_id": 1,
+            "document_id": 53,
+            "external_id": "8398995",
+            "language": "ru"
+        },
+        {
+            "id": 143,
+            "source_id": 1,
+            "document_id": 53,
+            "external_id": "-8395796",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 144,
+            "source_id": 1,
+            "document_id": 53,
+            "external_id": "8395796",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 145,
+            "source_id": 1,
+            "document_id": 54,
+            "external_id": "5276997",
+            "language": "ru"
+        },
+        {
+            "id": 146,
+            "source_id": 1,
+            "document_id": 54,
+            "external_id": "5276993",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 147,
+            "source_id": 1,
+            "document_id": 54,
+            "external_id": "-5276993",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 148,
+            "source_id": 1,
+            "document_id": 55,
+            "external_id": "-5131527",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 149,
+            "source_id": 1,
+            "document_id": 55,
+            "external_id": "5131527",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 150,
+            "source_id": 1,
+            "document_id": 56,
+            "external_id": "7551013",
+            "language": "en"
+        },
+        {
+            "id": 151,
+            "source_id": 1,
+            "document_id": 56,
+            "external_id": "1583811",
+            "language": "ru"
+        },
+        {
+            "id": 152,
+            "source_id": 1,
+            "document_id": 56,
+            "external_id": "1583808",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 153,
+            "source_id": 1,
+            "document_id": 56,
+            "external_id": "-1583808",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 154,
+            "source_id": 1,
+            "document_id": 57,
+            "external_id": "8361087",
+            "language": "ru"
+        },
+        {
+            "id": 155,
+            "source_id": 1,
+            "document_id": 57,
+            "external_id": "-8353081",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 156,
+            "source_id": 1,
+            "document_id": 57,
+            "external_id": "8353081",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 157,
+            "source_id": 1,
+            "document_id": 58,
+            "external_id": "5276730",
+            "language": "ru"
+        },
+        {
+            "id": 158,
+            "source_id": 1,
+            "document_id": 58,
+            "external_id": "5276723",
+            "language": "uz-Cyrl"
+        },
+        {
+            "id": 159,
+            "source_id": 1,
+            "document_id": 58,
+            "external_id": "-5276723",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 160,
+            "source_id": 1,
+            "document_id": 59,
+            "external_id": "-5131412",
+            "language": "uz-Latn"
+        },
+        {
+            "id": 161,
+            "source_id": 1,
+            "document_id": 59,
+            "external_id": "5131412",
+            "language": "uz-Cyrl"
+        }
+    ],
+    "failed_hashes": {
+        "1": "287518ec70f27b31f42fe3b214b9ea682aa262670d9f7f11674c253c707125b8",
+        "2": "072bc2a7b89d8f6d8d08d180ce17191e33042f1e2f16cb488505316ccf2cf29c",
+        "3": "032e7147cb440013577cf6a31ca467e4b3a87ce66942bf2325739e903adda289",
+        "4": "fb053b8f455fda3dae78d45e6de2c8c1beff21096a307fdd911efbcb61167677",
+        "5": "6706f18ae7ec3a2bb2323b77821d301a07ac085558fc2e0154166871d844fd16",
+        "6": "e4ea883ba3c2b68a8d7178346b246ab38211dad0fae10dbf54c938a24f32fdad",
+        "7": "c200b34a11f72ec742063e0e01bb775092c8379e0c1090298ae38e27050748b0",
+        "8": "52c0cb912d65e2c874c14962b392a19df703bf7e8820fa9522130599bd704fa0",
+        "9": "075162bd66f7af54c71d2e6b21ee006435a98df62c2caebe02b0ca75a8805dc6",
+        "10": "211c6955e7fe5f6cd6cc940c581b12316b53fded10d099e28ba13f0aad171f87",
+        "11": "16e4732349b2335f74b343ad3006389da21c30f05d27a845d39003e363c3cdf6",
+        "12": "d0c063fdf2cfc5b8aaadca2d7f6b5937ab878333fc85cd7a6e2cb926ac017798",
+        "13": "c0a0d418d7f9bee98781e726dd7894908528f95b3f5ce03646aae0a48353bdd6",
+        "14": "bc79c98bdebce408d732c9ae46c4f74b3d6f7b5bfdbbcde1480938198d459cff",
+        "15": "5fb7e12997e072c592e98de6f72041c5d971e2ab36bf2a087fdf3d2af17bbcea",
+        "16": "87f2bf04d6e8951a57745b06d49ddd6a83fb788bc75c8a45f748a26a79501ce6",
+        "17": "cd18702e0a70712b3393d10e978d655eb4576a4c51a7b7b2f0671ab01117551f",
+        "18": "30b9f8f2f6a692a7a6100a72c52d9042dbd3cd2083100b7b9d0061cf0d8385cf",
+        "19": "184ef67b76a3979303dafa1347858b49e343af241c476c1896ad4ab0cc5a91e6",
+        "20": "ca47bf93821d2469c0393f0fb0e700349c17e3f40c083a4d47ed651035c196ee",
+        "21": "0fea97e604b9298aff71764682b21e2854ce6f7476f10f89df1d2435979556c1",
+        "22": "2b0d241c5cbc5c6a788bc011a6dd69d21381f2e3f76981f11d5679f3e1f5f507",
+        "23": "9ffae2476ab45150f5fdca79342b331222881d1fe2f580e71093e3bffc9ecd40",
+        "24": "6ed40a9b66d27bde1e02d87084015a474bd244b8362fef4304f02a8c11915893"
+    },
+    "quality_counts": {
+        "verified": 103,
+        "needs_review": 29
+    },
+    "checks": {
+        "duplicate_languages": 0,
+        "duplicate_aliases": 0,
+        "orphan_contents": 0,
+        "orphan_identifiers": 0
+    },
+    "errors": [],
+    "campaign": {
+        "id": "p5-20261028",
+        "request_limit": 4000,
+        "used": 271,
+        "target": 200,
+        "stage": 30,
+        "baseline_max_id": 29,
+        "baseline_count": 29,
+        "started_at": "2026-10-28T23:35:34+05:00",
+        "stopped": null,
+        "consecutive_errors": 0
+    },
+    "new_canonical_documents": 30
+}

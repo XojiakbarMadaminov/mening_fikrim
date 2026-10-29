@@ -1,0 +1,34 @@
+{
+    "database": "mening_fikrim_active_test",
+    "controlled_prior_state": "active",
+    "real_source_status": "inactive",
+    "result": {
+        "document_id": 1,
+        "action": "updated",
+        "complete": true,
+        "languages": {
+            "uz-Latn": {
+                "state": "valid",
+                "errors": []
+            },
+            "ru": {
+                "state": "metadata_only",
+                "errors": []
+            },
+            "uz-Cyrl": {
+                "state": "valid",
+                "errors": []
+            }
+        },
+        "warnings": []
+    },
+    "hashes_before": {
+        "uz-Cyrl": "9aeaffa94a1546238c2b99db62ddb40743b91cf62572b0c996a23f41d26ecd09",
+        "uz-Latn": "4ec4ea549a41dd1f42154e700aa319ff219fa78968607b25539533e5a4ef9017"
+    },
+    "hashes_after": {
+        "uz-Cyrl": "9aeaffa94a1546238c2b99db62ddb40743b91cf62572b0c996a23f41d26ecd09",
+        "uz-Latn": "4ec4ea549a41dd1f42154e700aa319ff219fa78968607b25539533e5a4ef9017"
+    },
+    "content_rows": 2
+}

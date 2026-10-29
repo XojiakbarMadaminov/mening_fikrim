@@ -1,0 +1,109 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+..............E.................................................. 65 / 77 ( 84%)
+............                                                      77 / 77 (100%)
+
+Time: 00:15.425, Memory: 84.50 MB
+
+Concurrent Import (Tests\Feature\ConcurrentImport)
+ ✔ Two real php processes wait on postgresql lock and converge to one document
+
+Document Importer (Tests\Feature\DocumentImporter)
+ ✔ Real four identifier fixture maps to one document and three full texts
+ ✔ Repeated import is idempotent and checks can advance without content change
+ ✔ All source entrypoints reuse persisted anchor
+ ✔ Source namespace does not collide for identical external ids
+ ✔ One invalid language still saves other valid languages and is incomplete
+ ✔ Missing required text cannot borrow an old success to mark complete
+ ✔ Truncated text never overwrites previous valid content
+ ✔ Content hash changes without creating a history row
+ ✔ Crlf normalization does not change hash or markdown structure
+ ✔ Conflicting mappings fail closed without automatic merge
+ ✔ Database failure after first language insert rolls back every write
+ ✔ Unknown metadata preserves entire existing document
+ ✔ Pending active and revoked transitions preserve text
+ ✔ Actual scan metadata date wins warning persists and bad ocr cannot replace old text
+ ✔ All bad languages cannot create an empty document
+ ✔ New verified language keeps original canonical anchor
+ ✔ Real postgresql exception mid update rolls back metadata identifiers and contents
+ ✔ Persisted requisites cannot be replaced by a different but internally consistent graph
+ ✔ Verified identifiers cannot silently disappear from a smaller graph
+ ✔ Stale verification cannot overwrite a newer successful check
+ ✔ Incomplete queue job exposes failure after valid languages commit
+ ✔ Metadata only translation payload is never persisted as content
+ ✔ New inactive document is not admitted but existing documents can be revoked
+
+Document Validator (Tests\Unit\DocumentValidator)
+ ✔ All four saved identity graphs are verified without fetching
+ ✔ A one way link is not identity proof
+ ✔ Matching requisites titles and hashes without links do not merge
+ ✔ Conflicting requisites require review
+ ✔ Unknown and internally conflicting metadata fail closed
+ ✔ Pending becomes active at tashkent midnight only with source active metadata
+ ✔ Source revoked is inactive and n is never assumed pending
+ ✔ Actual metadata pdf mismatch is only a warning for status
+ ✔ Actual pdf and ocr quality reviews are not overridden by status
+ ✔ Page mismatch and uncertified ocr fail even when candidate claims good quality
+ ✔ Missing optional field cannot bridge two conflicting publication dates
+
+Foundation Database (Tests\Feature\FoundationDatabase)
+ ✔ Real postgresql schema has exactly five business tables and jsonb columns
+ ✔ Migrations roll back and reapply on postgresql
+ ✔ Source seeding is idempotent and preserves disabled sources
+ ✔ All relationships and casts work
+ ✔ One source identifier cannot belong to two documents
+ ✔ Foreign keys reject missing and cross source references
+ ✔ Content language unique and document delete cascades
+ ✔ Nullable manual anchors and business status checks
+ ✔ Strict completion requires all gates and zero failures even for direct sql
+ ✔ Database queue dispatch is after commit and rollback does not leave a job
+ ✔ Queue timing configuration and no live schedules
+
+Lex Http Client (Tests\Feature\LexHttpClient)
+ ✔ Common pacer enforces two seconds for html pdf and post
+ ✔ 429 retry after seconds and http date are respected
+ ✔ Long 429 defers without sleeping past the job budget
+ ✔ 403 stops and shared cooldown prevents another request
+ ✔ 5xx and connection failures have bounded retries
+ ✔ Untrusted redirect and unlimited request budget are rejected
+ ✔ Connection timeout failure exhausts exactly three attempts
+ ✔ Diagnostics never include cookies viewstate or secret query parameters
+ ✔ Context request budget stops before an extra http request
+
+Lex Parser (Tests\Unit\LexParser)
+ ✔ Historical revision is not accepted as current document evidence
+ ✔ Unknown linked language requires review
+ ✔ Saved real source excerpt keeps heading and removes editorial ui
+ ✘ Saved language controls ignore pdf download and global interface menu
+   │
+   │ RuntimeException: Unknown source language control requires review.
+   │
+   │ /home/xojiakbar/PhpstormProjects/mening_fikrim/app/Scraping/LexUz/LexUzParser.php:80
+   │ /home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php:42
+   │
+ ✔ Saved metadata reconstruction roundtrips and date precedence is not body driven
+ ✔ Saved localized card language is supported and status requires listing corroboration
+ ✔ Numeric superscript headings and simple table are preserved
+ ✔ Real complex table and unsupported superscript require review
+ ✔ Partial text layer with long header has low body coverage
+ ✔ Invalid pdf and process failure leave no temporary source files
+
+Scraping Integration (Tests\Feature\ScrapingIntegration)
+ ✔ Http parser validator importer and real database queue work together
+ ✔ Aspnet pagination uses current hidden fields and source postback target
+ ✔ Invalid expired state restarts with fresh get without skipping a page
+ ✔ Checkpoint and queue insertion roll back together
+ ✔ Resume replays from fresh session and deduplicates committed identifiers
+ ✔ Retry then success is tracked by the real database queue
+ ✔ Partial language review keeps valid text and failed job and never completes
+ ✔ Commands require explicit bounded limits and live configuration
+ ✔ Checkpoint prefix drift fails without committing new ids or jobs
+ ✔ Crash after limit commit finishes discovery without skipping pending imports
+ ✔ Recheck selects due and pending documents but preserves fresh and inactive rows
+ ✔ Optional bounded section uses only a verified discovery root
+
+ERRORS!
+Tests: 77, Assertions: 303, Errors: 1.

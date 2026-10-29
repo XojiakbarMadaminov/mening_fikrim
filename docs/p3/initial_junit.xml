@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml" tests="77" assertions="259" errors="5" failures="5" skipped="0" time="15.876007">
+    <testsuite name="Unit" tests="21" assertions="53" errors="0" failures="0" skipped="0" time="1.651135">
+      <testsuite name="Tests\Unit\DocumentValidatorTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" tests="11" assertions="23" errors="0" failures="0" skipped="0" time="1.061052">
+        <testcase name="test_all_four_saved_identity_graphs_are_verified_without_fetching" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="14" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="1" time="0.327965"/>
+        <testcase name="test_a_one_way_link_is_not_identity_proof" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="25" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="1" time="0.074804"/>
+        <testcase name="test_matching_requisites_titles_and_hashes_without_links_do_not_merge" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="33" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="1" time="0.066362"/>
+        <testcase name="test_conflicting_requisites_require_review" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="43" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="1" time="0.067641"/>
+        <testcase name="test_unknown_and_internally_conflicting_metadata_fail_closed" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="51" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="6" time="0.021387"/>
+        <testcase name="test_pending_becomes_active_at_tashkent_midnight_only_with_source_active_metadata" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="64" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="2" time="0.066214"/>
+        <testcase name="test_source_revoked_is_inactive_and_n_is_never_assumed_pending" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="72" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="2" time="0.072954"/>
+        <testcase name="test_actual_metadata_pdf_mismatch_is_only_a_warning_for_status" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="80" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="3" time="0.066046"/>
+        <testcase name="test_actual_pdf_and_ocr_quality_reviews_are_not_overridden_by_status" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="89" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="3" time="0.161774"/>
+        <testcase name="test_page_mismatch_and_uncertified_ocr_fail_even_when_candidate_claims_good_quality" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="100" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="2" time="0.067197"/>
+        <testcase name="test_missing_optional_field_cannot_bridge_two_conflicting_publication_dates" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/DocumentValidatorTest.php" line="109" class="Tests\Unit\DocumentValidatorTest" classname="Tests.Unit.DocumentValidatorTest" assertions="1" time="0.068708"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\LexParserTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" tests="10" assertions="30" errors="0" failures="0" skipped="0" time="0.590083">
+        <testcase name="test_historical_revision_is_not_accepted_as_current_document_evidence" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="17" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="1" time="0.023505"/>
+        <testcase name="test_unknown_linked_language_requires_review" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="23" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="1" time="0.027304"/>
+        <testcase name="test_saved_real_source_excerpt_keeps_heading_and_removes_editorial_ui" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="29" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="4" time="0.023343"/>
+        <testcase name="test_saved_language_controls_ignore_pdf_download_and_global_interface_menu" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="39" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="3" time="0.023153"/>
+        <testcase name="test_saved_metadata_reconstruction_roundtrips_and_date_precedence_is_not_body_driven" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="49" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="4" time="0.025004"/>
+        <testcase name="test_saved_localized_card_language_is_supported_and_status_requires_listing_corroboration" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="60" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="3" time="0.021905"/>
+        <testcase name="test_numeric_superscript_headings_and_simple_table_are_preserved" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="69" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="4" time="0.020517"/>
+        <testcase name="test_real_complex_table_and_unsupported_superscript_require_review" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="79" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="5" time="0.267094"/>
+        <testcase name="test_partial_text_layer_with_long_header_has_low_body_coverage" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="91" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="3" time="0.021251"/>
+        <testcase name="test_invalid_pdf_and_process_failure_leave_no_temporary_source_files" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Unit/LexParserTest.php" line="101" class="Tests\Unit\LexParserTest" classname="Tests.Unit.LexParserTest" assertions="2" time="0.137008"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="56" assertions="206" errors="5" failures="5" skipped="0" time="14.224872">
+      <testsuite name="Tests\Feature\ConcurrentImportTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ConcurrentImportTest.php" tests="1" assertions="10" errors="0" failures="0" skipped="0" time="0.581852">
+        <testcase name="test_two_real_php_processes_wait_on_postgresql_lock_and_converge_to_one_document" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ConcurrentImportTest.php" line="16" class="Tests\Feature\ConcurrentImportTest" classname="Tests.Feature.ConcurrentImportTest" assertions="10" time="0.581852"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\DocumentImporterTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" tests="23" assertions="81" errors="0" failures="1" skipped="0" time="7.120269">
+        <testcase name="test_real_four_identifier_fixture_maps_to_one_document_and_three_full_texts" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="37" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="9" time="0.255946"/>
+        <testcase name="test_repeated_import_is_idempotent_and_checks_can_advance_without_content_change" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="51" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="4" time="0.361862"/>
+        <testcase name="test_all_source_entrypoints_reuse_persisted_anchor" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="62" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="6" time="0.599499"/>
+        <testcase name="test_source_namespace_does_not_collide_for_identical_external_ids" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="74" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="3" time="0.325218"/>
+        <testcase name="test_one_invalid_language_still_saves_other_valid_languages_and_is_incomplete" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="84" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="8" time="0.299230"/>
+        <testcase name="test_missing_required_text_cannot_borrow_an_old_success_to_mark_complete" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="100" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="5" time="0.332207"/>
+        <testcase name="test_truncated_text_never_overwrites_previous_valid_content" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="116" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="3" time="0.300732"/>
+        <testcase name="test_content_hash_changes_without_creating_a_history_row" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="128" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="5" time="0.347415"/>
+        <testcase name="test_crlf_normalization_does_not_change_hash_or_markdown_structure" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="143" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="1" time="0.323960"/>
+        <testcase name="test_conflicting_mappings_fail_closed_without_automatic_merge" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="153" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="3" time="0.307310"/>
+        <testcase name="test_database_failure_after_first_language_insert_rolls_back_every_write" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="170" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="5" time="0.240518"/>
+        <testcase name="test_unknown_metadata_preserves_entire_existing_document" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="192" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="2" time="0.307880"/>
+        <testcase name="test_pending_active_and_revoked_transitions_preserve_text" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="207" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="4" time="0.295550"/>
+        <testcase name="test_actual_scan_metadata_date_wins_warning_persists_and_bad_ocr_cannot_replace_old_text" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="222" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="6" time="0.245618"/>
+        <testcase name="test_all_bad_languages_cannot_create_an_empty_document" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="238" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="3" time="0.213567"/>
+        <testcase name="test_new_verified_language_keeps_original_canonical_anchor" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="248" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="3" time="0.396608"/>
+        <testcase name="test_real_postgresql_exception_mid_update_rolls_back_metadata_identifiers_and_contents" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="267" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="2" time="0.310387"/>
+        <testcase name="test_persisted_requisites_cannot_be_replaced_by_a_different_but_internally_consistent_graph" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="297" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="1" time="0.297510"/>
+        <testcase name="test_verified_identifiers_cannot_silently_disappear_from_a_smaller_graph" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="308" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="1" time="0.295860"/>
+        <testcase name="test_stale_verification_cannot_overwrite_a_newer_successful_check" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="318" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="2" time="0.308275"/>
+        <testcase name="test_incomplete_queue_job_exposes_failure_after_valid_languages_commit" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="331" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="1" time="0.269626">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\DocumentImporterTest::test_incomplete_queue_job_exposes_failure_after_valid_languages_commit
+Incomplete job must report validation failure.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:338</failure>
+        </testcase>
+        <testcase name="test_metadata_only_translation_payload_is_never_persisted_as_content" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="347" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="3" time="0.246765"/>
+        <testcase name="test_new_inactive_document_is_not_admitted_but_existing_documents_can_be_revoked" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php" line="357" class="Tests\Feature\DocumentImporterTest" classname="Tests.Feature.DocumentImporterTest" assertions="1" time="0.238726"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\FoundationDatabaseTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" tests="11" assertions="67" errors="0" failures="1" skipped="0" time="2.323066">
+        <testcase name="test_real_postgresql_schema_has_exactly_five_business_tables_and_jsonb_columns" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="41" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="3" time="0.172971">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\FoundationDatabaseTest::test_real_postgresql_schema_has_exactly_five_business_tables_and_jsonb_columns
+Failed asserting that two arrays are identical.
+--- Expected
++++ Actual
+@@ @@
+     7 =&gt; 'job_batches',
+     8 =&gt; 'jobs',
+     9 =&gt; 'migrations',
+-    10 =&gt; 'scrape_runs',
++    10 =&gt; 'scrape_run_items',
++    11 =&gt; 'scrape_runs',
+ ]
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php:49</failure>
+        </testcase>
+        <testcase name="test_migrations_roll_back_and_reapply_on_postgresql" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="55" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="6" time="0.223385"/>
+        <testcase name="test_source_seeding_is_idempotent_and_preserves_disabled_sources" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="65" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="2" time="0.193354"/>
+        <testcase name="test_all_relationships_and_casts_work" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="75" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="12" time="0.255645"/>
+        <testcase name="test_one_source_identifier_cannot_belong_to_two_documents" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="95" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="1" time="0.182155"/>
+        <testcase name="test_foreign_keys_reject_missing_and_cross_source_references" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="104" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="4" time="0.184315"/>
+        <testcase name="test_content_language_unique_and_document_delete_cascades" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="115" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="3" time="0.250385"/>
+        <testcase name="test_nullable_manual_anchors_and_business_status_checks" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="126" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="3" time="0.174504"/>
+        <testcase name="test_strict_completion_requires_all_gates_and_zero_failures_even_for_direct_sql" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="136" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="17" time="0.204765"/>
+        <testcase name="test_database_queue_dispatch_is_after_commit_and_rollback_does_not_leave_a_job" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="161" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="7" time="0.307095"/>
+        <testcase name="test_queue_timing_configuration_and_no_live_schedules" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php" line="184" class="Tests\Feature\FoundationDatabaseTest" classname="Tests.Feature.FoundationDatabaseTest" assertions="9" time="0.174491"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\LexHttpClientTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" tests="9" assertions="24" errors="0" failures="0" skipped="0" time="1.755759">
+        <testcase name="test_common_pacer_enforces_two_seconds_for_html_pdf_and_post" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="17" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="2" time="0.234911"/>
+        <testcase name="test_429_retry_after_seconds_and_http_date_are_respected" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="29" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="3" time="0.197940"/>
+        <testcase name="test_long_429_defers_without_sleeping_past_the_job_budget" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="39" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="3" time="0.176619"/>
+        <testcase name="test_403_stops_and_shared_cooldown_prevents_another_request" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="53" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="3" time="0.171123"/>
+        <testcase name="test_5xx_and_connection_failures_have_bounded_retries" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="68" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="3" time="0.202154"/>
+        <testcase name="test_untrusted_redirect_and_unlimited_request_budget_are_rejected" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="77" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="1" time="0.188564"/>
+        <testcase name="test_connection_timeout_failure_exhausts_exactly_three_attempts" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="84" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="3" time="0.206836"/>
+        <testcase name="test_diagnostics_never_include_cookies_viewstate_or_secret_query_parameters" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="102" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="4" time="0.189855"/>
+        <testcase name="test_context_request_budget_stops_before_an_extra_http_request" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/LexHttpClientTest.php" line="117" class="Tests\Feature\LexHttpClientTest" classname="Tests.Feature.LexHttpClientTest" assertions="2" time="0.187757"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ScrapingIntegrationTest" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" tests="12" assertions="24" errors="5" failures="3" skipped="0" time="2.443925">
+        <testcase name="test_http_parser_validator_importer_and_real_database_queue_work_together" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="47" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="1" time="0.210217">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\ScrapingIntegrationTest::test_http_parser_validator_importer_and_real_database_queue_work_together
+Failed asserting that table [documents] matches expected entries count of 1. Entries found: 0.
+.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:56</failure>
+        </testcase>
+        <testcase name="test_aspnet_pagination_uses_current_hidden_fields_and_source_postback_target" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="74" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="4" time="0.181603"/>
+        <testcase name="test_invalid_expired_state_restarts_with_fresh_get_without_skipping_a_page" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="93" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="3" time="0.197412"/>
+        <testcase name="test_checkpoint_and_queue_insertion_roll_back_together" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="112" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="0" time="0.176590">
+          <error type="LogicException">Tests\Feature\ScrapingIntegrationTest::test_checkpoint_and_queue_insertion_roll_back_together
+LogicException: Invalid run item transition  -&gt; queued
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Models/ScrapeRunItem.php:48
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/RunItemTracker.php:21
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:112
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:78
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:119
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:118</error>
+        </testcase>
+        <testcase name="test_resume_replays_from_fresh_session_and_deduplicates_committed_identifiers" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="130" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="0" time="0.189816">
+          <error type="LogicException">Tests\Feature\ScrapingIntegrationTest::test_resume_replays_from_fresh_session_and_deduplicates_committed_identifiers
+LogicException: Invalid run item transition  -&gt; queued
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Models/ScrapeRunItem.php:48
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/RunItemTracker.php:21
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:112
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:78
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:134</error>
+        </testcase>
+        <testcase name="test_retry_then_success_is_tracked_by_the_real_database_queue" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="163" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="5" time="0.282546">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\ScrapingIntegrationTest::test_retry_then_success_is_tracked_by_the_real_database_queue
+Failed asserting that 0 is identical to 1.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:177</failure>
+        </testcase>
+        <testcase name="test_partial_language_review_keeps_valid_text_and_failed_job_and_never_completes" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="182" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="2" time="0.248827">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\ScrapingIntegrationTest::test_partial_language_review_keeps_valid_text_and_failed_job_and_never_completes
+Failed asserting that table [document_contents] matches expected entries count of 2. Entries found: 0.
+.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:193</failure>
+        </testcase>
+        <testcase name="test_commands_require_explicit_bounded_limits_and_live_configuration" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="201" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="7" time="0.192334"/>
+        <testcase name="test_checkpoint_prefix_drift_fails_without_committing_new_ids_or_jobs" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="214" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="0" time="0.183086">
+          <error type="LogicException">Tests\Feature\ScrapingIntegrationTest::test_checkpoint_prefix_drift_fails_without_committing_new_ids_or_jobs
+LogicException: Invalid run item transition  -&gt; queued
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Models/ScrapeRunItem.php:48
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/RunItemTracker.php:21
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:112
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:78
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:219</error>
+        </testcase>
+        <testcase name="test_crash_after_limit_commit_finishes_discovery_without_skipping_pending_imports" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="234" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="0" time="0.190026">
+          <error type="LogicException">Tests\Feature\ScrapingIntegrationTest::test_crash_after_limit_commit_finishes_discovery_without_skipping_pending_imports
+LogicException: Invalid run item transition  -&gt; queued
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Models/ScrapeRunItem.php:48
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/RunItemTracker.php:21
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:112
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:35
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:502
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:78
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:238</error>
+        </testcase>
+        <testcase name="test_recheck_selects_due_and_pending_documents_but_preserves_fresh_and_inactive_rows" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="246" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="0" time="0.206039">
+          <error type="ErrorException">Tests\Feature\ScrapingIntegrationTest::test_recheck_selects_due_and_pending_documents_but_preserves_fresh_and_inactive_rows
+ErrorException: Undefined array key "items"
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:265
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php:254</error>
+        </testcase>
+        <testcase name="test_optional_bounded_section_uses_only_a_verified_discovery_root" file="/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/ScrapingIntegrationTest.php" line="260" class="Tests\Feature\ScrapingIntegrationTest" classname="Tests.Feature.ScrapingIntegrationTest" assertions="2" time="0.185428"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

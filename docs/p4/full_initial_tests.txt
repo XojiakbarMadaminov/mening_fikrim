@@ -1,0 +1,45 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+............................................................[41;37mF[0m..  63 / 126 ( 50%)
+......[41;37mF[0m........[41;37mF[0m............[41;37mF[0m.................................. 126 / 126 (100%)
+
+
+Time: 00:33.467, Memory: 100.50 MB
+
+There were 4 failures:
+
+1) Tests\Feature\DocumentImporterTest::test_one_invalid_language_still_saves_other_valid_languages_and_is_incomplete
+Failed asserting that table [document_contents] matches expected entries count of 2. Entries found: 3.
+.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:118
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:92
+
+2) Tests\Feature\DocumentImporterTest::test_actual_scan_metadata_date_wins_warning_persists_and_bad_ocr_cannot_replace_old_text
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'28824f6d3155cb6cb29b16fa306474b251d349a5a555661ec65c8d935ef8e7c4'
++'b56a75f53dd73f70c97d80532780afb654da869d84e0f7e3e3da34f42205278a'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DocumentImporterTest.php:235
+
+3) Tests\Feature\DocumentImporterTest::test_new_inactive_document_is_not_admitted_but_existing_documents_can_be_revoked
+Failed asserting that exception of type "Illuminate\Validation\ValidationException" is thrown.
+
+4) Tests\Feature\DurableTrackingTest::test_initial_inactive_review_still_records_source_status_and_verified_identity
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'review'
++'imported'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DurableTrackingTest.php:239
+
+[37;41mFAILURES![0m
+[37;41mTests: 126[0m[37;41m, Assertions: 548[0m[37;41m, Failures: 4[0m[37;41m.[0m

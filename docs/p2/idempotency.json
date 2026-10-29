@@ -1,0 +1,15 @@
+{
+  "first_run": 1,
+  "repeat_run": 2,
+  "document_rows_before": 15,
+  "document_rows_after": 15,
+  "identifier_rows_before": 45,
+  "identifier_rows_after": 45,
+  "content_rows_before": 37,
+  "content_rows_after": 37,
+  "all_content_ids_and_hashes_unchanged": true,
+  "repeat_created": 0,
+  "repeat_updated": 0,
+  "repeat_unchanged": 15,
+  "repeat_review": 12
+}

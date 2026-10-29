@@ -1,0 +1,1 @@
+{"tool":"pint","result":"fixed","files":[{"path":"docs\/p5_1\/final_checks.php","fixers":["single_space_around_construct","method_argument_space","array_indentation","control_structure_braces","ternary_operator_spaces","whitespace_after_comma_in_array","no_multiple_statements_per_line","braces_position","statement_indentation","no_unused_imports","binary_operator_spaces"]}]}

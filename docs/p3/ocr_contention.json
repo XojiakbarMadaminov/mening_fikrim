@@ -1,0 +1,38 @@
+[
+    {
+        "offline_controlled_image": true,
+        "parallelism": 1,
+        "tasks": 2,
+        "wall_seconds": 13.674280374,
+        "profiles": [
+            {
+                "user_cpu_seconds": 6.71,
+                "system_cpu_seconds": 0.16,
+                "peak_rss_kib": 137932
+            },
+            {
+                "user_cpu_seconds": 6.61,
+                "system_cpu_seconds": 0.16,
+                "peak_rss_kib": 138944
+            }
+        ]
+    },
+    {
+        "offline_controlled_image": true,
+        "parallelism": 2,
+        "tasks": 2,
+        "wall_seconds": 6.804848832,
+        "profiles": [
+            {
+                "user_cpu_seconds": 6.63,
+                "system_cpu_seconds": 0.16,
+                "peak_rss_kib": 138780
+            },
+            {
+                "user_cpu_seconds": 6.6,
+                "system_cpu_seconds": 0.16,
+                "peak_rss_kib": 138660
+            }
+        ]
+    }
+]

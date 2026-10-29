@@ -1,0 +1,426 @@
+[
+  {
+    "settings": {
+      "vertical_strategy": "lines",
+      "horizontal_strategy": "lines",
+      "snap_tolerance": 3,
+      "join_tolerance": 3
+    },
+    "tables": [
+      {
+        "rows": 11,
+        "columns": 11,
+        "cells": [
+          [
+            "T/r",
+            null,
+            null,
+            "",
+            "Chora-tadbir yoki",
+            "",
+            "Mas’ul shaxs",
+            "",
+            "Bajarish",
+            "",
+            "Zarur resurslar va bajarilganini tasdiqlovchi hujjat"
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            "Radiatsiyani boshqarish",
+            null,
+            null,
+            null,
+            "muddati",
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            "rejasi bandi",
+            null,
+            null,
+            null,
+            "davriyligi",
+            null,
+            null
+          ],
+          [
+            "",
+            "1",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "2",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "3",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "4",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "5",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "6",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "7",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "8",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "vertical_strategy": "lines",
+      "horizontal_strategy": "lines",
+      "snap_tolerance": 5,
+      "join_tolerance": 5
+    },
+    "tables": [
+      {
+        "rows": 11,
+        "columns": 11,
+        "cells": [
+          [
+            "T/r",
+            null,
+            null,
+            "",
+            "Chora-tadbir yoki",
+            "",
+            "Mas’ul shaxs",
+            "",
+            "Bajarish",
+            "",
+            "Zarur resurslar va bajarilganini tasdiqlovchi hujjat"
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            "Radiatsiyani boshqarish",
+            null,
+            null,
+            null,
+            "muddati",
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            "rejasi bandi",
+            null,
+            null,
+            null,
+            "davriyligi",
+            null,
+            null
+          ],
+          [
+            "",
+            "1",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "2",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "3",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "4",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "5",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "6",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "7",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ],
+          [
+            "",
+            "8",
+            "",
+            "",
+            null,
+            null,
+            "",
+            "",
+            null,
+            null,
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "vertical_strategy": "lines",
+      "horizontal_strategy": "lines",
+      "snap_tolerance": 8,
+      "join_tolerance": 8
+    },
+    "tables": [
+      {
+        "rows": 9,
+        "columns": 5,
+        "cells": [
+          [
+            "T/r",
+            "Chora-tadbir yoki\nRadiatsiyani boshqarish\nrejasi bandi",
+            "Mas’ul shaxs",
+            "Bajarish\nmuddati\ndavriyligi",
+            "Zarur resurslar va bajarilganini tasdiqlovchi hujjat"
+          ],
+          [
+            "1",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "3",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "4",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "5",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "6",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "7",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "8",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "vertical_strategy": "lines_strict",
+      "horizontal_strategy": "lines_strict",
+      "snap_tolerance": 3,
+      "join_tolerance": 3
+    },
+    "tables": []
+  },
+  {
+    "settings": {
+      "vertical_strategy": "lines_strict",
+      "horizontal_strategy": "lines_strict",
+      "snap_tolerance": 5,
+      "join_tolerance": 5
+    },
+    "tables": []
+  },
+  {
+    "settings": {
+      "vertical_strategy": "lines_strict",
+      "horizontal_strategy": "lines_strict",
+      "snap_tolerance": 8,
+      "join_tolerance": 8
+    },
+    "tables": []
+  }
+]

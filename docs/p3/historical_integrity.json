@@ -1,0 +1,14 @@
+{
+  "files_checked": 289,
+  "changed": [],
+  "all_unchanged": true,
+  "foundation_unchanged": {
+    "app/Services/Documents/DocumentImporter.php": true,
+    "app/Services/Documents/DocumentValidator.php": true,
+    "app/Models/Document.php": true,
+    "app/Models/DocumentIdentifier.php": true,
+    "app/Models/DocumentContent.php": true,
+    "app/Models/DocumentSource.php": true,
+    "app/Enums/DocumentStatus.php": true
+  }
+}

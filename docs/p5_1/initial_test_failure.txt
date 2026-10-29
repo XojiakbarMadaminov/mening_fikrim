@@ -1,0 +1,12 @@
+PHP Fatal error:  Access level to Tests\Feature\BoundedDiscoveryTest::query() must be public (as in class Illuminate\Foundation\Testing\TestCase) in /home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/BoundedDiscoveryTest.php on line 20
+Stack trace:
+#0 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/Runner/TestSuiteLoader.php(116): require_once()
+#1 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/Runner/TestSuiteLoader.php(49): PHPUnit\Runner\TestSuiteLoader->loadSuiteClassFile()
+#2 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/Framework/TestSuite.php(245): PHPUnit\Runner\TestSuiteLoader->load()
+#3 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/TextUI/Configuration/Xml/TestSuiteMapper.php(104): PHPUnit\Framework\TestSuite->addTestFile()
+#4 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/TextUI/Configuration/TestSuiteBuilder.php(75): PHPUnit\TextUI\XmlConfiguration\TestSuiteMapper->map()
+#5 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/TextUI/Application.php(386): PHPUnit\TextUI\Configuration\TestSuiteBuilder->build()
+#6 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/src/TextUI/Application.php(195): PHPUnit\TextUI\Application->buildTestSuite()
+#7 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run()
+#8 /home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/bin/phpunit(122): include('...')
+#9 {main}

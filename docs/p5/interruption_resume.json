@@ -1,0 +1,29 @@
+{
+    "method": "graceful bounded worker stop after6 jobs; explicit resume; restart same single worker",
+    "run_id": 11,
+    "completed_item_ids": [
+        170,
+        171,
+        172,
+        173,
+        174
+    ],
+    "remaining_receipt_ids": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+    ],
+    "receipts_unchanged_on_resume": true
+}

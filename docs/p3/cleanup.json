@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-28T14:01:30.692876+00:00",
+  "removed_private_roots": [
+    {
+      "path": "/tmp/lex-p3-live-5rvipez_",
+      "files_deleted": 35,
+      "bytes_deleted": 26298078,
+      "remaining": false
+    },
+    {
+      "path": "/tmp/lex-p3-bench-iwmmm9it",
+      "files_deleted": 13,
+      "bytes_deleted": 760057,
+      "remaining": false
+    }
+  ],
+  "parser_temp_entries_remaining": [],
+  "raw_source_files_retained": false,
+  "p0_toolchain_preserved": true,
+  "baseline_source_backup_preserved": true,
+  "note": "Derived diagnostics, normalized gold excerpts, cell inventories, identity metadata and audit logs remain in docs/p3; no raw HTML/PDF/PNG source files retained."
+}

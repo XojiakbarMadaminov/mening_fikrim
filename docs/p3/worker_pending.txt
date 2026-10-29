@@ -1,0 +1,5 @@
+  2026-10-28 18:05:12 App\Jobs\DiscoverDocumentsJob#5 ................ RUNNING
+  2026-10-28 18:05:12 App\Jobs\DiscoverDocumentsJob#5 ........... 44.94ms DONE
+  2026-10-28 18:05:12 App\Jobs\ImportDocumentJob#5 ................... RUNNING
+  2026-10-28 18:05:23 App\Jobs\ImportDocumentJob#5 ................. 10 с DONE
+  2026-10-28 18:05:24 Worker STOPPED Queue empty

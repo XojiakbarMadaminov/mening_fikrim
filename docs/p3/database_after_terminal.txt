@@ -1,0 +1,40 @@
+{
+    "databases": [
+        "mening_fikrim",
+        "mening_fikrim_active",
+        "mening_fikrim_active_test",
+        "mening_fikrim_local",
+        "mening_fikrim_p1",
+        "mening_fikrim_p1_test",
+        "mening_fikrim_test"
+    ],
+    "unrelated_table_counts_unchanged": true,
+    "development_rows": {
+        "cache": 9,
+        "cache_locks": 0,
+        "document_contents": 40,
+        "document_identifiers": 48,
+        "document_sources": 2,
+        "documents": 16,
+        "failed_jobs": 24,
+        "job_batches": 0,
+        "jobs": 0,
+        "migrations": 8,
+        "scrape_run_items": 112,
+        "scrape_runs": 7
+    },
+    "testing_rows": {
+        "cache": 0,
+        "cache_locks": 0,
+        "document_contents": 0,
+        "document_identifiers": 0,
+        "document_sources": 2,
+        "documents": 0,
+        "failed_jobs": 0,
+        "job_batches": 0,
+        "jobs": 0,
+        "migrations": 8,
+        "scrape_run_items": 0,
+        "scrape_runs": 0
+    }
+}

@@ -1,0 +1,3091 @@
+{
+    "counts": {
+        "available": 118,
+        "not_available": 0,
+        "unknown": 70,
+        "available_but_failed": 0,
+        "unassessed_documents": 182
+    },
+    "scope": "Only persisted P5.1 evidence; legacy documents without an observation map are counted separately as unassessed, never inferred absent.",
+    "representations": [
+        {
+            "document_id": 45,
+            "external_id": "-1597456",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:23:03+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 45,
+            "external_id": "-1597456",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "9c7925305e65067f15bd2a89305c946685e92f4e42d48cb0446624c8ef0cd037",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "1597458",
+                "checked_at": "2026-10-29T05:23:03+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/1597458",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 45,
+            "external_id": "-1597456",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "e0c6995f760054c4ae18c42664416bb8c596fce25b244373da66a448c233d880",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "1597456",
+                "checked_at": "2026-10-29T05:23:03+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/1597456",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 45,
+            "external_id": "-1597456",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "7068bd76b2a60874f3b6987de8db4435ce8e4c3c944666103fe6819cb8fc3089",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-1597456",
+                "checked_at": "2026-10-29T05:23:03+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-1597456",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 67,
+            "external_id": "8345596",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:23:40+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 67,
+            "external_id": "8345596",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:23:40+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 67,
+            "external_id": "8345596",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:23:40+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 67,
+            "external_id": "8345596",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "a9d626d76afabb462ff76d6c4fe025e34f2950c9c0b4f0526ab25ecbe74b5c7d",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "8345596",
+                "checked_at": "2026-10-29T05:23:40+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/8345596",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 148,
+            "external_id": "-8118269",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:23:15+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 148,
+            "external_id": "-8118269",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "3b898d083aa29db1a0b0cf8c6e18aff553b8ee0a27479e5943e5e720e6ac6afb",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "8119972",
+                "checked_at": "2026-10-29T05:23:15+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/8119972",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 148,
+            "external_id": "-8118269",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "3a7665b4edaafc8f7d23df181ef6d9c42e3d4eecfca02b39c49d6377f0658974",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "8118269",
+                "checked_at": "2026-10-29T05:23:15+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/8118269",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 148,
+            "external_id": "-8118269",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "31d07482d28646bf4132031efacb2e2995c1e81b98e176c23279c41e9f1d9f09",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-8118269",
+                "checked_at": "2026-10-29T05:23:15+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-8118269",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 158,
+            "external_id": "4797522",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:24:05+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 158,
+            "external_id": "4797522",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:24:05+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 158,
+            "external_id": "4797522",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "373155d1d29dc62e938c318d4e637d31e4549de3c64914490ea7803c62bcba98",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "4797522",
+                "checked_at": "2026-10-29T05:24:05+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/4797522",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 158,
+            "external_id": "4797522",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:24:05+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 159,
+            "external_id": "-5210555",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:23:27+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 159,
+            "external_id": "-5210555",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "26ee96916c351e78dd7843c6296af9fbf171b2e5b2ea34f8b59934d4e8789eab",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5210585",
+                "checked_at": "2026-10-29T05:23:27+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5210585",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 159,
+            "external_id": "-5210555",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "c93ecdc7160d1fa6a79372e7a8d1e1115e10357b9d4cbef69392494200ba1ac0",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5210555",
+                "checked_at": "2026-10-29T05:23:27+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5210555",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 159,
+            "external_id": "-5210555",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8258b61e3c6a5bb35a9fcd636f47498fa37d65278c4c38c5a35ee31baa65709a",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5210555",
+                "checked_at": "2026-10-29T05:23:27+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5210555",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 188,
+            "external_id": "-5157401",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:28:40+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 188,
+            "external_id": "-5157401",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "db11b81767f661b74a400a2e4006e53386fde45441a3402cf91b2712c0c56557",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5157443",
+                "checked_at": "2026-10-29T05:30:06+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5157443",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 188,
+            "external_id": "-5157401",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "1b913a0e0db39c8800063b27feea31f83d5f14a07b5eeb8e18f9292fc8b54f9c",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5157401",
+                "checked_at": "2026-10-29T05:30:06+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5157401",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 188,
+            "external_id": "-5157401",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "44f58211bc3f38406739d045d62ccc9106923708454e04f7d5b2505088f961d0",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5157401",
+                "checked_at": "2026-10-29T05:30:06+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5157401",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 189,
+            "external_id": "-5156487",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:28:52+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 189,
+            "external_id": "-5156487",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "c84e398992640609d77be571dc14b23aaf41cf48624d316e876c28c975145337",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5156501",
+                "checked_at": "2026-10-29T05:30:18+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5156501",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 189,
+            "external_id": "-5156487",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "90da6de4ec1f5752bcfcab7abe07d7d70e911a8b2c6774dcaa156dea5e5dfd10",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5156487",
+                "checked_at": "2026-10-29T05:30:18+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5156487",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 189,
+            "external_id": "-5156487",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8e6883b694b8a8f87bcc52194c743329b7042abb32fa25ecf2f40fa971ae4e38",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5156487",
+                "checked_at": "2026-10-29T05:30:18+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5156487",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 190,
+            "external_id": "-5156154",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:29:04+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 190,
+            "external_id": "-5156154",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "3a5d7afafd8edd94f21d91b2c5c18da2ac61d7c1e4560f7d0c265194b9b67983",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5156176",
+                "checked_at": "2026-10-29T05:30:30+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5156176",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 190,
+            "external_id": "-5156154",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8caa639f7ba40fc0d91d97a85a56e233a79c291310cfe4c65e1805e2802e09d9",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5156154",
+                "checked_at": "2026-10-29T05:30:30+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5156154",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 190,
+            "external_id": "-5156154",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "77e9a17fd6dc4083de9eeac6e0bed5bb87a7b28c91b6f643a41bd19f45e9a8be",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5156154",
+                "checked_at": "2026-10-29T05:30:30+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5156154",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 191,
+            "external_id": "-5157341",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:29:16+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 191,
+            "external_id": "-5157341",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "c6607cb4fa535940e66a70cd06d83c36679fc2a977439eebe9f7e4f2261c6dd1",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5157389",
+                "checked_at": "2026-10-29T05:29:16+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5157389",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 191,
+            "external_id": "-5157341",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "e89952327ff1915332c8fe388d4461c17a30845633f2b2f9a245553108c355db",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5157341",
+                "checked_at": "2026-10-29T05:29:16+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5157341",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 191,
+            "external_id": "-5157341",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "27476a745d2f2a80afaf8d5423446fcf6c7d5f75676b07ddd3c2e1ac7ba12c7a",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5157341",
+                "checked_at": "2026-10-29T05:29:16+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5157341",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 192,
+            "external_id": "-5156669",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:29:28+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 192,
+            "external_id": "-5156669",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "8ce87d87bd9716888e4cde32bbdfd816594c5b7c039db58d1368f5e597bf50d1",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5157246",
+                "checked_at": "2026-10-29T05:29:28+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5157246",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 192,
+            "external_id": "-5156669",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "1ee6eb179d511f0445d347de0e5806f1f897b7ba8d2fb0938af2fea5aebbf754",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5156669",
+                "checked_at": "2026-10-29T05:29:28+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5156669",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 192,
+            "external_id": "-5156669",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "237e8da8a530b41c0f10cd5962581a422ec09b2bd44c01dbf13d004a7c10d394",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5156669",
+                "checked_at": "2026-10-29T05:29:28+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5156669",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 193,
+            "external_id": "-5155126",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:29:40+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 193,
+            "external_id": "-5155126",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "c2f2948e187733c9f848a8eb34f29ec2a7c4546d3051fa9ef1fe9169d5e6e3ec",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5155505",
+                "checked_at": "2026-10-29T05:29:40+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5155505",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 193,
+            "external_id": "-5155126",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "290def4960b6cd41eb1624f4b689c8292925fc2320e1d5f5ef06ed1d5f1ca2cd",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5155126",
+                "checked_at": "2026-10-29T05:29:40+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5155126",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 193,
+            "external_id": "-5155126",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "c6e3114994ef7aa6241b3f7ba6891c90836b7cd9103cb86c475880f5b67166ef",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5155126",
+                "checked_at": "2026-10-29T05:29:40+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5155126",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 194,
+            "external_id": "-5154950",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:29:52+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 194,
+            "external_id": "-5154950",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "61bbcaf06ace60addfa4f9274cb8b1111f9e7623ef7579be008b064c6591449a",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5155042",
+                "checked_at": "2026-10-29T05:29:52+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5155042",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 194,
+            "external_id": "-5154950",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "baa83dd10b7113e08c6bb62a68bce76299ac54070ee80db1228e0049375baa04",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5154950",
+                "checked_at": "2026-10-29T05:29:52+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5154950",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 194,
+            "external_id": "-5154950",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "e4198832d694e71704d1b7afe130da514545832e42feffee108ad16af80524b1",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5154950",
+                "checked_at": "2026-10-29T05:29:52+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5154950",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 195,
+            "external_id": "-5183590",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:30:44+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 195,
+            "external_id": "-5183590",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "be47d9ad09293fdfc9a70d0d8977b65599e111895814657df21d7aa83fd9349d",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5183597",
+                "checked_at": "2026-10-29T05:30:44+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183597",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 195,
+            "external_id": "-5183590",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "0023948f8fe152b659af2f292fe3333564da6a036c52a0c9ae5994ee9f964839",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5183590",
+                "checked_at": "2026-10-29T05:30:44+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183590",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 195,
+            "external_id": "-5183590",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "552cbfd1bab3c43626c54308f2407e6e71ee0b8b8bc2771f481eba408c67592e",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5183590",
+                "checked_at": "2026-10-29T05:30:44+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5183590",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 196,
+            "external_id": "-5183471",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:30:56+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 196,
+            "external_id": "-5183471",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "ad9d149cb242cf682a44b10b0151bbc8a81a4bd7831a2e4d8cc62eb6910e966e",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5183473",
+                "checked_at": "2026-10-29T05:30:56+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183473",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 196,
+            "external_id": "-5183471",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "1b671d5d8d8121b30917b5a4d3b62eb428d15e83ee2ea26d61f7ed6976a84429",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5183471",
+                "checked_at": "2026-10-29T05:30:56+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183471",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 196,
+            "external_id": "-5183471",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "6e25e74638c38fe2289889b9fc68b911cffd6b713ca30dbd6e8018c5cd115237",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5183471",
+                "checked_at": "2026-10-29T05:30:56+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5183471",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 197,
+            "external_id": "-5183307",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:31:08+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 197,
+            "external_id": "-5183307",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "a07f868c475e7f6653162ca819baf782cae15373e2dd552c2166403ee2a8596b",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5183315",
+                "checked_at": "2026-10-29T05:31:08+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183315",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 197,
+            "external_id": "-5183307",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "68cd8eecef0548ef7b91f1aa28ff9f47bb0fccd5e4a84c2c8dd8fb88a96e672c",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5183307",
+                "checked_at": "2026-10-29T05:31:08+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183307",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 197,
+            "external_id": "-5183307",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "f2f22b174f0b691fd07c2d10fbf44f91b885ff1ad82f7a0e9209ef5b2592c987",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5183307",
+                "checked_at": "2026-10-29T05:31:08+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5183307",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 198,
+            "external_id": "-5183076",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:31:20+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 198,
+            "external_id": "-5183076",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "20e68ba4aa0b07f69aa7555fab397ef6079e239d71eb9b3d5bd9583a3ec00c1e",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5183080",
+                "checked_at": "2026-10-29T05:31:20+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183080",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 198,
+            "external_id": "-5183076",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "d89d8e60b1855e5fcdcd4155da67a09d2d48e1f3009fc26bef188148ae3dbc95",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5183076",
+                "checked_at": "2026-10-29T05:31:20+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5183076",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 198,
+            "external_id": "-5183076",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "0516eced15e569d93a4dc772383c40e8a46be1f1a32a39b8a55c780acbe9d7ca",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5183076",
+                "checked_at": "2026-10-29T05:31:20+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5183076",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 199,
+            "external_id": "-5182983",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:31:32+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 199,
+            "external_id": "-5182983",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "9b0ce35955dba882ff72d2fcf5f1edc6f87fd2d71f00f20dd890449b69079407",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5182985",
+                "checked_at": "2026-10-29T05:31:32+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5182985",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 199,
+            "external_id": "-5182983",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8d9f66f276b5233b20806cb79a8d451bf4a9bfc466411a92eb7c8c2c4261c5fb",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5182983",
+                "checked_at": "2026-10-29T05:31:32+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5182983",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 199,
+            "external_id": "-5182983",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "75a908d2e3682e79250410292715600ef08fb44726a18b915602323dbc7931d5",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5182983",
+                "checked_at": "2026-10-29T05:31:32+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5182983",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 200,
+            "external_id": "-5179305",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:31:44+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 200,
+            "external_id": "-5179305",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "7954be5cea687085cfaa3d8d7ee09d8c99fe3c8f9480a37e00127d71cae30307",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5179309",
+                "checked_at": "2026-10-29T05:31:44+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5179309",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 200,
+            "external_id": "-5179305",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "d9ac30de6187242af19939ed1dfb26ecb83e2adbbbc42e8e7b16e9f222aac9aa",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5179305",
+                "checked_at": "2026-10-29T05:31:44+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5179305",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 200,
+            "external_id": "-5179305",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "f7d186542c4b29c335eaebca10025d208ca5e454cb7b8bd60cc915f1fb20d66d",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5179305",
+                "checked_at": "2026-10-29T05:31:44+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5179305",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 201,
+            "external_id": "-5178990",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:31:56+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 201,
+            "external_id": "-5178990",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "d99e57422a934e3642e86f26a50b7115fd23ce445f5778e30ee3016eb0ddcaf5",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5178992",
+                "checked_at": "2026-10-29T05:31:56+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5178992",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 201,
+            "external_id": "-5178990",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "ebefc245917be5f428e304a5241f7a6c107ae074397932587440f7e032a6ce51",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5178990",
+                "checked_at": "2026-10-29T05:31:56+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5178990",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 201,
+            "external_id": "-5178990",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "13074107a46af6a5b6364cfc99aee00c690e86983c051ec5344fb05bd9f8bb9a",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5178990",
+                "checked_at": "2026-10-29T05:31:56+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5178990",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 202,
+            "external_id": "-7609300",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:32:08+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 202,
+            "external_id": "-7609300",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "f233f1ee277f7208806c87ef083a46bccd44f6cd9952b4fd9e092c93cbeff9ed",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "7609326",
+                "checked_at": "2026-10-29T05:32:32+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/7609326",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 202,
+            "external_id": "-7609300",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "6b1d8c1ccecc0e76a27dd50e1f0955bd173cad84ad87171e6c571c5190a2b487",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "7609300",
+                "checked_at": "2026-10-29T05:32:32+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/7609300",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 202,
+            "external_id": "-7609300",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "91c1586c4131298b144bba596435873e8badfc278d48a3406c2bc423acd56b0a",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-7609300",
+                "checked_at": "2026-10-29T05:32:32+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-7609300",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "needs_review"
+        },
+        {
+            "document_id": 203,
+            "external_id": "-5145076",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:32:45+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 203,
+            "external_id": "-5145076",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "cc53ce599eb52079cd785a4c069d263a40bfa36464768a3c2512410308f20972",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5145113",
+                "checked_at": "2026-10-29T05:32:45+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5145113",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 203,
+            "external_id": "-5145076",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "932b148d1ba2381dbfc28db34f53b882cd328dce022004f3e0a556f6259439fa",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5145076",
+                "checked_at": "2026-10-29T05:32:45+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5145076",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 203,
+            "external_id": "-5145076",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "2e1bb76f15e559f71c07a8defa3e90a4f09c243a436727218272e4b121bd0822",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5145076",
+                "checked_at": "2026-10-29T05:32:45+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5145076",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 204,
+            "external_id": "-5137867",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:32:57+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 204,
+            "external_id": "-5137867",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "d6276362f08ac3fc906b13ff9d2799db4aaa58d34256afc7de8e7304cb1d5a72",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5137973",
+                "checked_at": "2026-10-29T05:32:57+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5137973",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 204,
+            "external_id": "-5137867",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "b872daaf200c4d4f4c2e94f0dab6214224ccec2c3f405bef222bc72a3efa5664",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5137867",
+                "checked_at": "2026-10-29T05:32:57+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5137867",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 204,
+            "external_id": "-5137867",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "65eacf0efc3a63566f5a89b5dcf67958fa0c4576ecc07191184e68ddcceba68f",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5137867",
+                "checked_at": "2026-10-29T05:32:57+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5137867",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 205,
+            "external_id": "-5137567",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:33:10+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 205,
+            "external_id": "-5137567",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "a89da0dc44f1e1c0fee13ee1a3cb6aca279400808345d9651e1074aa3a6ff485",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5137718",
+                "checked_at": "2026-10-29T05:33:10+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5137718",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 205,
+            "external_id": "-5137567",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "bac6da914b09949cd0852306ebf6a2898faa1b8934a9a2da19e81d6aae860f35",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5137567",
+                "checked_at": "2026-10-29T05:33:10+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5137567",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 205,
+            "external_id": "-5137567",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "00214a29cac75501496c859d5c2a03457b91b8b087db3e7b8fb72e4fa2ff81f2",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5137567",
+                "checked_at": "2026-10-29T05:33:10+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5137567",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 206,
+            "external_id": "-5137376",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:33:22+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 206,
+            "external_id": "-5137376",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "9e9968b10fd614362a333d0933700a83e0493b894304cb98ee4f78c1c20b5fda",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5137473",
+                "checked_at": "2026-10-29T05:33:22+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5137473",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 206,
+            "external_id": "-5137376",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "a36875353fa8e948a22c8e6ad8dfd8773d8bdd32062789caafaaf59c652de631",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5137376",
+                "checked_at": "2026-10-29T05:33:22+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5137376",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 206,
+            "external_id": "-5137376",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "12e70643926bcebc57ddc4bdfbfed1eeb41a569abb5a1a34de8a138aba04b1b0",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5137376",
+                "checked_at": "2026-10-29T05:33:22+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5137376",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 207,
+            "external_id": "-5090483",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:33:35+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 207,
+            "external_id": "-5090483",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "e6cd053ab1fa8596030ff334beba1ee5afd8dbd27ce17d351976b0319329ea7a",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5090486",
+                "checked_at": "2026-10-29T05:33:35+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090486",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 207,
+            "external_id": "-5090483",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "558d53583c7ee1d31a1e9fdc05ef37586cf83f5fe6a9eb172d876a4513077d22",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5090483",
+                "checked_at": "2026-10-29T05:33:35+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090483",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 207,
+            "external_id": "-5090483",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "2efb9ea4f7f868c76e0fb5e538f402929ea5f92ff9d45995ca43c99340b41cff",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5090483",
+                "checked_at": "2026-10-29T05:33:35+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5090483",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 208,
+            "external_id": "-5090427",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:33:49+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 208,
+            "external_id": "-5090427",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "0ac85fbcd42d32d2af0b063487363146bb490b62717a7734f84072ff134d9cac",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5090429",
+                "checked_at": "2026-10-29T05:33:49+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090429",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 208,
+            "external_id": "-5090427",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "0a59e1aecad6fac3ecdbcc7068dc6bc4523bff52a4c47c6a628479995313bc08",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5090427",
+                "checked_at": "2026-10-29T05:33:49+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090427",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 208,
+            "external_id": "-5090427",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "72a6372d06a0eed760b0d771888254394d8c63501e50088dc65a83caa0c906c3",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5090427",
+                "checked_at": "2026-10-29T05:33:49+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5090427",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 209,
+            "external_id": "-5090042",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:01+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 209,
+            "external_id": "-5090042",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "a20f9af46ac133e508b74a47228d5234d0ff4e621c3d3cd73b6844b06faf4ac2",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5090047",
+                "checked_at": "2026-10-29T05:34:01+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090047",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 209,
+            "external_id": "-5090042",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "b5df5328ae7ecfd420f430abdfbe8cb299d21594d6f99935006c39c46f901d0f",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5090042",
+                "checked_at": "2026-10-29T05:34:01+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090042",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 209,
+            "external_id": "-5090042",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "f0d10abaa64b712a14679069ffd9a5df3d4a4f3084cfc4222434e51dcf4f5042",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5090042",
+                "checked_at": "2026-10-29T05:34:01+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5090042",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 210,
+            "external_id": "4886234",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:09+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 210,
+            "external_id": "4886234",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "ba555cae1a97aff8a047588ab19bfe80496fd6c392d508d303ac2f579fdca247",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5443019",
+                "checked_at": "2026-10-29T05:34:09+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5443019",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 210,
+            "external_id": "4886234",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "83c638505a54ca23335ea735fc0043620d819932857b21687a58508231f3e574",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "4886234",
+                "checked_at": "2026-10-29T05:34:09+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/4886234",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 210,
+            "external_id": "4886234",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:09+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 211,
+            "external_id": "-4886234",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:13+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 211,
+            "external_id": "-4886234",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:13+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 211,
+            "external_id": "-4886234",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:13+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 211,
+            "external_id": "-4886234",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "74d87ad653f9a8fe912029204037e69653485c83ab11a4d797547363b4f7668d",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-4886234",
+                "checked_at": "2026-10-29T05:34:13+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-4886234",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 212,
+            "external_id": "-5090776",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:25+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 212,
+            "external_id": "-5090776",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "c7828b7e1d6259da1081195a61636ff7eb6e46007c6d710f72c18a8e318d5fd6",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5090781",
+                "checked_at": "2026-10-29T05:34:25+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090781",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 212,
+            "external_id": "-5090776",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "067c36534868559ba164cab29c75de770f2ff431e0ff0044e0df2c423c6b53cd",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5090776",
+                "checked_at": "2026-10-29T05:34:25+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090776",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 212,
+            "external_id": "-5090776",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "a61568fc02569a418e8b9b9fb5d90a992f94b15e95e925c101dbed09d0961026",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5090776",
+                "checked_at": "2026-10-29T05:34:25+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5090776",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 213,
+            "external_id": "-5090561",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:37+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 213,
+            "external_id": "-5090561",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "0bfaa8e8491cf94f7b12ae802541107963b690a54b1ab978a0d70ac3c0b9e0c1",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5090564",
+                "checked_at": "2026-10-29T05:34:37+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090564",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 213,
+            "external_id": "-5090561",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "252d4bceba6a58d50dc6e46588ae2530b6d820ff71b06c642813595101fdf682",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5090561",
+                "checked_at": "2026-10-29T05:34:37+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5090561",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 213,
+            "external_id": "-5090561",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "587d13f643dd7498695a64606e7135521be0b390381af536bb41be93d204ea25",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5090561",
+                "checked_at": "2026-10-29T05:34:37+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5090561",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 214,
+            "external_id": "-5089996",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:34:49+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 214,
+            "external_id": "-5089996",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "dfe9ee9fc0852a3bd400d1b590340a5632a18c49f4fce3488992d0c5e6fcc89c",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5089998",
+                "checked_at": "2026-10-29T05:34:49+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5089998",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 214,
+            "external_id": "-5089996",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "26e3e30fdaf8035d7378028aeacbcdf8c05c53e41332d6e417e6dbf3a303b591",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5089996",
+                "checked_at": "2026-10-29T05:34:49+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5089996",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 214,
+            "external_id": "-5089996",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "5712f1a08ffa2a2f564eb0e0a3ca65e649df4110d43ad32785b6f516f3be8e9d",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5089996",
+                "checked_at": "2026-10-29T05:34:49+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5089996",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 215,
+            "external_id": "-5089917",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:01+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 215,
+            "external_id": "-5089917",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "173a589dee391a4e4c46430efd48018c9f38b9a18589225dd1d71d39bf10d873",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5089921",
+                "checked_at": "2026-10-29T05:35:01+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5089921",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 215,
+            "external_id": "-5089917",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "57ee8a009bbadbaa84d0c874a252707fae0df61e94bd315ccbdf0258203d5489",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5089917",
+                "checked_at": "2026-10-29T05:35:01+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5089917",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 215,
+            "external_id": "-5089917",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "478e59183227a793c12330453a50bf5c2740b279b8893bf2e6f495ee29699955",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5089917",
+                "checked_at": "2026-10-29T05:35:01+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5089917",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 216,
+            "external_id": "-5089768",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:14+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 216,
+            "external_id": "-5089768",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "ef4dae05787375a0b06be37d165cdca0729e9ec943b24162c3252c4242150325",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5089770",
+                "checked_at": "2026-10-29T05:35:14+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5089770",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 216,
+            "external_id": "-5089768",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "53af09d16ebd45e99fb15d54c0d4803d911dad977110ddcb234ee457bcd89613",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5089768",
+                "checked_at": "2026-10-29T05:35:14+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5089768",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 216,
+            "external_id": "-5089768",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "4265023fa940261d3c161be82c9232668588ba51e1e97b26c5ebd93dde05da8a",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5089768",
+                "checked_at": "2026-10-29T05:35:14+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5089768",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 217,
+            "external_id": "-5115319",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:26+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 217,
+            "external_id": "-5115319",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "120ae40907fdcd1c4465ab6b7802ee1eee682e0333fa306c011151ee53d47f9a",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5115333",
+                "checked_at": "2026-10-29T05:35:26+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5115333",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 217,
+            "external_id": "-5115319",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8bc0bd238158428af3215d47f74d334c631a32b8e3a03c8259d84ca7a8d3923a",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5115319",
+                "checked_at": "2026-10-29T05:35:26+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5115319",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 217,
+            "external_id": "-5115319",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8c14184ef0cf93ad22d8bddc48be08200956423c7393fc8e42cf9298f1bdb93f",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5115319",
+                "checked_at": "2026-10-29T05:35:26+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5115319",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 218,
+            "external_id": "5116371",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:30+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 218,
+            "external_id": "5116371",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "896b1c6e9e1b9d8fde16d5edcfac2ecf4b27450713b5676bad275a4a975536cc",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5116371",
+                "checked_at": "2026-10-29T05:35:30+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5116371",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 218,
+            "external_id": "5116371",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:30+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 218,
+            "external_id": "5116371",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:30+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 219,
+            "external_id": "-5116367",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:38+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 219,
+            "external_id": "-5116367",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:38+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 219,
+            "external_id": "-5116367",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "fb2486f6f6aea35f6f57ff3e854b33e13be04bca0a176b411a6a7a4f163824ec",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5116367",
+                "checked_at": "2026-10-29T05:35:38+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5116367",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 219,
+            "external_id": "-5116367",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "3bca6b98e0c23fa6c5b4cce8eb388c6e207880cba18fc26d61963f5f695de40b",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5116367",
+                "checked_at": "2026-10-29T05:35:38+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5116367",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 220,
+            "external_id": "-5115551",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:50+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 220,
+            "external_id": "-5115551",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "fc305cd6f47f6d471b0b8f9db8b90b56e57d21021743bc0fb42abc3ec8f3dd29",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5115556",
+                "checked_at": "2026-10-29T05:35:50+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5115556",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 220,
+            "external_id": "-5115551",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "5784a50ae697f2edaac4576cc6338ddb86756027b074b080ce76c5e09fe358a7",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5115551",
+                "checked_at": "2026-10-29T05:35:50+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5115551",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 220,
+            "external_id": "-5115551",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "40c62e75476dfb9c5ab122d3f9533767969b8e294ab3d928e4089022f08ae475",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5115551",
+                "checked_at": "2026-10-29T05:35:50+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5115551",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 221,
+            "external_id": "5115192",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:54+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 221,
+            "external_id": "5115192",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "e58affdafe271ded33039a08cfd4c456aa77200e80e56c7c6fa7e12465152dad",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5115192",
+                "checked_at": "2026-10-29T05:35:54+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5115192",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 221,
+            "external_id": "5115192",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:54+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 221,
+            "external_id": "5115192",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:35:54+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 222,
+            "external_id": "-5115178",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:02+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 222,
+            "external_id": "-5115178",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:02+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 222,
+            "external_id": "-5115178",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "b728ee8083cb02fef7646637a183f88a55ff0c2c3354e9e9321fa5049c4ff976",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5115178",
+                "checked_at": "2026-10-29T05:36:02+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5115178",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 222,
+            "external_id": "-5115178",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "84e0a3251f1141e603e16405abe0a27628178ea1231dcd888627b338191fa3be",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5115178",
+                "checked_at": "2026-10-29T05:36:02+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5115178",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 223,
+            "external_id": "-5114857",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:15+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 223,
+            "external_id": "-5114857",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "cff446968014dd0bd506761f390e1487c5f94928df0414b49ebd56bf173d2d95",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5114864",
+                "checked_at": "2026-10-29T05:36:15+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5114864",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 223,
+            "external_id": "-5114857",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "66e42aea05dfc45d4f71e72d5280627796639af189ec464325b68c531c9d69fc",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5114857",
+                "checked_at": "2026-10-29T05:36:15+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5114857",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 223,
+            "external_id": "-5114857",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "300772cd96672d1b706736a359832202a90ef196f644406965777c2351731b24",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5114857",
+                "checked_at": "2026-10-29T05:36:15+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5114857",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 224,
+            "external_id": "-5114700",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:27+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 224,
+            "external_id": "-5114700",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "bc87eea1d5a8ab511eea6ec44fba8cd12658c7efd3a25b623fe9f2a8a0656674",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5114720",
+                "checked_at": "2026-10-29T05:36:27+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5114720",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 224,
+            "external_id": "-5114700",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "6fabf4428293e232589aba99fc55acb58f39df8b1a7345471d6a8ec7605b9bd8",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5114700",
+                "checked_at": "2026-10-29T05:36:27+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5114700",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 224,
+            "external_id": "-5114700",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "9afebfd06260ffaab9f295444b004cbc3d73f4ebdf8174a8569066c26de26e6b",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5114700",
+                "checked_at": "2026-10-29T05:36:27+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5114700",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 225,
+            "external_id": "-4774596",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:39+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 225,
+            "external_id": "-4774596",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:39+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 225,
+            "external_id": "-4774596",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "d1b5cc21612f2776a23fc2ca97e79df2bc23d5becee4e57d9f9bacc30fafd241",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "4774596",
+                "checked_at": "2026-10-29T05:36:39+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/4774596",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 225,
+            "external_id": "-4774596",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "fc3eb7458dfa5923d26beb8175b21eec6599ec1b7e7a945303b844ecdb136d08",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-4774596",
+                "checked_at": "2026-10-29T05:36:39+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-4774596",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 226,
+            "external_id": "-5085567",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:36:51+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 226,
+            "external_id": "-5085567",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "c7d23a593fe583db722c5d4c232d2c4a4ba5bfc85144baf4f94b3dec24e79b43",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5085572",
+                "checked_at": "2026-10-29T05:36:51+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5085572",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 226,
+            "external_id": "-5085567",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "0525969fedc9d793a74efe68f4c39b0f8c87da07e7ea859b431c1d61ec81cc79",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5085567",
+                "checked_at": "2026-10-29T05:36:51+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5085567",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 226,
+            "external_id": "-5085567",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "130a6147b1f9fffce6091dfad7a919a4da5561d4c59cfe1c62fdd40b2f03e7f9",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5085567",
+                "checked_at": "2026-10-29T05:36:51+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5085567",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 227,
+            "external_id": "-7611377",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:37:04+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 227,
+            "external_id": "-7611377",
+            "language": "ru",
+            "observation": {
+                "status": "unknown",
+                "evidence": {
+                    "html_sha256": "6f0fcc9782bf417bf39ac8a1fdc1d79b416b8a0c762fc251ec3db974295f707f",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "7611480",
+                "checked_at": "2026-10-29T05:37:04+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/7611480",
+                "evidence_type": "inconclusive_metadata_only"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 227,
+            "external_id": "-7611377",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "fbd62c56f71cda1facbb95a1f23fd3e18f8e276d64838a225b22f032564940f1",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "7611377",
+                "checked_at": "2026-10-29T05:37:04+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/7611377",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 227,
+            "external_id": "-7611377",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "20e8fc4b34eab172afd53882d4352246160934152b0e79bfa815f854046af909",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-7611377",
+                "checked_at": "2026-10-29T05:37:04+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-7611377",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 228,
+            "external_id": "-5139590",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:37:17+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 228,
+            "external_id": "-5139590",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "8437f6519c0c7c0b6f158491fd281a540e6cae445ecba118c98e8d4c72f77ec3",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "5139635",
+                "checked_at": "2026-10-29T05:37:17+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5139635",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 228,
+            "external_id": "-5139590",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "03d7a446f8b47daa4f40fb7fff91c8ccbcf2d25432441820e016fcd255ec3c15",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "5139590",
+                "checked_at": "2026-10-29T05:37:17+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/5139590",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 228,
+            "external_id": "-5139590",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "c827a078f18aa2100f0624006120d254a783f5002a34156ba4419cc7dee80ee4",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-5139590",
+                "checked_at": "2026-10-29T05:37:17+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-5139590",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 229,
+            "external_id": "-4773598",
+            "language": "en",
+            "observation": {
+                "status": "unknown",
+                "evidence": [],
+                "checked_at": "2026-10-29T05:37:29+05:00",
+                "evidence_type": "no_conclusive_source_evidence"
+            },
+            "extraction": "not_attempted",
+            "quality": null
+        },
+        {
+            "document_id": 229,
+            "external_id": "-4773598",
+            "language": "ru",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "28fd4ceb711119bbf28db958c096c3d3eb1cf7a898611e1105e7d4d0712e6709",
+                    "raw_language_label": "Русский"
+                },
+                "source_id": "4773639",
+                "checked_at": "2026-10-29T05:37:29+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/4773639",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 229,
+            "external_id": "-4773598",
+            "language": "uz-Cyrl",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "9235113c74912b61eed7b3bcecd1c202d9f512ab25e00e022bd49a1587d98590",
+                    "raw_language_label": "Узбекский (к)"
+                },
+                "source_id": "4773598",
+                "checked_at": "2026-10-29T05:37:29+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/4773598",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        },
+        {
+            "document_id": 229,
+            "external_id": "-4773598",
+            "language": "uz-Latn",
+            "observation": {
+                "status": "available",
+                "evidence": {
+                    "html_sha256": "f9ad06319f35dd5e8231db53b199b7e683d7bf8dfb174fa45bf5ef22c3358dca",
+                    "raw_language_label": "Узбекский (Л)"
+                },
+                "source_id": "-4773598",
+                "checked_at": "2026-10-29T05:37:29+05:00",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-4773598",
+                "evidence_type": "source_card_representation"
+            },
+            "extraction": "succeeded",
+            "quality": "verified"
+        }
+    ]
+}

@@ -1,0 +1,487 @@
+{
+    "query": {
+        "section": "nat",
+        "status": "Y",
+        "from": "01.01.2010",
+        "to": "31.01.2010"
+    },
+    "signature": "4298665fc6bf8382094757742fcd3b12cd854786fd17010d9e55b3e773444d70",
+    "observed_at": "2026-10-28T18:18:13+05:00",
+    "result": {
+        "complete": true,
+        "total": 72,
+        "unique_ids": 72,
+        "pages": 4,
+        "restarts": 0
+    },
+    "pages": [
+        {
+            "page": 1,
+            "total": 72,
+            "rows": [
+                {
+                    "id": "1599418",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1599418",
+                    "title": "О внесении изменений в Положение о порядке повышения квалификации, переподготовки специалистов рынка ценных бумаг",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1599416",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1599416",
+                    "title": "Қимматли қоғозлар бозори мутахассисларининг малакасини ошириш, уларни қайта тайёрлаш тартиби тўғрисидаги низомга ўзгартиришлар киритиш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1599416",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1599416",
+                    "title": "Qimmatli qogʻozlar bozori mutaxassislarining malakasini oshirish, ularni qayta tayyorlash tartibi toʻgʻrisidagi nizomga oʻzgartirishlar kiritish haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597950",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597950",
+                    "title": "Қимматли қоғозлар эмиссияси ва эмиссиявий қимматли қоғозлар чиқарилишларини давлат рўйхатидан ўтказиш қоидаларига ўзгартиришлар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1597950",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1597950",
+                    "title": "Qimmatli qogʻozlar emissiyasi va emissiyaviy qimmatli qogʻozlar chiqarilishlarini davlat roʻyxatidan oʻtkazish qoidalariga oʻzgartirishlar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597946",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597946",
+                    "title": "О внесении изменений в Правила эмиссии ценных бумаг и государственной регистрации выпусков эмиссионных ценных бумаг",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597458",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597458",
+                    "title": "Об утверждении Правил охраны труда для работников учебно-производственных предприятий общества глухих",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1597456",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1597456",
+                    "title": "Карлар жамиятининг ўқув-ишлаб чиқариш ташкилотлари ходимлари учун меҳнатни муҳофаза қилиш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1597456",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1597456",
+                    "title": "Karlar jamiyatining oʻquv-ishlab chiqarish tashkilotlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1587862",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1587862",
+                    "title": "Почта тўловининг давлат белгилари давлат коллекцияси тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1587862",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1587862",
+                    "title": "Pochta toʻlovining davlat belgilari davlat kolleksiyasi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1587860",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1587860",
+                    "title": "Об утверждении положения о государственной коллекции государственных знаков почтовой оплаты",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583936",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583936",
+                    "title": "О внесении дополнений в Перечень сырья, предназначенного для производства лекарственных средств и изделий медицинского назначения, освобождаемого при импорте от уплаты налога на добавленную стоимость",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1583934",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1583934",
+                    "title": "Dori vositalari va tibbiyot buyumlarini ishlab chiqarish uchun moʻljallangan import qilishda qoʻshilgan qiymat soligʻidan ozod qilinadigan xomashyolar roʻyxatiga qoʻshimchalar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583934",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583934",
+                    "title": "Дори воситалари ва тиббиёт буюмларини ишлаб чиқариш учун мўлжалланган импорт қилишда қўшилган қиймат солиғидан озод қилинадиган хом ашёлар рўйхатига қўшимчалар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7551013",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7551013",
+                    "title": "On the approval of international agreements",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583811",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583811",
+                    "title": "Об утверждении международных договоров",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1583808",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1583808",
+                    "title": "Халқаро шартномаларни тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1583808",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1583808",
+                    "title": "Xalqaro shartnomalarni tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1581725",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1581725",
+                    "title": "Рухсатномалар, тарқатиш қайдномалари бўйича автотранспорт воситаларига ёнилғи қуйиш учун нефть маҳсулотлари, суюлтирилган ва сиқилган табиий газни бериш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "2063f168cbc166bfa524d5fa8bba0db959d3dd972b52887d728cc2efb19a7ce1",
+            "prefix_fingerprint": "66a924aa8d69f7b192fde7b2887e5e033c3e4d5181d8e610e1af94764f7702c7",
+            "last_page": false
+        },
+        {
+            "page": 2,
+            "total": 72,
+            "rows": [
+                {
+                    "id": "-1581725",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1581725",
+                    "title": "Ruxsatnomalar, tarqatish qaydnomalari boʻyicha avtotransport vositalariga yonilgʻi quyish uchun neft mahsulotlari, suyultirilgan va siqilgan tabiiy gazni berish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1581723",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1581723",
+                    "title": "Об утверждении Правил отпуска нефтепродуктов, сжиженного и природного сжатого газа для заправки автотранспортных средств по разрешениям, раздаточным ведомостям",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1581335",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1581335",
+                    "title": "“Oʻsimlik (paxta) yogʻi uchun toʻlanadigan aksiz soligʻining bir qismini oʻzbekiston respublikasi moliya vazirligining maxsus ochiladigan hisobvaragʻiga oʻtkazish va uni ishlatish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida”gi qarorni oʻz kuchini yoʻqotgan deb topish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1581335",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1581335",
+                    "title": "«Ўсимлик (пахта) ёғи учун тўланадиган акциз солиғининг бир қисмини ўзбекистон республикаси молия вазирлигининг махсус очиладиган ҳисобварағига ўтказиш ва уни ишлатиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида»ги қарорни ўз кучини йўқотган деб топиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1581330",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1581330",
+                    "title": "О признании утратившим силу постановления «Об утверждении положения о Порядке перечисления части акцизного налога на масло растительное (хлопковое) на специально открываемый счет Министерства финансов Республики Узбекистан и его использования»",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1580952",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1580952",
+                    "title": "Об утверждении правил безопасности для работников производства уксусной кислоты",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1580948",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1580948",
+                    "title": "Sirka kislotasi ishlab chiqarish xodimlari uchun xavfsizlik qoidalarini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1580948",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1580948",
+                    "title": "Сирка кислотаси ишлаб чиқариш ходимлари учун хавфсизлик қоидаларини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1580653",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1580653",
+                    "title": "Кино, радио ва телевидение ходимлари учун махсус кийим, махсус пойабзал ва бошқа якка тартибда ҳимояланиш воситаларини бепул беришнинг намунавий меъёрларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1580653",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1580653",
+                    "title": "Kino, radio va televideniye xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka tartibda himoyalanish vositalarini bepul berishning namunaviy meʼyorlarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1580651",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1580651",
+                    "title": "Об утверждении типовых норм бесплатной выдачи специальной одежды, специальной обуви и других средств индивидуальной защиты для работников кино, радио и телевидения",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1578222",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1578222",
+                    "title": "Temir yoʻl transporti taʼmirlash tashkilotlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1578222",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1578222",
+                    "title": "Темир йўл транспорти таъмирлаш ташкилотлари ходимлари учун меҳнатни муҳофаза қилиш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1578220",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1578220",
+                    "title": "Об утверждении Правил охраны труда для работников ремонтных предприятий железнодорожного транспорта",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1576866",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1576866",
+                    "title": "“Banklarning depozit (omonat) sertifikatlarini chiqarish va muomalada boʻlish tartibi toʻgʻrisida”gi nizomga qoʻshimcha va oʻzgartirishlar kiritish haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1576866",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1576866",
+                    "title": "«Банкларнинг депозит (омонат) сертификатларини чиқариш ва муомалада бўлиш тартиби тўғрисида»ги низомга қўшимча ва ўзгартиришлар киритиш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1576863",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1576863",
+                    "title": "О внесении дополнения и изменений в Положение о порядке выпуска и обращения депозитных (сберегательных) сертификатов банков",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1577893",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1577893",
+                    "title": "Об утверждении Правил охраны труда для работников речного транспорта",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1577891",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1577891",
+                    "title": "Daryo transporti xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1577891",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1577891",
+                    "title": "Дарё транспорти ходимлари учун меҳнатни муҳофаза қилиш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "648a9461d002a20c0daac8db7b2d97ee28a5a913f1b8c49eb05bdbdc24c9ee99",
+            "prefix_fingerprint": "a8587f2fa0869a3792173016a7f0e28cc375abd821093c8df0efad1898a083d2",
+            "last_page": false
+        },
+        {
+            "page": 3,
+            "total": 72,
+            "rows": [
+                {
+                    "id": "-1574495",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1574495",
+                    "title": "Kitob savdosi tashkilotlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1574495",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1574495",
+                    "title": "Китоб савдоси ташкилотлари ходимлари учун меҳнатни муҳофаза қилиш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1574492",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1574492",
+                    "title": "Об утверждении Правил охраны труда для работников организаций книжной торговли",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1576945",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1576945",
+                    "title": "О внесении изменений в некоторые постановления Президента Республики Узбекистан",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1576942",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1576942",
+                    "title": "Ўзбекистон Республикаси Президентининг баъзи қарорларига ўзгартишлар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1576942",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1576942",
+                    "title": "Oʻzbekiston Respublikasi Prezidentining baʼzi qarorlariga oʻzgartishlar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7551005",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7551005",
+                    "title": "On measures for the further modernization of the national tax authorities system",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1577067",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1577067",
+                    "title": "О мерах по дальнейшей модернизации системы налоговых органов республики",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1577065",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1577065",
+                    "title": "Республика солиқ органлари тизимини янада модернизация қилиш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1577065",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1577065",
+                    "title": "Respublika soliq organlari tizimini yanada modernizatsiya qilish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1571814",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1571814",
+                    "title": "Об утверждении Правил охраны труда при работе в клинико-диагностических лабораториях",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1571806",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1571806",
+                    "title": "Клиник-диагностика лабораторияларида ишлашда меҳнатни муҳофаза қилиш қоидаларини тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1571806",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1571806",
+                    "title": "Klinik-diagnostika laboratoriyalarida ishlashda mehnatni muhofaza qilish qoidalarini tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7550999",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7550999",
+                    "title": "On the approval of an international agreement",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1573420",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1573420",
+                    "title": "Об утверждении международного договора",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1573418",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1573418",
+                    "title": "Xalqaro shartnomani tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1573418",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1573418",
+                    "title": "Халқаро шартномани тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7550991",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7550991",
+                    "title": "On measures for the implementation of the project “Procurement of two high-speed Talgo-250 passenger electric trains (Spain)”",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7138294",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7138294",
+                    "title": "On the approval of the regulation on the procedure for engaging rescue services and rescue units in the elimination of emergencies",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "7138230",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/7138230",
+                    "title": "On the organization of postal services for certain categories of users who are granted privileges in using postal services",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "7666aa46b3c79c591c140e260a6866725e2980a31b558ea7a6a1f09b04ef4273",
+            "prefix_fingerprint": "47e421b2d1d51a50b745db2874cc2c7bd3c99bb82734e3499836dcb879c98056",
+            "last_page": false
+        },
+        {
+            "page": 4,
+            "total": 72,
+            "rows": [
+                {
+                    "id": "1579722",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1579722",
+                    "title": "«Иккита йўловчи ташувчи тезюрар talgo-250 электропоездини (Испания) сотиб олиш» лойиҳасини амалга ошириш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1579722",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1579722",
+                    "title": "“Ikkita yoʻlovchi tashuvchi tezyurar Talgo-250 elektropoyezdini (Ispaniya) sotib olish” loyihasini amalga oshirish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1579719",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1579719",
+                    "title": "О мерах по реализации проекта «Приобретение двух высокоскоростных пассажирских электропоездов Talgo-250 (Испания)»",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1579704",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1579704",
+                    "title": "2010 йилга металл парчаларини тайёрлаш, қора металлар прокатини ишлаб чиқариш ва истеъмол қилиш баланси тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1579704",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1579704",
+                    "title": "2010-yilga metall parchalarini tayyorlash, qora metallar prokatini ishlab chiqarish va isteʼmol qilish balansi toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1579702",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1579702",
+                    "title": "О балансе заготовки металлолома, производства и потребления проката черных металлов на 2010 год",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1572360",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1572360",
+                    "title": "Qutqaruv xizmatlari va qutqaruv tuzilmalarini favqulodda vaziyatlarni bartaraf etishga jalb qilish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1572360",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1572360",
+                    "title": "Қутқарув хизматлари ва қутқарув тузилмаларини фавқулодда вазиятларни бартараф этишга жалб қилиш тартиби тўғрисидаги низомни тасдиқлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1572358",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1572358",
+                    "title": "Об утверждении Положения о порядке привлечения спасательных служб и спасательных формирований к ликвидации чрезвычайных ситуаций",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "-1571690",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1571690",
+                    "title": "Pochta aloqasi xizmatlaridan foydalanishda afzalliklar beriladigan foydalanuvchilarning ayrim toifalariga pochta aloqasi xizmatlari koʻrsatishni tashkil etish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1571690",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1571690",
+                    "title": "Почта алоқаси хизматларидан фойдаланишда афзалликлар бериладиган фойдаланувчиларнинг айрим тоифаларига почта алоқаси хизматлари кўрсатишни ташкил этиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                {
+                    "id": "1571686",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1571686",
+                    "title": "Об организации оказания услуг почтовой связи отдельным категориям пользователей, которым предоставляются преимущества при пользовании услугами почтовой связи",
+                    "listing_status": "Y"
+                }
+            ],
+            "fingerprint": "8e3185c54ff9ccb4eb26a5cfe8529fe60e205410cb46298a6dedd155c4033805",
+            "prefix_fingerprint": "fa257bf5ac0fdb390eb65518a20ee61b73c6dd57b84d7d2ac2c29aa2d52a06b3",
+            "last_page": true
+        }
+    ]
+}

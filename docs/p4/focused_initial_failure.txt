@@ -1,0 +1,19 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+........[31;1mE[0m......                                                   15 / 15 (100%)
+
+Time: 00:05.028, Memory: 85.27 MB
+
+There was 1 error:
+
+1) Tests\Feature\CorpusCollectionTest::test_review_queue_item_is_persisted_without_failed_job_and_next_import_runs
+InvalidArgumentException: P3 permits only an active lex source and an explicit limit of 1..30.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/app/Services/Scraping/ScrapeRunManager.php:23
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:174
+
+[37;41mERRORS![0m
+[37;41mTests: 15[0m[37;41m, Assertions: 102[0m[37;41m, Errors: 1[0m[37;41m.[0m

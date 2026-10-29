@@ -1,0 +1,25 @@
+P2 YAKUNI — 2026-10-28 Asia/Tashkent
+Offline: 77 tests / 306 assertions / 0 failures / 0 errors; Pint PASS; Composer validate/platform PASS.
+Real source: 30 distinct groups = 22 HTML + 6 text PDF + 2 OCR PDF.
+Quality: 17 valid / 13 review / 0 final technical failures.
+Source statuses: 24 active / 3 pending / 3 inactive.
+PDF: 101 unique pages accounted; OCR: 36 unique pages per pass.
+Development mening_fikrim_active: 15 documents / 45 identifiers / 37 Markdown contents; statuses 15 active / 0 pending / 0 inactive.
+Languages stored: uz-Latn 15 / uz-Cyrl 15 / ru 4 / en 3; all content hashes verified.
+Test mening_fikrim_active_test: 2 controlled documents / 4 identifiers / 3 contents; isolated inactive update and OCR old-text protection PASS.
+Migrations: 7 Ran in both fixed DBs; schema equals P1. Other existing database table counts unchanged.
+Repeat: 0 created / 0 updated / 15 unchanged / 12 review; all 37 content IDs/hashes unchanged.
+Real discovery: historical nat 72/72 records, 4 pages, fresh replay skipped 20 duplicates; six root first pages verified.
+Real discovery-to-queue alias run: 1 unchanged; no 31st sample group.
+Real worker graceful restart/resume PASS; fake 429/403/5xx/timeout/retry tests PASS.
+Real HTTP: 371 requests, all 200; minimum start interval 2.00003091 s.
+Duration: repeat run 470 s; initial worker window approximately 666 s, stored 789 s includes a corrected reporting bug delay.
+Run status: all bounded runs completed_with_errors, coverage_verified=false; jobs=0; failed_jobs=24 quality reviews across two runs.
+Open: 13 quality reviews; real valid pending import; global coverage/expiry/bulk access; scalable ledger and 1000 gate.
+New components: DocumentScraper, LexHttpClient, LexRequestException, LexUzScraper, LexUzParser, HtmlMarkdownParser, PdfTextExtractor, ScrapeRunManager, DiscoverDocumentsJob, SyncDocuments.
+Extended: ImportDocumentJob, AppServiceProvider, config/scraping.php, disabled routes/console.php schedule; universal P1 Importer/Validator preserved.
+Commands: documents:sync lex --mode=full|daily|recheck --limit=1..30; --sample; --section; --resume; --report. One database queue worker only.
+Cleanup PASS: 12 QA files removed, 0 parser PDF temporary directories; 214 historical files hash-identical.
+P3: CONDITIONAL GO — explicit user approval required. Full import: NO-GO.
+P3, full/1000 import, production deployment and automatic daily sync were NOT started.
+Report: docs/P2_REPORT.md; PLAN and TASKS updated.

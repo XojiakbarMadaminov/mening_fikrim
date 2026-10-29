@@ -1,0 +1,20 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+.................................................[31;1mE[0m.............  63 / 127 ( 49%)
+............................................................... 126 / 127 ( 99%)
+.                                                               127 / 127 (100%)
+
+Time: 00:33.279, Memory: 98.50 MB
+
+There was 1 error:
+
+1) Tests\Feature\CorpusCollectionTest::test_database_rejects_fake_candidates_and_extraction_failed_content_rows
+Error: Class "Tests\Feature\DB" not found
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/CorpusCollectionTest.php:293
+
+[37;41mERRORS![0m
+[37;41mTests: 127[0m[37;41m, Assertions: 563[0m[37;41m, Errors: 1[0m[37;41m.[0m

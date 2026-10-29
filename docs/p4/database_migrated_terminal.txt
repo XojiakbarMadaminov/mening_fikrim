@@ -1,0 +1,23 @@
+{
+    "phase": "migrated",
+    "rows": {
+        "document_sources": 2,
+        "documents": 16,
+        "document_identifiers": 48,
+        "document_contents": 40,
+        "scrape_runs": 7,
+        "scrape_run_items": 112,
+        "failed_jobs": 24,
+        "jobs": 0,
+        "migrations": 9
+    },
+    "quality_counts": {
+        "verified": 40
+    },
+    "configuration": {
+        "live_enabled": false,
+        "scheduler_enabled": false,
+        "workers": 1,
+        "request_delay_ms": 2000
+    }
+}

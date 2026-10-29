@@ -1,0 +1,408 @@
+{
+    "run": {
+        "id": 3,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 1,
+        "created_count": 0,
+        "updated_count": 0,
+        "failed_count": 0,
+        "checkpoint": {
+            "items": {
+                "8507863": {
+                    "listing_status": "Y"
+                }
+            },
+            "limit": 1,
+            "scope": "bounded_sample",
+            "version": 2,
+            "outcomes": {
+                "8507863": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "unchanged",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 9643,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 369,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 10143,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 10660,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 5,
+                    "source_status": "active"
+                }
+            },
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "int"
+                }
+            ],
+            "sample_ids": [],
+            "bounded_stop": true,
+            "segment_index": 0,
+            "quality_passed": true,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "pages": 1,
+                    "total": 4997,
+                    "reason": "bounded_budget",
+                    "complete": false,
+                    "restarts": 0,
+                    "last_page": false,
+                    "unique_ids": 20,
+                    "committed_page": 1,
+                    "page_fingerprint": "1733bb3f450c11eeefb9b880d7711a00b8018dc507d5be4c14d852a0e8c4bac1",
+                    "prefix_fingerprint": "790accec146a6241f4e07fb32dde3412d148684a8b785e8b0cb6d82ffd3029cf"
+                }
+            ],
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": true
+        },
+        "last_error": "Bounded sample; global coverage is not verified.",
+        "started_at": "2026-10-28T11:06:01.000000Z",
+        "finished_at": "2026-10-28T11:06:18.000000Z"
+    },
+    "summary": {
+        "run_id": 3,
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 1,
+        "processed": 1,
+        "created": 0,
+        "updated": 0,
+        "unchanged": 1,
+        "failed": 0,
+        "review_required": 0,
+        "active": 1,
+        "pending": 0,
+        "inactive": 0,
+        "html": 1,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "en": 1,
+            "uz-Cyrl": 1,
+            "uz-Latn": 1
+        },
+        "duration_seconds": 17,
+        "source_status_counts": {
+            "active": 1,
+            "pending": 0,
+            "inactive": 0
+        },
+        "coverage_verified": false,
+        "open_items": 0
+    },
+    "rows": {
+        "documents": 15,
+        "document_identifiers": 45,
+        "document_contents": 37,
+        "jobs": 0,
+        "failed_jobs": 24
+    },
+    "contents": [
+        {
+            "id": 2,
+            "document_id": 1,
+            "language": "ru",
+            "content_hash": "1aebe10f4d55da8e6b98880eac33160fe716254e2a7516447707cb2c3c50c9aa"
+        },
+        {
+            "id": 3,
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "content_hash": "b3ddba4fd2e4eaf34e6d4aaa7998c37ea0ec5995937996ef9a5146ddcbdf59dd"
+        },
+        {
+            "id": 1,
+            "document_id": 1,
+            "language": "uz-Latn",
+            "content_hash": "c8987e774f825268547dec4c0658e019e852f9045cbb8ab5c5b982dc121423f8"
+        },
+        {
+            "id": 5,
+            "document_id": 2,
+            "language": "uz-Cyrl",
+            "content_hash": "b2d2160b22f267636a9768631f834f60cc626eb2c9463f682be39299e70be975"
+        },
+        {
+            "id": 4,
+            "document_id": 2,
+            "language": "uz-Latn",
+            "content_hash": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27"
+        },
+        {
+            "id": 7,
+            "document_id": 3,
+            "language": "uz-Cyrl",
+            "content_hash": "f38c8c349fd792ba6e893ebcdb19f936eb3774f8353fa12ba7dc7da308fffcaa"
+        },
+        {
+            "id": 6,
+            "document_id": 3,
+            "language": "uz-Latn",
+            "content_hash": "9738138bbc429e427b20a2f1517aa14cb19898addf7a4b5ce2b799ab4e4d8947"
+        },
+        {
+            "id": 9,
+            "document_id": 4,
+            "language": "uz-Cyrl",
+            "content_hash": "acd433b621e0391b5d402c1a113311e82e8fb376e19ec8f60d29ba137e0aeac3"
+        },
+        {
+            "id": 8,
+            "document_id": 4,
+            "language": "uz-Latn",
+            "content_hash": "94a4fb280a56ac6082a7614b0c8a4697d48e3a75fbfd1816ca0ca017045f9448"
+        },
+        {
+            "id": 11,
+            "document_id": 5,
+            "language": "en",
+            "content_hash": "dfc66579055ecc76d9fedb73159cac458b1d0f5a97c5ba0d0c0225ec5f2ff58c"
+        },
+        {
+            "id": 12,
+            "document_id": 5,
+            "language": "uz-Cyrl",
+            "content_hash": "322ff2446e915e697ec5ae05b1fb6524895c2ac488670332472f9feef412edd3"
+        },
+        {
+            "id": 10,
+            "document_id": 5,
+            "language": "uz-Latn",
+            "content_hash": "57a524c395f43514ba433c98c5aa3a1f4aecf56066b01377560d3ef5b8f03383"
+        },
+        {
+            "id": 14,
+            "document_id": 6,
+            "language": "en",
+            "content_hash": "2cfb744a546d5576cebbe679412792b0422131cc547203bd95353ce83d5f166b"
+        },
+        {
+            "id": 15,
+            "document_id": 6,
+            "language": "uz-Cyrl",
+            "content_hash": "e56cdc01ec331b635efad9458b24a599804c4063b658f4b53bf394514dddeb85"
+        },
+        {
+            "id": 13,
+            "document_id": 6,
+            "language": "uz-Latn",
+            "content_hash": "c202d10e913747e1833560354c72027d17341c18a5bdc790b19997fcb4d1e537"
+        },
+        {
+            "id": 17,
+            "document_id": 7,
+            "language": "en",
+            "content_hash": "d5263c0d3925d0f153435cccf6b05c885223ac4d26e7e36304158e4f1ee7ea0b"
+        },
+        {
+            "id": 18,
+            "document_id": 7,
+            "language": "uz-Cyrl",
+            "content_hash": "9e31fd36218040ab899d91549ca34af8960e556577d0f061e08d5df406ce141c"
+        },
+        {
+            "id": 16,
+            "document_id": 7,
+            "language": "uz-Latn",
+            "content_hash": "42e2d384cc89f82a022209d9b34679b304b64a26e92692014a643c907574686d"
+        },
+        {
+            "id": 20,
+            "document_id": 8,
+            "language": "uz-Cyrl",
+            "content_hash": "da2e0a41a72dccc9a0c68889d0508bfd1b76f2199a790a754ea248b7ea6939ca"
+        },
+        {
+            "id": 19,
+            "document_id": 8,
+            "language": "uz-Latn",
+            "content_hash": "88022e48131451431ec7bdd17a846462893e31999e5faf0a7284926bbefd701a"
+        },
+        {
+            "id": 22,
+            "document_id": 9,
+            "language": "uz-Cyrl",
+            "content_hash": "0f9bb603e59f244c8d32021796999f8e981ec1da62931e892341eda87e822e99"
+        },
+        {
+            "id": 21,
+            "document_id": 9,
+            "language": "uz-Latn",
+            "content_hash": "14c62d6ad92efc0087ab558c2493fdd62229f1b526595c537fd71c76c709416f"
+        },
+        {
+            "id": 24,
+            "document_id": 10,
+            "language": "ru",
+            "content_hash": "cdd73bbe9388e577b5a550fac74dbae57d7a24df31d7f1a5acb7077fcbb23271"
+        },
+        {
+            "id": 25,
+            "document_id": 10,
+            "language": "uz-Cyrl",
+            "content_hash": "0e66169c176f0bc96e279546cca623fd74efe4d6ab7071f22bd99d058e711914"
+        },
+        {
+            "id": 23,
+            "document_id": 10,
+            "language": "uz-Latn",
+            "content_hash": "22700b186d9072b268400cc21df5a92af6a415e5e3c1c2a9f2c617f21c6dce05"
+        },
+        {
+            "id": 27,
+            "document_id": 11,
+            "language": "ru",
+            "content_hash": "bbfa1a379496ac892c84af7c7709afcb4a12832588a7cc3494be0745c340fa42"
+        },
+        {
+            "id": 28,
+            "document_id": 11,
+            "language": "uz-Cyrl",
+            "content_hash": "6623854c54f0b2680d1caf9179ffd6b105faa1bf42e2f389a2dc06397f838422"
+        },
+        {
+            "id": 26,
+            "document_id": 11,
+            "language": "uz-Latn",
+            "content_hash": "7bacdd608561c735837e47720ff4ab0fa3de9fdc4d1633b717d29856a3519b9e"
+        },
+        {
+            "id": 30,
+            "document_id": 12,
+            "language": "ru",
+            "content_hash": "e981f2455e6617d93e026d1737221f0ef986d26c1585eecfe54b8cc7889b7afc"
+        },
+        {
+            "id": 31,
+            "document_id": 12,
+            "language": "uz-Cyrl",
+            "content_hash": "505dd48acad652e0a08b1c8da02e1a1454de2811861d2856c82ec3f5062d304c"
+        },
+        {
+            "id": 29,
+            "document_id": 12,
+            "language": "uz-Latn",
+            "content_hash": "c34667fe5b649816437c5c3c27dc05f6533347e726b9c0caefdb2ccd2b93c7ff"
+        },
+        {
+            "id": 33,
+            "document_id": 13,
+            "language": "uz-Cyrl",
+            "content_hash": "8f8dde29537e4e4707bbc13472babf28843b754c497e27ebe9f0d837b83f4ade"
+        },
+        {
+            "id": 32,
+            "document_id": 13,
+            "language": "uz-Latn",
+            "content_hash": "1f6258ca98a7dd1179b3270460f2edcddd6f15c0bd5ce49880a7f158bceb4343"
+        },
+        {
+            "id": 35,
+            "document_id": 14,
+            "language": "uz-Cyrl",
+            "content_hash": "5957f046a15a3d2314e464f90a4445d08c34e4e48d96ef1b09fe2ee48fdd0379"
+        },
+        {
+            "id": 34,
+            "document_id": 14,
+            "language": "uz-Latn",
+            "content_hash": "91082c21ebc74231730d63f42666ff003474778ca85c0a6a5c78951d0741643d"
+        },
+        {
+            "id": 37,
+            "document_id": 15,
+            "language": "uz-Cyrl",
+            "content_hash": "6b0ba579f08a7d9d9dcda184f538938416215cf58bf09577953d7a08d3b0ec16"
+        },
+        {
+            "id": 36,
+            "document_id": 15,
+            "language": "uz-Latn",
+            "content_hash": "e518f7d7129040b0e04f48a1a14d12886e711e8e5756f2067e0702db00d004bd"
+        }
+    ],
+    "stored_markdown_examples": [
+        {
+            "document_id": 1,
+            "language": "uz-Latn",
+            "markdown_prefix": "# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n## UMUMIY QISM\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## \n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks xodimlar, ish b"
+        },
+        {
+            "document_id": 1,
+            "language": "ru",
+            "markdown_prefix": "# Трудовой кодекс Республики Узбекистан\n\n## ОБЩАЯ ЧАСТЬ\n\n## РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ\n\n## \n\n## Глава 1. Основные положения\n\n### Статья 1. Отношения, регулируемые настоящим Кодексом\n\nНастоящий Кодекс регулирует индивидуал"
+        },
+        {
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "markdown_prefix": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n## УМУМИЙ ҚИСМ\n\n## I БЎЛИМ. УМУМИЙ ҚОИДАЛАР\n\n## \n\n## 1-боб. Асосий қоидалар\n\n### 1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар\n\nУшбу Кодекс ходимлар, иш берувч"
+        }
+    ]
+}

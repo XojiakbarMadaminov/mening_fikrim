@@ -1,0 +1,580 @@
+{
+    "contents": [
+        {
+            "id": 1,
+            "document_id": 1,
+            "language": "uz-Latn",
+            "state": "only_empty_heading_removed",
+            "old_sha256": "c8987e774f825268547dec4c0658e019e852f9045cbb8ab5c5b982dc121423f8",
+            "sha256": "f4aa01ce50a5d59ae66c9525da0f97bec0a95cc5d809a640a5a60392441ad9bd",
+            "characters": 721460,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": true
+        },
+        {
+            "id": 2,
+            "document_id": 1,
+            "language": "ru",
+            "state": "only_empty_heading_removed",
+            "old_sha256": "1aebe10f4d55da8e6b98880eac33160fe716254e2a7516447707cb2c3c50c9aa",
+            "sha256": "6a8eadeab8857f2dfcca71956dabff6f6ce9087237ac231dc038debfdef1efcd",
+            "characters": 664612,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": true
+        },
+        {
+            "id": 3,
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "state": "only_empty_heading_removed",
+            "old_sha256": "b3ddba4fd2e4eaf34e6d4aaa7998c37ea0ec5995937996ef9a5146ddcbdf59dd",
+            "sha256": "57aa68e6725200d239bef9e7c458eccc1aebfd377d6ae1cb3b1edc26015ae2fe",
+            "characters": 680270,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": true
+        },
+        {
+            "id": 4,
+            "document_id": 2,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27",
+            "sha256": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27",
+            "characters": 5182,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 5,
+            "document_id": 2,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "b2d2160b22f267636a9768631f834f60cc626eb2c9463f682be39299e70be975",
+            "sha256": "b2d2160b22f267636a9768631f834f60cc626eb2c9463f682be39299e70be975",
+            "characters": 4910,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 6,
+            "document_id": 3,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "9738138bbc429e427b20a2f1517aa14cb19898addf7a4b5ce2b799ab4e4d8947",
+            "sha256": "9738138bbc429e427b20a2f1517aa14cb19898addf7a4b5ce2b799ab4e4d8947",
+            "characters": 3295,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 7,
+            "document_id": 3,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "f38c8c349fd792ba6e893ebcdb19f936eb3774f8353fa12ba7dc7da308fffcaa",
+            "sha256": "f38c8c349fd792ba6e893ebcdb19f936eb3774f8353fa12ba7dc7da308fffcaa",
+            "characters": 3126,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 8,
+            "document_id": 4,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "94a4fb280a56ac6082a7614b0c8a4697d48e3a75fbfd1816ca0ca017045f9448",
+            "sha256": "94a4fb280a56ac6082a7614b0c8a4697d48e3a75fbfd1816ca0ca017045f9448",
+            "characters": 2115,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 9,
+            "document_id": 4,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "acd433b621e0391b5d402c1a113311e82e8fb376e19ec8f60d29ba137e0aeac3",
+            "sha256": "acd433b621e0391b5d402c1a113311e82e8fb376e19ec8f60d29ba137e0aeac3",
+            "characters": 2036,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 10,
+            "document_id": 5,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "57a524c395f43514ba433c98c5aa3a1f4aecf56066b01377560d3ef5b8f03383",
+            "sha256": "57a524c395f43514ba433c98c5aa3a1f4aecf56066b01377560d3ef5b8f03383",
+            "characters": 10660,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 11,
+            "document_id": 5,
+            "language": "en",
+            "state": "unchanged",
+            "old_sha256": "dfc66579055ecc76d9fedb73159cac458b1d0f5a97c5ba0d0c0225ec5f2ff58c",
+            "sha256": "dfc66579055ecc76d9fedb73159cac458b1d0f5a97c5ba0d0c0225ec5f2ff58c",
+            "characters": 9643,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 12,
+            "document_id": 5,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "322ff2446e915e697ec5ae05b1fb6524895c2ac488670332472f9feef412edd3",
+            "sha256": "322ff2446e915e697ec5ae05b1fb6524895c2ac488670332472f9feef412edd3",
+            "characters": 10143,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 13,
+            "document_id": 6,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "c202d10e913747e1833560354c72027d17341c18a5bdc790b19997fcb4d1e537",
+            "sha256": "c202d10e913747e1833560354c72027d17341c18a5bdc790b19997fcb4d1e537",
+            "characters": 7762,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 14,
+            "document_id": 6,
+            "language": "en",
+            "state": "unchanged",
+            "old_sha256": "2cfb744a546d5576cebbe679412792b0422131cc547203bd95353ce83d5f166b",
+            "sha256": "2cfb744a546d5576cebbe679412792b0422131cc547203bd95353ce83d5f166b",
+            "characters": 6975,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 15,
+            "document_id": 6,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "e56cdc01ec331b635efad9458b24a599804c4063b658f4b53bf394514dddeb85",
+            "sha256": "e56cdc01ec331b635efad9458b24a599804c4063b658f4b53bf394514dddeb85",
+            "characters": 7352,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 16,
+            "document_id": 7,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "42e2d384cc89f82a022209d9b34679b304b64a26e92692014a643c907574686d",
+            "sha256": "42e2d384cc89f82a022209d9b34679b304b64a26e92692014a643c907574686d",
+            "characters": 4326,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 17,
+            "document_id": 7,
+            "language": "en",
+            "state": "unchanged",
+            "old_sha256": "d5263c0d3925d0f153435cccf6b05c885223ac4d26e7e36304158e4f1ee7ea0b",
+            "sha256": "d5263c0d3925d0f153435cccf6b05c885223ac4d26e7e36304158e4f1ee7ea0b",
+            "characters": 3827,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 18,
+            "document_id": 7,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "9e31fd36218040ab899d91549ca34af8960e556577d0f061e08d5df406ce141c",
+            "sha256": "9e31fd36218040ab899d91549ca34af8960e556577d0f061e08d5df406ce141c",
+            "characters": 4082,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 19,
+            "document_id": 8,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "88022e48131451431ec7bdd17a846462893e31999e5faf0a7284926bbefd701a",
+            "sha256": "88022e48131451431ec7bdd17a846462893e31999e5faf0a7284926bbefd701a",
+            "characters": 16005,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 20,
+            "document_id": 8,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "da2e0a41a72dccc9a0c68889d0508bfd1b76f2199a790a754ea248b7ea6939ca",
+            "sha256": "da2e0a41a72dccc9a0c68889d0508bfd1b76f2199a790a754ea248b7ea6939ca",
+            "characters": 15257,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 21,
+            "document_id": 9,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "14c62d6ad92efc0087ab558c2493fdd62229f1b526595c537fd71c76c709416f",
+            "sha256": "14c62d6ad92efc0087ab558c2493fdd62229f1b526595c537fd71c76c709416f",
+            "characters": 7041,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 22,
+            "document_id": 9,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "0f9bb603e59f244c8d32021796999f8e981ec1da62931e892341eda87e822e99",
+            "sha256": "0f9bb603e59f244c8d32021796999f8e981ec1da62931e892341eda87e822e99",
+            "characters": 6678,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 23,
+            "document_id": 10,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "22700b186d9072b268400cc21df5a92af6a415e5e3c1c2a9f2c617f21c6dce05",
+            "sha256": "22700b186d9072b268400cc21df5a92af6a415e5e3c1c2a9f2c617f21c6dce05",
+            "characters": 79297,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 24,
+            "document_id": 10,
+            "language": "ru",
+            "state": "unchanged",
+            "old_sha256": "cdd73bbe9388e577b5a550fac74dbae57d7a24df31d7f1a5acb7077fcbb23271",
+            "sha256": "cdd73bbe9388e577b5a550fac74dbae57d7a24df31d7f1a5acb7077fcbb23271",
+            "characters": 71650,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 25,
+            "document_id": 10,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "0e66169c176f0bc96e279546cca623fd74efe4d6ab7071f22bd99d058e711914",
+            "sha256": "0e66169c176f0bc96e279546cca623fd74efe4d6ab7071f22bd99d058e711914",
+            "characters": 75009,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 26,
+            "document_id": 11,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "7bacdd608561c735837e47720ff4ab0fa3de9fdc4d1633b717d29856a3519b9e",
+            "sha256": "7bacdd608561c735837e47720ff4ab0fa3de9fdc4d1633b717d29856a3519b9e",
+            "characters": 22586,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 27,
+            "document_id": 11,
+            "language": "ru",
+            "state": "unchanged",
+            "old_sha256": "bbfa1a379496ac892c84af7c7709afcb4a12832588a7cc3494be0745c340fa42",
+            "sha256": "bbfa1a379496ac892c84af7c7709afcb4a12832588a7cc3494be0745c340fa42",
+            "characters": 21954,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 28,
+            "document_id": 11,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "6623854c54f0b2680d1caf9179ffd6b105faa1bf42e2f389a2dc06397f838422",
+            "sha256": "6623854c54f0b2680d1caf9179ffd6b105faa1bf42e2f389a2dc06397f838422",
+            "characters": 21448,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 29,
+            "document_id": 12,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "c34667fe5b649816437c5c3c27dc05f6533347e726b9c0caefdb2ccd2b93c7ff",
+            "sha256": "c34667fe5b649816437c5c3c27dc05f6533347e726b9c0caefdb2ccd2b93c7ff",
+            "characters": 17049,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 30,
+            "document_id": 12,
+            "language": "ru",
+            "state": "unchanged",
+            "old_sha256": "e981f2455e6617d93e026d1737221f0ef986d26c1585eecfe54b8cc7889b7afc",
+            "sha256": "e981f2455e6617d93e026d1737221f0ef986d26c1585eecfe54b8cc7889b7afc",
+            "characters": 15619,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 31,
+            "document_id": 12,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "505dd48acad652e0a08b1c8da02e1a1454de2811861d2856c82ec3f5062d304c",
+            "sha256": "505dd48acad652e0a08b1c8da02e1a1454de2811861d2856c82ec3f5062d304c",
+            "characters": 16067,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 32,
+            "document_id": 13,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "1f6258ca98a7dd1179b3270460f2edcddd6f15c0bd5ce49880a7f158bceb4343",
+            "sha256": "1f6258ca98a7dd1179b3270460f2edcddd6f15c0bd5ce49880a7f158bceb4343",
+            "characters": 1115,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 33,
+            "document_id": 13,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "8f8dde29537e4e4707bbc13472babf28843b754c497e27ebe9f0d837b83f4ade",
+            "sha256": "8f8dde29537e4e4707bbc13472babf28843b754c497e27ebe9f0d837b83f4ade",
+            "characters": 1075,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 34,
+            "document_id": 14,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "91082c21ebc74231730d63f42666ff003474778ca85c0a6a5c78951d0741643d",
+            "sha256": "91082c21ebc74231730d63f42666ff003474778ca85c0a6a5c78951d0741643d",
+            "characters": 1734,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 35,
+            "document_id": 14,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "5957f046a15a3d2314e464f90a4445d08c34e4e48d96ef1b09fe2ee48fdd0379",
+            "sha256": "5957f046a15a3d2314e464f90a4445d08c34e4e48d96ef1b09fe2ee48fdd0379",
+            "characters": 1659,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 36,
+            "document_id": 15,
+            "language": "uz-Latn",
+            "state": "unchanged",
+            "old_sha256": "e518f7d7129040b0e04f48a1a14d12886e711e8e5756f2067e0702db00d004bd",
+            "sha256": "e518f7d7129040b0e04f48a1a14d12886e711e8e5756f2067e0702db00d004bd",
+            "characters": 1706,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 37,
+            "document_id": 15,
+            "language": "uz-Cyrl",
+            "state": "unchanged",
+            "old_sha256": "6b0ba579f08a7d9d9dcda184f538938416215cf58bf09577953d7a08d3b0ec16",
+            "sha256": "6b0ba579f08a7d9d9dcda184f538938416215cf58bf09577953d7a08d3b0ec16",
+            "characters": 1631,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 38,
+            "document_id": 16,
+            "language": "ru",
+            "state": "new",
+            "old_sha256": null,
+            "sha256": "7b4925c6eaf968a3b618f574b162a476c98a6b7f1b46055eff8e60bbce1cd39e",
+            "characters": 3431,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 39,
+            "document_id": 16,
+            "language": "uz-Cyrl",
+            "state": "new",
+            "old_sha256": null,
+            "sha256": "c1e425bb0ece1c9c754240d9537f7c86fd8a8b76d54caad287079ded9928b800",
+            "characters": 3728,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        },
+        {
+            "id": 40,
+            "document_id": 16,
+            "language": "uz-Latn",
+            "state": "new",
+            "old_sha256": null,
+            "sha256": "a3d0d7b6e0c000dd771ca6c76bb6e885091130f0c1fb792c24ed969b921bf148",
+            "characters": 3892,
+            "empty_headings": 0,
+            "old_hash_reconstructed_by_reinserting_empty_heading": false
+        }
+    ],
+    "old_failed_jobs_hashes_preserved": true,
+    "failed_jobs_count": 24,
+    "item_status_counts": [
+        {
+            "status": "imported",
+            "count": 18
+        },
+        {
+            "status": "review",
+            "count": 63
+        },
+        {
+            "status": "skipped_alias",
+            "count": 9
+        },
+        {
+            "status": "unchanged",
+            "count": 22
+        }
+    ],
+    "checkpoint_max_bytes": 1609,
+    "item_max_outcome_bytes": 239837,
+    "documents": [
+        {
+            "id": 1,
+            "external_id": "-6257288",
+            "status": "active",
+            "effective_at": "2023-04-30",
+            "last_checked_at": "2026-10-28 18:38:23+05"
+        },
+        {
+            "id": 2,
+            "external_id": "-8519448",
+            "status": "active",
+            "effective_at": "2026-09-29",
+            "last_checked_at": "2026-10-28 15:54:09+05"
+        },
+        {
+            "id": 3,
+            "external_id": "-8498641",
+            "status": "active",
+            "effective_at": "2026-09-19",
+            "last_checked_at": "2026-10-28 15:54:18+05"
+        },
+        {
+            "id": 4,
+            "external_id": "-8496009",
+            "status": "active",
+            "effective_at": "2026-09-14",
+            "last_checked_at": "2026-10-28 15:54:26+05"
+        },
+        {
+            "id": 5,
+            "external_id": "-8506802",
+            "status": "active",
+            "effective_at": "2026-09-08",
+            "last_checked_at": "2026-10-28 18:38:38+05"
+        },
+        {
+            "id": 6,
+            "external_id": "-8502443",
+            "status": "active",
+            "effective_at": "2026-09-08",
+            "last_checked_at": "2026-10-28 15:55:03+05"
+        },
+        {
+            "id": 7,
+            "external_id": "-8501541",
+            "status": "active",
+            "effective_at": "2026-09-08",
+            "last_checked_at": "2026-10-28 15:55:19+05"
+        },
+        {
+            "id": 8,
+            "external_id": "-8520357",
+            "status": "active",
+            "effective_at": "2026-10-02",
+            "last_checked_at": "2026-10-28 15:55:46+05"
+        },
+        {
+            "id": 9,
+            "external_id": "-8503180",
+            "status": "active",
+            "effective_at": "2026-09-23",
+            "last_checked_at": "2026-10-28 15:55:58+05"
+        },
+        {
+            "id": 10,
+            "external_id": "-7613661",
+            "status": "active",
+            "effective_at": "2025-06-23",
+            "last_checked_at": "2026-10-28 15:56:10+05"
+        },
+        {
+            "id": 11,
+            "external_id": "-7303292",
+            "status": "active",
+            "effective_at": "2024-12-16",
+            "last_checked_at": "2026-10-28 15:56:22+05"
+        },
+        {
+            "id": 12,
+            "external_id": "-7290944",
+            "status": "active",
+            "effective_at": "2024-12-16",
+            "last_checked_at": "2026-10-28 15:56:34+05"
+        },
+        {
+            "id": 13,
+            "external_id": "-8557240",
+            "status": "active",
+            "effective_at": "2026-10-03",
+            "last_checked_at": "2026-10-28 15:56:46+05"
+        },
+        {
+            "id": 14,
+            "external_id": "-8546701",
+            "status": "active",
+            "effective_at": "2026-10-02",
+            "last_checked_at": "2026-10-28 15:57:10+05"
+        },
+        {
+            "id": 15,
+            "external_id": "-8547769",
+            "status": "active",
+            "effective_at": "2026-10-02",
+            "last_checked_at": "2026-10-28 15:56:58+05"
+        },
+        {
+            "id": 16,
+            "external_id": "-8548637",
+            "status": "pending",
+            "effective_at": "2027-01-01",
+            "last_checked_at": "2026-10-28 18:38:50+05"
+        }
+    ]
+}

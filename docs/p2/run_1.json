@@ -1,0 +1,3195 @@
+{
+    "run": {
+        "id": 1,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 27,
+        "created_count": 15,
+        "updated_count": 0,
+        "failed_count": 12,
+        "checkpoint": {
+            "items": {
+                "8496009": {
+                    "listing_status": "Y"
+                },
+                "8498641": {
+                    "listing_status": "Y"
+                },
+                "8501541": {
+                    "listing_status": "Y"
+                },
+                "8502443": {
+                    "listing_status": "Y"
+                },
+                "8503180": {
+                    "listing_status": "Y"
+                },
+                "8506802": {
+                    "listing_status": "Y"
+                },
+                "8519448": {
+                    "listing_status": "Y"
+                },
+                "8520357": {
+                    "listing_status": "Y"
+                },
+                "8546701": {
+                    "listing_status": "Y"
+                },
+                "8547769": {
+                    "listing_status": "Y"
+                },
+                "8548754": {
+                    "listing_status": null
+                },
+                "8554309": {
+                    "listing_status": "Y"
+                },
+                "8554315": {
+                    "listing_status": "Y"
+                },
+                "8554321": {
+                    "listing_status": "Y"
+                },
+                "8554326": {
+                    "listing_status": "Y"
+                },
+                "8554353": {
+                    "listing_status": "Y"
+                },
+                "8554432": {
+                    "listing_status": "Y"
+                },
+                "8557098": {
+                    "listing_status": "Y"
+                },
+                "8557240": {
+                    "listing_status": "Y"
+                },
+                "-6257288": {
+                    "listing_status": null
+                },
+                "-7290944": {
+                    "listing_status": "Y"
+                },
+                "-7303292": {
+                    "listing_status": "Y"
+                },
+                "-7613661": {
+                    "listing_status": "Y"
+                },
+                "-7655343": {
+                    "listing_status": null
+                },
+                "-8540314": {
+                    "listing_status": "Y"
+                },
+                "-8553258": {
+                    "listing_status": null
+                },
+                "-8553692": {
+                    "listing_status": "Y"
+                }
+            },
+            "limit": 27,
+            "scope": "bounded_sample",
+            "version": 2,
+            "outcomes": {
+                "8496009": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "uz-Cyrl": {
+                            "chars": 2036,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 2115,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 4,
+                    "source_status": "active"
+                },
+                "8498641": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "uz-Cyrl": {
+                            "chars": 3126,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 3295,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 3,
+                    "source_status": "active"
+                },
+                "8501541": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 3827,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 8,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 434,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 4082,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 8,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 4326,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 8,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 7,
+                    "source_status": "active"
+                },
+                "8502443": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 6975,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 9,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 399,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 7352,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 9,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 7762,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 9,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 6,
+                    "source_status": "active"
+                },
+                "8503180": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 703,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 6678,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 7041,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 1,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 9,
+                    "source_status": "active"
+                },
+                "8506802": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 9643,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 369,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 10143,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 10660,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 5,
+                    "source_status": "active"
+                },
+                "8519448": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "uz-Cyrl": {
+                            "chars": 4910,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 5182,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 2,
+                    "source_status": "active"
+                },
+                "8520357": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 587,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 15257,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 5,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 16005,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 5,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 8,
+                    "source_status": "active"
+                },
+                "8546701": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 525,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 1659,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 1734,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 14,
+                    "source_status": "active"
+                },
+                "8547769": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 497,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 1631,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 1706,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 15,
+                    "source_status": "active"
+                },
+                "8548754": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 490,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 470,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 3944,
+                            "format": "html",
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 1
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 4085,
+                            "format": "html",
+                            "issues": [
+                                "unextracted_images"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 1
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        },
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "pending"
+                },
+                "8554309": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 588,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 579,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 216998,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 231048,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        },
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "8554315": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "pdf",
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "pdf",
+                            "issues": [
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified"
+                            ],
+                            "ocr_pages": [],
+                            "page_stats": [
+                                {
+                                    "ocr": false,
+                                    "page": 1,
+                                    "chars": 2292,
+                                    "body_chars": 1273,
+                                    "confidence": null,
+                                    "image_coverage": 0.01549,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 2,
+                                    "chars": 263,
+                                    "body_chars": 143,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.87634
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 3,
+                                    "chars": 2504,
+                                    "body_chars": 1820,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 4,
+                                    "chars": 2473,
+                                    "body_chars": 2001,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 5,
+                                    "chars": 2531,
+                                    "body_chars": 1978,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 6,
+                                    "chars": 2635,
+                                    "body_chars": 1914,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.91439
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 7,
+                                    "chars": 2444,
+                                    "body_chars": 1917,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 8,
+                                    "chars": 2699,
+                                    "body_chars": 2147,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.91439
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 9,
+                                    "chars": 2460,
+                                    "body_chars": 1851,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 10,
+                                    "chars": 2495,
+                                    "body_chars": 1956,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 11,
+                                    "chars": 2634,
+                                    "body_chars": 2016,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 12,
+                                    "chars": 2287,
+                                    "body_chars": 1718,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 13,
+                                    "chars": 1495,
+                                    "body_chars": 1093,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9679
+                                }
+                            ],
+                            "pages_expected": 13,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "25.09.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "22\/4"
+                                },
+                                "registration_number": {
+                                    "found": true,
+                                    "expected": "3960"
+                                }
+                            },
+                            "pages_extracted": 13
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "pending"
+                },
+                "8554321": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "pdf",
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "pdf",
+                            "issues": [
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified"
+                            ],
+                            "ocr_pages": [],
+                            "page_stats": [
+                                {
+                                    "ocr": false,
+                                    "page": 1,
+                                    "chars": 2399,
+                                    "body_chars": 1491,
+                                    "confidence": null,
+                                    "image_coverage": 0.01549,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 2,
+                                    "chars": 397,
+                                    "body_chars": 107,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 3,
+                                    "chars": 3171,
+                                    "body_chars": 1316,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 4,
+                                    "chars": 2188,
+                                    "body_chars": 1267,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 5,
+                                    "chars": 2214,
+                                    "body_chars": 1375,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 6,
+                                    "chars": 2271,
+                                    "body_chars": 1378,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 7,
+                                    "chars": 2286,
+                                    "body_chars": 1424,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 8,
+                                    "chars": 2088,
+                                    "body_chars": 1225,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 9,
+                                    "chars": 1925,
+                                    "body_chars": 1151,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 10,
+                                    "chars": 2021,
+                                    "body_chars": 1222,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.96633
+                                }
+                            ],
+                            "pages_expected": 10,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "17.10.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "233"
+                                },
+                                "registration_number": {
+                                    "found": true,
+                                    "expected": "3963"
+                                }
+                            },
+                            "pages_extracted": 10
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "8554326": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "pdf",
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "pdf",
+                            "issues": [
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified"
+                            ],
+                            "ocr_pages": [],
+                            "page_stats": [
+                                {
+                                    "ocr": false,
+                                    "page": 1,
+                                    "chars": 2414,
+                                    "body_chars": 1533,
+                                    "confidence": null,
+                                    "image_coverage": 0.01549,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 2,
+                                    "chars": 848,
+                                    "body_chars": 294,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 3,
+                                    "chars": 2640,
+                                    "body_chars": 1821,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 4,
+                                    "chars": 2785,
+                                    "body_chars": 2252,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 5,
+                                    "chars": 2788,
+                                    "body_chars": 2220,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 6,
+                                    "chars": 2852,
+                                    "body_chars": 2270,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 7,
+                                    "chars": 2771,
+                                    "body_chars": 2130,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 8,
+                                    "chars": 2592,
+                                    "body_chars": 1913,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 9,
+                                    "chars": 2507,
+                                    "body_chars": 1796,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                }
+                            ],
+                            "pages_expected": 9,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "25.09.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "05\/15-05\/01"
+                                },
+                                "registration_number": {
+                                    "found": true,
+                                    "expected": "3961"
+                                }
+                            },
+                            "pages_extracted": 9
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "8554353": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "pdf",
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "pdf",
+                            "issues": [
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified"
+                            ],
+                            "ocr_pages": [],
+                            "page_stats": [
+                                {
+                                    "ocr": false,
+                                    "page": 1,
+                                    "chars": 2548,
+                                    "body_chars": 1800,
+                                    "confidence": null,
+                                    "image_coverage": 0.01549,
+                                    "text_vertical_coverage": 0.82283
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 2,
+                                    "chars": 644,
+                                    "body_chars": 188,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 3,
+                                    "chars": 2766,
+                                    "body_chars": 1946,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 4,
+                                    "chars": 554,
+                                    "body_chars": 345,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97503
+                                }
+                            ],
+                            "pages_expected": 4,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "21.09.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "399"
+                                },
+                                "registration_number": {
+                                    "found": true,
+                                    "expected": "2198-3"
+                                }
+                            },
+                            "pages_extracted": 4
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "8554432": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "pdf",
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "pdf",
+                            "issues": [
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified"
+                            ],
+                            "ocr_pages": [],
+                            "page_stats": [
+                                {
+                                    "ocr": false,
+                                    "page": 1,
+                                    "chars": 2378,
+                                    "body_chars": 1552,
+                                    "confidence": null,
+                                    "image_coverage": 0.01549,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 2,
+                                    "chars": 2594,
+                                    "body_chars": 1929,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 3,
+                                    "chars": 2526,
+                                    "body_chars": 2021,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 4,
+                                    "chars": 2376,
+                                    "body_chars": 1818,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 5,
+                                    "chars": 858,
+                                    "body_chars": 609,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 6,
+                                    "chars": 1491,
+                                    "body_chars": 507,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 7,
+                                    "chars": 1250,
+                                    "body_chars": 439,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 8,
+                                    "chars": 2320,
+                                    "body_chars": 653,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 9,
+                                    "chars": 2076,
+                                    "body_chars": 652,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 10,
+                                    "chars": 1583,
+                                    "body_chars": 522,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 11,
+                                    "chars": 2096,
+                                    "body_chars": 537,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 12,
+                                    "chars": 588,
+                                    "body_chars": 293,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.97138
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 13,
+                                    "chars": 2792,
+                                    "body_chars": 803,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 14,
+                                    "chars": 1388,
+                                    "body_chars": 625,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 15,
+                                    "chars": 2140,
+                                    "body_chars": 1053,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 16,
+                                    "chars": 2095,
+                                    "body_chars": 1383,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 17,
+                                    "chars": 1989,
+                                    "body_chars": 868,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 18,
+                                    "chars": 1021,
+                                    "body_chars": 609,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 19,
+                                    "chars": 1755,
+                                    "body_chars": 751,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 20,
+                                    "chars": 1872,
+                                    "body_chars": 1021,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                }
+                            ],
+                            "pages_expected": 20,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "16.09.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "27"
+                                },
+                                "registration_number": {
+                                    "found": true,
+                                    "expected": "2383-7"
+                                }
+                            },
+                            "pages_extracted": 20
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "8557098": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "pdf",
+                    "quality": {
+                        "uz-Latn": {
+                            "format": "pdf",
+                            "issues": [
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified"
+                            ],
+                            "ocr_pages": [],
+                            "page_stats": [
+                                {
+                                    "ocr": false,
+                                    "page": 1,
+                                    "chars": 2356,
+                                    "body_chars": 1359,
+                                    "confidence": null,
+                                    "image_coverage": 0.01549,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 2,
+                                    "chars": 491,
+                                    "body_chars": 196,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.9786
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 3,
+                                    "chars": 3365,
+                                    "body_chars": 2480,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.93705
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 4,
+                                    "chars": 3429,
+                                    "body_chars": 2710,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.93705
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 5,
+                                    "chars": 3112,
+                                    "body_chars": 2518,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.93705
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 6,
+                                    "chars": 1715,
+                                    "body_chars": 1188,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.93705
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 7,
+                                    "chars": 2740,
+                                    "body_chars": 988,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.89412
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 8,
+                                    "chars": 2621,
+                                    "body_chars": 2407,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.91092
+                                },
+                                {
+                                    "ocr": false,
+                                    "page": 9,
+                                    "chars": 1266,
+                                    "body_chars": 824,
+                                    "confidence": null,
+                                    "image_coverage": 0,
+                                    "text_vertical_coverage": 0.91092
+                                }
+                            ],
+                            "pages_expected": 9,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "06.10.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "51"
+                                },
+                                "registration_number": {
+                                    "found": true,
+                                    "expected": "3962"
+                                }
+                            },
+                            "pages_extracted": 9
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "pending"
+                },
+                "8557240": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 467,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 1075,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 1115,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 13,
+                    "source_status": "active"
+                },
+                "-6257288": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 664617,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 95,
+                                "h3": 593
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 680275,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 95,
+                                "h3": 593
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 721465,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 95,
+                                "h3": 593
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 1,
+                    "source_status": "active"
+                },
+                "-7290944": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 15619,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 16067,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 17049,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 12,
+                    "source_status": "active"
+                },
+                "-7303292": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 21954,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 21448,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 22586,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 11,
+                    "source_status": "active"
+                },
+                "-7613661": {
+                    "error": null,
+                    "state": "valid",
+                    "action": "created",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 71650,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 75009,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 79297,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": true,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "valid",
+                            "errors": []
+                        },
+                        "uz-Latn": {
+                            "state": "valid",
+                            "errors": []
+                        }
+                    },
+                    "document_id": 10,
+                    "source_status": "active"
+                },
+                "-7655343": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "quality": {
+                        "en": {
+                            "chars": 225560,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 35,
+                                "h3": 165
+                            },
+                            "token_fidelity": true
+                        },
+                        "ru": {
+                            "chars": 219259,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 35,
+                                "h3": 165
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 232171,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 35,
+                                "h3": 165
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 244417,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 35,
+                                "h3": 165
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "en": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        },
+                        "ru": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        },
+                        "uz-Cyrl": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        },
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "-8540314": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "html",
+                    "quality": {
+                        "ru": {
+                            "chars": 586,
+                            "format": "html",
+                            "issues": [],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 0,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Cyrl": {
+                            "chars": 289355,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review",
+                                "unextracted_images",
+                                "unsupported_superscript"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 29,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        },
+                        "uz-Latn": {
+                            "chars": 303383,
+                            "format": "html",
+                            "issues": [
+                                "complex_table_semantics_review",
+                                "unextracted_images",
+                                "unsupported_superscript"
+                            ],
+                            "headings": {
+                                "h1": 1,
+                                "h2": 29,
+                                "h3": 0
+                            },
+                            "token_fidelity": true
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "ru": {
+                            "state": "metadata_only",
+                            "errors": []
+                        },
+                        "uz-Cyrl": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        },
+                        "uz-Latn": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "-8553258": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "quality": {
+                        "uz-Cyrl": {
+                            "format": "ocr",
+                            "issues": [
+                                "declared_language_script_mismatch",
+                                "low_ocr_confidence",
+                                "ocr_critical_tokens_unverified",
+                                "ocr_source_identifier_not_certified",
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified",
+                                "uncertified_ocr"
+                            ],
+                            "ocr_pages": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "page_stats": [
+                                {
+                                    "ocr": true,
+                                    "page": 1,
+                                    "chars": 1897,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 223,
+                                        "mean_confidence": 95.2626,
+                                        "low_confidence_fraction": 0.00448
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 2,
+                                    "chars": 2536,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 294,
+                                        "mean_confidence": 94.8489,
+                                        "low_confidence_fraction": 0.01361
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 3,
+                                    "chars": 2572,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 305,
+                                        "mean_confidence": 95.285,
+                                        "low_confidence_fraction": 0.00328
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 4,
+                                    "chars": 2424,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 276,
+                                        "mean_confidence": 94.7428,
+                                        "low_confidence_fraction": 0.01087
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 5,
+                                    "chars": 2727,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 316,
+                                        "mean_confidence": 94.3604,
+                                        "low_confidence_fraction": 0.02215
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 6,
+                                    "chars": 1622,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 187,
+                                        "mean_confidence": 94.3417,
+                                        "low_confidence_fraction": 0.0107
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 7,
+                                    "chars": 2057,
+                                    "body_chars": 11,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 235,
+                                        "mean_confidence": 94.6395,
+                                        "low_confidence_fraction": 0.01277
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.09394
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 8,
+                                    "chars": 2222,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 279,
+                                        "mean_confidence": 94.136,
+                                        "low_confidence_fraction": 0.01792
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 9,
+                                    "chars": 1720,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 255,
+                                        "mean_confidence": 81.4993,
+                                        "low_confidence_fraction": 0.20784
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 10,
+                                    "chars": 1687,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 235,
+                                        "mean_confidence": 90.0261,
+                                        "low_confidence_fraction": 0.0766
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 11,
+                                    "chars": 2526,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 303,
+                                        "mean_confidence": 95.4592,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 12,
+                                    "chars": 2204,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 268,
+                                        "mean_confidence": 95.4721,
+                                        "low_confidence_fraction": 0.00373
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 13,
+                                    "chars": 2089,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 253,
+                                        "mean_confidence": 93.2559,
+                                        "low_confidence_fraction": 0.02767
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 14,
+                                    "chars": 2461,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 282,
+                                        "mean_confidence": 95.2754,
+                                        "low_confidence_fraction": 0.01064
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 15,
+                                    "chars": 2335,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 266,
+                                        "mean_confidence": 94.9446,
+                                        "low_confidence_fraction": 0.00376
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 16,
+                                    "chars": 2345,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 265,
+                                        "mean_confidence": 95.1847,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 17,
+                                    "chars": 1265,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 140,
+                                        "mean_confidence": 95.1593,
+                                        "low_confidence_fraction": 0.01429
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                }
+                            ],
+                            "pages_expected": 17,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "22.10.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "586"
+                                }
+                            },
+                            "pages_extracted": 17
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [],
+                    "languages": {
+                        "uz-Cyrl": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                },
+                "-8553692": {
+                    "error": "Language\/structure quality validation requires review.",
+                    "state": "review",
+                    "action": "rejected",
+                    "format": "ocr",
+                    "quality": {
+                        "uz-Cyrl": {
+                            "format": "ocr",
+                            "issues": [
+                                "declared_language_script_mismatch",
+                                "low_ocr_confidence",
+                                "ocr_critical_tokens_unverified",
+                                "ocr_source_identifier_not_certified",
+                                "pdf_language_coverage_unconfirmed",
+                                "pdf_structure_unverified",
+                                "uncertified_ocr"
+                            ],
+                            "ocr_pages": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "page_stats": [
+                                {
+                                    "ocr": true,
+                                    "page": 1,
+                                    "chars": 1638,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 201,
+                                        "mean_confidence": 94.8014,
+                                        "low_confidence_fraction": 0.00995
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 2,
+                                    "chars": 329,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 39,
+                                        "mean_confidence": 94.78,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 3,
+                                    "chars": 1797,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 210,
+                                        "mean_confidence": 94.983,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 4,
+                                    "chars": 2396,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 295,
+                                        "mean_confidence": 94.6602,
+                                        "low_confidence_fraction": 0.01017
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 5,
+                                    "chars": 2418,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 293,
+                                        "mean_confidence": 95.5516,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 6,
+                                    "chars": 2522,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 295,
+                                        "mean_confidence": 95.575,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 7,
+                                    "chars": 2358,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 286,
+                                        "mean_confidence": 95.1964,
+                                        "low_confidence_fraction": 0.00699
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 8,
+                                    "chars": 2341,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 292,
+                                        "mean_confidence": 95.577,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 9,
+                                    "chars": 1901,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 235,
+                                        "mean_confidence": 95.7873,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 10,
+                                    "chars": 1794,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 224,
+                                        "mean_confidence": 95.6103,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 11,
+                                    "chars": 2438,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 310,
+                                        "mean_confidence": 95.4985,
+                                        "low_confidence_fraction": 0.00323
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 12,
+                                    "chars": 2198,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 276,
+                                        "mean_confidence": 96.0514,
+                                        "low_confidence_fraction": 0
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 13,
+                                    "chars": 2074,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 257,
+                                        "mean_confidence": 95.357,
+                                        "low_confidence_fraction": 0.01167
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 14,
+                                    "chars": 2309,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 290,
+                                        "mean_confidence": 95.2855,
+                                        "low_confidence_fraction": 0.01034
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 15,
+                                    "chars": 1021,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 115,
+                                        "mean_confidence": 95.0239,
+                                        "low_confidence_fraction": 0.01739
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 16,
+                                    "chars": 1480,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 171,
+                                        "mean_confidence": 94.8312,
+                                        "low_confidence_fraction": 0.0117
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 17,
+                                    "chars": 1710,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 204,
+                                        "mean_confidence": 94.0552,
+                                        "low_confidence_fraction": 0.01471
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 18,
+                                    "chars": 255,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 30,
+                                        "mean_confidence": 93.8022,
+                                        "low_confidence_fraction": 0.03333
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                },
+                                {
+                                    "ocr": true,
+                                    "page": 19,
+                                    "chars": 821,
+                                    "body_chars": 0,
+                                    "confidence": {
+                                        "model": "uzb_cyrl+uzb",
+                                        "words": 93,
+                                        "mean_confidence": 91.5985,
+                                        "low_confidence_fraction": 0.05376
+                                    },
+                                    "image_coverage": 1,
+                                    "text_vertical_coverage": 0.02735
+                                }
+                            ],
+                            "pages_expected": 19,
+                            "critical_tokens": {
+                                "issued_date": {
+                                    "found": false,
+                                    "expected": "22.10.2026"
+                                },
+                                "document_number": {
+                                    "found": true,
+                                    "expected": "588"
+                                }
+                            },
+                            "pages_extracted": 19
+                        }
+                    },
+                    "complete": false,
+                    "warnings": [
+                        {
+                            "code": "effective_date_mismatch",
+                            "text_effective_at": "2027-01-01",
+                            "source_effective_at": "2026-10-23"
+                        }
+                    ],
+                    "languages": {
+                        "uz-Cyrl": {
+                            "state": "review",
+                            "errors": [
+                                "quality_review",
+                                "uncertified_ocr"
+                            ]
+                        }
+                    },
+                    "document_id": null,
+                    "source_status": "active"
+                }
+            },
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "status": "Y",
+                    "section": "int"
+                },
+                {
+                    "status": "Y",
+                    "section": "tech"
+                },
+                {
+                    "status": "Y",
+                    "section": "court"
+                },
+                {
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "selection": "explicit_sample",
+            "sample_ids": [
+                "8557098",
+                "8554315",
+                "8554432",
+                "8554353",
+                "8554326",
+                "8554321",
+                "8554309",
+                "-8553692",
+                "-8553258",
+                "8548754",
+                "-7655343",
+                "-6257288",
+                "8519448",
+                "8498641",
+                "8496009",
+                "8506802",
+                "8502443",
+                "8501541",
+                "-8540314",
+                "8520357",
+                "8503180",
+                "-7613661",
+                "-7303292",
+                "-7290944",
+                "8557240",
+                "8547769",
+                "8546701"
+            ],
+            "segment_index": 0,
+            "quality_passed": false,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "total": 27,
+                    "last_page": true,
+                    "committed_page": 1,
+                    "page_fingerprint": "125ad9ffbce2a36988135e37dd1ae54c6ccc189768e07cc09834248e1dd08d4c"
+                }
+            ],
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": false,
+            "sample_listing_statuses": {
+                "8496009": "Y",
+                "8498641": "Y",
+                "8501541": "Y",
+                "8502443": "Y",
+                "8503180": "Y",
+                "8506802": "Y",
+                "8519448": "Y",
+                "8520357": "Y",
+                "8546701": "Y",
+                "8547769": "Y",
+                "8554309": "Y",
+                "8554315": "Y",
+                "8554321": "Y",
+                "8554326": "Y",
+                "8554353": "Y",
+                "8554432": "Y",
+                "8557098": "Y",
+                "8557240": "Y",
+                "-7290944": "Y",
+                "-7303292": "Y",
+                "-7613661": "Y",
+                "-8540314": "Y",
+                "-8553692": "Y"
+            }
+        },
+        "last_error": "Language\/structure quality validation requires review.",
+        "started_at": "2026-10-28T10:35:33.000000Z",
+        "finished_at": "2026-10-28T10:48:42.000000Z"
+    },
+    "summary": {
+        "run_id": 1,
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 27,
+        "processed": 27,
+        "created": 15,
+        "updated": 0,
+        "unchanged": 0,
+        "failed": 0,
+        "review_required": 12,
+        "active": 15,
+        "pending": 0,
+        "inactive": 0,
+        "html": 19,
+        "pdf": 6,
+        "ocr": 2,
+        "languages": {
+            "uz-Cyrl": 15,
+            "uz-Latn": 15,
+            "en": 3,
+            "ru": 4
+        },
+        "duration_seconds": 789,
+        "source_status_counts": {
+            "active": 24,
+            "pending": 3,
+            "inactive": 0
+        },
+        "coverage_verified": false,
+        "open_items": 0
+    },
+    "rows": {
+        "documents": 15,
+        "document_identifiers": 45,
+        "document_contents": 37,
+        "jobs": 0,
+        "failed_jobs": 12
+    },
+    "contents": [
+        {
+            "id": 2,
+            "document_id": 1,
+            "language": "ru",
+            "content_hash": "1aebe10f4d55da8e6b98880eac33160fe716254e2a7516447707cb2c3c50c9aa"
+        },
+        {
+            "id": 3,
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "content_hash": "b3ddba4fd2e4eaf34e6d4aaa7998c37ea0ec5995937996ef9a5146ddcbdf59dd"
+        },
+        {
+            "id": 1,
+            "document_id": 1,
+            "language": "uz-Latn",
+            "content_hash": "c8987e774f825268547dec4c0658e019e852f9045cbb8ab5c5b982dc121423f8"
+        },
+        {
+            "id": 5,
+            "document_id": 2,
+            "language": "uz-Cyrl",
+            "content_hash": "b2d2160b22f267636a9768631f834f60cc626eb2c9463f682be39299e70be975"
+        },
+        {
+            "id": 4,
+            "document_id": 2,
+            "language": "uz-Latn",
+            "content_hash": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27"
+        },
+        {
+            "id": 7,
+            "document_id": 3,
+            "language": "uz-Cyrl",
+            "content_hash": "f38c8c349fd792ba6e893ebcdb19f936eb3774f8353fa12ba7dc7da308fffcaa"
+        },
+        {
+            "id": 6,
+            "document_id": 3,
+            "language": "uz-Latn",
+            "content_hash": "9738138bbc429e427b20a2f1517aa14cb19898addf7a4b5ce2b799ab4e4d8947"
+        },
+        {
+            "id": 9,
+            "document_id": 4,
+            "language": "uz-Cyrl",
+            "content_hash": "acd433b621e0391b5d402c1a113311e82e8fb376e19ec8f60d29ba137e0aeac3"
+        },
+        {
+            "id": 8,
+            "document_id": 4,
+            "language": "uz-Latn",
+            "content_hash": "94a4fb280a56ac6082a7614b0c8a4697d48e3a75fbfd1816ca0ca017045f9448"
+        },
+        {
+            "id": 11,
+            "document_id": 5,
+            "language": "en",
+            "content_hash": "dfc66579055ecc76d9fedb73159cac458b1d0f5a97c5ba0d0c0225ec5f2ff58c"
+        },
+        {
+            "id": 12,
+            "document_id": 5,
+            "language": "uz-Cyrl",
+            "content_hash": "322ff2446e915e697ec5ae05b1fb6524895c2ac488670332472f9feef412edd3"
+        },
+        {
+            "id": 10,
+            "document_id": 5,
+            "language": "uz-Latn",
+            "content_hash": "57a524c395f43514ba433c98c5aa3a1f4aecf56066b01377560d3ef5b8f03383"
+        },
+        {
+            "id": 14,
+            "document_id": 6,
+            "language": "en",
+            "content_hash": "2cfb744a546d5576cebbe679412792b0422131cc547203bd95353ce83d5f166b"
+        },
+        {
+            "id": 15,
+            "document_id": 6,
+            "language": "uz-Cyrl",
+            "content_hash": "e56cdc01ec331b635efad9458b24a599804c4063b658f4b53bf394514dddeb85"
+        },
+        {
+            "id": 13,
+            "document_id": 6,
+            "language": "uz-Latn",
+            "content_hash": "c202d10e913747e1833560354c72027d17341c18a5bdc790b19997fcb4d1e537"
+        },
+        {
+            "id": 17,
+            "document_id": 7,
+            "language": "en",
+            "content_hash": "d5263c0d3925d0f153435cccf6b05c885223ac4d26e7e36304158e4f1ee7ea0b"
+        },
+        {
+            "id": 18,
+            "document_id": 7,
+            "language": "uz-Cyrl",
+            "content_hash": "9e31fd36218040ab899d91549ca34af8960e556577d0f061e08d5df406ce141c"
+        },
+        {
+            "id": 16,
+            "document_id": 7,
+            "language": "uz-Latn",
+            "content_hash": "42e2d384cc89f82a022209d9b34679b304b64a26e92692014a643c907574686d"
+        },
+        {
+            "id": 20,
+            "document_id": 8,
+            "language": "uz-Cyrl",
+            "content_hash": "da2e0a41a72dccc9a0c68889d0508bfd1b76f2199a790a754ea248b7ea6939ca"
+        },
+        {
+            "id": 19,
+            "document_id": 8,
+            "language": "uz-Latn",
+            "content_hash": "88022e48131451431ec7bdd17a846462893e31999e5faf0a7284926bbefd701a"
+        },
+        {
+            "id": 22,
+            "document_id": 9,
+            "language": "uz-Cyrl",
+            "content_hash": "0f9bb603e59f244c8d32021796999f8e981ec1da62931e892341eda87e822e99"
+        },
+        {
+            "id": 21,
+            "document_id": 9,
+            "language": "uz-Latn",
+            "content_hash": "14c62d6ad92efc0087ab558c2493fdd62229f1b526595c537fd71c76c709416f"
+        },
+        {
+            "id": 24,
+            "document_id": 10,
+            "language": "ru",
+            "content_hash": "cdd73bbe9388e577b5a550fac74dbae57d7a24df31d7f1a5acb7077fcbb23271"
+        },
+        {
+            "id": 25,
+            "document_id": 10,
+            "language": "uz-Cyrl",
+            "content_hash": "0e66169c176f0bc96e279546cca623fd74efe4d6ab7071f22bd99d058e711914"
+        },
+        {
+            "id": 23,
+            "document_id": 10,
+            "language": "uz-Latn",
+            "content_hash": "22700b186d9072b268400cc21df5a92af6a415e5e3c1c2a9f2c617f21c6dce05"
+        },
+        {
+            "id": 27,
+            "document_id": 11,
+            "language": "ru",
+            "content_hash": "bbfa1a379496ac892c84af7c7709afcb4a12832588a7cc3494be0745c340fa42"
+        },
+        {
+            "id": 28,
+            "document_id": 11,
+            "language": "uz-Cyrl",
+            "content_hash": "6623854c54f0b2680d1caf9179ffd6b105faa1bf42e2f389a2dc06397f838422"
+        },
+        {
+            "id": 26,
+            "document_id": 11,
+            "language": "uz-Latn",
+            "content_hash": "7bacdd608561c735837e47720ff4ab0fa3de9fdc4d1633b717d29856a3519b9e"
+        },
+        {
+            "id": 30,
+            "document_id": 12,
+            "language": "ru",
+            "content_hash": "e981f2455e6617d93e026d1737221f0ef986d26c1585eecfe54b8cc7889b7afc"
+        },
+        {
+            "id": 31,
+            "document_id": 12,
+            "language": "uz-Cyrl",
+            "content_hash": "505dd48acad652e0a08b1c8da02e1a1454de2811861d2856c82ec3f5062d304c"
+        },
+        {
+            "id": 29,
+            "document_id": 12,
+            "language": "uz-Latn",
+            "content_hash": "c34667fe5b649816437c5c3c27dc05f6533347e726b9c0caefdb2ccd2b93c7ff"
+        },
+        {
+            "id": 33,
+            "document_id": 13,
+            "language": "uz-Cyrl",
+            "content_hash": "8f8dde29537e4e4707bbc13472babf28843b754c497e27ebe9f0d837b83f4ade"
+        },
+        {
+            "id": 32,
+            "document_id": 13,
+            "language": "uz-Latn",
+            "content_hash": "1f6258ca98a7dd1179b3270460f2edcddd6f15c0bd5ce49880a7f158bceb4343"
+        },
+        {
+            "id": 35,
+            "document_id": 14,
+            "language": "uz-Cyrl",
+            "content_hash": "5957f046a15a3d2314e464f90a4445d08c34e4e48d96ef1b09fe2ee48fdd0379"
+        },
+        {
+            "id": 34,
+            "document_id": 14,
+            "language": "uz-Latn",
+            "content_hash": "91082c21ebc74231730d63f42666ff003474778ca85c0a6a5c78951d0741643d"
+        },
+        {
+            "id": 37,
+            "document_id": 15,
+            "language": "uz-Cyrl",
+            "content_hash": "6b0ba579f08a7d9d9dcda184f538938416215cf58bf09577953d7a08d3b0ec16"
+        },
+        {
+            "id": 36,
+            "document_id": 15,
+            "language": "uz-Latn",
+            "content_hash": "e518f7d7129040b0e04f48a1a14d12886e711e8e5756f2067e0702db00d004bd"
+        }
+    ],
+    "stored_markdown_examples": [
+        {
+            "document_id": 1,
+            "language": "uz-Latn",
+            "markdown_prefix": "# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n## UMUMIY QISM\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## \n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks xodimlar, ish b"
+        },
+        {
+            "document_id": 1,
+            "language": "ru",
+            "markdown_prefix": "# Трудовой кодекс Республики Узбекистан\n\n## ОБЩАЯ ЧАСТЬ\n\n## РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ\n\n## \n\n## Глава 1. Основные положения\n\n### Статья 1. Отношения, регулируемые настоящим Кодексом\n\nНастоящий Кодекс регулирует индивидуал"
+        },
+        {
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "markdown_prefix": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n## УМУМИЙ ҚИСМ\n\n## I БЎЛИМ. УМУМИЙ ҚОИДАЛАР\n\n## \n\n## 1-боб. Асосий қоидалар\n\n### 1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар\n\nУшбу Кодекс ходимлар, иш берувч"
+        }
+    ]
+}
