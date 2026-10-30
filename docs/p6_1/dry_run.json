@@ -1,0 +1,159 @@
+{
+    "dry_run": true,
+    "campaign": {
+        "stages": [
+            15,
+            50,
+            100,
+            150
+        ],
+        "control": {
+            "pool": [],
+            "phase": "discover",
+            "run_id": null,
+            "scope_index": 0
+        },
+        "contexts": [],
+        "prepared": true,
+        "audit_count": null,
+        "selected_ids": [],
+        "consecutive_errors": 0,
+        "http_status_counts": [],
+        "legacy_predecessor_id": "p5-1-20261029",
+        "discovered_source_count": 0,
+        "discovery_partition_count": 0,
+        "legacy_predecessor_sha256": "c2db5bddaebb2afd7aa7492bedbbf20af6b2c776d7c4cd30cf9ff0b2b6e54af2",
+        "predecessor_record_sha256": "571dc555415a0a94aa7521237e6a91fcc01570299b1930ea9675c132b24665b3",
+        "id": "p6-1-completion-150-20261029",
+        "durable": true,
+        "status": "paused",
+        "request_limit": 3500,
+        "used": 0,
+        "target": 150,
+        "stage": 15,
+        "source_limit": 600,
+        "selected_source_count": 0,
+        "baseline_max_id": 1079,
+        "baseline_count": 1079,
+        "new_canonical_documents": 0,
+        "persisted_new_canonical_count": 0,
+        "started_at": "2026-10-29T16:53:52+05:00",
+        "paused_at": null,
+        "completed_at": null,
+        "last_request_started_at": "2026-10-29T14:28:59.000000+05:00",
+        "stopped": null,
+        "configuration_snapshot": {
+            "scope": [
+                {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2020",
+                    "from": "01.04.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2020",
+                    "from": "01.04.2020",
+                    "status": "Y",
+                    "section": "loc"
+                }
+            ],
+            "stages": [
+                15,
+                50,
+                100,
+                150
+            ],
+            "workers": 1,
+            "page_cap": 8,
+            "autonomous": true,
+            "collect_once": true,
+            "prepare_only": true,
+            "campaign_type": "corpus_completion",
+            "max_partitions": 255,
+            "max_discovered_ids": 20000,
+            "max_partition_depth": 10,
+            "request_interval_ms": 2000,
+            "max_campaign_seconds": 21600,
+            "per_context_request_limit": 400,
+            "authorized_scope_successor": "p6-corpus-1000-20261029"
+        },
+        "owner_generation": 1,
+        "owner_backend_pid": null,
+        "owned_by_this_process": false
+    },
+    "approved_profile": {
+        "predecessor": "p6-corpus-1000-20261029",
+        "requests": 3500,
+        "sources": 600,
+        "target": 150,
+        "stages": [
+            15,
+            50,
+            100,
+            150
+        ],
+        "scope": [
+            {
+                "section": "nat",
+                "status": "Y",
+                "from": "01.03.2020",
+                "to": "31.03.2020"
+            },
+            {
+                "section": "loc",
+                "status": "Y",
+                "from": "01.03.2020",
+                "to": "31.03.2020"
+            },
+            {
+                "section": "oliy",
+                "status": "Y",
+                "from": "01.01.2021",
+                "to": "31.03.2021"
+            },
+            {
+                "section": "oliy",
+                "status": "Y",
+                "from": "01.04.2021",
+                "to": "30.06.2021"
+            },
+            {
+                "section": "nat",
+                "status": "Y",
+                "from": "01.04.2020",
+                "to": "30.04.2020"
+            },
+            {
+                "section": "loc",
+                "status": "Y",
+                "from": "01.04.2020",
+                "to": "30.04.2020"
+            }
+        ]
+    },
+    "source_requests": 0
+}

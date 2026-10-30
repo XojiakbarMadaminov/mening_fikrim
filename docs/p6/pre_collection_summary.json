@@ -1,0 +1,1347 @@
+{
+    "at": "2026-10-29T10:51:07+05:00",
+    "baseline_documents": 229,
+    "p6_new_canonical": 0,
+    "target": 1000,
+    "target_reached": false,
+    "total_documents": 229,
+    "total_identifiers": 625,
+    "total_contents": 541,
+    "quality_counts": {
+        "verified": 449,
+        "needs_review": 92
+    },
+    "new_content_representations": 0,
+    "run_item_outcomes": [],
+    "technical_failures": 0,
+    "extraction_failed_import_items": 0,
+    "guard_rejected_source_items": 0,
+    "historical_failed_jobs": 24,
+    "new_failed_jobs": 0,
+    "selected_source_ids": 30,
+    "http": {
+        "reserved_requests": 193,
+        "logged_http_attempts": 193,
+        "unobserved_reserved_tokens": 0,
+        "statuses": {
+            "200": 191,
+            "302": 1,
+            "404": 1
+        },
+        "purposes": {
+            "source_policy": 4,
+            "entry_document": 31,
+            "canonical_identity_metadata": 84,
+            "pdf_download": 14,
+            "language_variant": 53,
+            "pdf_viewer": 7
+        },
+        "campaign_http_attempts": {
+            "p6-validation-20261029": 193
+        },
+        "inline_retry_attempts": 0,
+        "minimum_request_start_interval_seconds": 2.01900398300495,
+        "pacing_violations_below_2s": 0,
+        "same_flow_cache_hits": 35,
+        "repeated_identical_get_url_sha": 5,
+        "duplicate_note": "Repeated URL\/SHA across separate source\/alias\/control observations is not automatically avoidable or stale forever.",
+        "request_budget_maximum": 15000,
+        "all_requests_within_budget": true,
+        "collection_requests_per_new_canonical": null,
+        "all_p6_requests_per_new_canonical": null
+    },
+    "language": {
+        "available": 118,
+        "not_available": 0,
+        "unknown": 70,
+        "available_but_failed_or_missing": 0,
+        "legacy_unassessed_documents": 182,
+        "document_coverage": {
+            "unknown": 229
+        },
+        "document_quality": {
+            "verified": 181,
+            "needs_review": 48
+        },
+        "legal_status": {
+            "active": 221,
+            "pending": 7,
+            "inactive": 1
+        }
+    },
+    "pdf_text_layer": 8,
+    "pdf_scanned_ocr": 4,
+    "archive": {
+        "blobs": 0,
+        "registered_bytes": 0,
+        "physical_files": 0,
+        "physical_bytes": 0,
+        "missing": [],
+        "mismatched": [],
+        "orphans": [],
+        "partial_files": [],
+        "ok": true
+    },
+    "archive_observation_statuses": {
+        "disabled": 98
+    },
+    "integrity_passed": true,
+    "campaigns": [
+        {
+            "id": 1,
+            "campaign_id": "p6-validation-20261029",
+            "source_id": 1,
+            "campaign_type": "validation",
+            "status": "completed",
+            "target_new_canonical": 0,
+            "baseline_max_id": 229,
+            "baseline_canonical_count": 229,
+            "current_new_canonical_count": 0,
+            "max_source_selections": 200,
+            "selected_source_count": 30,
+            "max_http_requests": 2000,
+            "used_http_requests": 193,
+            "stage_target": 0,
+            "owner_generation": 5,
+            "owner_token": null,
+            "owner_backend_pid": null,
+            "owner_claimed_at": null,
+            "last_request_started_at": "2026-10-29T05:49:45.818441Z",
+            "started_at": "2026-10-29T05:29:10.000000Z",
+            "paused_at": "2026-10-29T05:37:32.000000Z",
+            "completed_at": "2026-10-29T05:49:51.000000Z",
+            "stopped_at": null,
+            "stop_reason": "approved_target_reached",
+            "configuration_snapshot": {
+                "workers": 1,
+                "page_cap": 8,
+                "campaign_type": "validation",
+                "max_partitions": 31,
+                "pdf_sample_cap": 30,
+                "max_discovered_ids": 3000,
+                "archive_quota_bytes": 2147483648,
+                "max_partition_depth": 10,
+                "request_interval_ms": 2000,
+                "max_campaign_seconds": 43200,
+                "per_context_request_limit": 400
+            },
+            "state": {
+                "stages": [
+                    0
+                ],
+                "contexts": {
+                    "p6-policy": 4,
+                    "p6-pdf-4797522": 3,
+                    "p6-pdf-8345596": 3,
+                    "p6-pdf-8554315": 8,
+                    "p6-pdf-8554321": 3,
+                    "p6-pdf-8554326": 3,
+                    "p6-pdf-8554353": 3,
+                    "p6-pdf-8554432": 3,
+                    "p6-pdf-8557098": 3,
+                    "p6-pdf--6257288": 6,
+                    "p6-pdf--7290944": 6,
+                    "p6-pdf--7303292": 6,
+                    "p6-pdf--7613661": 6,
+                    "p6-pdf--7655343": 10,
+                    "p6-pdf--8496009": 4,
+                    "p6-pdf--8498641": 4,
+                    "p6-pdf--8501541": 10,
+                    "p6-pdf--8502443": 8,
+                    "p6-pdf--8503180": 6,
+                    "p6-pdf--8506802": 14,
+                    "p6-pdf--8519448": 4,
+                    "p6-pdf--8520357": 6,
+                    "p6-pdf--8540314": 6,
+                    "p6-pdf--8546701": 6,
+                    "p6-pdf--8547769": 6,
+                    "p6-pdf--8548637": 8,
+                    "p6-pdf--8548754": 8,
+                    "p6-pdf--8553258": 10,
+                    "p6-pdf--8553692": 10,
+                    "p6-pdf--8554309": 10,
+                    "p6-pdf--8557240": 6
+                },
+                "audit_count": 0,
+                "selected_ids": [
+                    "8557098",
+                    "8554315",
+                    "8554432",
+                    "8554353",
+                    "8554326",
+                    "8554321",
+                    "8345596",
+                    "-8553692",
+                    "-8553258",
+                    "4797522",
+                    "-6257288",
+                    "-8519448",
+                    "-8498641",
+                    "-8496009",
+                    "-8506802",
+                    "-8502443",
+                    "-8501541",
+                    "-8520357",
+                    "-8503180",
+                    "-7613661",
+                    "-7303292",
+                    "-7290944",
+                    "-8557240",
+                    "-8546701",
+                    "-8547769",
+                    "-8548637",
+                    "-8548754",
+                    "-8554309",
+                    "-7655343",
+                    "-8540314"
+                ],
+                "http_in_flight": false,
+                "last_audited_at": "2026-10-29T10:49:51+05:00",
+                "last_reservation": {
+                    "method": "GET",
+                    "context": "p6-pdf--8540314",
+                    "source_path": "\/uz\/actinfo\/card1\/8540314"
+                },
+                "last_response_at": "2026-10-29 10:49:45.903497+05",
+                "consecutive_errors": 0,
+                "http_status_counts": {
+                    "200": 191,
+                    "302": 1,
+                    "404": 1
+                },
+                "legacy_predecessor_id": "p5-1-20261029",
+                "discovered_source_count": 0,
+                "discovery_partition_count": 0,
+                "legacy_predecessor_sha256": "c2db5bddaebb2afd7aa7492bedbbf20af6b2c776d7c4cd30cf9ff0b2b6e54af2",
+                "http_recovery_wait_seconds": 120
+            },
+            "created_at": "2026-10-29T05:29:10.000000Z",
+            "updated_at": "2026-10-29T05:49:51.000000Z",
+            "checkpoints": [
+                {
+                    "id": 1,
+                    "scrape_campaign_id": 1,
+                    "name": "validation",
+                    "bounds": [
+                        "p6-validation-v1",
+                        30
+                    ],
+                    "state": {
+                        "nodes": [],
+                        "progress": {
+                            "samples": {
+                                "4797522": {
+                                    "at": "2026-10-29T10:35:06+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            27,
+                                            28
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "c68dc1be17567cc147f58814d08005ba3d41e7a0eeb743c1e978ec76c085eb13",
+                                            "timings": {
+                                                "ocr_seconds": 20.62095,
+                                                "pdf_parse_seconds": 21.135947
+                                            },
+                                            "language": "uz-Cyrl",
+                                            "file_size": 3386992,
+                                            "source_id": "4797522",
+                                            "page_count": 7,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/4797522",
+                                            "source_format": "ocr",
+                                            "quality_issues": [
+                                                "low_ocr_confidence",
+                                                "ocr_critical_tokens_unverified",
+                                                "ocr_source_identifier_not_certified",
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "uncertified_ocr",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 7316,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 158
+                                        }
+                                    ],
+                                    "source_id": "4797522",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 27.692976764
+                                },
+                                "8345596": {
+                                    "at": "2026-10-29T10:31:22+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            15,
+                                            16
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "9297bab1e1eb28fc9293bd8d12e54efd82d82fd995b94236b1ead717ffb17fb2",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 6.742953
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 958629,
+                                            "source_id": "8345596",
+                                            "page_count": 34,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8345596",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 57197,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 67
+                                        }
+                                    ],
+                                    "source_id": "8345596",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 11.285559468
+                                },
+                                "8554315": {
+                                    "at": "2026-10-29T10:30:27+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 4,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            3,
+                                            4,
+                                            5,
+                                            6
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "26c561fea0629d7bc3a068503d208d2b9899eace629a93a720345d9ea6fadcfd",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 3.321641
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 519541,
+                                            "source_id": "8554315",
+                                            "page_count": 13,
+                                            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554315",
+                                            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/8554315",
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8554315",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "missing_language_title",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 29245,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                                            "canonical_document_id": 23
+                                        }
+                                    ],
+                                    "source_id": "8554315",
+                                    "http_requests": 8,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 19.052139263
+                                },
+                                "8554321": {
+                                    "at": "2026-10-29T10:31:09+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            13,
+                                            14
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "c906f68637e7cbe140935f3e196e87e8f9ad3a188233f1b5198abb2b3dd24e84",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 2.519034
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 1059470,
+                                            "source_id": "8554321",
+                                            "page_count": 10,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8554321",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 21150,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 27
+                                        }
+                                    ],
+                                    "source_id": "8554321",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 11.315996553
+                                },
+                                "8554326": {
+                                    "at": "2026-10-29T10:30:56+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            11,
+                                            12
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "8e6f1be2b807dbad407b68c495da300be29e69d04478bbdd6d3243eec95ab6c9",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 3.626268
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 1087333,
+                                            "source_id": "8554326",
+                                            "page_count": 9,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8554326",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 22257,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 26
+                                        }
+                                    ],
+                                    "source_id": "8554326",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 8.217647101
+                                },
+                                "8554353": {
+                                    "at": "2026-10-29T10:30:46+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            9,
+                                            10
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "4093e45b326f564d5607217fdf2621b9c11033cb4b443fd27a5c44fa42c2aecc",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 2.514988
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 945218,
+                                            "source_id": "8554353",
+                                            "page_count": 4,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8554353",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 6587,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 25
+                                        }
+                                    ],
+                                    "source_id": "8554353",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 7.086946529
+                                },
+                                "8554432": {
+                                    "at": "2026-10-29T10:30:37+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            7,
+                                            8
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "df555b72f6d1df1f8c54407cee52e36e2b0402568d3859da454b2210d73f14f3",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 2.725272
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 1265940,
+                                            "source_id": "8554432",
+                                            "page_count": 20,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8554432",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 37021,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 24
+                                        }
+                                    ],
+                                    "source_id": "8554432",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 7.287186097
+                                },
+                                "8557098": {
+                                    "at": "2026-10-29T10:30:06+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            1,
+                                            2
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "6d3d8dc461697f83ebf4131833715a4f706c85e40a9221943e4887012e8f5d83",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 3.724227
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 1102002,
+                                            "source_id": "8557098",
+                                            "page_count": 9,
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/8557098",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 21154,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "diagnostic_only_no_import",
+                                            "canonical_document_id": 22
+                                        }
+                                    ],
+                                    "source_id": "8557098",
+                                    "http_requests": 3,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 8.369826544
+                                },
+                                "-6257288": {
+                                    "at": "2026-10-29T10:35:25+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            29,
+                                            30,
+                                            31
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-6257288",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 17.213106058
+                                },
+                                "-7290944": {
+                                    "at": "2026-10-29T10:39:27+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            66,
+                                            67,
+                                            68
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-7290944",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.456253812
+                                },
+                                "-7303292": {
+                                    "at": "2026-10-29T10:39:15+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            63,
+                                            64,
+                                            65
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-7303292",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.704871565
+                                },
+                                "-7613661": {
+                                    "at": "2026-10-29T10:37:30+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            56,
+                                            57,
+                                            58
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-7613661",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.576191461
+                                },
+                                "-7655343": {
+                                    "at": "2026-10-29T10:49:31+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 5,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            91,
+                                            92,
+                                            93,
+                                            94,
+                                            95
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-7655343",
+                                    "http_requests": 10,
+                                    "diagnostic_error": "OCR page budget exceeded; partial extraction is not admitted.",
+                                    "duration_seconds": 247.972833268
+                                },
+                                "-8496009": {
+                                    "at": "2026-10-29T10:35:49+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            36,
+                                            37
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8496009",
+                                    "http_requests": 4,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 6.247426284
+                                },
+                                "-8498641": {
+                                    "at": "2026-10-29T10:35:41+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            34,
+                                            35
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8498641",
+                                    "http_requests": 4,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 6.239249205
+                                },
+                                "-8501541": {
+                                    "at": "2026-10-29T10:36:53+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 5,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            45,
+                                            46,
+                                            47,
+                                            48,
+                                            49
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "37d4f63e31e464e151e26d74a671c063d328f0ca5a251e77470c37218661c900",
+                                            "timings": {
+                                                "ocr_seconds": 13.678081,
+                                                "pdf_parse_seconds": 14.787754
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 271843,
+                                            "source_id": "-8501541",
+                                            "page_count": 4,
+                                            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8501541",
+                                            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8501541",
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/-8501541",
+                                            "source_format": "ocr",
+                                            "quality_issues": [
+                                                "declared_language_script_mismatch",
+                                                "low_ocr_confidence",
+                                                "ocr_critical_tokens_unverified",
+                                                "ocr_source_identifier_not_certified",
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "uncertified_ocr",
+                                                "missing_language_title",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 4489,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                                            "canonical_document_id": 7
+                                        }
+                                    ],
+                                    "source_id": "-8501541",
+                                    "http_requests": 10,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 33.297039372
+                                },
+                                "-8502443": {
+                                    "at": "2026-10-29T10:36:18+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 4,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            41,
+                                            42,
+                                            43,
+                                            44
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8502443",
+                                    "http_requests": 8,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 14.394887005
+                                },
+                                "-8503180": {
+                                    "at": "2026-10-29T10:37:18+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            53,
+                                            54,
+                                            55
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8503180",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.698466145
+                                },
+                                "-8506802": {
+                                    "at": "2026-10-29T10:39:02+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 4,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            59,
+                                            60,
+                                            61,
+                                            62
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8506802",
+                                    "http_requests": 8,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 14.453999362,
+                                    "previous_diagnostic": {
+                                        "at": "2026-10-29T10:36:01+05:00",
+                                        "archive": {
+                                            "bytes": 0,
+                                            "errors": [],
+                                            "failed": 0,
+                                            "archived": 0,
+                                            "disabled": 3,
+                                            "stop_reason": null,
+                                            "observation_ids": [
+                                                38,
+                                                39,
+                                                40
+                                            ],
+                                            "privacy_blocked": 0
+                                        },
+                                        "samples": [],
+                                        "source_id": "-8506802",
+                                        "http_requests": 6,
+                                        "diagnostic_error": "Unknown source document language: Инглизча",
+                                        "duration_seconds": 10.261026375
+                                    }
+                                },
+                                "-8519448": {
+                                    "at": "2026-10-29T10:35:33+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 2,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            32,
+                                            33
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8519448",
+                                    "http_requests": 4,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 6.247367198
+                                },
+                                "-8520357": {
+                                    "at": "2026-10-29T10:37:05+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            50,
+                                            51,
+                                            52
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8520357",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.632953334
+                                },
+                                "-8540314": {
+                                    "at": "2026-10-29T10:49:48+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            96,
+                                            97,
+                                            98
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8540314",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 14.987126464
+                                },
+                                "-8546701": {
+                                    "at": "2026-10-29T10:39:52+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            72,
+                                            73,
+                                            74
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8546701",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.340012423
+                                },
+                                "-8547769": {
+                                    "at": "2026-10-29T10:40:04+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            75,
+                                            76,
+                                            77
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8547769",
+                                    "http_requests": 6,
+                                    "diagnostic_error": "Conflicting component requisites: type",
+                                    "duration_seconds": 10.310717665
+                                },
+                                "-8548637": {
+                                    "at": "2026-10-29T10:40:22+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 4,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            78,
+                                            79,
+                                            80,
+                                            81
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "bde2575ea7ec7e428ca00ba203fd32f4fb865d80721224a92d6b7f68a5c415fd",
+                                            "timings": {
+                                                "ocr_seconds": 0,
+                                                "pdf_parse_seconds": 0.912027
+                                            },
+                                            "language": "uz-Latn",
+                                            "file_size": 240585,
+                                            "source_id": "-8548637",
+                                            "page_count": 3,
+                                            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8548637",
+                                            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8548637",
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/-8548637",
+                                            "source_format": "pdf",
+                                            "quality_issues": [
+                                                "declared_language_script_mismatch",
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "missing_language_title",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 5662,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                                            "canonical_document_id": 16
+                                        }
+                                    ],
+                                    "source_id": "-8548637",
+                                    "http_requests": 8,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 16.498825892
+                                },
+                                "-8548754": {
+                                    "at": "2026-10-29T10:40:40+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 4,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            82,
+                                            83,
+                                            84,
+                                            85
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8548754",
+                                    "http_requests": 8,
+                                    "diagnostic_error": "Conflicting component requisites: type",
+                                    "duration_seconds": 15.545259754
+                                },
+                                "-8553258": {
+                                    "at": "2026-10-29T10:34:36+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 5,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            22,
+                                            23,
+                                            24,
+                                            25,
+                                            26
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "56de648020634c94adb29460b539a885eb7a7d99183dd38b6dc9207b9c765296",
+                                            "timings": {
+                                                "ocr_seconds": 71.743882,
+                                                "pdf_parse_seconds": 81.408662
+                                            },
+                                            "language": "uz-Cyrl",
+                                            "file_size": 1420104,
+                                            "source_id": "-8553258",
+                                            "page_count": 17,
+                                            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553258",
+                                            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8553258",
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/-8553258",
+                                            "source_format": "ocr",
+                                            "quality_issues": [
+                                                "declared_language_script_mismatch",
+                                                "low_ocr_confidence",
+                                                "ocr_critical_tokens_unverified",
+                                                "ocr_source_identifier_not_certified",
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "uncertified_ocr",
+                                                "missing_language_title",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 37036,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                                            "canonical_document_id": 28
+                                        }
+                                    ],
+                                    "source_id": "-8553258",
+                                    "http_requests": 10,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 99.923650053
+                                },
+                                "-8553692": {
+                                    "at": "2026-10-29T10:32:54+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 5,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            17,
+                                            18,
+                                            19,
+                                            20,
+                                            21
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [
+                                        {
+                                            "sha256": "74578a77260f51b31a7f44444fc362b5a2f6f57d1ebdbd46d88c544019a5e63c",
+                                            "timings": {
+                                                "ocr_seconds": 63.65635,
+                                                "pdf_parse_seconds": 71.731729
+                                            },
+                                            "language": "uz-Cyrl",
+                                            "file_size": 1106164,
+                                            "source_id": "-8553692",
+                                            "page_count": 19,
+                                            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553692",
+                                            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8553692",
+                                            "resource_url": "https:\/\/lex.uz\/pdffile\/-8553692",
+                                            "source_format": "ocr",
+                                            "quality_issues": [
+                                                "declared_language_script_mismatch",
+                                                "low_ocr_confidence",
+                                                "ocr_critical_tokens_unverified",
+                                                "ocr_source_identifier_not_certified",
+                                                "pdf_image_semantics_unverified",
+                                                "pdf_language_coverage_unconfirmed",
+                                                "pdf_reading_order_unverified",
+                                                "pdf_structure_unverified",
+                                                "uncertified_ocr",
+                                                "missing_language_title",
+                                                "quality_review"
+                                            ],
+                                            "quality_status": "needs_review",
+                                            "text_char_count": 34195,
+                                            "extraction_outcome": "succeeded",
+                                            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                                            "canonical_document_id": 29
+                                        }
+                                    ],
+                                    "source_id": "-8553692",
+                                    "http_requests": 10,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 90.50485229
+                                },
+                                "-8554309": {
+                                    "at": "2026-10-29T10:45:21+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 5,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            86,
+                                            87,
+                                            88,
+                                            89,
+                                            90
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8554309",
+                                    "http_requests": 10,
+                                    "diagnostic_error": "OCR page budget exceeded; partial extraction is not admitted.",
+                                    "duration_seconds": 279.446637862
+                                },
+                                "-8557240": {
+                                    "at": "2026-10-29T10:39:39+05:00",
+                                    "archive": {
+                                        "bytes": 0,
+                                        "errors": [],
+                                        "failed": 0,
+                                        "archived": 0,
+                                        "disabled": 3,
+                                        "stop_reason": null,
+                                        "observation_ids": [
+                                            69,
+                                            70,
+                                            71
+                                        ],
+                                        "privacy_blocked": 0
+                                    },
+                                    "samples": [],
+                                    "source_id": "-8557240",
+                                    "http_requests": 6,
+                                    "diagnostic_error": null,
+                                    "duration_seconds": 10.376899814
+                                }
+                            },
+                            "targets": [
+                                "8557098",
+                                "8554315",
+                                "8554432",
+                                "8554353",
+                                "8554326",
+                                "8554321",
+                                "8345596",
+                                "-8553692",
+                                "-8553258",
+                                "4797522",
+                                "-6257288",
+                                "-8519448",
+                                "-8498641",
+                                "-8496009",
+                                "-8506802",
+                                "-8502443",
+                                "-8501541",
+                                "-8520357",
+                                "-8503180",
+                                "-7613661",
+                                "-7303292",
+                                "-7290944",
+                                "-8557240",
+                                "-8546701",
+                                "-8547769",
+                                "-8548637",
+                                "-8548754",
+                                "-8554309",
+                                "-7655343",
+                                "-8540314"
+                            ],
+                            "policies": {
+                                "https:\/\/lex.uz\/agreement": {
+                                    "at": "2026-10-29T10:29:12+05:00",
+                                    "sha256": "e476af1dd80d58e16f2d49c81724413e5aedae1f27f98bba3897fc3d5c43b1ae",
+                                    "status": 200,
+                                    "public_visible_text": "#lx_gte { line-height: 1; background-color: #0064A9; border: solid 4px #0064A9; border-radius: 4px; padding: 2px 4px 0; } #lx_gte img { max-width: 19px; } #lx_gte #google_translate_element { margin-bottom: 4px; } #lx_gte .lx_ot { font-size: 12px; color: #fff; text-align: center; } #lx_gte .goog-te-gadget-simple { width: 100%; padding: 2px 1px 2.5px 1px !important; } #lx_gte .goog-te-gadget-simple > span { display: inline-block; } #lx_gte .goog-te-gadget-simple > span > a { display: inline-block; margin: 0; } #lx_gte .goog-te-gadget-simple > span > a > span { display: none; } #lx_gte .goog-te-gadget-simple > span > a > span:first-of-type { display: inline; } #lx_gte .goog-te-gadget-simple:hover { color: #fff; background-color: #0064A9; } #lx_gte .goog-te-gadget-simple:hover a { color: #fff; background-color: #0064A9; text-decoration: none; } @media (max-width:576px) { .header .languageSelector { width: 4.6rem; } .header .languageSelector .btn { margin-left: 0; font-size: 12px } #lx_gte .goog-te-gadget-simple { font-size: 11px } #lx_gte .lx_ot { font-size: 10px } } @media (max-width:520px) { #lx_gte { padding: 0; } .header .languageSelector { width: 3.4rem; } .header .languageSelector .btn { font-size: 11px; padding-left: 2px; padding-right: 2px; } #lx_gte .goog-te-gadget-simple { font-size: 9px } #lx_gte .lx_ot { font-size: 8px } } ai.lex.uz @huquqiyaxborot Ўзбекистон Республикаси Қонунчилик маълумотлари миллий базаси Кўриниш A A A ЎЗБ O‘ZBРУСENG ONLINE TRANSLATE РАСМИЙ ҲУЖЖАТЛАРБугунҲафталикОйликКалендарьТИЗИМ ҲАҚИДАФойдаланувчи учун қўлланмаЮридик таҳлил карточкаси реквизитлариИзлаш реквизитлари рўйхатиАхборотни тақдим этиш шартлариLexUz оффлайнНАШРЛАРЎзбекистон Республикаси қонунчилик тўпламиЎзбекистон Республикаси халқаро шартномалари тўпламиКутубхонаМАЪЛУМОТ­НОМАЛАРЎзбекистон Республикасининг Давлат рамзлариKонституциявий ҳуқуқ. Энциклопедик луғатҚонунчилик тармоқлари умумҳуқуқий классификаториҲисоботлар шакллариБҲМСLexUz статистикасиХалқаро шартномалар талаблари бўйича очиқ маълумотлар базасиҚўлланмаларBHM Kalkulyatori ҲУҚУҚИЙ ТУШУНТИРИШЛАР Кириш const htmlEl = document.getElementsByTagName('body')[0]; if (localStorage.getItem(\"themes\") === \"light\") { htmlEl.dataset.theme = 'light'; } else if (localStorage.getItem(\"themes\") === \"grey\") { htmlEl.dataset.theme = 'grey'; } else if (localStorage.getItem(\"themes\") === \"dark\") { htmlEl.dataset.theme = 'dark'; } const toggleTheme = (theme) => { htmlEl.dataset.theme = theme; localStorage.setItem(\"themes\", htmlEl.dataset.theme); } function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'uz', includedLanguages: 'sq,ar,hy,az,be,bn,bg,zh-CN,zh-TW,hr,cs,da,et,tl,fi,fr,ka,de,el,iw,hi,hu,is,id,it,ja,kk,ko,ky,lv,lt,ms,mn,no,ps,fa,pl,pt,ro,sr,sk,sl,es,sw,sv,tg,tt,th,tr,tk,uk,ur,ug,vi,en,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element'); }  MAXFIYLIK SIYOSATI Shaxsiy maʼlumotlarning maxfiylik siyosati (bundan keyin matnda Siyosat, deb yuritiladi) Qonunchilik ma’lumotlari milliy bazasi (Lex.uz) (bundan keyin matnda Milliy baza, deb yuritiladi) yoki shu tizimga aloqador boshqa mobil ilovalardan foydalanish chog‘ida foydalanuvchi haqida olinadigan maʼlumotlarga nisbatan qo‘llaniladi. Milliy baza O‘zbekiston Respublikasi qonunchiliga ko‘ra rasman ro‘yxatdan o‘tgan tizim hisoblanadi.   Milliy bazaning har qanday resurslaridan foydalanish foydalanuvchi tomonidan mazkur Siyosat va unda ko‘rsatilgan shartlarga so‘zsiz rozi ekanligini anglatadi. Agar foydalanuvchi mazkur Siyosat shartlariga rozi bo‘lmagan taqdirda u Milliy baza resurslaridan foydalanmasligi kerak.   1. TERMINLAR   1. Qonunchilik ma’lumotlari milliy bazasi – bu kontentning serverdagi joylashuv o‘rnidir. 2. Qonunchilik ma’lumotlari milliy bazasi – qonunchilik hujjatlaridan yuridik va jismoniy shaxslarning keng foydalanish imkoniyatini beruvchi tizim. 3. Shaxsiy maʼlumotlar – muayyan jismoniy yoki yuridik shaxsga (shaxsiy maʼlumot subyekti) bevosita yoki bilvosita aloqador bo‘lgan har qanday maʼlumot  hisoblanadi. 4. Shaxsiy maʼlumotlarning maxfiyligi – jismoniy yoki yuridik shaxslarning maʼlumotlaridan foydalanish huquqiga ega bo‘lgan shaxslarning, boshqalarga taalluqli maʼlumotlardan ularning roziligisiz yoki qonuniy asoslarsiz foydalanmasligi va tarqatmasligi uchun majburiy talab hisoblanadi. 2. FOYDALANUVCHINING MILLIY BAZA TOMONIDAN YIG‘ILADIGAN VA QAYTA ISHLANADIGAN SHAXSIY MAʼLUMOTI 5. Ushbu Siyosat foydalanuvchining tizimdan ro‘yxatdan o‘tish, huquqiy hujjatlardan foydalanish chog‘ida tizim tomonidan so‘ralgan maʼlumotlar kiritilganda ushbu maʼlumotlarning maxfiyligini muhofaza qilish va oshkor etmaslik tartibini taʼminlashga qaratilgan Milliy baza maʼmuriyatining (bundan keyin matnda Maʼmuriyat deb yuritiladi) majburiyatlarini belgilaydi. 6. Ushbu Maxfiylik siyosati doirasida qayta ishlashga ruxsat berilgan shaxsiy maʼlumotlar Milliy bazada ro‘yxatdan o‘tish chog‘ida jadvalni to‘ldirish orqali foydalanuvchi tomonidan mustaqil ravishda taqdim etiladi va u quyidagilarni o‘z ichiga oladi:  FIO; foydalanuvchining telefon raqami; elektron pochta manzili (e-mail).   SHAXSIY MAʼLUMOTLAR XAVFSIZLIGI   7. Shaxsiy maʼlumotlarni noqonuniy xatti-harakatlardan, yo‘qolish, yo‘q qilish va uchinchi shaxslar tomonidan ruxsatsiz kirishdan himoya qilish uchun maʼmuriyat zamonaviy dasturiy taʼminot va apparatni himoya qilish vositalaridan hamda tashkiliy xavfsizlik choralaridan foydalanadi. Maʼmuriyat maʼlumotlarning maxfiyligini taʼminlash uchun barcha imkoniyatlarni ishga solishni o‘z zimmasiga oladi. Maʼmuriyat foydalanuvchining iltimosi yoki uchinchi shaxslarning daʼvolari bo‘yicha sud yoxud huquqni muhofaza qiluvchi organlarning so‘roviga asosan, maʼmuriyatning huquqlari va qonuniy manfaatlarini taʼminlash yuzasidan, shuningdek qonunchilikda belgilangan boshqa hollarda foydalanuvchining shaxsiy maʼlumotlariga kirish huquqiga ega.   MAXFIYLIK SIYOSATINI O‘ZGARTIRISH   8. Maʼmuriyat ushbu Siyosatga mustaqil ravishda o‘zgartirish kiritish huquqiga ega. Siyosatning o‘zgartirilgan versiyasi Milliy bazada eʼlon qilingan paytdan boshlab darhol kuchga kiradi. Foydalanuvchilarga Siyosat o‘zgarishi to‘g‘risida maxsus xabar berilishi mumkin. Siyosatdagi o‘zgarishlarga rozi bo‘lmagan taqdirda, foydalanuvchi Milliy bazadan foydalanishni to‘xtatishi shart.     Tizim haqida Foydalanuvchi uchun qo‘llanmaYuridik tahlil kartochkasi rekvizitlariIzlash rekvizitlari ro‘yxatiAxborotni taqdim etish shartlariFoydalanish shartlariLexUz oflayn Фойдали ресурслар Ўзбекистон Республикаси Президенти Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси Ўзбекистон РеспубликасиҲукумат портали Ўзбекистон РеспубликасиОлий Мажлисининг Сенати Ўзбекистон РеспубликасиАдлия вазирлиги Тараққиёт стратегиясимаркази Марказ ҳақида Сайт янгиликлари Сайтда реклама RSS <!-- top_js = \"1.0\"; top_r = \"id=4079&r=\" + escape(document.referrer) + \"&pg=\" + escape(window.location.href); document.cookie = \"smart_top=1; path=\/\"; top_r += \"&c=\" + (document.cookie ? \"Y\" : \"N\") \/\/--> <!-- top_js = \"1.1\"; top_r += \"&j=\" + (navigator.javaEnabled() ? \"Y\" : \"N\") \/\/--> <!-- top_js = \"1.2\"; top_r += \"&wh=\" + screen.width + 'x' + screen.height + \"&px=\" + (((navigator.appName.substring(0, 3) == \"Mic\")) ? screen.colorDepth : screen.pixelDepth) \/\/--> <!-- top_js = \"1.3\"; \/\/--> <!-- top_rat = \"&col=0C57A6&t=ffffff&p=DD7900\"; top_r += \"&js=\" + top_js + \"\"; document.write('<a href=\"https:\/\/www.uz\/rus\/toprating\/cmd\/stat\/id\/4079\" target=\"_blank\"><img src=\"https:\/\/www.uz\/plugins\/top_rating\/count\/cnt.png?' + top_r + top_rat + '\" width=88 height=31 border=0 alt=\"Топ рейтинг www.uz\"><\/a>')\/\/--> © Ўзбекистон Республикаси Адлия вазирлиги қошидаги “Адолат” миллий ҳуқуқий ахборот маркази давлат муассасаси Ёпиш"
+                                },
+                                "https:\/\/lex.uz\/robots.txt": {
+                                    "at": "2026-10-29T10:29:16+05:00",
+                                    "status": 404,
+                                    "permission_inference": "none"
+                                },
+                                "https:\/\/lex.uz\/uz\/axborot": {
+                                    "at": "2026-10-29T10:29:10+05:00",
+                                    "sha256": "ead76ef80daa41a3bffb584854df94c4a73ddee20d9f2462e6fb701b100e7275",
+                                    "status": 200,
+                                    "public_visible_text": "#lx_gte { line-height: 1; background-color: #0064A9; border: solid 4px #0064A9; border-radius: 4px; padding: 2px 4px 0; } #lx_gte img { max-width: 19px; } #lx_gte #google_translate_element { margin-bottom: 4px; } #lx_gte .lx_ot { font-size: 12px; color: #fff; text-align: center; } #lx_gte .goog-te-gadget-simple { width: 100%; padding: 2px 1px 2.5px 1px !important; } #lx_gte .goog-te-gadget-simple > span { display: inline-block; } #lx_gte .goog-te-gadget-simple > span > a { display: inline-block; margin: 0; } #lx_gte .goog-te-gadget-simple > span > a > span { display: none; } #lx_gte .goog-te-gadget-simple > span > a > span:first-of-type { display: inline; } #lx_gte .goog-te-gadget-simple:hover { color: #fff; background-color: #0064A9; } #lx_gte .goog-te-gadget-simple:hover a { color: #fff; background-color: #0064A9; text-decoration: none; } @media (max-width:576px) { .header .languageSelector { width: 4.6rem; } .header .languageSelector .btn { margin-left: 0; font-size: 12px } #lx_gte .goog-te-gadget-simple { font-size: 11px } #lx_gte .lx_ot { font-size: 10px } } @media (max-width:520px) { #lx_gte { padding: 0; } .header .languageSelector { width: 3.4rem; } .header .languageSelector .btn { font-size: 11px; padding-left: 2px; padding-right: 2px; } #lx_gte .goog-te-gadget-simple { font-size: 9px } #lx_gte .lx_ot { font-size: 8px } } ai.lex.uz @huquqiyaxborot O‘zbekiston Respublikasi Qonunchilik ma’lumotlari milliy bazasi Ko‘rinish A A A O‘ZB ЎЗБРУСENG ONLINE TRANSLATE RASMIY HUJJATLARBugunHaftalikOylikKalendarTIZIM HAQIDAFoydalanuvchi uchun qo‘llanmaYuridik tahlil kartochkasi rekvizitlariIzlash rekvizitlari ro‘yxatiAxborotni taqdim etish shartlariFoydalanish shartlariLexUz oflaynNASHRLARO‘zbekiston Respublikasi qonunchilik to‘plamiO‘zbekiston Respublikasi xalqaro shartnomalari to‘plamiKutubxonaMA’LUMOTNOMALARO‘zbekiston Respublikasining Davlat ramzlariKonstitutsiyaviy huquq. Ensiklopedik lug‘atQonunchilik tarmoqlari umumhuquqiy klassifikatoriHisobotlar shakllariBHMSLexUz statistikasiQo‘llanmalarBHM Kalkulyatori HUQUQIY TUSHUNTIRISHLAR Kirish const htmlEl = document.getElementsByTagName('body')[0]; if (localStorage.getItem(\"themes\") === \"light\") { htmlEl.dataset.theme = 'light'; } else if (localStorage.getItem(\"themes\") === \"grey\") { htmlEl.dataset.theme = 'grey'; } else if (localStorage.getItem(\"themes\") === \"dark\") { htmlEl.dataset.theme = 'dark'; } const toggleTheme = (theme) => { htmlEl.dataset.theme = theme; localStorage.setItem(\"themes\", htmlEl.dataset.theme); } function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'uz', includedLanguages: 'sq,ar,hy,az,be,bn,bg,zh-CN,zh-TW,hr,cs,da,et,tl,fi,fr,ka,de,el,iw,hi,hu,is,id,it,ja,kk,ko,ky,lv,lt,ms,mn,no,ps,fa,pl,pt,ro,sr,sk,sl,es,sw,sv,tg,tt,th,tr,tk,uk,ur,ug,vi,en,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element'); } Axborotni taqdim etish shartlari Ushbu axborot resursi mulk huquqi obyekti bo‘lib, O‘zbekiston Respublikasining Fuqarolik kodeksi, “Mualliflik huquqi va turdosh huquqlar to‘g‘risida”gi Qonuni va intellektual mulk to‘g‘risidagi boshqa normativ huquqiy hujjatlar bilan himoyalanadi. O‘zbekiston Respublikasining “Axborotlashtirish to‘g‘risida”gi Qonuniga muvofiq ushbu axborot resursning egalik huquqi Markazga tegishli. Ushbu axborot resursidan olgan axborotni faqat shaxsiy maqsadlarda foydalanishingiz mumkin. Daromad olish maqsadida maʼlumotlardan nusxa olish, tarqatish, sotish, berish resurs egasining yozma roziligisiz taqiqlanadi. Boshqa resurslarda axborotdan foydalanish (normativ huquqiy hujjatlarni istisno qilgan xolda) mazkur axborot resursiga havola qilgan xolda yo‘l qo‘yiladi. Saytda berilgan axborotni har qanday noaniqligi yoki to‘liq emasligidan yoxud olingan maʼlumotlarga asoslanib, Siz yoki uchinchi shaxs tomonidan qabul qilingan har qanday qarorlar, yoxud, Siz yoki uchinchi shaxs tomonidan amalga oshirilgan xar qanday harakatlar oqibatida kelib chiqqan ziyonlar yoki zararlar uchun Markaz javobgar bo‘lmaydi. Markaz ushbu axborot resursida joylashtirilgan axborotlar hajmini bir taraflama o‘zgartirish huquqiga ega. Yanada aniqroq rasmiy maʼlumotlar olish uchun bevosita Markazga murojaat qilish lozim.   O‘zbekiston Respublikasi Adliya vazirligi qoshidagi “Adolat” milliy huquqiy axborot markazi davlat muassasasi   Tizim haqida Foydalanuvchi uchun qo‘llanmaYuridik tahlil kartochkasi rekvizitlariIzlash rekvizitlari ro‘yxatiAxborotni taqdim etish shartlariFoydalanish shartlariLexUz oflayn Foydali resurslar O‘zbekiston Respublikasi Prezidenti O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi O‘zbekiston RespublikasiHukumat portali O‘zbekiston RespublikasiOliy Majlisining Senati O‘zbekiston RespublikasiAdliya vazirligi Taraqqiyot strategiyasimarkazi Markaz haqida Sayt yangiliklari Saytda reklama RSS <!-- top_js = \"1.0\"; top_r = \"id=4079&r=\" + escape(document.referrer) + \"&pg=\" + escape(window.location.href); document.cookie = \"smart_top=1; path=\/\"; top_r += \"&c=\" + (document.cookie ? \"Y\" : \"N\") \/\/--> <!-- top_js = \"1.1\"; top_r += \"&j=\" + (navigator.javaEnabled() ? \"Y\" : \"N\") \/\/--> <!-- top_js = \"1.2\"; top_r += \"&wh=\" + screen.width + 'x' + screen.height + \"&px=\" + (((navigator.appName.substring(0, 3) == \"Mic\")) ? screen.colorDepth : screen.pixelDepth) \/\/--> <!-- top_js = \"1.3\"; \/\/--> <!-- top_rat = \"&col=0C57A6&t=ffffff&p=DD7900\"; top_r += \"&js=\" + top_js + \"\"; document.write('<a href=\"https:\/\/www.uz\/rus\/toprating\/cmd\/stat\/id\/4079\" target=\"_blank\"><img src=\"https:\/\/www.uz\/plugins\/top_rating\/count\/cnt.png?' + top_r + top_rat + '\" width=88 height=31 border=0 alt=\"Топ рейтинг www.uz\"><\/a>')\/\/--> © O‘zbekiston Respublikasi Adliya vazirligi qoshidagi “Adolat” milliy huquqiy axborot markazi davlat muassasasi Yopish"
+                                }
+                            },
+                            "language_rechecks": {
+                                "-8506802": {
+                                    "at": "2026-10-29T10:39:02+05:00",
+                                    "succeeded": true
+                                }
+                            }
+                        }
+                    },
+                    "version": 35,
+                    "owner_generation": 5,
+                    "created_at": "2026-10-29T05:29:10.000000Z",
+                    "updated_at": "2026-10-29T05:49:48.000000Z"
+                }
+            ]
+        }
+    ],
+    "discovery_identity": {
+        "discovered_source_ids": 0,
+        "initially_existing_source_ids": 0,
+        "currently_resolved_source_ids": 0,
+        "resolved_canonical_groups": 0,
+        "unresolved_source_ids": 0,
+        "selected_resolved_canonical_groups": 0,
+        "baseline_existing_canonicals_in_import_items": 0,
+        "skipped_alias_items": 0,
+        "note": "Unfetched source IDs are not guessed canonical groups. Diagnostic-only PDF selections and source IDs\/languages are never counted as new canonical documents."
+    },
+    "recommendation": "NO-GO"
+}

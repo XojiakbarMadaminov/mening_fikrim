@@ -1,0 +1,1870 @@
+{
+    "observed_at": "2026-10-29T18:32:36+05:00",
+    "database": "mening_fikrim_active",
+    "tables": {
+        "cache": {
+            "columns": [
+                {
+                    "column_name": "key",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "value",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "expiration",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "cache_pkey",
+                    "definition": "PRIMARY KEY (key)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "cache_expiration_index",
+                    "indexdef": "CREATE INDEX cache_expiration_index ON public.cache USING btree (expiration)"
+                },
+                {
+                    "indexname": "cache_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX cache_pkey ON public.cache USING btree (key)"
+                }
+            ]
+        },
+        "cache_locks": {
+            "columns": [
+                {
+                    "column_name": "key",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "owner",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "expiration",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "cache_locks_pkey",
+                    "definition": "PRIMARY KEY (key)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "cache_locks_expiration_index",
+                    "indexdef": "CREATE INDEX cache_locks_expiration_index ON public.cache_locks USING btree (expiration)"
+                },
+                {
+                    "indexname": "cache_locks_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX cache_locks_pkey ON public.cache_locks USING btree (key)"
+                }
+            ]
+        },
+        "document_contents": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('document_contents_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "document_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "language",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "title",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "content",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "content_hash",
+                    "data_type": "character",
+                    "udt_name": "bpchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "last_fetched_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "quality_status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": "'needs_review'::character varying"
+                },
+                {
+                    "column_name": "quality_issues",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": "'[]'::jsonb"
+                },
+                {
+                    "column_name": "quality_checked_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "extraction_metadata",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": "'{}'::jsonb"
+                },
+                {
+                    "column_name": "pending_candidate",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "contents_candidate_check",
+                    "definition": "CHECK (((pending_candidate IS NULL) OR COALESCE(((jsonb_typeof(pending_candidate) = 'object'::text) AND jsonb_exists_all(pending_candidate, ARRAY['quality_status'::text, 'content'::text, 'content_hash'::text, 'quality_issues'::text, 'extraction_metadata'::text]) AND ((pending_candidate ->> 'quality_status'::text) = 'needs_review'::text) AND (jsonb_typeof((pending_candidate -> 'content'::text)) = 'string'::text) AND (jsonb_typeof((pending_candidate -> 'quality_issues'::text)) = 'array'::text) AND (jsonb_typeof((pending_candidate -> 'extraction_metadata'::text)) = 'object'::text) AND (length(btrim((pending_candidate ->> 'content'::text))) > 0) AND ((pending_candidate ->> 'content_hash'::text) ~ '^[a-f0-9]{64}$'::text)), false)))"
+                },
+                {
+                    "conname": "contents_hash_check",
+                    "definition": "CHECK ((content_hash ~ '^[a-f0-9]{64}$'::text))"
+                },
+                {
+                    "conname": "contents_nonempty_check",
+                    "definition": "CHECK ((length(btrim(content)) > 0))"
+                },
+                {
+                    "conname": "contents_quality_json_check",
+                    "definition": "CHECK (((jsonb_typeof(quality_issues) = 'array'::text) AND (jsonb_typeof(extraction_metadata) = 'object'::text) AND (((quality_status)::text <> 'verified'::text) OR (quality_issues = '[]'::jsonb))))"
+                },
+                {
+                    "conname": "contents_quality_status_check",
+                    "definition": "CHECK (((quality_status)::text = ANY ((ARRAY['verified'::character varying, 'needs_review'::character varying])::text[])))"
+                },
+                {
+                    "conname": "document_contents_document_id_foreign",
+                    "definition": "FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE"
+                },
+                {
+                    "conname": "document_contents_document_id_language_unique",
+                    "definition": "UNIQUE (document_id, language)"
+                },
+                {
+                    "conname": "document_contents_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "document_contents_document_id_language_unique",
+                    "indexdef": "CREATE UNIQUE INDEX document_contents_document_id_language_unique ON public.document_contents USING btree (document_id, language)"
+                },
+                {
+                    "indexname": "document_contents_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX document_contents_pkey ON public.document_contents USING btree (id)"
+                },
+                {
+                    "indexname": "document_contents_quality_status_id_index",
+                    "indexdef": "CREATE INDEX document_contents_quality_status_id_index ON public.document_contents USING btree (quality_status, id)"
+                }
+            ]
+        },
+        "document_identifiers": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('document_identifiers_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "document_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "external_id",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "language",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_url",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "metadata",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "document_identifiers_document_id_source_id_foreign",
+                    "definition": "FOREIGN KEY (document_id, source_id) REFERENCES documents(id, source_id) ON DELETE CASCADE"
+                },
+                {
+                    "conname": "document_identifiers_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "document_identifiers_source_id_external_id_unique",
+                    "definition": "UNIQUE (source_id, external_id)"
+                },
+                {
+                    "conname": "document_identifiers_source_id_foreign",
+                    "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "document_identifiers_document_id_index",
+                    "indexdef": "CREATE INDEX document_identifiers_document_id_index ON public.document_identifiers USING btree (document_id)"
+                },
+                {
+                    "indexname": "document_identifiers_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX document_identifiers_pkey ON public.document_identifiers USING btree (id)"
+                },
+                {
+                    "indexname": "document_identifiers_source_id_external_id_unique",
+                    "indexdef": "CREATE UNIQUE INDEX document_identifiers_source_id_external_id_unique ON public.document_identifiers USING btree (source_id, external_id)"
+                }
+            ]
+        },
+        "document_sources": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('document_sources_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "name",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "slug",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "type",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "base_url",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "is_active",
+                    "data_type": "boolean",
+                    "udt_name": "bool",
+                    "is_nullable": "NO",
+                    "column_default": "true"
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "document_sources_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "document_sources_slug_unique",
+                    "definition": "UNIQUE (slug)"
+                },
+                {
+                    "conname": "sources_type_check",
+                    "definition": "CHECK (((type)::text = ANY ((ARRAY['scraper'::character varying, 'manual'::character varying])::text[])))"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "document_sources_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX document_sources_pkey ON public.document_sources USING btree (id)"
+                },
+                {
+                    "indexname": "document_sources_slug_unique",
+                    "indexdef": "CREATE UNIQUE INDEX document_sources_slug_unique ON public.document_sources USING btree (slug)"
+                }
+            ]
+        },
+        "documents": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('documents_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "source_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "external_id",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "title",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "document_type",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "document_number",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "issued_at",
+                    "data_type": "date",
+                    "udt_name": "date",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "published_at",
+                    "data_type": "date",
+                    "udt_name": "date",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "effective_at",
+                    "data_type": "date",
+                    "udt_name": "date",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_url",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "metadata",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": "'{}'::jsonb"
+                },
+                {
+                    "column_name": "last_checked_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "documents_id_source_id_unique",
+                    "definition": "UNIQUE (id, source_id)"
+                },
+                {
+                    "conname": "documents_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "documents_source_id_external_id_unique",
+                    "definition": "UNIQUE (source_id, external_id)"
+                },
+                {
+                    "conname": "documents_source_id_foreign",
+                    "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+                },
+                {
+                    "conname": "documents_status_check",
+                    "definition": "CHECK (((status)::text = ANY ((ARRAY['active'::character varying, 'pending'::character varying, 'inactive'::character varying])::text[])))"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "documents_id_source_id_unique",
+                    "indexdef": "CREATE UNIQUE INDEX documents_id_source_id_unique ON public.documents USING btree (id, source_id)"
+                },
+                {
+                    "indexname": "documents_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX documents_pkey ON public.documents USING btree (id)"
+                },
+                {
+                    "indexname": "documents_source_id_external_id_unique",
+                    "indexdef": "CREATE UNIQUE INDEX documents_source_id_external_id_unique ON public.documents USING btree (source_id, external_id)"
+                },
+                {
+                    "indexname": "documents_source_id_status_last_checked_at_index",
+                    "indexdef": "CREATE INDEX documents_source_id_status_last_checked_at_index ON public.documents USING btree (source_id, status, last_checked_at)"
+                },
+                {
+                    "indexname": "documents_status_effective_at_index",
+                    "indexdef": "CREATE INDEX documents_status_effective_at_index ON public.documents USING btree (status, effective_at)"
+                }
+            ]
+        },
+        "failed_jobs": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('failed_jobs_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "uuid",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "connection",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "queue",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "payload",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "exception",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "failed_at",
+                    "data_type": "timestamp without time zone",
+                    "udt_name": "timestamp",
+                    "is_nullable": "NO",
+                    "column_default": "CURRENT_TIMESTAMP"
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "failed_jobs_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "failed_jobs_uuid_unique",
+                    "definition": "UNIQUE (uuid)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "failed_jobs_connection_queue_failed_at_index",
+                    "indexdef": "CREATE INDEX failed_jobs_connection_queue_failed_at_index ON public.failed_jobs USING btree (connection, queue, failed_at)"
+                },
+                {
+                    "indexname": "failed_jobs_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX failed_jobs_pkey ON public.failed_jobs USING btree (id)"
+                },
+                {
+                    "indexname": "failed_jobs_uuid_unique",
+                    "indexdef": "CREATE UNIQUE INDEX failed_jobs_uuid_unique ON public.failed_jobs USING btree (uuid)"
+                }
+            ]
+        },
+        "job_batches": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "name",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "total_jobs",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "pending_jobs",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "failed_jobs",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "failed_job_ids",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "options",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "cancelled_at",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "finished_at",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "job_batches_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "job_batches_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX job_batches_pkey ON public.job_batches USING btree (id)"
+                }
+            ]
+        },
+        "jobs": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('jobs_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "queue",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "payload",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "attempts",
+                    "data_type": "smallint",
+                    "udt_name": "int2",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "reserved_at",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "available_at",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "jobs_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "jobs_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX jobs_pkey ON public.jobs USING btree (id)"
+                },
+                {
+                    "indexname": "jobs_queue_index",
+                    "indexdef": "CREATE INDEX jobs_queue_index ON public.jobs USING btree (queue)"
+                }
+            ]
+        },
+        "migrations": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('migrations_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "migration",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "batch",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "migrations_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "migrations_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX migrations_pkey ON public.migrations USING btree (id)"
+                }
+            ]
+        },
+        "scrape_campaign_checkpoints": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('scrape_campaign_checkpoints_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "scrape_campaign_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "name",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "bounds",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "state",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "version",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "1"
+                },
+                {
+                    "column_name": "owner_generation",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "scrape_campaign_checkpoints_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "scrape_campaign_checkpoints_scrape_campaign_id_foreign",
+                    "definition": "FOREIGN KEY (scrape_campaign_id) REFERENCES scrape_campaigns(id) ON DELETE RESTRICT"
+                },
+                {
+                    "conname": "scrape_campaign_checkpoints_scrape_campaign_id_name_unique",
+                    "definition": "UNIQUE (scrape_campaign_id, name)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "scrape_campaign_checkpoints_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_campaign_checkpoints_pkey ON public.scrape_campaign_checkpoints USING btree (id)"
+                },
+                {
+                    "indexname": "scrape_campaign_checkpoints_scrape_campaign_id_name_unique",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_campaign_checkpoints_scrape_campaign_id_name_unique ON public.scrape_campaign_checkpoints USING btree (scrape_campaign_id, name)"
+                }
+            ]
+        },
+        "scrape_campaigns": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('scrape_campaigns_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "campaign_id",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "campaign_type",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": "'corpus_pilot'::character varying"
+                },
+                {
+                    "column_name": "status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": "'running'::character varying"
+                },
+                {
+                    "column_name": "target_new_canonical",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "baseline_max_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "baseline_canonical_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "current_new_canonical_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "max_source_selections",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "selected_source_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "max_http_requests",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "used_http_requests",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "stage_target",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "owner_generation",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "owner_token",
+                    "data_type": "uuid",
+                    "udt_name": "uuid",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "owner_backend_pid",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "owner_claimed_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "last_request_started_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "started_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "paused_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "completed_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "stopped_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "stop_reason",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "configuration_snapshot",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "state",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": "'{}'::jsonb"
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "campaigns_budget_check",
+                    "definition": "CHECK ((((used_http_requests >= 0) AND (used_http_requests <= max_http_requests)) AND ((selected_source_count >= 0) AND (selected_source_count <= max_source_selections)) AND ((((campaign_type)::text = 'corpus_collection'::text) AND ((campaign_id)::text = 'corpus-10000-20261029'::text) AND ((max_http_requests >= 1) AND (max_http_requests <= 120000)) AND ((max_source_selections >= 1) AND (max_source_selections <= 25000))) OR (((campaign_type)::text <> 'corpus_collection'::text) AND ((max_http_requests >= 1) AND (max_http_requests <= 15000)) AND ((max_source_selections >= 1) AND (max_source_selections <= 3500))))))"
+                },
+                {
+                    "conname": "campaigns_status_check",
+                    "definition": "CHECK (((status)::text = ANY ((ARRAY['running'::character varying, 'pausing'::character varying, 'paused'::character varying, 'completed'::character varying, 'stopped'::character varying, 'failed'::character varying])::text[])))"
+                },
+                {
+                    "conname": "campaigns_target_check",
+                    "definition": "CHECK ((((current_new_canonical_count >= 0) AND (current_new_canonical_count <= target_new_canonical)) AND ((((campaign_type)::text = 'validation'::text) AND (target_new_canonical = 0) AND (stage_target = 0)) OR (((campaign_type)::text = 'corpus_collection'::text) AND ((campaign_id)::text = 'corpus-10000-20261029'::text) AND (target_new_canonical = 10000) AND ((stage_target >= 1) AND (stage_target <= target_new_canonical))) OR (((campaign_type)::text <> ALL ((ARRAY['validation'::character varying, 'corpus_collection'::character varying])::text[])) AND ((target_new_canonical >= 1) AND (target_new_canonical <= 1000)) AND ((stage_target >= 1) AND (stage_target <= target_new_canonical))))))"
+                },
+                {
+                    "conname": "scrape_campaigns_campaign_id_unique",
+                    "definition": "UNIQUE (campaign_id)"
+                },
+                {
+                    "conname": "scrape_campaigns_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "scrape_campaigns_source_id_foreign",
+                    "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "campaigns_one_open_source",
+                    "indexdef": "CREATE UNIQUE INDEX campaigns_one_open_source ON public.scrape_campaigns USING btree (source_id) WHERE ((status)::text = ANY ((ARRAY['running'::character varying, 'pausing'::character varying, 'paused'::character varying])::text[]))"
+                },
+                {
+                    "indexname": "scrape_campaigns_campaign_id_unique",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_campaigns_campaign_id_unique ON public.scrape_campaigns USING btree (campaign_id)"
+                },
+                {
+                    "indexname": "scrape_campaigns_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_campaigns_pkey ON public.scrape_campaigns USING btree (id)"
+                },
+                {
+                    "indexname": "scrape_campaigns_source_id_id_index",
+                    "indexdef": "CREATE INDEX scrape_campaigns_source_id_id_index ON public.scrape_campaigns USING btree (source_id, id)"
+                }
+            ]
+        },
+        "scrape_run_items": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('scrape_run_items_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "scrape_run_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_external_id",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "document_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": "'discovered'::character varying"
+                },
+                {
+                    "column_name": "attempts",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "listing_status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "action",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "review_reasons",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "language_results",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "outcome",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "discovery_signatures",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": "'[]'::jsonb"
+                },
+                {
+                    "column_name": "queue_job_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "dispatch_token",
+                    "data_type": "uuid",
+                    "udt_name": "uuid",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "available_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "lease_expires_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "last_error",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "started_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "finished_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "items_attempts_check",
+                    "definition": "CHECK ((attempts >= 0))"
+                },
+                {
+                    "conname": "items_document_check",
+                    "definition": "CHECK ((((status)::text <> ALL ((ARRAY['imported'::character varying, 'unchanged'::character varying, 'skipped_alias'::character varying])::text[])) OR (document_id IS NOT NULL)))"
+                },
+                {
+                    "conname": "items_ledger_completion",
+                    "definition": "TRIGGER DEFERRABLE INITIALLY DEFERRED"
+                },
+                {
+                    "conname": "items_status_check",
+                    "definition": "CHECK (((status)::text = ANY ((ARRAY['discovered'::character varying, 'queued'::character varying, 'processing'::character varying, 'retry_wait'::character varying, 'imported'::character varying, 'unchanged'::character varying, 'review'::character varying, 'failed'::character varying, 'skipped_alias'::character varying])::text[])))"
+                },
+                {
+                    "conname": "items_terminal_check",
+                    "definition": "CHECK ((((status)::text = ANY ((ARRAY['imported'::character varying, 'unchanged'::character varying, 'review'::character varying, 'failed'::character varying, 'skipped_alias'::character varying])::text[])) = (finished_at IS NOT NULL)))"
+                },
+                {
+                    "conname": "scrape_run_items_document_id_foreign",
+                    "definition": "FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE RESTRICT"
+                },
+                {
+                    "conname": "scrape_run_items_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "scrape_run_items_scrape_run_id_foreign",
+                    "definition": "FOREIGN KEY (scrape_run_id) REFERENCES scrape_runs(id) ON DELETE CASCADE"
+                },
+                {
+                    "conname": "scrape_run_items_scrape_run_id_source_external_id_unique",
+                    "definition": "UNIQUE (scrape_run_id, source_external_id)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "items_stale_processing",
+                    "indexdef": "CREATE INDEX items_stale_processing ON public.scrape_run_items USING btree (lease_expires_at) WHERE ((status)::text = 'processing'::text)"
+                },
+                {
+                    "indexname": "scrape_run_items_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_run_items_pkey ON public.scrape_run_items USING btree (id)"
+                },
+                {
+                    "indexname": "scrape_run_items_scrape_run_id_document_id_index",
+                    "indexdef": "CREATE INDEX scrape_run_items_scrape_run_id_document_id_index ON public.scrape_run_items USING btree (scrape_run_id, document_id)"
+                },
+                {
+                    "indexname": "scrape_run_items_scrape_run_id_source_external_id_unique",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_run_items_scrape_run_id_source_external_id_unique ON public.scrape_run_items USING btree (scrape_run_id, source_external_id)"
+                },
+                {
+                    "indexname": "scrape_run_items_scrape_run_id_status_index",
+                    "indexdef": "CREATE INDEX scrape_run_items_scrape_run_id_status_index ON public.scrape_run_items USING btree (scrape_run_id, status)"
+                }
+            ]
+        },
+        "scrape_runs": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('scrape_runs_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "source_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "mode",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": "'running'::character varying"
+                },
+                {
+                    "column_name": "processed_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "created_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "updated_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "failed_count",
+                    "data_type": "integer",
+                    "udt_name": "int4",
+                    "is_nullable": "NO",
+                    "column_default": "0"
+                },
+                {
+                    "column_name": "checkpoint",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "last_error",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "started_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "finished_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "runs_completion_check",
+                    "definition": "CHECK ((((status)::text <> 'completed'::text) OR ((failed_count = 0) AND ((checkpoint @> '{\"quality_passed\": true, \"jobs_reconciled\": true, \"coverage_verified\": true, \"discovery_finished\": true, \"languages_complete\": true}'::jsonb) IS TRUE))))"
+                },
+                {
+                    "conname": "runs_counts_check",
+                    "definition": "CHECK (((processed_count >= 0) AND (created_count >= 0) AND (updated_count >= 0) AND (failed_count >= 0) AND ((created_count + updated_count) <= processed_count) AND (failed_count <= processed_count)))"
+                },
+                {
+                    "conname": "runs_ledger_completion",
+                    "definition": "TRIGGER DEFERRABLE INITIALLY DEFERRED"
+                },
+                {
+                    "conname": "runs_mode_check",
+                    "definition": "CHECK (((mode)::text = ANY ((ARRAY['full'::character varying, 'daily'::character varying, 'recheck'::character varying])::text[])))"
+                },
+                {
+                    "conname": "runs_status_check",
+                    "definition": "CHECK (((status)::text = ANY ((ARRAY['running'::character varying, 'completed'::character varying, 'completed_with_errors'::character varying, 'failed'::character varying])::text[])))"
+                },
+                {
+                    "conname": "scrape_runs_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "scrape_runs_source_id_foreign",
+                    "definition": "FOREIGN KEY (source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "scrape_runs_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX scrape_runs_pkey ON public.scrape_runs USING btree (id)"
+                },
+                {
+                    "indexname": "scrape_runs_source_id_started_at_index",
+                    "indexdef": "CREATE INDEX scrape_runs_source_id_started_at_index ON public.scrape_runs USING btree (source_id, started_at)"
+                },
+                {
+                    "indexname": "scrape_runs_source_id_status_index",
+                    "indexdef": "CREATE INDEX scrape_runs_source_id_status_index ON public.scrape_runs USING btree (source_id, status)"
+                }
+            ]
+        },
+        "source_archive_blobs": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('source_archive_blobs_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "sha256",
+                    "data_type": "character",
+                    "udt_name": "bpchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "storage_disk",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "storage_path",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "format",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "content_type",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "file_size",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "archived_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "source_archive_blob_shape",
+                    "definition": "CHECK (((sha256 ~ '^[a-f0-9]{64}$'::text) AND ((format)::text = ANY ((ARRAY['html'::character varying, 'pdf'::character varying])::text[])) AND (file_size > 0)))"
+                },
+                {
+                    "conname": "source_archive_blobs_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                },
+                {
+                    "conname": "source_archive_blobs_sha256_unique",
+                    "definition": "UNIQUE (sha256)"
+                },
+                {
+                    "conname": "source_archive_blobs_storage_disk_storage_path_unique",
+                    "definition": "UNIQUE (storage_disk, storage_path)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "source_archive_blobs_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX source_archive_blobs_pkey ON public.source_archive_blobs USING btree (id)"
+                },
+                {
+                    "indexname": "source_archive_blobs_sha256_unique",
+                    "indexdef": "CREATE UNIQUE INDEX source_archive_blobs_sha256_unique ON public.source_archive_blobs USING btree (sha256)"
+                },
+                {
+                    "indexname": "source_archive_blobs_storage_disk_storage_path_unique",
+                    "indexdef": "CREATE UNIQUE INDEX source_archive_blobs_storage_disk_storage_path_unique ON public.source_archive_blobs USING btree (storage_disk, storage_path)"
+                }
+            ]
+        },
+        "source_archive_observations": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": "nextval('source_archive_observations_id_seq'::regclass)"
+                },
+                {
+                    "column_name": "observation_key",
+                    "data_type": "character",
+                    "udt_name": "bpchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "capture_key",
+                    "data_type": "uuid",
+                    "udt_name": "uuid",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "blob_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "document_source_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "document_id",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_external_id",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "language",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "source_url",
+                    "data_type": "text",
+                    "udt_name": "text",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "observed_sha256",
+                    "data_type": "character",
+                    "udt_name": "bpchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "file_size",
+                    "data_type": "bigint",
+                    "udt_name": "int8",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "format",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "content_type",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "archive_status",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "failure_reason",
+                    "data_type": "character varying",
+                    "udt_name": "varchar",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "fetched_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "NO",
+                    "column_default": null
+                },
+                {
+                    "column_name": "context",
+                    "data_type": "jsonb",
+                    "udt_name": "jsonb",
+                    "is_nullable": "NO",
+                    "column_default": "'{}'::jsonb"
+                },
+                {
+                    "column_name": "created_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                },
+                {
+                    "column_name": "updated_at",
+                    "data_type": "timestamp with time zone",
+                    "udt_name": "timestamptz",
+                    "is_nullable": "YES",
+                    "column_default": null
+                }
+            ],
+            "constraints": [
+                {
+                    "conname": "source_archive_observation_shape",
+                    "definition": "CHECK (((observed_sha256 ~ '^[a-f0-9]{64}$'::text) AND ((format)::text = ANY ((ARRAY['html'::character varying, 'pdf'::character varying])::text[])) AND ((archive_status)::text = ANY ((ARRAY['archived'::character varying, 'disabled'::character varying, 'privacy_blocked'::character varying, 'failed'::character varying])::text[])) AND (jsonb_typeof(context) = 'object'::text) AND (((archive_status)::text <> 'archived'::text) OR (blob_id IS NOT NULL))))"
+                },
+                {
+                    "conname": "source_archive_observations_blob_id_foreign",
+                    "definition": "FOREIGN KEY (blob_id) REFERENCES source_archive_blobs(id) ON DELETE RESTRICT"
+                },
+                {
+                    "conname": "source_archive_observations_document_id_foreign",
+                    "definition": "FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE RESTRICT"
+                },
+                {
+                    "conname": "source_archive_observations_document_source_id_foreign",
+                    "definition": "FOREIGN KEY (document_source_id) REFERENCES document_sources(id) ON DELETE RESTRICT"
+                },
+                {
+                    "conname": "source_archive_observations_observation_key_unique",
+                    "definition": "UNIQUE (observation_key)"
+                },
+                {
+                    "conname": "source_archive_observations_pkey",
+                    "definition": "PRIMARY KEY (id)"
+                }
+            ],
+            "indexes": [
+                {
+                    "indexname": "archive_observations_source_document_status",
+                    "indexdef": "CREATE INDEX archive_observations_source_document_status ON public.source_archive_observations USING btree (document_source_id, document_id, archive_status)"
+                },
+                {
+                    "indexname": "source_archive_observations_capture_key_index",
+                    "indexdef": "CREATE INDEX source_archive_observations_capture_key_index ON public.source_archive_observations USING btree (capture_key)"
+                },
+                {
+                    "indexname": "source_archive_observations_observation_key_unique",
+                    "indexdef": "CREATE UNIQUE INDEX source_archive_observations_observation_key_unique ON public.source_archive_observations USING btree (observation_key)"
+                },
+                {
+                    "indexname": "source_archive_observations_pkey",
+                    "indexdef": "CREATE UNIQUE INDEX source_archive_observations_pkey ON public.source_archive_observations USING btree (id)"
+                }
+            ]
+        }
+    },
+    "migrations": [
+        {
+            "id": 1,
+            "migration": "0001_01_01_000001_create_cache_table",
+            "batch": 1
+        },
+        {
+            "id": 2,
+            "migration": "0001_01_01_000002_create_jobs_table",
+            "batch": 1
+        },
+        {
+            "id": 3,
+            "migration": "2026_10_28_000001_create_document_sources_table",
+            "batch": 1
+        },
+        {
+            "id": 4,
+            "migration": "2026_10_28_000002_create_documents_table",
+            "batch": 1
+        },
+        {
+            "id": 5,
+            "migration": "2026_10_28_000003_create_document_identifiers_table",
+            "batch": 1
+        },
+        {
+            "id": 6,
+            "migration": "2026_10_28_000004_create_document_contents_table",
+            "batch": 1
+        },
+        {
+            "id": 7,
+            "migration": "2026_10_28_000005_create_scrape_runs_table",
+            "batch": 1
+        },
+        {
+            "id": 8,
+            "migration": "2026_10_28_000006_create_scrape_run_items_table",
+            "batch": 2
+        },
+        {
+            "id": 9,
+            "migration": "2026_10_28_000007_add_content_quality_tracking",
+            "batch": 3
+        },
+        {
+            "id": 10,
+            "migration": "2026_10_29_000008_create_scrape_campaigns",
+            "batch": 4
+        },
+        {
+            "id": 11,
+            "migration": "2026_10_29_000010_create_source_archives",
+            "batch": 4
+        },
+        {
+            "id": 12,
+            "migration": "2026_10_29_000012_allow_bounded_corpus_collection",
+            "batch": 5
+        }
+    ]
+}

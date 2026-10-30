@@ -6,11 +6,14 @@ use App\Models\Document;
 use App\Models\DocumentSource;
 use App\Models\ScrapeCampaign;
 use App\Models\ScrapeRun;
+use App\Scraping\LexUz\LexUzScraper;
+use App\Services\Scraping\BoundedDiscovery;
 use App\Services\Scraping\DurableCampaign;
 use App\Services\Scraping\PilotStoppedException;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+use Symfony\Component\Process\Process;
 use Tests\TestCase;
 
 class DurableCampaignTest extends TestCase
@@ -34,6 +37,17 @@ class DurableCampaignTest extends TestCase
         return $this->campaign;
     }
 
+    public function test_discovery_budget_counts_unique_opaque_ids_across_map_and_array_checkpoints(): void
+    {
+        $campaign = $this->createCampaign(configuration: ['max_discovered_ids' => 2]);
+        $campaign->saveCheckpoint('first', ['v1'], ['nodes' => ['alpha' => ['rows' => [['id' => '0']]]]]);
+        $campaign->saveCheckpoint('empty', ['v1'], ['nodes' => []]);
+        $campaign->saveCheckpoint('second', ['v1'], ['nodes' => ['beta' => ['rows' => ['x' => ['id' => '-2'], 'y' => ['id' => '0']]]]]);
+        $this->assertSame(2, $campaign->state()['discovered_source_count']);
+        $this->assertSame(2, $campaign->state()['discovery_partition_count']);
+        $this->assertSame('running', $campaign->state()['status']);
+    }
+
     public function test_request_budget_and_contexts_survive_cache_clear_and_controller_restart(): void
     {
         $campaign = $this->createCampaign(2);
@@ -44,7 +58,9 @@ class DurableCampaignTest extends TestCase
         $campaign->claim('p6-test');
         $campaign->reserve('run-1');
         $this->assertSame(2, $campaign->state()['used']);
-        $this->assertSame(['discovery' => 1, 'run-1' => 1], $campaign->state()['contexts']);
+        $contexts = $campaign->state()['contexts'];
+        ksort($contexts);
+        $this->assertSame(['discovery' => 1, 'run-1' => 1], $contexts);
         try {
             $campaign->reserve('pdf');
             $this->fail('A restart cannot replenish the campaign budget.');
@@ -63,6 +79,7 @@ class DurableCampaignTest extends TestCase
         $this->campaign = $campaign = new DurableCampaign;
         $campaign->claim('p6-test');
         $this->assertGreaterThan(0, $campaign->secondsUntilNextRequest());
+        $this->assertGreaterThan(90, $campaign->secondsUntilNextRequest());
         try {
             $campaign->reserve('run-1');
             $this->fail('The per-run cap must survive a restart.');
@@ -188,5 +205,123 @@ class DurableCampaignTest extends TestCase
         $this->assertSame(1, $campaign->newCount());
         $this->assertSame(1000, $campaign->state()['target']);
         $this->assertSame([30, 100, 300, 600, 1000], $campaign->state()['stages']);
+    }
+
+    public function test_killed_controller_recovers_lock_generation_and_reserved_budget(): void
+    {
+        $campaign = $this->createCampaign();
+        $campaign->release();
+        $process = new Process([PHP_BINARY, base_path('tests/Support/campaign_crash.php'), 'p6-test']);
+        $process->start();
+        try {
+            $deadline = microtime(true) + 10;
+            while (! str_contains($process->getOutput(), 'RESERVED')) {
+                if (! $process->isRunning() || microtime(true) > $deadline) {
+                    $this->fail('Crash child did not reserve: '.$process->getErrorOutput());
+                }
+                usleep(10000);
+            }
+            $process->signal(9);
+            $process->wait();
+            Cache::flush();
+            $this->campaign = $recovered = new DurableCampaign;
+            $deadline = microtime(true) + 3;
+            while (true) {
+                try {
+                    $recovered->claim('p6-test');
+                    break;
+                } catch (\RuntimeException $e) {
+                    if (microtime(true) > $deadline) {
+                        throw $e;
+                    } usleep(20000);
+                }
+            }
+            $this->assertSame(1, $recovered->state()['used']);
+            $this->assertSame(1, $recovered->state()['contexts']['crash-before-send']);
+            $this->assertGreaterThanOrEqual(3, $recovered->state()['owner_generation']);
+            $recovered->assertOwner();
+        } finally {
+            if ($process->isRunning()) {
+                $process->stop(0, 9);
+            }
+        }
+    }
+
+    public function test_validation_campaign_cannot_import_new_canonicals_and_can_complete_at_zero(): void
+    {
+        DocumentSource::create(['name' => 'Lex', 'slug' => 'lex', 'type' => 'scraper', 'is_active' => true]);
+        $this->campaign = $campaign = new DurableCampaign;
+        $campaign->create('preflight', 2000, 200, 0, ['campaign_type' => 'validation']);
+        $campaign->auditedStage([]);
+        $campaign->complete();
+        $this->assertSame('completed', $campaign->state()['status']);
+        $this->assertSame(0, $campaign->newCount());
+    }
+
+    public function test_completed_discovery_survives_cache_loss_and_does_not_fetch_again(): void
+    {
+        $campaign = $this->createCampaign();
+        $this->app->instance(DurableCampaign::class, $campaign);
+        $scraper = \Mockery::mock(LexUzScraper::class);
+        $scraper->shouldReceive('discover')->once()->andReturnUsing(function ($query, $callback) {
+            $callback(['page' => 1, 'total' => 1, 'rows' => [['id' => '12345', 'url' => 'https://lex.uz/uz/docs/12345']],
+                'fingerprint' => 'source-proof', 'prefix_fingerprint' => 'prefix-proof']);
+
+            return ['complete' => true, 'total' => 1, 'unique_ids' => 1, 'pages' => 1];
+        });
+        $this->app->instance(LexUzScraper::class, $scraper);
+        $query = ['section' => 'oliy', 'status' => 'Y', 'from' => '01.01.2020', 'to' => '02.01.2020'];
+        $first = app(BoundedDiscovery::class)->collect('complete', $query);
+        $campaign->release();
+        Cache::flush();
+        $this->campaign = $campaign = new DurableCampaign;
+        $this->app->instance(DurableCampaign::class, $campaign);
+        $campaign->claim('p6-test');
+        $this->app->forgetInstance(BoundedDiscovery::class);
+        $second = app(BoundedDiscovery::class)->collect('complete', $query);
+        $this->assertTrue($second['complete']);
+        $this->assertEquals($first['rows'], $second['rows']);
+        $this->assertSame(0, $campaign->state()['used']);
+    }
+
+    public function test_operator_pause_signal_holds_requests_without_terminalizing_or_resetting_budget(): void
+    {
+        $campaign = $this->createCampaign();
+        $campaign->reserve('first');
+        (new DurableCampaign)->requestPause('p6-test');
+        try {
+            $campaign->assertOpen();
+            $this->fail('Pausing must not admit another request.');
+        } catch (PilotStoppedException $e) {
+            $this->assertSame(10, $e->retryAfter);
+        }
+        $campaign->pause();
+        $campaign->release();
+        $this->campaign = $campaign = new DurableCampaign;
+        $campaign->resume('p6-test');
+        $this->assertSame('running', $campaign->state()['status']);
+        $this->assertSame(1, $campaign->state()['used']);
+    }
+
+    public function test_discovery_cannot_exceed_the_declared_campaign_depth(): void
+    {
+        $campaign = $this->createCampaign(configuration: ['max_partition_depth' => 1]);
+        $this->app->instance(DurableCampaign::class, $campaign);
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('fixed campaign page/depth caps');
+        app(BoundedDiscovery::class)->collect('bounded', ['section' => 'oliy', 'from' => '01.01.2020', 'to' => '31.12.2020'], maxDepth: 2);
+    }
+
+    public function test_recovery_waits_for_reserved_receipt_instead_of_polling_it_as_ready(): void
+    {
+        $campaign = $this->createCampaign();
+        $id = DB::table('jobs')->insertGetId(['queue' => 'scraping', 'payload' => '{}', 'attempts' => 1,
+            'reserved_at' => now()->timestamp, 'available_at' => now()->subMinute()->timestamp, 'created_at' => now()->subMinute()->timestamp]);
+        $this->assertGreaterThanOrEqual(config('queue.connections.database.retry_after') - 1, $campaign->queueDelaySeconds());
+        DB::table('jobs')->where('id', $id)->update(['reserved_at' => null, 'available_at' => now()->addSeconds(10)->timestamp]);
+        $this->assertGreaterThanOrEqual(9, $campaign->queueDelaySeconds());
+        DB::table('jobs')->where('id', $id)->update(['available_at' => now()->timestamp]);
+        $this->assertSame(0, $campaign->queueDelaySeconds());
+        $this->assertSame(0, $campaign->state()['used']);
     }
 }

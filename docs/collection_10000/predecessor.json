@@ -1,0 +1,246 @@
+{
+    "observed_at": "2026-10-29T18:27:33+05:00",
+    "campaign_id": "p6-1-completion-150-20261029",
+    "status": "completed",
+    "stop_reason": "approved_target_reached",
+    "prepared": false,
+    "target_new_canonical": 150,
+    "new_canonical": 150,
+    "baseline_canonical": 1079,
+    "current_total_canonical": 1229,
+    "source_selections": 221,
+    "http": {
+        "used": 1122,
+        "maximum": 3500,
+        "remaining": 2378,
+        "status_counts": {
+            "200": 1122
+        },
+        "per_context_maximum": 400
+    },
+    "stage_target": 150,
+    "stages": [
+        15,
+        50,
+        100,
+        150
+    ],
+    "import_outcomes": {
+        "imported": 96,
+        "review": 80,
+        "skipped_alias": 45
+    },
+    "associated_existing_canonical": 0,
+    "new_canonical_content_representations": 341,
+    "cohort_content_quality": {
+        "needs_review": 107,
+        "verified": 234
+    },
+    "cohort_content_languages": {
+        "en": 3,
+        "uz-Cyrl": 149,
+        "uz-Latn": 140,
+        "ru": 49
+    },
+    "cohort_formats": {
+        "html": 334,
+        "ocr": 6,
+        "pdf": 1
+    },
+    "cohort_note": "Current stored representations on canonicals created by this campaign, not a historical content-update event count.",
+    "language_availability": {
+        "available": 341,
+        "not_available": 2,
+        "unknown": 257,
+        "available_but_failed_or_missing": 0,
+        "unassessed_documents": 0,
+        "coverage": {
+            "unknown": 146,
+            "complete": 4
+        }
+    },
+    "technical_failed_items": 0,
+    "associated_failed_jobs": 0,
+    "global_failed_jobs": 24,
+    "no_usable_body_import_outcomes": 0,
+    "guard_review_items": 26,
+    "pending_items": 0,
+    "pending_scraping_jobs_global": 0,
+    "discovery": {
+        "scope": [
+            {
+                "to": "31.03.2020",
+                "from": "01.03.2020",
+                "status": "Y",
+                "section": "nat"
+            },
+            {
+                "to": "31.03.2020",
+                "from": "01.03.2020",
+                "status": "Y",
+                "section": "loc"
+            },
+            {
+                "to": "31.03.2021",
+                "from": "01.01.2021",
+                "status": "Y",
+                "section": "oliy"
+            },
+            {
+                "to": "30.06.2021",
+                "from": "01.04.2021",
+                "status": "Y",
+                "section": "oliy"
+            },
+            {
+                "to": "30.04.2020",
+                "from": "01.04.2020",
+                "status": "Y",
+                "section": "nat"
+            },
+            {
+                "to": "30.04.2020",
+                "from": "01.04.2020",
+                "status": "Y",
+                "section": "loc"
+            }
+        ],
+        "scope_metric_status": "durable_configuration",
+        "partitions": [
+            {
+                "name": "scope-1",
+                "query": {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                "listing_total": 80,
+                "unique_source_ids": 80,
+                "complete": true,
+                "reason": null,
+                "version": 7,
+                "updated_at": "2026-10-29T17:51:14+05:00"
+            },
+            {
+                "name": "scope-2",
+                "query": {
+                    "to": "31.03.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                "listing_total": 445,
+                "unique_source_ids": 445,
+                "complete": true,
+                "reason": null,
+                "version": 48,
+                "updated_at": "2026-10-29T18:00:36+05:00"
+            },
+            {
+                "name": "scope-0",
+                "query": {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                "listing_total": 343,
+                "unique_source_ids": 343,
+                "complete": true,
+                "reason": null,
+                "version": 35,
+                "updated_at": "2026-10-29T17:22:34+05:00"
+            }
+        ],
+        "global_coverage_verified": false
+    },
+    "recovery": {
+        "owner_generation": 490,
+        "owner_registered": false,
+        "owner_session_live": false,
+        "phase": "wait",
+        "checkpoint_count": 9,
+        "terminal_resume_allowed": false
+    },
+    "timing": {
+        "started_at": "2026-10-29T17:21:52+05:00",
+        "elapsed_window_seconds": 2672,
+        "new_per_elapsed_hour": 202.09580838323353,
+        "active_processing_seconds": null,
+        "active_metric_status": "unavailable; elapsed window includes pauses and worker waiting"
+    },
+    "recent_activity": [
+        {
+            "item_id": 2050,
+            "source_id": "5375793",
+            "document_id": 1229,
+            "status": "imported",
+            "at": "2026-10-29T18:06:23+05:00"
+        },
+        {
+            "item_id": 2049,
+            "source_id": "-5356030",
+            "document_id": 1228,
+            "status": "imported",
+            "at": "2026-10-29T18:06:10+05:00"
+        },
+        {
+            "item_id": 2048,
+            "source_id": "-5295901",
+            "document_id": 1227,
+            "status": "imported",
+            "at": "2026-10-29T18:05:58+05:00"
+        },
+        {
+            "item_id": 2047,
+            "source_id": "5341939",
+            "document_id": 1226,
+            "status": "imported",
+            "at": "2026-10-29T18:05:45+05:00"
+        },
+        {
+            "item_id": 2046,
+            "source_id": "-5325741",
+            "document_id": 1225,
+            "status": "imported",
+            "at": "2026-10-29T18:05:32+05:00"
+        },
+        {
+            "item_id": 2045,
+            "source_id": "5280108",
+            "document_id": 1224,
+            "status": "imported",
+            "at": "2026-10-29T18:05:20+05:00"
+        },
+        {
+            "item_id": 2044,
+            "source_id": "5371775",
+            "document_id": 1223,
+            "status": "imported",
+            "at": "2026-10-29T18:05:04+05:00"
+        },
+        {
+            "item_id": 2043,
+            "source_id": "5322345",
+            "document_id": 1222,
+            "status": "review",
+            "at": "2026-10-29T18:04:51+05:00"
+        },
+        {
+            "item_id": 2041,
+            "source_id": "5288600",
+            "document_id": null,
+            "status": "review",
+            "at": "2026-10-29T18:04:39+05:00"
+        },
+        {
+            "item_id": 2042,
+            "source_id": "-5219940",
+            "document_id": 1209,
+            "status": "skipped_alias",
+            "at": "2026-10-29T18:04:39+05:00"
+        }
+    ],
+    "metrics_note": "Source IDs, aliases, language representations and canonicals are distinct. Review is not technical failure. Metadata-only no-body import diagnostics do not imply a confirmed available translation failed."
+}

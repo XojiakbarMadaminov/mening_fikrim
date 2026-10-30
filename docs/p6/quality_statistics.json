@@ -1,0 +1,48 @@
+{
+    "all_contents": {
+        "verified": 2471,
+        "needs_review": 292
+    },
+    "new_content_representations": 2222,
+    "new_contents_quality": {
+        "verified": 2022,
+        "needs_review": 200
+    },
+    "new_contents_languages": {
+        "uz-Latn": 821,
+        "uz-Cyrl": 842,
+        "ru": 557,
+        "en": 2
+    },
+    "new_contents_formats": {
+        "html": 2213,
+        "pdf": 3,
+        "ocr": 6
+    },
+    "protected_candidates": 0,
+    "review_reasons": {
+        "complex_table_semantics_review": 248,
+        "quality_review": 287,
+        "unsupported_superscript": 35,
+        "invalid_text": 45,
+        "unextracted_images": 56,
+        "pdf_image_semantics_unverified": 16,
+        "pdf_language_coverage_unconfirmed": 16,
+        "pdf_reading_order_unverified": 16,
+        "pdf_structure_unverified": 16,
+        "missing_document_heading": 3,
+        "low_ocr_confidence": 6,
+        "ocr_critical_tokens_unverified": 7,
+        "ocr_source_identifier_not_certified": 7,
+        "uncertified_ocr": 7,
+        "image_backed_text_review": 6
+    },
+    "execution_language_outcomes": {
+        "stored": 2716,
+        "candidate": 0,
+        "unchanged": 0,
+        "extraction_failed": 0,
+        "stale_ignored": 0,
+        "not_applicable": 339
+    }
+}

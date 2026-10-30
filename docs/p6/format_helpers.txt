@@ -1,0 +1,1 @@
+{"tool":"pint","result":"fixed","files":[{"path":"docs\/p6\/finalize_report.php","fixers":["single_quote","unary_operator_spaces","not_operator_with_successor_space","blank_line_before_statement"]},{"path":"docs\/p6\/qa_manifest.php","fixers":["array_indentation","unary_operator_spaces","not_operator_with_successor_space"]}]}

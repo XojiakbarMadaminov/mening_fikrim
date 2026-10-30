@@ -1,0 +1,173 @@
+{
+    "partitions": [
+        {
+            "checkpoint": "scope-0",
+            "query": {
+                "to": "31.01.2020",
+                "from": "01.01.2020",
+                "status": "Y",
+                "section": "nat"
+            },
+            "listing_total": 279,
+            "discovered_unique_source_ids": 279,
+            "complete": true,
+            "nodes": 3,
+            "leaf_partitions": 2
+        },
+        {
+            "checkpoint": "scope-1",
+            "query": {
+                "to": "31.01.2020",
+                "from": "01.01.2020",
+                "status": "Y",
+                "section": "loc"
+            },
+            "listing_total": 93,
+            "discovered_unique_source_ids": 93,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-2",
+            "query": {
+                "to": "31.12.2020",
+                "from": "01.01.2020",
+                "status": "Y",
+                "section": "int"
+            },
+            "listing_total": 7,
+            "discovered_unique_source_ids": 7,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-3",
+            "query": {
+                "to": "29.10.2026",
+                "from": "01.01.2026",
+                "status": "Y",
+                "section": "tech"
+            },
+            "listing_total": 105,
+            "discovered_unique_source_ids": 105,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-4",
+            "query": {
+                "to": "31.12.2020",
+                "from": "01.01.2020",
+                "status": "Y",
+                "section": "court"
+            },
+            "listing_total": 11,
+            "discovered_unique_source_ids": 11,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-11",
+            "query": {
+                "to": "31.12.2010",
+                "from": "01.01.2010",
+                "status": "Y",
+                "section": "oliy"
+            },
+            "listing_total": 351,
+            "discovered_unique_source_ids": 351,
+            "complete": true,
+            "nodes": 5,
+            "leaf_partitions": 3
+        },
+        {
+            "checkpoint": "scope-10",
+            "query": {
+                "to": "31.12.2010",
+                "from": "01.01.2010",
+                "status": "Y",
+                "section": "court"
+            },
+            "listing_total": 252,
+            "discovered_unique_source_ids": 252,
+            "complete": true,
+            "nodes": 3,
+            "leaf_partitions": 2
+        },
+        {
+            "checkpoint": "scope-7",
+            "query": {
+                "to": "29.02.2020",
+                "from": "01.02.2020",
+                "status": "Y",
+                "section": "loc"
+            },
+            "listing_total": 139,
+            "discovered_unique_source_ids": 139,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-8",
+            "query": {
+                "to": "31.12.2010",
+                "from": "01.01.2010",
+                "status": "Y",
+                "section": "int"
+            },
+            "listing_total": 93,
+            "discovered_unique_source_ids": 93,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-9",
+            "query": {
+                "to": "31.12.2020",
+                "from": "01.01.2020",
+                "status": "Y",
+                "section": "tech"
+            },
+            "listing_total": 32,
+            "discovered_unique_source_ids": 32,
+            "complete": true,
+            "nodes": 1,
+            "leaf_partitions": 1
+        },
+        {
+            "checkpoint": "scope-6",
+            "query": {
+                "to": "29.02.2020",
+                "from": "01.02.2020",
+                "status": "Y",
+                "section": "nat"
+            },
+            "listing_total": 258,
+            "discovered_unique_source_ids": 258,
+            "complete": true,
+            "nodes": 3,
+            "leaf_partitions": 2
+        },
+        {
+            "checkpoint": "scope-5",
+            "query": {
+                "to": "31.12.2020",
+                "from": "01.01.2020",
+                "status": "Y",
+                "section": "oliy"
+            },
+            "listing_total": 1429,
+            "discovered_unique_source_ids": 1429,
+            "complete": true,
+            "nodes": 29,
+            "leaf_partitions": 15
+        }
+    ],
+    "global_coverage_confirmed": false
+}

@@ -1,0 +1,330 @@
+{
+    "run": {
+        "id": 77,
+        "source_id": 1,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "processed_count": 2,
+        "created_count": 1,
+        "updated_count": 0,
+        "failed_count": 0,
+        "checkpoint": {
+            "limit": 2,
+            "scope": "bounded_sample",
+            "version": 3,
+            "segments": [
+                {
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "status": "Y",
+                    "section": "int"
+                },
+                {
+                    "status": "Y",
+                    "section": "tech"
+                },
+                {
+                    "status": "Y",
+                    "section": "court"
+                },
+                {
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "selection": "explicit_sample",
+            "pilot_kind": "new_collection",
+            "sample_ids": [
+                "5102600",
+                "4854359"
+            ],
+            "campaign_id": "p6-corpus-1000-20261029",
+            "segment_index": 0,
+            "quality_passed": false,
+            "jobs_reconciled": true,
+            "segment_results": [
+                {
+                    "total": 2,
+                    "last_page": true,
+                    "committed_page": 1,
+                    "page_fingerprint": "be67bbe8bbbece9f62da4471d59bc76053adb126b74ca112df1c1dec66dc71e5"
+                }
+            ],
+            "collection_policy": "collect_once",
+            "coverage_verified": false,
+            "partition_parents": [],
+            "discovery_finished": true,
+            "languages_complete": false,
+            "segments_completed": 0,
+            "sample_listing_statuses": {
+                "4854359": "Y",
+                "5102600": "Y"
+            }
+        },
+        "last_error": "Bounded\/partial coverage; inspect the durable item ledger.",
+        "started_at": "2026-10-29T08:27:13.000000Z",
+        "finished_at": "2026-10-29T08:27:27.000000Z"
+    },
+    "summary": {
+        "run_id": 77,
+        "mode": "full",
+        "status": "completed_with_errors",
+        "scope": "bounded_sample",
+        "discovered": 2,
+        "canonical_document_groups": 1,
+        "canonical_documents_stored": 1,
+        "processed": 2,
+        "created": 1,
+        "updated": 0,
+        "imported": 1,
+        "unchanged": 0,
+        "skipped_alias": 0,
+        "queued": 0,
+        "processing": 0,
+        "pending_retry": 0,
+        "failed": 0,
+        "technical_failed": 0,
+        "review_required": 1,
+        "active": 1,
+        "pending": 0,
+        "inactive": 0,
+        "stored_content_count": 2,
+        "valid_content_count": 2,
+        "persisted_imported": 1,
+        "persisted_unchanged": 0,
+        "imported_with_needs_review": 0,
+        "verified": 1,
+        "extraction_failed": 0,
+        "failed_content_representations": 0,
+        "stored_needs_review_content_count": 0,
+        "duration_seconds": 14,
+        "coverage_verified": false,
+        "gates": {
+            "quality_passed": false,
+            "jobs_reconciled": true,
+            "coverage_verified": false,
+            "discovery_finished": true,
+            "languages_complete": false
+        },
+        "open_items": 0,
+        "html": 1,
+        "pdf": 0,
+        "ocr": 0,
+        "languages": {
+            "uz-Cyrl": 1,
+            "uz-Latn": 1
+        },
+        "required_language_failures": 0,
+        "source_status_counts": {
+            "active": 1,
+            "pending": 0,
+            "inactive": 0
+        },
+        "discovery_failed": false,
+        "discovery_error": null,
+        "pending_framework_jobs": 0
+    },
+    "items": [
+        {
+            "id": 1439,
+            "scrape_run_id": 77,
+            "source_external_id": "5102600",
+            "document_id": 828,
+            "status": "imported",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "created",
+            "review_reasons": null,
+            "language_results": {
+                "uz-Cyrl": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "8168534695cb1b6ed22111e789c02bce45cb3327289319b0d1576b3f9e2c8a59",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "extraction_outcome": "succeeded",
+                    "availability_status": "available",
+                    "stored_quality_status": "verified"
+                },
+                "uz-Latn": {
+                    "state": "valid",
+                    "errors": [],
+                    "persistence": "stored",
+                    "extracted_hash": "cd16ef174559e270007902f6fb58965a1b83a4064b7083168cd82c2b5f87a8fe",
+                    "quality_issues": [],
+                    "quality_status": "verified",
+                    "extraction_outcome": "succeeded",
+                    "availability_status": "available",
+                    "stored_quality_status": "verified"
+                }
+            },
+            "outcome": {
+                "error": null,
+                "state": "valid",
+                "action": "created",
+                "format": "html",
+                "archive": {
+                    "bytes": 0,
+                    "errors": [],
+                    "failed": 0,
+                    "archived": 0,
+                    "disabled": 2,
+                    "stop_reason": null,
+                    "observation_ids": [
+                        2147,
+                        2148
+                    ],
+                    "privacy_blocked": 0,
+                    "duration_seconds": 0.004718096
+                },
+                "metrics": {
+                    "http": {
+                        "requests": 4,
+                        "cache_hits": 0,
+                        "cache_bytes": 0
+                    },
+                    "queue_wait_seconds": 0.482363,
+                    "fetch_parse_seconds": 6.296151,
+                    "fetch_parse_import_seconds": 6.307571
+                },
+                "quality": {
+                    "uz-Cyrl": {
+                        "chars": 249,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.00397
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    },
+                    "uz-Latn": {
+                        "chars": 261,
+                        "format": "html",
+                        "images": [],
+                        "issues": [],
+                        "tables": [],
+                        "timings": {
+                            "html_parse_seconds": 0.003988
+                        },
+                        "headings": {
+                            "h1": 1,
+                            "h2": 0,
+                            "h3": 0
+                        },
+                        "token_fidelity": true
+                    }
+                },
+                "complete": true,
+                "warnings": [],
+                "languages": {
+                    "uz-Cyrl": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "8168534695cb1b6ed22111e789c02bce45cb3327289319b0d1576b3f9e2c8a59",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "extraction_outcome": "succeeded",
+                        "availability_status": "available",
+                        "stored_quality_status": "verified"
+                    },
+                    "uz-Latn": {
+                        "state": "valid",
+                        "errors": [],
+                        "persistence": "stored",
+                        "extracted_hash": "cd16ef174559e270007902f6fb58965a1b83a4064b7083168cd82c2b5f87a8fe",
+                        "quality_issues": [],
+                        "quality_status": "verified",
+                        "extraction_outcome": "succeeded",
+                        "availability_status": "available",
+                        "stored_quality_status": "verified"
+                    }
+                },
+                "document_id": 828,
+                "identity_key": "9f91a9909f9d36589c086707467e6842049d088dc2ffd484e476ac156aebbed0",
+                "source_status": "active",
+                "import_outcome": "imported",
+                "quality_status": "verified",
+                "identity_verified": true,
+                "persistence_complete": true,
+                "persisted_content_count": 2
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 1523,
+            "dispatch_token": "0ec423d7-42c7-4659-b38b-8f6248651803",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": null,
+            "started_at": "2026-10-29T08:27:13.000000Z",
+            "finished_at": "2026-10-29T08:27:19.000000Z",
+            "created_at": "2026-10-29T08:27:13.000000Z",
+            "updated_at": "2026-10-29T08:27:19.000000Z"
+        },
+        {
+            "id": 1440,
+            "scrape_run_id": 77,
+            "source_external_id": "4854359",
+            "document_id": null,
+            "status": "review",
+            "attempts": 1,
+            "listing_status": "Y",
+            "action": "rejected",
+            "review_reasons": {
+                "quality": [],
+                "languages": [],
+                "validation": "Unknown source document language: Ўзбекча (Л)"
+            },
+            "language_results": [],
+            "outcome": {
+                "error": "Unknown source document language: Ўзбекча (Л)",
+                "state": "review",
+                "action": "rejected",
+                "archive": {
+                    "bytes": 0,
+                    "errors": [],
+                    "failed": 0,
+                    "archived": 0,
+                    "disabled": 2,
+                    "stop_reason": null,
+                    "observation_ids": [
+                        2149,
+                        2150
+                    ],
+                    "privacy_blocked": 0,
+                    "duration_seconds": 0.004176449
+                },
+                "complete": false,
+                "languages": [],
+                "document_id": null
+            },
+            "discovery_signatures": [
+                "88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"
+            ],
+            "queue_job_id": 1524,
+            "dispatch_token": "ff007411-38fc-4f3e-83e5-e2a825370680",
+            "available_at": null,
+            "lease_expires_at": null,
+            "last_error": "Unknown source document language: Ўзбекча (Л)",
+            "started_at": "2026-10-29T08:27:19.000000Z",
+            "finished_at": "2026-10-29T08:27:27.000000Z",
+            "created_at": "2026-10-29T08:27:13.000000Z",
+            "updated_at": "2026-10-29T08:27:27.000000Z"
+        }
+    ]
+}

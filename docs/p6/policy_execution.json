@@ -1,0 +1,65 @@
+{
+    "at": "2026-10-29T10:29:16+05:00",
+    "action": "policy",
+    "controller_wall_seconds": 6.249663736,
+    "campaign": {
+        "stages": [
+            0
+        ],
+        "contexts": {
+            "p6-policy": 4
+        },
+        "audit_count": null,
+        "selected_ids": [],
+        "last_reservation": {
+            "method": "GET",
+            "context": "p6-policy",
+            "source_path": "\/Pages\/404.aspx"
+        },
+        "last_response_at": "2026-10-29 10:29:16.647583+05",
+        "consecutive_errors": 0,
+        "http_status_counts": {
+            "200": 2,
+            "302": 1,
+            "404": 1
+        },
+        "legacy_predecessor_id": "p5-1-20261029",
+        "discovered_source_count": 0,
+        "discovery_partition_count": 0,
+        "legacy_predecessor_sha256": "c2db5bddaebb2afd7aa7492bedbbf20af6b2c776d7c4cd30cf9ff0b2b6e54af2",
+        "id": "p6-validation-20261029",
+        "durable": true,
+        "status": "running",
+        "request_limit": 2000,
+        "used": 4,
+        "target": 0,
+        "stage": 0,
+        "source_limit": 200,
+        "selected_source_count": 0,
+        "baseline_max_id": 229,
+        "baseline_count": 229,
+        "new_canonical_documents": 0,
+        "persisted_new_canonical_count": 0,
+        "started_at": "2026-10-29T10:29:10+05:00",
+        "paused_at": null,
+        "completed_at": null,
+        "last_request_started_at": "2026-10-29T10:29:16.584342+05:00",
+        "stopped": null,
+        "configuration_snapshot": {
+            "workers": 1,
+            "page_cap": 8,
+            "campaign_type": "validation",
+            "max_partitions": 31,
+            "pdf_sample_cap": 30,
+            "max_discovered_ids": 3000,
+            "archive_quota_bytes": 2147483648,
+            "max_partition_depth": 10,
+            "request_interval_ms": 2000,
+            "max_campaign_seconds": 43200,
+            "per_context_request_limit": 400
+        },
+        "owner_generation": 1,
+        "owner_backend_pid": 1779368,
+        "owned_by_this_process": true
+    }
+}

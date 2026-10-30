@@ -1,0 +1,21 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...............................................................  63 / 225 ( 28%)
+............................................................... 126 / 225 ( 56%)
+..............................[41;37mF[0m................................ 189 / 225 ( 84%)
+....................................                            225 / 225 (100%)
+
+Time: 01:29.667, Memory: 111.00 MB
+
+There was 1 failure:
+
+1) Tests\Feature\FoundationDatabaseTest::test_migrations_roll_back_and_reapply_on_postgresql
+Failed asserting that true is false.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/FoundationDatabaseTest.php:67
+
+[37;41mFAILURES![0m
+[37;41mTests: 225[0m[37;41m, Assertions: 1049[0m[37;41m, Failures: 1[0m[37;41m.[0m

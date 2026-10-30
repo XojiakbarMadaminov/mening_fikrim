@@ -1,0 +1,15 @@
+
+  Migration name .............................................. Batch / Status  
+  0001_01_01_000001_create_cache_table ............................... [1] Ran  
+  0001_01_01_000002_create_jobs_table ................................ [1] Ran  
+  2026_10_28_000001_create_document_sources_table .................... [1] Ran  
+  2026_10_28_000002_create_documents_table ........................... [1] Ran  
+  2026_10_28_000003_create_document_identifiers_table ................ [1] Ran  
+  2026_10_28_000004_create_document_contents_table ................... [1] Ran  
+  2026_10_28_000005_create_scrape_runs_table ......................... [1] Ran  
+  2026_10_28_000006_create_scrape_run_items_table .................... [2] Ran  
+  2026_10_28_000007_add_content_quality_tracking ..................... [3] Ran  
+  2026_10_29_000008_create_scrape_campaigns .......................... [4] Ran  
+  2026_10_29_000010_create_source_archives ........................... [4] Ran  
+  2026_10_29_000012_allow_bounded_corpus_collection .................. Pending  
+

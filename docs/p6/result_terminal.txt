@@ -1,0 +1,31 @@
+P6 RESULT
+P6 NEW canonical documents: 850 / 1000
+Starting documents / contents: 229 / 541
+Total documents / identifiers / contents: 1079 / 3104 / 2763
+Verified / needs_review contents: 2471 / 292
+New content representations: 2222
+All P6 HTTP attempts / reserved tokens: 6196 / 6196
+Validation / main HTTP attempts: 193 / 6003
+Main selected source IDs / maximum: 1183 / 3300
+Minimum actual request-start interval: 2.019004 seconds
+Inline HTTP retries / new failed queue jobs: 0 / 0
+HTTP non-2xx status observations: {"302":1,"404":1}
+Technical failed import items: 0
+No-usable-body import outcomes / retained guard review items: 2 / 144
+Main active controller duration: 3h 30m 13s
+Main end-to-end wall / operator or noncontroller gap: 3h 35m 49s / 0h 05m 36s
+Validation active duration (including policy): 0h 18m 44s
+Available language observations: 2340
+Confirmed unavailable / unknown language observations: 46 / 1202
+Available but failed/missing / legacy unassessed documents: 0 / 182
+Complete / incomplete discovery leaves: 31 / 0
+Discovered unique source IDs: 3007
+Distinct text PDF / OCR PDF samples: 11 / 10
+Archived blobs / bytes: 0 / 0
+Database physical growth / bytes per NEW canonical: 51625984 / 60,736.45
+Historical failed jobs retained: 24
+Integrity / budget / pacing gates: PASS / PASS / PASS
+Tests / assertions / failures or errors / Pint: 201 / 860 / 0 / passed
+Human QA preparation: 30 distinct documents; review pending
+Campaign status / reason: stopped / bounded_discovery_scope_exhausted
+Recommendation: NO-GO

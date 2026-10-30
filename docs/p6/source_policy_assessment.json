@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-29T05:29:58.216281+00:00",
+  "source_urls": [
+    "https://lex.uz/uz/axborot",
+    "https://lex.uz/agreement",
+    "https://lex.uz/robots.txt"
+  ],
+  "bounded_collection_allowed": true,
+  "assessment_scope": "Operational gate for explicitly authorized private bounded technical validation only; not a legal license or authorization for commercial redistribution or production. No explicit automated access denial observed. Terms unchanged SHA from P0; robots404 is not permission. Preserve one worker and finite budgets; stop on access signals.",
+  "raw_retention_permission": "unclear",
+  "raw_retention_enabled": false,
+  "restrictions": "Source limits reuse to personal purposes and requires written consent for revenue-oriented copying/distribution; normative legal documents are mentioned as an exception to the linking clause. That exception is not treated as unrestricted bulk/retention permission. Future product/commercial use requires a separately resolved access/license question.",
+  "evidence": "docs/p6/source_policy.json, requests.jsonl;4actualHTTP includingrobots redirect"
+}

@@ -2,6 +2,8 @@
 
 namespace App\Scraping\LexUz;
 
+use App\Services\Scraping\ArchiveCapture;
+use App\Services\Scraping\DurableCampaign;
 use App\Services\Scraping\PilotCampaign;
 use GuzzleHttp\Cookie\CookieJar;
 use Illuminate\Http\Client\ConnectionException;
@@ -16,6 +18,14 @@ class LexHttpClient
 
     private string $context = 'manual';
 
+    private ?string $entryId = null;
+
+    private array $memo = [];
+
+    private int $memoBytes = 0;
+
+    private array $flowStats = ['requests' => 0, 'cache_hits' => 0, 'cache_bytes' => 0];
+
     public function __construct()
     {
         $this->cookies = new CookieJar;
@@ -23,17 +33,54 @@ class LexHttpClient
 
     public function context(string $context): void
     {
+        $this->endFlow();
         $this->context = $context;
     }
 
     public function resetSession(): void
     {
+        $this->endFlow();
         $this->cookies = new CookieJar;
+    }
+
+    public function beginFlow(string $entryId): void
+    {
+        $this->endFlow();
+        $this->entryId = $entryId;
+        $this->flowStats = ['requests' => 0, 'cache_hits' => 0, 'cache_bytes' => 0];
+    }
+
+    public function endFlow(): void
+    {
+        $this->entryId = null;
+        $this->memo = [];
+        $this->memoBytes = 0;
+    }
+
+    public function flowStatistics(): array
+    {
+        return $this->flowStats;
     }
 
     public function get(string $url, bool $pdf = false): Response
     {
-        return $this->request('GET', $url, [], $pdf);
+        $url = $this->absolute($url);
+        $key = ($pdf ? 'pdf:' : 'html:').$url;
+        if ($this->entryId !== null && config('scraping.flow_response_cache', true) && isset($this->memo[$key])) {
+            app(PilotCampaign::class)->assertOpen();
+            $this->flowStats['cache_hits']++;
+            $this->flowStats['cache_bytes'] += strlen($this->memo[$key]->body());
+            Log::channel('scraping')->info('lex.cache_hit', ['context' => $this->context, 'url' => $this->safeUrl($url), 'scope' => 'single_fetch_only']);
+
+            return $this->memo[$key];
+        }
+        $response = $this->request('GET', $url, [], $pdf);
+        if ($this->entryId !== null && config('scraping.flow_response_cache', true) && count($this->memo) < 24 && $this->memoBytes + strlen($response->body()) <= 64 * 1024 * 1024) {
+            $this->memo[$key] = $response;
+            $this->memoBytes += strlen($response->body());
+        }
+
+        return $response;
     }
 
     public function post(string $url, array $form): Response
@@ -62,7 +109,7 @@ class LexHttpClient
         $timeout = (int) config($pdf ? 'scraping.pdf_timeout' : 'scraping.http_timeout');
         $attempts = max(1, (int) config('scraping.max_retries'));
         for ($attempt = 1; $attempt <= $attempts; $attempt++) {
-            $response = Cache::lock('lex:http:single-request', $timeout + 30)->block($timeout + 35, function () use ($method, $url, $form, $timeout, $attempt) {
+            $response = Cache::lock('lex:http:single-request', $timeout + 30)->block($timeout + 35, function () use ($method, $url, $form, $timeout, $attempt, $pdf) {
                 app(PilotCampaign::class)->assertOpen();
                 $cooldown = Cache::get('lex:http:cooldown');
                 if ($cooldown && $cooldown['until'] > $this->wallTime()) {
@@ -83,11 +130,20 @@ class LexHttpClient
                 if ($elapsed < $interval) {
                     $this->pause($elapsed < 0 ? $interval : $interval - $elapsed);
                 }
+                $durable = app(DurableCampaign::class);
+                if ($durable->exists() && ($wait = $durable->secondsUntilNextRequest($last === null)) > 0) {
+                    $this->pause($wait);
+                }
+                $campaign = app(PilotCampaign::class)->reserve($this->context, $method, $this->safeUrl($url));
+                if ($durable->exists()) {
+                    $durable->assertOwner();
+                }
                 $start = $this->monotonic();
-                $campaign = app(PilotCampaign::class)->reserve();
                 Cache::put('lex:http:last-start', $start, 86400);
                 Cache::put($budgetKey, $used + 1, 86400);
-                $record = ['context' => $this->context, 'method' => $method, 'url' => $this->safeUrl($url), 'attempt' => $attempt, 'start_monotonic' => $start];
+                $this->flowStats['requests']++;
+                $record = ['context' => $this->context, 'method' => $method, 'url' => $this->safeUrl($url), 'attempt' => $attempt, 'start_monotonic' => $start,
+                    'purpose' => $this->purpose($url, $method, $pdf), 'entry_id' => $this->entryId];
                 if ($campaign !== null) {
                     $record['campaign_id'] = $campaign;
                 }
@@ -98,6 +154,9 @@ class LexHttpClient
                     }
                     $record += ['status' => $response->status(), 'bytes' => strlen($response->body()), 'sha256' => hash('sha256', $response->body()), 'content_type' => $response->header('Content-Type')];
                     app(PilotCampaign::class)->observe($response->status());
+                    if ($response->successful()) {
+                        app(ArchiveCapture::class)->capture($url, $response, $pdf);
+                    }
                     if (in_array($response->status(), [403, 429], true)) {
                         $delay = $response->status() === 403 ? 3600 : max(2, $this->retryAfter($response->header('Retry-After')) ?? 2);
                         Cache::put('lex:http:cooldown', ['status' => $response->status(), 'until' => $this->wallTime() + $delay], $delay + 1);
@@ -156,6 +215,18 @@ class LexHttpClient
         $query = array_intersect_key($query, array_flip(['status', 'from', 'to', 'from_eff', 'to_eff', 'court_form', 'pub_date', 'actnum', 'regnummj']));
 
         return 'https://lex.uz'.($parts['path'] ?? '/').($query === [] ? '' : '?'.http_build_query($query));
+    }
+
+    private function purpose(string $url, string $method, bool $pdf): string
+    {
+        $path = parse_url($url, PHP_URL_PATH) ?? '';
+
+        return match (true) {
+            $pdf => 'pdf_download', str_contains($path, '/search/') => $method === 'POST' ? 'pagination' : 'discovery',
+            str_contains($path, '/actinfo/') => 'canonical_identity_metadata', str_contains($path, '/pdfs/') => 'pdf_viewer',
+            str_contains($path, '/docs/') => basename($path) === $this->entryId ? 'entry_document' : 'language_variant',
+            default => 'source_policy',
+        };
     }
 
     protected function monotonic(): float

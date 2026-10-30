@@ -1,0 +1,190 @@
+{
+    "root": {
+        "query": {
+            "section": "int",
+            "status": "Y",
+            "from": "01.01.2020",
+            "to": "31.12.2020"
+        },
+        "depth": 0,
+        "pages": {
+            "1": {
+                "total": 7,
+                "prefix": "162cc973fa93c7f2319c89cf436781efe95443440a2cd4e62586dd9fa8d52b9f",
+                "fingerprint": "f21223b2eb786940730c54e2dbf6852acd6d0380c8eb9eef52268b81052cc024"
+            }
+        },
+        "rows": {
+            "5440990": {
+                "id": "5440990",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5440990",
+                "title": "Об информационном взаимодействии государств-участников СНГ в области цифрового развития общества",
+                "listing_status": "Y"
+            },
+            "5440987": {
+                "id": "5440987",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5440987",
+                "title": "МДҲ иштирокчи-давлатларининг жамиятни рақамли ривожлантириш соҳасида ахборот ҳамкорлиги тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5440987": {
+                "id": "-5440987",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5440987",
+                "title": "MDH ishtirokchi-davlatlarining jamiyatni raqamli rivojlantirish sohasida axborot hamkorligi toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5138998": {
+                "id": "5138998",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5138998",
+                "title": "Соглашения о сотрудничестве между Правительством Республики Узбекистан и Международной организацией по миграции",
+                "listing_status": "Y"
+            },
+            "5137552": {
+                "id": "5137552",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5137552",
+                "title": "Cooperation Agreement between the Government of the Republic of Uzbekistan and the International Organization for Migration",
+                "listing_status": "Y"
+            },
+            "5137320": {
+                "id": "5137320",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5137320",
+                "title": "Ўзбекистон Республикаси Ҳукумати билан Халқаро миграция ташкилоти ўртасида Ҳамкорлик битими",
+                "listing_status": "Y"
+            },
+            "-5137320": {
+                "id": "-5137320",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5137320",
+                "title": "Oʻzbekiston Respublikasi Hukumati bilan Xalqaro migratsiya tashkiloti oʻrtasida Hamkorlik bitimi",
+                "listing_status": "Y"
+            }
+        },
+        "done": true,
+        "enumeration": {
+            "complete": true,
+            "total": 7,
+            "unique_ids": 7,
+            "pages": 1,
+            "restarts": 0
+        },
+        "total": 7,
+        "complete": true
+    },
+    "nodes": {
+        "4f7358a2aee40756694c3d9e14a8b4b85fbed2b288451ac4b29ff42091197af3": {
+            "query": {
+                "section": "int",
+                "status": "Y",
+                "from": "01.01.2020",
+                "to": "31.12.2020"
+            },
+            "depth": 0,
+            "pages": {
+                "1": {
+                    "total": 7,
+                    "prefix": "162cc973fa93c7f2319c89cf436781efe95443440a2cd4e62586dd9fa8d52b9f",
+                    "fingerprint": "f21223b2eb786940730c54e2dbf6852acd6d0380c8eb9eef52268b81052cc024"
+                }
+            },
+            "rows": {
+                "5440990": {
+                    "id": "5440990",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5440990",
+                    "title": "Об информационном взаимодействии государств-участников СНГ в области цифрового развития общества",
+                    "listing_status": "Y"
+                },
+                "5440987": {
+                    "id": "5440987",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5440987",
+                    "title": "МДҲ иштирокчи-давлатларининг жамиятни рақамли ривожлантириш соҳасида ахборот ҳамкорлиги тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5440987": {
+                    "id": "-5440987",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5440987",
+                    "title": "MDH ishtirokchi-davlatlarining jamiyatni raqamli rivojlantirish sohasida axborot hamkorligi toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5138998": {
+                    "id": "5138998",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5138998",
+                    "title": "Соглашения о сотрудничестве между Правительством Республики Узбекистан и Международной организацией по миграции",
+                    "listing_status": "Y"
+                },
+                "5137552": {
+                    "id": "5137552",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5137552",
+                    "title": "Cooperation Agreement between the Government of the Republic of Uzbekistan and the International Organization for Migration",
+                    "listing_status": "Y"
+                },
+                "5137320": {
+                    "id": "5137320",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5137320",
+                    "title": "Ўзбекистон Республикаси Ҳукумати билан Халқаро миграция ташкилоти ўртасида Ҳамкорлик битими",
+                    "listing_status": "Y"
+                },
+                "-5137320": {
+                    "id": "-5137320",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5137320",
+                    "title": "Oʻzbekiston Respublikasi Hukumati bilan Xalqaro migratsiya tashkiloti oʻrtasida Hamkorlik bitimi",
+                    "listing_status": "Y"
+                }
+            },
+            "done": true,
+            "enumeration": {
+                "complete": true,
+                "total": 7,
+                "unique_ids": 7,
+                "pages": 1,
+                "restarts": 0
+            },
+            "total": 7,
+            "complete": true
+        }
+    },
+    "complete": true,
+    "rows": [
+        {
+            "id": "5440990",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5440990",
+            "title": "Об информационном взаимодействии государств-участников СНГ в области цифрового развития общества",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5440987",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5440987",
+            "title": "МДҲ иштирокчи-давлатларининг жамиятни рақамли ривожлантириш соҳасида ахборот ҳамкорлиги тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5440987",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5440987",
+            "title": "MDH ishtirokchi-davlatlarining jamiyatni raqamli rivojlantirish sohasida axborot hamkorligi toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5138998",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5138998",
+            "title": "Соглашения о сотрудничестве между Правительством Республики Узбекистан и Международной организацией по миграции",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5137552",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5137552",
+            "title": "Cooperation Agreement between the Government of the Republic of Uzbekistan and the International Organization for Migration",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5137320",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5137320",
+            "title": "Ўзбекистон Республикаси Ҳукумати билан Халқаро миграция ташкилоти ўртасида Ҳамкорлик битими",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5137320",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5137320",
+            "title": "Oʻzbekiston Respublikasi Hukumati bilan Xalqaro migratsiya tashkiloti oʻrtasida Hamkorlik bitimi",
+            "listing_status": "Y"
+        }
+    ],
+    "cache_key": "lex:discovery:p6-corpus-1000-20261029:scope-2"
+}

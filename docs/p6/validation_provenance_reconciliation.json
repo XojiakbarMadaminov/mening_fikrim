@@ -1,0 +1,22 @@
+{
+    "at": "2026-10-29T10:38:27+05:00",
+    "executed_parser_sha256": "1cf4dcd59584797d615996b8b970f3685b6230bbbfcd135f271f61b98294595d",
+    "changed_observation_ids": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+    ],
+    "canonical_or_content_changes": 0,
+    "reason": "Correct runtime version attribution after controlled worker restart; original source hashes, fetch times and diagnostics unchanged."
+}

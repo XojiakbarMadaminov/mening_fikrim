@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-29T18:34:31+05:00",
+  "campaign_id": "corpus-10000-20261029",
+  "status": "running",
+  "new_canonical": 5,
+  "target_new_canonical": 10000,
+  "current_total_canonical": 1234,
+  "new_canonical_content_representations": 11,
+  "cohort_content_quality": {
+    "needs_review": 7,
+    "verified": 4
+  },
+  "http": {
+    "used": 50,
+    "maximum": 120000,
+    "remaining": 119950,
+    "status_counts": {
+      "200": 50
+    },
+    "per_context_maximum": 400
+  },
+  "technical_failed_items": 0,
+  "integrity_errors": [],
+  "tests": 231,
+  "assertions": 1077,
+  "pint": "PASS",
+  "completion_claimed": false
+}

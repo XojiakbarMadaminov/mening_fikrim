@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-30T10:03:59.968512+05:00",
+  "campaign": "corpus-30000-20261030",
+  "worker": {
+    "pid": 2961657,
+    "command": "php artisan documents:campaign worker --id=corpus-30000-20261030"
+  },
+  "controller": {
+    "pid": 2961658,
+    "command": "php artisan documents:campaign run --id=corpus-30000-20261030"
+  }
+}

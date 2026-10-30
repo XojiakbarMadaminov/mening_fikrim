@@ -1,0 +1,124 @@
+{
+    "observed_at": "2026-10-30T10:05:30+05:00",
+    "campaign_id": "corpus-30000-20261030",
+    "query": {
+        "to": "30.12.2021",
+        "from": "30.12.2021",
+        "status": "Y",
+        "section": "loc"
+    },
+    "source_url": "https:\/\/lex.uz\/uz\/search\/loc?to=30.12.2021&from=30.12.2021&status=Y",
+    "listing_total": 397,
+    "unique_ids": 397,
+    "complete": true,
+    "enumeration": {
+        "pages": 20,
+        "total": 397,
+        "complete": true,
+        "restarts": 0,
+        "unique_ids": 397
+    },
+    "page_evidence": {
+        "1": {
+            "total": 397,
+            "prefix": "11bf5018f58ec2b3a0aad4c1f64d544b4b5909811bc9135af1cc402f4d12904a",
+            "fingerprint": "5c071ac761e420f012bedec7055435f68eae6413a5803a3f124d6f7e5653d1cc"
+        },
+        "2": {
+            "total": 397,
+            "prefix": "0742a77b30311229e1bb67f46bd0687a65a4c5c424e4c3d28c369784f90d2e7a",
+            "fingerprint": "a069f98f8e356ae355a0bd1585a33e951b809fd42b2d7bfe0b4301ea2d90d756"
+        },
+        "3": {
+            "total": 397,
+            "prefix": "1e00988450a3c00e15c96f51787d35c41e4736eab210ea1690b810b32bee151a",
+            "fingerprint": "d3b88da86e5cca9033f4e0b66b57948a51daea44c2be3071cb307ad025bb3d65"
+        },
+        "4": {
+            "total": 397,
+            "prefix": "07061d8b478ef8490e278513cdad5317290ce49351e53628762c2a2370e338e5",
+            "fingerprint": "25b73b120318ad321f6b988f8762c3bbd654e004898c628647d72ed313341bd0"
+        },
+        "5": {
+            "total": 397,
+            "prefix": "1a29c47f0356a5d3a53a4ea08c2faaf10637a7184be1cb2dbc7a004e7ced68f5",
+            "fingerprint": "1cf99fb5be0b8c98afce04fa644885f85768646d14e445e50aa00dd6e2e5a945"
+        },
+        "6": {
+            "total": 397,
+            "prefix": "4d9be739621d75d19b3fba2bd0b23c9a4f56e43bb679068c799a487e604c236d",
+            "fingerprint": "1e59567b38c826ffa12c89edbd80f02399de3fb9679a0daf70ab922bd61f39d1"
+        },
+        "7": {
+            "total": 397,
+            "prefix": "21e8c85b9b1999ec78728410695252b59bca125eee7a489b78bb7f7d19395d37",
+            "fingerprint": "fab82cde5b4797beaa6be38f1afb9d5d2c7206841beff7b44b8e2720900798dd"
+        },
+        "8": {
+            "total": 397,
+            "prefix": "a5a18f1401e5a42d4f3d27c989c38fc4747126d6b6b4faff96eaa39ba3f1a4f3",
+            "fingerprint": "0feb785ed69a36330fb54011e694a88166a2e530d8beb0de32a129d833d81021"
+        },
+        "9": {
+            "total": 397,
+            "prefix": "9005dec18f310ecf53d9a7e1c47f13d9ff601852e18e4a571b10666831adda05",
+            "fingerprint": "ac225f158f8199006ad2b2d85035ec38dea4eae693b6a8a61e0a9a596a14e006"
+        },
+        "10": {
+            "total": 397,
+            "prefix": "31ec1f79e690878933bee8cb65c5b6b8d5f3987a74f8324af45352abc812c5bd",
+            "fingerprint": "02450c615fed4c5774f5897a8c174a9bb0b94c519d95d588b1c556a4fa65a1f7"
+        },
+        "11": {
+            "total": 397,
+            "prefix": "27afafb7d4ee0081db8749b6274c57d8afb4f35219bbdc5b7ea6da2990477cb0",
+            "fingerprint": "bfe68538e6007568c24b92adbd9cde697eee1f40572f0dfd2d5b096b4858b9a8"
+        },
+        "12": {
+            "total": 397,
+            "prefix": "adf8d9f8e41626f3dda4bc301d7a6c08f132e7c0142f115b0e7e64addef97db6",
+            "fingerprint": "e52e6b748ccf288ed5df3dc15025498c53279aeb6aad406447e84d7bc3e58115"
+        },
+        "13": {
+            "total": 397,
+            "prefix": "8700ddb0b9aaa816793a4ff9c2f14268137c8f86236feddc3f7eb473a26c67b5",
+            "fingerprint": "b99618feb879b8ddd983fb4926d0cb57470beb8983a5ecc23aff3292caa058b4"
+        },
+        "14": {
+            "total": 397,
+            "prefix": "b8b8312d86a8eb319a4821cd9cbe2bd4898b63453dfe0947de921822dd657f40",
+            "fingerprint": "aa7661d564771703253b59d66bb622fd171df0a7fa1fd057d0b6ad2d01873719"
+        },
+        "15": {
+            "total": 397,
+            "prefix": "a5e87fb5012cda63c83a036e8e1ebfb4e65e687c23ae3ed59f98b60f93dbc701",
+            "fingerprint": "74657ea827e452b49bd49f0857f74ad29ebf259561f9f9b7d5f513ab8cd17181"
+        },
+        "16": {
+            "total": 397,
+            "prefix": "2ee1fa2c58dc47a1440d7f1bc828053583ba3afd573f0497c1560ea528c7ab24",
+            "fingerprint": "200e258b2fd9d8ede1fcecd3144fb1135c1a5bdc36649bcd89f91ea17f91fc59"
+        },
+        "17": {
+            "total": 397,
+            "prefix": "2125e12b274064b2ecd27a201b45ad7150e197e5f65696132ecaa26a768d5042",
+            "fingerprint": "44aaf5657b7d9b37c0048a0ce77b1b7c554c6a36176327f33f210d02a6828b4f"
+        },
+        "18": {
+            "total": 397,
+            "prefix": "b19f6cbb1887ac4c4a635f84f21128348d4bd8bd217e143b23a7323293ea1ff7",
+            "fingerprint": "ab38a2e19d5a95550db3d1a2af0deab53134af100e632529f83e2103174d2283"
+        },
+        "19": {
+            "total": 397,
+            "prefix": "8f3d71bebfe4d47be368c0a881a59006110b7dda2684396f4ff26e4cf4061388",
+            "fingerprint": "a86d7aa04f4d83eb136c138b55ddfc7bd4da0ffde05c71823d94453f05e682bb"
+        },
+        "20": {
+            "total": 397,
+            "prefix": "1ada221af579b4f11399150a2db37c46a65a996a91e219a2eadf78a1049f9cf3",
+            "fingerprint": "a80a00e63811ce50a68a05b8aaee2a2c635cf67c04dbd3cb7b9e75edb89ffc44"
+        }
+    },
+    "checkpoint_version": 23
+}

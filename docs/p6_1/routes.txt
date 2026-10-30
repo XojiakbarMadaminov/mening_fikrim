@@ -1,0 +1,49 @@
+
+  GET|HEAD       api/admin/corpus/assistant CorpusReportingController@assistant
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/campaigns CorpusReportingController@campaigns
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/campaigns/{id} CorpusReportingController@campaign
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/campaigns/{id}/report CorpusReportingController@campaign
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/discovery CorpusReportingController@discovery
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/quality .. CorpusReportingController@quality
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/statistics CorpusReportingController@statistics
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/tools .... CorpusReportingController@catalog
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+  GET|HEAD       api/admin/corpus/tools/{tool} CorpusReportingController@tool
+                 ⇂ api
+                 ⇂ auth:corpus-reports
+                 ⇂ can:corpus.read
+                 ⇂ throttle:60,1
+
+                                                            Showing [9] routes
+

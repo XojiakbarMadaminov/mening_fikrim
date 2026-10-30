@@ -1,0 +1,168 @@
+{
+    "at": "2026-10-29T15:49:51+05:00",
+    "database_bytes": 92960435,
+    "disk_free_bytes": 120440827904,
+    "archive": {
+        "blobs": 0,
+        "registered_bytes": 0,
+        "physical_files": 0,
+        "physical_bytes": 0,
+        "missing": [],
+        "mismatched": [],
+        "orphans": [],
+        "partial_files": [],
+        "ok": true
+    },
+    "relations": {
+        "cache": {
+            "total_bytes": 8503296,
+            "heap_bytes": 65536
+        },
+        "cache_locks": {
+            "total_bytes": 81920,
+            "heap_bytes": 8192
+        },
+        "document_contents": {
+            "total_bytes": 21823488,
+            "heap_bytes": 4210688
+        },
+        "document_identifiers": {
+            "total_bytes": 2310144,
+            "heap_bytes": 1941504
+        },
+        "document_sources": {
+            "total_bytes": 49152,
+            "heap_bytes": 8192
+        },
+        "documents": {
+            "total_bytes": 8503296,
+            "heap_bytes": 442368
+        },
+        "failed_jobs": {
+            "total_bytes": 172032,
+            "heap_bytes": 24576
+        },
+        "job_batches": {
+            "total_bytes": 16384,
+            "heap_bytes": 0
+        },
+        "jobs": {
+            "total_bytes": 114688,
+            "heap_bytes": 40960
+        },
+        "migrations": {
+            "total_bytes": 24576,
+            "heap_bytes": 8192
+        },
+        "scrape_campaign_checkpoints": {
+            "total_bytes": 8028160,
+            "heap_bytes": 24576
+        },
+        "scrape_campaigns": {
+            "total_bytes": 696320,
+            "heap_bytes": 352256
+        },
+        "scrape_run_items": {
+            "total_bytes": 21741568,
+            "heap_bytes": 3153920
+        },
+        "scrape_runs": {
+            "total_bytes": 598016,
+            "heap_bytes": 344064
+        },
+        "source_archive_blobs": {
+            "total_bytes": 32768,
+            "heap_bytes": 0
+        },
+        "source_archive_observations": {
+            "total_bytes": 11493376,
+            "heap_bytes": 1933312
+        }
+    },
+    "stage_observations": {
+        "30": {
+            "at": "2026-10-29T11:06:03+05:00",
+            "database_bytes": 56866483,
+            "disk_free_bytes": 120649441280,
+            "archive": {
+                "blobs": 0,
+                "registered_bytes": 0,
+                "physical_files": 0,
+                "physical_bytes": 0,
+                "missing": [],
+                "mismatched": [],
+                "orphans": [],
+                "partial_files": [],
+                "ok": true
+            }
+        },
+        "100": {
+            "at": "2026-10-29T11:29:07+05:00",
+            "database_bytes": 64476851,
+            "disk_free_bytes": 120546504704,
+            "archive": {
+                "blobs": 0,
+                "registered_bytes": 0,
+                "physical_files": 0,
+                "physical_bytes": 0,
+                "missing": [],
+                "mismatched": [],
+                "orphans": [],
+                "partial_files": [],
+                "ok": true
+            }
+        },
+        "300": {
+            "at": "2026-10-29T12:22:26+05:00",
+            "database_bytes": 73873075,
+            "disk_free_bytes": 120565854208,
+            "archive": {
+                "blobs": 0,
+                "registered_bytes": 0,
+                "physical_files": 0,
+                "physical_bytes": 0,
+                "missing": [],
+                "mismatched": [],
+                "orphans": [],
+                "partial_files": [],
+                "ok": true
+            }
+        },
+        "600": {
+            "at": "2026-10-29T13:27:45+05:00",
+            "database_bytes": 83556019,
+            "disk_free_bytes": 120550842368,
+            "archive": {
+                "blobs": 0,
+                "registered_bytes": 0,
+                "physical_files": 0,
+                "physical_bytes": 0,
+                "missing": [],
+                "mismatched": [],
+                "orphans": [],
+                "partial_files": [],
+                "ok": true
+            }
+        }
+    },
+    "projections": {
+        "10000": {
+            "same_mix_incremental_database_bytes": 607364518,
+            "archive_bytes": null,
+            "uncertainty": "Planning estimate only; database allocation, diagnostic retention and future PDF\/OCR\/archive mix can materially change growth. Archive retention needs a separately measured permitted sample."
+        },
+        "100000": {
+            "same_mix_incremental_database_bytes": 6073645176,
+            "archive_bytes": null,
+            "uncertainty": "Planning estimate only; database allocation, diagnostic retention and future PDF\/OCR\/archive mix can materially change growth. Archive retention needs a separately measured permitted sample."
+        }
+    },
+    "limitations": "Relation-level sizes were not captured at earlier stage boundaries. Current sizes are real observations, not reconstructed historical measurements. PostgreSQL physical growth includes indexes, TOAST, dead tuples, cache\/queue\/diagnostic history and allocation effects; it is not pure corpus text growth. Raw retention disabled: zero archive growth cannot project future retained HTML\/PDF storage. No automatic cleanup performed.",
+    "before_collection": {
+        "at": "2026-10-29T10:51:04+05:00",
+        "database_bytes": 41334451,
+        "disk_free_bytes": 120692011008
+    },
+    "database_growth_bytes": 51625984,
+    "database_growth_per_new_canonical_bytes": 60736.45176470588
+}

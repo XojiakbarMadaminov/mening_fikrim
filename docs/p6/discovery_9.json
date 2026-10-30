@@ -1,0 +1,650 @@
+{
+    "root": {
+        "query": {
+            "section": "tech",
+            "status": "Y",
+            "from": "01.01.2020",
+            "to": "31.12.2020"
+        },
+        "depth": 0,
+        "pages": {
+            "1": {
+                "total": 32,
+                "prefix": "25500916c127652a9a13a376784059ae746f80d9ab048e370cefb7da7142565f",
+                "fingerprint": "6764b62a5b7829ee8157083a2f4740233cba7ef115592279b1d86f921f61c548"
+            },
+            "2": {
+                "total": 32,
+                "prefix": "feb0a42a0894f40e19644484da9aabd9c9858797b5d153ee5ccba3d27fa7713d",
+                "fingerprint": "5d88bd5a1f4d050a62ee99f02dc5785b4de24eb30e9d11e83046a17a4069e305"
+            }
+        },
+        "rows": {
+            "5193251": {
+                "id": "5193251",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5193251",
+                "title": "Санитарные нормы и правила по обеспечению допустимого шума в помещениях жилых, общественных зданий, на территории жилой застройки и зон общественного отдыха",
+                "listing_status": "Y"
+            },
+            "-5192581": {
+                "id": "-5192581",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5192581",
+                "title": "Turar joylarda, jamoat binolarida, aholi yashash hududlarida va dam olish zonalarida ruxsat etilgan shovqin darajasining sanitariya qoidalari va meʼyorlari",
+                "listing_status": "Y"
+            },
+            "5192581": {
+                "id": "5192581",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5192581",
+                "title": "Турар жойларда, жамоат биноларида, аҳоли яшаш ҳудудларида ва дам олиш зоналарида рухсат этилган шовқин даражасининг санитария қоидалари ва меъёрлари",
+                "listing_status": "Y"
+            },
+            "5184688": {
+                "id": "5184688",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5184688",
+                "title": "Среднесуточные нормативы рационального питания для групп по возрасту, полу и профессии, направленные на обеспечение здорового питания населения Республики Узбекистан",
+                "listing_status": "Y"
+            },
+            "5182749": {
+                "id": "5182749",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5182749",
+                "title": "Ўзбекистон Республикаси аҳолисининг ёшига, жинсига ва касбий фаолияти гуруҳлари учун соғлом овқатланишни таъминлашга қаратилган ўртача кунлик рационал овқатланиш нормативлари",
+                "listing_status": "Y"
+            },
+            "-5182749": {
+                "id": "-5182749",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5182749",
+                "title": "Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun sogʻlom ovqatlanishni taʼminlashga qaratilgan oʻrtacha kunlik ratsional ovqatlanish normativlari",
+                "listing_status": "Y"
+            },
+            "8514825": {
+                "id": "8514825",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8514825",
+                "title": "Нормативы среднесуточного рационального питания, направленные на обеспечение здорового питания населения Республики Узбекистан по возрасту, полу и группам профессиональной деятельности согласно",
+                "listing_status": "Y"
+            },
+            "8514594": {
+                "id": "8514594",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8514594",
+                "title": "Ўзбекистон Республикаси аҳолисининг ёшига, жинсига ва касбий фаолияти гуруҳлари учун соғлом овқатланишни таъминлашга қаратилган ўртача кунлик рационал овқатланиш нормативлари",
+                "listing_status": "Y"
+            },
+            "-8514594": {
+                "id": "-8514594",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-8514594",
+                "title": "Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun sogʻlom ovqatlanishni taʼminlashga qaratilgan oʻrtacha kunlik ratsional ovqatlanish normativlari",
+                "listing_status": "Y"
+            },
+            "5163438": {
+                "id": "5163438",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5163438",
+                "title": "О внесении изменений в некоторые нормативные акты в сфере технического регулирования Государственного комитета промышленной безопасности",
+                "listing_status": "Y"
+            },
+            "5163299": {
+                "id": "5163299",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5163299",
+                "title": "Саноат хавфсизлиги давлат қўмитасининг техник жиҳатдан тартибга солиш соҳасидаги айрим норматив ҳужжатларига ўзгартиришлар киритиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5163299": {
+                "id": "-5163299",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5163299",
+                "title": "Sanoat xavfsizligi davlat qoʻmitasining texnik jihatdan tartibga solish sohasidagi ayrim normativ hujjatlariga oʻzgartirishlar kiritish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5016208": {
+                "id": "5016208",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5016208",
+                "title": "Ўзбекистон Республикасида COVID-19 пандемияси даврида умумий ўрта таълим мактаблари ва ўрта махсус мактаб интернатларининг фаолиятини ташкиллаштириш бўйича вақтинчалик санитария-эпидемиологик талаблар",
+                "listing_status": "Y"
+            },
+            "-5016208": {
+                "id": "-5016208",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5016208",
+                "title": "Oʻzbekiston Respublikasida COVID-19 pandemiyasi davrida umumiy oʻrta taʼlim maktablari va oʻrta maxsus maktab internatlarining faoliyatini tashkillashtirish boʻyicha vaqtinchalik sanitariya-epidemiologik talablar",
+                "listing_status": "Y"
+            },
+            "-4965066": {
+                "id": "-4965066",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4965066",
+                "title": "COVID 19 pandemiyasi davrida maktabgacha taʼlim tashkilotlarining ish faoliyatiga qoʻyiladigan vaqtinchalik sanitariya-gigiyenik talablar",
+                "listing_status": "Y"
+            },
+            "4965066": {
+                "id": "4965066",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4965066",
+                "title": "COVID 19 пандемияси даврида мактабгача таълим ташкилотларининг иш фаолиятига қўйиладиган вақтинчалик санитария-гигиеник талаблар",
+                "listing_status": "Y"
+            },
+            "8111857": {
+                "id": "8111857",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8111857",
+                "title": "Об организации деятельности государственных органов и других организаций, а также субъектов предпринимательства в условиях применения ограничительных мер в период пандемии COVID-19",
+                "listing_status": "Y"
+            },
+            "4954499": {
+                "id": "4954499",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4954499",
+                "title": "COVID-19 пандемияси даврида чеклаш тадбирларини қўлланиши шароитида давлат органлари ва бошқа ташкилотлар, шунингдек тадбиркорлик субъектларининг фаолиятини ташкил қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4954499": {
+                "id": "-4954499",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4954499",
+                "title": "COVID-19 pandemiyasi davrida cheklash tadbirlarini qoʻllanishi sharoitida davlat organlari va boshqa tashkilotlar, shuningdek tadbirkorlik subyektlarining faoliyatini tashkil qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5007966": {
+                "id": "5007966",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5007966",
+                "title": "Средство для мытья стекол",
+                "listing_status": "Y"
+            },
+            "5014002": {
+                "id": "5014002",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5014002",
+                "title": "Маска лицевая защитная",
+                "listing_status": "Y"
+            },
+            "4993323": {
+                "id": "4993323",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4993323",
+                "title": "Маска медицинская из нетканого полотна",
+                "listing_status": "Y"
+            },
+            "4993284": {
+                "id": "4993284",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4993284",
+                "title": "Средства чистящие порошкообразные",
+                "listing_status": "Y"
+            },
+            "-8450703": {
+                "id": "-8450703",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-8450703",
+                "title": "SHNQ 2.02.02-20 “Gidrotexnik inshootlar asoslari”",
+                "listing_status": "Y"
+            },
+            "8450703": {
+                "id": "8450703",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8450703",
+                "title": "ШНҚ 2.02.02-20 «Гидротехник иншоотлар асослари»",
+                "listing_status": "Y"
+            },
+            "8450640": {
+                "id": "8450640",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8450640",
+                "title": "ШНК 2.02.02-20 «Основания гидротехнических сооружений»",
+                "listing_status": "Y"
+            },
+            "8448705": {
+                "id": "8448705",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8448705",
+                "title": "Генеральные планы сельскохозяйственных предприятий",
+                "listing_status": "Y"
+            },
+            "-8448700": {
+                "id": "-8448700",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-8448700",
+                "title": "Qishloq xoʻjaligi korxonalarining bosh rejalari",
+                "listing_status": "Y"
+            },
+            "8448700": {
+                "id": "8448700",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8448700",
+                "title": "Қишлоқ хўжалиги корхоналарининг бош режалари",
+                "listing_status": "Y"
+            },
+            "8450995": {
+                "id": "8450995",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8450995",
+                "title": "Инженерно-геодезические изыскания для строительства",
+                "listing_status": "Y"
+            },
+            "8450972": {
+                "id": "8450972",
+                "url": "https:\/\/lex.uz\/uz\/docs\/8450972",
+                "title": "Қурилиш учун муҳандислик-геодезик қидирувлар",
+                "listing_status": "Y"
+            },
+            "-8450972": {
+                "id": "-8450972",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-8450972",
+                "title": "Qurilish uchun muhandislik-geodezik qidiruvlar",
+                "listing_status": "Y"
+            }
+        },
+        "done": true,
+        "enumeration": {
+            "complete": true,
+            "total": 32,
+            "unique_ids": 32,
+            "pages": 2,
+            "restarts": 0
+        },
+        "total": 32,
+        "complete": true
+    },
+    "nodes": {
+        "6c88a091f9856b436ec8d9355bebf8deb85d76e2545871d178eabdca0cccc3ae": {
+            "query": {
+                "section": "tech",
+                "status": "Y",
+                "from": "01.01.2020",
+                "to": "31.12.2020"
+            },
+            "depth": 0,
+            "pages": {
+                "1": {
+                    "total": 32,
+                    "prefix": "25500916c127652a9a13a376784059ae746f80d9ab048e370cefb7da7142565f",
+                    "fingerprint": "6764b62a5b7829ee8157083a2f4740233cba7ef115592279b1d86f921f61c548"
+                },
+                "2": {
+                    "total": 32,
+                    "prefix": "feb0a42a0894f40e19644484da9aabd9c9858797b5d153ee5ccba3d27fa7713d",
+                    "fingerprint": "5d88bd5a1f4d050a62ee99f02dc5785b4de24eb30e9d11e83046a17a4069e305"
+                }
+            },
+            "rows": {
+                "5193251": {
+                    "id": "5193251",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5193251",
+                    "title": "Санитарные нормы и правила по обеспечению допустимого шума в помещениях жилых, общественных зданий, на территории жилой застройки и зон общественного отдыха",
+                    "listing_status": "Y"
+                },
+                "-5192581": {
+                    "id": "-5192581",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5192581",
+                    "title": "Turar joylarda, jamoat binolarida, aholi yashash hududlarida va dam olish zonalarida ruxsat etilgan shovqin darajasining sanitariya qoidalari va meʼyorlari",
+                    "listing_status": "Y"
+                },
+                "5192581": {
+                    "id": "5192581",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5192581",
+                    "title": "Турар жойларда, жамоат биноларида, аҳоли яшаш ҳудудларида ва дам олиш зоналарида рухсат этилган шовқин даражасининг санитария қоидалари ва меъёрлари",
+                    "listing_status": "Y"
+                },
+                "5184688": {
+                    "id": "5184688",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5184688",
+                    "title": "Среднесуточные нормативы рационального питания для групп по возрасту, полу и профессии, направленные на обеспечение здорового питания населения Республики Узбекистан",
+                    "listing_status": "Y"
+                },
+                "5182749": {
+                    "id": "5182749",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5182749",
+                    "title": "Ўзбекистон Республикаси аҳолисининг ёшига, жинсига ва касбий фаолияти гуруҳлари учун соғлом овқатланишни таъминлашга қаратилган ўртача кунлик рационал овқатланиш нормативлари",
+                    "listing_status": "Y"
+                },
+                "-5182749": {
+                    "id": "-5182749",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5182749",
+                    "title": "Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun sogʻlom ovqatlanishni taʼminlashga qaratilgan oʻrtacha kunlik ratsional ovqatlanish normativlari",
+                    "listing_status": "Y"
+                },
+                "8514825": {
+                    "id": "8514825",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8514825",
+                    "title": "Нормативы среднесуточного рационального питания, направленные на обеспечение здорового питания населения Республики Узбекистан по возрасту, полу и группам профессиональной деятельности согласно",
+                    "listing_status": "Y"
+                },
+                "8514594": {
+                    "id": "8514594",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8514594",
+                    "title": "Ўзбекистон Республикаси аҳолисининг ёшига, жинсига ва касбий фаолияти гуруҳлари учун соғлом овқатланишни таъминлашга қаратилган ўртача кунлик рационал овқатланиш нормативлари",
+                    "listing_status": "Y"
+                },
+                "-8514594": {
+                    "id": "-8514594",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8514594",
+                    "title": "Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun sogʻlom ovqatlanishni taʼminlashga qaratilgan oʻrtacha kunlik ratsional ovqatlanish normativlari",
+                    "listing_status": "Y"
+                },
+                "5163438": {
+                    "id": "5163438",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5163438",
+                    "title": "О внесении изменений в некоторые нормативные акты в сфере технического регулирования Государственного комитета промышленной безопасности",
+                    "listing_status": "Y"
+                },
+                "5163299": {
+                    "id": "5163299",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5163299",
+                    "title": "Саноат хавфсизлиги давлат қўмитасининг техник жиҳатдан тартибга солиш соҳасидаги айрим норматив ҳужжатларига ўзгартиришлар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5163299": {
+                    "id": "-5163299",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5163299",
+                    "title": "Sanoat xavfsizligi davlat qoʻmitasining texnik jihatdan tartibga solish sohasidagi ayrim normativ hujjatlariga oʻzgartirishlar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5016208": {
+                    "id": "5016208",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5016208",
+                    "title": "Ўзбекистон Республикасида COVID-19 пандемияси даврида умумий ўрта таълим мактаблари ва ўрта махсус мактаб интернатларининг фаолиятини ташкиллаштириш бўйича вақтинчалик санитария-эпидемиологик талаблар",
+                    "listing_status": "Y"
+                },
+                "-5016208": {
+                    "id": "-5016208",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5016208",
+                    "title": "Oʻzbekiston Respublikasida COVID-19 pandemiyasi davrida umumiy oʻrta taʼlim maktablari va oʻrta maxsus maktab internatlarining faoliyatini tashkillashtirish boʻyicha vaqtinchalik sanitariya-epidemiologik talablar",
+                    "listing_status": "Y"
+                },
+                "-4965066": {
+                    "id": "-4965066",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4965066",
+                    "title": "COVID 19 pandemiyasi davrida maktabgacha taʼlim tashkilotlarining ish faoliyatiga qoʻyiladigan vaqtinchalik sanitariya-gigiyenik talablar",
+                    "listing_status": "Y"
+                },
+                "4965066": {
+                    "id": "4965066",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4965066",
+                    "title": "COVID 19 пандемияси даврида мактабгача таълим ташкилотларининг иш фаолиятига қўйиладиган вақтинчалик санитария-гигиеник талаблар",
+                    "listing_status": "Y"
+                },
+                "8111857": {
+                    "id": "8111857",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8111857",
+                    "title": "Об организации деятельности государственных органов и других организаций, а также субъектов предпринимательства в условиях применения ограничительных мер в период пандемии COVID-19",
+                    "listing_status": "Y"
+                },
+                "4954499": {
+                    "id": "4954499",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4954499",
+                    "title": "COVID-19 пандемияси даврида чеклаш тадбирларини қўлланиши шароитида давлат органлари ва бошқа ташкилотлар, шунингдек тадбиркорлик субъектларининг фаолиятини ташкил қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4954499": {
+                    "id": "-4954499",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4954499",
+                    "title": "COVID-19 pandemiyasi davrida cheklash tadbirlarini qoʻllanishi sharoitida davlat organlari va boshqa tashkilotlar, shuningdek tadbirkorlik subyektlarining faoliyatini tashkil qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5007966": {
+                    "id": "5007966",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5007966",
+                    "title": "Средство для мытья стекол",
+                    "listing_status": "Y"
+                },
+                "5014002": {
+                    "id": "5014002",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5014002",
+                    "title": "Маска лицевая защитная",
+                    "listing_status": "Y"
+                },
+                "4993323": {
+                    "id": "4993323",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4993323",
+                    "title": "Маска медицинская из нетканого полотна",
+                    "listing_status": "Y"
+                },
+                "4993284": {
+                    "id": "4993284",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4993284",
+                    "title": "Средства чистящие порошкообразные",
+                    "listing_status": "Y"
+                },
+                "-8450703": {
+                    "id": "-8450703",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8450703",
+                    "title": "SHNQ 2.02.02-20 “Gidrotexnik inshootlar asoslari”",
+                    "listing_status": "Y"
+                },
+                "8450703": {
+                    "id": "8450703",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8450703",
+                    "title": "ШНҚ 2.02.02-20 «Гидротехник иншоотлар асослари»",
+                    "listing_status": "Y"
+                },
+                "8450640": {
+                    "id": "8450640",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8450640",
+                    "title": "ШНК 2.02.02-20 «Основания гидротехнических сооружений»",
+                    "listing_status": "Y"
+                },
+                "8448705": {
+                    "id": "8448705",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8448705",
+                    "title": "Генеральные планы сельскохозяйственных предприятий",
+                    "listing_status": "Y"
+                },
+                "-8448700": {
+                    "id": "-8448700",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8448700",
+                    "title": "Qishloq xoʻjaligi korxonalarining bosh rejalari",
+                    "listing_status": "Y"
+                },
+                "8448700": {
+                    "id": "8448700",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8448700",
+                    "title": "Қишлоқ хўжалиги корхоналарининг бош режалари",
+                    "listing_status": "Y"
+                },
+                "8450995": {
+                    "id": "8450995",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8450995",
+                    "title": "Инженерно-геодезические изыскания для строительства",
+                    "listing_status": "Y"
+                },
+                "8450972": {
+                    "id": "8450972",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/8450972",
+                    "title": "Қурилиш учун муҳандислик-геодезик қидирувлар",
+                    "listing_status": "Y"
+                },
+                "-8450972": {
+                    "id": "-8450972",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-8450972",
+                    "title": "Qurilish uchun muhandislik-geodezik qidiruvlar",
+                    "listing_status": "Y"
+                }
+            },
+            "done": true,
+            "enumeration": {
+                "complete": true,
+                "total": 32,
+                "unique_ids": 32,
+                "pages": 2,
+                "restarts": 0
+            },
+            "total": 32,
+            "complete": true
+        }
+    },
+    "complete": true,
+    "rows": [
+        {
+            "id": "5193251",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5193251",
+            "title": "Санитарные нормы и правила по обеспечению допустимого шума в помещениях жилых, общественных зданий, на территории жилой застройки и зон общественного отдыха",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5192581",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5192581",
+            "title": "Turar joylarda, jamoat binolarida, aholi yashash hududlarida va dam olish zonalarida ruxsat etilgan shovqin darajasining sanitariya qoidalari va meʼyorlari",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5192581",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5192581",
+            "title": "Турар жойларда, жамоат биноларида, аҳоли яшаш ҳудудларида ва дам олиш зоналарида рухсат этилган шовқин даражасининг санитария қоидалари ва меъёрлари",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5184688",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5184688",
+            "title": "Среднесуточные нормативы рационального питания для групп по возрасту, полу и профессии, направленные на обеспечение здорового питания населения Республики Узбекистан",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5182749",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5182749",
+            "title": "Ўзбекистон Республикаси аҳолисининг ёшига, жинсига ва касбий фаолияти гуруҳлари учун соғлом овқатланишни таъминлашга қаратилган ўртача кунлик рационал овқатланиш нормативлари",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5182749",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5182749",
+            "title": "Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun sogʻlom ovqatlanishni taʼminlashga qaratilgan oʻrtacha kunlik ratsional ovqatlanish normativlari",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8514825",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8514825",
+            "title": "Нормативы среднесуточного рационального питания, направленные на обеспечение здорового питания населения Республики Узбекистан по возрасту, полу и группам профессиональной деятельности согласно",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8514594",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8514594",
+            "title": "Ўзбекистон Республикаси аҳолисининг ёшига, жинсига ва касбий фаолияти гуруҳлари учун соғлом овқатланишни таъминлашга қаратилган ўртача кунлик рационал овқатланиш нормативлари",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-8514594",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-8514594",
+            "title": "Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun sogʻlom ovqatlanishni taʼminlashga qaratilgan oʻrtacha kunlik ratsional ovqatlanish normativlari",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5163438",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5163438",
+            "title": "О внесении изменений в некоторые нормативные акты в сфере технического регулирования Государственного комитета промышленной безопасности",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5163299",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5163299",
+            "title": "Саноат хавфсизлиги давлат қўмитасининг техник жиҳатдан тартибга солиш соҳасидаги айрим норматив ҳужжатларига ўзгартиришлар киритиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5163299",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5163299",
+            "title": "Sanoat xavfsizligi davlat qoʻmitasining texnik jihatdan tartibga solish sohasidagi ayrim normativ hujjatlariga oʻzgartirishlar kiritish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5016208",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5016208",
+            "title": "Ўзбекистон Республикасида COVID-19 пандемияси даврида умумий ўрта таълим мактаблари ва ўрта махсус мактаб интернатларининг фаолиятини ташкиллаштириш бўйича вақтинчалик санитария-эпидемиологик талаблар",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5016208",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5016208",
+            "title": "Oʻzbekiston Respublikasida COVID-19 pandemiyasi davrida umumiy oʻrta taʼlim maktablari va oʻrta maxsus maktab internatlarining faoliyatini tashkillashtirish boʻyicha vaqtinchalik sanitariya-epidemiologik talablar",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4965066",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4965066",
+            "title": "COVID 19 pandemiyasi davrida maktabgacha taʼlim tashkilotlarining ish faoliyatiga qoʻyiladigan vaqtinchalik sanitariya-gigiyenik talablar",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4965066",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4965066",
+            "title": "COVID 19 пандемияси даврида мактабгача таълим ташкилотларининг иш фаолиятига қўйиладиган вақтинчалик санитария-гигиеник талаблар",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8111857",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8111857",
+            "title": "Об организации деятельности государственных органов и других организаций, а также субъектов предпринимательства в условиях применения ограничительных мер в период пандемии COVID-19",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4954499",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4954499",
+            "title": "COVID-19 пандемияси даврида чеклаш тадбирларини қўлланиши шароитида давлат органлари ва бошқа ташкилотлар, шунингдек тадбиркорлик субъектларининг фаолиятини ташкил қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4954499",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4954499",
+            "title": "COVID-19 pandemiyasi davrida cheklash tadbirlarini qoʻllanishi sharoitida davlat organlari va boshqa tashkilotlar, shuningdek tadbirkorlik subyektlarining faoliyatini tashkil qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5007966",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5007966",
+            "title": "Средство для мытья стекол",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5014002",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5014002",
+            "title": "Маска лицевая защитная",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4993323",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4993323",
+            "title": "Маска медицинская из нетканого полотна",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4993284",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4993284",
+            "title": "Средства чистящие порошкообразные",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-8450703",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-8450703",
+            "title": "SHNQ 2.02.02-20 “Gidrotexnik inshootlar asoslari”",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8450703",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8450703",
+            "title": "ШНҚ 2.02.02-20 «Гидротехник иншоотлар асослари»",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8450640",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8450640",
+            "title": "ШНК 2.02.02-20 «Основания гидротехнических сооружений»",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8448705",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8448705",
+            "title": "Генеральные планы сельскохозяйственных предприятий",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-8448700",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-8448700",
+            "title": "Qishloq xoʻjaligi korxonalarining bosh rejalari",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8448700",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8448700",
+            "title": "Қишлоқ хўжалиги корхоналарининг бош режалари",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8450995",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8450995",
+            "title": "Инженерно-геодезические изыскания для строительства",
+            "listing_status": "Y"
+        },
+        {
+            "id": "8450972",
+            "url": "https:\/\/lex.uz\/uz\/docs\/8450972",
+            "title": "Қурилиш учун муҳандислик-геодезик қидирувлар",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-8450972",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-8450972",
+            "title": "Qurilish uchun muhandislik-geodezik qidiruvlar",
+            "listing_status": "Y"
+        }
+    ],
+    "cache_key": "lex:discovery:p6-corpus-1000-20261029:scope-9"
+}

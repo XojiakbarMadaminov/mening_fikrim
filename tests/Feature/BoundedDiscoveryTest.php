@@ -57,6 +57,35 @@ class BoundedDiscoveryTest extends TestCase
         $this->assertSame('maximum_depth', $depth['root']['reason']);
     }
 
+    public function test_explicit_single_day_budget_enumerates_397_results_and_reuses_checkpoint(): void
+    {
+        $this->app->instance(LexHttpClient::class, new VirtualLexHttpClient);
+        $responses = Http::sequence();
+        foreach (array_chunk(range(1, 397), 20) as $index => $ids) {
+            $responses->push(LexResponses::listing(array_map('strval', $ids), 397, $index === 19 ? null : 'next'));
+        }
+        Http::fake(['*' => $responses]);
+        $query = $this->segment('30.12.2021', '30.12.2021');
+        $result = app(BoundedDiscovery::class)->collect('large-day', $query, singleDayPageCap: 64);
+        $this->assertTrue($result['complete']);
+        $this->assertCount(397, $result['rows']);
+        $this->assertSame(20, $result['root']['enumeration']['pages']);
+        $again = app(BoundedDiscovery::class)->collect('large-day', $query, singleDayPageCap: 64);
+        $this->assertSame($result['rows'], $again['rows']);
+        Http::assertSentCount(20);
+    }
+
+    public function test_even_extended_single_day_budget_keeps_overflow_explicit(): void
+    {
+        $this->app->instance(LexHttpClient::class, new VirtualLexHttpClient);
+        Http::fake(['*' => Http::response(LexResponses::listing(array_map('strval', range(1, 20)), 2000, 'next'))]);
+        $result = app(BoundedDiscovery::class)->collect('too-large-day', $this->segment('01.01.2020', '01.01.2020'), singleDayPageCap: 64);
+        $this->assertFalse($result['complete']);
+        $this->assertSame('single_day_overflow', $result['root']['reason']);
+        $this->assertSame(2000, $result['root']['total']);
+        Http::assertSentCount(1);
+    }
+
     public function test_partition_cap_is_finite_and_never_produces_false_completion(): void
     {
         $this->fakeTree();

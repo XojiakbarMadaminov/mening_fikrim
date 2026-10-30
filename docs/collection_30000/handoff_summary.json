@@ -1,0 +1,46 @@
+{
+  "observed_at": "2026-10-30T10:05:03+05:00",
+  "campaign_id": "corpus-30000-20261030",
+  "status": "running",
+  "stop_reason": null,
+  "new_canonical": 2,
+  "target_new_canonical": 30000,
+  "current_total_canonical": 3669,
+  "new_canonical_content_representations": 4,
+  "cohort_content_quality": {
+    "verified": 4
+  },
+  "http": {
+    "used": 29,
+    "maximum": 360000,
+    "remaining": 359971,
+    "status_counts": {
+      "200": 29
+    },
+    "per_context_maximum": 400
+  },
+  "technical_failed_items": 0,
+  "discovery_partitions": [
+    {
+      "name": "scope-0",
+      "query": {
+        "to": "30.12.2021",
+        "from": "30.12.2021",
+        "status": "Y",
+        "section": "loc"
+      },
+      "listing_total": 397,
+      "unique_source_ids": 397,
+      "complete": true,
+      "reason": null,
+      "version": 23,
+      "updated_at": "2026-10-30T10:04:41+05:00"
+    }
+  ],
+  "coverage_gaps": [],
+  "integrity_errors": [],
+  "tests": 241,
+  "assertions": 1123,
+  "pint": "PASS",
+  "completion_claimed": false
+}

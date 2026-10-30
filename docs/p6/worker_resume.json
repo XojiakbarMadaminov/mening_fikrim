@@ -1,0 +1,39 @@
+{
+    "method": "graceful bounded worker stop after6 jobs, resume and restart",
+    "run_id": 46,
+    "completed_item_ids": [
+        645,
+        646,
+        647,
+        648,
+        649
+    ],
+    "pending_receipt_ids": [
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726
+    ],
+    "receipts_unchanged": true
+}

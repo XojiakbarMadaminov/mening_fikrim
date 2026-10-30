@@ -1,0 +1,122 @@
+{
+    "at": "2026-10-29T10:34:36+05:00",
+    "rows": {
+        "documents": 229,
+        "document_identifiers": 625,
+        "document_contents": 541,
+        "scrape_runs": 45,
+        "scrape_run_items": 644,
+        "failed_jobs": 24,
+        "jobs": 0,
+        "migrations": 11,
+        "scrape_campaigns": 1,
+        "scrape_campaign_checkpoints": 1,
+        "source_archive_blobs": 0,
+        "source_archive_observations": 26
+    },
+    "quality_counts": {
+        "verified": 449,
+        "needs_review": 92
+    },
+    "errors": [],
+    "checks": {
+        "duplicate_languages": 0,
+        "duplicate_aliases": 0,
+        "duplicate_canonical": 0,
+        "orphan_contents": 0,
+        "orphan_identifiers": 0
+    },
+    "archive": {
+        "blobs": 0,
+        "registered_bytes": 0,
+        "physical_files": 0,
+        "physical_bytes": 0,
+        "missing": [],
+        "mismatched": [],
+        "orphans": [],
+        "partial_files": [],
+        "ok": true
+    },
+    "campaign": {
+        "stages": [
+            0
+        ],
+        "contexts": {
+            "p6-policy": 4,
+            "p6-pdf-8345596": 3,
+            "p6-pdf-8554315": 8,
+            "p6-pdf-8554321": 3,
+            "p6-pdf-8554326": 3,
+            "p6-pdf-8554353": 3,
+            "p6-pdf-8554432": 3,
+            "p6-pdf-8557098": 3,
+            "p6-pdf--8553258": 10,
+            "p6-pdf--8553692": 10
+        },
+        "audit_count": null,
+        "selected_ids": [
+            "8557098",
+            "8554315",
+            "8554432",
+            "8554353",
+            "8554326",
+            "8554321",
+            "8345596",
+            "-8553692",
+            "-8553258"
+        ],
+        "last_reservation": {
+            "method": "GET",
+            "context": "p6-pdf--8553258",
+            "source_path": "\/pdffile\/-8553258"
+        },
+        "last_response_at": "2026-10-29 10:33:15.154649+05",
+        "consecutive_errors": 0,
+        "http_status_counts": {
+            "200": 48,
+            "302": 1,
+            "404": 1
+        },
+        "legacy_predecessor_id": "p5-1-20261029",
+        "discovered_source_count": 0,
+        "discovery_partition_count": 0,
+        "legacy_predecessor_sha256": "c2db5bddaebb2afd7aa7492bedbbf20af6b2c776d7c4cd30cf9ff0b2b6e54af2",
+        "id": "p6-validation-20261029",
+        "durable": true,
+        "status": "running",
+        "request_limit": 2000,
+        "used": 50,
+        "target": 0,
+        "stage": 0,
+        "source_limit": 200,
+        "selected_source_count": 9,
+        "baseline_max_id": 229,
+        "baseline_count": 229,
+        "new_canonical_documents": 0,
+        "persisted_new_canonical_count": 0,
+        "started_at": "2026-10-29T10:29:10+05:00",
+        "paused_at": null,
+        "completed_at": null,
+        "last_request_started_at": "2026-10-29T10:33:14.956704+05:00",
+        "stopped": null,
+        "configuration_snapshot": {
+            "workers": 1,
+            "page_cap": 8,
+            "campaign_type": "validation",
+            "max_partitions": 31,
+            "pdf_sample_cap": 30,
+            "max_discovered_ids": 3000,
+            "archive_quota_bytes": 2147483648,
+            "max_partition_depth": 10,
+            "request_interval_ms": 2000,
+            "max_campaign_seconds": 43200,
+            "per_context_request_limit": 400
+        },
+        "owner_generation": 2,
+        "owner_backend_pid": 1779682,
+        "owned_by_this_process": true
+    },
+    "database_bytes": 40384179,
+    "disk_free_bytes": 120786251776,
+    "peak_php_bytes": 116469760
+}

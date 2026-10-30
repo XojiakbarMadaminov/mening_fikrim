@@ -38,6 +38,7 @@ return [
     */
 
     'guards' => [
+        'corpus-reports' => ['driver' => 'corpus-report-token'],
         'web' => [
             'driver' => 'session',
             'provider' => 'users',

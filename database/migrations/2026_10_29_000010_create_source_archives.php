@@ -45,7 +45,7 @@ return new class extends Migration
         DB::statement("ALTER TABLE source_archive_blobs ADD CONSTRAINT source_archive_blob_shape CHECK (sha256 ~ '^[a-f0-9]{64}$' AND format IN ('html','pdf') AND file_size > 0)");
         DB::statement("ALTER TABLE source_archive_observations ADD CONSTRAINT source_archive_observation_shape CHECK (observed_sha256 ~ '^[a-f0-9]{64}$' AND format IN ('html','pdf') AND archive_status IN ('archived','disabled','privacy_blocked','failed') AND jsonb_typeof(context) = 'object' AND (archive_status <> 'archived' OR blob_id IS NOT NULL))");
         DB::unprepared(<<<'SQL'
-            CREATE FUNCTION validate_source_archive_observation() RETURNS trigger AS $$
+            CREATE OR REPLACE FUNCTION validate_source_archive_observation() RETURNS trigger AS $$
             BEGIN
                 IF NEW.document_id IS NOT NULL AND NOT EXISTS (
                     SELECT 1 FROM documents WHERE id = NEW.document_id AND source_id = NEW.document_source_id

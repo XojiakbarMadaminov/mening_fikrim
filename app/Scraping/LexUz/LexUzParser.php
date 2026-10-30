@@ -63,7 +63,7 @@ class LexUzParser
         $label = mb_strtolower(str_replace(['’', 'ʻ', '‘', 'ʼ'], "'", $this->compact($raw)));
 
         return match ($label) {
-            'узбекский (л)', "o'zbekcha (l)" => 'uz-Latn', 'узбекский (к)' => 'uz-Cyrl', 'русский', 'ruscha', 'русча' => 'ru', 'английский' => 'en',
+            'узбекский (л)', "o'zbekcha (l)" => 'uz-Latn', 'узбекский (к)', 'ўзбекча (к)', "o'zbekcha (k)" => 'uz-Cyrl', 'русский', 'ruscha', 'русча' => 'ru', 'английский', 'инглизча' => 'en',
             default => throw new SourceReviewException('Unknown source document language: '.mb_substr($raw, 0, 100)),
         };
     }

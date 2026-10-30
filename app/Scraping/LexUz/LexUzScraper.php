@@ -20,6 +20,7 @@ class LexUzScraper implements DocumentScraper
         }
         // Do not carry viewer language/session preferences from an unrelated document group.
         $this->http->resetSession();
+        $this->http->beginFlow($externalId);
         $pending = [$externalId => 'https://lex.uz/uz/docs/'.$externalId];
         $pages = [];
         while ($pending !== []) {
@@ -71,7 +72,9 @@ class LexUzScraper implements DocumentScraper
         $retryable = false;
         $technicalException = null;
         $primaryFormat = 'html';
+        $archivePages = [];
         foreach ($pages as $id => &$page) {
+            $archivePages[(string) $id] = array_intersect_key($page, array_flip(['url', 'card', 'card_url', 'links'])) + ['pdf_url' => $this->parser->pdfUrl($page['html'])];
             $state = $this->parser->status($page['card'], (string) $id === $externalId ? $listingStatus : null);
             if ($state['state'] !== $evidence['state'] || (isset($state['listing_state']) && $state['listing_state'] !== $state['state'])) {
                 $evidence['state'] = 'unknown';
@@ -127,7 +130,7 @@ class LexUzScraper implements DocumentScraper
             'identity' => $identity, 'contents' => $contents,
             'metadata' => ['lex' => ['source_card' => $card, 'metadata_url' => $preferred['card_url'], 'body_effective_dates' => $bodyDates, 'quality' => $metadataQuality]],
             ...($technicalException === null ? [] : ['technical_exception' => $technicalException]),
-            'diagnostics' => ['primary_format' => $primaryFormat, 'quality' => $quality, 'retryable_extraction' => $retryable]];
+            'diagnostics' => ['primary_format' => $primaryFormat, 'quality' => $quality, 'retryable_extraction' => $retryable, 'archive_pages' => $archivePages]];
     }
 
     public function searchUrl(array $segment): string

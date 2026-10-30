@@ -1,0 +1,22 @@
+{
+  "worker": {
+    "pid": 2168363,
+    "command": [
+      "php",
+      "artisan",
+      "documents:campaign",
+      "worker",
+      "--id=corpus-10000-20261029"
+    ]
+  },
+  "controller": {
+    "pid": 2168364,
+    "command": [
+      "php",
+      "artisan",
+      "documents:campaign",
+      "run",
+      "--id=corpus-10000-20261029"
+    ]
+  }
+}

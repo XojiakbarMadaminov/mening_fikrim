@@ -158,3 +158,21 @@ php artisan documents:pilot status
 php artisan documents:sync lex --report=45
 php artisan documents:quality-recheck lex --status=needs_review --limit=20 --dry-run
 ```
+
+P6 added permanent campaign/budget/discovery state, private source archive support and bounded offline reprocessing. Stages 30, 100, 300 and 600 passed; the main campaign stopped safely at **850 / 1,000 NEW canonicals** because its fixed discovery scope was exhausted. Database: 1,079 documents / 2,763 contents (2,471 verified / 292 review). Integrity, 201 tests / 860 assertions and Pint pass. See [P6_REPORT.md](docs/P6_REPORT.md) and [safe operator instructions](docs/p6/README.md). Raw retention remains disabled pending permission; no scheduler or unrestricted crawl is enabled. Historical P5/P5.1 campaigns and the stopped P6 campaign must not be reopened. Remaining 150 need a separately authorized bounded campaign.
+
+## P6.1 — operator-started autonomous collection and reporting
+
+P6.1 implementation is ready; its separate campaign `p6-1-completion-150-20261029` is prepared paused at **0 / 150 NEW**, HTTP **0 / 3,500**. No live import was started while coding. Existing corpus and stopped P6 evidence are preserved. Full suite: **225 tests / 1,053 assertions PASS**, Pint PASS. No database migration or new extraction/AI provider was added.
+
+Use the campaign-aware worker plus one autonomous controller; Laravel handles discovery, batches, audits and stages without Codex. Exact commands, pause/recovery and optional tmux: [LOCAL_RUNBOOK](docs/p6_1/LOCAL_RUNBOOK.md). Scope and limits: [CAMPAIGN_SCOPE](docs/p6_1/CAMPAIGN_SCOPE.md). Read-only authenticated reporting and Uzbek/AI tool adapter: [REPORTING_API](docs/p6_1/REPORTING_API.md). API credentials default unconfigured/denied. Raw retention and scheduling remain disabled.
+
+Authoritative implemented context: [PROJECT_CONTEXT](docs/PROJECT_CONTEXT.md), actual introspected [DATABASE_SCHEMA](docs/DATABASE_SCHEMA.md), [P6.1 report](docs/P6_1_REPORT.md). Historical plain queue:work examples above apply to earlier stages; P6.1 requires `documents:campaign worker` for ownership handover. The live150-document result remains pending explicit operator start.
+
+### Authorized10,000-document collection (2026-10-29)
+
+New campaign corpus-10000-20261029 is running independently through the existing Laravel controller/worker. Target10,000additional canonicals; finite120,000HTTP/25,000selected/7days,one worker/>=2000ms. [Launch report and exact commands](docs/COLLECTION_10000_REPORT.md),[runbook/evidence](docs/collection_10000/README.md). Check actual progress with `php artisan documents:campaign status --id=corpus-10000-20261029 --json`; do not start duplicate workers. Full231tests/1077assertions/Pint PASS.
+
+### Current30,000-new-document campaign (2026-10-30)
+
+corpus-30000-20261030 is the separately authorized successor of the stopped10,000campaign. Target30,000additional canonicals;360,000HTTP/75,000selections/21days,one worker/>=2000ms. Large single-day pagination64pages and explicit non-blocking coverage gaps; all critical safety guards preserved. [Report](docs/COLLECTION_30000_REPORT.md),[scope/evidence/runbook](docs/collection_30000/README.md). Check `php artisan documents:campaign status --id=corpus-30000-20261030 --json`; do not start duplicate workers.241tests/1123assertions/Pint PASS.

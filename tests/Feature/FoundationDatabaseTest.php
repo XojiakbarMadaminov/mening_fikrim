@@ -38,16 +38,16 @@ class FoundationDatabaseTest extends TestCase
         }
     }
 
-    public function test_real_postgresql_schema_has_exactly_six_business_tables_and_jsonb_columns(): void
+    public function test_real_postgresql_schema_has_exact_authorized_business_tables_and_jsonb_columns(): void
     {
         $this->assertSame('pgsql', DB::connection()->getDriverName());
         $this->assertStringEndsWith('_test', DB::selectOne('select current_database() as name')->name);
         $tables = Schema::getTableListing(schemaQualified: false);
         sort($tables);
-        $expected = ['cache', 'cache_locks', 'document_contents', 'document_identifiers', 'document_sources', 'documents', 'failed_jobs', 'job_batches', 'jobs', 'migrations', 'scrape_runs', 'scrape_run_items'];
+        $expected = ['cache', 'cache_locks', 'document_contents', 'document_identifiers', 'document_sources', 'documents', 'failed_jobs', 'job_batches', 'jobs', 'migrations', 'scrape_runs', 'scrape_run_items', 'scrape_campaigns', 'scrape_campaign_checkpoints', 'source_archive_blobs', 'source_archive_observations'];
         sort($expected);
         $this->assertSame($expected, $tables);
-        foreach ([['documents', 'metadata'], ['document_identifiers', 'metadata'], ['scrape_runs', 'checkpoint']] as [$table, $column]) {
+        foreach ([['documents', 'metadata'], ['document_identifiers', 'metadata'], ['scrape_runs', 'checkpoint'], ['scrape_campaigns', 'state'], ['scrape_campaign_checkpoints', 'state'], ['source_archive_observations', 'context']] as [$table, $column]) {
             $this->assertSame('jsonb', Schema::getColumnType($table, $column));
         }
     }
@@ -63,7 +63,7 @@ class FoundationDatabaseTest extends TestCase
 
     public function test_migrations_roll_back_and_reapply_on_postgresql(): void
     {
-        $this->artisan('migrate:rollback', ['--step' => 6])->assertSuccessful();
+        $this->artisan('migrate:rollback', ['--step' => DB::table('migrations')->where('migration', '>=', '2026_10_28_000002_create_documents_table')->count()])->assertSuccessful();
         $this->assertFalse(Schema::hasTable('documents'));
         $this->assertTrue(Schema::hasTable('jobs'));
         $this->artisan('migrate', ['--seed' => true])->assertSuccessful();
@@ -198,7 +198,17 @@ class FoundationDatabaseTest extends TestCase
         $this->assertSame(2000, config('scraping.request_delay_ms'));
         $this->assertSame('Asia/Tashkent', config('app.timezone'));
         $this->assertSame([], app(Schedule::class)->events());
-        $this->assertSame(['up'], array_map(fn ($route) => $route->uri(), app('router')->getRoutes()->getRoutes()));
+        $routes = app('router')->getRoutes()->getRoutes();
+        $this->assertSame(['api/admin/corpus/campaigns', 'api/admin/corpus/campaigns/{id}/report', 'api/admin/corpus/campaigns/{id}',
+            'api/admin/corpus/statistics', 'api/admin/corpus/quality', 'api/admin/corpus/discovery', 'api/admin/corpus/tools',
+            'api/admin/corpus/tools/{tool}', 'api/admin/corpus/assistant', 'up'], array_map(fn ($route) => $route->uri(), $routes));
+        foreach ($routes as $route) {
+            if (str_starts_with($route->uri(), 'api/')) {
+                $this->assertSame(['GET', 'HEAD'], $route->methods());
+                $this->assertContains('auth:corpus-reports', $route->middleware());
+                $this->assertContains('can:corpus.read', $route->middleware());
+            }
+        }
         $job = new ImportDocumentJob(1, [], '2026-10-28');
         $this->assertSame(900, $job->timeout);
         $this->assertSame(3, $job->tries);

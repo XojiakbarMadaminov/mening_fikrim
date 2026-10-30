@@ -12,13 +12,27 @@ use RuntimeException;
 /** Bounded pilot coordination in existing database-cache infrastructure, not a new business ledger. */
 class PilotCampaign
 {
+    private function durable(): ?DurableCampaign
+    {
+        $campaign = app(DurableCampaign::class);
+
+        return $campaign->exists() ? $campaign : null;
+    }
+
     public function id(): ?string
     {
+        if ($durable = $this->durable()) {
+            return $durable->id();
+        }
+
         return Cache::get('lex:pilot:active');
     }
 
     public function create(string $id, int $requests, int $target): array
     {
+        if ($this->durable()) {
+            throw new RuntimeException('Permanent campaign registry is authoritative; use documents:campaign.');
+        }
         if (! preg_match('/^[a-z0-9-]{1,60}$/D', $id) || $requests < 1 || $requests > 4000 || $target < 1 || $target > 200) {
             throw new InvalidArgumentException('Pilot requires a unique ID, 1..4000 requests and 1..200 new documents.');
         }
@@ -39,6 +53,9 @@ class PilotCampaign
 
     public function state(): ?array
     {
+        if ($durable = $this->durable()) {
+            return $durable->state();
+        }
         if (! $id = $this->id()) {
             return null;
         }
@@ -49,6 +66,9 @@ class PilotCampaign
     /** Explicit separately authorized follow-up; never edits or reopens the preceding state. */
     public function followup(string $previousId, string $id, int $requests, int $sources): array
     {
+        if ($this->durable()) {
+            throw new RuntimeException('Permanent campaign registry is authoritative; use documents:campaign.');
+        }
         if (! preg_match('/^[a-z0-9-]{1,60}$/D', $id) || $requests < 1 || $requests > 4000 || $sources < 42 || $sources > 250 || $id === $previousId) {
             throw new InvalidArgumentException('Follow-up requires a new ID, 1..4000 HTTP requests and 42..250 selected source IDs.');
         }
@@ -73,6 +93,11 @@ class PilotCampaign
 
     public function selectSources(array $ids): void
     {
+        if ($durable = $this->durable()) {
+            $durable->selectSources($ids);
+
+            return;
+        }
         Cache::lock('lex:http:single-request', 30)->block(35, function () use ($ids) {
             $state = $this->assertOpen();
             if (! isset($state['source_limit'])) {
@@ -96,6 +121,11 @@ class PilotCampaign
     /** Controller supplies the result of its full baseline-preservation audit; fail closed. */
     public function auditedStage(array $errors): void
     {
+        if ($durable = $this->durable()) {
+            $durable->auditedStage($errors);
+
+            return;
+        }
         $state = $this->assertOpen() ?? throw new RuntimeException('No campaign.');
         if ($errors || DB::table('jobs')->where('queue', 'scraping')->exists()) {
             $this->stop('stage_integrity_audit_failed');
@@ -107,6 +137,9 @@ class PilotCampaign
 
     public function assertOpen(): ?array
     {
+        if ($durable = $this->durable()) {
+            return $durable->assertOpen();
+        }
         $state = $this->state();
         if ($state && $state['stopped']) {
             throw new PilotStoppedException($state['stopped']['reason']);
@@ -117,14 +150,20 @@ class PilotCampaign
 
     public function newCount(?array $state = null): int
     {
+        if (($durable = $this->durable()) && ($state === null || ($state['durable'] ?? false))) {
+            return $durable->newCount($state);
+        }
         $state ??= $this->state();
 
         return $state ? Document::where('id', '>', $state['baseline_max_id'])->whereHas('source', fn ($q) => $q->where('slug', 'lex'))->count() : 0;
     }
 
     /** Called under the shared HTTP lock, including redirects, retries and discovery. */
-    public function reserve(): ?string
+    public function reserve(string $context = 'manual', string $method = 'GET', string $url = ''): ?string
     {
+        if ($durable = $this->durable()) {
+            return $durable->reserve($context, $method, $url);
+        }
         $state = $this->assertOpen();
         if (! $state) {
             return null;
@@ -142,6 +181,11 @@ class PilotCampaign
     /** Called under the SAME HTTP lock; two consecutive 5xx/network errors latch a stop. */
     public function observe(int $status): void
     {
+        if ($durable = $this->durable()) {
+            $durable->observe($status);
+
+            return;
+        }
         if (! $state = $this->state()) {
             return;
         }
@@ -155,6 +199,11 @@ class PilotCampaign
     /** Caller holds HTTP lock, or is the single pilot controller while the worker is idle. */
     public function stop(string $reason): void
     {
+        if ($durable = $this->durable()) {
+            $durable->stop($reason);
+
+            return;
+        }
         if ($state = $this->state()) {
             $state['stopped'] ??= ['reason' => $reason, 'at' => now()->toAtomString()];
             Cache::forever('lex:pilot:'.$state['id'], $state);
@@ -163,6 +212,16 @@ class PilotCampaign
 
     public function admitRun(int $limit, array $sample = []): ?string
     {
+        if ($durable = $this->durable()) {
+            $state = $durable->assertOpen();
+            if (count($sample) !== $limit || DB::table('jobs')->where('queue', 'scraping')->exists() || $limit > min(30, $state['stage'] - $durable->newCount())) {
+                throw new RuntimeException('Durable collection requires bounded explicit selection, stage allowance and an empty queue.');
+            }
+            $durable->selectSources($sample);
+
+            return $state['id'];
+        }
+
         $state = $this->assertOpen();
         if (! $state) {
             return null;
@@ -182,6 +241,9 @@ class PilotCampaign
 
     public function advance(int $stage): array
     {
+        if ($durable = $this->durable()) {
+            return $durable->advance($stage);
+        }
         $state = $this->assertOpen() ?? throw new RuntimeException('No campaign.');
         $next = isset($state['stages']) ? ($state['stages'][array_search($state['stage'], $state['stages'], true) + 1] ?? $state['target'])
             : ($state['stage'] === 30 ? min(100, $state['target']) : $state['target']);
@@ -199,6 +261,14 @@ class PilotCampaign
 
     public function allowsRun(ScrapeRun $run): bool
     {
+        if ($durable = $this->durable()) {
+            $state = $durable->state();
+            if (($run->checkpoint['campaign_id'] ?? null) !== $state['id'] || $state['status'] !== 'running' || ! $state['owned_by_this_process']) {
+                return false;
+            } $durable->assertOwner();
+
+            return true;
+        }
         $id = $run->checkpoint['campaign_id'] ?? null;
         // A campaign receipt cannot escape its budget if configuration/cache is lost.
         if ($id !== null && $id !== $this->id()) {

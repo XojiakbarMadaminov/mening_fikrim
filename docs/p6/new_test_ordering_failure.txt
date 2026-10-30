@@ -1,0 +1,41 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.11
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+[41;37mF[0m..............[41;37mF[0m                                                  16 / 16 (100%)
+
+Time: 00:05.853, Memory: 91.26 MB
+
+There were 2 failures:
+
+1) Tests\Feature\DurableCampaignTest::test_request_budget_and_contexts_survive_cache_clear_and_controller_restart
+Failed asserting that two arrays are identical.
+--- Expected
++++ Actual
+@@ @@
+ Array &0 [
++    'run-1' => 1,
+     'discovery' => 1,
+-    'run-1' => 1,
+ ]
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/DurableCampaignTest.php:47
+
+2) Tests\Feature\SourceArchiveTest::test_reprocessing_review_original_never_overwrites_verified_text
+Failed asserting that two arrays are identical.
+--- Expected
++++ Actual
+@@ @@
+ Array &0 [
++    3 => '3921f916c5c6551c7da5ddd08c19c5f01e921f06d6df8d19bce6502cb5ba339a',
++    2 => '6baa5833cc64a70b76ab1df7139eb56b152a0a2ab5de1865b8f400ec6f3c6215',
+     1 => '4f34ba4a4505b161f9028f338bfa1cb8c006a38e48b52c524c3bbe9d786e35c1',
+-    2 => '6baa5833cc64a70b76ab1df7139eb56b152a0a2ab5de1865b8f400ec6f3c6215',
+-    3 => '3921f916c5c6551c7da5ddd08c19c5f01e921f06d6df8d19bce6502cb5ba339a',
+ ]
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/SourceArchiveTest.php:183
+
+[37;41mFAILURES![0m
+[37;41mTests: 16[0m[37;41m, Assertions: 70[0m[37;41m, Failures: 2[0m[37;41m.[0m

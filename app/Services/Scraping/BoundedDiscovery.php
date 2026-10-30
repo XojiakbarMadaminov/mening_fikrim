@@ -2,6 +2,7 @@
 
 namespace App\Services\Scraping;
 
+use App\Scraping\LexUz\LexHttpClient;
 use App\Scraping\LexUz\LexUzScraper;
 use Illuminate\Support\Facades\Cache;
 use InvalidArgumentException;
@@ -12,10 +13,11 @@ class BoundedDiscovery
 {
     public function __construct(private LexUzScraper $scraper, private DiscoveryPlanner $planner, private PilotCampaign $pilot) {}
 
-    public function collect(string $name, array $query, int $pageCap = 8, int $maxDepth = 10, int $partitionCap = 63, ?callable $afterPage = null): array
+    public function collect(string $name, array $query, int $pageCap = 8, int $maxDepth = 10, int $partitionCap = 63, ?callable $afterPage = null, ?int $singleDayPageCap = null): array
     {
         $this->pilot->assertOpen();
-        if (! preg_match('/^[a-z0-9-]{1,60}$/D', $name) || $pageCap < 1 || $pageCap > 8 || $maxDepth < 0 || $maxDepth > 16 || $partitionCap < 1 || $partitionCap > 127) {
+        $singleDayPageCap ??= $pageCap;
+        if (! preg_match('/^[a-z0-9-]{1,60}$/D', $name) || $pageCap < 1 || $pageCap > 8 || $maxDepth < 0 || $maxDepth > 16 || $partitionCap < 1 || $partitionCap > 127 || $singleDayPageCap < $pageCap || $singleDayPageCap > 64) {
             throw new InvalidArgumentException('Discovery must retain finite page/depth/partition caps.');
         }
         $this->planner->date($query['from'] ?? '');
@@ -23,14 +25,29 @@ class BoundedDiscovery
         $signature = $this->planner->signature($query);
         $key = 'lex:discovery:'.($this->pilot->id() ?? 'offline').':'.$name;
         $bounds = [$signature, $pageCap, $maxDepth, $partitionCap];
-        $state = Cache::get($key) ?? ['bounds' => $bounds, 'nodes' => []];
+        if ($singleDayPageCap !== $pageCap) {
+            $bounds[] = $singleDayPageCap;
+        }
+        $durable = app(DurableCampaign::class);
+        $permanent = $durable->exists();
+        if ($permanent) {
+            $configuration = $durable->state()['configuration_snapshot'];
+            if ($pageCap > $configuration['page_cap'] || $maxDepth > $configuration['max_partition_depth'] || $singleDayPageCap > ($configuration['single_day_page_cap'] ?? $configuration['page_cap'])) {
+                throw new InvalidArgumentException('Discovery cannot exceed the fixed campaign page/depth caps.');
+            }
+        }
+        $state = ($permanent ? $durable->loadCheckpoint($name, $bounds) : Cache::get($key)) ?? ['bounds' => $bounds, 'nodes' => []];
         if ($state['bounds'] !== $bounds) {
             throw new RuntimeException('Cannot reset a discovery checkpoint with different bounds.');
         }
-        $save = function () use (&$state, $key): void {
-            Cache::forever($key, $state);
+        $save = function () use (&$state, $key, $permanent, $durable, $name, $bounds): void {
+            if ($permanent) {
+                $durable->saveCheckpoint($name, $bounds, $state);
+            } else {
+                Cache::forever($key, $state);
+            }
         };
-        $visit = function (array $segment, int $depth) use (&$visit, &$state, $save, $pageCap, $maxDepth, $partitionCap, $afterPage): array {
+        $visit = function (array $segment, int $depth) use (&$visit, &$state, $save, $pageCap, $maxDepth, $partitionCap, $afterPage, $singleDayPageCap, $permanent, $durable): array {
             $id = $this->planner->signature($segment);
             if (($state['nodes'][$id]['done'] ?? false) === true) {
                 return $state['nodes'][$id];
@@ -44,7 +61,11 @@ class BoundedDiscovery
             }
             $node = $state['nodes'][$id];
             if (! isset($node['enumeration'])) {
-                $result = $this->scraper->discover($segment, function ($page) use (&$state, $id, $save, $pageCap, $afterPage): bool {
+                $effectiveBudget = $segment['from'] === $segment['to'] ? $singleDayPageCap : $pageCap;
+                if ($permanent && ($durable->state()['configuration_snapshot']['discovery_node_contexts'] ?? false)) {
+                    app(LexHttpClient::class)->context('discovery-'.substr($id, 0, 40));
+                }
+                $result = $this->scraper->discover($segment, function ($page) use (&$state, $id, $save, $effectiveBudget, $afterPage): bool {
                     $old = $state['nodes'][$id]['pages'][$page['page']] ?? null;
                     $proof = ['total' => $page['total'], 'prefix' => $page['prefix_fingerprint'], 'fingerprint' => $page['fingerprint']];
                     if ($old !== null && $old !== $proof) {
@@ -63,8 +84,8 @@ class BoundedDiscovery
                     }
 
                     // A page-size-derived overflow is a reason to split, never proof of completeness.
-                    return $page['page'] !== 1 || $page['total'] <= max(1, count($page['rows'])) * $pageCap;
-                }, $pageCap);
+                    return $page['page'] !== 1 || $page['total'] <= max(1, count($page['rows'])) * $effectiveBudget;
+                }, $effectiveBudget);
                 $state['nodes'][$id]['enumeration'] = $result;
                 $save();
                 $node = $state['nodes'][$id];

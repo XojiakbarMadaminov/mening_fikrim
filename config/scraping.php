@@ -6,6 +6,8 @@ return [
     'pdf_layout_enabled' => (bool) env('SCRAPING_PDF_LAYOUT_ENABLED', false),
     'python_binary' => env('SCRAPING_PYTHON_BINARY', 'python3'),
     'request_delay_ms' => (int) env('SCRAPING_REQUEST_DELAY_MS', 2000),
+    // Exact responses are reusable only inside a single identity/extraction fetch.
+    'flow_response_cache' => true,
     'http_timeout' => (int) env('SCRAPING_HTTP_TIMEOUT', 30),
     'pdf_timeout' => (int) env('SCRAPING_PDF_TIMEOUT', 90),
     'max_retries' => (int) env('SCRAPING_MAX_RETRIES', 3),

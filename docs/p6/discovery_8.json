@@ -1,0 +1,1778 @@
+{
+    "root": {
+        "query": {
+            "section": "int",
+            "status": "Y",
+            "from": "01.01.2010",
+            "to": "31.12.2010"
+        },
+        "depth": 0,
+        "pages": {
+            "1": {
+                "total": 93,
+                "prefix": "323727821954d0602622311252cd2f14ede193251037ce6cbb5621983241e720",
+                "fingerprint": "119ca2b57192645e8dca2a0c585bb6ac9bb713fc979b7b477477be3ae01ee08c"
+            },
+            "2": {
+                "total": 93,
+                "prefix": "1321d3cc22a7e212fabb8d8a066e46f301c593078b3273690601f1dfef324267",
+                "fingerprint": "d83fccc19594cb9cd1ae211dee384a88df9943331d92346391dfa7ec4f4deaa8"
+            },
+            "3": {
+                "total": 93,
+                "prefix": "5fc8f3d10dc26e767f5f48d5123fd27c3be3c25705b040f3dc39cec91ffe2bbd",
+                "fingerprint": "233844c6a373ef42876be0e9ae3caf37aeda4296cf5e65064dc76da53a9589f1"
+            },
+            "4": {
+                "total": 93,
+                "prefix": "cd37cef055ff5a17c583dca8a8169ed695bb204fcb6505d05a544d9916c5f8dd",
+                "fingerprint": "65d924d4023f066b50f570e90abf817c04204b6489ceb4839bcdc11c01550446"
+            },
+            "5": {
+                "total": 93,
+                "prefix": "f85b0a281974d21c66ba9934979f6168f980e649c91a44373a213dc9149df3dd",
+                "fingerprint": "6b11e786379bbfd60e2bfb3c8a2689c080d811651cb92ee554c9c3de51f7bfa0"
+            }
+        },
+        "rows": {
+            "2662726": {
+                "id": "2662726",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2662726",
+                "title": "2007-2008 йиллар учун молиявий ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2662726": {
+                "id": "-2662726",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2662726",
+                "title": "2007-2008-yillar uchun moliyaviy hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2662722": {
+                "id": "2662722",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2662722",
+                "title": "О финансовом сотрудничестве на 2007-2008 годы",
+                "listing_status": "Y"
+            },
+            "2052576": {
+                "id": "2052576",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2052576",
+                "title": "2007-2008 йилларда техникавий ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2052576": {
+                "id": "-2052576",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2052576",
+                "title": "2007-2008 yillarda texnikaviy hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2052568": {
+                "id": "2052568",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2052568",
+                "title": "О техническом сотрудничестве на 2007-2008 годы",
+                "listing_status": "Y"
+            },
+            "-2048312": {
+                "id": "-2048312",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2048312",
+                "title": "Shaxslarni davlatlararo qidirish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2048312": {
+                "id": "2048312",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2048312",
+                "title": "Шахсларни давлатлараро қидириш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2045186": {
+                "id": "2045186",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2045186",
+                "title": "О межгосударственном розыске лиц",
+                "listing_status": "Y"
+            },
+            "2065785": {
+                "id": "2065785",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2065785",
+                "title": "Илмий-техникавий ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2065785": {
+                "id": "-2065785",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2065785",
+                "title": "Ilmiy-texnikaviy hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2065425": {
+                "id": "2065425",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2065425",
+                "title": "О научно-техническом сотрудничестве",
+                "listing_status": "Y"
+            },
+            "1985660": {
+                "id": "1985660",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1985660",
+                "title": "О сотрудничестве в области борьбы против терроризма, организованной преступности, незаконного оборота наркотических средств и психотропных веществ, а также другими видами преступлений",
+                "listing_status": "Y"
+            },
+            "1985616": {
+                "id": "1985616",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1985616",
+                "title": "Терроризм, уюшган жиноятчилик, гиёҳвандлик воситалари ва психотроп моддаларнинг ноқонуний айланишига, шунингдек бошқа жиноятларга қарши кураш соҳасида ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "-1985616": {
+                "id": "-1985616",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1985616",
+                "title": "Terrorizm, uyushgan jinoyatchilik, giyohvandlik vositalari va psixotrop moddalarning noqonuniy aylanishiga, shuningdek boshqa jinoyatlarga qarshi kurash sohasida hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2057729": {
+                "id": "2057729",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2057729",
+                "title": "О развитии двусторонних отношений",
+                "listing_status": "Y"
+            },
+            "2057723": {
+                "id": "2057723",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2057723",
+                "title": "Икки томонлама муносабатларни ривожлантириш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2057723": {
+                "id": "-2057723",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2057723",
+                "title": "Ikki tomonlama munosabatlarni rivojlantirish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "1985229": {
+                "id": "1985229",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1985229",
+                "title": "О сотрудничестве в правовой сфере",
+                "listing_status": "Y"
+            },
+            "-1985197": {
+                "id": "-1985197",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1985197",
+                "title": "Huquqiy sohada hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "1985197": {
+                "id": "1985197",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1985197",
+                "title": "Ҳуқуқий соҳада ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2631462": {
+                "id": "2631462",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2631462",
+                "title": "Об экономическом, торговом и техническом сотрудничестве",
+                "listing_status": "Y"
+            },
+            "-2631460": {
+                "id": "-2631460",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2631460",
+                "title": "Iqtisodiy, savdo va texnikaviy hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2631460": {
+                "id": "2631460",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2631460",
+                "title": "Иқтисодий, савдо ва техникавий ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "2056990": {
+                "id": "2056990",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2056990",
+                "title": "О сотрудничестве в области туризма",
+                "listing_status": "Y"
+            },
+            "-2056361": {
+                "id": "-2056361",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2056361",
+                "title": "Turizm sohasida hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2056361": {
+                "id": "2056361",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2056361",
+                "title": "Туризм соҳасида ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "2056310": {
+                "id": "2056310",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2056310",
+                "title": "О сотрудничестве в сфере охраны окружающей среды и природных ресурсов для устойчивого развития",
+                "listing_status": "Y"
+            },
+            "-2056222": {
+                "id": "-2056222",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2056222",
+                "title": "Atrof-muhitni muhofaza qilish va barqaror taraqqiyot maqsadida tabiiy resurslardan oqilona foydalanish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2056222": {
+                "id": "2056222",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2056222",
+                "title": "Атроф-муҳитни муҳофаза қилиш ва барқарор тараққиёт мақсадида табиий ресурслардан оқилона фойдаланиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "1984701": {
+                "id": "1984701",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1984701",
+                "title": "Об избежании двойного налогообложения и предотвращении уклонения от уплаты налогов на доход",
+                "listing_status": "Y"
+            },
+            "-1984698": {
+                "id": "-1984698",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1984698",
+                "title": "Ikki yoqlama soliqqa tortishga yoʻl qoʻymaslik hamda daromad soliqlarini toʻlashdan boʻyin tovlashning oldini olish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "1984698": {
+                "id": "1984698",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1984698",
+                "title": "Икки ёқлама солиққа тортишга йўл қўймаслик ҳамда даромад солиқларини тўлашдан бўйин товлашнинг олдини олиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2050008": {
+                "id": "2050008",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2050008",
+                "title": "Бир-бирига мос келувчи миллий телетиббиёт тизимларини яратишда ва уларни янада ривожлантириш ҳамда фойдаланишда МДҲда қатнашувчи давлатлар ҳамкорлиги тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2050008": {
+                "id": "-2050008",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2050008",
+                "title": "Bir-biriga mos keluvchi milliy teletibbiyot tizimlarini yaratishda va ularni yanada rivojlantirish hamda foydalanishda MDHda qatnashuvchi davlatlar hamkorligi toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2046522": {
+                "id": "2046522",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2046522",
+                "title": "О сотрудничестве государств — участников СНГ в создании совместимых национальных телемедицинских систем и дальнейшем их развитии и использовании",
+                "listing_status": "Y"
+            },
+            "-2629302": {
+                "id": "-2629302",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2629302",
+                "title": "Intellektual mulkni huquqiy muhofaza qilish va himoyalash sohasida hamkorlik qilish hamda Intellektual mulkni huquqiy muhofaza qilish va himoyalash masalalari boʻyicha Davlatlararo kengashni tashkil etish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2629302": {
+                "id": "2629302",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2629302",
+                "title": "Интеллектуал мулкни ҳуқуқий муҳофаза қилиш ва ҳимоялаш соҳасида ҳамкорлик қилиш ҳамда Интеллектуал мулкни ҳуқуқий муҳофаза қилиш ва ҳимоялаш масалалари бўйича Давлатлараро кенгашни ташкил этиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2629288": {
+                "id": "2629288",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2629288",
+                "title": "О сотрудничестве в области правовой охраны и защиты интеллектуальной собственности и создании Межгосударственного совета по вопросам правовой охраны и защиты интеллектуальной собственности",
+                "listing_status": "Y"
+            },
+            "2062333": {
+                "id": "2062333",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2062333",
+                "title": "О сотрудничестве по контролю за наркотическими средствами, психотропными веществами и их прекурсоров",
+                "listing_status": "Y"
+            },
+            "-2062331": {
+                "id": "-2062331",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2062331",
+                "title": "Giyohvandlik vositalar, psixotrop moddalar va ularning prekursorlari ustidan nazorat qilishda hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2062331": {
+                "id": "2062331",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2062331",
+                "title": "Гиёҳвандлик воситалар, психотроп моддалар ва уларнинг прекурсорлари устидан назорат қилишда ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2735723": {
+                "id": "2735723",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2735723",
+                "title": "Дипломатик муносабатлар ўрнатиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2735723": {
+                "id": "-2735723",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2735723",
+                "title": "Diplomatik munosabatlar oʻrnatish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2735721": {
+                "id": "2735721",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2735721",
+                "title": "Об установлении дипломатических отношений",
+                "listing_status": "Y"
+            },
+            "2066353": {
+                "id": "2066353",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2066353",
+                "title": "Экономического сотрудничества на 2011-2015 годы",
+                "listing_status": "Y"
+            },
+            "2066279": {
+                "id": "2066279",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2066279",
+                "title": "2011-2015 йилларга мўлжалланган иқтисодий ҳамкорлик",
+                "listing_status": "Y"
+            },
+            "-2066279": {
+                "id": "-2066279",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2066279",
+                "title": "2011-2015-yillarga moʻljallangan iqtisodiy hamkorlik",
+                "listing_status": "Y"
+            },
+            "-2066047": {
+                "id": "-2066047",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2066047",
+                "title": "2010-2012-yillarga moʻljallangan hamkorlik",
+                "listing_status": "Y"
+            },
+            "2066047": {
+                "id": "2066047",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2066047",
+                "title": "2010-2012 йилларга мўлжалланган ҳамкорлик",
+                "listing_status": "Y"
+            },
+            "2066043": {
+                "id": "2066043",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2066043",
+                "title": "Сотрудничества на 2010-2012 годы",
+                "listing_status": "Y"
+            },
+            "2057301": {
+                "id": "2057301",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2057301",
+                "title": "О сотрудничестве в предупреждении и борьбе с терроризмом, транснациональной организованной преступностью и иными видами преступлений",
+                "listing_status": "Y"
+            },
+            "2057272": {
+                "id": "2057272",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2057272",
+                "title": "Терроризм, трансмиллий уюшган жиноятчилик ва жиноятнинг бошқа турларига қарши курашда ва уларни олдини олишда ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2057272": {
+                "id": "-2057272",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2057272",
+                "title": "Terrorizm, transmilliy uyushgan jinoyatchilik va jinoyatning boshqa turlariga qarshi kurashda va ularni oldini olishda hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-4984271": {
+                "id": "-4984271",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4984271",
+                "title": "Qishloq xoʻjaligi sohasida hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4984271": {
+                "id": "4984271",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4984271",
+                "title": "Қишлоқ хўжалиги соҳасида ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4984269": {
+                "id": "4984269",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4984269",
+                "title": "О сотрудничестве в области сельского хозяйства",
+                "listing_status": "Y"
+            },
+            "-2068061": {
+                "id": "-2068061",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2068061",
+                "title": "Jinoyatchilikka qarshi kurashda hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2068061": {
+                "id": "2068061",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2068061",
+                "title": "Жиноятчиликка қарши курашда ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2068059": {
+                "id": "2068059",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2068059",
+                "title": "Сотрудничества в борьбе с преступностью",
+                "listing_status": "Y"
+            },
+            "-2629273": {
+                "id": "-2629273",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2629273",
+                "title": "Xom ashyo bilan bogʻliq boʻlmagan va yuqori texnologiyalar sohasida hamkorlik",
+                "listing_status": "Y"
+            },
+            "2629273": {
+                "id": "2629273",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2629273",
+                "title": "Хом ашё билан боғлиқ бўлмаган ва юқори технологиялар соҳасида ҳамкорлик",
+                "listing_status": "Y"
+            },
+            "2629222": {
+                "id": "2629222",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2629222",
+                "title": "Сотрудничества в несырьевой и высокотехнологической сферах",
+                "listing_status": "Y"
+            },
+            "1809851": {
+                "id": "1809851",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1809851",
+                "title": "О взаимных безвизовых поездках владельцев дипломатических паспортов",
+                "listing_status": "Y"
+            },
+            "1809846": {
+                "id": "1809846",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1809846",
+                "title": "Дипломатик паспорт эгаларининг ўзаро визасиз сафарлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "-1809846": {
+                "id": "-1809846",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1809846",
+                "title": "Diplomatik pasport egalarining oʻzaro vizasiz safarlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2754946": {
+                "id": "2754946",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2754946",
+                "title": "1995 йил 3 ноябрдаги Стандартлаштириш, метрология ва сертификатлаштириш соҳасида келишилган сиёсатни олиб бориш ҳақидаги Битими қатнашувчи давлатларининг қуролли кучларда ўлчов бирликларининг ягоналигини таъминлаш борасида ўзаро ҳамкорлик қилиш тўғрисидаги Битимига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2754946": {
+                "id": "-2754946",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2754946",
+                "title": "1995-yil 3-noyabrdagi Standartlashtirish, metrologiya va sertifikatlashtirish sohasida kelishilgan siyosatni olib borish haqidagi Bitimi qatnashuvchi davlatlarining qurolli kuchlarda oʻlchov birliklarining yagonaligini taʼminlash borasida oʻzaro hamkorlik qilish toʻgʻrisidagi Bitimiga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2754944": {
+                "id": "2754944",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2754944",
+                "title": "О внесении изменений и дополнений в Соглашение о сотрудничестве по обеспечению единства измерений в вооруженных силах государств - участников Соглашения о проведении согласованной политики в области стандартизации, метрологии и сертификации от 3 ноября 1995 года",
+                "listing_status": "Y"
+            },
+            "2756315": {
+                "id": "2756315",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2756315",
+                "title": "О внесении изменений и дополнений в Соглашение о сотрудничестве пограничных войск в сфере пограничного контроля в пунктах пропуска через границы государств - участников Содружества Независимых Государств с государствами, не входящими в Содружество от 25 ноября 1998 года",
+                "listing_status": "Y"
+            },
+            "-2756313": {
+                "id": "-2756313",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2756313",
+                "title": "1998-yil 25-noyabrdagi Hamdoʻstlikka kirmaydigan davlatlar bilan Mustaqil Davlatlar Hamdoʻstligiga aʼzo davlatlar chegaralaridan oʻtish punktlarida chegara nazorati sohasida chegara qoʻshinlari hamkorligi toʻgʻrisidagi Bitimga oʻzgartirishlar va qoʻshimchalar kiritish haqida",
+                "listing_status": "Y"
+            },
+            "2756313": {
+                "id": "2756313",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2756313",
+                "title": "1998 йил 25 ноябрдаги Ҳамдўстликка кирмайдиган давлатлар билан Мустақил Давлатлар Ҳамдўстлигига аъзо давлатлар чегараларидан ўтиш пунктларида чегара назорати соҳасида чегара қўшинлари ҳамкорлиги тўғрисидаги Битимга ўзгартиришлар ва қўшимчалар киритиш ҳақида",
+                "listing_status": "Y"
+            },
+            "-1939121": {
+                "id": "-1939121",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1939121",
+                "title": "Mustaqil Davlatlar Hamdoʻstligida qatnashuvchi davlatlarning tabiiy va suyultirilgan gazdan motor yonilgʻisi sifatida foydalanish sohasida mutaxassislar tayyorlash, qayta tayyorlash va malakasini oshirish boʻyicha hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "1939121": {
+                "id": "1939121",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1939121",
+                "title": "Мустақил Давлатлар Ҳамдўстлигида қатнашувчи давлатларнинг табиий ва суюлтирилган газдан мотор ёнилғиси сифатида фойдаланиш соҳасида мутахассислар тайёрлаш, қайта тайёрлаш ва малакасини ошириш бўйича ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "1939119": {
+                "id": "1939119",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1939119",
+                "title": "О сотрудничестве государств-участников Содружества Независимых Государств в подготовке, переподготовке и повышении квалификации специалистов в области использования природного и сжиженного газа в качестве моторного топлива",
+                "listing_status": "Y"
+            },
+            "2756009": {
+                "id": "2756009",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2756009",
+                "title": "Мустақил Давлатлар Ҳамдўстлигига аъзо давлатларнинг миллий бозорларга товарлар ва хизматларни олиб кириш учун давлалараро ахборот-маркетинг марказлари тармоғини ташкил қилиш, фойдаланиш ва ривожлантиришда ҳамкорлик қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2756009": {
+                "id": "-2756009",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2756009",
+                "title": "Mustaqil Davlatlar Hamdoʻstligiga aʼzo davlatlarning milliy bozorlarga tovarlar va xizmatlarni olib kirish uchun davlalararo axborot-marketing markazlari tarmogʻini tashkil qilish, foydalanish va rivojlantirishda hamkorlik qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2756007": {
+                "id": "2756007",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2756007",
+                "title": "О сотрудничестве государств-участников СНГ в создании, использовании и развитии межгосударственной сети информационно-маркетинговых центров для продвижения товаров и услуг на национальные рынки",
+                "listing_status": "Y"
+            },
+            "1809251": {
+                "id": "1809251",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1809251",
+                "title": "О сотрудничестве в области стандартизации",
+                "listing_status": "Y"
+            },
+            "1809249": {
+                "id": "1809249",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1809249",
+                "title": "Стандартлаштириш соҳасида ўзаро ҳамкорлик тўғрисида",
+                "listing_status": "Y"
+            },
+            "-1809249": {
+                "id": "-1809249",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1809249",
+                "title": "Standartlashtirish sohasida oʻzaro hamkorlik toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2057140": {
+                "id": "2057140",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2057140",
+                "title": "О безвизовых поездках граждан владельцев дипломатических паспортов",
+                "listing_status": "Y"
+            },
+            "2057138": {
+                "id": "2057138",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2057138",
+                "title": "Дипломатик паспортга эга фуқароларнинг визасиз сафар қилишлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2057138": {
+                "id": "-2057138",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2057138",
+                "title": "Diplomatik pasportga ega fuqarolarning vizasiz safar qilishlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-2625295": {
+                "id": "-2625295",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2625295",
+                "title": "Oʻzbekiston Respublikasining Qozogʻiston Respublikasidagi va Qozogʻiston Respublikasining Oʻzbekiston Respublikasidagi diplomatik vakolatxonalari binolarini qurish uchun oʻzaro yer uchastkalari taqdim etish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2625295": {
+                "id": "2625295",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2625295",
+                "title": "Ўзбекистон Республикасининг Қозоғистон Республикасидаги ва Қозоғистон Республикасининг Ўзбекистон Республикасидаги дипломатик ваколатхоналари биноларини қуриш учун ўзаро ер участкалари тақдим этиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "2625293": {
+                "id": "2625293",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2625293",
+                "title": "О взаимном предоставлении земельных участков для строительства зданий дипломатических представительств Республики Узбекистан в Республике Казахстан и Республики Казахстан в Республике Узбекистан",
+                "listing_status": "Y"
+            },
+            "2621584": {
+                "id": "2621584",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2621584",
+                "title": "Сайғоқлар сонини муҳофаза қилиш, қайта тиклаш ва барқарор ривожлантириш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-2621584": {
+                "id": "-2621584",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-2621584",
+                "title": "Saygʻoqlar sonini muhofaza qilish, qayta tiklash va barqaror rivojlantirish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "2621575": {
+                "id": "2621575",
+                "url": "https:\/\/lex.uz\/uz\/docs\/2621575",
+                "title": "По охране, воспроизводству и устойчивому развитию поголовья сайгаков (saiga tatarika tatarika)",
+                "listing_status": "Y"
+            },
+            "1803645": {
+                "id": "1803645",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1803645",
+                "title": "О сотрудничестве в сфере карантина растений",
+                "listing_status": "Y"
+            },
+            "-1803639": {
+                "id": "-1803639",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-1803639",
+                "title": "Oʻsimliklar karantini sohasida hamkorlik qilish haqida",
+                "listing_status": "Y"
+            },
+            "1803639": {
+                "id": "1803639",
+                "url": "https:\/\/lex.uz\/uz\/docs\/1803639",
+                "title": "Ўсимликлар карантини соҳасида ҳамкорлик қилиш ҳақида",
+                "listing_status": "Y"
+            }
+        },
+        "done": true,
+        "enumeration": {
+            "complete": true,
+            "total": 93,
+            "unique_ids": 93,
+            "pages": 5,
+            "restarts": 0
+        },
+        "total": 93,
+        "complete": true
+    },
+    "nodes": {
+        "cfc0275d8f0ac380044a33209b91615f0d0067d050e9e06b2a1f30aa4f173ea6": {
+            "query": {
+                "section": "int",
+                "status": "Y",
+                "from": "01.01.2010",
+                "to": "31.12.2010"
+            },
+            "depth": 0,
+            "pages": {
+                "1": {
+                    "total": 93,
+                    "prefix": "323727821954d0602622311252cd2f14ede193251037ce6cbb5621983241e720",
+                    "fingerprint": "119ca2b57192645e8dca2a0c585bb6ac9bb713fc979b7b477477be3ae01ee08c"
+                },
+                "2": {
+                    "total": 93,
+                    "prefix": "1321d3cc22a7e212fabb8d8a066e46f301c593078b3273690601f1dfef324267",
+                    "fingerprint": "d83fccc19594cb9cd1ae211dee384a88df9943331d92346391dfa7ec4f4deaa8"
+                },
+                "3": {
+                    "total": 93,
+                    "prefix": "5fc8f3d10dc26e767f5f48d5123fd27c3be3c25705b040f3dc39cec91ffe2bbd",
+                    "fingerprint": "233844c6a373ef42876be0e9ae3caf37aeda4296cf5e65064dc76da53a9589f1"
+                },
+                "4": {
+                    "total": 93,
+                    "prefix": "cd37cef055ff5a17c583dca8a8169ed695bb204fcb6505d05a544d9916c5f8dd",
+                    "fingerprint": "65d924d4023f066b50f570e90abf817c04204b6489ceb4839bcdc11c01550446"
+                },
+                "5": {
+                    "total": 93,
+                    "prefix": "f85b0a281974d21c66ba9934979f6168f980e649c91a44373a213dc9149df3dd",
+                    "fingerprint": "6b11e786379bbfd60e2bfb3c8a2689c080d811651cb92ee554c9c3de51f7bfa0"
+                }
+            },
+            "rows": {
+                "2662726": {
+                    "id": "2662726",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2662726",
+                    "title": "2007-2008 йиллар учун молиявий ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2662726": {
+                    "id": "-2662726",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2662726",
+                    "title": "2007-2008-yillar uchun moliyaviy hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2662722": {
+                    "id": "2662722",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2662722",
+                    "title": "О финансовом сотрудничестве на 2007-2008 годы",
+                    "listing_status": "Y"
+                },
+                "2052576": {
+                    "id": "2052576",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2052576",
+                    "title": "2007-2008 йилларда техникавий ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2052576": {
+                    "id": "-2052576",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2052576",
+                    "title": "2007-2008 yillarda texnikaviy hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2052568": {
+                    "id": "2052568",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2052568",
+                    "title": "О техническом сотрудничестве на 2007-2008 годы",
+                    "listing_status": "Y"
+                },
+                "-2048312": {
+                    "id": "-2048312",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2048312",
+                    "title": "Shaxslarni davlatlararo qidirish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2048312": {
+                    "id": "2048312",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2048312",
+                    "title": "Шахсларни давлатлараро қидириш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2045186": {
+                    "id": "2045186",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2045186",
+                    "title": "О межгосударственном розыске лиц",
+                    "listing_status": "Y"
+                },
+                "2065785": {
+                    "id": "2065785",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2065785",
+                    "title": "Илмий-техникавий ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2065785": {
+                    "id": "-2065785",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2065785",
+                    "title": "Ilmiy-texnikaviy hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2065425": {
+                    "id": "2065425",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2065425",
+                    "title": "О научно-техническом сотрудничестве",
+                    "listing_status": "Y"
+                },
+                "1985660": {
+                    "id": "1985660",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1985660",
+                    "title": "О сотрудничестве в области борьбы против терроризма, организованной преступности, незаконного оборота наркотических средств и психотропных веществ, а также другими видами преступлений",
+                    "listing_status": "Y"
+                },
+                "1985616": {
+                    "id": "1985616",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1985616",
+                    "title": "Терроризм, уюшган жиноятчилик, гиёҳвандлик воситалари ва психотроп моддаларнинг ноқонуний айланишига, шунингдек бошқа жиноятларга қарши кураш соҳасида ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-1985616": {
+                    "id": "-1985616",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1985616",
+                    "title": "Terrorizm, uyushgan jinoyatchilik, giyohvandlik vositalari va psixotrop moddalarning noqonuniy aylanishiga, shuningdek boshqa jinoyatlarga qarshi kurash sohasida hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2057729": {
+                    "id": "2057729",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2057729",
+                    "title": "О развитии двусторонних отношений",
+                    "listing_status": "Y"
+                },
+                "2057723": {
+                    "id": "2057723",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2057723",
+                    "title": "Икки томонлама муносабатларни ривожлантириш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2057723": {
+                    "id": "-2057723",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2057723",
+                    "title": "Ikki tomonlama munosabatlarni rivojlantirish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "1985229": {
+                    "id": "1985229",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1985229",
+                    "title": "О сотрудничестве в правовой сфере",
+                    "listing_status": "Y"
+                },
+                "-1985197": {
+                    "id": "-1985197",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1985197",
+                    "title": "Huquqiy sohada hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "1985197": {
+                    "id": "1985197",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1985197",
+                    "title": "Ҳуқуқий соҳада ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2631462": {
+                    "id": "2631462",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2631462",
+                    "title": "Об экономическом, торговом и техническом сотрудничестве",
+                    "listing_status": "Y"
+                },
+                "-2631460": {
+                    "id": "-2631460",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2631460",
+                    "title": "Iqtisodiy, savdo va texnikaviy hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2631460": {
+                    "id": "2631460",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2631460",
+                    "title": "Иқтисодий, савдо ва техникавий ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2056990": {
+                    "id": "2056990",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2056990",
+                    "title": "О сотрудничестве в области туризма",
+                    "listing_status": "Y"
+                },
+                "-2056361": {
+                    "id": "-2056361",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2056361",
+                    "title": "Turizm sohasida hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2056361": {
+                    "id": "2056361",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2056361",
+                    "title": "Туризм соҳасида ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2056310": {
+                    "id": "2056310",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2056310",
+                    "title": "О сотрудничестве в сфере охраны окружающей среды и природных ресурсов для устойчивого развития",
+                    "listing_status": "Y"
+                },
+                "-2056222": {
+                    "id": "-2056222",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2056222",
+                    "title": "Atrof-muhitni muhofaza qilish va barqaror taraqqiyot maqsadida tabiiy resurslardan oqilona foydalanish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2056222": {
+                    "id": "2056222",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2056222",
+                    "title": "Атроф-муҳитни муҳофаза қилиш ва барқарор тараққиёт мақсадида табиий ресурслардан оқилона фойдаланиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "1984701": {
+                    "id": "1984701",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1984701",
+                    "title": "Об избежании двойного налогообложения и предотвращении уклонения от уплаты налогов на доход",
+                    "listing_status": "Y"
+                },
+                "-1984698": {
+                    "id": "-1984698",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1984698",
+                    "title": "Ikki yoqlama soliqqa tortishga yoʻl qoʻymaslik hamda daromad soliqlarini toʻlashdan boʻyin tovlashning oldini olish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "1984698": {
+                    "id": "1984698",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1984698",
+                    "title": "Икки ёқлама солиққа тортишга йўл қўймаслик ҳамда даромад солиқларини тўлашдан бўйин товлашнинг олдини олиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2050008": {
+                    "id": "2050008",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2050008",
+                    "title": "Бир-бирига мос келувчи миллий телетиббиёт тизимларини яратишда ва уларни янада ривожлантириш ҳамда фойдаланишда МДҲда қатнашувчи давлатлар ҳамкорлиги тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2050008": {
+                    "id": "-2050008",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2050008",
+                    "title": "Bir-biriga mos keluvchi milliy teletibbiyot tizimlarini yaratishda va ularni yanada rivojlantirish hamda foydalanishda MDHda qatnashuvchi davlatlar hamkorligi toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2046522": {
+                    "id": "2046522",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2046522",
+                    "title": "О сотрудничестве государств — участников СНГ в создании совместимых национальных телемедицинских систем и дальнейшем их развитии и использовании",
+                    "listing_status": "Y"
+                },
+                "-2629302": {
+                    "id": "-2629302",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2629302",
+                    "title": "Intellektual mulkni huquqiy muhofaza qilish va himoyalash sohasida hamkorlik qilish hamda Intellektual mulkni huquqiy muhofaza qilish va himoyalash masalalari boʻyicha Davlatlararo kengashni tashkil etish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2629302": {
+                    "id": "2629302",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2629302",
+                    "title": "Интеллектуал мулкни ҳуқуқий муҳофаза қилиш ва ҳимоялаш соҳасида ҳамкорлик қилиш ҳамда Интеллектуал мулкни ҳуқуқий муҳофаза қилиш ва ҳимоялаш масалалари бўйича Давлатлараро кенгашни ташкил этиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2629288": {
+                    "id": "2629288",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2629288",
+                    "title": "О сотрудничестве в области правовой охраны и защиты интеллектуальной собственности и создании Межгосударственного совета по вопросам правовой охраны и защиты интеллектуальной собственности",
+                    "listing_status": "Y"
+                },
+                "2062333": {
+                    "id": "2062333",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2062333",
+                    "title": "О сотрудничестве по контролю за наркотическими средствами, психотропными веществами и их прекурсоров",
+                    "listing_status": "Y"
+                },
+                "-2062331": {
+                    "id": "-2062331",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2062331",
+                    "title": "Giyohvandlik vositalar, psixotrop moddalar va ularning prekursorlari ustidan nazorat qilishda hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2062331": {
+                    "id": "2062331",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2062331",
+                    "title": "Гиёҳвандлик воситалар, психотроп моддалар ва уларнинг прекурсорлари устидан назорат қилишда ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2735723": {
+                    "id": "2735723",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2735723",
+                    "title": "Дипломатик муносабатлар ўрнатиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2735723": {
+                    "id": "-2735723",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2735723",
+                    "title": "Diplomatik munosabatlar oʻrnatish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2735721": {
+                    "id": "2735721",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2735721",
+                    "title": "Об установлении дипломатических отношений",
+                    "listing_status": "Y"
+                },
+                "2066353": {
+                    "id": "2066353",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2066353",
+                    "title": "Экономического сотрудничества на 2011-2015 годы",
+                    "listing_status": "Y"
+                },
+                "2066279": {
+                    "id": "2066279",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2066279",
+                    "title": "2011-2015 йилларга мўлжалланган иқтисодий ҳамкорлик",
+                    "listing_status": "Y"
+                },
+                "-2066279": {
+                    "id": "-2066279",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2066279",
+                    "title": "2011-2015-yillarga moʻljallangan iqtisodiy hamkorlik",
+                    "listing_status": "Y"
+                },
+                "-2066047": {
+                    "id": "-2066047",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2066047",
+                    "title": "2010-2012-yillarga moʻljallangan hamkorlik",
+                    "listing_status": "Y"
+                },
+                "2066047": {
+                    "id": "2066047",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2066047",
+                    "title": "2010-2012 йилларга мўлжалланган ҳамкорлик",
+                    "listing_status": "Y"
+                },
+                "2066043": {
+                    "id": "2066043",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2066043",
+                    "title": "Сотрудничества на 2010-2012 годы",
+                    "listing_status": "Y"
+                },
+                "2057301": {
+                    "id": "2057301",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2057301",
+                    "title": "О сотрудничестве в предупреждении и борьбе с терроризмом, транснациональной организованной преступностью и иными видами преступлений",
+                    "listing_status": "Y"
+                },
+                "2057272": {
+                    "id": "2057272",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2057272",
+                    "title": "Терроризм, трансмиллий уюшган жиноятчилик ва жиноятнинг бошқа турларига қарши курашда ва уларни олдини олишда ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2057272": {
+                    "id": "-2057272",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2057272",
+                    "title": "Terrorizm, transmilliy uyushgan jinoyatchilik va jinoyatning boshqa turlariga qarshi kurashda va ularni oldini olishda hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-4984271": {
+                    "id": "-4984271",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4984271",
+                    "title": "Qishloq xoʻjaligi sohasida hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4984271": {
+                    "id": "4984271",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4984271",
+                    "title": "Қишлоқ хўжалиги соҳасида ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4984269": {
+                    "id": "4984269",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4984269",
+                    "title": "О сотрудничестве в области сельского хозяйства",
+                    "listing_status": "Y"
+                },
+                "-2068061": {
+                    "id": "-2068061",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2068061",
+                    "title": "Jinoyatchilikka qarshi kurashda hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2068061": {
+                    "id": "2068061",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2068061",
+                    "title": "Жиноятчиликка қарши курашда ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2068059": {
+                    "id": "2068059",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2068059",
+                    "title": "Сотрудничества в борьбе с преступностью",
+                    "listing_status": "Y"
+                },
+                "-2629273": {
+                    "id": "-2629273",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2629273",
+                    "title": "Xom ashyo bilan bogʻliq boʻlmagan va yuqori texnologiyalar sohasida hamkorlik",
+                    "listing_status": "Y"
+                },
+                "2629273": {
+                    "id": "2629273",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2629273",
+                    "title": "Хом ашё билан боғлиқ бўлмаган ва юқори технологиялар соҳасида ҳамкорлик",
+                    "listing_status": "Y"
+                },
+                "2629222": {
+                    "id": "2629222",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2629222",
+                    "title": "Сотрудничества в несырьевой и высокотехнологической сферах",
+                    "listing_status": "Y"
+                },
+                "1809851": {
+                    "id": "1809851",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1809851",
+                    "title": "О взаимных безвизовых поездках владельцев дипломатических паспортов",
+                    "listing_status": "Y"
+                },
+                "1809846": {
+                    "id": "1809846",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1809846",
+                    "title": "Дипломатик паспорт эгаларининг ўзаро визасиз сафарлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-1809846": {
+                    "id": "-1809846",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1809846",
+                    "title": "Diplomatik pasport egalarining oʻzaro vizasiz safarlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2754946": {
+                    "id": "2754946",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2754946",
+                    "title": "1995 йил 3 ноябрдаги Стандартлаштириш, метрология ва сертификатлаштириш соҳасида келишилган сиёсатни олиб бориш ҳақидаги Битими қатнашувчи давлатларининг қуролли кучларда ўлчов бирликларининг ягоналигини таъминлаш борасида ўзаро ҳамкорлик қилиш тўғрисидаги Битимига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2754946": {
+                    "id": "-2754946",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2754946",
+                    "title": "1995-yil 3-noyabrdagi Standartlashtirish, metrologiya va sertifikatlashtirish sohasida kelishilgan siyosatni olib borish haqidagi Bitimi qatnashuvchi davlatlarining qurolli kuchlarda oʻlchov birliklarining yagonaligini taʼminlash borasida oʻzaro hamkorlik qilish toʻgʻrisidagi Bitimiga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2754944": {
+                    "id": "2754944",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2754944",
+                    "title": "О внесении изменений и дополнений в Соглашение о сотрудничестве по обеспечению единства измерений в вооруженных силах государств - участников Соглашения о проведении согласованной политики в области стандартизации, метрологии и сертификации от 3 ноября 1995 года",
+                    "listing_status": "Y"
+                },
+                "2756315": {
+                    "id": "2756315",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2756315",
+                    "title": "О внесении изменений и дополнений в Соглашение о сотрудничестве пограничных войск в сфере пограничного контроля в пунктах пропуска через границы государств - участников Содружества Независимых Государств с государствами, не входящими в Содружество от 25 ноября 1998 года",
+                    "listing_status": "Y"
+                },
+                "-2756313": {
+                    "id": "-2756313",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2756313",
+                    "title": "1998-yil 25-noyabrdagi Hamdoʻstlikka kirmaydigan davlatlar bilan Mustaqil Davlatlar Hamdoʻstligiga aʼzo davlatlar chegaralaridan oʻtish punktlarida chegara nazorati sohasida chegara qoʻshinlari hamkorligi toʻgʻrisidagi Bitimga oʻzgartirishlar va qoʻshimchalar kiritish haqida",
+                    "listing_status": "Y"
+                },
+                "2756313": {
+                    "id": "2756313",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2756313",
+                    "title": "1998 йил 25 ноябрдаги Ҳамдўстликка кирмайдиган давлатлар билан Мустақил Давлатлар Ҳамдўстлигига аъзо давлатлар чегараларидан ўтиш пунктларида чегара назорати соҳасида чегара қўшинлари ҳамкорлиги тўғрисидаги Битимга ўзгартиришлар ва қўшимчалар киритиш ҳақида",
+                    "listing_status": "Y"
+                },
+                "-1939121": {
+                    "id": "-1939121",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1939121",
+                    "title": "Mustaqil Davlatlar Hamdoʻstligida qatnashuvchi davlatlarning tabiiy va suyultirilgan gazdan motor yonilgʻisi sifatida foydalanish sohasida mutaxassislar tayyorlash, qayta tayyorlash va malakasini oshirish boʻyicha hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "1939121": {
+                    "id": "1939121",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1939121",
+                    "title": "Мустақил Давлатлар Ҳамдўстлигида қатнашувчи давлатларнинг табиий ва суюлтирилган газдан мотор ёнилғиси сифатида фойдаланиш соҳасида мутахассислар тайёрлаш, қайта тайёрлаш ва малакасини ошириш бўйича ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "1939119": {
+                    "id": "1939119",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1939119",
+                    "title": "О сотрудничестве государств-участников Содружества Независимых Государств в подготовке, переподготовке и повышении квалификации специалистов в области использования природного и сжиженного газа в качестве моторного топлива",
+                    "listing_status": "Y"
+                },
+                "2756009": {
+                    "id": "2756009",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2756009",
+                    "title": "Мустақил Давлатлар Ҳамдўстлигига аъзо давлатларнинг миллий бозорларга товарлар ва хизматларни олиб кириш учун давлалараро ахборот-маркетинг марказлари тармоғини ташкил қилиш, фойдаланиш ва ривожлантиришда ҳамкорлик қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2756009": {
+                    "id": "-2756009",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2756009",
+                    "title": "Mustaqil Davlatlar Hamdoʻstligiga aʼzo davlatlarning milliy bozorlarga tovarlar va xizmatlarni olib kirish uchun davlalararo axborot-marketing markazlari tarmogʻini tashkil qilish, foydalanish va rivojlantirishda hamkorlik qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2756007": {
+                    "id": "2756007",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2756007",
+                    "title": "О сотрудничестве государств-участников СНГ в создании, использовании и развитии межгосударственной сети информационно-маркетинговых центров для продвижения товаров и услуг на национальные рынки",
+                    "listing_status": "Y"
+                },
+                "1809251": {
+                    "id": "1809251",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1809251",
+                    "title": "О сотрудничестве в области стандартизации",
+                    "listing_status": "Y"
+                },
+                "1809249": {
+                    "id": "1809249",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1809249",
+                    "title": "Стандартлаштириш соҳасида ўзаро ҳамкорлик тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-1809249": {
+                    "id": "-1809249",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1809249",
+                    "title": "Standartlashtirish sohasida oʻzaro hamkorlik toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2057140": {
+                    "id": "2057140",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2057140",
+                    "title": "О безвизовых поездках граждан владельцев дипломатических паспортов",
+                    "listing_status": "Y"
+                },
+                "2057138": {
+                    "id": "2057138",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2057138",
+                    "title": "Дипломатик паспортга эга фуқароларнинг визасиз сафар қилишлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2057138": {
+                    "id": "-2057138",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2057138",
+                    "title": "Diplomatik pasportga ega fuqarolarning vizasiz safar qilishlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-2625295": {
+                    "id": "-2625295",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2625295",
+                    "title": "Oʻzbekiston Respublikasining Qozogʻiston Respublikasidagi va Qozogʻiston Respublikasining Oʻzbekiston Respublikasidagi diplomatik vakolatxonalari binolarini qurish uchun oʻzaro yer uchastkalari taqdim etish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2625295": {
+                    "id": "2625295",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2625295",
+                    "title": "Ўзбекистон Республикасининг Қозоғистон Республикасидаги ва Қозоғистон Республикасининг Ўзбекистон Республикасидаги дипломатик ваколатхоналари биноларини қуриш учун ўзаро ер участкалари тақдим этиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "2625293": {
+                    "id": "2625293",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2625293",
+                    "title": "О взаимном предоставлении земельных участков для строительства зданий дипломатических представительств Республики Узбекистан в Республике Казахстан и Республики Казахстан в Республике Узбекистан",
+                    "listing_status": "Y"
+                },
+                "2621584": {
+                    "id": "2621584",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2621584",
+                    "title": "Сайғоқлар сонини муҳофаза қилиш, қайта тиклаш ва барқарор ривожлантириш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-2621584": {
+                    "id": "-2621584",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-2621584",
+                    "title": "Saygʻoqlar sonini muhofaza qilish, qayta tiklash va barqaror rivojlantirish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "2621575": {
+                    "id": "2621575",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/2621575",
+                    "title": "По охране, воспроизводству и устойчивому развитию поголовья сайгаков (saiga tatarika tatarika)",
+                    "listing_status": "Y"
+                },
+                "1803645": {
+                    "id": "1803645",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1803645",
+                    "title": "О сотрудничестве в сфере карантина растений",
+                    "listing_status": "Y"
+                },
+                "-1803639": {
+                    "id": "-1803639",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-1803639",
+                    "title": "Oʻsimliklar karantini sohasida hamkorlik qilish haqida",
+                    "listing_status": "Y"
+                },
+                "1803639": {
+                    "id": "1803639",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/1803639",
+                    "title": "Ўсимликлар карантини соҳасида ҳамкорлик қилиш ҳақида",
+                    "listing_status": "Y"
+                }
+            },
+            "done": true,
+            "enumeration": {
+                "complete": true,
+                "total": 93,
+                "unique_ids": 93,
+                "pages": 5,
+                "restarts": 0
+            },
+            "total": 93,
+            "complete": true
+        }
+    },
+    "complete": true,
+    "rows": [
+        {
+            "id": "2662726",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2662726",
+            "title": "2007-2008 йиллар учун молиявий ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2662726",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2662726",
+            "title": "2007-2008-yillar uchun moliyaviy hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2662722",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2662722",
+            "title": "О финансовом сотрудничестве на 2007-2008 годы",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2052576",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2052576",
+            "title": "2007-2008 йилларда техникавий ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2052576",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2052576",
+            "title": "2007-2008 yillarda texnikaviy hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2052568",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2052568",
+            "title": "О техническом сотрудничестве на 2007-2008 годы",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2048312",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2048312",
+            "title": "Shaxslarni davlatlararo qidirish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2048312",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2048312",
+            "title": "Шахсларни давлатлараро қидириш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2045186",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2045186",
+            "title": "О межгосударственном розыске лиц",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2065785",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2065785",
+            "title": "Илмий-техникавий ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2065785",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2065785",
+            "title": "Ilmiy-texnikaviy hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2065425",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2065425",
+            "title": "О научно-техническом сотрудничестве",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1985660",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1985660",
+            "title": "О сотрудничестве в области борьбы против терроризма, организованной преступности, незаконного оборота наркотических средств и психотропных веществ, а также другими видами преступлений",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1985616",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1985616",
+            "title": "Терроризм, уюшган жиноятчилик, гиёҳвандлик воситалари ва психотроп моддаларнинг ноқонуний айланишига, шунингдек бошқа жиноятларга қарши кураш соҳасида ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1985616",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1985616",
+            "title": "Terrorizm, uyushgan jinoyatchilik, giyohvandlik vositalari va psixotrop moddalarning noqonuniy aylanishiga, shuningdek boshqa jinoyatlarga qarshi kurash sohasida hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2057729",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2057729",
+            "title": "О развитии двусторонних отношений",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2057723",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2057723",
+            "title": "Икки томонлама муносабатларни ривожлантириш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2057723",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2057723",
+            "title": "Ikki tomonlama munosabatlarni rivojlantirish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1985229",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1985229",
+            "title": "О сотрудничестве в правовой сфере",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1985197",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1985197",
+            "title": "Huquqiy sohada hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1985197",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1985197",
+            "title": "Ҳуқуқий соҳада ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2631462",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2631462",
+            "title": "Об экономическом, торговом и техническом сотрудничестве",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2631460",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2631460",
+            "title": "Iqtisodiy, savdo va texnikaviy hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2631460",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2631460",
+            "title": "Иқтисодий, савдо ва техникавий ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2056990",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2056990",
+            "title": "О сотрудничестве в области туризма",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2056361",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2056361",
+            "title": "Turizm sohasida hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2056361",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2056361",
+            "title": "Туризм соҳасида ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2056310",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2056310",
+            "title": "О сотрудничестве в сфере охраны окружающей среды и природных ресурсов для устойчивого развития",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2056222",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2056222",
+            "title": "Atrof-muhitni muhofaza qilish va barqaror taraqqiyot maqsadida tabiiy resurslardan oqilona foydalanish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2056222",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2056222",
+            "title": "Атроф-муҳитни муҳофаза қилиш ва барқарор тараққиёт мақсадида табиий ресурслардан оқилона фойдаланиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1984701",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1984701",
+            "title": "Об избежании двойного налогообложения и предотвращении уклонения от уплаты налогов на доход",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1984698",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1984698",
+            "title": "Ikki yoqlama soliqqa tortishga yoʻl qoʻymaslik hamda daromad soliqlarini toʻlashdan boʻyin tovlashning oldini olish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1984698",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1984698",
+            "title": "Икки ёқлама солиққа тортишга йўл қўймаслик ҳамда даромад солиқларини тўлашдан бўйин товлашнинг олдини олиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2050008",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2050008",
+            "title": "Бир-бирига мос келувчи миллий телетиббиёт тизимларини яратишда ва уларни янада ривожлантириш ҳамда фойдаланишда МДҲда қатнашувчи давлатлар ҳамкорлиги тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2050008",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2050008",
+            "title": "Bir-biriga mos keluvchi milliy teletibbiyot tizimlarini yaratishda va ularni yanada rivojlantirish hamda foydalanishda MDHda qatnashuvchi davlatlar hamkorligi toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2046522",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2046522",
+            "title": "О сотрудничестве государств — участников СНГ в создании совместимых национальных телемедицинских систем и дальнейшем их развитии и использовании",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2629302",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2629302",
+            "title": "Intellektual mulkni huquqiy muhofaza qilish va himoyalash sohasida hamkorlik qilish hamda Intellektual mulkni huquqiy muhofaza qilish va himoyalash masalalari boʻyicha Davlatlararo kengashni tashkil etish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2629302",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2629302",
+            "title": "Интеллектуал мулкни ҳуқуқий муҳофаза қилиш ва ҳимоялаш соҳасида ҳамкорлик қилиш ҳамда Интеллектуал мулкни ҳуқуқий муҳофаза қилиш ва ҳимоялаш масалалари бўйича Давлатлараро кенгашни ташкил этиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2629288",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2629288",
+            "title": "О сотрудничестве в области правовой охраны и защиты интеллектуальной собственности и создании Межгосударственного совета по вопросам правовой охраны и защиты интеллектуальной собственности",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2062333",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2062333",
+            "title": "О сотрудничестве по контролю за наркотическими средствами, психотропными веществами и их прекурсоров",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2062331",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2062331",
+            "title": "Giyohvandlik vositalar, psixotrop moddalar va ularning prekursorlari ustidan nazorat qilishda hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2062331",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2062331",
+            "title": "Гиёҳвандлик воситалар, психотроп моддалар ва уларнинг прекурсорлари устидан назорат қилишда ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2735723",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2735723",
+            "title": "Дипломатик муносабатлар ўрнатиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2735723",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2735723",
+            "title": "Diplomatik munosabatlar oʻrnatish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2735721",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2735721",
+            "title": "Об установлении дипломатических отношений",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2066353",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2066353",
+            "title": "Экономического сотрудничества на 2011-2015 годы",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2066279",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2066279",
+            "title": "2011-2015 йилларга мўлжалланган иқтисодий ҳамкорлик",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2066279",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2066279",
+            "title": "2011-2015-yillarga moʻljallangan iqtisodiy hamkorlik",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2066047",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2066047",
+            "title": "2010-2012-yillarga moʻljallangan hamkorlik",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2066047",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2066047",
+            "title": "2010-2012 йилларга мўлжалланган ҳамкорлик",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2066043",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2066043",
+            "title": "Сотрудничества на 2010-2012 годы",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2057301",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2057301",
+            "title": "О сотрудничестве в предупреждении и борьбе с терроризмом, транснациональной организованной преступностью и иными видами преступлений",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2057272",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2057272",
+            "title": "Терроризм, трансмиллий уюшган жиноятчилик ва жиноятнинг бошқа турларига қарши курашда ва уларни олдини олишда ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2057272",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2057272",
+            "title": "Terrorizm, transmilliy uyushgan jinoyatchilik va jinoyatning boshqa turlariga qarshi kurashda va ularni oldini olishda hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4984271",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4984271",
+            "title": "Qishloq xoʻjaligi sohasida hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4984271",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4984271",
+            "title": "Қишлоқ хўжалиги соҳасида ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4984269",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4984269",
+            "title": "О сотрудничестве в области сельского хозяйства",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2068061",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2068061",
+            "title": "Jinoyatchilikka qarshi kurashda hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2068061",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2068061",
+            "title": "Жиноятчиликка қарши курашда ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2068059",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2068059",
+            "title": "Сотрудничества в борьбе с преступностью",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2629273",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2629273",
+            "title": "Xom ashyo bilan bogʻliq boʻlmagan va yuqori texnologiyalar sohasida hamkorlik",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2629273",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2629273",
+            "title": "Хом ашё билан боғлиқ бўлмаган ва юқори технологиялар соҳасида ҳамкорлик",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2629222",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2629222",
+            "title": "Сотрудничества в несырьевой и высокотехнологической сферах",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1809851",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1809851",
+            "title": "О взаимных безвизовых поездках владельцев дипломатических паспортов",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1809846",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1809846",
+            "title": "Дипломатик паспорт эгаларининг ўзаро визасиз сафарлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1809846",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1809846",
+            "title": "Diplomatik pasport egalarining oʻzaro vizasiz safarlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2754946",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2754946",
+            "title": "1995 йил 3 ноябрдаги Стандартлаштириш, метрология ва сертификатлаштириш соҳасида келишилган сиёсатни олиб бориш ҳақидаги Битими қатнашувчи давлатларининг қуролли кучларда ўлчов бирликларининг ягоналигини таъминлаш борасида ўзаро ҳамкорлик қилиш тўғрисидаги Битимига ўзгартириш ва қўшимчалар киритиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2754946",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2754946",
+            "title": "1995-yil 3-noyabrdagi Standartlashtirish, metrologiya va sertifikatlashtirish sohasida kelishilgan siyosatni olib borish haqidagi Bitimi qatnashuvchi davlatlarining qurolli kuchlarda oʻlchov birliklarining yagonaligini taʼminlash borasida oʻzaro hamkorlik qilish toʻgʻrisidagi Bitimiga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2754944",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2754944",
+            "title": "О внесении изменений и дополнений в Соглашение о сотрудничестве по обеспечению единства измерений в вооруженных силах государств - участников Соглашения о проведении согласованной политики в области стандартизации, метрологии и сертификации от 3 ноября 1995 года",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2756315",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2756315",
+            "title": "О внесении изменений и дополнений в Соглашение о сотрудничестве пограничных войск в сфере пограничного контроля в пунктах пропуска через границы государств - участников Содружества Независимых Государств с государствами, не входящими в Содружество от 25 ноября 1998 года",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2756313",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2756313",
+            "title": "1998-yil 25-noyabrdagi Hamdoʻstlikka kirmaydigan davlatlar bilan Mustaqil Davlatlar Hamdoʻstligiga aʼzo davlatlar chegaralaridan oʻtish punktlarida chegara nazorati sohasida chegara qoʻshinlari hamkorligi toʻgʻrisidagi Bitimga oʻzgartirishlar va qoʻshimchalar kiritish haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2756313",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2756313",
+            "title": "1998 йил 25 ноябрдаги Ҳамдўстликка кирмайдиган давлатлар билан Мустақил Давлатлар Ҳамдўстлигига аъзо давлатлар чегараларидан ўтиш пунктларида чегара назорати соҳасида чегара қўшинлари ҳамкорлиги тўғрисидаги Битимга ўзгартиришлар ва қўшимчалар киритиш ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1939121",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1939121",
+            "title": "Mustaqil Davlatlar Hamdoʻstligida qatnashuvchi davlatlarning tabiiy va suyultirilgan gazdan motor yonilgʻisi sifatida foydalanish sohasida mutaxassislar tayyorlash, qayta tayyorlash va malakasini oshirish boʻyicha hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1939121",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1939121",
+            "title": "Мустақил Давлатлар Ҳамдўстлигида қатнашувчи давлатларнинг табиий ва суюлтирилган газдан мотор ёнилғиси сифатида фойдаланиш соҳасида мутахассислар тайёрлаш, қайта тайёрлаш ва малакасини ошириш бўйича ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1939119",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1939119",
+            "title": "О сотрудничестве государств-участников Содружества Независимых Государств в подготовке, переподготовке и повышении квалификации специалистов в области использования природного и сжиженного газа в качестве моторного топлива",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2756009",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2756009",
+            "title": "Мустақил Давлатлар Ҳамдўстлигига аъзо давлатларнинг миллий бозорларга товарлар ва хизматларни олиб кириш учун давлалараро ахборот-маркетинг марказлари тармоғини ташкил қилиш, фойдаланиш ва ривожлантиришда ҳамкорлик қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2756009",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2756009",
+            "title": "Mustaqil Davlatlar Hamdoʻstligiga aʼzo davlatlarning milliy bozorlarga tovarlar va xizmatlarni olib kirish uchun davlalararo axborot-marketing markazlari tarmogʻini tashkil qilish, foydalanish va rivojlantirishda hamkorlik qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2756007",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2756007",
+            "title": "О сотрудничестве государств-участников СНГ в создании, использовании и развитии межгосударственной сети информационно-маркетинговых центров для продвижения товаров и услуг на национальные рынки",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1809251",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1809251",
+            "title": "О сотрудничестве в области стандартизации",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1809249",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1809249",
+            "title": "Стандартлаштириш соҳасида ўзаро ҳамкорлик тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1809249",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1809249",
+            "title": "Standartlashtirish sohasida oʻzaro hamkorlik toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2057140",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2057140",
+            "title": "О безвизовых поездках граждан владельцев дипломатических паспортов",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2057138",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2057138",
+            "title": "Дипломатик паспортга эга фуқароларнинг визасиз сафар қилишлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2057138",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2057138",
+            "title": "Diplomatik pasportga ega fuqarolarning vizasiz safar qilishlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2625295",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2625295",
+            "title": "Oʻzbekiston Respublikasining Qozogʻiston Respublikasidagi va Qozogʻiston Respublikasining Oʻzbekiston Respublikasidagi diplomatik vakolatxonalari binolarini qurish uchun oʻzaro yer uchastkalari taqdim etish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2625295",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2625295",
+            "title": "Ўзбекистон Республикасининг Қозоғистон Республикасидаги ва Қозоғистон Республикасининг Ўзбекистон Республикасидаги дипломатик ваколатхоналари биноларини қуриш учун ўзаро ер участкалари тақдим этиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2625293",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2625293",
+            "title": "О взаимном предоставлении земельных участков для строительства зданий дипломатических представительств Республики Узбекистан в Республике Казахстан и Республики Казахстан в Республике Узбекистан",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2621584",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2621584",
+            "title": "Сайғоқлар сонини муҳофаза қилиш, қайта тиклаш ва барқарор ривожлантириш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-2621584",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-2621584",
+            "title": "Saygʻoqlar sonini muhofaza qilish, qayta tiklash va barqaror rivojlantirish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "2621575",
+            "url": "https:\/\/lex.uz\/uz\/docs\/2621575",
+            "title": "По охране, воспроизводству и устойчивому развитию поголовья сайгаков (saiga tatarika tatarika)",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1803645",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1803645",
+            "title": "О сотрудничестве в сфере карантина растений",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-1803639",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-1803639",
+            "title": "Oʻsimliklar karantini sohasida hamkorlik qilish haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "1803639",
+            "url": "https:\/\/lex.uz\/uz\/docs\/1803639",
+            "title": "Ўсимликлар карантини соҳасида ҳамкорлик қилиш ҳақида",
+            "listing_status": "Y"
+        }
+    ],
+    "cache_key": "lex:discovery:p6-corpus-1000-20261029:scope-8"
+}

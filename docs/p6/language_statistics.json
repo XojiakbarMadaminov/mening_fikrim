@@ -1,0 +1,20 @@
+{
+    "available": 2340,
+    "not_available": 46,
+    "unknown": 1202,
+    "available_but_failed_or_missing": 0,
+    "legacy_unassessed_documents": 182,
+    "document_coverage": {
+        "unknown": 1073,
+        "complete": 6
+    },
+    "document_quality": {
+        "verified": 937,
+        "needs_review": 142
+    },
+    "legal_status": {
+        "active": 1071,
+        "pending": 7,
+        "inactive": 1
+    }
+}

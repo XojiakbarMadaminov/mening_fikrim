@@ -10,6 +10,8 @@ use App\Scraping\LexUz\LexRequestException;
 use App\Scraping\LexUz\SourceReviewException;
 use App\Services\Documents\DocumentImporter;
 use App\Services\Documents\DocumentValidator;
+use App\Services\Scraping\ArchiveCapture;
+use App\Services\Scraping\DurableCampaign;
 use App\Services\Scraping\PilotCampaign;
 use App\Services\Scraping\RunItemTracker;
 use App\Services\Scraping\ScrapeRunManager;
@@ -59,7 +61,7 @@ class ImportDocumentJob implements ShouldQueue
             return;
         }
         if (! app(PilotCampaign::class)->allowsRun(ScrapeRun::findOrFail($this->runId))) {
-            $this->release(3600);
+            $this->release(in_array(app(PilotCampaign::class)->state()['status'] ?? '', ['paused', 'pausing'], true) ? 10 : 3600);
             app('queue.worker')->shouldQuit = true;
 
             return;
@@ -80,6 +82,9 @@ class ImportDocumentJob implements ShouldQueue
         $manager = app(ScrapeRunManager::class);
         app(LexHttpClient::class)->context('run-'.$this->runId);
         $candidate = null;
+        $result = null;
+        $failure = null;
+        $capture = app(ArchiveCapture::class);
         $started = hrtime(true);
         try {
             if ($alias = $tracker->confirmedAlias($item)) {
@@ -88,11 +93,15 @@ class ImportDocumentJob implements ShouldQueue
                 return;
             }
             // No source/import transaction is open during HTTP, HTML parsing, PDF or OCR.
+            $capture->begin($this->sourceId, (string) $this->candidate, app(PilotCampaign::class)->id());
             $candidate = app(DocumentScraper::class)->fetch((string) $this->candidate, $this->listingStatus);
             $fetchParseSeconds = (hrtime(true) - $started) / 1e9;
             $checkedAt = new DateTimeImmutable;
             $sourceStatus = app(DocumentValidator::class)->status($candidate['status_evidence'], $checkedAt)['status']->value;
             $result = DB::transaction(function () use ($importer, $candidate, $checkedAt, $manager, $sourceStatus, $started, $claim, $fetchParseSeconds) {
+                if (app(DurableCampaign::class)->exists()) {
+                    app(DurableCampaign::class)->assertOwner();
+                }
                 // Consistent run -> item -> source lock order; no network/parse work here.
                 ScrapeRun::lockForUpdate()->findOrFail($this->runId);
                 $receipt = ScrapeRunItem::lockForUpdate()->findOrFail($this->itemId);
@@ -108,7 +117,7 @@ class ImportDocumentJob implements ShouldQueue
                         'format' => $candidate['diagnostics']['primary_format'], 'source_status' => $sourceStatus,
                         'identity_key' => hash('sha256', json_encode($ids)), 'identity_verified' => true,
                         'quality' => $this->qualitySummary($candidate['diagnostics']['quality']),
-                        'metrics' => ['queue_wait_seconds' => $claim['queue_wait_seconds'], 'fetch_parse_seconds' => round($fetchParseSeconds, 6), 'fetch_parse_import_seconds' => round((hrtime(true) - $started) / 1e9, 6)],
+                        'metrics' => ['queue_wait_seconds' => $claim['queue_wait_seconds'], 'fetch_parse_seconds' => round($fetchParseSeconds, 6), 'fetch_parse_import_seconds' => round((hrtime(true) - $started) / 1e9, 6), 'http' => app(LexHttpClient::class)->flowStatistics()],
                         'error' => $result['complete'] ? null : 'Language/structure quality requires review.',
                     ], $this->dispatchToken);
                 } else {
@@ -122,6 +131,7 @@ class ImportDocumentJob implements ShouldQueue
                 throw $candidate['technical_exception'];
             }
         } catch (ValidationException $e) {
+            $failure = $e;
             $identityIds = array_map(fn ($node) => $node['external_id'], $candidate['identity'] ?? []);
             sort($identityIds, SORT_STRING);
             $manager->outcome($this->runId, (string) $this->candidate, ['state' => 'review', 'action' => 'rejected', 'document_id' => null, 'complete' => false,
@@ -131,9 +141,11 @@ class ImportDocumentJob implements ShouldQueue
                 'quality' => isset($candidate['diagnostics']['quality']) ? $this->qualitySummary($candidate['diagnostics']['quality']) : [],
                 'error' => mb_substr(json_encode($e->errors(), JSON_UNESCAPED_UNICODE), 0, 1500)], $this->dispatchToken);
         } catch (SourceReviewException $e) {
+            $failure = $e;
             $manager->outcome($this->runId, (string) $this->candidate, ['state' => 'review', 'action' => 'rejected', 'document_id' => null, 'complete' => false,
                 'error' => $e->getMessage()], $this->dispatchToken);
         } catch (Throwable $e) {
+            $failure = $e;
             $delay = $e instanceof LexRequestException && $e->retryAfter !== null ? $e->retryAfter : $this->backoff()[min($item->attempts - 1, 2)];
             if ($e instanceof LexRequestException && ($e->status === 403 || ($e->status > 0 && $e->status < 500 && $e->status !== 429))) {
                 $this->fail($e);
@@ -146,6 +158,24 @@ class ImportDocumentJob implements ShouldQueue
             } else {
                 throw $e;
             }
+        } finally {
+            $archiveStarted = hrtime(true);
+            $archive = $capture->finish($candidate, $result, $failure, $checkedAt ?? null);
+            $archive['duration_seconds'] = (hrtime(true) - $archiveStarted) / 1e9;
+            if ($archive['observation_ids'] !== [] || $archive['errors'] !== []) {
+                DB::transaction(function () use ($archive) {
+                    $item = ScrapeRunItem::lockForUpdate()->findOrFail($this->itemId);
+                    if ($item->dispatch_token === $this->dispatchToken) {
+                        $outcome = $item->outcome ?? [];
+                        $outcome['archive'] = $archive;
+                        $item->update(['outcome' => $outcome]);
+                    }
+                });
+            }
+            if ($archive['stop_reason'] !== null || $archive['failed'] > 0 || in_array('archive_observation_write_failed', $archive['errors'], true)) {
+                app(PilotCampaign::class)->stop($archive['stop_reason'] ?? 'archive_failure_requires_review');
+            }
+            app(LexHttpClient::class)->endFlow();
         }
     }
 

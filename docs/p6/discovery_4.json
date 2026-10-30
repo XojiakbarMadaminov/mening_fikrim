@@ -1,0 +1,262 @@
+{
+    "root": {
+        "query": {
+            "section": "court",
+            "status": "Y",
+            "from": "01.01.2020",
+            "to": "31.12.2020"
+        },
+        "depth": 0,
+        "pages": {
+            "1": {
+                "total": 11,
+                "prefix": "0900ce940d1bcc0fa97ee658e6994f0e6c76173663789ac189773450494d751d",
+                "fingerprint": "0b9db0b5b83d01d32483a86dc348293924e625bb220a643994548d648135fb9e"
+            }
+        },
+        "rows": {
+            "-5289314": {
+                "id": "-5289314",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5289314",
+                "title": "Oʻzbekiston Respublikasi nomidan hal qiluv qarori",
+                "listing_status": "Y"
+            },
+            "5289314": {
+                "id": "5289314",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5289314",
+                "title": "Ўзбекистон Республикаси номидан ҳал қилув қарори",
+                "listing_status": "Y"
+            },
+            "6182601": {
+                "id": "6182601",
+                "url": "https:\/\/lex.uz\/uz\/docs\/6182601",
+                "title": "Приговор от имени Республики Узбекистан",
+                "listing_status": "Y"
+            },
+            "4986382": {
+                "id": "4986382",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4986382",
+                "title": "Ўзбекистон Республикаси номидан ҳукм",
+                "listing_status": "Y"
+            },
+            "-4986382": {
+                "id": "-4986382",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4986382",
+                "title": "Oʻzbekiston Respublikasi nomidan hukm",
+                "listing_status": "Y"
+            },
+            "4986081": {
+                "id": "4986081",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4986081",
+                "title": "Ажрим",
+                "listing_status": "Y"
+            },
+            "-4947843": {
+                "id": "-4947843",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4947843",
+                "title": "Oʻzbekiston Respublikasi Oliy sudining sudlov hayʼatlari tomonidan 2020-yilning ikkinchi choragida nazorat tartibida koʻrilgan ishlar boʻyicha sud amaliyoti obzori toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4947843": {
+                "id": "4947843",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4947843",
+                "title": "Ўзбекистон Республикаси Олий судининг судлов ҳайъатлари томонидан 2020 йилнинг иккинчи чорагида назорат тартибида кўрилган ишлар бўйича суд амалиёти обзори тўғрисида",
+                "listing_status": "Y"
+            },
+            "4953974": {
+                "id": "4953974",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4953974",
+                "title": "Об обзоре судебной практики по делам, рассмотренным судебными коллегиями в четвертом квартале 2019 года",
+                "listing_status": "Y"
+            },
+            "4953970": {
+                "id": "4953970",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4953970",
+                "title": "Судлов ҳайъатлари томонидан 2019 йилнинг тўртинчи чорагида назорат тартибида кўрилган ишлар бўйича суд амалиёти обзори ҳақида",
+                "listing_status": "Y"
+            },
+            "-4953970": {
+                "id": "-4953970",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4953970",
+                "title": "Sudlov hayʼatlari tomonidan 2019-yilning toʻrtinchi choragida nazorat tartibida koʻrilgan ishlar boʻyicha sud amaliyoti obzori haqida",
+                "listing_status": "Y"
+            }
+        },
+        "done": true,
+        "enumeration": {
+            "complete": true,
+            "total": 11,
+            "unique_ids": 11,
+            "pages": 1,
+            "restarts": 0
+        },
+        "total": 11,
+        "complete": true
+    },
+    "nodes": {
+        "fc3247a38bc8744155ddf83150083a66579d648ea52c71e3cf8d375b192d18e6": {
+            "query": {
+                "section": "court",
+                "status": "Y",
+                "from": "01.01.2020",
+                "to": "31.12.2020"
+            },
+            "depth": 0,
+            "pages": {
+                "1": {
+                    "total": 11,
+                    "prefix": "0900ce940d1bcc0fa97ee658e6994f0e6c76173663789ac189773450494d751d",
+                    "fingerprint": "0b9db0b5b83d01d32483a86dc348293924e625bb220a643994548d648135fb9e"
+                }
+            },
+            "rows": {
+                "-5289314": {
+                    "id": "-5289314",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5289314",
+                    "title": "Oʻzbekiston Respublikasi nomidan hal qiluv qarori",
+                    "listing_status": "Y"
+                },
+                "5289314": {
+                    "id": "5289314",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5289314",
+                    "title": "Ўзбекистон Республикаси номидан ҳал қилув қарори",
+                    "listing_status": "Y"
+                },
+                "6182601": {
+                    "id": "6182601",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/6182601",
+                    "title": "Приговор от имени Республики Узбекистан",
+                    "listing_status": "Y"
+                },
+                "4986382": {
+                    "id": "4986382",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4986382",
+                    "title": "Ўзбекистон Республикаси номидан ҳукм",
+                    "listing_status": "Y"
+                },
+                "-4986382": {
+                    "id": "-4986382",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4986382",
+                    "title": "Oʻzbekiston Respublikasi nomidan hukm",
+                    "listing_status": "Y"
+                },
+                "4986081": {
+                    "id": "4986081",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4986081",
+                    "title": "Ажрим",
+                    "listing_status": "Y"
+                },
+                "-4947843": {
+                    "id": "-4947843",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4947843",
+                    "title": "Oʻzbekiston Respublikasi Oliy sudining sudlov hayʼatlari tomonidan 2020-yilning ikkinchi choragida nazorat tartibida koʻrilgan ishlar boʻyicha sud amaliyoti obzori toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4947843": {
+                    "id": "4947843",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4947843",
+                    "title": "Ўзбекистон Республикаси Олий судининг судлов ҳайъатлари томонидан 2020 йилнинг иккинчи чорагида назорат тартибида кўрилган ишлар бўйича суд амалиёти обзори тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4953974": {
+                    "id": "4953974",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4953974",
+                    "title": "Об обзоре судебной практики по делам, рассмотренным судебными коллегиями в четвертом квартале 2019 года",
+                    "listing_status": "Y"
+                },
+                "4953970": {
+                    "id": "4953970",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4953970",
+                    "title": "Судлов ҳайъатлари томонидан 2019 йилнинг тўртинчи чорагида назорат тартибида кўрилган ишлар бўйича суд амалиёти обзори ҳақида",
+                    "listing_status": "Y"
+                },
+                "-4953970": {
+                    "id": "-4953970",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4953970",
+                    "title": "Sudlov hayʼatlari tomonidan 2019-yilning toʻrtinchi choragida nazorat tartibida koʻrilgan ishlar boʻyicha sud amaliyoti obzori haqida",
+                    "listing_status": "Y"
+                }
+            },
+            "done": true,
+            "enumeration": {
+                "complete": true,
+                "total": 11,
+                "unique_ids": 11,
+                "pages": 1,
+                "restarts": 0
+            },
+            "total": 11,
+            "complete": true
+        }
+    },
+    "complete": true,
+    "rows": [
+        {
+            "id": "-5289314",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5289314",
+            "title": "Oʻzbekiston Respublikasi nomidan hal qiluv qarori",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5289314",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5289314",
+            "title": "Ўзбекистон Республикаси номидан ҳал қилув қарори",
+            "listing_status": "Y"
+        },
+        {
+            "id": "6182601",
+            "url": "https:\/\/lex.uz\/uz\/docs\/6182601",
+            "title": "Приговор от имени Республики Узбекистан",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4986382",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4986382",
+            "title": "Ўзбекистон Республикаси номидан ҳукм",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4986382",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4986382",
+            "title": "Oʻzbekiston Respublikasi nomidan hukm",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4986081",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4986081",
+            "title": "Ажрим",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4947843",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4947843",
+            "title": "Oʻzbekiston Respublikasi Oliy sudining sudlov hayʼatlari tomonidan 2020-yilning ikkinchi choragida nazorat tartibida koʻrilgan ishlar boʻyicha sud amaliyoti obzori toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4947843",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4947843",
+            "title": "Ўзбекистон Республикаси Олий судининг судлов ҳайъатлари томонидан 2020 йилнинг иккинчи чорагида назорат тартибида кўрилган ишлар бўйича суд амалиёти обзори тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4953974",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4953974",
+            "title": "Об обзоре судебной практики по делам, рассмотренным судебными коллегиями в четвертом квартале 2019 года",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4953970",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4953970",
+            "title": "Судлов ҳайъатлари томонидан 2019 йилнинг тўртинчи чорагида назорат тартибида кўрилган ишлар бўйича суд амалиёти обзори ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4953970",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4953970",
+            "title": "Sudlov hayʼatlari tomonidan 2019-yilning toʻrtinchi choragida nazorat tartibida koʻrilgan ishlar boʻyicha sud amaliyoti obzori haqida",
+            "listing_status": "Y"
+        }
+    ],
+    "cache_key": "lex:discovery:p6-corpus-1000-20261029:scope-4"
+}

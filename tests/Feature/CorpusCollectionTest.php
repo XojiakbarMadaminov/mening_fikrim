@@ -325,9 +325,11 @@ class CorpusCollectionTest extends TestCase
         $unknown = $this->source->documents()->create(['title' => 'Unproven legacy admission', 'status' => 'active']);
         $unknown->contents()->create(['title' => 'Unproven text', 'language' => 'en', 'content' => 'Unproven legacy legal text.', 'content_hash' => hash('sha256', 'Unproven legacy legal text.')]);
         $snapshot = DocumentContent::orderBy('id')->get(['id', 'document_id', 'content', 'content_hash', 'last_fetched_at'])->toArray();
-        $this->artisan('migrate:rollback', ['--step' => 1])->assertSuccessful();
+        // P6 adds later migrations; exercise the exact P4 migration, not whichever is latest.
+        $migration = require database_path('migrations/2026_10_28_000007_add_content_quality_tracking.php');
+        $migration->down();
         $this->assertFalse(Schema::hasColumn('document_contents', 'quality_status'));
-        $this->artisan('migrate')->assertSuccessful();
+        $migration->up();
         $this->assertSame($snapshot, DocumentContent::orderBy('id')->get(['id', 'document_id', 'content', 'content_hash', 'last_fetched_at'])->toArray());
         $this->assertSame(3, DocumentContent::where('quality_status', 'verified')->count());
         $this->assertSame('needs_review', $unknown->contents()->first()->quality_status);

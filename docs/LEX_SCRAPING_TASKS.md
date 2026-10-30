@@ -269,3 +269,61 @@ Quyidagi full-discovery roadmap checklisti pilot bilan global completed deb belg
 - [ ] P6/1000/full/scheduling:separate explicit authorization required;not started.
 
 |2026-10-29|P5.1|42NEW,combined200;229docs/625IDs/541texts,449verified+92review;oliy2020 coverage1429/1429|172tests/719assertions,Pint,16+37offline;414×200,882.156s,old433hashes/P5ledger preserved|P6 CONDITIONAL GO with explicit authorization;PDF/OCR diversity,identity/access/durability gaps remain.|
+
+## P6 — Authorized durable corpus pilot (continuation)
+
+- [x] Read architecture, P0–P5.1 evidence and actual database; preserve baseline (229 documents / 625 identifiers / 541 contents; 449 verified / 92 review; 24 historical failed jobs).
+- [x] Complete permanent campaign registry, checkpoint tree, atomic HTTP budget, exclusive PostgreSQL controller and stale-owner fencing.
+- [x] Test cache loss, process SIGKILL/recovery, controller competition, pause/resume, terminal stops and discovery replay.
+- [x] Implement private bounded SHA-addressed archive and provenance, quota/hash/atomic writes, explicit disabled/privacy-blocked/failed outcomes.
+- [x] Implement bounded zero-network archived reprocessing with dry-run, original observation time and verified-content protection.
+- [x] Measure deterministic HTTP alias optimization: 24 → 8 simulated requests with identical canonical/text/quality results; no live speed claim.
+- [x] Full Laravel suite: 201 tests / 860 assertions PASS; Pint PASS; development migrations non-destructive, historical integrity audit PASS.
+- [x] Declare finite validation/collection budgets before live requests; scheduling disabled, one worker, >=2,000 ms, run limit <=30.
+- [x] Bounded live validation: 30 groups / 193 requests, 8 text PDFs / 4 OCR PDFs; type conflicts, 40-page OCR rejections and retention gaps documented.
+- [x] Main stage 30 NEW canonical passed, repeat/worker-resume and preservation audits passed.
+- [x] Main stages 100 and 300 NEW canonical passed with queue/preservation/integrity audits.
+- [x] Main stage 600 NEW canonical passed: 829 documents / 2,102 contents, 1,845 verified / 257 review; no integrity errors, zero queued jobs, historical 24 failed jobs retained.
+- [ ] Complete main stage 1,000: NOT reached. Terminal stop at 850 NEW canonical: bounded_discovery_scope_exhausted. Remaining 150 require a separately authorized bounded completion campaign; do not reopen this campaign.
+- [x] Prepare 30 distinct documents for human QA; human review fields remain pending.
+- [x] Final live request/performance/discovery/language/archive/storage/integrity evidence and P6_REPORT.md.
+
+Final P6 evidence: 1,079 documents / 3,104 identifiers / 2,763 contents (2,471 verified / 292 review); 6,196 total HTTP (193 validation + 6,003 main), minimum start interval 2.019004s; zero new failed jobs, old 24 preserved; 31 complete discovery leaves / 0 incomplete, 3,007 unique source IDs; 11 text PDFs / 10 OCR PDFs; no raw blobs because retention disabled. Main active 3h30m13s; integrity PASS, 201 tests / 860 assertions and Pint PASS. NO-GO for declaring the 1,000 target complete or starting full import.
+
+Progress: `p6/README.md`. Safety stops remain terminal; no full crawl, scheduler, new OCR or production deployment is authorized.
+
+## P6.1 — autonomous handoff (explicitly authorized)
+
+- [x] Audit P6 implementation, real schema/CLI/queue/auth and record1079/3104/2763 baseline; preserve all old rows and P6 files.
+- [x] Implement Artisan controller + campaign-aware worker, exclusive role coordination and original owner/fencing handoff.
+- [x] Automatic bounded discovery/batch/stage/receipt recovery, signal pause, operator stop and durable final reporting.
+- [x] Deterministic PostgreSQL read-only reports, JSON/Markdown, authenticated GET-only API and seven safe assistant tools; Uzbek answers without an LLM.
+- [x] Prepare separate paused p6-1-completion-150-20261029 with immutable finite scope and150target/3500HTTP/600source caps. No P6 reopen.
+- [x] Full225tests/1053assertions and Pint PASS, real offline two-process/SIGTERM/SIGKILL and read-only security tests; preservation audit errors[].
+- [x] PROJECT_CONTEXT/DATABASE_SCHEMA generated from real implementation/introspection; P6_1_REPORT and local/API/tmux runbooks.
+- [x] Operator-started P6.1 completed150additional NEW canonical documents:150NEW/1,122HTTP,0technicalfaileditems;actualDB1,229documents/3,104contents. Combined P6+P6.1=1,000NEW. Read-only confirmation retained in collection_10000/predecessor.json; historical P6.1 report not rewritten.
+
+No scheduler, production deployment, raw retention, new OCR/LLM provider, chunking, embeddings/RAG or database cloning was enabled. Full import remains outside scope.
+
+## Authorized 10,000 additional canonical documents (2026-10-29)
+
+- [x] Inspect actual P6.1 completion/processes/database and record1,229document/3,104content baseline.
+- [x] Add exact finite profile and non-destructive migration preserving ordinary pilot bounds.
+- [x] Add extended-budget/idempotent-prepare/SQL-cap/safety-stop regression coverage.
+- [x] Full231tests/1,077assertions/Pint PASS; migration000012applied;prelaunch preservation errors[].
+- [x] Start detached Laravel controller + campaign worker at18:32:50;actual HTTP200,statusrunning. Actual persistence verified: 5NEW/11content representations;integrity errors[].
+- [x] Preserve/report explicit terminal stop:2,438/10,000NEW,17,040HTTP,single-day overflow/unreconciled_discovery_partition. Target NOT completed;oldcampaign not reopened.
+
+Progress/runbook/evidence: COLLECTION_10000_REPORT.md,collection_10000/. Never claim10,000collected based on startup.
+
+## Authorized30,000 NEW collection (2026-10-30)
+
+- [x] Read actual stopped10,000campaign:2,438NEW/17,040HTTP,DB3,667/11,399/8,922;no technical failure;397-result single-day overflow identified.
+- [x] Record baseline, preserve old terminal campaign, implement exact new scope/caps and additive migration.
+- [x] Single-day extended pagination; persist incomplete coverage and continue without global completeness claim.
+- [x] Reduce audit/report/checkpoint memory; retain identity/quality/verified-content protection.
+- [x] Full241tests/1,123assertions/Pint PASS; migration000013applied,prelaunch preservation errors[].
+- [x] Detached new controller/worker;real problematic day397/397IDs in20pages,complete=true;2NEW/4storedrepresentations at2026-10-30T10:05:03+05:00;integrity errors[].
+- [ ] Reach30,000NEW or record actual terminal reason; never force past safety stops.
+
+Evidence/runbook: COLLECTION_30000_REPORT.md,collection_30000/.

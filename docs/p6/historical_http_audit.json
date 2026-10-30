@@ -1,0 +1,193 @@
+{
+  "methodology": "Historical recorded HTTP only. Purpose inferred from URL/method; alias/control/identity-role cannot be separated exactly from old logs. Repeated URL is not proof of avoidability. POST pagination repeats are required.",
+  "campaigns": {
+    "p5": {
+      "new_canonical": 158,
+      "total_http": 1229,
+      "per_new_canonical": 7.7784810126582276,
+      "categories": {
+        "discovery": {
+          "requests": 14,
+          "requests_per_new": 0.08860759493670886
+        },
+        "pagination": {
+          "requests": 41,
+          "requests_per_new": 0.25949367088607594
+        },
+        "document_or_language_variant": {
+          "requests": 585,
+          "requests_per_new": 3.7025316455696204
+        },
+        "canonical_identity_metadata": {
+          "requests": 585,
+          "requests_per_new": 3.7025316455696204
+        },
+        "pdf_download": {
+          "requests": 4,
+          "requests_per_new": 0.02531645569620253
+        }
+      },
+      "repeat_get_url_observations": 316,
+      "repeat_identical_get_url_and_body_observations": 305,
+      "retry_attempts_above_one": 0,
+      "cache_hits": "not instrumented in historical logs; not assumed zero",
+      "alias_and_control_breakdown": "not independently identifiable from old HTTP log alone",
+      "top_repeat_gets": [
+        {
+          "url": "https://lex.uz/uz/search/nat?status=Y&from=01.01.2010&to=31.01.2010",
+          "requests": 4
+        },
+        {
+          "url": "https://lex.uz/uz/docs/5211352",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/5211352",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/5208013",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/5208013",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/-5208013",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/-5208013",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/1587860",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/1587860",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/-1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/-1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/1581725",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/1581725",
+          "requests": 3
+        }
+      ]
+    },
+    "p5_1": {
+      "new_canonical": 42,
+      "total_http": 414,
+      "per_new_canonical": 9.857142857142858,
+      "categories": {
+        "document_or_language_variant": {
+          "requests": 158,
+          "requests_per_new": 3.761904761904762
+        },
+        "canonical_identity_metadata": {
+          "requests": 158,
+          "requests_per_new": 3.761904761904762
+        },
+        "pdf_download": {
+          "requests": 4,
+          "requests_per_new": 0.09523809523809523
+        },
+        "discovery": {
+          "requests": 30,
+          "requests_per_new": 0.7142857142857143
+        },
+        "pagination": {
+          "requests": 64,
+          "requests_per_new": 1.5238095238095237
+        }
+      },
+      "repeat_get_url_observations": 53,
+      "repeat_identical_get_url_and_body_observations": 52,
+      "retry_attempts_above_one": 0,
+      "cache_hits": "not instrumented in historical logs; not assumed zero",
+      "alias_and_control_breakdown": "not independently identifiable from old HTTP log alone",
+      "top_repeat_gets": [
+        {
+          "url": "https://lex.uz/uz/docs/8345596",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/8345596",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/pdffile/8345596",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/1587860",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/1587860",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/-1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/-1587862",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/7609326",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/7609326",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/7609300",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/7609300",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/docs/-7609300",
+          "requests": 3
+        },
+        {
+          "url": "https://lex.uz/uz/actinfo/card1/-7609300",
+          "requests": 3
+        }
+      ]
+    }
+  }
+}

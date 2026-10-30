@@ -80,6 +80,9 @@ class ArchiveCapture
         $languageUrls = [];
         foreach ($candidate['identity'] ?? [] as $node) {
             $languageUrls[$node['source_url']] = ['id' => $node['external_id'], 'language' => $node['language']];
+            if (isset($pages[$node['external_id']]['pdf_url'])) {
+                $languageUrls[$pages[$node['external_id']]['pdf_url']] = $languageUrls[$node['source_url']];
+            }
         }
         foreach ($responses as $url => $response) {
             if ($response['format'] === 'html' && $response['bytes'] !== null && isset($languageUrls[$url])) {

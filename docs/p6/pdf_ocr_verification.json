@@ -1,0 +1,1036 @@
+{
+    "4797522": {
+        "at": "2026-10-29T10:35:06+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                27,
+                28
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "c68dc1be17567cc147f58814d08005ba3d41e7a0eeb743c1e978ec76c085eb13",
+                "timings": {
+                    "ocr_seconds": 20.62095,
+                    "pdf_parse_seconds": 21.135947
+                },
+                "language": "uz-Cyrl",
+                "file_size": 3386992,
+                "source_id": "4797522",
+                "page_count": 7,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/4797522",
+                "source_format": "ocr",
+                "quality_issues": [
+                    "low_ocr_confidence",
+                    "ocr_critical_tokens_unverified",
+                    "ocr_source_identifier_not_certified",
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "uncertified_ocr",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 7316,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 158
+            }
+        ],
+        "source_id": "4797522",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 27.692976764
+    },
+    "8345596": {
+        "at": "2026-10-29T10:31:22+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                15,
+                16
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "9297bab1e1eb28fc9293bd8d12e54efd82d82fd995b94236b1ead717ffb17fb2",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 6.742953
+                },
+                "language": "uz-Latn",
+                "file_size": 958629,
+                "source_id": "8345596",
+                "page_count": 34,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8345596",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 57197,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 67
+            }
+        ],
+        "source_id": "8345596",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 11.285559468
+    },
+    "8554315": {
+        "at": "2026-10-29T10:30:27+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 4,
+            "stop_reason": null,
+            "observation_ids": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "26c561fea0629d7bc3a068503d208d2b9899eace629a93a720345d9ea6fadcfd",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 3.321641
+                },
+                "language": "uz-Latn",
+                "file_size": 519541,
+                "source_id": "8554315",
+                "page_count": 13,
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/8554315",
+                "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/8554315",
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8554315",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "missing_language_title",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 29245,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                "canonical_document_id": 23
+            }
+        ],
+        "source_id": "8554315",
+        "http_requests": 8,
+        "diagnostic_error": null,
+        "duration_seconds": 19.052139263
+    },
+    "8554321": {
+        "at": "2026-10-29T10:31:09+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                13,
+                14
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "c906f68637e7cbe140935f3e196e87e8f9ad3a188233f1b5198abb2b3dd24e84",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 2.519034
+                },
+                "language": "uz-Latn",
+                "file_size": 1059470,
+                "source_id": "8554321",
+                "page_count": 10,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8554321",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 21150,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 27
+            }
+        ],
+        "source_id": "8554321",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 11.315996553
+    },
+    "8554326": {
+        "at": "2026-10-29T10:30:56+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                11,
+                12
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "8e6f1be2b807dbad407b68c495da300be29e69d04478bbdd6d3243eec95ab6c9",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 3.626268
+                },
+                "language": "uz-Latn",
+                "file_size": 1087333,
+                "source_id": "8554326",
+                "page_count": 9,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8554326",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 22257,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 26
+            }
+        ],
+        "source_id": "8554326",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 8.217647101
+    },
+    "8554353": {
+        "at": "2026-10-29T10:30:46+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                9,
+                10
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "4093e45b326f564d5607217fdf2621b9c11033cb4b443fd27a5c44fa42c2aecc",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 2.514988
+                },
+                "language": "uz-Latn",
+                "file_size": 945218,
+                "source_id": "8554353",
+                "page_count": 4,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8554353",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 6587,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 25
+            }
+        ],
+        "source_id": "8554353",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 7.086946529
+    },
+    "8554432": {
+        "at": "2026-10-29T10:30:37+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                7,
+                8
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "df555b72f6d1df1f8c54407cee52e36e2b0402568d3859da454b2210d73f14f3",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 2.725272
+                },
+                "language": "uz-Latn",
+                "file_size": 1265940,
+                "source_id": "8554432",
+                "page_count": 20,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8554432",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 37021,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 24
+            }
+        ],
+        "source_id": "8554432",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 7.287186097
+    },
+    "8557098": {
+        "at": "2026-10-29T10:30:06+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                1,
+                2
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "6d3d8dc461697f83ebf4131833715a4f706c85e40a9221943e4887012e8f5d83",
+                "timings": {
+                    "ocr_seconds": 0,
+                    "pdf_parse_seconds": 3.724227
+                },
+                "language": "uz-Latn",
+                "file_size": 1102002,
+                "source_id": "8557098",
+                "page_count": 9,
+                "resource_url": "https:\/\/lex.uz\/pdffile\/8557098",
+                "source_format": "pdf",
+                "quality_issues": [
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 21154,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "diagnostic_only_no_import",
+                "canonical_document_id": 22
+            }
+        ],
+        "source_id": "8557098",
+        "http_requests": 3,
+        "diagnostic_error": null,
+        "duration_seconds": 8.369826544
+    },
+    "-6257288": {
+        "at": "2026-10-29T10:35:25+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 3,
+            "stop_reason": null,
+            "observation_ids": [
+                29,
+                30,
+                31
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-6257288",
+        "http_requests": 6,
+        "diagnostic_error": null,
+        "duration_seconds": 17.213106058
+    },
+    "-7613661": {
+        "at": "2026-10-29T10:37:30+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 3,
+            "stop_reason": null,
+            "observation_ids": [
+                56,
+                57,
+                58
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-7613661",
+        "http_requests": 6,
+        "diagnostic_error": null,
+        "duration_seconds": 10.576191461
+    },
+    "-8496009": {
+        "at": "2026-10-29T10:35:49+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                36,
+                37
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-8496009",
+        "http_requests": 4,
+        "diagnostic_error": null,
+        "duration_seconds": 6.247426284
+    },
+    "-8498641": {
+        "at": "2026-10-29T10:35:41+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                34,
+                35
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-8498641",
+        "http_requests": 4,
+        "diagnostic_error": null,
+        "duration_seconds": 6.239249205
+    },
+    "-8501541": {
+        "at": "2026-10-29T10:36:53+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 5,
+            "stop_reason": null,
+            "observation_ids": [
+                45,
+                46,
+                47,
+                48,
+                49
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "37d4f63e31e464e151e26d74a671c063d328f0ca5a251e77470c37218661c900",
+                "timings": {
+                    "ocr_seconds": 13.678081,
+                    "pdf_parse_seconds": 14.787754
+                },
+                "language": "uz-Latn",
+                "file_size": 271843,
+                "source_id": "-8501541",
+                "page_count": 4,
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-8501541",
+                "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8501541",
+                "resource_url": "https:\/\/lex.uz\/pdffile\/-8501541",
+                "source_format": "ocr",
+                "quality_issues": [
+                    "declared_language_script_mismatch",
+                    "low_ocr_confidence",
+                    "ocr_critical_tokens_unverified",
+                    "ocr_source_identifier_not_certified",
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "uncertified_ocr",
+                    "missing_language_title",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 4489,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                "canonical_document_id": 7
+            }
+        ],
+        "source_id": "-8501541",
+        "http_requests": 10,
+        "diagnostic_error": null,
+        "duration_seconds": 33.297039372
+    },
+    "-8502443": {
+        "at": "2026-10-29T10:36:18+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 4,
+            "stop_reason": null,
+            "observation_ids": [
+                41,
+                42,
+                43,
+                44
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-8502443",
+        "http_requests": 8,
+        "diagnostic_error": null,
+        "duration_seconds": 14.394887005
+    },
+    "-8503180": {
+        "at": "2026-10-29T10:37:18+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 3,
+            "stop_reason": null,
+            "observation_ids": [
+                53,
+                54,
+                55
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-8503180",
+        "http_requests": 6,
+        "diagnostic_error": null,
+        "duration_seconds": 10.698466145
+    },
+    "-8506802": {
+        "samples": [],
+        "source_id": "-8506802",
+        "archive": {
+            "archived": 0,
+            "disabled": 4,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                59,
+                60,
+                61,
+                62
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 14.453999362,
+        "http_requests": 8,
+        "at": "2026-10-29T10:39:02+05:00",
+        "previous_diagnostic": {
+            "at": "2026-10-29T10:36:01+05:00",
+            "archive": {
+                "bytes": 0,
+                "errors": [],
+                "failed": 0,
+                "archived": 0,
+                "disabled": 3,
+                "stop_reason": null,
+                "observation_ids": [
+                    38,
+                    39,
+                    40
+                ],
+                "privacy_blocked": 0
+            },
+            "samples": [],
+            "source_id": "-8506802",
+            "http_requests": 6,
+            "diagnostic_error": "Unknown source document language: Инглизча",
+            "duration_seconds": 10.261026375
+        }
+    },
+    "-8519448": {
+        "at": "2026-10-29T10:35:33+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 2,
+            "stop_reason": null,
+            "observation_ids": [
+                32,
+                33
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-8519448",
+        "http_requests": 4,
+        "diagnostic_error": null,
+        "duration_seconds": 6.247367198
+    },
+    "-8520357": {
+        "at": "2026-10-29T10:37:05+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 3,
+            "stop_reason": null,
+            "observation_ids": [
+                50,
+                51,
+                52
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [],
+        "source_id": "-8520357",
+        "http_requests": 6,
+        "diagnostic_error": null,
+        "duration_seconds": 10.632953334
+    },
+    "-8553258": {
+        "at": "2026-10-29T10:34:36+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 5,
+            "stop_reason": null,
+            "observation_ids": [
+                22,
+                23,
+                24,
+                25,
+                26
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "56de648020634c94adb29460b539a885eb7a7d99183dd38b6dc9207b9c765296",
+                "timings": {
+                    "ocr_seconds": 71.743882,
+                    "pdf_parse_seconds": 81.408662
+                },
+                "language": "uz-Cyrl",
+                "file_size": 1420104,
+                "source_id": "-8553258",
+                "page_count": 17,
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553258",
+                "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8553258",
+                "resource_url": "https:\/\/lex.uz\/pdffile\/-8553258",
+                "source_format": "ocr",
+                "quality_issues": [
+                    "declared_language_script_mismatch",
+                    "low_ocr_confidence",
+                    "ocr_critical_tokens_unverified",
+                    "ocr_source_identifier_not_certified",
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "uncertified_ocr",
+                    "missing_language_title",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 37036,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                "canonical_document_id": 28
+            }
+        ],
+        "source_id": "-8553258",
+        "http_requests": 10,
+        "diagnostic_error": null,
+        "duration_seconds": 99.923650053
+    },
+    "-8553692": {
+        "at": "2026-10-29T10:32:54+05:00",
+        "archive": {
+            "bytes": 0,
+            "errors": [],
+            "failed": 0,
+            "archived": 0,
+            "disabled": 5,
+            "stop_reason": null,
+            "observation_ids": [
+                17,
+                18,
+                19,
+                20,
+                21
+            ],
+            "privacy_blocked": 0
+        },
+        "samples": [
+            {
+                "sha256": "74578a77260f51b31a7f44444fc362b5a2f6f57d1ebdbd46d88c544019a5e63c",
+                "timings": {
+                    "ocr_seconds": 63.65635,
+                    "pdf_parse_seconds": 71.731729
+                },
+                "language": "uz-Cyrl",
+                "file_size": 1106164,
+                "source_id": "-8553692",
+                "page_count": 19,
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553692",
+                "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8553692",
+                "resource_url": "https:\/\/lex.uz\/pdffile\/-8553692",
+                "source_format": "ocr",
+                "quality_issues": [
+                    "declared_language_script_mismatch",
+                    "low_ocr_confidence",
+                    "ocr_critical_tokens_unverified",
+                    "ocr_source_identifier_not_certified",
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "uncertified_ocr",
+                    "missing_language_title",
+                    "quality_review"
+                ],
+                "quality_status": "needs_review",
+                "text_char_count": 34195,
+                "extraction_outcome": "succeeded",
+                "persistence_status": "alternate_representation_diagnostic_only_no_import",
+                "canonical_document_id": 29
+            }
+        ],
+        "source_id": "-8553692",
+        "http_requests": 10,
+        "diagnostic_error": null,
+        "duration_seconds": 90.50485229
+    },
+    "-7303292": {
+        "samples": [],
+        "source_id": "-7303292",
+        "archive": {
+            "archived": 0,
+            "disabled": 3,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                63,
+                64,
+                65
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 10.704871565,
+        "http_requests": 6,
+        "at": "2026-10-29T10:39:15+05:00"
+    },
+    "-7290944": {
+        "samples": [],
+        "source_id": "-7290944",
+        "archive": {
+            "archived": 0,
+            "disabled": 3,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                66,
+                67,
+                68
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 10.456253812,
+        "http_requests": 6,
+        "at": "2026-10-29T10:39:27+05:00"
+    },
+    "-8557240": {
+        "samples": [],
+        "source_id": "-8557240",
+        "archive": {
+            "archived": 0,
+            "disabled": 3,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                69,
+                70,
+                71
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 10.376899814,
+        "http_requests": 6,
+        "at": "2026-10-29T10:39:39+05:00"
+    },
+    "-8546701": {
+        "samples": [],
+        "source_id": "-8546701",
+        "archive": {
+            "archived": 0,
+            "disabled": 3,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                72,
+                73,
+                74
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 10.340012423,
+        "http_requests": 6,
+        "at": "2026-10-29T10:39:52+05:00"
+    },
+    "-8547769": {
+        "samples": [],
+        "source_id": "-8547769",
+        "archive": {
+            "archived": 0,
+            "disabled": 3,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                75,
+                76,
+                77
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": "Conflicting component requisites: type",
+        "duration_seconds": 10.310717665,
+        "http_requests": 6,
+        "at": "2026-10-29T10:40:04+05:00"
+    },
+    "-8548637": {
+        "samples": [
+            {
+                "source_id": "-8548637",
+                "canonical_document_id": 16,
+                "source_format": "pdf",
+                "source_url": "https:\/\/lex.uz\/uz\/docs\/-8548637",
+                "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8548637",
+                "resource_url": "https:\/\/lex.uz\/pdffile\/-8548637",
+                "file_size": 240585,
+                "sha256": "bde2575ea7ec7e428ca00ba203fd32f4fb865d80721224a92d6b7f68a5c415fd",
+                "page_count": 3,
+                "language": "uz-Latn",
+                "text_char_count": 5662,
+                "quality_status": "needs_review",
+                "quality_issues": [
+                    "declared_language_script_mismatch",
+                    "pdf_image_semantics_unverified",
+                    "pdf_language_coverage_unconfirmed",
+                    "pdf_reading_order_unverified",
+                    "pdf_structure_unverified",
+                    "missing_language_title",
+                    "quality_review"
+                ],
+                "timings": {
+                    "pdf_parse_seconds": 0.912027,
+                    "ocr_seconds": 0
+                },
+                "extraction_outcome": "succeeded",
+                "persistence_status": "alternate_representation_diagnostic_only_no_import"
+            }
+        ],
+        "source_id": "-8548637",
+        "archive": {
+            "archived": 0,
+            "disabled": 4,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                78,
+                79,
+                80,
+                81
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 16.498825892,
+        "http_requests": 8,
+        "at": "2026-10-29T10:40:22+05:00"
+    },
+    "-8548754": {
+        "samples": [],
+        "source_id": "-8548754",
+        "archive": {
+            "archived": 0,
+            "disabled": 4,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                82,
+                83,
+                84,
+                85
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": "Conflicting component requisites: type",
+        "duration_seconds": 15.545259754,
+        "http_requests": 8,
+        "at": "2026-10-29T10:40:40+05:00"
+    },
+    "-8554309": {
+        "samples": [],
+        "source_id": "-8554309",
+        "archive": {
+            "archived": 0,
+            "disabled": 5,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                86,
+                87,
+                88,
+                89,
+                90
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": "OCR page budget exceeded; partial extraction is not admitted.",
+        "duration_seconds": 279.446637862,
+        "http_requests": 10,
+        "at": "2026-10-29T10:45:21+05:00"
+    },
+    "-7655343": {
+        "samples": [],
+        "source_id": "-7655343",
+        "archive": {
+            "archived": 0,
+            "disabled": 5,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                91,
+                92,
+                93,
+                94,
+                95
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": "OCR page budget exceeded; partial extraction is not admitted.",
+        "duration_seconds": 247.972833268,
+        "http_requests": 10,
+        "at": "2026-10-29T10:49:31+05:00"
+    },
+    "-8540314": {
+        "samples": [],
+        "source_id": "-8540314",
+        "archive": {
+            "archived": 0,
+            "disabled": 3,
+            "privacy_blocked": 0,
+            "failed": 0,
+            "bytes": 0,
+            "observation_ids": [
+                96,
+                97,
+                98
+            ],
+            "errors": [],
+            "stop_reason": null
+        },
+        "diagnostic_error": null,
+        "duration_seconds": 14.987126464,
+        "http_requests": 6,
+        "at": "2026-10-29T10:49:48+05:00"
+    }
+}

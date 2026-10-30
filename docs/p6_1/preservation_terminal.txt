@@ -1,0 +1,25 @@
+{
+    "counts": {
+        "cache": 146,
+        "cache_locks": 0,
+        "document_contents": 2763,
+        "document_identifiers": 3104,
+        "document_sources": 2,
+        "documents": 1079,
+        "failed_jobs": 24,
+        "job_batches": 0,
+        "jobs": 0,
+        "migrations": 11,
+        "scrape_campaign_checkpoints": 15,
+        "scrape_campaigns": 3,
+        "scrape_run_items": 1829,
+        "scrape_runs": 91,
+        "source_archive_blobs": 0,
+        "source_archive_observations": 3012
+    },
+    "quality": {
+        "needs_review": 292,
+        "verified": 2471
+    },
+    "errors": []
+}

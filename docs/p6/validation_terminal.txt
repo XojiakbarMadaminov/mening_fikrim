@@ -1,0 +1,41 @@
+PDF_CHECK 8557098 pdf_samples=1 requests=3
+AUDIT validation_after_8557098 docs=229 texts=541 errors=0
+PDF_CHECK 8554315 pdf_samples=1 requests=8
+AUDIT validation_after_8554315 docs=229 texts=541 errors=0
+PDF_CHECK 8554432 pdf_samples=1 requests=3
+AUDIT validation_after_8554432 docs=229 texts=541 errors=0
+PDF_CHECK 8554353 pdf_samples=1 requests=3
+AUDIT validation_after_8554353 docs=229 texts=541 errors=0
+PDF_CHECK 8554326 pdf_samples=1 requests=3
+AUDIT validation_after_8554326 docs=229 texts=541 errors=0
+PDF_CHECK 8554321 pdf_samples=1 requests=3
+AUDIT validation_after_8554321 docs=229 texts=541 errors=0
+PDF_CHECK 8345596 pdf_samples=1 requests=3
+AUDIT validation_after_8345596 docs=229 texts=541 errors=0
+PDF_CHECK -8553692 pdf_samples=1 requests=10
+AUDIT validation_after_-8553692 docs=229 texts=541 errors=0
+PDF_CHECK -8553258 pdf_samples=1 requests=10
+AUDIT validation_after_-8553258 docs=229 texts=541 errors=0
+PDF_CHECK 4797522 pdf_samples=1 requests=3
+AUDIT validation_after_4797522 docs=229 texts=541 errors=0
+PDF_CHECK -6257288 pdf_samples=0 requests=6
+AUDIT validation_after_-6257288 docs=229 texts=541 errors=0
+PDF_CHECK -8519448 pdf_samples=0 requests=4
+AUDIT validation_after_-8519448 docs=229 texts=541 errors=0
+PDF_CHECK -8498641 pdf_samples=0 requests=4
+AUDIT validation_after_-8498641 docs=229 texts=541 errors=0
+PDF_CHECK -8496009 pdf_samples=0 requests=4
+AUDIT validation_after_-8496009 docs=229 texts=541 errors=0
+PDF_CHECK -8506802 pdf_samples=0 requests=6
+AUDIT validation_after_-8506802 docs=229 texts=541 errors=0
+PDF_CHECK -8502443 pdf_samples=0 requests=8
+AUDIT validation_after_-8502443 docs=229 texts=541 errors=0
+PDF_CHECK -8501541 pdf_samples=1 requests=10
+AUDIT validation_after_-8501541 docs=229 texts=541 errors=0
+PDF_CHECK -8520357 pdf_samples=0 requests=6
+AUDIT validation_after_-8520357 docs=229 texts=541 errors=0
+PDF_CHECK -8503180 pdf_samples=0 requests=6
+AUDIT validation_after_-8503180 docs=229 texts=541 errors=0
+PDF_CHECK -7613661 pdf_samples=0 requests=6
+AUDIT validation_after_-7613661 docs=229 texts=541 errors=0
+STOP Pilot stopped: campaign_pausing

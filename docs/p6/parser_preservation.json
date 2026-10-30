@@ -1,0 +1,38 @@
+{
+  "app/Scraping/LexUz/LexUzParser.php": {
+    "before_sha256": "1cf4dcd59584797d615996b8b970f3685b6230bbbfcd135f271f61b98294595d",
+    "after_sha256": "c63a7ca8ab82601f3c7ee5e935ff0832cf617e1cca75295e7797d78ae994bc02",
+    "unchanged": false,
+    "change": "Only source-backed label mapping: Инглизча=en; Ўзбекча(к) and O‘zbekcha(k)=uz-Cyrl. Scriptless Uzbek remains unknown. Engines and identity/fallback/quality guards unchanged."
+  },
+  "app/Scraping/LexUz/HtmlMarkdownParser.php": {
+    "before_sha256": "4c51b29d36ee5fab60d56fee1063090358aeb7cd833cd55820f4051ac927a382",
+    "after_sha256": "4c51b29d36ee5fab60d56fee1063090358aeb7cd833cd55820f4051ac927a382",
+    "unchanged": true
+  },
+  "app/Scraping/LexUz/PdfTextExtractor.php": {
+    "before_sha256": "fb90e973020434cf0656347021a3762575320ced5ea8731ec894d4a812fa75d3",
+    "after_sha256": "fb90e973020434cf0656347021a3762575320ced5ea8731ec894d4a812fa75d3",
+    "unchanged": true
+  },
+  "app/Scraping/LexUz/PdfQualityInspector.php": {
+    "before_sha256": "7ec323c552c49833e9800eb92e1634fbe736adfebe9d033a82a542fa0b59fcc3",
+    "after_sha256": "7ec323c552c49833e9800eb92e1634fbe736adfebe9d033a82a542fa0b59fcc3",
+    "unchanged": true
+  },
+  "app/Services/Documents/ContentQuality.php": {
+    "before_sha256": "08792e063eb714bfdde8002c63cf11e28189e701089a87669a24c8b623f182b1",
+    "after_sha256": "08792e063eb714bfdde8002c63cf11e28189e701089a87669a24c8b623f182b1",
+    "unchanged": true
+  },
+  "app/Services/Documents/DocumentValidator.php": {
+    "before_sha256": "cbf14ce96880352f7434b46ed3ce1797e5096c046a62fd901ece3fba3050a710",
+    "after_sha256": "cbf14ce96880352f7434b46ed3ce1797e5096c046a62fd901ece3fba3050a710",
+    "unchanged": true
+  },
+  "app/Services/Documents/DocumentImporter.php": {
+    "before_sha256": "037c8e6b2976bdeefac6657974a36d04ffb4029847d47b6881a67e95531d3af6",
+    "after_sha256": "037c8e6b2976bdeefac6657974a36d04ffb4029847d47b6881a67e95531d3af6",
+    "unchanged": true
+  }
+}

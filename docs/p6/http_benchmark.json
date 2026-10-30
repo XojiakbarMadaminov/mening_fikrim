@@ -1,0 +1,108 @@
+{
+    "kind": "offline synthetic reconstructions of saved source; virtual2000ms pacing; no realHTTP",
+    "results": [
+        {
+            "mode": "baseline_strict_alias_recheck",
+            "http_requests": 24,
+            "new_canonical": 1,
+            "requests_per_new_canonical": 24,
+            "virtual_elapsed_seconds": 46,
+            "real_local_seconds": 1.293463252,
+            "texts": [
+                {
+                    "language": "en",
+                    "hash": "aebbbc17df4993893889cf21ab80daa0a0c7cfa9537823434aa0a3749a3bfcc3",
+                    "quality": "needs_review",
+                    "issues": [
+                        "unextracted_images",
+                        "quality_review"
+                    ]
+                },
+                {
+                    "language": "uz-Cyrl",
+                    "hash": "6bac03ba896c9a184a77d8e79e194fda2e186983cbbfeec75bf90532a2bb2aa4",
+                    "quality": "needs_review",
+                    "issues": [
+                        "unextracted_images",
+                        "quality_review"
+                    ]
+                },
+                {
+                    "language": "uz-Latn",
+                    "hash": "402ff2d54db03997dc7790f035d3c93dca94980849880d9495c91f682fc98619",
+                    "quality": "needs_review",
+                    "issues": [
+                        "unextracted_images",
+                        "quality_review"
+                    ]
+                }
+            ],
+            "canonical_anchors": [
+                "-8506802"
+            ],
+            "legal_statuses": [
+                "active"
+            ],
+            "identifiers": [
+                "-8506802",
+                "8506802",
+                "8506870",
+                "8507863"
+            ],
+            "skipped_aliases": 0,
+            "failed_jobs": 0
+        },
+        {
+            "mode": "optimized_collect_once",
+            "http_requests": 8,
+            "new_canonical": 1,
+            "requests_per_new_canonical": 8,
+            "virtual_elapsed_seconds": 14,
+            "real_local_seconds": 0.467564154,
+            "texts": [
+                {
+                    "language": "en",
+                    "hash": "aebbbc17df4993893889cf21ab80daa0a0c7cfa9537823434aa0a3749a3bfcc3",
+                    "quality": "needs_review",
+                    "issues": [
+                        "unextracted_images",
+                        "quality_review"
+                    ]
+                },
+                {
+                    "language": "uz-Cyrl",
+                    "hash": "6bac03ba896c9a184a77d8e79e194fda2e186983cbbfeec75bf90532a2bb2aa4",
+                    "quality": "needs_review",
+                    "issues": [
+                        "unextracted_images",
+                        "quality_review"
+                    ]
+                },
+                {
+                    "language": "uz-Latn",
+                    "hash": "402ff2d54db03997dc7790f035d3c93dca94980849880d9495c91f682fc98619",
+                    "quality": "needs_review",
+                    "issues": [
+                        "unextracted_images",
+                        "quality_review"
+                    ]
+                }
+            ],
+            "canonical_anchors": [
+                "-8506802"
+            ],
+            "legal_statuses": [
+                "active"
+            ],
+            "identifiers": [
+                "-8506802",
+                "8506802",
+                "8506870",
+                "8507863"
+            ],
+            "skipped_aliases": 2,
+            "failed_jobs": 0
+        }
+    ],
+    "request_reduction_percent": 66.66666666666667
+}

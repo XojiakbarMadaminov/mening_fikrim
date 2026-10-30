@@ -1,0 +1,47 @@
+{
+  "declared_before_live": true,
+  "campaign_total_ceiling": {
+    "http_requests": 15000,
+    "distinct_source_selections_sum": 3500
+  },
+  "validation": {
+    "id": "p6-validation-20261029",
+    "new_canonical_target": 0,
+    "max_http_requests": 2000,
+    "max_source_selections": 200,
+    "pdf_diagnostic_target_cap": 30,
+    "max_partitions": 31,
+    "max_discovered_ids": 3000
+  },
+  "collection": {
+    "id": "p6-corpus-1000-20261029",
+    "new_canonical_target": 1000,
+    "max_http_requests": 13000,
+    "max_source_selections": 3300,
+    "stages": [
+      30,
+      100,
+      300,
+      600,
+      1000
+    ],
+    "max_partitions": 255,
+    "max_discovered_ids": 20000,
+    "max_depth": 10,
+    "max_page_cap": 8,
+    "fixed_scope": "docs/p6/scope.php"
+  },
+  "shared": {
+    "workers": 1,
+    "minimum_request_start_interval_ms": 2000,
+    "per_run_groups_max": 30,
+    "per_context_requests_max": 400,
+    "max_campaign_seconds": 43200,
+    "max_single_response_bytes": 33554432,
+    "max_capture_bytes": 268435456,
+    "archive_quota_bytes": 2147483648,
+    "retention_enabled": false,
+    "automatic_scheduling": false
+  },
+  "rationale": "P5 yield 360/158=2.278 source IDs/new; 3300 for1000 includes ~45% allowance. P5 all-in HTTP7.778/new suggests7779 plus discovery/PDF/retry uncertainty; main13000 + validation2000 remain fixed15000. Limits do not authorize crossing access/identity/integrity stops. No dynamic cap increase."
+}

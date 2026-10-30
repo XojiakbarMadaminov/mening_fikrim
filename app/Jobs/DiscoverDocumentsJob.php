@@ -48,7 +48,7 @@ class DiscoverDocumentsJob implements ShouldQueue
     {
         $run = ScrapeRun::findOrFail($this->runId);
         if (! app(PilotCampaign::class)->allowsRun($run)) {
-            $this->release(3600);
+            $this->release(in_array(app(PilotCampaign::class)->state()['status'] ?? '', ['paused', 'pausing'], true) ? 10 : 3600);
             app('queue.worker')->shouldQuit = true;
 
             return;

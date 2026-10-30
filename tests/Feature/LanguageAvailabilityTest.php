@@ -141,6 +141,35 @@ class LanguageAvailabilityTest extends TestCase
         app(LexUzParser::class)->language(['Язык акта' => 'Uzbek']);
     }
 
+    public function test_p6_observed_cyrillic_english_label_remains_distinct_and_raw_evidence_is_preserved(): void
+    {
+        $fixture = json_decode(file_get_contents(base_path('tests/Fixtures/p6_english_label.json')), true, flags: JSON_THROW_ON_ERROR);
+        $this->assertNotEmpty($fixture['observations']);
+        foreach ($fixture['observations'] as $observation) {
+            $card = $observation['card'];
+            $this->assertSame('Инглизча', $card['Язык акта']);
+            $this->assertSame('en', app(LexUzParser::class)->language($card));
+            $this->assertSame('Инглизча', $card['Язык акта']);
+        }
+        $this->assertSame('uz-Cyrl', app(LexUzParser::class)->language(['Язык акта' => 'Узбекский (к)']));
+        $this->assertSame('ru', app(LexUzParser::class)->language(['Язык акта' => 'Русча']));
+    }
+
+    public function test_observed_uzbek_script_markers_are_normalized_without_guessing_unmarked_uzbek(): void
+    {
+        $fixture = json_decode(file_get_contents(base_path('tests/Fixtures/p6_uzbek_script_labels.json')), true, flags: JSON_THROW_ON_ERROR);
+        $this->assertCount(2, $fixture['observations']);
+        foreach ($fixture['observations'] as $observation) {
+            $card = $observation['card'];
+            $raw = $card['Язык акта'];
+            $this->assertSame('uz-Cyrl', app(LexUzParser::class)->language($card));
+            $this->assertSame($raw, $card['Язык акта']);
+        }
+        $this->assertSame('uz-Latn', app(LexUzParser::class)->language(['Язык акта' => 'O‘zbekcha (L)']));
+        $this->expectException(SourceReviewException::class);
+        app(LexUzParser::class)->language(['Язык акта' => 'O‘zbekcha']);
+    }
+
     public function test_explicit_translation_notice_is_evidence_but_absent_ui_link_is_not(): void
     {
         $parser = app(LexUzParser::class);

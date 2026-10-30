@@ -1,0 +1,34 @@
+{
+    "reserved_requests": 6196,
+    "logged_http_attempts": 6196,
+    "unobserved_reserved_tokens": 0,
+    "statuses": {
+        "200": 6194,
+        "302": 1,
+        "404": 1
+    },
+    "purposes": {
+        "source_policy": 4,
+        "entry_document": 1029,
+        "canonical_identity_metadata": 2988,
+        "pdf_download": 23,
+        "language_variant": 1960,
+        "pdf_viewer": 7,
+        "discovery": 50,
+        "pagination": 135
+    },
+    "campaign_http_attempts": {
+        "p6-validation-20261029": 193,
+        "p6-corpus-1000-20261029": 6003
+    },
+    "inline_retry_attempts": 0,
+    "minimum_request_start_interval_seconds": 2.01900398300495,
+    "pacing_violations_below_2s": 0,
+    "same_flow_cache_hits": 35,
+    "repeated_identical_get_url_sha": 636,
+    "duplicate_note": "Repeated URL\/SHA across separate source\/alias\/control observations is not automatically avoidable or stale forever.",
+    "request_budget_maximum": 15000,
+    "all_requests_within_budget": true,
+    "collection_requests_per_new_canonical": 7.062352941176471,
+    "all_p6_requests_per_new_canonical": 7.289411764705882
+}

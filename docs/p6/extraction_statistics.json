@@ -1,0 +1,661 @@
+{
+    "observations": [
+        {
+            "sha256": "c68dc1be17567cc147f58814d08005ba3d41e7a0eeb743c1e978ec76c085eb13",
+            "timings": {
+                "ocr_seconds": 20.62095,
+                "pdf_parse_seconds": 21.135947
+            },
+            "language": "uz-Cyrl",
+            "file_size": 3386992,
+            "source_id": "4797522",
+            "page_count": 7,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/4797522",
+            "source_format": "ocr",
+            "quality_issues": [
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 7316,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 158,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "9297bab1e1eb28fc9293bd8d12e54efd82d82fd995b94236b1ead717ffb17fb2",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 6.742953
+            },
+            "language": "uz-Latn",
+            "file_size": 958629,
+            "source_id": "8345596",
+            "page_count": 34,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8345596",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 57197,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 67,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "26c561fea0629d7bc3a068503d208d2b9899eace629a93a720345d9ea6fadcfd",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 3.321641
+            },
+            "language": "uz-Latn",
+            "file_size": 519541,
+            "source_id": "8554315",
+            "page_count": 13,
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/8554315",
+            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/8554315",
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8554315",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "missing_language_title",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 29245,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+            "canonical_document_id": 23,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "c906f68637e7cbe140935f3e196e87e8f9ad3a188233f1b5198abb2b3dd24e84",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 2.519034
+            },
+            "language": "uz-Latn",
+            "file_size": 1059470,
+            "source_id": "8554321",
+            "page_count": 10,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8554321",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 21150,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 27,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "8e6f1be2b807dbad407b68c495da300be29e69d04478bbdd6d3243eec95ab6c9",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 3.626268
+            },
+            "language": "uz-Latn",
+            "file_size": 1087333,
+            "source_id": "8554326",
+            "page_count": 9,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8554326",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 22257,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 26,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "4093e45b326f564d5607217fdf2621b9c11033cb4b443fd27a5c44fa42c2aecc",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 2.514988
+            },
+            "language": "uz-Latn",
+            "file_size": 945218,
+            "source_id": "8554353",
+            "page_count": 4,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8554353",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 6587,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 25,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "df555b72f6d1df1f8c54407cee52e36e2b0402568d3859da454b2210d73f14f3",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 2.725272
+            },
+            "language": "uz-Latn",
+            "file_size": 1265940,
+            "source_id": "8554432",
+            "page_count": 20,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8554432",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 37021,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 24,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "6d3d8dc461697f83ebf4131833715a4f706c85e40a9221943e4887012e8f5d83",
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 3.724227
+            },
+            "language": "uz-Latn",
+            "file_size": 1102002,
+            "source_id": "8557098",
+            "page_count": 9,
+            "resource_url": "https:\/\/lex.uz\/pdffile\/8557098",
+            "source_format": "pdf",
+            "quality_issues": [
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 21154,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "diagnostic_only_no_import",
+            "canonical_document_id": 22,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "37d4f63e31e464e151e26d74a671c063d328f0ca5a251e77470c37218661c900",
+            "timings": {
+                "ocr_seconds": 13.678081,
+                "pdf_parse_seconds": 14.787754
+            },
+            "language": "uz-Latn",
+            "file_size": 271843,
+            "source_id": "-8501541",
+            "page_count": 4,
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8501541",
+            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8501541",
+            "resource_url": "https:\/\/lex.uz\/pdffile\/-8501541",
+            "source_format": "ocr",
+            "quality_issues": [
+                "declared_language_script_mismatch",
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "missing_language_title",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 4489,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+            "canonical_document_id": 7,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "56de648020634c94adb29460b539a885eb7a7d99183dd38b6dc9207b9c765296",
+            "timings": {
+                "ocr_seconds": 71.743882,
+                "pdf_parse_seconds": 81.408662
+            },
+            "language": "uz-Cyrl",
+            "file_size": 1420104,
+            "source_id": "-8553258",
+            "page_count": 17,
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553258",
+            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8553258",
+            "resource_url": "https:\/\/lex.uz\/pdffile\/-8553258",
+            "source_format": "ocr",
+            "quality_issues": [
+                "declared_language_script_mismatch",
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "missing_language_title",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 37036,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+            "canonical_document_id": 28,
+            "archive_status": "disabled"
+        },
+        {
+            "sha256": "74578a77260f51b31a7f44444fc362b5a2f6f57d1ebdbd46d88c544019a5e63c",
+            "timings": {
+                "ocr_seconds": 63.65635,
+                "pdf_parse_seconds": 71.731729
+            },
+            "language": "uz-Cyrl",
+            "file_size": 1106164,
+            "source_id": "-8553692",
+            "page_count": 19,
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8553692",
+            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8553692",
+            "resource_url": "https:\/\/lex.uz\/pdffile\/-8553692",
+            "source_format": "ocr",
+            "quality_issues": [
+                "declared_language_script_mismatch",
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "missing_language_title",
+                "quality_review"
+            ],
+            "quality_status": "needs_review",
+            "text_char_count": 34195,
+            "extraction_outcome": "succeeded",
+            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+            "canonical_document_id": 29,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "-8548637",
+            "canonical_document_id": 16,
+            "source_format": "pdf",
+            "source_url": "https:\/\/lex.uz\/uz\/docs\/-8548637",
+            "viewer_url": "https:\/\/lex.uz\/uz\/pdfs\/-8548637",
+            "resource_url": "https:\/\/lex.uz\/pdffile\/-8548637",
+            "file_size": 240585,
+            "sha256": "bde2575ea7ec7e428ca00ba203fd32f4fb865d80721224a92d6b7f68a5c415fd",
+            "page_count": 3,
+            "language": "uz-Latn",
+            "text_char_count": 5662,
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "declared_language_script_mismatch",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "missing_language_title",
+                "quality_review"
+            ],
+            "timings": {
+                "pdf_parse_seconds": 0.912027,
+                "ocr_seconds": 0
+            },
+            "extraction_outcome": "succeeded",
+            "persistence_status": "alternate_representation_diagnostic_only_no_import",
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4847867",
+            "canonical_document_id": 784,
+            "run_item_id": 1384,
+            "source_format": "pdf",
+            "sha256": "858cc24c49ac8b809e478322490f3d5b46b53901d2de37c92dbc22395e44b48f",
+            "file_size": 1479219,
+            "page_count": 3,
+            "ocr_pages": [],
+            "language": "uz-Cyrl",
+            "text_char_count": 5589,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "image_backed_text_review",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 0.810054
+            },
+            "persistence_status": "stored",
+            "content_id": 2023,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4847693",
+            "canonical_document_id": 786,
+            "run_item_id": 1387,
+            "source_format": "ocr",
+            "sha256": "c27a1ca8e6457438acdbf61c255be2e3c02efc4ffb2020acb5b7e476458b34bd",
+            "file_size": 1976874,
+            "page_count": 4,
+            "ocr_pages": [
+                4
+            ],
+            "language": "uz-Cyrl",
+            "text_char_count": 6565,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "image_backed_text_review",
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 2.411392,
+                "pdf_parse_seconds": 3.323249
+            },
+            "persistence_status": "stored",
+            "content_id": 2026,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4797571",
+            "canonical_document_id": 802,
+            "run_item_id": 1405,
+            "source_format": "ocr",
+            "sha256": "f35e339b82ca661c4965c5e2175c5ac2f3a33e0e2fdcf7cb29078ee31111988f",
+            "file_size": 75172,
+            "page_count": 2,
+            "ocr_pages": [
+                1,
+                2
+            ],
+            "language": "uz-Cyrl",
+            "text_char_count": 2819,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 6.126417,
+                "pdf_parse_seconds": 7.636313
+            },
+            "persistence_status": "stored",
+            "content_id": 2055,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4848277",
+            "canonical_document_id": 803,
+            "run_item_id": 1406,
+            "source_format": "ocr",
+            "sha256": "03f590fc7b62b23deb7ab3f2dee2c929931ea70f402e05e9be29a20cf5ce0617",
+            "file_size": 2452885,
+            "page_count": 6,
+            "ocr_pages": [
+                3
+            ],
+            "language": "uz-Cyrl",
+            "text_char_count": 9448,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "image_backed_text_review",
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 3.115067,
+                "pdf_parse_seconds": 4.129481
+            },
+            "persistence_status": "stored",
+            "content_id": 2056,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4885719",
+            "canonical_document_id": 823,
+            "run_item_id": 1432,
+            "source_format": "ocr",
+            "sha256": "72802472f13fed1451fd6f6ec3135625be1d679a15bac6292d0cd0c75e748f51",
+            "file_size": 201539,
+            "page_count": 2,
+            "ocr_pages": [
+                1,
+                2
+            ],
+            "language": "uz-Cyrl",
+            "text_char_count": 3239,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 16.765686,
+                "pdf_parse_seconds": 17.2728
+            },
+            "persistence_status": "stored",
+            "content_id": 2091,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4945394",
+            "canonical_document_id": 827,
+            "run_item_id": 1437,
+            "source_format": "ocr",
+            "sha256": "9408133afc4e0060cf1582dbbfba2fcd52e3ee328a9c6f2028b03a7511599c3d",
+            "file_size": 316592,
+            "page_count": 1,
+            "ocr_pages": [
+                1
+            ],
+            "language": "uz-Cyrl",
+            "text_char_count": 2257,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 5.822871,
+                "pdf_parse_seconds": 6.32926
+            },
+            "persistence_status": "stored",
+            "content_id": 2098,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4847999",
+            "canonical_document_id": 766,
+            "run_item_id": 1357,
+            "source_format": "pdf",
+            "sha256": "4dfb4f2664da170a610660e8b262a088a4c37df766757e04616e9988e2bfc5c8",
+            "file_size": 597661,
+            "page_count": 1,
+            "ocr_pages": [],
+            "language": "uz-Cyrl",
+            "text_char_count": 2080,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "image_backed_text_review",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 0.609988
+            },
+            "persistence_status": "stored",
+            "content_id": 1990,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4848123",
+            "canonical_document_id": 831,
+            "run_item_id": 1443,
+            "source_format": "ocr",
+            "sha256": "3ca65b6da9130d155553bb6a52935b71599f50802ce42f61693fd8c1c9c02093",
+            "file_size": 2229627,
+            "page_count": 5,
+            "ocr_pages": [
+                3
+            ],
+            "language": "uz-Cyrl",
+            "text_char_count": 7672,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "image_backed_text_review",
+                "low_ocr_confidence",
+                "ocr_critical_tokens_unverified",
+                "ocr_source_identifier_not_certified",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "uncertified_ocr",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 2.213493,
+                "pdf_parse_seconds": 3.127442
+            },
+            "persistence_status": "stored",
+            "content_id": 2106,
+            "archive_status": "disabled"
+        },
+        {
+            "source_id": "4847859",
+            "canonical_document_id": 834,
+            "run_item_id": 1447,
+            "source_format": "pdf",
+            "sha256": "2e770bc13335d05e77dca860e464bb6218dce6f0fccf690fdf301839e84093c1",
+            "file_size": 564825,
+            "page_count": 1,
+            "ocr_pages": [],
+            "language": "uz-Cyrl",
+            "text_char_count": 2013,
+            "text_char_count_kind": "sum of extracted page text, excluding Markdown page comments",
+            "extraction_outcome": "succeeded",
+            "quality_status": "needs_review",
+            "quality_issues": [
+                "image_backed_text_review",
+                "pdf_image_semantics_unverified",
+                "pdf_language_coverage_unconfirmed",
+                "pdf_reading_order_unverified",
+                "pdf_structure_unverified",
+                "quality_review"
+            ],
+            "timings": {
+                "ocr_seconds": 0,
+                "pdf_parse_seconds": 0.607297
+            },
+            "persistence_status": "stored",
+            "content_id": 2112,
+            "archive_status": "disabled"
+        }
+    ],
+    "distinct_successful_pdf_sha256": 21,
+    "text_layer_pdf_count": 11,
+    "scanned_ocr_pdf_count": 10,
+    "text_pdf_sampling_goal": 15,
+    "scanned_pdf_sampling_goal": 5,
+    "certification": "Automated extraction and diagnostic coverage only; no human OCR accuracy certification. Alternate diagnostic renditions are not additional stored content or canonical documents."
+}

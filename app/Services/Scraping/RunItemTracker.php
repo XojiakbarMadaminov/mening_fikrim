@@ -45,18 +45,25 @@ class RunItemTracker
         if ($documentId === null) {
             return null;
         }
+        $collectOnce = ($item->run->checkpoint['collection_policy'] ?? null) === 'collect_once';
         $previous = ScrapeRunItem::where('scrape_run_id', $item->scrape_run_id)->where('document_id', $documentId)
-            ->whereIn('status', ['imported', 'unchanged'])->where('id', '<>', $item->id)->orderBy('id')->first();
-        if (! $previous || ($previous->outcome['complete'] ?? false) !== true) {
+            ->whereIn('status', $collectOnce ? ['imported', 'unchanged', 'review'] : ['imported', 'unchanged'])->where('id', '<>', $item->id)->orderBy('id')->first();
+        $usableReview = $collectOnce && ($previous?->outcome['identity_verified'] ?? false) === true
+            && ($previous?->outcome['persistence_complete'] ?? false) === true
+            && ! ($previous?->outcome['technical_retry_pending'] ?? false)
+            && collect($previous?->language_results ?? [])->every(fn ($result) => ($result['state'] ?? null) === 'metadata_only' || in_array($result['quality_status'] ?? null, ['verified', 'needs_review'], true));
+        if (! $previous || (($previous->outcome['complete'] ?? false) !== true && ! $usableReview)) {
             return null;
         }
         if ($item->listing_status !== null && ($item->listing_status !== 'Y' || ! in_array($previous->outcome['source_status'] ?? null, ['active', 'pending'], true))) {
             return null;
         }
 
-        return ['document_id' => $documentId, 'action' => 'skipped_alias', 'complete' => true,
+        return ['document_id' => $documentId, 'action' => 'skipped_alias', 'complete' => ($previous->outcome['complete'] ?? false) === true,
             'languages' => $previous->language_results, 'source_status' => $previous->outcome['source_status'] ?? null,
-            'alias_of_item_id' => $previous->id, 'identity_verified' => true];
+            'alias_of_item_id' => $previous->id, 'identity_verified' => true,
+            'quality_status' => $previous->outcome['quality_status'] ?? 'verified',
+            'reuse_reason' => $usableReview ? 'same_run_identity_verified_usable_collection' : 'same_run_verified_identity'];
     }
 
     public function finish(int $runId, string $sourceId, array $result, ?string $token = null): void

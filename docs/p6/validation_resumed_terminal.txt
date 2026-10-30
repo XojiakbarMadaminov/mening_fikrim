@@ -1,0 +1,23 @@
+PDF_CHECK -8506802 pdf_samples=0 requests=8
+AUDIT validation_after_-8506802 docs=229 texts=541 errors=0
+PDF_CHECK -7303292 pdf_samples=0 requests=6
+AUDIT validation_after_-7303292 docs=229 texts=541 errors=0
+PDF_CHECK -7290944 pdf_samples=0 requests=6
+AUDIT validation_after_-7290944 docs=229 texts=541 errors=0
+PDF_CHECK -8557240 pdf_samples=0 requests=6
+AUDIT validation_after_-8557240 docs=229 texts=541 errors=0
+PDF_CHECK -8546701 pdf_samples=0 requests=6
+AUDIT validation_after_-8546701 docs=229 texts=541 errors=0
+PDF_CHECK -8547769 pdf_samples=0 requests=6
+AUDIT validation_after_-8547769 docs=229 texts=541 errors=0
+PDF_CHECK -8548637 pdf_samples=1 requests=8
+AUDIT validation_after_-8548637 docs=229 texts=541 errors=0
+PDF_CHECK -8548754 pdf_samples=0 requests=8
+AUDIT validation_after_-8548754 docs=229 texts=541 errors=0
+PDF_CHECK -8554309 pdf_samples=0 requests=10
+AUDIT validation_after_-8554309 docs=229 texts=541 errors=0
+PDF_CHECK -7655343 pdf_samples=0 requests=10
+AUDIT validation_after_-7655343 docs=229 texts=541 errors=0
+PDF_CHECK -8540314 pdf_samples=0 requests=6
+AUDIT validation_after_-8540314 docs=229 texts=541 errors=0
+AUDIT validation_final docs=229 texts=541 errors=0

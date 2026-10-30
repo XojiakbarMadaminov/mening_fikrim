@@ -51,11 +51,13 @@ class ScrapeRunManager
         }
 
         $campaign = app(PilotCampaign::class)->admitRun($limit, $sample);
+        $collectOnce = app(DurableCampaign::class)->exists() && (app(DurableCampaign::class)->state()['configuration_snapshot']['collect_once'] ?? false);
 
-        return DB::transaction(function () use ($source, $mode, $limit, $sample, $segments, $campaign) {
+        return DB::transaction(function () use ($source, $mode, $limit, $sample, $segments, $campaign, $collectOnce) {
             $run = ScrapeRun::create(['source_id' => $source->id, 'mode' => $mode, 'started_at' => now(), 'checkpoint' => [
                 'version' => 3, 'scope' => 'bounded_sample', 'limit' => $limit, 'sample_ids' => $sample,
                 'campaign_id' => $campaign,
+                'collection_policy' => $collectOnce ? 'collect_once' : 'strict_recheck',
                 'segments' => $segments, 'segment_index' => 0, 'segment_results' => [], 'partition_parents' => [], 'segments_completed' => 0,
                 'coverage_verified' => false, 'discovery_finished' => false, 'jobs_reconciled' => false,
                 'languages_complete' => false, 'quality_passed' => false,

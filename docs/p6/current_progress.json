@@ -1,0 +1,69 @@
+{
+    "campaign": {
+        "stages": [
+            30,
+            100,
+            300,
+            600,
+            1000
+        ],
+        "audit_count": 850,
+        "http_in_flight": false,
+        "last_audited_at": "2026-10-29T14:29:02+05:00",
+        "last_reservation": {
+            "method": "GET",
+            "context": "run-91",
+            "source_path": "\/uz\/actinfo\/card1\/-1724560"
+        },
+        "last_response_at": "2026-10-29 14:28:59.084513+05",
+        "consecutive_errors": 0,
+        "http_status_counts": {
+            "200": 6003
+        },
+        "legacy_predecessor_id": "p5-1-20261029",
+        "discovered_source_count": 3007,
+        "discovery_partition_count": 50,
+        "legacy_predecessor_sha256": "c2db5bddaebb2afd7aa7492bedbbf20af6b2c776d7c4cd30cf9ff0b2b6e54af2",
+        "http_recovery_wait_seconds": 120,
+        "id": "p6-corpus-1000-20261029",
+        "durable": true,
+        "status": "stopped",
+        "request_limit": 13000,
+        "used": 6003,
+        "target": 1000,
+        "stage": 1000,
+        "source_limit": 3300,
+        "selected_source_count": 1183,
+        "baseline_max_id": 229,
+        "baseline_count": 229,
+        "new_canonical_documents": 850,
+        "persisted_new_canonical_count": 850,
+        "started_at": "2026-10-29T10:53:13+05:00",
+        "paused_at": "2026-10-29T11:08:48+05:00",
+        "completed_at": null,
+        "last_request_started_at": "2026-10-29T14:28:59.002781+05:00",
+        "stopped": {
+            "reason": "bounded_discovery_scope_exhausted",
+            "at": "2026-10-29T14:29:02+05:00"
+        },
+        "configuration_snapshot": {
+            "workers": 1,
+            "page_cap": 8,
+            "collect_once": true,
+            "scope_sha256": "8b1f8113a36cba49cce9935629e713b518f9dbc4664d953a4a049889977d6f05",
+            "max_partitions": 255,
+            "baseline_sha256": "9bcc089c5381fc31d89f8a18f8de7e3b7bf9225e56e751ba9204105c29ad80a2",
+            "max_discovered_ids": 20000,
+            "archive_quota_bytes": 2147483648,
+            "max_partition_depth": 10,
+            "request_interval_ms": 2000,
+            "max_campaign_seconds": 43200,
+            "per_context_request_limit": 400
+        },
+        "owner_generation": 3,
+        "owner_backend_pid": null,
+        "owned_by_this_process": false,
+        "request_context_count": 58
+    },
+    "pending_scraping_jobs": 0
+}

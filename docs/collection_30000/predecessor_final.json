@@ -1,0 +1,1563 @@
+{
+    "observed_at": "2026-10-30T09:55:51+05:00",
+    "campaign_id": "corpus-10000-20261029",
+    "snapshot_type": "stored_final",
+    "available": true,
+    "report": {
+        "http": {
+            "used": 17040,
+            "maximum": 120000,
+            "remaining": 102960,
+            "status_counts": {
+                "200": 17040
+            },
+            "per_context_maximum": 400
+        },
+        "stages": [
+            30,
+            100,
+            300,
+            1000,
+            3000,
+            6000,
+            10000
+        ],
+        "status": "stopped",
+        "timing": {
+            "started_at": "2026-10-29T18:32:49+05:00",
+            "active_metric_status": "unavailable; elapsed window includes pauses and worker waiting",
+            "new_per_elapsed_hour": 204.48254974139135,
+            "elapsed_window_seconds": 42922,
+            "active_processing_seconds": null
+        },
+        "prepared": false,
+        "recovery": {
+            "phase": "discover",
+            "checkpoint_count": 40,
+            "owner_generation": 7513,
+            "owner_registered": false,
+            "owner_session_live": false,
+            "terminal_resume_allowed": false
+        },
+        "discovery": {
+            "scope": [
+                {
+                    "to": "31.01.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2021",
+                    "from": "01.02.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2021",
+                    "from": "01.02.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2021",
+                    "from": "01.02.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.03.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.03.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.03.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2021",
+                    "from": "01.05.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2021",
+                    "from": "01.05.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2021",
+                    "from": "01.05.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.06.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.06.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.06.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2021",
+                    "from": "01.07.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2021",
+                    "from": "01.07.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2021",
+                    "from": "01.07.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2021",
+                    "from": "01.08.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2021",
+                    "from": "01.08.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2021",
+                    "from": "01.08.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2021",
+                    "from": "01.09.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2021",
+                    "from": "01.09.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2021",
+                    "from": "01.09.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2021",
+                    "from": "01.10.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2021",
+                    "from": "01.10.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2021",
+                    "from": "01.10.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2021",
+                    "from": "01.11.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2021",
+                    "from": "01.11.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2021",
+                    "from": "01.11.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2021",
+                    "from": "01.12.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2021",
+                    "from": "01.12.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2021",
+                    "from": "01.12.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2022",
+                    "from": "01.01.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2022",
+                    "from": "01.01.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2022",
+                    "from": "01.01.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2022",
+                    "from": "01.02.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2022",
+                    "from": "01.02.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2022",
+                    "from": "01.02.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2022",
+                    "from": "01.03.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2022",
+                    "from": "01.03.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2022",
+                    "from": "01.03.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2022",
+                    "from": "01.04.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2022",
+                    "from": "01.04.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2022",
+                    "from": "01.04.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2022",
+                    "from": "01.05.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2022",
+                    "from": "01.05.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2022",
+                    "from": "01.05.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2022",
+                    "from": "01.06.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2022",
+                    "from": "01.06.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2022",
+                    "from": "01.06.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2022",
+                    "from": "01.07.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2022",
+                    "from": "01.07.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2022",
+                    "from": "01.07.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2022",
+                    "from": "01.08.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2022",
+                    "from": "01.08.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2022",
+                    "from": "01.08.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2022",
+                    "from": "01.09.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2022",
+                    "from": "01.09.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2022",
+                    "from": "01.09.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2022",
+                    "from": "01.10.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2022",
+                    "from": "01.10.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2022",
+                    "from": "01.10.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2022",
+                    "from": "01.11.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2022",
+                    "from": "01.11.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2022",
+                    "from": "01.11.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2022",
+                    "from": "01.12.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2022",
+                    "from": "01.12.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2022",
+                    "from": "01.12.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2023",
+                    "from": "01.01.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2023",
+                    "from": "01.01.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2023",
+                    "from": "01.01.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2023",
+                    "from": "01.02.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2023",
+                    "from": "01.02.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2023",
+                    "from": "01.02.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2023",
+                    "from": "01.03.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2023",
+                    "from": "01.03.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2023",
+                    "from": "01.03.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2023",
+                    "from": "01.04.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2023",
+                    "from": "01.04.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2023",
+                    "from": "01.04.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2023",
+                    "from": "01.05.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2023",
+                    "from": "01.05.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2023",
+                    "from": "01.05.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2023",
+                    "from": "01.06.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2023",
+                    "from": "01.06.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2023",
+                    "from": "01.06.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2023",
+                    "from": "01.07.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2023",
+                    "from": "01.07.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2023",
+                    "from": "01.07.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2023",
+                    "from": "01.08.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2023",
+                    "from": "01.08.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2023",
+                    "from": "01.08.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2023",
+                    "from": "01.09.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2023",
+                    "from": "01.09.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2023",
+                    "from": "01.09.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2023",
+                    "from": "01.10.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2023",
+                    "from": "01.10.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2023",
+                    "from": "01.10.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2023",
+                    "from": "01.11.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2023",
+                    "from": "01.11.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2023",
+                    "from": "01.11.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2023",
+                    "from": "01.12.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2023",
+                    "from": "01.12.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2023",
+                    "from": "01.12.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2024",
+                    "from": "01.01.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2024",
+                    "from": "01.01.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2024",
+                    "from": "01.01.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "29.02.2024",
+                    "from": "01.02.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "29.02.2024",
+                    "from": "01.02.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "29.02.2024",
+                    "from": "01.02.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2024",
+                    "from": "01.03.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2024",
+                    "from": "01.03.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2024",
+                    "from": "01.03.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2024",
+                    "from": "01.04.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2024",
+                    "from": "01.04.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2024",
+                    "from": "01.04.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2024",
+                    "from": "01.05.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2024",
+                    "from": "01.05.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2024",
+                    "from": "01.05.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2024",
+                    "from": "01.06.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2024",
+                    "from": "01.06.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2024",
+                    "from": "01.06.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2024",
+                    "from": "01.07.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2024",
+                    "from": "01.07.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2024",
+                    "from": "01.07.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2024",
+                    "from": "01.08.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2024",
+                    "from": "01.08.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2024",
+                    "from": "01.08.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2024",
+                    "from": "01.09.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2024",
+                    "from": "01.09.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2024",
+                    "from": "01.09.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2024",
+                    "from": "01.10.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2024",
+                    "from": "01.10.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2024",
+                    "from": "01.10.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2024",
+                    "from": "01.11.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2024",
+                    "from": "01.11.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2024",
+                    "from": "01.11.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2024",
+                    "from": "01.12.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2024",
+                    "from": "01.12.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2024",
+                    "from": "01.12.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "partitions": [
+                {
+                    "name": "scope-21",
+                    "query": {
+                        "to": "31.08.2021",
+                        "from": "01.08.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 47,
+                    "complete": true,
+                    "updated_at": "2026-10-30T01:18:33+05:00",
+                    "listing_total": 411,
+                    "unique_source_ids": 411
+                },
+                {
+                    "name": "scope-11",
+                    "query": {
+                        "to": "30.04.2021",
+                        "from": "01.04.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 35,
+                    "complete": true,
+                    "updated_at": "2026-10-29T21:25:57+05:00",
+                    "listing_total": 321,
+                    "unique_source_ids": 321
+                },
+                {
+                    "name": "scope-15",
+                    "query": {
+                        "to": "30.06.2021",
+                        "from": "01.06.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 47,
+                    "complete": true,
+                    "updated_at": "2026-10-29T22:53:13+05:00",
+                    "listing_total": 401,
+                    "unique_source_ids": 401
+                },
+                {
+                    "name": "scope-14",
+                    "query": {
+                        "to": "31.05.2021",
+                        "from": "01.05.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 33,
+                    "complete": true,
+                    "updated_at": "2026-10-29T22:27:04+05:00",
+                    "listing_total": 312,
+                    "unique_source_ids": 312
+                },
+                {
+                    "name": "scope-26",
+                    "query": {
+                        "to": "30.09.2021",
+                        "from": "01.09.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 19,
+                    "complete": true,
+                    "updated_at": "2026-10-30T03:00:00+05:00",
+                    "listing_total": 162,
+                    "unique_source_ids": 162
+                },
+                {
+                    "name": "scope-19",
+                    "query": {
+                        "to": "31.07.2021",
+                        "from": "01.07.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 9,
+                    "complete": true,
+                    "updated_at": "2026-10-30T00:35:33+05:00",
+                    "listing_total": 104,
+                    "unique_source_ids": 104
+                },
+                {
+                    "name": "scope-20",
+                    "query": {
+                        "to": "31.07.2021",
+                        "from": "01.07.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 36,
+                    "complete": true,
+                    "updated_at": "2026-10-30T00:45:35+05:00",
+                    "listing_total": 357,
+                    "unique_source_ids": 357
+                },
+                {
+                    "name": "scope-16",
+                    "query": {
+                        "to": "30.06.2021",
+                        "from": "01.06.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 8,
+                    "complete": true,
+                    "updated_at": "2026-10-29T23:25:48+05:00",
+                    "listing_total": 86,
+                    "unique_source_ids": 86
+                },
+                {
+                    "name": "scope-3",
+                    "query": {
+                        "to": "28.02.2021",
+                        "from": "01.02.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 37,
+                    "complete": true,
+                    "updated_at": "2026-10-29T19:03:04+05:00",
+                    "listing_total": 351,
+                    "unique_source_ids": 351
+                },
+                {
+                    "name": "scope-23",
+                    "query": {
+                        "to": "31.08.2021",
+                        "from": "01.08.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 24,
+                    "complete": true,
+                    "updated_at": "2026-10-30T02:00:32+05:00",
+                    "listing_total": 258,
+                    "unique_source_ids": 258
+                },
+                {
+                    "name": "scope-17",
+                    "query": {
+                        "to": "30.06.2021",
+                        "from": "01.06.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 61,
+                    "complete": true,
+                    "updated_at": "2026-10-29T23:34:21+05:00",
+                    "listing_total": 375,
+                    "unique_source_ids": 375
+                },
+                {
+                    "name": "scope-12",
+                    "query": {
+                        "to": "31.05.2021",
+                        "from": "01.05.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 44,
+                    "complete": true,
+                    "updated_at": "2026-10-29T21:55:00+05:00",
+                    "listing_total": 336,
+                    "unique_source_ids": 336
+                },
+                {
+                    "name": "scope-10",
+                    "query": {
+                        "to": "30.04.2021",
+                        "from": "01.04.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 7,
+                    "complete": true,
+                    "updated_at": "2026-10-29T21:19:07+05:00",
+                    "listing_total": 75,
+                    "unique_source_ids": 75
+                },
+                {
+                    "name": "scope-22",
+                    "query": {
+                        "to": "31.08.2021",
+                        "from": "01.08.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 7,
+                    "complete": true,
+                    "updated_at": "2026-10-30T01:53:25+05:00",
+                    "listing_total": 70,
+                    "unique_source_ids": 70
+                },
+                {
+                    "name": "scope-32",
+                    "query": {
+                        "to": "30.11.2021",
+                        "from": "01.11.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 52,
+                    "complete": true,
+                    "updated_at": "2026-10-30T05:14:07+05:00",
+                    "listing_total": 369,
+                    "unique_source_ids": 369
+                },
+                {
+                    "name": "scope-18",
+                    "query": {
+                        "to": "31.07.2021",
+                        "from": "01.07.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 45,
+                    "complete": true,
+                    "updated_at": "2026-10-30T00:06:31+05:00",
+                    "listing_total": 353,
+                    "unique_source_ids": 353
+                },
+                {
+                    "name": "scope-13",
+                    "query": {
+                        "to": "31.05.2021",
+                        "from": "01.05.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 8,
+                    "complete": true,
+                    "updated_at": "2026-10-29T22:18:43+05:00",
+                    "listing_total": 88,
+                    "unique_source_ids": 88
+                },
+                {
+                    "name": "scope-31",
+                    "query": {
+                        "to": "30.11.2021",
+                        "from": "01.11.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 9,
+                    "complete": true,
+                    "updated_at": "2026-10-30T05:01:43+05:00",
+                    "listing_total": 111,
+                    "unique_source_ids": 111
+                },
+                {
+                    "name": "scope-25",
+                    "query": {
+                        "to": "30.09.2021",
+                        "from": "01.09.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 9,
+                    "complete": true,
+                    "updated_at": "2026-10-30T02:49:35+05:00",
+                    "listing_total": 106,
+                    "unique_source_ids": 106
+                },
+                {
+                    "name": "scope-24",
+                    "query": {
+                        "to": "30.09.2021",
+                        "from": "01.09.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 33,
+                    "complete": true,
+                    "updated_at": "2026-10-30T02:24:34+05:00",
+                    "listing_total": 279,
+                    "unique_source_ids": 279
+                },
+                {
+                    "name": "scope-29",
+                    "query": {
+                        "to": "31.10.2021",
+                        "from": "01.10.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 22,
+                    "complete": true,
+                    "updated_at": "2026-10-30T04:01:40+05:00",
+                    "listing_total": 237,
+                    "unique_source_ids": 237
+                },
+                {
+                    "name": "scope-27",
+                    "query": {
+                        "to": "31.10.2021",
+                        "from": "01.10.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 26,
+                    "complete": true,
+                    "updated_at": "2026-10-30T03:15:40+05:00",
+                    "listing_total": 313,
+                    "unique_source_ids": 313
+                },
+                {
+                    "name": "scope-30",
+                    "query": {
+                        "to": "30.11.2021",
+                        "from": "01.11.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 48,
+                    "complete": true,
+                    "updated_at": "2026-10-30T04:26:17+05:00",
+                    "listing_total": 411,
+                    "unique_source_ids": 411
+                },
+                {
+                    "name": "scope-28",
+                    "query": {
+                        "to": "31.10.2021",
+                        "from": "01.10.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 21,
+                    "complete": true,
+                    "updated_at": "2026-10-30T03:42:40+05:00",
+                    "listing_total": 193,
+                    "unique_source_ids": 193
+                },
+                {
+                    "name": "scope-33",
+                    "query": {
+                        "to": "31.12.2021",
+                        "from": "01.12.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 47,
+                    "complete": true,
+                    "updated_at": "2026-10-30T05:51:59+05:00",
+                    "listing_total": 387,
+                    "unique_source_ids": 387
+                },
+                {
+                    "name": "scope-34",
+                    "query": {
+                        "to": "31.12.2021",
+                        "from": "01.12.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": "child_coverage_or_count_mismatch",
+                    "version": 69,
+                    "complete": false,
+                    "updated_at": "2026-10-30T06:28:11+05:00",
+                    "listing_total": 947,
+                    "unique_source_ids": 570
+                },
+                {
+                    "name": "scope-6",
+                    "query": {
+                        "to": "31.03.2021",
+                        "from": "01.03.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 46,
+                    "complete": true,
+                    "updated_at": "2026-10-29T19:50:42+05:00",
+                    "listing_total": 396,
+                    "unique_source_ids": 396
+                },
+                {
+                    "name": "scope-7",
+                    "query": {
+                        "to": "31.03.2021",
+                        "from": "01.03.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 6,
+                    "complete": true,
+                    "updated_at": "2026-10-29T20:18:37+05:00",
+                    "listing_total": 51,
+                    "unique_source_ids": 51
+                },
+                {
+                    "name": "scope-4",
+                    "query": {
+                        "to": "28.02.2021",
+                        "from": "01.02.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 11,
+                    "complete": true,
+                    "updated_at": "2026-10-29T19:30:47+05:00",
+                    "listing_total": 149,
+                    "unique_source_ids": 149
+                },
+                {
+                    "name": "scope-8",
+                    "query": {
+                        "to": "31.03.2021",
+                        "from": "01.03.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 21,
+                    "complete": true,
+                    "updated_at": "2026-10-29T20:23:10+05:00",
+                    "listing_total": 216,
+                    "unique_source_ids": 216
+                },
+                {
+                    "name": "scope-5",
+                    "query": {
+                        "to": "28.02.2021",
+                        "from": "01.02.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 9,
+                    "complete": true,
+                    "updated_at": "2026-10-29T19:42:07+05:00",
+                    "listing_total": 106,
+                    "unique_source_ids": 106
+                },
+                {
+                    "name": "scope-9",
+                    "query": {
+                        "to": "30.04.2021",
+                        "from": "01.04.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 61,
+                    "complete": true,
+                    "updated_at": "2026-10-29T20:38:57+05:00",
+                    "listing_total": 519,
+                    "unique_source_ids": 519
+                },
+                {
+                    "name": "scope-1",
+                    "query": {
+                        "to": "31.01.2021",
+                        "from": "01.01.2021",
+                        "status": "Y",
+                        "section": "loc"
+                    },
+                    "reason": null,
+                    "version": 7,
+                    "complete": true,
+                    "updated_at": "2026-10-29T18:49:58+05:00",
+                    "listing_total": 62,
+                    "unique_source_ids": 62
+                },
+                {
+                    "name": "scope-2",
+                    "query": {
+                        "to": "31.01.2021",
+                        "from": "01.01.2021",
+                        "status": "Y",
+                        "section": "oliy"
+                    },
+                    "reason": null,
+                    "version": 10,
+                    "complete": true,
+                    "updated_at": "2026-10-29T18:54:33+05:00",
+                    "listing_total": 123,
+                    "unique_source_ids": 123
+                },
+                {
+                    "name": "scope-0",
+                    "query": {
+                        "to": "31.01.2021",
+                        "from": "01.01.2021",
+                        "status": "Y",
+                        "section": "nat"
+                    },
+                    "reason": null,
+                    "version": 23,
+                    "complete": true,
+                    "updated_at": "2026-10-29T18:33:16+05:00",
+                    "listing_total": 219,
+                    "unique_source_ids": 219
+                }
+            ],
+            "scope_metric_status": "durable_configuration",
+            "global_coverage_verified": false
+        },
+        "campaign_id": "corpus-10000-20261029",
+        "cohort_note": "Current stored representations on canonicals created by this campaign, not a historical content-update event count.",
+        "observed_at": "2026-10-30T06:28:12+05:00",
+        "stop_reason": "unreconciled_discovery_partition",
+        "metrics_note": "Source IDs, aliases, language representations and canonicals are distinct. Review is not technical failure. Metadata-only no-body import diagnostics do not imply a confirmed available translation failed.",
+        "stage_target": 3000,
+        "new_canonical": 2438,
+        "pending_items": 0,
+        "cohort_formats": {
+            "html": 5818
+        },
+        "import_outcomes": {
+            "review": 730,
+            "imported": 1840,
+            "skipped_alias": 976
+        },
+        "recent_activity": [
+            {
+                "at": "2026-10-30T06:26:10+05:00",
+                "status": "skipped_alias",
+                "item_id": 5596,
+                "source_id": "-5840279",
+                "document_id": 3667
+            },
+            {
+                "at": "2026-10-30T06:26:08+05:00",
+                "status": "skipped_alias",
+                "item_id": 5595,
+                "source_id": "5840765",
+                "document_id": 3667
+            },
+            {
+                "at": "2026-10-30T06:26:06+05:00",
+                "status": "skipped_alias",
+                "item_id": 5594,
+                "source_id": "5840271",
+                "document_id": 3666
+            },
+            {
+                "at": "2026-10-30T06:26:04+05:00",
+                "status": "skipped_alias",
+                "item_id": 5593,
+                "source_id": "5789753",
+                "document_id": 3665
+            },
+            {
+                "at": "2026-10-30T06:26:02+05:00",
+                "status": "skipped_alias",
+                "item_id": 5592,
+                "source_id": "-5840267",
+                "document_id": 3666
+            },
+            {
+                "at": "2026-10-30T06:26:01+05:00",
+                "status": "skipped_alias",
+                "item_id": 5591,
+                "source_id": "-5789751",
+                "document_id": 3665
+            },
+            {
+                "at": "2026-10-30T06:25:59+05:00",
+                "status": "imported",
+                "item_id": 5590,
+                "source_id": "5840279",
+                "document_id": 3667
+            },
+            {
+                "at": "2026-10-30T06:25:42+05:00",
+                "status": "imported",
+                "item_id": 5589,
+                "source_id": "5840267",
+                "document_id": 3666
+            },
+            {
+                "at": "2026-10-30T06:25:26+05:00",
+                "status": "imported",
+                "item_id": 5588,
+                "source_id": "5789751",
+                "document_id": 3665
+            },
+            {
+                "at": "2026-10-30T06:24:59+05:00",
+                "status": "skipped_alias",
+                "item_id": 5587,
+                "source_id": "5798088",
+                "document_id": 3661
+            }
+        ],
+        "source_selections": 3546,
+        "baseline_canonical": 1229,
+        "global_failed_jobs": 24,
+        "guard_review_items": 130,
+        "target_new_canonical": 10000,
+        "language_availability": {
+            "unknown": 3895,
+            "coverage": {
+                "unknown": 2377,
+                "complete": 59,
+                "incomplete": 2
+            },
+            "available": 5823,
+            "not_available": 34,
+            "unassessed_documents": 0,
+            "available_but_failed_or_missing": 5
+        },
+        "associated_failed_jobs": 0,
+        "cohort_content_quality": {
+            "verified": 4440,
+            "needs_review": 1378
+        },
+        "technical_failed_items": 0,
+        "current_total_canonical": 3667,
+        "cohort_content_languages": {
+            "en": 36,
+            "ru": 913,
+            "uz-Cyrl": 2435,
+            "uz-Latn": 2434
+        },
+        "pending_scraping_jobs_global": 0,
+        "associated_existing_canonical": 0,
+        "no_usable_body_import_outcomes": 11,
+        "new_canonical_content_representations": 5818
+    },
+    "note": "Immutable terminal snapshot; its observation time is inside report."
+}

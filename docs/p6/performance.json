@@ -1,0 +1,80 @@
+{
+    "validation_active_controller_seconds": 1117.9193536,
+    "policy_active_controller_seconds": 6.249663736,
+    "collection_active_controller_seconds": 12612.555894158,
+    "collection_worker_seconds": 12093.883887397997,
+    "collection_pacer_wait_seconds": 10390.230160949026,
+    "all_http_network_and_reservation_observation_seconds": 1527.9938729999994,
+    "collection_http_callback_seconds": 1437.2943499999965,
+    "worker_database_query_ms": 361583.42999995843,
+    "peak_worker_php_bytes": 185073664,
+    "largest_observed_child_process_max_rss_kib": 394928,
+    "child_memory_note": "Linux getrusage(RUSAGE_CHILDREN) maximum resident set, KiB; largest observed child process, not summed concurrent extractor memory or a per-document peak.",
+    "new_canonical_per_collection_hour": 242.61537674670356,
+    "new_content_representations_per_collection_hour": 634.2251378013827,
+    "timing_note": "Controller active durations exclude operator gaps. Worker duration contains pacing\/network\/local extraction\/database. These timings overlap and must not be summed. Queue-wait sums are not elapsed processing time. See individual invocation and worker records.",
+    "projections": {
+        "1000": {
+            "same_mix_collection_hours": 4.121750292208497,
+            "same_mix_collection_requests": 7063,
+            "planning_hours_1x_to_3x": [
+                4.121750292208497,
+                12.365250876625488
+            ],
+            "uncertainty": "Planning estimate only. Format\/OCR mix, discovery alias yield, source drift, retries and archive policy can materially increase costs. Access permission and separate execution authorization still required."
+        },
+        "10000": {
+            "same_mix_collection_hours": 41.21750292208497,
+            "same_mix_collection_requests": 70624,
+            "planning_hours_1x_to_3x": [
+                41.21750292208497,
+                123.65250876625488
+            ],
+            "uncertainty": "Planning estimate only. Format\/OCR mix, discovery alias yield, source drift, retries and archive policy can materially increase costs. Access permission and separate execution authorization still required."
+        },
+        "100000": {
+            "same_mix_collection_hours": 412.1750292208497,
+            "same_mix_collection_requests": 706236,
+            "planning_hours_1x_to_3x": [
+                412.1750292208497,
+                1236.525087662549
+            ],
+            "uncertainty": "Planning estimate only. Format\/OCR mix, discovery alias yield, source drift, retries and archive policy can materially increase costs. Access permission and separate execution authorization still required."
+        }
+    },
+    "collection_end_to_end_wall_seconds": 12949,
+    "collection_operator_or_noncontroller_gap_seconds": 336.4441058419998,
+    "gap_note": "Wall minus active invocations estimates controlled operator pauses and small process-boundary overhead; timestamps have second precision. This gap is not scraper processing time.",
+    "collection_recovery_queue_wait_seconds": 0,
+    "http_timing_note": "HTTP callback wall includes socket time plus short response observation\/hash\/provenance work; it is not a pure network-only measure. PDF parse time already includes OCR time.",
+    "html_parse_seconds": {
+        "observations": 2488,
+        "sum": 26.177501999999997,
+        "p50": 0.004459,
+        "p95": 0.031331
+    },
+    "pdf_parse_seconds": {
+        "observations": 9,
+        "sum": 43.845884,
+        "p50": 3.323249,
+        "p95": 7.636313
+    },
+    "ocr_seconds": {
+        "observations": 6,
+        "sum": 36.454926,
+        "p50": 3.115067,
+        "p95": 6.126417
+    },
+    "queue_wait_seconds": {
+        "observations": 855,
+        "sum": 127415.79494399995,
+        "p50": 134.988744,
+        "p95": 315.515603
+    },
+    "import_and_reconcile_estimate_seconds": {
+        "observations": 855,
+        "sum": 21.712453999999994,
+        "p50": 0.020305999999999713,
+        "p95": 0.048122999999998584
+    }
+}

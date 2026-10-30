@@ -1,0 +1,1778 @@
+{
+    "root": {
+        "query": {
+            "section": "loc",
+            "status": "Y",
+            "from": "01.01.2020",
+            "to": "31.01.2020"
+        },
+        "depth": 0,
+        "pages": {
+            "1": {
+                "total": 93,
+                "prefix": "66b27ef96920a778526f4bba1b813243dcd5a925eb1f2a3db68b39602d2ac2c3",
+                "fingerprint": "dc281b2ba68be906f15797240169d0910f484e66647737b4e552a49c286f3525"
+            },
+            "2": {
+                "total": 93,
+                "prefix": "01c782da10b80e4bbf6c5ed7c138588a25d65c674e1451ea4cfe29b2482d3220",
+                "fingerprint": "ce540bb73c9ea86a4affef2f1a0cf83f251907ed0ec58b3bc3d77156e2430a89"
+            },
+            "3": {
+                "total": 93,
+                "prefix": "05e1c509d558f280c687a13fb7e453809d15c65521a6f534735d807951262f2c",
+                "fingerprint": "98c53690cc18f4983d949b10d2350709cb3bed2e8b6a929bb0150041e5a4c9e9"
+            },
+            "4": {
+                "total": 93,
+                "prefix": "2a05d956624c33e2da3bd6c9d949b88fff6518af12508f66fe1f1d8a37f48168",
+                "fingerprint": "986ae7702fef1ea29688397a28eead80dd006afc315f4060acd952e251ee7bfc"
+            },
+            "5": {
+                "total": 93,
+                "prefix": "b03c24eddac9aaefe8f8b8ac5ba5ced1fdd3a30658391d09c919f880c1beea64",
+                "fingerprint": "3298ff84e0de0c08d004f45e00339396aadcdad4592754b40d2d6083e198dd3a"
+            }
+        },
+        "rows": {
+            "-4928235": {
+                "id": "-4928235",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4928235",
+                "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4928235": {
+                "id": "4928235",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4928235",
+                "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4928151": {
+                "id": "-4928151",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4928151",
+                "title": "Romitan tumanida dam olish kunlari savdo yarmarkalari tashkil etishni samarali yoʻlga qoʻyish chora-tadbirlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4928151": {
+                "id": "4928151",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4928151",
+                "title": "Ромитан туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "4752666": {
+                "id": "4752666",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4752666",
+                "title": "Тошкент шаҳридаги давлат кўчмас мулкидан фойдаланганлик учун 2020 йилда қўлланиладиган ижара тўловининг энг кам ставкалари ҳақида",
+                "listing_status": "Y"
+            },
+            "-4752666": {
+                "id": "-4752666",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4752666",
+                "title": "Toshkent shahridagi davlat koʻchmas mulkidan foydalanganlik uchun 2020-yilda qoʻllaniladigan ijara toʻlovining eng kam stavkalari haqida",
+                "listing_status": "Y"
+            },
+            "-5145413": {
+                "id": "-5145413",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5145413",
+                "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5145413": {
+                "id": "5145413",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5145413",
+                "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4920310": {
+                "id": "4920310",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4920310",
+                "title": "Транспорт воситаларини 2020 йил учун мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4920310": {
+                "id": "-4920310",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4920310",
+                "title": "Transport vositalarini 2020-yil uchun majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4854754": {
+                "id": "4854754",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4854754",
+                "title": "Аҳолини ичимлик суви билан таъминлашда марказлаштирилган коммунал сув тармоғи бўлмаган ҳудудларга локал сув етказиб беришни ташкил қилиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4854754": {
+                "id": "-4854754",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4854754",
+                "title": "Aholini ichimlik suvi bilan taʼminlashda markazlashtirilgan kommunal suv tarmogʻi boʻlmagan hududlarga lokal suv yetkazib berishni tashkil qilish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5145547": {
+                "id": "5145547",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5145547",
+                "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва уни ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5145547": {
+                "id": "-5145547",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5145547",
+                "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va uni oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-5131527": {
+                "id": "-5131527",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5131527",
+                "title": "Tumanda 2020-yilda transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5131527": {
+                "id": "5131527",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5131527",
+                "title": "Туманда 2020 йилда транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5131412": {
+                "id": "-5131412",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5131412",
+                "title": "Tumanda 2020-yilda transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5131412": {
+                "id": "5131412",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5131412",
+                "title": "Туманда 2020 йилда транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "5178125": {
+                "id": "5178125",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5178125",
+                "title": "О проведении обязательного технического осмотра транспортных средств в районе на 2020 год",
+                "listing_status": "Y"
+            },
+            "5102037": {
+                "id": "5102037",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5102037",
+                "title": "Туман ҳудудидаги транспорт воситаларининг 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5102037": {
+                "id": "-5102037",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5102037",
+                "title": "Tuman hududidagi transport vositalarining 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5167312": {
+                "id": "5167312",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5167312",
+                "title": "Об организации и проведении обязательного технического осмотра транспортных средств в 2020 году на территории района",
+                "listing_status": "Y"
+            },
+            "5103829": {
+                "id": "5103829",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5103829",
+                "title": "Туман ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5103829": {
+                "id": "-5103829",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5103829",
+                "title": "Tuman hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-4723233": {
+                "id": "-4723233",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4723233",
+                "title": "Toshkent shahri qabristonlarida goʻr qazish va marosim xizmatlari uchun pullik xizmatlar koʻrsatish tariflarini belgilash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4723233": {
+                "id": "4723233",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4723233",
+                "title": "Тошкент шаҳри қабристонларида гўр қазиш ва маросим хизматлари учун пуллик хизматлар кўрсатиш тарифларини белгилаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5101734": {
+                "id": "-5101734",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5101734",
+                "title": "Ishtixon tumanidagi koʻchalarga nom berish va ularniig nomlarini oʻzgartirish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5101734": {
+                "id": "5101734",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5101734",
+                "title": "Иштихон туманидаги кўчаларга ном бериш ва уларнииг номларини ўзгартириш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4728465": {
+                "id": "4728465",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4728465",
+                "title": "Йўл белгиларини ўрнатиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4728465": {
+                "id": "-4728465",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4728465",
+                "title": "Yoʻl belgilarini oʻrnatish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4847947": {
+                "id": "4847947",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4847947",
+                "title": "Туман ҳудудидаги юридик ва жисмоний шахсларга тегишли автомототранспорт воситалари ва уларга тиркамаларни мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4745262": {
+                "id": "4745262",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4745262",
+                "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4745262": {
+                "id": "-4745262",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4745262",
+                "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5102195": {
+                "id": "5102195",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5102195",
+                "title": "Туман ҳудудидаги транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5102195": {
+                "id": "-5102195",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5102195",
+                "title": "Tuman hududidagi transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4857427": {
+                "id": "4857427",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4857427",
+                "title": "Туманда транспорт воситаларининг мажбурий техник кўригини ташкил этиш ва уни ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4857427": {
+                "id": "-4857427",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4857427",
+                "title": "Tumanda transport vositalarining majburiy texnik koʻrigini tashkil etish va uni oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5338699": {
+                "id": "5338699",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5338699",
+                "title": "Об открытии годичных подготовительных групп в некоторых дошкольных образовательных организациях, подведомственных районному отделу дошкольного образования",
+                "listing_status": "Y"
+            },
+            "-4847797": {
+                "id": "-4847797",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4847797",
+                "title": "Tuman maktabgacha taʼlim boʻlimi tasarrufidagi ayrim maktabgacha taʼlim tashkilotlariga bir yillik tayyorlov guruhi ochish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4847797": {
+                "id": "4847797",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4847797",
+                "title": "Туман мактабгача таълим бўлими тасарруфидаги айрим мактабгача таълим ташкилотларига бир йиллик тайёрлов гуруҳи очиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4840136": {
+                "id": "-4840136",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4840136",
+                "title": "Tumandagi mavjud transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4840136": {
+                "id": "4840136",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4840136",
+                "title": "Тумандаги мавжуд транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4892459": {
+                "id": "4892459",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4892459",
+                "title": "Автомобиль йўлида ҳаракат хавсизлигини таъминлаш мақсадида светофор ўрнатишга рухсат бериш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4892459": {
+                "id": "-4892459",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4892459",
+                "title": "Avtomobil yoʻlida harakat xavsizligini taʼminlash maqsadida svetofor oʻrnatishga ruxsat berish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-4782711": {
+                "id": "-4782711",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4782711",
+                "title": "Jizzax viloyatida 2020-yilda davlat koʻchmas mulkidan foydalanganlik uchun ijara toʻlovining eng kam stavkalarini tasdiqlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4782711": {
+                "id": "4782711",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4782711",
+                "title": "Жиззах вилоятида 2020 йилда давлат кўчмас мулкидан фойдаланганлик учун ижара тўловининг энг кам ставкаларини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5101705": {
+                "id": "-5101705",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5101705",
+                "title": "Tuman hududidagi avtomototransport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5101705": {
+                "id": "5101705",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5101705",
+                "title": "Туман ҳудудидаги автомототранспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "5167832": {
+                "id": "5167832",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5167832",
+                "title": "О проведении обязательного технического осмотра автомототранспортных средств и их прицепов принадлежащих юридическим и физическим лицам на территории района",
+                "listing_status": "Y"
+            },
+            "5100887": {
+                "id": "5100887",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5100887",
+                "title": "Туман ҳудудидаги юридик ва жисмоний шахсларга тегишли автомототранспорт воситалари ва уларга тиркамаларни мажбурий техник кўрикдан ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5100887": {
+                "id": "-5100887",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5100887",
+                "title": "Tuman hududidagi yuridik va jismoniy shaxslarga tegishli avtomototransport vositalari va ularga tirkamalarni majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-4945958": {
+                "id": "-4945958",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4945958",
+                "title": "Jarqoʻrgʻon tuman “Yangiariq” mahallasi hududidan kesib oʻtuvchi xalqaro ahamiyatga ega M-41 “Bishkek-Dushanbe-Termiz” avtomobil yoʻlining 1566-1567 km, “Ismoiltepa” mahallasi hududidan kesib oʻtuvchi 1589-1590 km va “Obi-hayot” mahallasi hududidan kesib oʻtuvchi avtomobil yoʻlining 1597-1598 km oraliqlarida tezlikni cheklovchi hamda ogohlantiruvchi yoʻl belgilari oʻrnatish haqida",
+                "listing_status": "Y"
+            },
+            "4945958": {
+                "id": "4945958",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4945958",
+                "title": "Жарқўрғон туман «Янгиариқ» маҳалласи ҳудудидан кесиб ўтувчи халқаро аҳамиятга эга М-41 «Бишкек-Душанбе-Термиз» автомобиль йўлининг 1566-1567 км, «Исмоилтепа» маҳалласи ҳудудидан кесиб ўтувчи 1589-1590 км ва «Оби-ҳаёт» маҳалласи ҳудудидан кесиб ўтувчи автомобиль йўлининг 1597-1598 км оралиқларида тезликни чекловчи ҳамда огоҳлантирувчи йўл белгилари ўрнатиш ҳақида",
+                "listing_status": "Y"
+            },
+            "4990800": {
+                "id": "4990800",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4990800",
+                "title": "О разрешение установка дорожного знака 3,27 «Остановка запрещена» перед чайханой «Сой шаббодаси» на улице Сой буйи, махаллинский коммитет Узумзор, в городе",
+                "listing_status": "Y"
+            },
+            "4989818": {
+                "id": "4989818",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4989818",
+                "title": "Шаҳардаги Узумзор маҳалла фуқаролар йиғини Сойбўйи кўчасидаги «Сой Шаббодаси» чойхонасининг олдига 3.27 «Тўхташ тақиқланади» йўл белгисини ўрнатишга рухсат бериш ҳақида",
+                "listing_status": "Y"
+            },
+            "-4989818": {
+                "id": "-4989818",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4989818",
+                "title": "Shahardagi Uzumzor mahalla fuqarolar yigʻini Soyboʻyi koʻchasidagi “Soy Shabbodasi” choyxonasining oldiga 3.27 “Toʻxtash taqiqlanadi” yoʻl belgisini  oʻrnatishga ruxsat berish haqida",
+                "listing_status": "Y"
+            },
+            "-4920384": {
+                "id": "-4920384",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4920384",
+                "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli, viloyat hokimining 2020-yil 3-yanvardagi 1-sonli hamda Xalq deputatlari tuman Kengashining 2019-yil 17-dekabrdagi V-LXXXIII\/154-sonli qarorlari ijrosini taʼminlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4920384": {
+                "id": "4920384",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4920384",
+                "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли, вилоят ҳокимининг 2020 йил 3 январдаги 1-сонли ҳамда Халқ депутатлари туман Кенгашининг 2019 йил 17 декабрдаги V-LXXXIII\/154-сонли қарорлари ижросини таъминлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4920128": {
+                "id": "-4920128",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4920128",
+                "title": "Viloyat hokimining 2020-yil 3-yanvar kungi 1-sonli “Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli qarori toʻgʻrisida”gi qarori haqida",
+                "listing_status": "Y"
+            },
+            "4920128": {
+                "id": "4920128",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4920128",
+                "title": "Вилоят ҳокимининг 2020 йил 3 январь кунги 1-сонли «Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли қарори тўғрисида»ги қарори ҳақида",
+                "listing_status": "Y"
+            },
+            "-5116320": {
+                "id": "-5116320",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5116320",
+                "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli, Fargʻona viloyati hokimining 2020-yil 3-yanvardagi 1-sonli va Xalq deputatlari Fargʻona shahar Kengashining 2019-yil 17-dekabrdagi V-XXXXIII-247-sonli qarorlari ijrosini taʼminlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5116320": {
+                "id": "5116320",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5116320",
+                "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли, Фарғона вилояти ҳокимининг 2020 йил 3 январдаги 1-сонли ва Халқ депутатлари Фарғона шаҳар Кенгашининг 2019 йил 17 декабрдаги V-XXXXIII-247-сонли қарорлари ижросини таъминлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4745536": {
+                "id": "4745536",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4745536",
+                "title": "2020 йил учун Шароф Рашидов туманининг маҳаллий бюджетини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4745536": {
+                "id": "-4745536",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4745536",
+                "title": "2020-yil uchun Sharof Rashidov tumanining mahalliy budjetini tasdiqlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4848031": {
+                "id": "4848031",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4848031",
+                "title": "Наманган вилоятида 2020 йилда давлат кўчмас мулкидан фойдаланганлик учун ижара тўловининг энг кам ставкаларини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4848823": {
+                "id": "4848823",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4848823",
+                "title": "2020 йил учун Мингбулоқ тумани маҳаллий бюджетини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4727621": {
+                "id": "-4727621",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4727621",
+                "title": "4R-23L Kitob-Shahrisabz, 4K-303 Kitob-Miraki, 4K-277 Kitob-Shut-Sevaz avtomobil yoʻllari hamda Katta yoʻl koʻchasida avtomobillar qatnovini tartibga keltirish, texnika xavfsizligini taʼminlash, tirbandlikni oldini olish maqsadida tegishli yoʻl belgilarini oʻrnatish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4727621": {
+                "id": "4727621",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4727621",
+                "title": "4Р-23Л Китоб-Шаҳрисабз, 4К-303 Китоб-Мираки, 4К-277 Китоб-Шут-Севаз автомобил йўллари ҳамда Катта йўл кўчасида автомобиллар қатновини тартибга келтириш, техника хавфсизлигини таъминлаш, тирбандликни олдини олиш мақсадида тегишли йўл белгиларини ўрнатиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "5117282": {
+                "id": "5117282",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5117282",
+                "title": "Қувасой шаҳрида жисмоний ва юридик шахсларга тегишли бўлган транспорт воситаларини 2020 йилда мажбурий техник кўрикдан ўтказиш ҳақида",
+                "listing_status": "Y"
+            },
+            "-5117282": {
+                "id": "-5117282",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5117282",
+                "title": "Quvasoy shahrida jismoniy va yuridik shaxslarga tegishli boʻlgan transport vositalarini 2020-yilda majburiy texnik koʻrikdan oʻtkazish haqida",
+                "listing_status": "Y"
+            },
+            "4718730": {
+                "id": "4718730",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4718730",
+                "title": "Бухоро туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "4718705": {
+                "id": "4718705",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4718705",
+                "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4718705": {
+                "id": "-4718705",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4718705",
+                "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "5101658": {
+                "id": "5101658",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5101658",
+                "title": "Туман ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5101658": {
+                "id": "-5101658",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5101658",
+                "title": "Tuman hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4885102": {
+                "id": "4885102",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4885102",
+                "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги «Ўзбекистон Республикасининг «2020 йил учун Ўзбекистон Республикасининг Давлат бюджети тўғрисида»ги Қонуни ижросини таъминлаш чора-тадбирлари тўғрисида»ги ПҚ-4555-сонли қарорининг ижросини таъминлаш ҳақида",
+                "listing_status": "Y"
+            },
+            "-4885102": {
+                "id": "-4885102",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4885102",
+                "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi “Oʻzbekiston Respublikasining “2020-yil uchun Oʻzbekiston Respublikasining Davlat budjeti toʻgʻrisida”gi Qonuni ijrosini taʼminlash chora-tadbirlari toʻgʻrisida”gi PQ-4555-sonli qarorining ijrosini taʼminlash haqida",
+                "listing_status": "Y"
+            },
+            "-4728918": {
+                "id": "-4728918",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4728918",
+                "title": "Tumanda umumtaʼlim muassasalariga biriktirilgan hududlarni (mikrohudud) belgilash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4728918": {
+                "id": "4728918",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4728918",
+                "title": "Туманда умумтаълим муассасаларига бириктирилган ҳудудларни (микроҳудуд) белгилаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4714229": {
+                "id": "-4714229",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4714229",
+                "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4714229": {
+                "id": "4714229",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4714229",
+                "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "5147234": {
+                "id": "5147234",
+                "url": "https:\/\/lex.uz\/uz\/docs\/5147234",
+                "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-5147234": {
+                "id": "-5147234",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-5147234",
+                "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "-4737803": {
+                "id": "-4737803",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4737803",
+                "title": "Jizzax viloyati Zomin tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4737803": {
+                "id": "4737803",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4737803",
+                "title": "Жиззах вилояти Зомин туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4920419": {
+                "id": "-4920419",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4920419",
+                "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli qarori va Xalq deputatlari Fargʻona viloyati Kengashining 2019-yil 16-dekabrdagi V-LI\/266-sonli qarori, viloyat hokimining 2020-yil 3-yanvar kungi 1-sonli qarori hamda Margʻilon shahar Kengashining 2019-yil 17-dekabrdagi V-52\/1-sonli qarori ijrosini taʼminlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4920419": {
+                "id": "4920419",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4920419",
+                "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли қарори ва Халқ депутатлари Фарғона вилояти Кенгашининг 2019 йил 16 декабрдаги V-LI\/266-сонли қарори, вилоят ҳокимининг 2020 йил 3 январь кунги 1-сонли қарори ҳамда Марғилон шаҳар Кенгашининг 2019 йил 17 декабрдаги V-52\/1-сонли қарори ижросини таъминлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4848540": {
+                "id": "4848540",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4848540",
+                "title": "2020 йил учун Тўрақўрғон туманининг маҳаллий бюджети тўғрисида",
+                "listing_status": "Y"
+            },
+            "4797522": {
+                "id": "4797522",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4797522",
+                "title": "Шўрчи туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4782646": {
+                "id": "-4782646",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4782646",
+                "title": "Zafarobod tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+                "listing_status": "Y"
+            },
+            "4782646": {
+                "id": "4782646",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4782646",
+                "title": "Зафаробод туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "4745814": {
+                "id": "4745814",
+                "url": "https:\/\/lex.uz\/uz\/docs\/4745814",
+                "title": "Жиззах вилояти Янгиобод туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+                "listing_status": "Y"
+            },
+            "-4745814": {
+                "id": "-4745814",
+                "url": "https:\/\/lex.uz\/uz\/docs\/-4745814",
+                "title": "Jizzax viloyati Yangiobod tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+                "listing_status": "Y"
+            }
+        },
+        "done": true,
+        "enumeration": {
+            "complete": true,
+            "total": 93,
+            "unique_ids": 93,
+            "pages": 5,
+            "restarts": 0
+        },
+        "total": 93,
+        "complete": true
+    },
+    "nodes": {
+        "5811b5a0bb8527bc2a6b37f8fc25c599bd897fe0c21951351c0f8f3548cdf993": {
+            "query": {
+                "section": "loc",
+                "status": "Y",
+                "from": "01.01.2020",
+                "to": "31.01.2020"
+            },
+            "depth": 0,
+            "pages": {
+                "1": {
+                    "total": 93,
+                    "prefix": "66b27ef96920a778526f4bba1b813243dcd5a925eb1f2a3db68b39602d2ac2c3",
+                    "fingerprint": "dc281b2ba68be906f15797240169d0910f484e66647737b4e552a49c286f3525"
+                },
+                "2": {
+                    "total": 93,
+                    "prefix": "01c782da10b80e4bbf6c5ed7c138588a25d65c674e1451ea4cfe29b2482d3220",
+                    "fingerprint": "ce540bb73c9ea86a4affef2f1a0cf83f251907ed0ec58b3bc3d77156e2430a89"
+                },
+                "3": {
+                    "total": 93,
+                    "prefix": "05e1c509d558f280c687a13fb7e453809d15c65521a6f534735d807951262f2c",
+                    "fingerprint": "98c53690cc18f4983d949b10d2350709cb3bed2e8b6a929bb0150041e5a4c9e9"
+                },
+                "4": {
+                    "total": 93,
+                    "prefix": "2a05d956624c33e2da3bd6c9d949b88fff6518af12508f66fe1f1d8a37f48168",
+                    "fingerprint": "986ae7702fef1ea29688397a28eead80dd006afc315f4060acd952e251ee7bfc"
+                },
+                "5": {
+                    "total": 93,
+                    "prefix": "b03c24eddac9aaefe8f8b8ac5ba5ced1fdd3a30658391d09c919f880c1beea64",
+                    "fingerprint": "3298ff84e0de0c08d004f45e00339396aadcdad4592754b40d2d6083e198dd3a"
+                }
+            },
+            "rows": {
+                "-4928235": {
+                    "id": "-4928235",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4928235",
+                    "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4928235": {
+                    "id": "4928235",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4928235",
+                    "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4928151": {
+                    "id": "-4928151",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4928151",
+                    "title": "Romitan tumanida dam olish kunlari savdo yarmarkalari tashkil etishni samarali yoʻlga qoʻyish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4928151": {
+                    "id": "4928151",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4928151",
+                    "title": "Ромитан туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4752666": {
+                    "id": "4752666",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4752666",
+                    "title": "Тошкент шаҳридаги давлат кўчмас мулкидан фойдаланганлик учун 2020 йилда қўлланиладиган ижара тўловининг энг кам ставкалари ҳақида",
+                    "listing_status": "Y"
+                },
+                "-4752666": {
+                    "id": "-4752666",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4752666",
+                    "title": "Toshkent shahridagi davlat koʻchmas mulkidan foydalanganlik uchun 2020-yilda qoʻllaniladigan ijara toʻlovining eng kam stavkalari haqida",
+                    "listing_status": "Y"
+                },
+                "-5145413": {
+                    "id": "-5145413",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5145413",
+                    "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5145413": {
+                    "id": "5145413",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5145413",
+                    "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4920310": {
+                    "id": "4920310",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4920310",
+                    "title": "Транспорт воситаларини 2020 йил учун мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4920310": {
+                    "id": "-4920310",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4920310",
+                    "title": "Transport vositalarini 2020-yil uchun majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4854754": {
+                    "id": "4854754",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4854754",
+                    "title": "Аҳолини ичимлик суви билан таъминлашда марказлаштирилган коммунал сув тармоғи бўлмаган ҳудудларга локал сув етказиб беришни ташкил қилиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4854754": {
+                    "id": "-4854754",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4854754",
+                    "title": "Aholini ichimlik suvi bilan taʼminlashda markazlashtirilgan kommunal suv tarmogʻi boʻlmagan hududlarga lokal suv yetkazib berishni tashkil qilish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5145547": {
+                    "id": "5145547",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5145547",
+                    "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва уни ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5145547": {
+                    "id": "-5145547",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5145547",
+                    "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va uni oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-5131527": {
+                    "id": "-5131527",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5131527",
+                    "title": "Tumanda 2020-yilda transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5131527": {
+                    "id": "5131527",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5131527",
+                    "title": "Туманда 2020 йилда транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5131412": {
+                    "id": "-5131412",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5131412",
+                    "title": "Tumanda 2020-yilda transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5131412": {
+                    "id": "5131412",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5131412",
+                    "title": "Туманда 2020 йилда транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "5178125": {
+                    "id": "5178125",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5178125",
+                    "title": "О проведении обязательного технического осмотра транспортных средств в районе на 2020 год",
+                    "listing_status": "Y"
+                },
+                "5102037": {
+                    "id": "5102037",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5102037",
+                    "title": "Туман ҳудудидаги транспорт воситаларининг 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5102037": {
+                    "id": "-5102037",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5102037",
+                    "title": "Tuman hududidagi transport vositalarining 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5167312": {
+                    "id": "5167312",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5167312",
+                    "title": "Об организации и проведении обязательного технического осмотра транспортных средств в 2020 году на территории района",
+                    "listing_status": "Y"
+                },
+                "5103829": {
+                    "id": "5103829",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5103829",
+                    "title": "Туман ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5103829": {
+                    "id": "-5103829",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5103829",
+                    "title": "Tuman hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-4723233": {
+                    "id": "-4723233",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4723233",
+                    "title": "Toshkent shahri qabristonlarida goʻr qazish va marosim xizmatlari uchun pullik xizmatlar koʻrsatish tariflarini belgilash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4723233": {
+                    "id": "4723233",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4723233",
+                    "title": "Тошкент шаҳри қабристонларида гўр қазиш ва маросим хизматлари учун пуллик хизматлар кўрсатиш тарифларини белгилаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5101734": {
+                    "id": "-5101734",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5101734",
+                    "title": "Ishtixon tumanidagi koʻchalarga nom berish va ularniig nomlarini oʻzgartirish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5101734": {
+                    "id": "5101734",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5101734",
+                    "title": "Иштихон туманидаги кўчаларга ном бериш ва уларнииг номларини ўзгартириш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4728465": {
+                    "id": "4728465",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4728465",
+                    "title": "Йўл белгиларини ўрнатиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4728465": {
+                    "id": "-4728465",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4728465",
+                    "title": "Yoʻl belgilarini oʻrnatish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4847947": {
+                    "id": "4847947",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4847947",
+                    "title": "Туман ҳудудидаги юридик ва жисмоний шахсларга тегишли автомототранспорт воситалари ва уларга тиркамаларни мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4745262": {
+                    "id": "4745262",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4745262",
+                    "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4745262": {
+                    "id": "-4745262",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4745262",
+                    "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5102195": {
+                    "id": "5102195",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5102195",
+                    "title": "Туман ҳудудидаги транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5102195": {
+                    "id": "-5102195",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5102195",
+                    "title": "Tuman hududidagi transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4857427": {
+                    "id": "4857427",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4857427",
+                    "title": "Туманда транспорт воситаларининг мажбурий техник кўригини ташкил этиш ва уни ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4857427": {
+                    "id": "-4857427",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4857427",
+                    "title": "Tumanda transport vositalarining majburiy texnik koʻrigini tashkil etish va uni oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5338699": {
+                    "id": "5338699",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5338699",
+                    "title": "Об открытии годичных подготовительных групп в некоторых дошкольных образовательных организациях, подведомственных районному отделу дошкольного образования",
+                    "listing_status": "Y"
+                },
+                "-4847797": {
+                    "id": "-4847797",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4847797",
+                    "title": "Tuman maktabgacha taʼlim boʻlimi tasarrufidagi ayrim maktabgacha taʼlim tashkilotlariga bir yillik tayyorlov guruhi ochish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4847797": {
+                    "id": "4847797",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4847797",
+                    "title": "Туман мактабгача таълим бўлими тасарруфидаги айрим мактабгача таълим ташкилотларига бир йиллик тайёрлов гуруҳи очиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4840136": {
+                    "id": "-4840136",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4840136",
+                    "title": "Tumandagi mavjud transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4840136": {
+                    "id": "4840136",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4840136",
+                    "title": "Тумандаги мавжуд транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4892459": {
+                    "id": "4892459",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4892459",
+                    "title": "Автомобиль йўлида ҳаракат хавсизлигини таъминлаш мақсадида светофор ўрнатишга рухсат бериш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4892459": {
+                    "id": "-4892459",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4892459",
+                    "title": "Avtomobil yoʻlida harakat xavsizligini taʼminlash maqsadida svetofor oʻrnatishga ruxsat berish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-4782711": {
+                    "id": "-4782711",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4782711",
+                    "title": "Jizzax viloyatida 2020-yilda davlat koʻchmas mulkidan foydalanganlik uchun ijara toʻlovining eng kam stavkalarini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4782711": {
+                    "id": "4782711",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4782711",
+                    "title": "Жиззах вилоятида 2020 йилда давлат кўчмас мулкидан фойдаланганлик учун ижара тўловининг энг кам ставкаларини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5101705": {
+                    "id": "-5101705",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5101705",
+                    "title": "Tuman hududidagi avtomototransport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5101705": {
+                    "id": "5101705",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5101705",
+                    "title": "Туман ҳудудидаги автомототранспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "5167832": {
+                    "id": "5167832",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5167832",
+                    "title": "О проведении обязательного технического осмотра автомототранспортных средств и их прицепов принадлежащих юридическим и физическим лицам на территории района",
+                    "listing_status": "Y"
+                },
+                "5100887": {
+                    "id": "5100887",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5100887",
+                    "title": "Туман ҳудудидаги юридик ва жисмоний шахсларга тегишли автомототранспорт воситалари ва уларга тиркамаларни мажбурий техник кўрикдан ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5100887": {
+                    "id": "-5100887",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5100887",
+                    "title": "Tuman hududidagi yuridik va jismoniy shaxslarga tegishli avtomototransport vositalari va ularga tirkamalarni majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-4945958": {
+                    "id": "-4945958",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4945958",
+                    "title": "Jarqoʻrgʻon tuman “Yangiariq” mahallasi hududidan kesib oʻtuvchi xalqaro ahamiyatga ega M-41 “Bishkek-Dushanbe-Termiz” avtomobil yoʻlining 1566-1567 km, “Ismoiltepa” mahallasi hududidan kesib oʻtuvchi 1589-1590 km va “Obi-hayot” mahallasi hududidan kesib oʻtuvchi avtomobil yoʻlining 1597-1598 km oraliqlarida tezlikni cheklovchi hamda ogohlantiruvchi yoʻl belgilari oʻrnatish haqida",
+                    "listing_status": "Y"
+                },
+                "4945958": {
+                    "id": "4945958",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4945958",
+                    "title": "Жарқўрғон туман «Янгиариқ» маҳалласи ҳудудидан кесиб ўтувчи халқаро аҳамиятга эга М-41 «Бишкек-Душанбе-Термиз» автомобиль йўлининг 1566-1567 км, «Исмоилтепа» маҳалласи ҳудудидан кесиб ўтувчи 1589-1590 км ва «Оби-ҳаёт» маҳалласи ҳудудидан кесиб ўтувчи автомобиль йўлининг 1597-1598 км оралиқларида тезликни чекловчи ҳамда огоҳлантирувчи йўл белгилари ўрнатиш ҳақида",
+                    "listing_status": "Y"
+                },
+                "4990800": {
+                    "id": "4990800",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4990800",
+                    "title": "О разрешение установка дорожного знака 3,27 «Остановка запрещена» перед чайханой «Сой шаббодаси» на улице Сой буйи, махаллинский коммитет Узумзор, в городе",
+                    "listing_status": "Y"
+                },
+                "4989818": {
+                    "id": "4989818",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4989818",
+                    "title": "Шаҳардаги Узумзор маҳалла фуқаролар йиғини Сойбўйи кўчасидаги «Сой Шаббодаси» чойхонасининг олдига 3.27 «Тўхташ тақиқланади» йўл белгисини ўрнатишга рухсат бериш ҳақида",
+                    "listing_status": "Y"
+                },
+                "-4989818": {
+                    "id": "-4989818",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4989818",
+                    "title": "Shahardagi Uzumzor mahalla fuqarolar yigʻini Soyboʻyi koʻchasidagi “Soy Shabbodasi” choyxonasining oldiga 3.27 “Toʻxtash taqiqlanadi” yoʻl belgisini  oʻrnatishga ruxsat berish haqida",
+                    "listing_status": "Y"
+                },
+                "-4920384": {
+                    "id": "-4920384",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4920384",
+                    "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli, viloyat hokimining 2020-yil 3-yanvardagi 1-sonli hamda Xalq deputatlari tuman Kengashining 2019-yil 17-dekabrdagi V-LXXXIII\/154-sonli qarorlari ijrosini taʼminlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4920384": {
+                    "id": "4920384",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4920384",
+                    "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли, вилоят ҳокимининг 2020 йил 3 январдаги 1-сонли ҳамда Халқ депутатлари туман Кенгашининг 2019 йил 17 декабрдаги V-LXXXIII\/154-сонли қарорлари ижросини таъминлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4920128": {
+                    "id": "-4920128",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4920128",
+                    "title": "Viloyat hokimining 2020-yil 3-yanvar kungi 1-sonli “Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli qarori toʻgʻrisida”gi qarori haqida",
+                    "listing_status": "Y"
+                },
+                "4920128": {
+                    "id": "4920128",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4920128",
+                    "title": "Вилоят ҳокимининг 2020 йил 3 январь кунги 1-сонли «Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли қарори тўғрисида»ги қарори ҳақида",
+                    "listing_status": "Y"
+                },
+                "-5116320": {
+                    "id": "-5116320",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5116320",
+                    "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli, Fargʻona viloyati hokimining 2020-yil 3-yanvardagi 1-sonli va Xalq deputatlari Fargʻona shahar Kengashining 2019-yil 17-dekabrdagi V-XXXXIII-247-sonli qarorlari ijrosini taʼminlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5116320": {
+                    "id": "5116320",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5116320",
+                    "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли, Фарғона вилояти ҳокимининг 2020 йил 3 январдаги 1-сонли ва Халқ депутатлари Фарғона шаҳар Кенгашининг 2019 йил 17 декабрдаги V-XXXXIII-247-сонли қарорлари ижросини таъминлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4745536": {
+                    "id": "4745536",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4745536",
+                    "title": "2020 йил учун Шароф Рашидов туманининг маҳаллий бюджетини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4745536": {
+                    "id": "-4745536",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4745536",
+                    "title": "2020-yil uchun Sharof Rashidov tumanining mahalliy budjetini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4848031": {
+                    "id": "4848031",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4848031",
+                    "title": "Наманган вилоятида 2020 йилда давлат кўчмас мулкидан фойдаланганлик учун ижара тўловининг энг кам ставкаларини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4848823": {
+                    "id": "4848823",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4848823",
+                    "title": "2020 йил учун Мингбулоқ тумани маҳаллий бюджетини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4727621": {
+                    "id": "-4727621",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4727621",
+                    "title": "4R-23L Kitob-Shahrisabz, 4K-303 Kitob-Miraki, 4K-277 Kitob-Shut-Sevaz avtomobil yoʻllari hamda Katta yoʻl koʻchasida avtomobillar qatnovini tartibga keltirish, texnika xavfsizligini taʼminlash, tirbandlikni oldini olish maqsadida tegishli yoʻl belgilarini oʻrnatish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4727621": {
+                    "id": "4727621",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4727621",
+                    "title": "4Р-23Л Китоб-Шаҳрисабз, 4К-303 Китоб-Мираки, 4К-277 Китоб-Шут-Севаз автомобил йўллари ҳамда Катта йўл кўчасида автомобиллар қатновини тартибга келтириш, техника хавфсизлигини таъминлаш, тирбандликни олдини олиш мақсадида тегишли йўл белгиларини ўрнатиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "5117282": {
+                    "id": "5117282",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5117282",
+                    "title": "Қувасой шаҳрида жисмоний ва юридик шахсларга тегишли бўлган транспорт воситаларини 2020 йилда мажбурий техник кўрикдан ўтказиш ҳақида",
+                    "listing_status": "Y"
+                },
+                "-5117282": {
+                    "id": "-5117282",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5117282",
+                    "title": "Quvasoy shahrida jismoniy va yuridik shaxslarga tegishli boʻlgan transport vositalarini 2020-yilda majburiy texnik koʻrikdan oʻtkazish haqida",
+                    "listing_status": "Y"
+                },
+                "4718730": {
+                    "id": "4718730",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4718730",
+                    "title": "Бухоро туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4718705": {
+                    "id": "4718705",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4718705",
+                    "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4718705": {
+                    "id": "-4718705",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4718705",
+                    "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "5101658": {
+                    "id": "5101658",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5101658",
+                    "title": "Туман ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5101658": {
+                    "id": "-5101658",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5101658",
+                    "title": "Tuman hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4885102": {
+                    "id": "4885102",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4885102",
+                    "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги «Ўзбекистон Республикасининг «2020 йил учун Ўзбекистон Республикасининг Давлат бюджети тўғрисида»ги Қонуни ижросини таъминлаш чора-тадбирлари тўғрисида»ги ПҚ-4555-сонли қарорининг ижросини таъминлаш ҳақида",
+                    "listing_status": "Y"
+                },
+                "-4885102": {
+                    "id": "-4885102",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4885102",
+                    "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi “Oʻzbekiston Respublikasining “2020-yil uchun Oʻzbekiston Respublikasining Davlat budjeti toʻgʻrisida”gi Qonuni ijrosini taʼminlash chora-tadbirlari toʻgʻrisida”gi PQ-4555-sonli qarorining ijrosini taʼminlash haqida",
+                    "listing_status": "Y"
+                },
+                "-4728918": {
+                    "id": "-4728918",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4728918",
+                    "title": "Tumanda umumtaʼlim muassasalariga biriktirilgan hududlarni (mikrohudud) belgilash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4728918": {
+                    "id": "4728918",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4728918",
+                    "title": "Туманда умумтаълим муассасаларига бириктирилган ҳудудларни (микроҳудуд) белгилаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4714229": {
+                    "id": "-4714229",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4714229",
+                    "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4714229": {
+                    "id": "4714229",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4714229",
+                    "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "5147234": {
+                    "id": "5147234",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/5147234",
+                    "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-5147234": {
+                    "id": "-5147234",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-5147234",
+                    "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "-4737803": {
+                    "id": "-4737803",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4737803",
+                    "title": "Jizzax viloyati Zomin tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4737803": {
+                    "id": "4737803",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4737803",
+                    "title": "Жиззах вилояти Зомин туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4920419": {
+                    "id": "-4920419",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4920419",
+                    "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli qarori va Xalq deputatlari Fargʻona viloyati Kengashining 2019-yil 16-dekabrdagi V-LI\/266-sonli qarori, viloyat hokimining 2020-yil 3-yanvar kungi 1-sonli qarori hamda Margʻilon shahar Kengashining 2019-yil 17-dekabrdagi V-52\/1-sonli qarori ijrosini taʼminlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4920419": {
+                    "id": "4920419",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4920419",
+                    "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли қарори ва Халқ депутатлари Фарғона вилояти Кенгашининг 2019 йил 16 декабрдаги V-LI\/266-сонли қарори, вилоят ҳокимининг 2020 йил 3 январь кунги 1-сонли қарори ҳамда Марғилон шаҳар Кенгашининг 2019 йил 17 декабрдаги V-52\/1-сонли қарори ижросини таъминлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4848540": {
+                    "id": "4848540",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4848540",
+                    "title": "2020 йил учун Тўрақўрғон туманининг маҳаллий бюджети тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4797522": {
+                    "id": "4797522",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4797522",
+                    "title": "Шўрчи туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4782646": {
+                    "id": "-4782646",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4782646",
+                    "title": "Zafarobod tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                },
+                "4782646": {
+                    "id": "4782646",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4782646",
+                    "title": "Зафаробод туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "4745814": {
+                    "id": "4745814",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/4745814",
+                    "title": "Жиззах вилояти Янгиобод туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+                    "listing_status": "Y"
+                },
+                "-4745814": {
+                    "id": "-4745814",
+                    "url": "https:\/\/lex.uz\/uz\/docs\/-4745814",
+                    "title": "Jizzax viloyati Yangiobod tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+                    "listing_status": "Y"
+                }
+            },
+            "done": true,
+            "enumeration": {
+                "complete": true,
+                "total": 93,
+                "unique_ids": 93,
+                "pages": 5,
+                "restarts": 0
+            },
+            "total": 93,
+            "complete": true
+        }
+    },
+    "complete": true,
+    "rows": [
+        {
+            "id": "-4928235",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4928235",
+            "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4928235",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4928235",
+            "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4928151",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4928151",
+            "title": "Romitan tumanida dam olish kunlari savdo yarmarkalari tashkil etishni samarali yoʻlga qoʻyish chora-tadbirlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4928151",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4928151",
+            "title": "Ромитан туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4752666",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4752666",
+            "title": "Тошкент шаҳридаги давлат кўчмас мулкидан фойдаланганлик учун 2020 йилда қўлланиладиган ижара тўловининг энг кам ставкалари ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4752666",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4752666",
+            "title": "Toshkent shahridagi davlat koʻchmas mulkidan foydalanganlik uchun 2020-yilda qoʻllaniladigan ijara toʻlovining eng kam stavkalari haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5145413",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5145413",
+            "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5145413",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5145413",
+            "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4920310",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4920310",
+            "title": "Транспорт воситаларини 2020 йил учун мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4920310",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4920310",
+            "title": "Transport vositalarini 2020-yil uchun majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4854754",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4854754",
+            "title": "Аҳолини ичимлик суви билан таъминлашда марказлаштирилган коммунал сув тармоғи бўлмаган ҳудудларга локал сув етказиб беришни ташкил қилиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4854754",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4854754",
+            "title": "Aholini ichimlik suvi bilan taʼminlashda markazlashtirilgan kommunal suv tarmogʻi boʻlmagan hududlarga lokal suv yetkazib berishni tashkil qilish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5145547",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5145547",
+            "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва уни ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5145547",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5145547",
+            "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va uni oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5131527",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5131527",
+            "title": "Tumanda 2020-yilda transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5131527",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5131527",
+            "title": "Туманда 2020 йилда транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5131412",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5131412",
+            "title": "Tumanda 2020-yilda transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5131412",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5131412",
+            "title": "Туманда 2020 йилда транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5178125",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5178125",
+            "title": "О проведении обязательного технического осмотра транспортных средств в районе на 2020 год",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5102037",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5102037",
+            "title": "Туман ҳудудидаги транспорт воситаларининг 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5102037",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5102037",
+            "title": "Tuman hududidagi transport vositalarining 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5167312",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5167312",
+            "title": "Об организации и проведении обязательного технического осмотра транспортных средств в 2020 году на территории района",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5103829",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5103829",
+            "title": "Туман ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5103829",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5103829",
+            "title": "Tuman hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4723233",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4723233",
+            "title": "Toshkent shahri qabristonlarida goʻr qazish va marosim xizmatlari uchun pullik xizmatlar koʻrsatish tariflarini belgilash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4723233",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4723233",
+            "title": "Тошкент шаҳри қабристонларида гўр қазиш ва маросим хизматлари учун пуллик хизматлар кўрсатиш тарифларини белгилаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5101734",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5101734",
+            "title": "Ishtixon tumanidagi koʻchalarga nom berish va ularniig nomlarini oʻzgartirish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5101734",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5101734",
+            "title": "Иштихон туманидаги кўчаларга ном бериш ва уларнииг номларини ўзгартириш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4728465",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4728465",
+            "title": "Йўл белгиларини ўрнатиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4728465",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4728465",
+            "title": "Yoʻl belgilarini oʻrnatish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4847947",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4847947",
+            "title": "Туман ҳудудидаги юридик ва жисмоний шахсларга тегишли автомототранспорт воситалари ва уларга тиркамаларни мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4745262",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4745262",
+            "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4745262",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4745262",
+            "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5102195",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5102195",
+            "title": "Туман ҳудудидаги транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5102195",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5102195",
+            "title": "Tuman hududidagi transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4857427",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4857427",
+            "title": "Туманда транспорт воситаларининг мажбурий техник кўригини ташкил этиш ва уни ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4857427",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4857427",
+            "title": "Tumanda transport vositalarining majburiy texnik koʻrigini tashkil etish va uni oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5338699",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5338699",
+            "title": "Об открытии годичных подготовительных групп в некоторых дошкольных образовательных организациях, подведомственных районному отделу дошкольного образования",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4847797",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4847797",
+            "title": "Tuman maktabgacha taʼlim boʻlimi tasarrufidagi ayrim maktabgacha taʼlim tashkilotlariga bir yillik tayyorlov guruhi ochish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4847797",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4847797",
+            "title": "Туман мактабгача таълим бўлими тасарруфидаги айрим мактабгача таълим ташкилотларига бир йиллик тайёрлов гуруҳи очиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4840136",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4840136",
+            "title": "Tumandagi mavjud transport vositalarini majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4840136",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4840136",
+            "title": "Тумандаги мавжуд транспорт воситаларини мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4892459",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4892459",
+            "title": "Автомобиль йўлида ҳаракат хавсизлигини таъминлаш мақсадида светофор ўрнатишга рухсат бериш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4892459",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4892459",
+            "title": "Avtomobil yoʻlida harakat xavsizligini taʼminlash maqsadida svetofor oʻrnatishga ruxsat berish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4782711",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4782711",
+            "title": "Jizzax viloyatida 2020-yilda davlat koʻchmas mulkidan foydalanganlik uchun ijara toʻlovining eng kam stavkalarini tasdiqlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4782711",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4782711",
+            "title": "Жиззах вилоятида 2020 йилда давлат кўчмас мулкидан фойдаланганлик учун ижара тўловининг энг кам ставкаларини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5101705",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5101705",
+            "title": "Tuman hududidagi avtomototransport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5101705",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5101705",
+            "title": "Туман ҳудудидаги автомототранспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5167832",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5167832",
+            "title": "О проведении обязательного технического осмотра автомототранспортных средств и их прицепов принадлежащих юридическим и физическим лицам на территории района",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5100887",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5100887",
+            "title": "Туман ҳудудидаги юридик ва жисмоний шахсларга тегишли автомототранспорт воситалари ва уларга тиркамаларни мажбурий техник кўрикдан ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5100887",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5100887",
+            "title": "Tuman hududidagi yuridik va jismoniy shaxslarga tegishli avtomototransport vositalari va ularga tirkamalarni majburiy texnik koʻrikdan oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4945958",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4945958",
+            "title": "Jarqoʻrgʻon tuman “Yangiariq” mahallasi hududidan kesib oʻtuvchi xalqaro ahamiyatga ega M-41 “Bishkek-Dushanbe-Termiz” avtomobil yoʻlining 1566-1567 km, “Ismoiltepa” mahallasi hududidan kesib oʻtuvchi 1589-1590 km va “Obi-hayot” mahallasi hududidan kesib oʻtuvchi avtomobil yoʻlining 1597-1598 km oraliqlarida tezlikni cheklovchi hamda ogohlantiruvchi yoʻl belgilari oʻrnatish haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4945958",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4945958",
+            "title": "Жарқўрғон туман «Янгиариқ» маҳалласи ҳудудидан кесиб ўтувчи халқаро аҳамиятга эга М-41 «Бишкек-Душанбе-Термиз» автомобиль йўлининг 1566-1567 км, «Исмоилтепа» маҳалласи ҳудудидан кесиб ўтувчи 1589-1590 км ва «Оби-ҳаёт» маҳалласи ҳудудидан кесиб ўтувчи автомобиль йўлининг 1597-1598 км оралиқларида тезликни чекловчи ҳамда огоҳлантирувчи йўл белгилари ўрнатиш ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4990800",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4990800",
+            "title": "О разрешение установка дорожного знака 3,27 «Остановка запрещена» перед чайханой «Сой шаббодаси» на улице Сой буйи, махаллинский коммитет Узумзор, в городе",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4989818",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4989818",
+            "title": "Шаҳардаги Узумзор маҳалла фуқаролар йиғини Сойбўйи кўчасидаги «Сой Шаббодаси» чойхонасининг олдига 3.27 «Тўхташ тақиқланади» йўл белгисини ўрнатишга рухсат бериш ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4989818",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4989818",
+            "title": "Shahardagi Uzumzor mahalla fuqarolar yigʻini Soyboʻyi koʻchasidagi “Soy Shabbodasi” choyxonasining oldiga 3.27 “Toʻxtash taqiqlanadi” yoʻl belgisini  oʻrnatishga ruxsat berish haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4920384",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4920384",
+            "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli, viloyat hokimining 2020-yil 3-yanvardagi 1-sonli hamda Xalq deputatlari tuman Kengashining 2019-yil 17-dekabrdagi V-LXXXIII\/154-sonli qarorlari ijrosini taʼminlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4920384",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4920384",
+            "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли, вилоят ҳокимининг 2020 йил 3 январдаги 1-сонли ҳамда Халқ депутатлари туман Кенгашининг 2019 йил 17 декабрдаги V-LXXXIII\/154-сонли қарорлари ижросини таъминлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4920128",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4920128",
+            "title": "Viloyat hokimining 2020-yil 3-yanvar kungi 1-sonli “Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli qarori toʻgʻrisida”gi qarori haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4920128",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4920128",
+            "title": "Вилоят ҳокимининг 2020 йил 3 январь кунги 1-сонли «Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли қарори тўғрисида»ги қарори ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5116320",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5116320",
+            "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli, Fargʻona viloyati hokimining 2020-yil 3-yanvardagi 1-sonli va Xalq deputatlari Fargʻona shahar Kengashining 2019-yil 17-dekabrdagi V-XXXXIII-247-sonli qarorlari ijrosini taʼminlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5116320",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5116320",
+            "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли, Фарғона вилояти ҳокимининг 2020 йил 3 январдаги 1-сонли ва Халқ депутатлари Фарғона шаҳар Кенгашининг 2019 йил 17 декабрдаги V-XXXXIII-247-сонли қарорлари ижросини таъминлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4745536",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4745536",
+            "title": "2020 йил учун Шароф Рашидов туманининг маҳаллий бюджетини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4745536",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4745536",
+            "title": "2020-yil uchun Sharof Rashidov tumanining mahalliy budjetini tasdiqlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4848031",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4848031",
+            "title": "Наманган вилоятида 2020 йилда давлат кўчмас мулкидан фойдаланганлик учун ижара тўловининг энг кам ставкаларини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4848823",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4848823",
+            "title": "2020 йил учун Мингбулоқ тумани маҳаллий бюджетини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4727621",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4727621",
+            "title": "4R-23L Kitob-Shahrisabz, 4K-303 Kitob-Miraki, 4K-277 Kitob-Shut-Sevaz avtomobil yoʻllari hamda Katta yoʻl koʻchasida avtomobillar qatnovini tartibga keltirish, texnika xavfsizligini taʼminlash, tirbandlikni oldini olish maqsadida tegishli yoʻl belgilarini oʻrnatish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4727621",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4727621",
+            "title": "4Р-23Л Китоб-Шаҳрисабз, 4К-303 Китоб-Мираки, 4К-277 Китоб-Шут-Севаз автомобил йўллари ҳамда Катта йўл кўчасида автомобиллар қатновини тартибга келтириш, техника хавфсизлигини таъминлаш, тирбандликни олдини олиш мақсадида тегишли йўл белгиларини ўрнатиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5117282",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5117282",
+            "title": "Қувасой шаҳрида жисмоний ва юридик шахсларга тегишли бўлган транспорт воситаларини 2020 йилда мажбурий техник кўрикдан ўтказиш ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5117282",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5117282",
+            "title": "Quvasoy shahrida jismoniy va yuridik shaxslarga tegishli boʻlgan transport vositalarini 2020-yilda majburiy texnik koʻrikdan oʻtkazish haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4718730",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4718730",
+            "title": "Бухоро туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4718705",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4718705",
+            "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4718705",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4718705",
+            "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5101658",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5101658",
+            "title": "Туман ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5101658",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5101658",
+            "title": "Tuman hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4885102",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4885102",
+            "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги «Ўзбекистон Республикасининг «2020 йил учун Ўзбекистон Республикасининг Давлат бюджети тўғрисида»ги Қонуни ижросини таъминлаш чора-тадбирлари тўғрисида»ги ПҚ-4555-сонли қарорининг ижросини таъминлаш ҳақида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4885102",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4885102",
+            "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi “Oʻzbekiston Respublikasining “2020-yil uchun Oʻzbekiston Respublikasining Davlat budjeti toʻgʻrisida”gi Qonuni ijrosini taʼminlash chora-tadbirlari toʻgʻrisida”gi PQ-4555-sonli qarorining ijrosini taʼminlash haqida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4728918",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4728918",
+            "title": "Tumanda umumtaʼlim muassasalariga biriktirilgan hududlarni (mikrohudud) belgilash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4728918",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4728918",
+            "title": "Туманда умумтаълим муассасаларига бириктирилган ҳудудларни (микроҳудуд) белгилаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4714229",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4714229",
+            "title": "Maxsus texnikalar orqali isteʼmolchilarga toza ichimlik suvi yetkazib berish chora-tadbirlari toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4714229",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4714229",
+            "title": "Махсус техникалар орқали истеъмолчиларга тоза ичимлик суви етказиб бериш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "5147234",
+            "url": "https:\/\/lex.uz\/uz\/docs\/5147234",
+            "title": "Шаҳар ҳудудидаги транспорт воситаларини 2020 йилда мажбурий техник кўригини ташкил этиш ва ўтказиш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-5147234",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-5147234",
+            "title": "Shahar hududidagi transport vositalarini 2020-yilda majburiy texnik koʻrigini tashkil etish va oʻtkazish toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4737803",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4737803",
+            "title": "Jizzax viloyati Zomin tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4737803",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4737803",
+            "title": "Жиззах вилояти Зомин туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4920419",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4920419",
+            "title": "Oʻzbekiston Respublikasi Prezidentining 2019-yil 30-dekabrdagi PQ-4555-sonli qarori va Xalq deputatlari Fargʻona viloyati Kengashining 2019-yil 16-dekabrdagi V-LI\/266-sonli qarori, viloyat hokimining 2020-yil 3-yanvar kungi 1-sonli qarori hamda Margʻilon shahar Kengashining 2019-yil 17-dekabrdagi V-52\/1-sonli qarori ijrosini taʼminlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4920419",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4920419",
+            "title": "Ўзбекистон Республикаси Президентининг 2019 йил 30 декабрдаги ПҚ-4555-сонли қарори ва Халқ депутатлари Фарғона вилояти Кенгашининг 2019 йил 16 декабрдаги V-LI\/266-сонли қарори, вилоят ҳокимининг 2020 йил 3 январь кунги 1-сонли қарори ҳамда Марғилон шаҳар Кенгашининг 2019 йил 17 декабрдаги V-52\/1-сонли қарори ижросини таъминлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4848540",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4848540",
+            "title": "2020 йил учун Тўрақўрғон туманининг маҳаллий бюджети тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4797522",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4797522",
+            "title": "Шўрчи туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4782646",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4782646",
+            "title": "Zafarobod tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4782646",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4782646",
+            "title": "Зафаробод туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "4745814",
+            "url": "https:\/\/lex.uz\/uz\/docs\/4745814",
+            "title": "Жиззах вилояти Янгиобод туманининг 2020 йилги маҳаллий бюджетини тасдиқлаш тўғрисида",
+            "listing_status": "Y"
+        },
+        {
+            "id": "-4745814",
+            "url": "https:\/\/lex.uz\/uz\/docs\/-4745814",
+            "title": "Jizzax viloyati Yangiobod tumanining 2020-yilgi mahalliy budjetini tasdiqlash toʻgʻrisida",
+            "listing_status": "Y"
+        }
+    ],
+    "cache_key": "lex:discovery:p6-corpus-1000-20261029:scope-1"
+}

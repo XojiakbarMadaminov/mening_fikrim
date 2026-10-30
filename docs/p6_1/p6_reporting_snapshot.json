@@ -1,0 +1,345 @@
+{
+    "observed_at": "2026-10-29T16:40:24+05:00",
+    "campaign_id": "p6-corpus-1000-20261029",
+    "status": "stopped",
+    "stop_reason": "bounded_discovery_scope_exhausted",
+    "prepared": false,
+    "target_new_canonical": 1000,
+    "new_canonical": 850,
+    "baseline_canonical": 229,
+    "current_total_canonical": 1079,
+    "source_selections": 1183,
+    "http": {
+        "used": 6003,
+        "maximum": 13000,
+        "remaining": 6997,
+        "status_counts": {
+            "200": 6003
+        },
+        "per_context_maximum": 400
+    },
+    "stage_target": 1000,
+    "stages": [
+        30,
+        100,
+        300,
+        600,
+        1000
+    ],
+    "import_outcomes": {
+        "review": 238,
+        "imported": 756,
+        "skipped_alias": 188,
+        "unchanged": 3
+    },
+    "associated_existing_canonical": 0,
+    "new_canonical_content_representations": 2222,
+    "cohort_content_quality": {
+        "needs_review": 200,
+        "verified": 2022
+    },
+    "cohort_content_languages": {
+        "en": 2,
+        "uz-Cyrl": 842,
+        "uz-Latn": 821,
+        "ru": 557
+    },
+    "cohort_formats": {
+        "html": 2213,
+        "pdf": 3,
+        "ocr": 6
+    },
+    "cohort_note": "Current stored representations on canonicals created by this campaign, not a historical content-update event count.",
+    "language_availability": {
+        "available": 2222,
+        "not_available": 46,
+        "unknown": 1132,
+        "available_but_failed_or_missing": 0,
+        "unassessed_documents": 0,
+        "coverage": {
+            "unknown": 844,
+            "complete": 6
+        }
+    },
+    "technical_failed_items": 0,
+    "associated_failed_jobs": 0,
+    "global_failed_jobs": 24,
+    "no_usable_body_import_outcomes": 2,
+    "guard_review_items": 144,
+    "pending_items": 0,
+    "pending_scraping_jobs_global": 0,
+    "discovery": {
+        "scope": null,
+        "scope_metric_status": "unavailable_in_legacy_configuration; see historical scope evidence",
+        "partitions": [
+            {
+                "name": "scope-0",
+                "query": {
+                    "to": "31.01.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                "listing_total": 279,
+                "unique_source_ids": 279,
+                "complete": true,
+                "reason": null,
+                "version": 25,
+                "updated_at": "2026-10-29T10:53:52+05:00"
+            },
+            {
+                "name": "scope-1",
+                "query": {
+                    "to": "31.01.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                "listing_total": 93,
+                "unique_source_ids": 93,
+                "complete": true,
+                "reason": null,
+                "version": 8,
+                "updated_at": "2026-10-29T10:54:04+05:00"
+            },
+            {
+                "name": "scope-2",
+                "query": {
+                    "to": "31.12.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "int"
+                },
+                "listing_total": 7,
+                "unique_source_ids": 7,
+                "complete": true,
+                "reason": null,
+                "version": 4,
+                "updated_at": "2026-10-29T10:54:04+05:00"
+            },
+            {
+                "name": "scope-3",
+                "query": {
+                    "to": "29.10.2026",
+                    "from": "01.01.2026",
+                    "status": "Y",
+                    "section": "tech"
+                },
+                "listing_total": 105,
+                "unique_source_ids": 105,
+                "complete": true,
+                "reason": null,
+                "version": 9,
+                "updated_at": "2026-10-29T10:54:17+05:00"
+            },
+            {
+                "name": "scope-4",
+                "query": {
+                    "to": "31.12.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "court"
+                },
+                "listing_total": 11,
+                "unique_source_ids": 11,
+                "complete": true,
+                "reason": null,
+                "version": 4,
+                "updated_at": "2026-10-29T10:54:20+05:00"
+            },
+            {
+                "name": "scope-11",
+                "query": {
+                    "to": "31.12.2010",
+                    "from": "01.01.2010",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                "listing_total": 351,
+                "unique_source_ids": 351,
+                "complete": true,
+                "reason": null,
+                "version": 36,
+                "updated_at": "2026-10-29T13:59:45+05:00"
+            },
+            {
+                "name": "scope-10",
+                "query": {
+                    "to": "31.12.2010",
+                    "from": "01.01.2010",
+                    "status": "Y",
+                    "section": "court"
+                },
+                "listing_total": 252,
+                "unique_source_ids": 252,
+                "complete": true,
+                "reason": null,
+                "version": 24,
+                "updated_at": "2026-10-29T13:39:11+05:00"
+            },
+            {
+                "name": "scope-7",
+                "query": {
+                    "to": "29.02.2020",
+                    "from": "01.02.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                "listing_total": 139,
+                "unique_source_ids": 139,
+                "complete": true,
+                "reason": null,
+                "version": 10,
+                "updated_at": "2026-10-29T13:14:55+05:00"
+            },
+            {
+                "name": "scope-8",
+                "query": {
+                    "to": "31.12.2010",
+                    "from": "01.01.2010",
+                    "status": "Y",
+                    "section": "int"
+                },
+                "listing_total": 93,
+                "unique_source_ids": 93,
+                "complete": true,
+                "reason": null,
+                "version": 8,
+                "updated_at": "2026-10-29T13:27:56+05:00"
+            },
+            {
+                "name": "scope-9",
+                "query": {
+                    "to": "31.12.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "tech"
+                },
+                "listing_total": 32,
+                "unique_source_ids": 32,
+                "complete": true,
+                "reason": null,
+                "version": 5,
+                "updated_at": "2026-10-29T13:35:47+05:00"
+            },
+            {
+                "name": "scope-6",
+                "query": {
+                    "to": "29.02.2020",
+                    "from": "01.02.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                "listing_total": 258,
+                "unique_source_ids": 258,
+                "complete": true,
+                "reason": null,
+                "version": 24,
+                "updated_at": "2026-10-29T12:59:07+05:00"
+            },
+            {
+                "name": "scope-5",
+                "query": {
+                    "to": "31.12.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                "listing_total": 1429,
+                "unique_source_ids": 1429,
+                "complete": true,
+                "reason": null,
+                "version": 178,
+                "updated_at": "2026-10-29T10:57:39+05:00"
+            }
+        ],
+        "global_coverage_verified": false
+    },
+    "recovery": {
+        "owner_generation": 3,
+        "owner_registered": false,
+        "phase": "unavailable_for_legacy_controller",
+        "checkpoint_count": 13,
+        "terminal_resume_allowed": false
+    },
+    "timing": {
+        "started_at": "2026-10-29T10:53:13+05:00",
+        "elapsed_window_seconds": 12949,
+        "new_per_elapsed_hour": 236.31168429994594,
+        "active_processing_seconds": null,
+        "active_metric_status": "unavailable; elapsed window includes pauses and worker waiting"
+    },
+    "recent_activity": [
+        {
+            "item_id": 1828,
+            "source_id": "5258323",
+            "document_id": 1076,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1823,
+            "source_id": "2786964",
+            "document_id": 1067,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1822,
+            "source_id": "1724560",
+            "document_id": 1079,
+            "status": "imported",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1824,
+            "source_id": "-2777975",
+            "document_id": 1074,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1825,
+            "source_id": "-1724560",
+            "document_id": 1079,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1826,
+            "source_id": "1673534",
+            "document_id": 1069,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1827,
+            "source_id": "2786957",
+            "document_id": 1067,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1829,
+            "source_id": "-1673534",
+            "document_id": 1069,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:59+05:00"
+        },
+        {
+            "item_id": 1820,
+            "source_id": "2769140",
+            "document_id": 1078,
+            "status": "imported",
+            "at": "2026-10-29T14:28:46+05:00"
+        },
+        {
+            "item_id": 1821,
+            "source_id": "2763670",
+            "document_id": 1072,
+            "status": "skipped_alias",
+            "at": "2026-10-29T14:28:46+05:00"
+        }
+    ],
+    "metrics_note": "Source IDs, aliases, language representations and canonicals are distinct. Review is not technical failure. Metadata-only no-body import diagnostics do not imply a confirmed available translation failed."
+}

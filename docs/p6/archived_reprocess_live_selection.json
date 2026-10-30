@@ -1,0 +1,12 @@
+{
+    "source": "lex",
+    "limit": 20,
+    "dry_run": true,
+    "selected": 0,
+    "processed": 0,
+    "failed": 0,
+    "technical_failures": 0,
+    "network_requests": 0,
+    "outcomes": [],
+    "note": "Original archived observations only; no HTTP, freshness claim, automatic OCR certification or content deletion."
+}

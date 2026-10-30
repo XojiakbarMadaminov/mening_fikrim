@@ -41,7 +41,7 @@ return new class extends Migration
         });
         DB::statement("ALTER TABLE scrape_campaigns ADD CONSTRAINT campaigns_status_check CHECK (status IN ('running','pausing','paused','completed','stopped','failed'))");
         DB::statement('ALTER TABLE scrape_campaigns ADD CONSTRAINT campaigns_budget_check CHECK (used_http_requests >= 0 AND used_http_requests <= max_http_requests AND max_http_requests BETWEEN 1 AND 15000 AND selected_source_count >= 0 AND selected_source_count <= max_source_selections AND max_source_selections BETWEEN 1 AND 3500)');
-        DB::statement('ALTER TABLE scrape_campaigns ADD CONSTRAINT campaigns_target_check CHECK (target_new_canonical BETWEEN 1 AND 1000 AND stage_target BETWEEN 1 AND target_new_canonical AND current_new_canonical_count >= 0)');
+        DB::statement("ALTER TABLE scrape_campaigns ADD CONSTRAINT campaigns_target_check CHECK (current_new_canonical_count >= 0 AND ((campaign_type = 'validation' AND target_new_canonical = 0 AND stage_target = 0) OR (target_new_canonical BETWEEN 1 AND 1000 AND stage_target BETWEEN 1 AND target_new_canonical)))");
         DB::statement("CREATE UNIQUE INDEX campaigns_one_open_source ON scrape_campaigns(source_id) WHERE status IN ('running','pausing','paused')");
 
         Schema::create('scrape_campaign_checkpoints', function (Blueprint $table) {

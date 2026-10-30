@@ -1,0 +1,11 @@
+{
+    "discovered_source_ids": 3007,
+    "initially_existing_source_ids": 483,
+    "currently_resolved_source_ids": 2962,
+    "resolved_canonical_groups": 1032,
+    "unresolved_source_ids": 45,
+    "selected_resolved_canonical_groups": 850,
+    "baseline_existing_canonicals_in_import_items": 0,
+    "skipped_alias_items": 188,
+    "note": "Unfetched source IDs are not guessed canonical groups. Diagnostic-only PDF selections and source IDs\/languages are never counted as new canonical documents."
+}
