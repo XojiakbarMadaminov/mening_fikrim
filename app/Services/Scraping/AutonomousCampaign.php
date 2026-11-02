@@ -66,6 +66,9 @@ class AutonomousCampaign
     public function begin(string $id): void
     {
         $state = $this->campaign->state($id) ?? throw new RuntimeException('Prepare the campaign first.');
+        if ($state['network_probe_required'] ?? false) {
+            throw new RuntimeException('Run the paced probe-network command before restarting collection.');
+        }
         if (! ($state['configuration_snapshot']['autonomous'] ?? false)) {
             throw new RuntimeException('Campaign has no autonomous configuration; historical campaign remains unchanged.');
         }
@@ -241,11 +244,11 @@ class AutonomousCampaign
         if ($this->campaign->hasLiveOwner($this->id)) {
             throw new RuntimeException('Final report waits for active worker ownership to release.');
         }
-        if ($row->checkpoints()->where('name', 'final-report')->exists()) {
+        if ($row->checkpoints()->where('name', $row->finalReportName())->exists()) {
             return;
         }
         $report = app(CampaignReportingService::class)->campaign($this->id);
-        $row->checkpoints()->firstOrCreate(['name' => 'final-report'], ['bounds' => ['report-v1'], 'state' => ['report' => $report], 'owner_generation' => $row->owner_generation]);
+        $row->checkpoints()->firstOrCreate(['name' => $row->finalReportName()], ['bounds' => ['report-v1'], 'state' => ['report' => $report], 'owner_generation' => $row->owner_generation]);
     }
 
     public function close(): void

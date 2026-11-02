@@ -2,6 +2,7 @@
 
 namespace App\Services\Scraping;
 
+use App\Models\ScrapeCampaign;
 use App\Models\ScrapeRun;
 use App\Models\ScrapeRunItem;
 use Illuminate\Support\Facades\DB;
@@ -29,7 +30,18 @@ class CampaignIntegrity
                 }
             }
         }
-        if ($baseline['failed_job_ids'] !== $current['failed_job_ids']) {
+        $expectedFailures = $baseline['failed_job_ids'];
+        $acknowledged = ScrapeCampaign::where('campaign_id', $id)->first()?->state['acknowledged_failed_jobs'] ?? [];
+        foreach ($acknowledged as $failureId => $evidence) {
+            $failure = DB::table('failed_jobs')->where('id', $failureId)->first();
+            if (! $failure || hash('sha256', json_encode($failure)) !== ($evidence['sha256'] ?? null)) {
+                $errors[] = 'acknowledged_failed_job_changed:'.$failureId;
+            }
+            $expectedFailures[] = (int) $failureId;
+        }
+        $expectedFailures = array_values(array_unique($expectedFailures));
+        sort($expectedFailures);
+        if ($expectedFailures !== $current['failed_job_ids']) {
             $errors[] = 'failed_jobs_changed';
         }
         foreach (DB::table('document_contents')->select('id', 'content', 'content_hash')->lazyById(10) as $content) {

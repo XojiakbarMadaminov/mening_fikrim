@@ -1,0 +1,72 @@
+{
+    "observed_at": "2026-11-01T14:14:07+05:00",
+    "errors": [],
+    "archive": {
+        "blobs": 0,
+        "registered_bytes": 0,
+        "physical_files": 0,
+        "physical_bytes": 0,
+        "missing": [],
+        "mismatched": [],
+        "orphans": [],
+        "partial_files": [],
+        "ok": true
+    },
+    "pending_jobs": 0,
+    "corpus": {
+        "observed_at": "2026-11-01T14:14:07+05:00",
+        "canonical_documents": 9660,
+        "identifiers": 30375,
+        "contents": 24745,
+        "content_quality": {
+            "needs_review": 5964,
+            "verified": 18781
+        },
+        "content_languages": {
+            "en": 103,
+            "uz-Cyrl": 9594,
+            "uz-Latn": 9499,
+            "ru": 5549
+        },
+        "legal_status": {
+            "active": 9652,
+            "inactive": 1,
+            "pending": 7
+        },
+        "language_availability": {
+            "available": 24334,
+            "not_available": 236,
+            "unknown": 13342,
+            "available_but_failed_or_missing": 12,
+            "unassessed_documents": 182,
+            "coverage": {
+                "unknown": 9441,
+                "complete": 211,
+                "incomplete": 8
+            }
+        },
+        "today": {
+            "timezone": "Asia\/Tashkent",
+            "new_canonical_documents": 0
+        },
+        "last_24_hours": {
+            "since": "2026-10-31T14:14:07+05:00",
+            "new_canonical_documents": 282,
+            "new_contents": 691,
+            "new_documents_per_wall_hour": 11.75
+        },
+        "archive": {
+            "retention_enabled": false,
+            "retention_confirmed": false,
+            "real_blobs": 0,
+            "bytes": 0,
+            "offline_fixture_test_status": "unavailable_at_runtime; see versioned test evidence"
+        },
+        "global_failed_jobs": 25,
+        "limitations": [
+            "verified means automated checks, not human legal certification",
+            "unknown availability is not absence",
+            "finite discovery is not global Lex.uz coverage"
+        ]
+    }
+}

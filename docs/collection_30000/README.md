@@ -82,3 +82,7 @@ Full241tests/1,123assertions PASS (100.321s); Pint PASS. Migration000013applied 
 At2026-10-30T10:05:30+05:00, real loc30.12.2021 enumerated all397/397distinct IDs in20pages,zero restarts,complete=true. Existing source URL and committed page-prefix fingerprints are retained in problem_day_live.json. This is an actual live result using the shared budget/pacer, not a synthetic-fixture claim.
 
 At2026-10-30T10:05:03+05:00: statusrunning,2NEW/30000,total3669documents,4new stored representations,HTTP29/360000,technicalfaileditems0. Historical data/campaign preservation errors[];coverage gaps[]. Both detached actors remained alive. Counts continue changing; handoff_summary.json/launch_status.json are timestamped snapshots, not a final collection report.
+
+## Current explicit continuation — 2026-11-01
+
+The original process stopped on2026-10-31 at5,993NEW due to failed-job25's historical404,which later resolved with usable verified-identity persistence. User authorized reviewed recovery of the SAME campaign. Restarted14:16:18Asia/Tashkent,actual new persistence verified. Budget/time/scope are NOT reset;25failed rows remain including the hash-acknowledged resolved404. Future missing-resource404is terminal diagnostic review; other unexpected failures remain guarded. Original final-report is preserved; recovery epoch terminal snapshot will use final-report-1. [Recovery report](RECOVERY_20261101.md),[timestamped live evidence](recovery_20261101/live_verification.json).247tests/1176assertions/Pint PASS.

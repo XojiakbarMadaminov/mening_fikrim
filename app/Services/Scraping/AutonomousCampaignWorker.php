@@ -36,6 +36,9 @@ class AutonomousCampaignWorker
             return false;
         }
         $state = $this->campaign->state($id) ?? throw new RuntimeException('Prepare the campaign first.');
+        if ($state['network_probe_required'] ?? false) {
+            throw new RuntimeException('Run the paced probe-network command before restarting collection.');
+        }
         if ($this->campaign->id() !== $id || ! ($state['configuration_snapshot']['autonomous'] ?? false)) {
             throw new RuntimeException('Worker requires the current autonomous campaign.');
         }

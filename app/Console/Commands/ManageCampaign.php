@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\DB;
 
 class ManageCampaign extends Command
 {
-    protected $signature = 'documents:campaign {action=status : status, report, prepare, run, worker, start, pause, resume, work or stop} {--id=} {--requests=13000} {--sources=3300} {--target=1000} {--validation} {--reason=operator_stop} {--max-jobs=31} {--json} {--format=} {--snapshot=current} {--dry-run}';
+    protected $signature = 'documents:campaign {action=status : status, report, prepare, run, worker, start, pause, resume, work, stop, recover-not-found, recover-network or probe-network} {--id=} {--requests=13000} {--sources=3300} {--target=1000} {--validation} {--reason=operator_stop} {--max-jobs=31} {--json} {--format=} {--snapshot=current} {--dry-run} {--failed-job=}';
 
     protected $description = 'Durable autonomous bounded corpus collection and read-only reports';
 
@@ -43,6 +43,17 @@ class ManageCampaign extends Command
                     throw new \RuntimeException('Raw retention must remain disabled.');
                 }
                 app(AutonomousCampaign::class)->prepare((string) $id);
+            } elseif ($action === 'recover-network') {
+                $campaign->recoverNetwork((string) $id);
+            } elseif ($action === 'probe-network') {
+                $this->liveGuard();
+                $campaign->probeNetwork((string) $id);
+            } elseif ($action === 'recover-not-found') {
+                $failureId = filter_var($this->option('failed-job'), FILTER_VALIDATE_INT);
+                if (! $failureId || $failureId < 1) {
+                    throw new \InvalidArgumentException('Exact --failed-job positive ID required.');
+                }
+                $campaign->recoverNotFound((string) $id, $failureId);
             } elseif ($action === 'start') {
                 $campaign->create((string) $id, (int) $this->option('requests'), (int) $this->option('sources'), $this->option('validation') ? 0 : (int) $this->option('target'), ['campaign_type' => $this->option('validation') ? 'validation' : 'corpus_pilot', 'collect_once' => true]);
             } elseif (in_array($action, ['pause', 'stop'], true)) {

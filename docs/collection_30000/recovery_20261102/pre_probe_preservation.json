@@ -1,0 +1,26 @@
+{
+    "observed_at": "2026-11-02T09:21:52+05:00",
+    "status": "paused",
+    "errors": [],
+    "full_integrity_audit": {
+        "errors": [],
+        "archive": {
+            "ok": true,
+            "blobs": 0,
+            "missing": [],
+            "orphans": [],
+            "mismatched": [],
+            "partial_files": [],
+            "physical_bytes": 0,
+            "physical_files": 0,
+            "registered_bytes": 0
+        },
+        "observed_at": "2026-11-02T09:20:54+05:00",
+        "pending_jobs": 30
+    },
+    "preserved_receipts": 30,
+    "preserved_history": 3,
+    "used": 49833,
+    "source_selections": 10704,
+    "network_probe_required": true
+}

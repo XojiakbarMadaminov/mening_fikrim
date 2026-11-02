@@ -146,6 +146,20 @@ class ImportDocumentJob implements ShouldQueue
                 'error' => $e->getMessage()], $this->dispatchToken);
         } catch (Throwable $e) {
             $failure = $e;
+            if ($e instanceof LexRequestException && $e->status === 404) {
+                // A missing source resource is a terminal item diagnostic, not a failed queue job.
+                // It does not establish document/language absence or change any stored legal status.
+                $manager->outcome($this->runId, (string) $this->candidate, [
+                    ...($result ?? []), 'state' => 'review', 'action' => $result['action'] ?? 'rejected',
+                    'document_id' => $result['document_id'] ?? null, 'complete' => false,
+                    'identity_verified' => $result !== null, 'technical_retry_pending' => false,
+                    'import_outcome' => $result['import_outcome'] ?? 'extraction_failed',
+                    'source_http_status' => 404, 'source_issue' => 'source_request_not_found',
+                    'error' => 'source_request_not_found: HTTP 404; availability remains unconfirmed.',
+                ], $this->dispatchToken);
+
+                return;
+            }
             $delay = $e instanceof LexRequestException && $e->retryAfter !== null ? $e->retryAfter : $this->backoff()[min($item->attempts - 1, 2)];
             if ($e instanceof LexRequestException && ($e->status === 403 || ($e->status > 0 && $e->status < 500 && $e->status !== 429))) {
                 $this->fail($e);

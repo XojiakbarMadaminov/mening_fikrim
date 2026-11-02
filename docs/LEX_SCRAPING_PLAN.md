@@ -458,3 +458,11 @@ Reporting reads actual PostgreSQL snapshots with READ ONLY enforcement; canonica
 ## 24. Explicitly authorized30,000 NEW collection (2026-10-30)
 
 New corpus-30000-20261030 follows the immutable discovery-stopped10,000campaign.30,000additional NEW,360,000HTTP/75,000selections/21days;397fixed queries. Single-day64page limit resolves ordinary8-page overflow; larger returned coverage gaps remain durable/incomplete and non-blocking for collection. Source drift/access/budget/technical/identity/integrity failures still stop. One worker/>=2000ms/run<=30/context<=400. Bounded memory audits/reporting/checkpoint accounting; no parser replacement. Additive migration000013extends exact named caps,not historical records. COLLECTION_30000_REPORT.md and collection_30000/README.md define implemented behavior and actual launch evidence; global coverage and target completion must not be inferred from startup.
+
+## 25. Explicit resolved404 recovery — 2026-11-01
+
+User requested continued parsing after5,993NEW stage-integrity stop. Import source404 becomes a terminal diagnostic review without failed queue job/fake content/availability inference. recover-not-found explicitly validates resolved identity/persistence,failed-job hash,global lock,original budgets and full integrity before returning the SAME campaign to paused. No counter/time/scope reset or error deletion; operator-recovery journal and epoch final-report preserve history. Other access/technical/integrity/budget stops remain effective. See collection_30000/RECOVERY_20261101.md.
+
+## 26. Explicit transport recovery — 2026-11-02
+
+User requested continuation of the SAME30,000campaign after two transport failures at6,302NEW. Add guarded recover-network plus one probe-network through existing global pace/request budget. Original deadline/counters/scope/receipts retained;15mincooldown/max3network recoveries;no403/429bypass,automatic recovery loop or new campaign. Actor probe gates and epoch2snapshot preserve history. No migration/parser/OCR change. See collection_30000/RECOVERY_20261102.md.

@@ -1,0 +1,35 @@
+{
+    "observed_at": "2026-11-01T14:18:25+05:00",
+    "campaign": "corpus-30000-20261030",
+    "status": "running",
+    "new_canonical": 6003,
+    "target": 30000,
+    "documents": 9670,
+    "contents": 24764,
+    "stage": 10000,
+    "stage6000_audit": {
+        "errors": [],
+        "archive": {
+            "ok": true,
+            "blobs": 0,
+            "missing": [],
+            "orphans": [],
+            "mismatched": [],
+            "partial_files": [],
+            "physical_bytes": 0,
+            "physical_files": 0,
+            "registered_bytes": 0
+        },
+        "observed_at": "2026-11-01T14:17:45+05:00",
+        "pending_jobs": 0
+    },
+    "http_used": 47329,
+    "http_max": 360000,
+    "source_selections": 10172,
+    "started_at": "2026-10-30 10:04:00+05",
+    "failed_jobs": 25,
+    "recovery_count": 1,
+    "acknowledged_failed_jobs": 1,
+    "technical_failed_items": 0,
+    "pending_jobs": 27
+}

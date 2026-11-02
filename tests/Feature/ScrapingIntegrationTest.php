@@ -179,6 +179,31 @@ class ScrapingIntegrationTest extends TestCase
         $this->assertSame(1, $run->fresh()->created_count);
     }
 
+    public function test_document_404_is_terminal_review_and_queue_continues_without_fake_content(): void
+    {
+        $run = app(ScrapeRunManager::class)->start($this->source(), 'full', 2, ['999999999', '8506802']);
+        $fake = Mockery::mock(DocumentScraper::class);
+        $fake->shouldReceive('fetch')->once()->with('999999999', null)->andThrow(new LexRequestException('Missing resource.', 404));
+        $fake->shouldReceive('fetch')->once()->with('8506802', null)->andReturn(FixtureInputs::seed() + ['diagnostics' => ['primary_format' => 'html', 'quality' => []]]);
+        $this->app->instance(DocumentScraper::class, $fake);
+        $this->work();
+        $this->work();
+        $missing = $run->items()->where('source_external_id', '999999999')->first();
+        $this->assertSame('review', $missing->status);
+        $this->assertSame(404, $missing->outcome['source_http_status']);
+        $this->assertSame('source_request_not_found', $missing->outcome['source_issue']);
+        $this->assertNull($missing->document_id);
+        $this->assertDatabaseCount('documents', 0);
+        $this->assertDatabaseCount('document_contents', 0);
+        $this->assertDatabaseCount('failed_jobs', 0);
+        $this->work();
+        $this->assertDatabaseCount('documents', 1);
+        $this->assertDatabaseCount('document_contents', 3);
+        $this->assertDatabaseCount('failed_jobs', 0);
+        $this->assertSame(1, $missing->fresh()->attempts);
+        $this->assertSame(2, $run->fresh()->processed_count);
+    }
+
     public function test_partial_language_review_keeps_valid_text_and_durable_review_and_never_completes(): void
     {
         $manager = app(ScrapeRunManager::class);

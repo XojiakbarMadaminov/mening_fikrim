@@ -21,6 +21,13 @@ class ScrapeCampaign extends Model
             'completed_at' => 'immutable_datetime', 'stopped_at' => 'immutable_datetime'];
     }
 
+    public function finalReportName(): string
+    {
+        $recovery = (int) ($this->state['recovery_count'] ?? 0);
+
+        return 'final-report'.($recovery > 0 ? '-'.$recovery : '');
+    }
+
     public function source(): BelongsTo
     {
         return $this->belongsTo(DocumentSource::class, 'source_id');

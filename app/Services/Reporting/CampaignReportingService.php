@@ -47,7 +47,7 @@ class CampaignReportingService
     {
         return $this->snapshot(function () use ($id) {
             $campaign = ScrapeCampaign::where('campaign_id', $id)->firstOrFail();
-            $checkpoint = $campaign->checkpoints()->where('name', 'final-report')->first();
+            $checkpoint = $campaign->checkpoints()->where('name', $campaign->finalReportName())->first();
 
             return ['campaign_id' => $id, 'snapshot_type' => 'stored_final', 'available' => $checkpoint !== null,
                 'report' => $checkpoint?->state['report'] ?? null,
@@ -164,7 +164,7 @@ class CampaignReportingService
                 'recovery' => ['owner_generation' => $campaign->owner_generation, 'owner_registered' => $campaign->owner_token !== null,
                     'owner_session_live' => app(DurableCampaign::class)->hasLiveOwner($id),
                     'phase' => $campaign->state['control']['phase'] ?? 'unavailable_for_legacy_controller', 'checkpoint_count' => $campaign->checkpoints()->count(),
-                    'terminal_resume_allowed' => false],
+                    'recovery_count' => $campaign->state['recovery_count'] ?? 0, 'network_recovery_count' => $campaign->state['network_recovery_count'] ?? 0, 'network_probe_required' => $campaign->state['network_probe_required'] ?? false, 'acknowledged_failed_jobs' => count($campaign->state['acknowledged_failed_jobs'] ?? []), 'terminal_resume_allowed' => false],
                 'timing' => ['started_at' => $campaign->started_at->toAtomString(), 'elapsed_window_seconds' => $elapsed,
                     'new_per_elapsed_hour' => $elapsed ? $createdIds->count() * 3600 / $elapsed : null,
                     'active_processing_seconds' => null, 'active_metric_status' => 'unavailable; elapsed window includes pauses and worker waiting'],

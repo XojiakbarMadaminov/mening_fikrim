@@ -1,0 +1,37 @@
+{
+    "observed_at": "2026-11-02T09:25:16+05:00",
+    "status": "running",
+    "new_canonical": 6304,
+    "target": 30000,
+    "documents": 9971,
+    "contents": 25520,
+    "stage": 10000,
+    "http_used": 49856,
+    "http_max": 360000,
+    "source_selections": 10704,
+    "started_at": "2026-10-30 10:04:00+05",
+    "recovery_count": 2,
+    "network_probe_required": false,
+    "network_probe": {
+        "checked_at": "2026-11-02T09:21:58+05:00",
+        "http_status": 200,
+        "source_path": "\/uz\/actinfo\/card1\/7238011",
+        "transport_reachable": true
+    },
+    "failed_jobs": 25,
+    "technical_failed_items": 0,
+    "pending_jobs": 28,
+    "preservation_errors": [],
+    "fresh_document_9970_contents": [
+        {
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "characters": 124107
+        },
+        {
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "characters": 126130
+        }
+    ]
+}

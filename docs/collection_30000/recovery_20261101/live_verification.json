@@ -1,0 +1,20 @@
+{
+    "observed_at": "2026-11-01T14:17:08+05:00",
+    "status": "running",
+    "new_canonical": 5997,
+    "target": 30000,
+    "total_documents": 9664,
+    "total_contents": 24753,
+    "stage": 6000,
+    "http_used": 47304,
+    "http_max": 360000,
+    "selected_sources": 10141,
+    "started_at": "2026-10-30 10:04:00+05",
+    "phase": "wait",
+    "recovery_count": 1,
+    "historical_failed_jobs": 25,
+    "failure_25_unchanged": true,
+    "old_final_snapshot_unchanged": true,
+    "full_original_terminal_row_journaled": true,
+    "pending_jobs": 3
+}

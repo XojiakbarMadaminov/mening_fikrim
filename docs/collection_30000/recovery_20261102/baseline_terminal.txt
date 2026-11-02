@@ -1,0 +1,56 @@
+{
+    "observed_at": "2026-11-02T09:12:49+05:00",
+    "canonical_documents": 9969,
+    "identifiers": 31257,
+    "contents": 25515,
+    "content_quality": {
+        "needs_review": 6113,
+        "verified": 19402
+    },
+    "content_languages": {
+        "en": 107,
+        "uz-Cyrl": 9902,
+        "uz-Latn": 9780,
+        "ru": 5726
+    },
+    "legal_status": {
+        "active": 9961,
+        "inactive": 1,
+        "pending": 7
+    },
+    "language_availability": {
+        "available": 25104,
+        "not_available": 241,
+        "unknown": 13803,
+        "available_but_failed_or_missing": 12,
+        "unassessed_documents": 182,
+        "coverage": {
+            "unknown": 9742,
+            "complete": 219,
+            "incomplete": 8
+        }
+    },
+    "today": {
+        "timezone": "Asia\/Tashkent",
+        "new_canonical_documents": 0
+    },
+    "last_24_hours": {
+        "since": "2026-11-01T09:12:49+05:00",
+        "new_canonical_documents": 309,
+        "new_contents": 770,
+        "new_documents_per_wall_hour": 12.875
+    },
+    "archive": {
+        "retention_enabled": false,
+        "retention_confirmed": false,
+        "real_blobs": 0,
+        "bytes": 0,
+        "offline_fixture_test_status": "unavailable_at_runtime; see versioned test evidence"
+    },
+    "global_failed_jobs": 25,
+    "limitations": [
+        "verified means automated checks, not human legal certification",
+        "unknown availability is not absence",
+        "finite discovery is not global Lex.uz coverage"
+    ]
+}

@@ -327,3 +327,21 @@ Progress/runbook/evidence: COLLECTION_10000_REPORT.md,collection_10000/. Never c
 - [ ] Reach30,000NEW or record actual terminal reason; never force past safety stops.
 
 Evidence/runbook: COLLECTION_30000_REPORT.md,collection_30000/.
+
+## 2026-11-01 — explicit30,000campaign continuation
+
+- [x] Diagnose stopped5,993NEW/47,284HTTP;job25/source4602855had404but later persisted safely asdocument9660.
+- [x] Implement non-blocking source404 diagnostics and narrow reviewed recovery with retained failure/history/counters.
+- [x] Full247tests/1,176assertions/Pint PASS;recovery/development full integrity audits errors[].
+- [x] Explicit recover25/resume SAME campaign,originalbudgets/deadline retained;detached actors restarted14:16:18;5997NEW/9664totaldocs/24753contents at14:17:08,oldfailure/final snapshot preserved.
+
+Report: collection_30000/RECOVERY_20261101.md. No new campaign,budget reset or automatic safety-stop bypass.
+
+## 2026-11-02 — explicit transport continuation
+
+- [x] Review6,302NEW/49,833HTTP transport stop;30receipts retained,no new failedjob/access denial.
+- [x] Guarded explicit recover-network and shared-budget probe-network,actor gates,immutable history.
+- [x] Full256tests/1,235assertions/Pint PASS;fullmainaudit errors[],30receipt/3historicalcheckpoint hashes retained.
+- [x] Explicit recover-network/probe-network HTTP200,onecountedrequest;actors restarted09:22:22;fresh usable persistence verified at2026-11-02T09:25:16+05:00,NEW6304,preservation errors[].
+
+Report/evidence: collection_30000/RECOVERY_20261102.md,recovery_20261102/. No budget/time reset or automatic safety-stop bypass.

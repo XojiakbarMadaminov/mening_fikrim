@@ -2,10 +2,16 @@
 
 namespace App\Services\Scraping;
 
+use App\Jobs\ImportDocumentJob;
 use App\Models\Document;
+use App\Models\DocumentContent;
 use App\Models\DocumentSource;
 use App\Models\ScrapeCampaign;
 use App\Models\ScrapeCampaignCheckpoint;
+use App\Models\ScrapeRun;
+use App\Scraping\LexUz\LexHttpClient;
+use App\Scraping\LexUz\LexRequestException;
+use App\Services\Reporting\CampaignReportingService;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
@@ -520,7 +526,7 @@ class DurableCampaign
         if (! in_array($row->status, ['stopped', 'completed', 'failed'], true) || ($report['campaign_id'] ?? null) !== $row->campaign_id) {
             throw new RuntimeException('Final report requires the owned terminal campaign.');
         }
-        $row->checkpoints()->firstOrCreate(['name' => 'final-report'], ['bounds' => ['report-v1'], 'state' => ['report' => $report], 'owner_generation' => $row->owner_generation]);
+        $row->checkpoints()->firstOrCreate(['name' => $row->finalReportName()], ['bounds' => ['report-v1'], 'state' => ['report' => $report], 'owner_generation' => $row->owner_generation]);
     }
 
     public function acknowledgeSignals(): bool
@@ -537,6 +543,201 @@ class DurableCampaign
         }
 
         return $state['status'] !== 'running';
+    }
+
+    /** Explicit operator recovery of one already-resolved 404, never an automatic safety bypass. */
+    public function recoverNotFound(string $id, int $failedJobId): array
+    {
+        $this->obtainLock();
+        try {
+            DB::transaction(function () use ($id, $failedJobId) {
+                $campaign = ScrapeCampaign::where('campaign_id', $id)->lockForUpdate()->firstOrFail();
+                if ($id !== 'corpus-30000-20261030' || $this->id() !== $id || $campaign->status !== 'stopped'
+                    || $campaign->stop_reason !== 'stage_integrity_audit_failed' || $failedJobId < 1
+                    || ($campaign->state['recovery_count'] ?? 0) >= 10) {
+                    throw new RuntimeException('Only the explicitly reviewed 30,000 campaign audit stop is recoverable.');
+                }
+                if ($this->hasLiveOwner($id) || DB::table('jobs')->where('queue', 'scraping')->exists()
+                    || $campaign->used_http_requests >= $campaign->max_http_requests || $campaign->selected_source_count >= $campaign->max_source_selections
+                    || now()->diffInSeconds($campaign->started_at, true) >= $campaign->configuration_snapshot['max_campaign_seconds']) {
+                    throw new RuntimeException('Recovery requires settled work and remaining original budgets.');
+                }
+                $failure = DB::table('failed_jobs')->where('id', $failedJobId)->first();
+                $payload = $failure ? json_decode($failure->payload, true, flags: JSON_THROW_ON_ERROR) : [];
+                if (! $failure || $failure->queue !== 'scraping'
+                    || ! str_starts_with($failure->exception, LexRequestException::class.': ')
+                    || ! str_contains(strtok($failure->exception, "\n"), '(HTTP 404)')
+                    || ($payload['data']['commandName'] ?? null) !== ImportDocumentJob::class
+                    || ! preg_match('/^App\\\\Jobs\\\\ImportDocumentJob#(\d+)$/D', $payload['displayName'] ?? '', $match)
+                    || ! preg_match('/s:9:"candidate";s:\d+:"(-?\d+)";/', $payload['data']['command'] ?? '', $candidate)) {
+                    throw new RuntimeException('Failed job is not an eligible document-fetch HTTP 404.');
+                }
+                $runId = (int) $match[1];
+                $run = ScrapeRun::whereKey($runId)->where('checkpoint->campaign_id', $id)->firstOrFail();
+                $item = $run->items()->where('source_external_id', $candidate[1])->firstOrFail();
+                if (! $item->terminal() || ! in_array($item->status, ['imported', 'unchanged', 'review', 'skipped_alias'], true)
+                    || ! $item->document_id || ($item->outcome['identity_verified'] ?? false) !== true
+                    || ($item->outcome['persistence_complete'] ?? false) !== true
+                    || ($item->outcome['technical_retry_pending'] ?? false)
+                    || ! DocumentContent::where('document_id', $item->document_id)->exists()) {
+                    throw new RuntimeException('404 item must already have resolved identity and persisted usable content.');
+                }
+                if ($campaign->checkpoints()->where('name', $campaign->finalReportName())->doesntExist()) {
+                    throw new RuntimeException('Preserve the original terminal snapshot before recovery.');
+                }
+                $before = $campaign->getRawOriginal();
+                $state = $campaign->state;
+                if (isset($state['acknowledged_failed_jobs'][(string) $failedJobId])) {
+                    throw new RuntimeException('This failed job was already acknowledged; no repeat recovery.');
+                }
+                $state['recovery_count'] = ($state['recovery_count'] ?? 0) + 1;
+                $state['acknowledged_failed_jobs'][(string) $failedJobId] = [
+                    'sha256' => hash('sha256', json_encode($failure)), 'resolved_item_id' => $item->id,
+                    'source_external_id' => $item->source_external_id, 'checked_at' => now()->toAtomString(),
+                ];
+                $campaign->update(['state' => $state]);
+                $baseline = $campaign->checkpoints()->where('name', 'preservation-baseline')->firstOrFail()->state['baseline'];
+                $audit = app(CampaignIntegrity::class)->audit($baseline, $id);
+                if ($audit['errors'] !== [] || $audit['pending_jobs'] !== 0) {
+                    throw new RuntimeException('Recovery integrity audit failed: '.implode(',', $audit['errors']));
+                }
+                $campaign->checkpoints()->create(['name' => 'operator-recovery-'.$state['recovery_count'],
+                    'bounds' => ['explicit-resolved-404-v1'], 'owner_generation' => $campaign->owner_generation,
+                    'state' => ['authorized_action' => 'recover-not-found', 'failed_job_id' => $failedJobId,
+                        'before' => $before, 'audit' => $audit, 'recovered_at' => now()->toAtomString()]]);
+                // Pause first: the operator then uses ordinary resume; elapsed/request/source budgets persist.
+                $campaign->update(['status' => 'paused', 'paused_at' => now(), 'stopped_at' => null, 'stop_reason' => null,
+                    'owner_token' => null, 'owner_backend_pid' => null, 'owner_claimed_at' => null]);
+            });
+
+            return $this->state($id);
+        } finally {
+            $this->unlock();
+        }
+    }
+
+    /** Explicit, cooled-off operator recovery of a transport-only stop; receipts are retained. */
+    public function recoverNetwork(string $id): array
+    {
+        $this->obtainLock();
+        try {
+            DB::transaction(function () use ($id) {
+                $campaign = ScrapeCampaign::where('campaign_id', $id)->lockForUpdate()->firstOrFail();
+                $state = $campaign->state;
+                if ($id !== 'corpus-30000-20261030' || $this->id() !== $id || $campaign->status !== 'stopped'
+                    || $campaign->stop_reason !== 'source_http_0_repeated' || ($state['consecutive_errors'] ?? 0) < 2
+                    || ($state['http_status_counts']['403'] ?? 0) > 0 || ($state['http_status_counts']['429'] ?? 0) > 0
+                    || ($state['http_in_flight'] ?? false) || ($state['network_recovery_count'] ?? 0) >= 3
+                    || ($state['recovery_count'] ?? 0) >= 10) {
+                    throw new RuntimeException('Only a reviewed transport-only stop without access restrictions is recoverable.');
+                }
+                if (! $campaign->stopped_at || $campaign->stopped_at->isFuture() || $campaign->stopped_at->diffInSeconds(now()) < 900) {
+                    throw new RuntimeException('Network recovery requires at least 15 minutes of cooldown.');
+                }
+                $last = $state['last_reservation'] ?? [];
+                $path = $last['source_path'] ?? '';
+                if (($last['method'] ?? null) !== 'GET' || ! is_string($path) || ! str_starts_with($path, '/')
+                    || str_starts_with($path, '//') || strlen($path) > 2048 || strpbrk($path, "?#\r\n") !== false) {
+                    throw new RuntimeException('A previously observed bounded GET path is required for the network probe.');
+                }
+                if ($this->hasLiveOwner($id) || $campaign->used_http_requests >= $campaign->max_http_requests
+                    || $campaign->selected_source_count >= $campaign->max_source_selections
+                    || now()->diffInSeconds($campaign->started_at, true) >= $campaign->configuration_snapshot['max_campaign_seconds']) {
+                    throw new RuntimeException('Recovery requires released ownership and remaining original budgets.');
+                }
+                $receipts = [];
+                foreach (DB::table('jobs')->where('queue', 'scraping')->orderBy('id')->get() as $job) {
+                    $payload = json_decode($job->payload, true, flags: JSON_THROW_ON_ERROR);
+                    if (($job->reserved_at !== null && $job->reserved_at + config('queue.connections.database.retry_after') > now()->timestamp)
+                        || ! preg_match('/^App\\\\Jobs\\\\(?:ImportDocumentJob|DiscoverDocumentsJob)#(\d+)$/D', $payload['displayName'] ?? '', $match)
+                        || ! ScrapeRun::whereKey((int) $match[1])->where('checkpoint->campaign_id', $id)->exists()) {
+                        throw new RuntimeException('Network recovery refuses live or foreign queue receipts.');
+                    }
+                    $receipts[(string) $job->id] = hash('sha256', json_encode($job));
+                }
+                if ($campaign->checkpoints()->where('name', $campaign->finalReportName())->doesntExist()) {
+                    throw new RuntimeException('Original terminal snapshot must exist before recovery.');
+                }
+                $baseline = $campaign->checkpoints()->where('name', 'preservation-baseline')->firstOrFail()->state['baseline'];
+                $audit = app(CampaignIntegrity::class)->audit($baseline, $id);
+                if ($audit['errors'] !== []) {
+                    throw new RuntimeException('Network recovery integrity audit failed: '.implode(',', $audit['errors']));
+                }
+                $before = $campaign->getRawOriginal();
+                $state['recovery_count'] = ($state['recovery_count'] ?? 0) + 1;
+                $state['network_recovery_count'] = ($state['network_recovery_count'] ?? 0) + 1;
+                $state['network_probe_required'] = true;
+                $state['network_probe_path'] = $path;
+                $state['consecutive_errors'] = 0; // New explicit attempt; historical error totals remain spent.
+                $campaign->checkpoints()->create(['name' => 'operator-recovery-'.$state['recovery_count'],
+                    'bounds' => ['explicit-network-recovery-v1'], 'owner_generation' => $campaign->owner_generation,
+                    'state' => ['authorized_action' => 'recover-network', 'before' => $before, 'audit' => $audit,
+                        'pending_receipt_hashes' => $receipts, 'recovered_at' => now()->toAtomString()]]);
+                $campaign->update(['status' => 'paused', 'paused_at' => now(), 'stopped_at' => null, 'stop_reason' => null,
+                    'state' => $state, 'owner_token' => null, 'owner_backend_pid' => null, 'owner_claimed_at' => null]);
+            });
+
+            return $this->state($id);
+        } finally {
+            $this->unlock();
+        }
+    }
+
+    /** One source-observed path through the original paced/budgeted HTTP client before actors restart. */
+    public function probeNetwork(string $id): array
+    {
+        $pending = $this->state($id);
+        if ($id !== 'corpus-30000-20261030' || ! ($pending['network_probe_required'] ?? false)
+            || ! in_array($pending['status'], ['paused', 'running'], true)) {
+            throw new RuntimeException('No reviewed network recovery requires a probe.');
+        }
+        $this->claim($id);
+        try {
+            $state = $this->state();
+            if ($id !== 'corpus-30000-20261030' || ($state['network_probe_required'] ?? false) !== true) {
+                throw new RuntimeException('No reviewed network recovery requires a probe.');
+            }
+            if ($state['status'] === 'paused') {
+                $this->resume();
+            }
+            $this->assertOpen();
+            $client = app(LexHttpClient::class);
+            $client->context('operator-network-probe-'.$state['recovery_count']);
+            try {
+                $response = $client->get('https://lex.uz'.$state['network_probe_path']);
+                $status = $response->status();
+            } catch (LexRequestException $e) {
+                if ($e->status !== 404) {
+                    throw $e;
+                }
+                $status = 404; // Transport is reachable; this does NOT assert language/document absence.
+            }
+            $this->saveCheckpoint('network-probe-'.$state['recovery_count'], ['paced-source-observed-get-v1'], [
+                'source_path' => $state['network_probe_path'], 'http_status' => $status,
+                'transport_reachable' => true, 'checked_at' => now()->toAtomString(),
+            ]);
+            DB::transaction(function () {
+                $campaign = $this->locked();
+                $state = $campaign->state;
+                $state['network_probe_required'] = false;
+                $campaign->update(['state' => $state]);
+            });
+
+            return $this->state();
+        } catch (\Throwable $e) {
+            if ($this->state()['status'] === 'running') {
+                $this->stop('network_probe_failed');
+            }
+            if (in_array($this->state()['status'], ['stopped', 'failed', 'completed'], true)) {
+                $this->recordFinalReport(app(CampaignReportingService::class)->campaign($id));
+            }
+            throw $e;
+        } finally {
+            if ($this->state()['status'] === 'pausing') {
+                $this->acknowledgeSignals();
+            }
+            $this->release();
+        }
     }
 
     public function resume(?string $id = null): array
