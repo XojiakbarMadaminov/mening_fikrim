@@ -345,3 +345,5 @@ Report: collection_30000/RECOVERY_20261101.md. No new campaign,budget reset or a
 - [x] Explicit recover-network/probe-network HTTP200,onecountedrequest;actors restarted09:22:22;fresh usable persistence verified at2026-11-02T09:25:16+05:00,NEW6304,preservation errors[].
 
 Report/evidence: collection_30000/RECOVERY_20261102.md,recovery_20261102/. No budget/time reset or automatic safety-stop bypass.
+
+- 2026-11-02 10:02: PostgreSQL/host shutdown left30,000campaignrunning without actors. Restarted existing worker/controller with original leases/budgets;10:02:35 verified6,367NEW/10,034totaldocs,freshpersistence,25failedjobs unchanged. No code/schema/config change. Evidence in recovery_20261102/database_shutdown_restart_verification.json.

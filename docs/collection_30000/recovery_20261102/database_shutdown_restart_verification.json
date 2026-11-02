@@ -1,0 +1,24 @@
+{
+    "observed_at": "2026-11-02T10:02:35+05:00",
+    "status": "running",
+    "stop_reason": null,
+    "new_canonical": 6367,
+    "documents": 10034,
+    "contents": 25685,
+    "http_used": 50458,
+    "last_response_at": "2026-11-02 10:02:34.040827+05",
+    "pending_jobs": 22,
+    "latest_finished": {
+        "source_external_id": "-4636603",
+        "document_id": 10034,
+        "status": "imported",
+        "finished_at": "2026-11-02 10:02:34+05"
+    },
+    "failed_jobs": 25,
+    "old_reserved_receipt": {
+        "id": 17073,
+        "reserved_at": 1793595299,
+        "attempts": 1
+    },
+    "old_processing_lease": "2026-11-02 10:10:29+05"
+}

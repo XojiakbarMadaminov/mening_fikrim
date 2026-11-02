@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-02T10:02:05.479220+05:00",
+  "campaign": "corpus-30000-20261030",
+  "reason": "restart_after_database_shutdown",
+  "terminal_recovery": false,
+  "worker": {
+    "pid": 78816,
+    "command": "php artisan documents:campaign worker --id=corpus-30000-20261030"
+  },
+  "controller": {
+    "pid": 78817,
+    "command": "php artisan documents:campaign run --id=corpus-30000-20261030"
+  }
+}
