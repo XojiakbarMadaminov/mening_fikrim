@@ -1,0 +1,17 @@
+{
+  "phpunit": {
+    "tests": 283,
+    "assertions": 1392,
+    "seconds": 111.285,
+    "status": "PASS",
+    "new_tests": 27,
+    "database": "mening_fikrim_active_test",
+    "live_source_requests": 0
+  },
+  "pint_test": "PASS",
+  "git_diff_check": "PASS",
+  "php_version": "8.5.12",
+  "laravel_version": "13.39.0",
+  "postgresql_tools_version": "17.11",
+  "pdfplumber_test_version": "0.11.10"
+}

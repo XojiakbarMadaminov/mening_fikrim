@@ -33,3 +33,17 @@ User instructed parsing to continue after the reviewed404 incident. Same corpus-
 ## Explicit transport recovery (2026-11-02)
 
 User explicitly instructed continuation after source_http_0_repeated. SAME corpus-30000-20261030,no new campaign/budget/scope/time reset. Read docs/collection_30000/RECOVERY_20261102.md. recover-network requires15mincooldown,max3network/max10operator recoveries,original budgets,full integrity,source-observed GET and valid preserved receipts;403/429cannot be bypassed. probe-network must use existing paced/budgeted LexHttpClient before actors restart. Both actors reject pending probes. Source failures still terminal;no automatic recovery loop. Journal operator-recovery-2 preserves stop and receipt hashes;final-report-2 is the next epoch,old snapshots stay immutable.
+
+## Explicit isolated AI DEV task (2026-11-02)
+
+The user's pasted AI database/chunking task authorizes only the isolated `feature/ai-legal-chunking` worktree and `mening_fikrim_ai_dev` copy, its AI-only migrations and deterministic legal chunking. Read `docs/AI_DATABASE.md`, `docs/LEGAL_CHUNKING.md` and `docs/AI_DEV_REPORT.md`. MAIN is read-only for snapshot/audit; never migrate/write/reset MAIN or touch its actors/queue/cache/campaigns. Existing parser checkout/staged files and historical evidence stay unchanged. No source calls, parser recovery, synchronization, GPU/LLM/Ollama/vLLM/embeddings/RAG or deployment. Regression tests still only use `mening_fikrim_active_test`; the explicitly authorized 15-document acceptance runs on the isolated AI copy. Use `legal:migrate`, `legal:chunk-documents`, `legal:work`; no ordinary parser workers or default migrations in AI DEV.
+
+
+## Explicit AI DEV P2 full corpus task (2026-11-02)
+
+The new user task authorizes full chunking of the EXISTING isolated snapshot, after exact 100 and additional 1,000 source-content pilots, plus current-generation keyword retrieval and AI-only migrations. Preserve old generations and all MAIN/parser restrictions. No new snapshot/sync, source calls, model/embedding/vector index, merge or deployment. Use one bounded AI worker only; read docs/AI_CHUNKING_P2_REPORT.md and docs/ai_p2/phases.json. legal:chunk-documents --limit counts documents; --content-limit bounds representations. scripts/ai_p2_collect.php phases are gated/checkpointed, not parser campaigns. P1 evidence in docs/ai stays historical; use scripts/ai_p2_validate.php for P2 validation.
+
+
+## Explicit AI DEV P3 universal chunking task (2026-11-03)
+
+The P3 user task authorizes the minimal universal engine, immutable legal-v2 source lineage plus independent bounded legal-v3 retrieval passages, AI-only migrations 000005/000006, exact diverse 100 and additional 1,000 pilots, gated full processing of the EXISTING snapshot, and offline keyword evaluation. Read docs/AI_CHUNKING_P3_REPORT.md, docs/UNIVERSAL_CHUNKING.md, docs/AI_PIPELINE_COMMANDS.md, docs/EMBEDDING_READINESS.md and docs/ai_p3/phases.json. Preserve P1/P2 evidence/source chunk rows. One bounded AI worker; no MAIN writes/actors/queue/parser changes, new snapshot/sync, model/GPU/embedding/vector/reranker/RAG integration, merge or deployment. Current-generation uniqueness is per content AND layer; source v2 IDs returned by search are citations only. P3 successful generations are immutable even under force. Tests remain only mening_fikrim_active_test.

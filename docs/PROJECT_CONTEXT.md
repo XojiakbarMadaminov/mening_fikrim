@@ -45,3 +45,17 @@ Old10,000campaign is immutable/stopped at2,438NEW,17,040HTTP,DB3,667documents/8,
 ## Explicit transport recovery2026-11-02
 
 Same30,000campaign stopped at6,302NEW bysource_http_0_repeated(2consecutiveConnectionException,no403/429). User authorized continuation. New recover-network verifies15mincooldown,max3network recoveries,originalbudgets/deadline,fullintegrity,source-observedGET and intact/nonlive/current-campaignreceipts. probe-network uses original paced/budgeted HTTPclient; actors refusependingprobe. Real observedGET7238011returned200at09:21:58,onebudgetedrequest;actors restarted09:22:22(PIDs578903/578904). Full256tests/1235assertions/Pint PASS,no migration.30receipts/original25failedjobs/historypreserved;operator-recovery-2 journals fullstop;nextfinal usesfinal-report-2. Noautomaticnetworkrecovery/accessstopbypass/newcampaign/scopeorbudgetreset/scheduler. See collection_30000/RECOVERY_20261102.md and recovery_20261102/live_verification.json for timestamped actualprogress.
+
+## Isolated AI development — 2026-11-02
+
+Explicit new user task authorized a separate worktree/branch and `mening_fikrim_ai_dev`, with a consistent read-only snapshot of four corpus tables, AI-only chunk migrations/guards and deterministic legal chunking. MAIN and the parser checkout/configuration/processes are untouched; existing collection evidence remains historical. AI snapshot has10,036documents/25,691contents; bounded acceptance15documents/19contents/2,295chunks,zero errors and exact reassembly/repeat checks. No embeddings/LLM/source collection or parser recovery. Read AI_DATABASE.md,LEGAL_CHUNKING.md and AI_DEV_REPORT.md for isolated commands, current source stop observation and verification.
+
+
+## AI DEV P2 — full fixed snapshot (2026-11-02)
+
+The existing isolated snapshot is fully chunked under legal-v2: 10,036 documents / 25,691 source representations / 549,454 current chunks; pending/failed/duplicate identity groups zero. The 2,295 v1 chunks remain historical. Four source-table full-row hashes are unchanged. 240,866 structured / 308,588 needs_review chunks; long atomic tables/sentences and source/OCR issues remain labelled. Current-generation keyword service/CLI supports language/category/quality filters and source attribution; all-quality lexical GIN and materialized candidate/current-ledger selection avoid measured full-corpus plan failures. AI-only migrations 000002–000004 add current/history/retry controls and lexical indexing; MAIN schema/actors/queues untouched, live primary progress observed read-only. Read AI_CHUNKING_P2_REPORT.md for measured validation/tests/resources and unresolved human/tokenizer/oversize review. No sync/new snapshot/embedding/LLM/vector index/merge/deployment.
+
+
+## 2026-11-03 — isolated AI DEV P3
+
+P3 continues only the existing AI worktree/fixed snapshot. The universal offline engine reuses the P2 legal parser/source chunks, preserves their history and adds independent current legal-v3 retrieval passages with bounded deterministic context, exact byte/character lineage and separate source/structure/retrieval/human quality axes. AI-only migrations 000005/000006, diverse 100 plus additional 1,000 pilots, a quality gate and bounded full processing are authorized by the new user task. Current evidence is in `docs/ai_p3/` and [AI_CHUNKING_P3_REPORT.md](AI_CHUNKING_P3_REPORT.md). MAIN/parser is observed read-only and remains independently operated. No model/GPU connection, embeddings/vector/RAG, new snapshot, synchronization, merge or deployment is part of this stage.

@@ -1,0 +1,401 @@
+{
+    "at": "2026-11-03T18:07:07+05:00",
+    "model_calls": 0,
+    "examples": [
+        {
+            "case": "uz-Latn",
+            "passage_id": 1,
+            "source_url": "https://lex.uz/uz/docs/-6257288",
+            "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+            "suitability": "eligible",
+            "quality": {
+                "reasons": [],
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "source_extraction": {
+                    "format": "html",
+                    "issues": [],
+                    "status": "verified"
+                },
+                "retrieval_suitability": "eligible"
+            },
+            "prepared": {
+                "text": "Document: O‘zbekiston Respublikasining Mehnat kodeksi\nText:\n# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n## UMUMIY QISM\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks xodimlar, ish beruvchilar va davlat manfaatlarining muvozanatini taʼminlash hamda ularni muvofiqlashtirish asosida yakka tartibdagi mehnatga oid munosabatlarni va ular bilan bevosita bogʻliq boʻlgan ijtimoiy munosabatlarni tartibga soladi.\n\n",
+                "text_hash": "2a85f292e717ece8b659ef6d46c87d8c304bde1e3de94e6473c3900f906b75e5",
+                "characters": 501,
+                "estimated_tokens": 126,
+                "token_count_method": "approximate_chars_div_4_no_model_tokenizer",
+                "body_start_char": 60,
+                "context_truncated": false,
+                "input_builder_version": "context-v1",
+                "source_document_id": 1,
+                "source_content_id": 1,
+                "source_checksum": "f4aa01ce50a5d59ae66c9525da0f97bec0a95cc5d809a640a5a60392441ad9bd",
+                "language": "uz-Latn",
+                "profile_version": "legal-v3",
+                "source_spans": [
+                    {
+                        "end_byte": 48,
+                        "start_byte": 0,
+                        "section_type": "title",
+                        "section_number": null,
+                        "source_chunk_id": 4466,
+                        "source_chunk_end_byte": 48,
+                        "source_chunk_start_byte": 0
+                    },
+                    {
+                        "end_byte": 64,
+                        "start_byte": 48,
+                        "section_type": "document_part",
+                        "section_number": null,
+                        "source_chunk_id": 4467,
+                        "source_chunk_end_byte": 64,
+                        "source_chunk_start_byte": 48
+                    },
+                    {
+                        "end_byte": 95,
+                        "start_byte": 64,
+                        "section_type": "section",
+                        "section_number": "I",
+                        "source_chunk_id": 4468,
+                        "source_chunk_end_byte": 95,
+                        "source_chunk_start_byte": 64
+                    },
+                    {
+                        "end_byte": 122,
+                        "start_byte": 95,
+                        "section_type": "chapter",
+                        "section_number": "1",
+                        "source_chunk_id": 4469,
+                        "source_chunk_end_byte": 122,
+                        "source_chunk_start_byte": 95
+                    },
+                    {
+                        "end_byte": 446,
+                        "start_byte": 122,
+                        "section_type": "article",
+                        "section_number": "1",
+                        "source_chunk_id": 4470,
+                        "source_chunk_end_byte": 446,
+                        "source_chunk_start_byte": 122
+                    }
+                ]
+            }
+        },
+        {
+            "case": "uz-Cyrl",
+            "passage_id": 1251,
+            "source_url": "https://lex.uz/uz/docs/6257288",
+            "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+            "suitability": "eligible",
+            "quality": {
+                "reasons": [],
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "source_extraction": {
+                    "format": "html",
+                    "issues": [],
+                    "status": "verified"
+                },
+                "retrieval_suitability": "eligible"
+            },
+            "prepared": {
+                "text": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n## УМУМИЙ ҚИСМ\n\n## I БЎЛИМ. УМУМИЙ ҚОИДАЛАР\n\n## 1-боб. Асосий қоидалар\n\n### 1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар\n\nУшбу Кодекс ходимлар, иш берувчилар ва давлат манфаатларининг мувозанатини таъминлаш ҳамда уларни мувофиқлаштириш асосида якка тартибдаги меҳнатга оид муносабатларни ва улар билан бевосита боғлиқ бўлган ижтимоий муносабатларни тартибга солади.\n\n",
+                "text_hash": "08fb712fc07fe757ee2b146917c1b3b712dddd2600751cf29c41a42594bf44ed",
+                "characters": 429,
+                "estimated_tokens": 108,
+                "token_count_method": "approximate_chars_div_4_no_model_tokenizer",
+                "body_start_char": 0,
+                "context_truncated": false,
+                "input_builder_version": "context-v1",
+                "source_document_id": 1,
+                "source_content_id": 3,
+                "source_checksum": "57aa68e6725200d239bef9e7c458eccc1aebfd377d6ae1cb3b1edc26015ae2fe",
+                "language": "uz-Cyrl",
+                "profile_version": "legal-v3",
+                "source_spans": [
+                    {
+                        "end_byte": 85,
+                        "start_byte": 0,
+                        "section_type": "title",
+                        "section_number": null,
+                        "source_chunk_id": 5864,
+                        "source_chunk_end_byte": 85,
+                        "source_chunk_start_byte": 0
+                    },
+                    {
+                        "end_byte": 111,
+                        "start_byte": 85,
+                        "section_type": "document_part",
+                        "section_number": null,
+                        "source_chunk_id": 5865,
+                        "source_chunk_end_byte": 111,
+                        "source_chunk_start_byte": 85
+                    },
+                    {
+                        "end_byte": 159,
+                        "start_byte": 111,
+                        "section_type": "section",
+                        "section_number": "I",
+                        "source_chunk_id": 5866,
+                        "source_chunk_end_byte": 159,
+                        "source_chunk_start_byte": 111
+                    },
+                    {
+                        "end_byte": 203,
+                        "start_byte": 159,
+                        "section_type": "chapter",
+                        "section_number": "1",
+                        "source_chunk_id": 5867,
+                        "source_chunk_end_byte": 203,
+                        "source_chunk_start_byte": 159
+                    },
+                    {
+                        "end_byte": 778,
+                        "start_byte": 203,
+                        "section_type": "article",
+                        "section_number": "1",
+                        "source_chunk_id": 5868,
+                        "source_chunk_end_byte": 778,
+                        "source_chunk_start_byte": 203
+                    }
+                ]
+            }
+        },
+        {
+            "case": "ru",
+            "passage_id": 630,
+            "source_url": "https://lex.uz/uz/docs/6257291",
+            "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+            "suitability": "eligible",
+            "quality": {
+                "reasons": [],
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "source_extraction": {
+                    "format": "html",
+                    "issues": [],
+                    "status": "verified"
+                },
+                "retrieval_suitability": "eligible"
+            },
+            "prepared": {
+                "text": "# Трудовой кодекс Республики Узбекистан\n\n## ОБЩАЯ ЧАСТЬ\n\n## РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ\n\n## Глава 1. Основные положения\n\n### Статья 1. Отношения, регулируемые настоящим Кодексом\n\nНастоящий Кодекс регулирует индивидуальные трудовые отношения и непосредственно связанные с ними общественные отношения на основе обеспечения баланса и согласования интересов работников, работодателей и государства.\n\n",
+                "text_hash": "55617a36eb5aabe0d6754907acb2d9f1f4c633992640e9908c9613b50ba23dd5",
+                "characters": 394,
+                "estimated_tokens": 99,
+                "token_count_method": "approximate_chars_div_4_no_model_tokenizer",
+                "body_start_char": 0,
+                "context_truncated": false,
+                "input_builder_version": "context-v1",
+                "source_document_id": 1,
+                "source_content_id": 2,
+                "source_checksum": "6a8eadeab8857f2dfcca71956dabff6f6ce9087237ac231dc038debfdef1efcd",
+                "language": "ru",
+                "profile_version": "legal-v3",
+                "source_spans": [
+                    {
+                        "end_byte": 75,
+                        "start_byte": 0,
+                        "section_type": "title",
+                        "section_number": null,
+                        "source_chunk_id": 5166,
+                        "source_chunk_end_byte": 75,
+                        "source_chunk_start_byte": 0
+                    },
+                    {
+                        "end_byte": 101,
+                        "start_byte": 75,
+                        "section_type": "document_part",
+                        "section_number": null,
+                        "source_chunk_id": 5167,
+                        "source_chunk_end_byte": 101,
+                        "source_chunk_start_byte": 75
+                    },
+                    {
+                        "end_byte": 151,
+                        "start_byte": 101,
+                        "section_type": "section",
+                        "section_number": "I",
+                        "source_chunk_id": 5168,
+                        "source_chunk_end_byte": 151,
+                        "source_chunk_start_byte": 101
+                    },
+                    {
+                        "end_byte": 205,
+                        "start_byte": 151,
+                        "section_type": "chapter",
+                        "section_number": "1",
+                        "source_chunk_id": 5169,
+                        "source_chunk_end_byte": 205,
+                        "source_chunk_start_byte": 151
+                    },
+                    {
+                        "end_byte": 714,
+                        "start_byte": 205,
+                        "section_type": "article",
+                        "section_number": "1",
+                        "source_chunk_id": 5170,
+                        "source_chunk_end_byte": 714,
+                        "source_chunk_start_byte": 205
+                    }
+                ]
+            }
+        },
+        {
+            "case": "giant_appendix",
+            "passage_id": 7152,
+            "source_url": "https://lex.uz/uz/docs/-5801444",
+            "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+            "suitability": "review",
+            "quality": {
+                "reasons": [
+                    "source_extraction_review",
+                    "table_layout_review"
+                ],
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "source_extraction": {
+                    "format": "html",
+                    "issues": [
+                        "complex_table_semantics_review",
+                        "quality_review"
+                    ],
+                    "status": "needs_review"
+                },
+                "retrieval_suitability": "review"
+            },
+            "prepared": {
+                "text": "Document: Respublikada ko‘kalamzorlashtirish ishlarini jadallashtirish, daraxtlar muhofazasini yanada samarali tashkil etish chora-tadbirlari to‘g‘risida\nText:\n(ISUZU)\n[T5:R2C15;rowspan=1;colspan=2] daraxt koʻchirish texnikasi\n[T5:R3C3;rowspan=1;colspan=1] soni\n[T5:R3C4;rowspan=1;colspan=1] summasi\n[T5:R3C5;rowspan=1;colspan=1] soni\n[T5:R3C6;rowspan=1;colspan=1] summasi\n[T5:R3C7;rowspan=1;colspan=1] soni\n[T5:R3C8;rowspan=1;colspan=1] summasi\n[T5:R3C9;rowspan=1;colspan=1] soni\n[T5:R3C10;rowspan=1;colspan=1] summasi\n[T5:R3C11;rowspan=1;colspan=1] soni\n[T5:R3C12;rowspan=1;colspan=1] summasi\n[T5:R3C13;rowspan=1;colspan=1] soni\n[T5:R3C14;rowspan=1;colspan=1] summasi\n[T5:R3C15;rowspan=1;colspan=1] soni\n[T5:R3C16;rowspan=1;colspan=1] summasi\n[T5:R4C1;rowspan=1;colspan=2] Respublika boʻyicha jami:\n[T5:R4C3;rowspan=1;colspan=1] 487\n[T5:R4C4;rowspan=1;colspan=1] 386 128 000\n[T5:R4C5;rowspan=1;colspan=1] 207\n[T5:R4C6;rowspan=1;colspan=1] 170 775 000\n[T5:R4C7;rowspan=1;colspan=1] 97\n[T5:R4C8;rowspan=1;colspan=1] 60 625 000\n[T5:R4C9;rowspan=1;colspan=1] 56\n[T5:R4C10;rowspan=1;colspan=1] 51 072 000\n[T5:R4C11;rowspan=1;colspan=1] 86\n[T5:R4C12;rowspan=1;colspan=1] 74 820 000\n[T5:R4C13;rowspan=1;colspan=1] 27\n[T5:R4C14;rowspan=1;colspan=1] 9 936 000\n[T5:R4C15;rowspan=1;colspan=1] 14\n[T5:R4C16;rowspan=1;colspan=1] 18 900 000\n[T5:R5C1;rowspan=1;colspan=1] \n[T5:R5C2;rowspan=1;colspan=1] shu jumladan:\n[T5:R5C3;rowspan=1;colspan=1] \n[T5:R5C4;rowspan=1;colspan=1] \n[T5:R5C5;rowspan=1;colspan=1] \n[T5:R5C6;rowspan=1;colspan=1] \n[T5:R5C7;rowspan=1;colspan=1] \n[T5:R5C8;rowspan=1;colspan=1] \n[T5:R5C9;rowspan=1;colspan=1] \n[T5:R5C10;rowspan=1;colspan=1] \n[T5:R5C11;rowspan=1;colspan=1] \n[T5:R5C12;rowspan=1;colspan=1] \n[T5:R5C13;rowspan=1;colspan=1] \n[T5:R5C14;rowspan=1;colspan=1] \n[T5:R5C15;rowspan=1;colspan=1] \n[T5:R5C16;rowspan=1;colspan=1] \n[T5:R6C1;rowspan=1;colspan=1] 1.\n[T5:R6C2;rowspan=1;colspan=1] Qoraqalpogʻiston Respublikasi\n[T5:R6C3;rowspan=1;colspan=1] 41\n[T5:R6C4;rowspan=1;colspan=1] 32 792 000\n[T5:R6C5;rowspan=1;colspan=1] 17\n[T5:R6C6;rowspan=1;colspan=1] 14 025 000\n[T5:R6C7;rowspan=1;colspan=1] 7\n[T5:R6C8;rowspan=1;colspan=1] 4 375 000\n[T5:R6C9;rowspan=1;colspan=1] 3\n[T5:R6C10;rowspan=1;colspan=1] 2 736 000\n[T5:R6C11;rowspan=1;colspan=1] 11\n[T5:R6C12;rowspan=1;colspan=1] 9 570 000\n[T5:R6C13;rowspan=1;colspan=1] 2\n[T5:R6C14;rowspan=1;colspan=1] 736 000\n[T5:R6C15;rowspan=1;colspan=1] 1\n[T5:R6C16;rowspan=1;colspan=1] 1 350 000\n[T5:R7C1;rowspan=1;colspan=1] 2.\n[T5:R7C2;rowspan=1;colspan=1] Andijon viloyati\n[T5:R7C3;rowspan=1;colspan=1] 49\n[T5:R7C4;rowspan=1;colspan=1] 40 175 000\n[T5:R7C5;rowspan=1;colspan=1] 16\n[T5:R7C6;rowspan=1;colspan=1] 13 200 000\n[T5:R7C7;rowspan=1;colspan=1] 7\n[T5:R7C8;rowspan=1;colspan=1] 4 375 000\n[T5:R7C9;rowspan=1;colspan=1] 12\n[T5:R7C10;rowspan=1;colspan=1] 10 944 000\n[T5:R7C11;rowspan=1;colspan=1] 11\n[T5:R7C12;rowspan=1;colspan=1] 9 570 000\n[T5:R7C13;rowspan=1;colspan=1] 2\n[T5:R7C14;rowspan=1;colspan=1] 736 000\n[T5:R7C15;rowspan=1;colspan=1] 1\n[T5:R7C16;rowspan=1;colspan=1] 1 350 000\n[T5:R8C1;rowspan=1;colspan=1] 3.\n[T5:R8C2;rowspan=1;colspan=1] Buxoro viloyati\n[T5:R8C3;rowspan=1;colspan=1] 29\n",
+                "text_hash": "ff24e64b2250cca9d08cd82e5ff688d9a8e7da949f64a07c9041152bb14cf772",
+                "characters": 3160,
+                "estimated_tokens": 790,
+                "token_count_method": "approximate_chars_div_4_no_model_tokenizer",
+                "body_start_char": 160,
+                "context_truncated": false,
+                "input_builder_version": "context-v1",
+                "source_document_id": 3637,
+                "source_content_id": 8852,
+                "source_checksum": "a2306b7ea59099cf06cb227ead825b0d172de153550d73d6ac33afc0387fff76",
+                "language": "uz-Latn",
+                "profile_version": "legal-v3",
+                "source_spans": [
+                    {
+                        "end_byte": 391066,
+                        "start_byte": 388063,
+                        "section_type": "appendix",
+                        "section_number": "4",
+                        "source_chunk_id": 188626,
+                        "source_chunk_end_byte": 1137083,
+                        "source_chunk_start_byte": 388063
+                    }
+                ]
+            }
+        },
+        {
+            "case": "ocr",
+            "passage_id": 3828,
+            "source_url": "https://lex.uz/uz/docs/4797522",
+            "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+            "suitability": "review",
+            "quality": {
+                "reasons": [
+                    "source_extraction_review",
+                    "ocr_uncertified",
+                    "structure_unrecognized",
+                    "potential_text_damage"
+                ],
+                "structure": "unrecognized",
+                "human_review": "not_reviewed",
+                "source_extraction": {
+                    "format": "ocr",
+                    "issues": [
+                        "low_ocr_confidence",
+                        "ocr_critical_tokens_unverified",
+                        "ocr_source_identifier_not_certified",
+                        "pdf_image_semantics_unverified",
+                        "pdf_language_coverage_unconfirmed",
+                        "pdf_reading_order_unverified",
+                        "pdf_structure_unverified",
+                        "uncertified_ocr",
+                        "quality_review"
+                    ],
+                    "status": "needs_review"
+                },
+                "retrieval_suitability": "review"
+            },
+            "prepared": {
+                "text": "Document: Шўрчи туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида\nText:\n<!-- page 1 -->\n\n; б\n“O'ZBEKISTON RESPUBLIKASI РЕСПУБЛИКА УЗБЕКИСТАН\n\nSURXONDARYO VILOYATI SI, СУРХАНДАРБИНСКОЙ ОБЛАСТИ\nSHO'RCHI TUMAN\na i PE o ЕНИЕ\nQARORI ШУРЧИНСКОГО РАЙОНА\n\n191500, Sho`rchi tumani, Mustaqillik ko'chasi 72-uy, tel.: О(376)45-74-100, fax: 0(376)45-74-100\n\n20 20 yil “.06” январъ Қ-57 - sonli\n\nШўрчи туманида дам олиш\n\nкунлари савдо ярмаркалари\n\nташкил этишни самарали\n\nйўлга қўйиш чора-тадбирлари\n\nтўғрисида 7\n\nЎзбекистон Республикасинингр \"Маҳаллий давлат ҳокимияти\nтўғрисида\"ги Қонуни 6, 25-моддаларига асосан, Ўзбекистон Республикаси\nВазирлар Маҳкамасининг 2012 йил 28 августдаги 253-сон қарори билан\nтасдиқланган \"Ўзбекистон Республикаси бозорларида савдо фаолиятини\nташкил этиш қоидалари\"га мувофиқ, шаҳар ҳудудида дам олиш кунлари савдо\nярмаркалари ташкил этиш билан боғлиқ фаолиятни тартибга солиш максадида\n\nҚАРОР ҚИЛАМАН:\n\n1. Шўрчи туман \"Деҳқон (озиқ-овқат) бозори\" МЧЖ ҳудудида ҳар\nдам олиш кунлари савдо ярмаркалари ўтказилсин.\n\n2. Туман давлат солиқ инспекцияси А.Маликов, туман ички ишлар\nбўлими Ш.Мусурмонов, шаҳар санитария-эпидемиология назорати маркази\nЭ.Эшқувватов ва бошқа манфаатдор ташкилотлар билан биргаликда:\n\nШўрчи туман деҳқон (озиқ-овқат) бозори МЧЖ ҳудудида дам олиш\nкунлари савдо ярмаркаларини тайёрлаш, ўтказиш ва ёпиш бўйича зарур чора-\nтадбирларни ишлаб чиқилишини;\n\nдам олиш куни ярмаркалари ҳудудида қишлоқ хўжалиги маҳсулотларини\nва уларни қайта ишлашдан олинган товарларни, шунингдек илгари\nфойдаланишда бўлган ноозиқ-овқат истеъмол товарларини сотишга рухсат\nберилишини;\n\nдам олиш куни ярмаркалари ҳудудида. савдо ўринларининг бепул\nберилишини таъминласин.\n\n3. Сотувчининг шахсини тасдиқловчи ҳужжатлар мавжуд бўлган\nтақдирда дам олиш куни ярмаркаларида иштирок этиш ва маҳсулотларни\nсотишга рухсат берилиши белгилаб қўйилсин.\n\n<!-- page 2 -->\n\n4\n\n4. Мазкур қарор дам олиш кунлари бозор ҳудудида савдо\nярмаркаларини ўтказишда бевосита қишлоқ хўжалиги товар ишлаб\nчиқарувчилари томонидан сотишга шарт-шароитлар яратиш учун махсус\nажратилган жойларда амалга оширилиши учун тадбиқ этилиши бўйича\nалоҳида назорат ўрнатилсин (байрам кунлари ташкил этиладиган савдо\nярмаркалари бундан мустасно).\n\n5, Ушбу қарор расман эълон қилинган кундан кучга киради.\n\nб. Мазкур қарорнинг ижросини назорат қилиш туман ҳокимининг\nбиринчи ўринбосари А.Якубов зиммасига ю\n\nТуман ҳокими\n\nASLIGA дар\n\nImzo\n\n\"Б.Худойберганов\n\n<!-- page 3 -->\n\n\"ТАСДИҚЛАЙМАН\"\n\nлойиҳасини ҳуқуқий экспертизадан ўтказиш\nХУЛОСАСИ\n\n2019 йил 222 декабр Шўрчи тумани\n\nЎзбекистон Республикасининг 2012 йил 24 декабрдаги \"Норматив-\nҳуқуқий ҳужжатлар тўғрисида\"ги Қонуни 18-моддаси ҳамда Ўзбекистон\nРеспубликаси Президентининг 2018 йил 13 апрелдаги 3666-сон қарори билан\nтасдиқланган \"Ўзбекистон Республикаси адлия вазирлиги тўғрисида\"ги\nНизом талабларига асосан Шўрчи туман ҳокимининг \"Шўрчи туманида дам\nолиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш\nчора-тадбирлари тўғрисида\"ги қарори лойиҳаси ҳуқуқий экспертизадан\nўтказилганда қуйидагилар\n\nАНИҚЛАНДИ:\n\n",
+                "text_hash": "11e2286ff39b7e37db54a61540f34bdaad6f90c7d417b7691fbad26020423aab",
+                "characters": 3107,
+                "estimated_tokens": 777,
+                "token_count_method": "approximate_chars_div_4_no_model_tokenizer",
+                "body_start_char": 127,
+                "context_truncated": false,
+                "input_builder_version": "context-v1",
+                "source_document_id": 158,
+                "source_content_id": 360,
+                "source_checksum": "20cbb256c5300a5e8e463d29d8a8c7055320d35c074f285797da59f0c0455173",
+                "language": "uz-Cyrl",
+                "profile_version": "legal-v3",
+                "source_spans": [
+                    {
+                        "end_byte": 5235,
+                        "start_byte": 0,
+                        "section_type": "paragraph",
+                        "section_number": null,
+                        "source_chunk_id": 19968,
+                        "source_chunk_end_byte": 6876,
+                        "source_chunk_start_byte": 0
+                    }
+                ]
+            }
+        },
+        {
+            "case": "short_context",
+            "passage_id": 1875,
+            "source_url": "https://lex.uz/uz/docs/8519448",
+            "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+            "suitability": "eligible",
+            "quality": {
+                "reasons": [
+                    "short_body"
+                ],
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "source_extraction": {
+                    "format": "html",
+                    "issues": [],
+                    "status": "verified"
+                },
+                "retrieval_suitability": "eligible"
+            },
+            "prepared": {
+                "text": "Document: Qattiq maishiy chiqindilarini olib chiqish va hududlarni obodonlashtirish xizmatini ko‘rsatish bo‘yicha to‘lov tariflarini tasdiqlash to‘g‘risida\nText:\nXALQ DEPUTATLARI DENOV TUMANI KENGASHINING\n\nqarori\n\n",
+                "text_hash": "6e6702f4b10d8c44b6187b2ce02b5fb93357d5de5335fe609ab62b94622aa35b",
+                "characters": 214,
+                "estimated_tokens": 54,
+                "token_count_method": "approximate_chars_div_4_no_model_tokenizer",
+                "body_start_char": 162,
+                "context_truncated": false,
+                "input_builder_version": "context-v1",
+                "source_document_id": 2,
+                "source_content_id": 4,
+                "source_checksum": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27",
+                "language": "uz-Latn",
+                "profile_version": "legal-v3",
+                "source_spans": [
+                    {
+                        "end_byte": 52,
+                        "start_byte": 0,
+                        "section_type": "paragraph",
+                        "section_number": null,
+                        "source_chunk_id": 6562,
+                        "source_chunk_end_byte": 52,
+                        "source_chunk_start_byte": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "at": "2026-11-02T06:56:56+00:00",
+    "read_only": "on",
+    "database": "mening_fikrim_active",
+    "counts": {
+        "documents": 10036,
+        "contents": 25691,
+        "failed_jobs": 25,
+        "migrations": 13
+    },
+    "tables": [
+        "cache",
+        "cache_locks",
+        "document_contents",
+        "document_identifiers",
+        "document_sources",
+        "documents",
+        "failed_jobs",
+        "job_batches",
+        "jobs",
+        "migrations",
+        "scrape_campaign_checkpoints",
+        "scrape_campaigns",
+        "scrape_run_items",
+        "scrape_runs",
+        "source_archive_blobs",
+        "source_archive_observations"
+    ],
+    "schema_sha256": "408d6019fe956a2526fb9c0b5b18227acf79414bc203c83be4f7b5c20069fa84",
+    "campaigns": [
+        {
+            "campaign_id": "p6-validation-20261029",
+            "status": "completed",
+            "current_new_canonical_count": 0,
+            "used_http_requests": 193,
+            "stop_reason": "approved_target_reached"
+        },
+        {
+            "campaign_id": "p6-corpus-1000-20261029",
+            "status": "stopped",
+            "current_new_canonical_count": 850,
+            "used_http_requests": 6003,
+            "stop_reason": "bounded_discovery_scope_exhausted"
+        },
+        {
+            "campaign_id": "p6-1-completion-150-20261029",
+            "status": "completed",
+            "current_new_canonical_count": 150,
+            "used_http_requests": 1122,
+            "stop_reason": "approved_target_reached"
+        },
+        {
+            "campaign_id": "corpus-10000-20261029",
+            "status": "stopped",
+            "current_new_canonical_count": 2438,
+            "used_http_requests": 17040,
+            "stop_reason": "unreconciled_discovery_partition"
+        },
+        {
+            "campaign_id": "corpus-30000-20261030",
+            "status": "stopped",
+            "current_new_canonical_count": 6369,
+            "used_http_requests": 50479,
+            "stop_reason": "source_http_0_repeated"
+        }
+    ],
+    "failed_jobs_sha256": "20f581331d0ef10abc63c59d7edb5158ca585f6127f77a48ba3456919a5fdb86",
+    "historical_campaigns_sha256": "167303a76b19a462eb4a5ec6e0c1d6569adc24157191183134f4f047d3d63cf6"
+}

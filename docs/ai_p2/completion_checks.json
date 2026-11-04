@@ -1,0 +1,17 @@
+{
+  "source_preservation": true,
+  "current_contents": 25691,
+  "current_chunks": 549454,
+  "pending": 0,
+  "failed": 0,
+  "duplicate_identity_groups": 0,
+  "v1_unchanged": true,
+  "keyword_checks": 6,
+  "tests": 295,
+  "assertions": 1468,
+  "main_actor_identity_unchanged": true,
+  "original_git_status_unchanged": true,
+  "credential_scan": "PASS",
+  "remaining_ai_workers": [],
+  "local_branch": "feature/ai-legal-chunking"
+}

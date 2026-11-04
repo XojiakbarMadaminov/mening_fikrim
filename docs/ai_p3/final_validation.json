@@ -1,0 +1,407 @@
+{
+    "at": "2026-11-03T18:06:07+05:00",
+    "status": {
+        "database": "mening_fikrim_ai_dev",
+        "documents": 10036,
+        "contents": 25691,
+        "processed_contents": 25691,
+        "processed_documents": 10036,
+        "pending_contents": 0,
+        "failed_contents": 0,
+        "pending_includes_failed": true,
+        "historical_failed_generations": 0,
+        "retry_exhausted_contents": 0,
+        "source_needs_review": 6192,
+        "sets": 25691,
+        "current_chunks": 549454,
+        "chunks": 551749,
+        "queued": 0,
+        "profile_hash": "da8834b38e162624ff53c2862f076f805b84a03c9286221745b22cf6aa0deac5",
+        "chunking_version": "legal-v2",
+        "versions": [
+            {
+                "chunking_version": "legal-v2",
+                "sets": 25691
+            },
+            {
+                "chunking_version": "legal-v1",
+                "sets": 19
+            },
+            {
+                "chunking_version": "legal-v3",
+                "sets": 25691
+            }
+        ],
+        "source_chunking_version": "legal-v2",
+        "retrieval_version": "legal-v3",
+        "retrieval_profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+        "processed_retrieval_contents": 25691,
+        "pending_retrieval_contents": 0,
+        "failed_retrieval_generations": 0,
+        "failed_retrieval_contents": 0,
+        "retry_exhausted_retrieval_contents": 0,
+        "current_passages": 509018,
+        "all_passages": 509018
+    },
+    "checked_contents": 25691,
+    "checked_source_chunks": 549454,
+    "checked_passages": 509018,
+    "source_bytes": 651169442,
+    "maximum_body_chars": 3500,
+    "maximum_input_chars": 4012,
+    "short_bodies": 23373,
+    "short_inputs": 68,
+    "eligible": 205810,
+    "errors": [],
+    "source_preservation": {
+        "document_sources": {
+            "unchanged": true,
+            "rows": 2,
+            "sha256": "feb6aa4c01454add1767dca5b2760e3671152d8a82c0461178aee6022512f554"
+        },
+        "documents": {
+            "unchanged": true,
+            "rows": 10036,
+            "sha256": "6efbab74dba5975444f8fbda2f94f62360daca97c2b800056bb191f48f749fba"
+        },
+        "document_identifiers": {
+            "unchanged": true,
+            "rows": 31499,
+            "sha256": "eb3bb401a6dca71816c621c46c5d1e6c783cac99d6042f8fe3a8492ce504bdef"
+        },
+        "document_contents": {
+            "unchanged": true,
+            "rows": 25691,
+            "sha256": "c44878e3b4408c1c3f06d2153c73c6bd1f61c3cf370a8a46d9685b1ba950a9f4"
+        },
+        "document_chunks": {
+            "unchanged": true,
+            "rows": 551749,
+            "sha256": "c1330f1ec94226f1904685be678453ac677436bfc386493131bf1185e0a48e66"
+        }
+    },
+    "quality": {
+        "suitability": [
+            {
+                "suitability": "eligible",
+                "passages": 205810
+            },
+            {
+                "suitability": "review",
+                "passages": 303208
+            }
+        ],
+        "reasons": [
+            {
+                "reason": "source_extraction_review",
+                "passages": 300817
+            },
+            {
+                "reason": "table_layout_review",
+                "passages": 106589
+            },
+            {
+                "reason": "potential_text_damage",
+                "passages": 86012
+            },
+            {
+                "reason": "structure_unrecognized",
+                "passages": 58644
+            },
+            {
+                "reason": "short_body",
+                "passages": 23373
+            },
+            {
+                "reason": "ocr_uncertified",
+                "passages": 506
+            },
+            {
+                "reason": "semantic_boundary_uncertain",
+                "passages": 90
+            }
+        ],
+        "axes": [
+            {
+                "source_quality": "needs_review",
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "passages": 253293
+            },
+            {
+                "source_quality": "verified",
+                "structure": "observed",
+                "human_review": "not_reviewed",
+                "passages": 197081
+            },
+            {
+                "source_quality": "needs_review",
+                "structure": "unrecognized",
+                "human_review": "not_reviewed",
+                "passages": 47524
+            },
+            {
+                "source_quality": "verified",
+                "structure": "unrecognized",
+                "human_review": "not_reviewed",
+                "passages": 11120
+            }
+        ]
+    },
+    "relations": [
+        {
+            "relname": "retrieval_passages",
+            "table_bytes": 1323581440,
+            "index_bytes": 212197376
+        },
+        {
+            "relname": "document_chunks",
+            "table_bytes": 1033723904,
+            "index_bytes": 241786880
+        },
+        {
+            "relname": "document_contents",
+            "table_bytes": 317071360,
+            "index_bytes": 3538944
+        },
+        {
+            "relname": "documents",
+            "table_bytes": 128974848,
+            "index_bytes": 1490944
+        },
+        {
+            "relname": "document_chunk_sets",
+            "table_bytes": 47374336,
+            "index_bytes": 20955136
+        },
+        {
+            "relname": "document_identifiers",
+            "table_bytes": 20094976,
+            "index_bytes": 2326528
+        },
+        {
+            "relname": "ai_jobs",
+            "table_bytes": 24576,
+            "index_bytes": 81920
+        },
+        {
+            "relname": "document_sources",
+            "table_bytes": 16384,
+            "index_bytes": 32768
+        },
+        {
+            "relname": "migrations",
+            "table_bytes": 8192,
+            "index_bytes": 16384
+        }
+    ],
+    "indexes": [
+        {
+            "relname": "ai_chunks_all_keywords",
+            "bytes": 154714112,
+            "indisvalid": true
+        },
+        {
+            "relname": "ai_content_identity",
+            "bytes": 1056768,
+            "indisvalid": true
+        },
+        {
+            "relname": "ai_jobs_pkey",
+            "bytes": 40960,
+            "indisvalid": true
+        },
+        {
+            "relname": "ai_jobs_queue_index",
+            "bytes": 16384,
+            "indisvalid": true
+        },
+        {
+            "relname": "ai_passages_keywords",
+            "bytes": 167862272,
+            "indisvalid": true
+        }
+    ],
+    "disk_free_bytes": 110542569472,
+    "multiple_current_per_layer": 0,
+    "duplicate_passage_identity_groups": 0,
+    "duplicate_generation_identity_groups": 0,
+    "languages": [
+        {
+            "language": "en",
+            "passages": 7447,
+            "contents": 108
+        },
+        {
+            "language": "ru",
+            "passages": 107993,
+            "contents": 5767
+        },
+        {
+            "language": "uz-Cyrl",
+            "passages": 198002,
+            "contents": 9969
+        },
+        {
+            "language": "uz-Latn",
+            "passages": 195576,
+            "contents": 9847
+        }
+    ],
+    "categories": [
+        {
+            "document_type": "Qaror (Resheniye)",
+            "passages": 5,
+            "documents": 1
+        },
+        {
+            "document_type": "Декларация",
+            "passages": 23,
+            "documents": 1
+        },
+        {
+            "document_type": "Договор",
+            "passages": 21,
+            "documents": 1
+        },
+        {
+            "document_type": "Закон",
+            "passages": 28516,
+            "documents": 281
+        },
+        {
+            "document_type": "Закон Республики Каракалпакстан",
+            "passages": 1188,
+            "documents": 25
+        },
+        {
+            "document_type": "Изменения и дополнения",
+            "passages": 18,
+            "documents": 1
+        },
+        {
+            "document_type": "Кодекс",
+            "passages": 10855,
+            "documents": 9
+        },
+        {
+            "document_type": "Коммюнике",
+            "passages": 4,
+            "documents": 1
+        },
+        {
+            "document_type": "Меморандум",
+            "passages": 168,
+            "documents": 6
+        },
+        {
+            "document_type": "Нормативы",
+            "passages": 272,
+            "documents": 5
+        },
+        {
+            "document_type": "Определение",
+            "passages": 4,
+            "documents": 1
+        },
+        {
+            "document_type": "Перечень",
+            "passages": 10,
+            "documents": 5
+        },
+        {
+            "document_type": "Положение",
+            "passages": 181,
+            "documents": 1
+        },
+        {
+            "document_type": "Постановление",
+            "passages": 368119,
+            "documents": 6932
+        },
+        {
+            "document_type": "Правила",
+            "passages": 1792,
+            "documents": 9
+        },
+        {
+            "document_type": "Приговор",
+            "passages": 12,
+            "documents": 1
+        },
+        {
+            "document_type": "Приказ",
+            "passages": 36231,
+            "documents": 558
+        },
+        {
+            "document_type": "Программа",
+            "passages": 53,
+            "documents": 3
+        },
+        {
+            "document_type": "Протокол",
+            "passages": 34,
+            "documents": 2
+        },
+        {
+            "document_type": "Распоряжение",
+            "passages": 1635,
+            "documents": 44
+        },
+        {
+            "document_type": "Решение",
+            "passages": 20691,
+            "documents": 1714
+        },
+        {
+            "document_type": "Решение (Конституционного суда)",
+            "passages": 112,
+            "documents": 4
+        },
+        {
+            "document_type": "Соглашение",
+            "passages": 736,
+            "documents": 22
+        },
+        {
+            "document_type": "Стандарт",
+            "passages": 146,
+            "documents": 6
+        },
+        {
+            "document_type": "Требования",
+            "passages": 93,
+            "documents": 1
+        },
+        {
+            "document_type": "Указ",
+            "passages": 38099,
+            "documents": 402
+        }
+    ],
+    "oversized_bodies": 0,
+    "oversized_inputs": 0,
+    "missing_source_urls": 0,
+    "repeat_command": {
+        "exit_code": 0,
+        "output": "{\"selected_documents\":0,\"selected_contents\":0,\"errors\":0}",
+        "all_passage_rows_unchanged": true,
+        "rows_hash": {
+            "rows": 509018,
+            "sha256": "79f603775914d09b34bbeeba3ef850a48518fc6a9b81aad45d843e406f2f7661"
+        }
+    },
+    "selection_count": 25691,
+    "distinct_selection_count": 25691,
+    "worker_resources": {
+        "elapsed_seconds_sum": 1887.02,
+        "user_seconds_sum": 458.48999999999984,
+        "system_seconds_sum": 90.8,
+        "maximum_rss_kb": 176276
+    },
+    "skipped_contents": 0,
+    "human_review_performed": false,
+    "finished_at": "2026-11-03T18:13:18+05:00",
+    "passed": true
+}

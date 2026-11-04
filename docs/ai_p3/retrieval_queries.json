@@ -1,0 +1,3129 @@
+{
+    "created_at": "2026-11-03T18:16:21+05:00",
+    "profile_hash": "c55997d09734ae122389f6a06cee4367ff9438076375e1498dba14a4893c3548",
+    "query_count": 120,
+    "distinct_language_query_count": 120,
+    "queries": [
+        {
+            "id": "q001",
+            "query": "yillarda Namangan viloyatining Pop tumani",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                1812
+            ],
+            "expected_content_id": 4513,
+            "expected_source_chunk_id": 101985,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 70,
+                "end_byte": 111
+            },
+            "expected_passage_ids": [
+                95269
+            ],
+            "source_checksum": "9623ac5256036985dfe0a1e1bcae5e545557ba59f0626f99b973b872a977282d",
+            "anchor_sha256": "755f583e49334dd27d694ea61a754f1dfb8514d46fd3671afedbfc32ab5c1fa8",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q002",
+            "query": "yillarda Toshkent viloyatining Bekobod shahrini kompleks ijtimoiy-iqtisodiy",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                1108
+            ],
+            "expected_content_id": 2834,
+            "expected_source_chunk_id": 49681,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 74,
+                "end_byte": 149
+            },
+            "expected_passage_ids": [
+                45567
+            ],
+            "source_checksum": "32995364f0910b1c916b10a559e5c0d1dd18eab8d903291c4cd5539ad9b84a55",
+            "anchor_sha256": "a23574409a14c4dcc98ae05df9e1a36af4587b0355530d0c732935a5795d4c18",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q003",
+            "query": "Uzun tuman iqtisodiyot tarmoqlari va ijtimoiy sohani",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                9887
+            ],
+            "expected_content_id": 25290,
+            "expected_source_chunk_id": 546536,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 55,
+                "end_byte": 107
+            },
+            "expected_passage_ids": [
+                501685
+            ],
+            "source_checksum": "5ea3408f7825e77aad0880c695dfecd2f14e74d030102f56248eac1ede7f93f2",
+            "anchor_sha256": "80d65018c0eb032a8306f7f13b8433b95ab61e14386dd9aa748e7cac9fd80187",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q004",
+            "query": "Hunarmandchilikni yanada rivojlantirish va hunarmandlarni har tomonlama",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                6029
+            ],
+            "expected_content_id": 15231,
+            "expected_source_chunk_id": 328956,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 53,
+                "end_byte": 124
+            },
+            "expected_passage_ids": [
+                301079
+            ],
+            "source_checksum": "cc755162aae10d16f2ca7e78558840e4c668241d59549004024a51d8ceb0670f",
+            "anchor_sha256": "102dc0ae4816da479d3e906bac7b9285519ea345f3ddd8176e5f2dde9674b35f",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q005",
+            "query": "Zarafshon shahar",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                7821
+            ],
+            "expected_content_id": 20005,
+            "expected_source_chunk_id": 434293,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 0,
+                "end_byte": 16
+            },
+            "expected_passage_ids": [
+                397153
+            ],
+            "source_checksum": "4512996018fb586bbd5d86efe3c096debb57a82ab5eb839834c96a13fd5b4f6c",
+            "anchor_sha256": "1172a3f69d6f1ac7ad75e47265440c998333695706194044c7bd9f70fde42d8a",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q006",
+            "query": "Birlashgan Millatlar Tashkiloti Bosh Assambleyasining",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                2441
+            ],
+            "expected_content_id": 6002,
+            "expected_source_chunk_id": 129837,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 52,
+                "end_byte": 105
+            },
+            "expected_passage_ids": [
+                120317
+            ],
+            "source_checksum": "aba4553a88d0c79e95a1dabd327dce7c2eef3068044eedb5c366d39ed78725fd",
+            "anchor_sha256": "8631f6dc06fafc87a7ae157cd93f5660d9936e8f63f5f44caba06c5e3bcd22bd",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q007",
+            "query": "Kartografiya va geodeziya materiallarining",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                398
+            ],
+            "expected_content_id": 987,
+            "expected_source_chunk_id": 29383,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 60,
+                "end_byte": 102
+            },
+            "expected_passage_ids": [
+                27472
+            ],
+            "source_checksum": "a960146b76a82a472915af6c538b45706265b7dbccec2c48293572280c913494",
+            "anchor_sha256": "b34557fcf09b4586f0f6e0c877461a5a9164190cd2459bde5bd9286884b8a900",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q008",
+            "query": "Shahar iqtisodiyoti tarmoqlarini",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                4223
+            ],
+            "expected_content_id": 10256,
+            "expected_source_chunk_id": 214073,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 52,
+                "end_byte": 84
+            },
+            "expected_passage_ids": [
+                198746
+            ],
+            "source_checksum": "d86466e05a128d863a9f4fbe4c41bb861036aa1e5e058b215aa1480566b1e5b8",
+            "anchor_sha256": "3d042fcf0c2c71656652682bcb5b8d71f1cfa6e3e9d384b4738236e8fee3c4b7",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q009",
+            "query": "Tuman iqtisodiyoti tarmoqlari va ijtimoiy sohalarini",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                4229
+            ],
+            "expected_content_id": 10268,
+            "expected_source_chunk_id": 214237,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 53,
+                "end_byte": 105
+            },
+            "expected_passage_ids": [
+                199062
+            ],
+            "source_checksum": "a6bc48a59d14e8955fbd568bc32265ebbea55c31d2ac23090013ffb008a30100",
+            "anchor_sha256": "733caf3f25879d8b722c5ac448a41e67518799b45f2cc96d21a33202deb6926f",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q010",
+            "query": "Vazirlar Mahkamasining",
+            "language": "uz-Latn",
+            "type": "document_title",
+            "expected_documents": [
+                4870
+            ],
+            "expected_content_id": 12002,
+            "expected_source_chunk_id": 251616,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 26,
+                "end_byte": 48
+            },
+            "expected_passage_ids": [
+                232112
+            ],
+            "source_checksum": "850494f6dcb1546b5b8924ce0b1ad073e856c0712d0f17896341e09ac698734b",
+            "anchor_sha256": "4e7921e88e7d52826027b00d01126aef0514386fdd8d7d8e46950d877aaa3b2e",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q011",
+            "query": "Sud hujjatlarining majburiyligi",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                2455
+            ],
+            "expected_content_id": 6043,
+            "expected_source_chunk_id": 132589,
+            "expected_section": {
+                "type": "article",
+                "number": "10",
+                "title": "10-modda. Sud hujjatlarining majburiyligi"
+            },
+            "expected_span": {
+                "start_byte": 4264,
+                "end_byte": 4295
+            },
+            "expected_passage_ids": [
+                123018
+            ],
+            "source_checksum": "4435c15552fbaf2b0491221d460c4cf3b067767a05b1170de7edd6dae84d956a",
+            "anchor_sha256": "0bb266c156cb1cf6e90077c494b0c1cc3c2abfb3faf25f3b343085f6e0ac458a",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q012",
+            "query": "Oʻzbekiston Respublikasining",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                1284
+            ],
+            "expected_content_id": 3242,
+            "expected_source_chunk_id": 61426,
+            "expected_section": {
+                "type": "article",
+                "number": "4",
+                "title": "4-modda. Oʻzbekiston Respublikasining 1995-yil 31-avgustda qabul qilingan “Oʻsimliklar karantini toʻgʻrisida”gi 113-I-sonli Qonuni (Oʻzbekiston Respublikasining 2018-yil 9-iyulda qabul qilingan OʻRQ-484-sonli Qonuni tahririda) (Oʻzbekiston Respublikasi Oliy Majlisi palatalarining Axborotnomasi, 2018-yil, № 7, 429-modda; 2020-yil, № 1, 4-modda) 4-moddasining ikkinchi qismi quyidagi mazmundagi ikkinchi, uchinchi va toʻrtinchi qismlar bilan almashtirilsin:"
+            },
+            "expected_span": {
+                "start_byte": 12077,
+                "end_byte": 12106
+            },
+            "expected_passage_ids": [
+                56364
+            ],
+            "source_checksum": "c10ef8760bebe2c81f46e78b8f44d5ae7b99c6109df8ef8abff6aedea0e932ce",
+            "anchor_sha256": "a0e76659a3cbe5563b8e40bbcd7878bc547753f02b49537d581c373198b1b4f6",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q013",
+            "query": "Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                2010
+            ],
+            "expected_content_id": 4974,
+            "expected_source_chunk_id": 111358,
+            "expected_section": {
+                "type": "article",
+                "number": "4",
+                "title": "4-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran kuchga kiradi."
+            },
+            "expected_span": {
+                "start_byte": 5315,
+                "end_byte": 5367
+            },
+            "expected_passage_ids": [
+                103519
+            ],
+            "source_checksum": "f069df5d14a38780c7c81fde67c26824ea5b29f2ea4dcae57951d9c6c62e04ed",
+            "anchor_sha256": "e3cc32da887645977052a03389f49ff898fad21289a9df24416be9c741dc6c48",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q014",
+            "query": "Ushbu Qonunning ijrosini",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                1397
+            ],
+            "expected_content_id": 3525,
+            "expected_source_chunk_id": 68115,
+            "expected_section": {
+                "type": "article",
+                "number": "53",
+                "title": "53-modda. Ushbu Qonunning ijrosini, yetkazilishini, mohiyati va ahamiyati tushuntirilishini taʼminlash"
+            },
+            "expected_span": {
+                "start_byte": 71611,
+                "end_byte": 71635
+            },
+            "expected_passage_ids": [
+                62678
+            ],
+            "source_checksum": "4b60367d36431d013c832fb12243b271be9824910977761d034dc4bd8a67080c",
+            "anchor_sha256": "80a1f999fbd954e24907866541cd680094defa611feb7d18e3f422a8c1e3529d",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q015",
+            "query": "Murojaatlar boʻyicha ish yuritish",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                5823
+            ],
+            "expected_content_id": 14676,
+            "expected_source_chunk_id": 315146,
+            "expected_section": {
+                "type": "article",
+                "number": "23",
+                "title": "23-modda. Murojaatlar boʻyicha ish yuritish"
+            },
+            "expected_span": {
+                "start_byte": 24057,
+                "end_byte": 24091
+            },
+            "expected_passage_ids": [
+                288365
+            ],
+            "source_checksum": "da8f604588e2790bf5991eb618dee29446a842cf54875d34004dbcfecd628223",
+            "anchor_sha256": "c145562be1b8bf2b487083a45a182d24c6df00434afaf217f0188480fac3a188",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q016",
+            "query": "Fuqaroviy qurol",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                9131
+            ],
+            "expected_content_id": 23400,
+            "expected_source_chunk_id": 507123,
+            "expected_section": {
+                "type": "article",
+                "number": "6",
+                "title": "6-modda. Fuqaroviy qurol"
+            },
+            "expected_span": {
+                "start_byte": 4685,
+                "end_byte": 4700
+            },
+            "expected_passage_ids": [
+                462637
+            ],
+            "source_checksum": "04a5f444b7794ed52e6e02a38fdcde642fca6c54893620f889e6dc34092ae22e",
+            "anchor_sha256": "86509ef4b46a2d9221a8d55c85f56d1556bcb98b2bcb4c0f2523468aceef3898",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q017",
+            "query": "Mualliflik nashrlari",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                3322
+            ],
+            "expected_content_id": 8087,
+            "expected_source_chunk_id": 170564,
+            "expected_section": {
+                "type": "article",
+                "number": "23",
+                "title": "23-modda. Mualliflik nashrlari"
+            },
+            "expected_span": {
+                "start_byte": 20752,
+                "end_byte": 20772
+            },
+            "expected_passage_ids": [
+                158349
+            ],
+            "source_checksum": "08355bdb6921eacba3938c0098960d88d77f70ee38164ae128bc2beaae03b913",
+            "anchor_sha256": "4ba17b81a68dee4ee0eee21d539f4f75ecc0c65c0ec72b9ae72fdd7c5a21e7c8",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q018",
+            "query": "Avgust oyining ikkinchi yakshanbasi Oʻzbekiston Respublikasi qurilish",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                6163
+            ],
+            "expected_content_id": 15584,
+            "expected_source_chunk_id": 338127,
+            "expected_section": {
+                "type": "article",
+                "number": "1",
+                "title": "1-modda. Avgust oyining ikkinchi yakshanbasi Oʻzbekiston Respublikasi qurilish sohasi xodimlari kuni etib belgilansin."
+            },
+            "expected_span": {
+                "start_byte": 252,
+                "end_byte": 322
+            },
+            "expected_passage_ids": [
+                308895
+            ],
+            "source_checksum": "84887e55f6f61266c3c5261eda5340cbae15f23becbc61b92b705fca66e9cac8",
+            "anchor_sha256": "c7ca40b4b8a75ddbad63a1716c5047bb9a5947aa40672a8a21f08a06eeafe4b9",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q019",
+            "query": "Maʼmuriy qamoqqa olingan shaxslarning majburiyatlari",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                5121
+            ],
+            "expected_content_id": 12705,
+            "expected_source_chunk_id": 265184,
+            "expected_section": {
+                "type": "article",
+                "number": "14",
+                "title": "14-modda. Maʼmuriy qamoqqa olingan shaxslarning majburiyatlari"
+            },
+            "expected_span": {
+                "start_byte": 14804,
+                "end_byte": 14857
+            },
+            "expected_passage_ids": [
+                243492
+            ],
+            "source_checksum": "9f9f5c8cebd3db89f85842cf79ae34185eed1e34886fe6229ad4aaa1246029d2",
+            "anchor_sha256": "d9809b311cdc64dd4ddd9d154a55d2c6356109a7978661661f09b567f7463050",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q020",
+            "query": "Qayta tiklanuvchi energiya manbalaridan foydalanish toʻgʻrisidagi qonunchilikni",
+            "language": "uz-Latn",
+            "type": "article_heading",
+            "expected_documents": [
+                8980
+            ],
+            "expected_content_id": 23022,
+            "expected_source_chunk_id": 498144,
+            "expected_section": {
+                "type": "article",
+                "number": "25",
+                "title": "25-modda. Qayta tiklanuvchi energiya manbalaridan foydalanish toʻgʻrisidagi qonunchilikni buzganlik uchun javobgarlik"
+            },
+            "expected_span": {
+                "start_byte": 24445,
+                "end_byte": 24526
+            },
+            "expected_passage_ids": [
+                454131
+            ],
+            "source_checksum": "e56e2a31df34ec1fb51fcb6ba444c972a88d330a044306500a331caf549af39a",
+            "anchor_sha256": "5718df398517c1e3857ad6b330d5508d2673d7f4697bea23c8a47e8c145ed28b",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q021",
+            "query": "Sogʻlomlashtirish xizmatlarini koʻrsatish faoliyati bilan shugʻullanadigan yuridik",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                6582
+            ],
+            "expected_content_id": 16633,
+            "expected_source_chunk_id": 363964,
+            "expected_section": {
+                "type": "point",
+                "number": "5",
+                "title": "5. Sogʻlomlashtirish xizmatlarini koʻrsatish faoliyati bilan shugʻullanadigan yuridik shaxslarga ilgʻor xorijiy tajribani hisobga olgan holda:"
+            },
+            "expected_span": {
+                "start_byte": 4145,
+                "end_byte": 4230
+            },
+            "expected_passage_ids": [
+                331725
+            ],
+            "source_checksum": "12336d57dc2ef8072ed1c02dbe2f6d7f64e5031b54fa0a0425e7ee9ebef197b6",
+            "anchor_sha256": "f7bf079d41a141090588c89527f0026fef091f120acddf31bc5a69f69ba700d7",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q022",
+            "query": "Oʻzbekiston Respublikasi Davlat geologiya va mineral resurslar",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                4866
+            ],
+            "expected_content_id": 11990,
+            "expected_source_chunk_id": 251125,
+            "expected_section": {
+                "type": "point",
+                "number": "3",
+                "title": "3. Oʻzbekiston Respublikasi Davlat geologiya va mineral resurslar qoʻmitasi huzuridagi H.M. Abdullayev nomidagi Geologiya va geofizika institutining tuzilmasi 1-ilovaga muvofiq tasdiqlansin."
+            },
+            "expected_span": {
+                "start_byte": 2556,
+                "end_byte": 2619
+            },
+            "expected_passage_ids": [
+                231637
+            ],
+            "source_checksum": "c6d225f6f97f39d7f2dab645ed748733b37c021906a685babdba86601abf197c",
+            "anchor_sha256": "d4f643aeb9fa07edd5ed4a26db78faf6811123cdf8fc92a73af2dedd9df334f6",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q023",
+            "query": "Buyruqning muqaddimasidan",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                5521
+            ],
+            "expected_content_id": 13831,
+            "expected_source_chunk_id": 293669,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Buyruqning muqaddimasidan “(Oʻzbekiston Respublikasi Oliy Kengashining Axborotnomasi, 1993-y., 5-son, 223-modda)” hamda “(Oʻzbekiston Respublikasi Hukumatining qarorlari toʻplami, 2000-y., 7-son, 39-modda)” degan soʻzlar chiqarib tashlansin."
+            },
+            "expected_span": {
+                "start_byte": 1888,
+                "end_byte": 1913
+            },
+            "expected_passage_ids": [
+                269597
+            ],
+            "source_checksum": "f9bd45aa9d523fa622aaa46782830ba553152b9e1695b8471e37f0f98005274f",
+            "anchor_sha256": "01fad2810b3b3d432f89e9f9e86072371a982934c0cfd7b3e002d8eb843afd25",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q024",
+            "query": "Oʻzbekiston Respublikasi Prezidentining",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                3140
+            ],
+            "expected_content_id": 7682,
+            "expected_source_chunk_id": 167333,
+            "expected_section": {
+                "type": "point",
+                "number": "43",
+                "title": "43. Oʻzbekiston Respublikasi Prezidentining 2021-yil 27-maydagi “Mashinasozlik va elektrotexnika maxsus sanoat xabi” maxsus sanoat zonasini tashkil etish chora-tadbirlari toʻgʻrisida”gi PQ-5128-son qarori 3-bandining toʻrtinchi xatboshisidan “yoki ularning xohishiga muvofiq yer maydonlari doimiy foydalanishga” soʻzlari chiqarib tashlansin."
+            },
+            "expected_span": {
+                "start_byte": 31507,
+                "end_byte": 31547
+            },
+            "expected_passage_ids": [
+                155018
+            ],
+            "source_checksum": "9541c9947a79bacc2d8099e7a366f6d6125fcfd8b1e9f1d0a4075746c286d403",
+            "anchor_sha256": "4aa26b459699a9790025ac52fb7fdb9d83ff657aca6448f7f1e6d35eccaa592c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q025",
+            "query": "Tadbirlar nomi",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                9846
+            ],
+            "expected_content_id": 25188,
+            "expected_source_chunk_id": 541944,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 337405,
+                "end_byte": 337419
+            },
+            "expected_passage_ids": [
+                495542
+            ],
+            "source_checksum": "63bd4b293e08ef98e7c8168dc58da2e41b63b44a57b65279e2e2457b1c28ed9c",
+            "anchor_sha256": "35b6bb577bd0acdc464465aee1a640566b6759551c0979639dfcfdfa42c7858a",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q026",
+            "query": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                7490
+            ],
+            "expected_content_id": 19110,
+            "expected_source_chunk_id": 418133,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan 2018-yil 19-sentabrda kiritilgan “Turizm toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuniga oʻzgartish va qoʻshimchalar kiritish haqida”gi QL-422-sonli Oʻzbekiston Respublikasi qonuni loyihasini dastlabki tarzda koʻrib chiqish uchun Fan, taʼlim, madaniyat va sport masalalari qoʻmitasi masʼul etib belgilansin."
+            },
+            "expected_span": {
+                "start_byte": 360,
+                "end_byte": 414
+            },
+            "expected_passage_ids": [
+                381078
+            ],
+            "source_checksum": "121d671562d9abc10171d9b85f65fc098e7dc6ed65877125916736b8adb4dbc4",
+            "anchor_sha256": "bfba857c99045bb9f134f8e747aad16625dd57ddbd8eeff2f14712bf0c3fa507",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q027",
+            "query": "Universitet talabalari",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                4576
+            ],
+            "expected_content_id": 11187,
+            "expected_source_chunk_id": 238257,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Universitet talabalari (bundan buyon matnda talabalar deb yuritiladi) bilimini nazorat qilish va baholashning maqsadi — yuqori malakali, raqobatbardosh, mamlakatda oʻtkazilayotgan demokratik va huquqiy islohotlarning yuqori talablariga, zamonaviy xalqaro standartlarga javob bera oladigan yuridik kadrlarni tayyorlash hamda talabalarda mustaqil taʼlim olish, taʼlim sifatini boshqargan holda yuridik faoliyatning tegishli sohalarida tizimli tahlil qilish va boshqaruv koʻnikmalarini rivojlantirish, talabalarning modullarni oʻzlashtirishida boʻshliqlar hosil boʻlishining oldini olish, ularni aniqlash va bartaraf etishdan iborat."
+            },
+            "expected_span": {
+                "start_byte": 2081,
+                "end_byte": 2103
+            },
+            "expected_passage_ids": [
+                220537
+            ],
+            "source_checksum": "916d0ca2ca805005191a15d7bbef582186f548918ec3e44da4a7c1b1156dfa67",
+            "anchor_sha256": "248fe57f1741b492b22f0d8de58f397728f2f93949bb6bedcc51fd176c865920",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q028",
+            "query": "Ushbu Qaror qabul qilingan kundan eʼtiboran kuchga",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                9754
+            ],
+            "expected_content_id": 24931,
+            "expected_source_chunk_id": 537174,
+            "expected_section": {
+                "type": "point",
+                "number": "3",
+                "title": "3. Ushbu Qaror qabul qilingan kundan eʼtiboran kuchga kiradi."
+            },
+            "expected_span": {
+                "start_byte": 908,
+                "end_byte": 959
+            },
+            "expected_passage_ids": [
+                491154
+            ],
+            "source_checksum": "233a311f8391440f16e1b8e665fc934a8833bd0185862e41f13bf8f5d0f0b60f",
+            "anchor_sha256": "8d9f223b639782727e0f0795770a7b620bf5c8127f85a3a50e20b8bf83b698b9",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q029",
+            "query": "Oʻzbekiston Respublikasi Ichki ishlar vazirligi",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                3954
+            ],
+            "expected_content_id": 9535,
+            "expected_source_chunk_id": 198059,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Oʻzbekiston Respublikasi Ichki ishlar vazirligi, Davlat arxitektura qurilish va Qoraqalpogʻiston Respublikasi Vazirlar Kengashi, viloyatlar va Toshkent shahar hokimliklarining tomonidan ishlab chiqilgan Oʻzbekiston Respublikasi Ichki ishlar vazirligi Davlat yongʻin xavfsizligi xizmatining bino va inshootlarini 2016 — 2030-yillar davrida bosqichma-bosqich qurish va rekonstruksiya qilish dasturi (keyingi oʻrinlarda Dastur) ilovaga muvofiq tasdiqlansin."
+            },
+            "expected_span": {
+                "start_byte": 506,
+                "end_byte": 554
+            },
+            "expected_passage_ids": [
+                183247
+            ],
+            "source_checksum": "9d0a01fe8513ed6c9c1b31a95f83451a567d69c8767df98b7acf270f14c0367a",
+            "anchor_sha256": "bc3516bf0b8e26d78640126a628b2bb35c0a6a87c62faf9de963ad0445d0dffb",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q030",
+            "query": "Vakolatli organ uch ish kuni mobaynida soʻrovnomani",
+            "language": "uz-Latn",
+            "type": "legal_phrase",
+            "expected_documents": [
+                7815
+            ],
+            "expected_content_id": 19991,
+            "expected_source_chunk_id": 434097,
+            "expected_section": {
+                "type": "point",
+                "number": "17",
+                "title": "17. Vakolatli organ uch ish kuni mobaynida soʻrovnomani koʻrib chiqib, taqdim etilgan hujjatlar ushbu Reglamentga muvofiq boʻlgan taqdirda, bu haqida qabul qilingan qaror asosida fermer xoʻjaligini Reyestrga kiritadi hamda ushbu Reglamentga 4-ilovadagi maʼlumotnomani QR-kod (matrik shtrixli kod) bilan rasmiylashtiradi va uni oʻz ERIsi bilan tasdiqlab, Davlat xizmatlari markaziga (oʻzi kelib murojaat etgan taqdirda) yoki ariza beruvchiga (elektron tarzda murojaat etgan taqdirda) YIDXP orqali yuboradi."
+            },
+            "expected_span": {
+                "start_byte": 9139,
+                "end_byte": 9191
+            },
+            "expected_passage_ids": [
+                396993
+            ],
+            "source_checksum": "1371e2b54c48b20396feecdc7da6c8b90817adbc3dba1d13244242840442cdaa",
+            "anchor_sha256": "5e310627c8f6719de64d986b044273f3430fe3cd0bd04bc9d92b86eed30e716c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q031",
+            "query": "Тиббиёт ва фармацевтика таълими ва илм-фани тизимини",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                8892
+            ],
+            "expected_content_id": 22779,
+            "expected_source_chunk_id": 490198,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 92,
+                "end_byte": 189
+            },
+            "expected_passage_ids": [
+                447207
+            ],
+            "source_checksum": "c559daf0a8a02ad2fbe82e4ea71d026f0692f481eda8fe168be2a93850442e30",
+            "anchor_sha256": "6ffba3e242c18cc0b9b26040764a27c9948659390fc6c19d13d085f166e070ae",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q032",
+            "query": "Ўзбекистон Республикаси Адлия вазирлиги ҳузуридаги Давлат хизматлари",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                6256
+            ],
+            "expected_content_id": 15813,
+            "expected_source_chunk_id": 342069,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 107,
+                "end_byte": 237
+            },
+            "expected_passage_ids": [
+                312393
+            ],
+            "source_checksum": "5f71e5648b82722a577489f680624dd94140b231ce627b0aefa458d30d100b7c",
+            "anchor_sha256": "56502e9f50d9849b07eecff68bb7f235eaa146ad7302285432df1856738d48b7",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q033",
+            "query": "Андижон вилоятида давлат кўчмас мулк объектлари ва",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                8302
+            ],
+            "expected_content_id": 21264,
+            "expected_source_chunk_id": 458360,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 107,
+                "end_byte": 201
+            },
+            "expected_passage_ids": [
+                419855
+            ],
+            "source_checksum": "563939cc83419a64843d04ce6d39a3cd628a9a0d9521cafea4088dffb1419025",
+            "anchor_sha256": "370847828ab0497dc5bd1939bf78b5551f5e04fc1aad60a53e2da5ffd9cb84f0",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q034",
+            "query": "Ўзбекистон Республикаси Президентининг",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                5466
+            ],
+            "expected_content_id": 13674,
+            "expected_source_chunk_id": 290430,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 0,
+                "end_byte": 74
+            },
+            "expected_passage_ids": [
+                266827
+            ],
+            "source_checksum": "6f72ccabec6d23ce6bbc4f3ec933a70484a170fc3b05eb31432da659d807d02e",
+            "anchor_sha256": "96697615f41deffb600e9c318b1933df298f0013add76a40b877671456779a21",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q035",
+            "query": "Вазирлар Маҳкамасининг",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                9215
+            ],
+            "expected_content_id": 23619,
+            "expected_source_chunk_id": 513629,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 46,
+                "end_byte": 89
+            },
+            "expected_passage_ids": [
+                469881
+            ],
+            "source_checksum": "6337a398b5af8421aa6ef33edf66681c18ba1ec61eef2d78d0a553e414cde42b",
+            "anchor_sha256": "5dd231eef293846a13213af109089eb4592c5a6735d6505749ba56f4a2305ec9",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q036",
+            "query": "Транспорт воситалари эгаларининг фуқаролик жавобгарлигини мажбурий суғурта",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                8610
+            ],
+            "expected_content_id": 22054,
+            "expected_source_chunk_id": 473661,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 107,
+                "end_byte": 249
+            },
+            "expected_passage_ids": [
+                433265
+            ],
+            "source_checksum": "f65ee54fc16342b5a107d2f26a18fbf9f3f32f127894c52e888814ec76d7f8f0",
+            "anchor_sha256": "a9d0185d2a3397df33c7e2bdde85a8ce7bff10bab44cf633009ad424c2a20592",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q037",
+            "query": "Кексалар ва ногиронлиги бўлган шахсларни ижтимоий қўллаб-қувватлаш",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                1526
+            ],
+            "expected_content_id": 3822,
+            "expected_source_chunk_id": 78335,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 94,
+                "end_byte": 219
+            },
+            "expected_passage_ids": [
+                71747
+            ],
+            "source_checksum": "eef279abdfafcc7d55068db6ab29fcc0d2c6fdeffddc7ca0d23b7fde5481f2b7",
+            "anchor_sha256": "4ed28a52c7b6a9660976e06674ea8a1121846e3f7c7f477bcd7869b88fa5e4d4",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q038",
+            "query": "Ўзбекистон Республикаси Вазирлар Маҳкамасининг",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                1119
+            ],
+            "expected_content_id": 2862,
+            "expected_source_chunk_id": 50661,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 0,
+                "end_byte": 89
+            },
+            "expected_passage_ids": [
+                46395
+            ],
+            "source_checksum": "411792dd4e6fc49b2d6c0cf0da75be82b25b5d5cd8b6361427797cc9058f4cfe",
+            "anchor_sha256": "ae73ec731063b2f5cdab93835937a2a3cfe27df85512c21a83c8c102a6978cbd",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q039",
+            "query": "Етим болалар ва ота-онасининг қарамоғидан маҳрум бўлган",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                8328
+            ],
+            "expected_content_id": 21338,
+            "expected_source_chunk_id": 460229,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 92,
+                "end_byte": 195
+            },
+            "expected_passage_ids": [
+                421517
+            ],
+            "source_checksum": "ab4a2ffd74d392f6ed1edf0199303d8a4bab80507d5bc859d5597982952c9f64",
+            "anchor_sha256": "20b4444a4f54f728c3d2876afd5bb8d045a1e77d25ea394f22b6a56f38edd063",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q040",
+            "query": "Ўзбекистон Республикасининг",
+            "language": "uz-Cyrl",
+            "type": "document_title",
+            "expected_documents": [
+                3578
+            ],
+            "expected_content_id": 8696,
+            "expected_source_chunk_id": 182129,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 92,
+                "end_byte": 145
+            },
+            "expected_passage_ids": [
+                169230
+            ],
+            "source_checksum": "5a19a6d7b318431467ce97d377683af3a9e0c9f8b6c8e8fc29ac818fe05d541f",
+            "anchor_sha256": "3af74e3f24ad6193baa0b9a8a12ffd820d4855559b0fdbdc2f0415fa35efc831",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q041",
+            "query": "Консулликнинг Ўзбекистон Республикаси фуқаролиги билан боғлиқ функциялари",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                8196
+            ],
+            "expected_content_id": 21015,
+            "expected_source_chunk_id": 454226,
+            "expected_section": {
+                "type": "article",
+                "number": "17",
+                "title": "17-модда. Консулликнинг Ўзбекистон Республикаси фуқаролиги билан боғлиқ функциялари"
+            },
+            "expected_span": {
+                "start_byte": 31346,
+                "end_byte": 31486
+            },
+            "expected_passage_ids": [
+                415810
+            ],
+            "source_checksum": "080c7eb1effa54e2e1ce76de4869e2f3c0857b1b53d712d6f476d67d7d583168",
+            "anchor_sha256": "012d8cd465dc0fe3f9724ba4fa069ef3fd4128287bd65da0140f159c1f994585",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q042",
+            "query": "Ушбу Қонун расмий эълон қилинган кундан эътиборан",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                7113
+            ],
+            "expected_content_id": 18080,
+            "expected_source_chunk_id": 399689,
+            "expected_section": {
+                "type": "article",
+                "number": "35",
+                "title": "35-модда. Ушбу Қонун расмий эълон қилинган кундан эътиборан кучга киради."
+            },
+            "expected_span": {
+                "start_byte": 63200,
+                "end_byte": 63292
+            },
+            "expected_passage_ids": [
+                365133
+            ],
+            "source_checksum": "a8de8d83719a68fe838c72bc647af708310d5106cfe7657c8dba52dcd1dcafd0",
+            "anchor_sha256": "5082007fbb9ea0fc1b8cfce1cfda90d1cbb9dc1dcab270f460767be37b6f9569",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q043",
+            "query": "Хотин-қизларга нисбатан тазйиқ ва зўравонликнинг олдини олишга",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                9500
+            ],
+            "expected_content_id": 24357,
+            "expected_source_chunk_id": 526830,
+            "expected_section": {
+                "type": "article",
+                "number": "19",
+                "title": "19-модда. Хотин-қизларга нисбатан тазйиқ ва зўравонликнинг олдини олишга доир якка тартибдаги чора-тадбирлар"
+            },
+            "expected_span": {
+                "start_byte": 41298,
+                "end_byte": 41415
+            },
+            "expected_passage_ids": [
+                481457
+            ],
+            "source_checksum": "eb8cd959f166c0d9f930791b836ea24252f126c5ae3def84c838ed8dce5bbdae",
+            "anchor_sha256": "25e2492ee9e93f4f4669027b59b997aa1f0bb4cdeebaa413bc0334ae45dd4fb8",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q044",
+            "query": "Маҳаллий давлат ҳокимияти органларининг қайта тикланувчи энергия",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                8980
+            ],
+            "expected_content_id": 23020,
+            "expected_source_chunk_id": 498048,
+            "expected_section": {
+                "type": "article",
+                "number": "8",
+                "title": "8-модда. Маҳаллий давлат ҳокимияти органларининг қайта тикланувчи энергия манбаларидан фойдаланиш соҳасидаги ваколатлари"
+            },
+            "expected_span": {
+                "start_byte": 16541,
+                "end_byte": 16663
+            },
+            "expected_passage_ids": [
+                454052
+            ],
+            "source_checksum": "4eb62976c3d59ce6f91b031677154832c2b23be17401d5ec6d6adcc5232897bf",
+            "anchor_sha256": "01196fed2a92c874f84d7d1d9d8d026f33638fa9a9401e869987c1438678fd58",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q045",
+            "query": "Сейсмик хатарни камайтириш",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                2906
+            ],
+            "expected_content_id": 7130,
+            "expected_source_chunk_id": 153771,
+            "expected_section": {
+                "type": "article",
+                "number": "16",
+                "title": "16-модда. Сейсмик хатарни камайтириш"
+            },
+            "expected_span": {
+                "start_byte": 38291,
+                "end_byte": 38341
+            },
+            "expected_passage_ids": [
+                142648
+            ],
+            "source_checksum": "5e510297e4dbff62395e1548b1c1f42acd7b6709f42734d3e67a8c83fce30ca4",
+            "anchor_sha256": "18b657a8fba9a4892b12abeff395a81a856dcd1b025a187da9e98e35953e66dc",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q046",
+            "query": "Ўзбекистон Республикаси Вазирлар Маҳкамаси",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                3632
+            ],
+            "expected_content_id": 8836,
+            "expected_source_chunk_id": 188003,
+            "expected_section": {
+                "type": "article",
+                "number": "5",
+                "title": "5-модда. Ўзбекистон Республикаси Вазирлар Маҳкамаси:"
+            },
+            "expected_span": {
+                "start_byte": 6457,
+                "end_byte": 6538
+            },
+            "expected_passage_ids": [
+                174745
+            ],
+            "source_checksum": "0b65d75a1f5cedb1c7007308f98d3e5a3ee516080bd0fae67a4e7a0f12168765",
+            "anchor_sha256": "9e6c172b3b0e917d89bf3d0d9c8bd64b8f0df10468546f94f312629eaf12431c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q047",
+            "query": "Фуқаровий қурол",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                9131
+            ],
+            "expected_content_id": 23399,
+            "expected_source_chunk_id": 507058,
+            "expected_section": {
+                "type": "article",
+                "number": "6",
+                "title": "6-модда. Фуқаровий қурол"
+            },
+            "expected_span": {
+                "start_byte": 7947,
+                "end_byte": 7976
+            },
+            "expected_passage_ids": [
+                462569
+            ],
+            "source_checksum": "f0c1cbc66eb6e8c60d31cadd9b926d5e6234f25894b623fd56e74a40172f71f0",
+            "anchor_sha256": "5900100e8a60b59621a5f0449a176d001c2a93d931c3e7ea05a8cec4994d824c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q048",
+            "query": "Радиоактив чиқиндиларни сақлаш",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                9603
+            ],
+            "expected_content_id": 24636,
+            "expected_source_chunk_id": 535078,
+            "expected_section": {
+                "type": "article",
+                "number": "39",
+                "title": "39-модда. Радиоактив чиқиндиларни сақлаш, қайта ишлаш ва кўмиб ташлаш"
+            },
+            "expected_span": {
+                "start_byte": 109592,
+                "end_byte": 109650
+            },
+            "expected_passage_ids": [
+                489303
+            ],
+            "source_checksum": "266d568c8517cf4506b53982928370691e0fcfdce9bcdea254584455bbd10fff",
+            "anchor_sha256": "afb2072a8f4e36540996a50cc98fb51bfb7b3dc3dabedbba50c9019216abdc65",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q049",
+            "query": "Тежаб қолинган сувни бошқа шахсга бериш",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                19
+            ],
+            "expected_content_id": 48,
+            "expected_source_chunk_id": 8068,
+            "expected_section": {
+                "type": "article",
+                "number": "70",
+                "title": "70-модда. Тежаб қолинган сувни бошқа шахсга бериш"
+            },
+            "expected_span": {
+                "start_byte": 167334,
+                "end_byte": 167407
+            },
+            "expected_passage_ids": [
+                10519
+            ],
+            "source_checksum": "4b39fa4c7a15949fd2c2cb9e24dd258a46140f7e61fd480bbbea63291125cc95",
+            "anchor_sha256": "0483ce84ef7b8f84d329062f13b92d2d7c70cd5302aee691d89ce5d86841671c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q050",
+            "query": "Суғурта фаолиятининг субъектлари",
+            "language": "uz-Cyrl",
+            "type": "article_heading",
+            "expected_documents": [
+                3391
+            ],
+            "expected_content_id": 8263,
+            "expected_source_chunk_id": 179225,
+            "expected_section": {
+                "type": "article",
+                "number": "12",
+                "title": "12-модда. Суғурта фаолиятининг субъектлари"
+            },
+            "expected_span": {
+                "start_byte": 22881,
+                "end_byte": 22943
+            },
+            "expected_passage_ids": [
+                166416
+            ],
+            "source_checksum": "459017895ba9df832b2bd30ed8c4981ec188bfccfa16d2f2ed737383a3d93b19",
+            "anchor_sha256": "a1bbc3302060ef265e9c3b05d562ea2101b019b3a9cd085c321f02db526c4ee8",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q051",
+            "query": "Мазкур қарорнинг бажарилишини назорат қилиш Ўзбекистон Республикаси",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                8707
+            ],
+            "expected_content_id": 22285,
+            "expected_source_chunk_id": 476466,
+            "expected_section": {
+                "type": "point",
+                "number": "2",
+                "title": "2. Мазкур қарорнинг бажарилишини назорат қилиш Ўзбекистон Республикаси Бош вазирининг ўринбосари — молия вазири Ж.А.Қўчқоров зиммасига юклансин."
+            },
+            "expected_span": {
+                "start_byte": 1697,
+                "end_byte": 1825
+            },
+            "expected_passage_ids": [
+                435742
+            ],
+            "source_checksum": "959997edc91b42cb432e77735f157ec49310fd1115b48a1363fd9099cb40bb0d",
+            "anchor_sha256": "33a80e929560f5f9ee462072ac9c31f037b4a4769dea45467e6f10a074e06a2c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q052",
+            "query": "Ўзбекистон Республикаси Президенти томонидан",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                7036
+            ],
+            "expected_content_id": 17858,
+            "expected_source_chunk_id": 395003,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Ўзбекистон Республикаси Президенти томонидан 2018 йил 25 июнда киритилган «Ўзбекистон Республикаси билан Туркия Республикаси ўртасида экстрадиция тўғрисидаги Битимни (Тошкент, 2018 йил 30 апрель) ратификация қилиш ҳақида»ги ҚЛ-381-сонли Ўзбекистон Республикаси қонуни лойиҳаси биринчи ўқишда қабул қилинсин."
+            },
+            "expected_span": {
+                "start_byte": 670,
+                "end_byte": 755
+            },
+            "expected_passage_ids": [
+                361112
+            ],
+            "source_checksum": "4e93598847f4161d40b04b51d53e86bac3067f53973bfd4c6219a0aa1df7cbff",
+            "anchor_sha256": "87bcfbb29ff42d36373c4245d016e3c98a7c61a60409ef72602fe1b6d2850b49",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q053",
+            "query": "Қонун лойиҳаларини ва бошқа норматив-ҳуқуқий ҳужжатлар лойиҳаларини",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                7701
+            ],
+            "expected_content_id": 19676,
+            "expected_source_chunk_id": 427713,
+            "expected_section": {
+                "type": "point",
+                "number": "2",
+                "title": "2. Қонун лойиҳаларини ва бошқа норматив-ҳуқуқий ҳужжатлар лойиҳаларини кўриб чиқишни ташкил этиш бўйича мувофиқлаштирувчи гуруҳ ушбу қонун лойиҳасини Аграр ва сув хўжалиги масалалари қўмитасига, сиёсий партиялар фракцияларига ҳамда Ўзбекистон экологик ҳаракати депутатлар гуруҳига топширсин."
+            },
+            "expected_span": {
+                "start_byte": 1179,
+                "end_byte": 1306
+            },
+            "expected_passage_ids": [
+                390380
+            ],
+            "source_checksum": "55dc90e35c05b193a971b2d1e7747d59d1fffb166a0cf4e3e9a766f98c4d77b7",
+            "anchor_sha256": "fc0a2ddae6d722162523be96ba286d0f8845027187ffe14428afa6242d617040",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q054",
+            "query": "Ариза берувчини лицензия талаб ва шартларига номувофиқ",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                9182
+            ],
+            "expected_content_id": 23534,
+            "expected_source_chunk_id": 510890,
+            "expected_section": {
+                "type": "point",
+                "number": "2",
+                "title": "2. Ариза берувчини лицензия талаб ва шартларига номувофиқ деб топилган тақдирда давлат хизматлари марказига (ўзи келиб мурожаат этган тақдирда) ёки ариза берувчига (электрон тарзда мурожаат этган тақдирда) «Лицензия» ахборот тизими ёки Ягона интерактив давлат хизматлари портали орқали лицензия беришни рад этиш тўғрисида қабул қилган қарори юзасидан хабар юбориш."
+            },
+            "expected_span": {
+                "start_byte": 70924,
+                "end_byte": 71026
+            },
+            "expected_passage_ids": [
+                466829
+            ],
+            "source_checksum": "537a18db7044e845cb5b6a94917d4c648ad3c7006fb517b97daccb60e2b98c03",
+            "anchor_sha256": "482067f83bb9d97a27bdeeb8a758a268236f79a11b6c142b468ceae3baa64dde",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q055",
+            "query": "Иккинчи ўқишда қабул қилинган",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                570
+            ],
+            "expected_content_id": 1465,
+            "expected_source_chunk_id": 32708,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Иккинчи ўқишда қабул қилинган «Ўзбекистон Республикасининг Маъмурий жавобгарлик тўғрисидаги кодексига ўзгартиш ва қўшимчалар киритиш ҳақида»ги ҚЛ-528-сонли Ўзбекистон Республикаси қонуни лойиҳаси, «Микромолиялаш тўғрисида»ги Ўзбекистон Республикаси Қонунига ўзгартишлар киритиш ҳақида»ги ҚЛ-616-сонли Ўзбекистон Республикаси қонуни лойиҳаси, «Ўзбекистон Республикасининг айрим қонун ҳужжатларига ўзгартиш ва қўшимчалар киритиш тўғрисида»ги ҚЛ-621-сонли Ўзбекистон Республикаси қонуни лойиҳаси, «Ўзбекистон Республикасининг Маъмурий жавобгарлик тўғрисидаги кодексига қўшимчалар киритиш ҳақида»ги ҚЛ-629-сонли Ўзбекистон Республикаси қонуни лойиҳаси ҳамда «Ўзбекистон Республикасининг айрим қонун ҳужжатларига ўзгартиш ва қўшимчалар киритиш тўғрисида»ги ҚЛ-633-сонли Ўзбекистон Республикаси қонуни лойиҳаси «Ўзбекистон Республикасининг айрим қонун ҳужжатларига ўзгартиш ва қўшимчалар киритиш тўғрисида» деган янги ном билан битта қонун лойиҳасига бирлаштирилсин."
+            },
+            "expected_span": {
+                "start_byte": 475,
+                "end_byte": 530
+            },
+            "expected_passage_ids": [
+                30450
+            ],
+            "source_checksum": "fd6ce293c9c1e0832c016c07dc416d7c85f4ed1fc19c06e2a9f674fb82522352",
+            "anchor_sha256": "597fc362196fefd559ddd1b1863afd089ad1be0c4c6b84e4c7414e228ee08266",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q056",
+            "query": "Жойларда сайловчилар билан ўтказилган учрашувлар",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                5181
+            ],
+            "expected_content_id": 12856,
+            "expected_source_chunk_id": 267635,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Жойларда сайловчилар билан ўтказилган учрашувлар, долзарб ва аҳолини ўйлантираётган масалалар кенг кўламда ўрганилиши, амалдаги қонун ҳужжатлари ва ҳуқуқни қўллаш амалиёти танқидий таҳлил қилиниши, илғор хорижий тажриба ўрганилиши, шунингдек кенг жамоатчилик муҳокамаси натижасида қуйидаги ҳужжатлар тасдиқланганлиги маълумот учун қабул қилинсин:"
+            },
+            "expected_span": {
+                "start_byte": 1302,
+                "end_byte": 1394
+            },
+            "expected_passage_ids": [
+                245792
+            ],
+            "source_checksum": "5a3acf591d0017ddf3107b96f33a0660b96c545f84e3dc85624e1cc98a1942f2",
+            "anchor_sha256": "0b6501f8f3a0c9ec72a6cc2ff905f78bdb167b662decbb276ebb924188368fa2",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q057",
+            "query": "Ўзбекистон Республикаси Ички ишлар вазирлиги",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                6733
+            ],
+            "expected_content_id": 17027,
+            "expected_source_chunk_id": 373543,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Ўзбекистон Республикаси Ички ишлар вазирлиги, Экология ва атроф-муҳитни муҳофаза қилиш давлат қўмитаси, Автомобиль йўллари давлат қўмитаси ва Ўзбекистон автомобиль транспорти агентлигининг ишлаб чиқарилганига 20 йилдан ортиқ вақт ўтган юк автомобиллари ва шатакчи автомобилларда «Қамчиқ» довонидан юк ташишни тақиқлаш тўғрисидаги таклифига розилик берилсин."
+            },
+            "expected_span": {
+                "start_byte": 1144,
+                "end_byte": 1228
+            },
+            "expected_passage_ids": [
+                340561
+            ],
+            "source_checksum": "f569ce42062c8feff6a584d40a1a69824178f8dde7dc299ed24c9bb916f8de64",
+            "anchor_sha256": "e5186b4ceaf594aab725f0a613d0c9daf1d0027bbd5aeebf4c7cbed75fe0a470",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q058",
+            "query": "Қонунчилик ва суд-ҳуқуқ масалалари қўмитаси сиёсий партиялар",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                4773
+            ],
+            "expected_content_id": 11726,
+            "expected_source_chunk_id": 248397,
+            "expected_section": {
+                "type": "point",
+                "number": "3",
+                "title": "3. Қонунчилик ва суд-ҳуқуқ масалалари қўмитаси сиёсий партиялар фракциялари ҳамда Ўзбекистон экологик ҳаракати депутатлар гуруҳининг фикрлари ва таклифларини ҳисобга олган ҳолда Қонунчилик палатаси Кенгашига мазкур қонун лойиҳасини Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси кўриб чиқиши учун қабул қилиш мумкинлиги тўғрисида хулоса тақдим этсин."
+            },
+            "expected_span": {
+                "start_byte": 2063,
+                "end_byte": 2176
+            },
+            "expected_passage_ids": [
+                228998
+            ],
+            "source_checksum": "bbe4a2fc4ac0a25cb901aa778345146c254fe10af7cac9dad6d23f9c27327afb",
+            "anchor_sha256": "8f3e55fc69f43c36d9f92b1e0d1531e8f70a164e750a8110f96feeb13df00aef",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q059",
+            "query": "Аризани такроран кўриб чиқишда Агентлик томонидан ариза",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                8327
+            ],
+            "expected_content_id": 21335,
+            "expected_source_chunk_id": 460152,
+            "expected_section": {
+                "type": "point",
+                "number": "10",
+                "title": "10. Аризани такроран кўриб чиқишда Агентлик томонидан ариза берувчига илгари ёзма шаклда, шу жумладан, ахборот тизими, электрон почта алоқаси орқали баён қилинмаган рад этиш сабаблари Агентлик томонидан келтирилишига йўл қўйилмайди, илгари кўрсатилган сабаблар бартараф этилганлигини тасдиқловчи ҳужжатлар билан боғлиқ рад этиш сабаблари келтирилиши бундан мустасно."
+            },
+            "expected_span": {
+                "start_byte": 13065,
+                "end_byte": 13169
+            },
+            "expected_passage_ids": [
+                421456
+            ],
+            "source_checksum": "264057dee01210e1b02ddd8fbcdd84df8a234fd184bf4e0d0b990234b465ee05",
+            "anchor_sha256": "88c2a3318400da045a234e0bd9d4fbd24a049a45f392aa0f9cbdc57069a2308c",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q060",
+            "query": "Ўзбекистон Республикаси Вазирлар Маҳкамаси томонидан",
+            "language": "uz-Cyrl",
+            "type": "legal_phrase",
+            "expected_documents": [
+                7526
+            ],
+            "expected_content_id": 19220,
+            "expected_source_chunk_id": 418639,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Ўзбекистон Республикаси Вазирлар Маҳкамаси томонидан 2018 йил 13 мартда киритилган «Рекрутинг фаолияти тўғрисида»ги ҚЛ-343-сонли Ўзбекистон Республикаси қонуни лойиҳаси «Хусусий бандлик агентликлари тўғрисида» деган янги ном билан иккинчи ўқишда қабул қилинсин."
+            },
+            "expected_span": {
+                "start_byte": 527,
+                "end_byte": 627
+            },
+            "expected_passage_ids": [
+                381560
+            ],
+            "source_checksum": "7ddc949f30ccf29e4a7c32b1593a4877f70418174bf08bdb9a08b98242721094",
+            "anchor_sha256": "f32a5167a0d44f314bc896a7c9e5f0cf7d67abac683ec3b7efec59e4a14ce163",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q061",
+            "query": "О совершенствовании денежно-кредитной политики с поэтапным переходом",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                9982
+            ],
+            "expected_content_id": 25546,
+            "expected_source_chunk_id": 548969,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 76,
+                "end_byte": 205
+            },
+            "expected_passage_ids": [
+                504275
+            ],
+            "source_checksum": "ba2f143129fce021dc40ad300fc356ba77f630fdb4120781b1e181ab9ee522b2",
+            "anchor_sha256": "9a7df8e65b2ea182b3ae36de062d89800282bd50d0ffc43c09974ba9d1aaa730",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q062",
+            "query": "О дополнительных мерах по обеспечению эффективного управления",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                5344
+            ],
+            "expected_content_id": 13319,
+            "expected_source_chunk_id": 282459,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 109,
+                "end_byte": 225
+            },
+            "expected_passage_ids": [
+                259471
+            ],
+            "source_checksum": "9f3bfd4787ef91a1b5c84f7186ce03c47172edcebb7abc4c96134c6eb2edd6fd",
+            "anchor_sha256": "b31353926f7f644473f4f7eefd956c5d3b40989693d54460fc732e0336712053",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q063",
+            "query": "Об утверждении Концепции развития системы высшего образования",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                9793
+            ],
+            "expected_content_id": 25044,
+            "expected_source_chunk_id": 538848,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 76,
+                "end_byte": 192
+            },
+            "expected_passage_ids": [
+                492666
+            ],
+            "source_checksum": "e42d0aaa3ae06a5e6e0e58bc4f50cc8699b9badc127cb55782f921fb2a33f504",
+            "anchor_sha256": "f9113426306737f5861c2faa01ad63bf17f39f2c69f0e9964fb8be914f3492c3",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q064",
+            "query": "О комплексных мерах по коренному совершенствованию системы",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                7923
+            ],
+            "expected_content_id": 20300,
+            "expected_source_chunk_id": 436034,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 76,
+                "end_byte": 186
+            },
+            "expected_passage_ids": [
+                398781
+            ],
+            "source_checksum": "51e8227d21ab099e8cf71533bd1a5092febfa297f7d8603ddd109e366ba1c20a",
+            "anchor_sha256": "892cfe08088c0cd0645894ebae00a688c2515160dd37d49ebf3134d6a1f39106",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q065",
+            "query": "О внесении изменений и дополнений в некоторые",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                7635
+            ],
+            "expected_content_id": 19518,
+            "expected_source_chunk_id": 425683,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 109,
+                "end_byte": 193
+            },
+            "expected_passage_ids": [
+                388430
+            ],
+            "source_checksum": "b3f7346750fd3c06f4fe6dfb5407bdef3f8c2e3696a77a1a7b4be4b30b373625",
+            "anchor_sha256": "3e84f85812770aaf919842b0a88b1cc15a44b97547dec0227982e2729127f81f",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q066",
+            "query": "О мерах по коренному повышению эффективности деятельности",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                5321
+            ],
+            "expected_content_id": 13253,
+            "expected_source_chunk_id": 281227,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 76,
+                "end_byte": 184
+            },
+            "expected_passage_ids": [
+                257939
+            ],
+            "source_checksum": "d53e9252e0a8d0154612e1f8197e3b18d92133f112c8837a12b309a1155ce2a2",
+            "anchor_sha256": "5245cd55b0ea3dd31527d1735f481524b4f63367b52c8799231bc33523ca4008",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q067",
+            "query": "О мерах по дальнейшему развитию ремесленничества и",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                6029
+            ],
+            "expected_content_id": 15229,
+            "expected_source_chunk_id": 328872,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 76,
+                "end_byte": 170
+            },
+            "expected_passage_ids": [
+                299676
+            ],
+            "source_checksum": "47647d46c9b5ed1d8c8d4b5d2470511a3351f8bbe0467d5ed610f42d8d05cca5",
+            "anchor_sha256": "6704fea7b0195f9446415788add233ba46d8a7e492d749f66ed6e48ec7d9ed99",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q068",
+            "query": "О подготовке и проведении выборов председателей",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                4521
+            ],
+            "expected_content_id": 11024,
+            "expected_source_chunk_id": 236879,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 125,
+                "end_byte": 214
+            },
+            "expected_passage_ids": [
+                219247
+            ],
+            "source_checksum": "2c1dd7dbaf795d6ff5bcf3c8e516939bceaa9c26195e5a7e32ea9f345d3641ed",
+            "anchor_sha256": "5d3ee933ebaaafd7414c1a9f3611354d7f163344211400f816798d26b341a1f5",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q069",
+            "query": "Об организационных мерах по дальнейшему развитию деятельности",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                5894
+            ],
+            "expected_content_id": 14862,
+            "expected_source_chunk_id": 321187,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 94,
+                "end_byte": 210
+            },
+            "expected_passage_ids": [
+                293258
+            ],
+            "source_checksum": "c21b0376c6ab4cb64425fcf8f995192749c4134113e8703728629e941f808341",
+            "anchor_sha256": "95901c7517e6af8951adfc777cb92ba59729b840b3fbb41cb097780aed2e0843",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q070",
+            "query": "О дополнительных мерах по предупреждению распространения инфекционных",
+            "language": "ru",
+            "type": "document_title",
+            "expected_documents": [
+                5565
+            ],
+            "expected_content_id": 13953,
+            "expected_source_chunk_id": 297546,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 109,
+                "end_byte": 241
+            },
+            "expected_passage_ids": [
+                272707
+            ],
+            "source_checksum": "7a12d47d698be050f4b24b161001a381f10cf13209cf1c95fb53316c3cb54e49",
+            "anchor_sha256": "3195706e534ee4839f3193ed754940f0eb62f8bc25b37edaf21336b05d0f880b",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q071",
+            "query": "Внести в Закон Республики Узбекистан от",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                7104
+            ],
+            "expected_content_id": 18053,
+            "expected_source_chunk_id": 398474,
+            "expected_section": {
+                "type": "article",
+                "number": "5",
+                "title": "Статья 5. Внести в Закон Республики Узбекистан от 26 мая 2015 года № ЗРУ-386 «Об обязательном страховании гражданской ответственности перевозчика» (Ведомости палат Олий Мажлиса Республики Узбекистан, 2015 г., № 5, ст. 179) следующие дополнения и изменения:"
+            },
+            "expected_span": {
+                "start_byte": 4858,
+                "end_byte": 4931
+            },
+            "expected_passage_ids": [
+                364183
+            ],
+            "source_checksum": "f58986487c30d5640a82d6a147d89f521fba258d049a7f90c508ce3e4ca7f65d",
+            "anchor_sha256": "3f6d2319b054cc45acc4ceeb7f5845735f65507f9a2517efeb4cca8ce2de421a",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q072",
+            "query": "Ограничение прав лиц",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                9603
+            ],
+            "expected_content_id": 24635,
+            "expected_source_chunk_id": 535008,
+            "expected_section": {
+                "type": "article",
+                "number": "41",
+                "title": "Статья 41. Ограничение прав лиц, находящихся на территории ядерной установки и (или) пункта хранения"
+            },
+            "expected_span": {
+                "start_byte": 109171,
+                "end_byte": 109209
+            },
+            "expected_passage_ids": [
+                489240
+            ],
+            "source_checksum": "3edcd0be19a624dac391304c7bf716456fbb274c5e8193b484900a65d8edbe6e",
+            "anchor_sha256": "fec9cf880918a536535200909ca059768fc33a66b8bf3a2be2264915a62c5fa9",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q073",
+            "query": "Законодательство о валютном регулировании",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                9855
+            ],
+            "expected_content_id": 25213,
+            "expected_source_chunk_id": 542763,
+            "expected_section": {
+                "type": "article",
+                "number": "2",
+                "title": "Статья 2. Законодательство о валютном регулировании"
+            },
+            "expected_span": {
+                "start_byte": 2786,
+                "end_byte": 2865
+            },
+            "expected_passage_ids": [
+                496624
+            ],
+            "source_checksum": "09b50523c9c0028c8434ae544eabe825635fe14165a52779606829a079a7f697",
+            "anchor_sha256": "e771a58e397a7282b2ee93d211de76b13e379eaa7289f11c8de469eccb7a6040",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q074",
+            "query": "Полномочия органов по труду в области государственной",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                4863
+            ],
+            "expected_content_id": 11980,
+            "expected_source_chunk_id": 250892,
+            "expected_section": {
+                "type": "article",
+                "number": "13",
+                "title": "Статья 13. Полномочия органов по труду в области государственной молодежной политики"
+            },
+            "expected_span": {
+                "start_byte": 30807,
+                "end_byte": 30907
+            },
+            "expected_passage_ids": [
+                231403
+            ],
+            "source_checksum": "9fa71fbd1fa44d2603ddbb9ef03a988a6b12f163d2a7795823b5e5d102efa512",
+            "anchor_sha256": "703987f9519160faf2972f2a23e490bef661b49ad955974d70fa945b4ac9f701",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q075",
+            "query": "Утвердить Избирательный кодекс Республики Узбекистан",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                9116
+            ],
+            "expected_content_id": 23361,
+            "expected_source_chunk_id": 505567,
+            "expected_section": {
+                "type": "article",
+                "number": "1",
+                "title": "Статья 1. Утвердить Избирательный кодекс Республики Узбекистан."
+            },
+            "expected_span": {
+                "start_byte": 342,
+                "end_byte": 442
+            },
+            "expected_passage_ids": [
+                461417
+            ],
+            "source_checksum": "32966315660bd45d7831432f3ea16322028030a4a075249a3794788ea6b55ef2",
+            "anchor_sha256": "fe10e90ce216f34d57ef8cca43fc16f47e090289097763a914f3a185b7bdc85f",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q076",
+            "query": "Настоящий Закон вступает в силу со дня",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                3129
+            ],
+            "expected_content_id": 7659,
+            "expected_source_chunk_id": 166415,
+            "expected_section": {
+                "type": "article",
+                "number": "3",
+                "title": "Статья 3. Настоящий Закон вступает в силу со дня его официального опубликования."
+            },
+            "expected_span": {
+                "start_byte": 2375,
+                "end_byte": 2445
+            },
+            "expected_passage_ids": [
+                154240
+            ],
+            "source_checksum": "4259958be968dc390798a7fa81b9ed30911bf102d98328e83c1f798b993c0ce0",
+            "anchor_sha256": "b0e6d6a01adb85d2a284d9474ade62b177a466ecc3e3c04b21317caf513e0728",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q077",
+            "query": "Предоставление нового паспорта",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                9323
+            ],
+            "expected_content_id": 23909,
+            "expected_source_chunk_id": 518893,
+            "expected_section": {
+                "type": "article",
+                "number": "254⁶",
+                "title": "Статья 254⁶. Предоставление нового паспорта (проездного документа) взамен паспорта (проездного документа), действие которого приостановлено"
+            },
+            "expected_span": {
+                "start_byte": 19516,
+                "end_byte": 19574
+            },
+            "expected_passage_ids": [
+                474788
+            ],
+            "source_checksum": "2fa9f0e89ef16a85dee0a697c7c4b2af987c6edd0b1e298462065db5c3aa230f",
+            "anchor_sha256": "753b53f8ea98e9b40ac517608ba4d56864769e67269e73ef677e5fa83371fb6f",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q078",
+            "query": "В пункте",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                3369
+            ],
+            "expected_content_id": 8206,
+            "expected_source_chunk_id": 176633,
+            "expected_section": {
+                "type": "article",
+                "number": "5",
+                "title": "Статья 5. В пункте 1 Закона Республики Узбекистан от 7 июля 2008 года № ЗРУ-158 «О присоединении Республики Узбекистан к Конвенции Организации Объединенных Наций против коррупции (Нью-Йорк, 31 октября 2003 года)» (Ведомости палат Олий Мажлиса Республики Узбекистан, 2008 г., № 7, ст. 349) слова «Генеральная прокуратура, Министерство внутренних дел, Служба национальной безопасности» заменить словами «Агентство по противодействию коррупции, Генеральная прокуратура, Министерство внутренних дел, Служба государственной безопасности»."
+            },
+            "expected_span": {
+                "start_byte": 9864,
+                "end_byte": 9879
+            },
+            "expected_passage_ids": [
+                164115
+            ],
+            "source_checksum": "c12e8c29eed8cedb44be51939ec69674df53612c21f326042b95a1c75d099769",
+            "anchor_sha256": "e42d76216f9d55acd379a439b34ea789a0a734f39c168e00e2c4e9379271bf5e",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q079",
+            "query": "В частях первой",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                2756
+            ],
+            "expected_content_id": 6772,
+            "expected_source_chunk_id": 149332,
+            "expected_section": {
+                "type": "article",
+                "number": "2",
+                "title": "Статья 2. В частях первой, второй и четвертой статьи 1065 Гражданского кодекса Республики Узбекистан, утвержденного законами Республики Узбекистан от 21 декабря 1995 года № 163-I и от 29 августа 1996 года № 256-I (Ведомости Олий Мажлиса Республики Узбекистан, 1996 г., приложение к № 2, № 11-12; 1997 г., № 2, ст. 56, № 9, ст. 241; 1998 г., № 5-6, ст. 102; 1999 г., № 1, ст. 20, № 9, ст. 229; 2001 г., № 1-2, ст. 23, № 9-10, ст. 182; 2002 г., № 1, ст. 20, № 9, ст. 165; 2003 г., № 1, ст. 8, № 5, ст. 67; 2004 г., № 1-2, ст. 18, № 5, ст. 90, № 9, ст. 171; Ведомости палат Олий Мажлиса Республики Узбекистан, 2006 г., № 4, ст. 154, № 9, ст.ст. 494, 498; 2007 г., № 1, ст.ст. 3, 5, № 4, ст.ст. 156, 164, № 8, ст. 367, № 9, ст. 416, № 12, ст.ст. 598, 608; 2008 г., № 4, ст. 192, № 12, ст. 640; 2009 г., № 9, ст. 337; 2010 г., № 9, ст.ст. 335, 337, 340; 2011 г., № 12/2, ст.ст. 363, 364, 365; 2012 г., № 4, ст.ст. 106, 109, № 12, ст. 336; 2013 г., № 10, ст. 263; 2014 г., № 5, ст. 130, № 12, ст. 343; 2015 г., № 8, ст.ст. 310, 312; 2016 г., № 4, ст. 125; 2017 г., № 4, ст. 137, № 9, ст. 510, № 12, ст. 773; 2018 г., № 1, ст. 4, № 4, ст. 224, № 7, ст. 433, № 10, ст. 673; 2019 г., № 3, ст.ст. 161, 166, № 5, ст. 267, № 10, ст. 671, № 12, ст.ст. 880, 886; 2020 г., № 1, ст.ст. 3, 4, № 10, ст. 593; 2021 г., приложение к № 4), слово «пятидесяти» заменить словом «семидесяти»."
+            },
+            "expected_span": {
+                "start_byte": 1620,
+                "end_byte": 1648
+            },
+            "expected_passage_ids": [
+                138246
+            ],
+            "source_checksum": "fc0f9599f04e64371c930d45dae3cf6dec40648bd5386f8c76c8c088388635cd",
+            "anchor_sha256": "c3bbd087fa647114a1cffcc48622898cbd276f8561ac6dd2964dce849919a58b",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q080",
+            "query": "Проекты черты границ населенных пунктов",
+            "language": "ru",
+            "type": "article_heading",
+            "expected_documents": [
+                1409
+            ],
+            "expected_content_id": 3559,
+            "expected_source_chunk_id": 69661,
+            "expected_section": {
+                "type": "article",
+                "number": "55",
+                "title": "Статья 55. Проекты черты границ населенных пунктов"
+            },
+            "expected_span": {
+                "start_byte": 175489,
+                "end_byte": 175563
+            },
+            "expected_passage_ids": [
+                64120
+            ],
+            "source_checksum": "e091e219296b2b06d561b7b5e39e6ad26e6b94e16cfd48a52db5177e4eb85fb0",
+            "anchor_sha256": "b824256165d380b344fb5701d52f3733cdbbf49bc81ce173715d8bca2c739d43",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q081",
+            "query": "Назначить заместителя Премьер-министра Республики Узбекистан Э",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                8314
+            ],
+            "expected_content_id": 21297,
+            "expected_source_chunk_id": 459239,
+            "expected_section": {
+                "type": "point",
+                "number": "4",
+                "title": "4. Назначить заместителя Премьер-министра Республики Узбекистан Э.М. Ганиева Управляющим Группы Исламского банка развития от Республики Узбекистан, уполномочив его:"
+            },
+            "expected_span": {
+                "start_byte": 2750,
+                "end_byte": 2868
+            },
+            "expected_passage_ids": [
+                420609
+            ],
+            "source_checksum": "fbbf9e1c56034fe6d4445821a3f42cc4666783ff4fce6af4949b7f6397e8ec69",
+            "anchor_sha256": "816041b2772ead31986f6b7d6b1308a4ea1a8189faff64030c11f5ab525bfdb6",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q082",
+            "query": "Министерству занятости и трудовых отношений Республики Узбекистан",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                5791
+            ],
+            "expected_content_id": 14584,
+            "expected_source_chunk_id": 312704,
+            "expected_section": {
+                "type": "point",
+                "number": "9",
+                "title": "9. Министерству занятости и трудовых отношений Республики Узбекистан обеспечить выдачу (продление) в установленном порядке разрешений на привлечение в Республику Узбекистан иностранных специалистов, участвующих в реализации проекта, а также выдачу (продление) указанным иностранным гражданам подтверждений на право трудовой деятельности на территории Республики Узбекистан."
+            },
+            "expected_span": {
+                "start_byte": 11722,
+                "end_byte": 11846
+            },
+            "expected_passage_ids": [
+                286267
+            ],
+            "source_checksum": "110e97b512592b892d55794ab4cdfd38dacca0cfef125af204d49f9e168802f6",
+            "anchor_sha256": "4142bc727201d867bfe1e0cd8bc1b17abddbe1fc4c8394ee7b25a67863bd7ce3",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q083",
+            "query": "Контроль за исполнением настоящего постановления возложить на",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                4721
+            ],
+            "expected_content_id": 11578,
+            "expected_source_chunk_id": 246730,
+            "expected_section": {
+                "type": "point",
+                "number": "9",
+                "title": "9. Контроль за исполнением настоящего постановления возложить на заместителя Премьер-министра Республики Узбекистан А.И. Икрамова"
+            },
+            "expected_span": {
+                "start_byte": 5383,
+                "end_byte": 5499
+            },
+            "expected_passage_ids": [
+                227243
+            ],
+            "source_checksum": "e47a96fd1babe118ada9ff0b68eb27a878ba11b43ec0e357a7679b306879dd30",
+            "anchor_sha256": "28ecb0fa54e0318d1d56de11a8be6cc76477587f87e7a082388db144b6253af4",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q084",
+            "query": "Настоящее Постановление вступает в силу со дня",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                235
+            ],
+            "expected_content_id": 555,
+            "expected_source_chunk_id": 22464,
+            "expected_section": {
+                "type": "point",
+                "number": "3",
+                "title": "3. Настоящее Постановление вступает в силу со дня его принятия."
+            },
+            "expected_span": {
+                "start_byte": 1492,
+                "end_byte": 1578
+            },
+            "expected_passage_ids": [
+                20784
+            ],
+            "source_checksum": "f69268754447d33f24b8340ac95f170bb262f4f092e913452d7834d485c6b305",
+            "anchor_sha256": "40c05d1fc554bfbf999c48b130041ec26a7d0f4c896201be6c06ca0078c916b8",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q085",
+            "query": "В преамбуле слова",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                9173
+            ],
+            "expected_content_id": 23509,
+            "expected_source_chunk_id": 510202,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. В преамбуле слова «Положением о Центре по координации и развитию рынка ценных бумаг при Госкомконкуренции Республики Узбекистан, утвержденным постановлением Кабинета Министров Республики Узбекистан от 30 марта 1996 года № 126» заменить словами «постановлением Президента Республики Узбекистан от 24 января 2019 года № ПП-4127 «Об организации деятельности Агентства по развитию рынка капитала Республики Узбекистан»."
+            },
+            "expected_span": {
+                "start_byte": 3111,
+                "end_byte": 3143
+            },
+            "expected_passage_ids": [
+                466114
+            ],
+            "source_checksum": "83f05599e3d514e5a5e1f68c3148aace3af45d383b9166d4b2d8c4d15825fe14",
+            "anchor_sha256": "9704946ec04d807a65abfbda196f3c4f25ef36630aabf69b213b6dedb1772c52",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q086",
+            "query": "Агентству в месячный срок внести",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                9565
+            ],
+            "expected_content_id": 24533,
+            "expected_source_chunk_id": 531875,
+            "expected_section": {
+                "type": "point",
+                "number": "11",
+                "title": "11. Агентству в месячный срок внести:"
+            },
+            "expected_span": {
+                "start_byte": 15068,
+                "end_byte": 15128
+            },
+            "expected_passage_ids": [
+                485926
+            ],
+            "source_checksum": "5cb3253e6beb9c5f50ae0ee2bbc46ebe99aeb1916076a9143e0a165a84798317",
+            "anchor_sha256": "dc217dd82f582d155a6f2fbffc43776f0e6ed2dbe6e3985dd6e8758cceb6c6d8",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q087",
+            "query": "Принять во втором чтении проект закона Республики",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                7351
+            ],
+            "expected_content_id": 18732,
+            "expected_source_chunk_id": 411400,
+            "expected_section": {
+                "type": "point",
+                "number": "1",
+                "title": "1. Принять во втором чтении проект закона Республики Узбекистан № ПЗ-397 «О внесении изменения в статью 7 Закона Республики Узбекистан «О Регламенте Законодательной палаты Олий Мажлиса Республики Узбекистан», внесенный депутатами Законодательной палаты Олий Мажлиса Республики Узбекистан И. Абдуллаевым и Э. Халбутаевым 25 июля 2018 года."
+            },
+            "expected_span": {
+                "start_byte": 620,
+                "end_byte": 712
+            },
+            "expected_passage_ids": [
+                375863
+            ],
+            "source_checksum": "7a61e20f69f5eaf77d1320399bf95cfc432da626a7d700d85bf4171673779023",
+            "anchor_sha256": "1f47a2d0e9f394fb8004934d1431b265f737d103f9a3bc24815c193a4270a32a",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q088",
+            "query": "За годы независимости в Узбекистане создана прочная",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                5448
+            ],
+            "expected_content_id": 13620,
+            "expected_source_chunk_id": 289284,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 43775,
+                "end_byte": 43871
+            },
+            "expected_passage_ids": [
+                265760
+            ],
+            "source_checksum": "1540918729df8d22789dc8f4681202d46a914db3492f5ea4a82fd88bb8ef78d4",
+            "anchor_sha256": "e0f1f8533c749e41baf0a768907902b6efc14af1b10c331dcc68de3a801251ee",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q089",
+            "query": "Комитету Законодательной палаты Олий Мажлиса Республики Узбекистан",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                2137
+            ],
+            "expected_content_id": 5267,
+            "expected_source_chunk_id": 113732,
+            "expected_section": {
+                "type": "point",
+                "number": "2",
+                "title": "2. Комитету Законодательной палаты Олий Мажлиса Республики Узбекистан по вопросам инновационного развития, информационной политики и информационных технологий в течение двух месяцев доработать указанный законопроект с учетом поступивших поправок и внести его на рассмотрение Законодательной палаты во втором чтении."
+            },
+            "expected_span": {
+                "start_byte": 1163,
+                "end_byte": 1289
+            },
+            "expected_passage_ids": [
+                105686
+            ],
+            "source_checksum": "8eec579eb12b1f44bfc8b106bef352558a6609ae44c5be6dd0a5956bd1daf95d",
+            "anchor_sha256": "3f0cf653f4a2f51806f5ee27d6517b32c88501ff185c2513929ced0fbb42e712",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q090",
+            "query": "Утверждение комплекса мер по поэтапному переводу производителей",
+            "language": "ru",
+            "type": "legal_phrase",
+            "expected_documents": [
+                8886
+            ],
+            "expected_content_id": 22762,
+            "expected_source_chunk_id": 489565,
+            "expected_section": {
+                "type": "paragraph",
+                "number": null,
+                "title": null
+            },
+            "expected_span": {
+                "start_byte": 135951,
+                "end_byte": 136071
+            },
+            "expected_passage_ids": [
+                446580
+            ],
+            "source_checksum": "8eb1d2908b309fe4131ff9d704a46cf9f64836d68ff5ee10862e5a74f4ba6820",
+            "anchor_sha256": "1fdae747780b63c3d25f88d6d36aa517ea392115f5225a0b5dcfc03f5d3d28de",
+            "relevance_label": "known_item_exact_source_anchor",
+            "label_verification": "machine_verified_exact_source_anchor",
+            "human_verified": false,
+            "verification": "Literal query occurs at the recorded source span and its simple lexemes occur in that source chunk. This verifies a known item, not exhaustive semantic relevance."
+        },
+        {
+            "id": "q091",
+            "query": "Sogʻlomlashtirish xizmatlarini?",
+            "language": "uz-Latn",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                6582,
+                4866
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q092",
+            "query": "Oʻzbekiston Respublikasi bo‘yicha qanday tartib bor?",
+            "language": "uz-Latn",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                4866,
+                5521
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q093",
+            "query": "Buyruqning muqaddimasidan haqidagi talablarni tushuntiring",
+            "language": "uz-Latn",
+            "type": "paraphrase_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                5521,
+                3140
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q094",
+            "query": "Oʻzbekiston Respublikasi va Tadbirlar nomi",
+            "language": "uz-Latn",
+            "type": "multi_document_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                3140,
+                9846
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q095",
+            "query": "Tadbirlar nomi?",
+            "language": "uz-Latn",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                9846,
+                7490
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q096",
+            "query": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan?",
+            "language": "uz-Latn",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                7490,
+                4576
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q097",
+            "query": "Universitet talabalari haqidagi talablarni tushuntiring",
+            "language": "uz-Latn",
+            "type": "paraphrase_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                4576,
+                9754
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q098",
+            "query": "Ushbu Qaror va Oʻzbekiston Respublikasi Ichki ishlar vazirligi",
+            "language": "uz-Latn",
+            "type": "multi_document_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                9754,
+                3954
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q099",
+            "query": "Oʻzbekiston Respublikasi?",
+            "language": "uz-Latn",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                3954,
+                7815
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q100",
+            "query": "Vakolatli organ bo‘yicha qanday tartib bor?",
+            "language": "uz-Latn",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                7815,
+                6582
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q101",
+            "query": "Мазкур қарорнинг?",
+            "language": "uz-Cyrl",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                8707,
+                7036
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q102",
+            "query": "Ўзбекистон Республикаси бўйича қандай тартиб бор?",
+            "language": "uz-Cyrl",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                7036,
+                7701
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q103",
+            "query": "Қонун лойиҳаларини ҳақидаги талабларни тушунтиринг",
+            "language": "uz-Cyrl",
+            "type": "paraphrase_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                7701,
+                9182
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q104",
+            "query": "Ариза берувчини ва Иккинчи ўқишда қабул қилинган",
+            "language": "uz-Cyrl",
+            "type": "multi_document_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                9182,
+                570
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q105",
+            "query": "Иккинчи ўқишда?",
+            "language": "uz-Cyrl",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                570,
+                5181
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q106",
+            "query": "Жойларда сайловчилар бўйича қандай тартиб бор?",
+            "language": "uz-Cyrl",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                5181,
+                6733
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q107",
+            "query": "Ўзбекистон Республикаси ҳақидаги талабларни тушунтиринг",
+            "language": "uz-Cyrl",
+            "type": "paraphrase_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                6733,
+                4773
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q108",
+            "query": "Қонунчилик ва ва Аризани такроран кўриб чиқишда Агентлик томонидан ариза",
+            "language": "uz-Cyrl",
+            "type": "multi_document_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                4773,
+                8327
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q109",
+            "query": "Аризани такроран?",
+            "language": "uz-Cyrl",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                8327,
+                7526
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q110",
+            "query": "Ўзбекистон Республикаси Вазирлар Маҳкамаси томонидан?",
+            "language": "uz-Cyrl",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                7526,
+                8707
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q111",
+            "query": "Назначить заместителя?",
+            "language": "ru",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                8314,
+                5791
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q112",
+            "query": "Какой порядок предусмотрен: Министерству занятости?",
+            "language": "ru",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                5791,
+                4721
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q113",
+            "query": "Объясните требования: Контроль за",
+            "language": "ru",
+            "type": "paraphrase_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                4721,
+                235
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q114",
+            "query": "Настоящее Постановление и В преамбуле слова",
+            "language": "ru",
+            "type": "multi_document_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                235,
+                9173
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q115",
+            "query": "В преамбуле?",
+            "language": "ru",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                9173,
+                9565
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q116",
+            "query": "Какой порядок предусмотрен: Агентству в?",
+            "language": "ru",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                9565,
+                7351
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q117",
+            "query": "Объясните требования: Принять во",
+            "language": "ru",
+            "type": "paraphrase_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                7351,
+                5448
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q118",
+            "query": "За годы и Комитету Законодательной палаты Олий Мажлиса Республики Узбекистан",
+            "language": "ru",
+            "type": "multi_document_candidate",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                5448,
+                2137
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q119",
+            "query": "Комитету Законодательной?",
+            "language": "ru",
+            "type": "short_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                2137,
+                8886
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        },
+        {
+            "id": "q120",
+            "query": "Какой порядок предусмотрен: Утверждение комплекса?",
+            "language": "ru",
+            "type": "broad_question",
+            "expected_documents": [],
+            "expected_section": null,
+            "expected_span": null,
+            "relevance_label": null,
+            "label_verification": "unverified",
+            "human_verified": false,
+            "candidate_source_documents": [
+                8886,
+                8314
+            ],
+            "verification": "Template question derived from an observed phrase. Human semantic/multi-document relevance judgment is pending; excluded from relevance metrics."
+        }
+    ],
+    "label_policy": "90 machine-verified source-anchor known items; 30 unverified question/paraphrase/broad/multi-document candidates. No human gold labels. Anchor metrics are silver known-item diagnostics, not semantic recall."
+}

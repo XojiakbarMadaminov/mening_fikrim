@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-03T18:20:15.619447+05:00",
+  "completed": true,
+  "database": "mening_fikrim_ai_dev",
+  "snapshot_refreshed": false,
+  "source_or_model_calls": 0,
+  "main_writes_by_this_task": 0,
+  "main_observations_read_only": true,
+  "original_checkout_status_unchanged": true,
+  "parser_actor_identity_unchanged": true,
+  "source_documents": 10036,
+  "representations": 25691,
+  "current_source_chunks": 549454,
+  "historical_source_chunks_total": 551749,
+  "retrieval_passages": 509018,
+  "final_validation_passed": true,
+  "search_acceptance_passed": true,
+  "evaluation_queries": 120,
+  "machine_scored_queries": 90,
+  "unverified_semantic_queries": 30,
+  "human_verified_queries": 0,
+  "tests": {
+    "passed": true,
+    "tests": 316,
+    "assertions": 9330,
+    "duration": "03:35.384",
+    "database": "mening_fikrim_active_test",
+    "source_calls": 0,
+    "source_call_guard": "Tests\\TestCase Factory::preventStrayRequests"
+  },
+  "pint": {
+    "tool": "pint",
+    "result": "passed"
+  },
+  "merge_or_deploy": false,
+  "ai_queue_empty": true
+}

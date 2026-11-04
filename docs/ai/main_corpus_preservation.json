@@ -1,0 +1,28 @@
+{
+    "checked_at": "2026-11-02T12:07:01+05:00",
+    "database": "mening_fikrim_active",
+    "read_only": "on",
+    "tables": {
+        "document_sources": {
+            "matches_snapshot": true,
+            "rows": 2,
+            "sha256": "feb6aa4c01454add1767dca5b2760e3671152d8a82c0461178aee6022512f554"
+        },
+        "documents": {
+            "matches_snapshot": true,
+            "rows": 10036,
+            "sha256": "6efbab74dba5975444f8fbda2f94f62360daca97c2b800056bb191f48f749fba"
+        },
+        "document_identifiers": {
+            "matches_snapshot": true,
+            "rows": 31499,
+            "sha256": "eb3bb401a6dca71816c621c46c5d1e6c783cac99d6042f8fe3a8492ce504bdef"
+        },
+        "document_contents": {
+            "matches_snapshot": true,
+            "rows": 25691,
+            "sha256": "c44878e3b4408c1c3f06d2153c73c6bd1f61c3cf370a8a46d9685b1ba950a9f4"
+        }
+    },
+    "all_passed": true
+}

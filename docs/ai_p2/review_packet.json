@@ -1,0 +1,2289 @@
+{
+    "at": "2026-11-02T15:51:14+05:00",
+    "review_kind": "source_and_chunk_boundary_packet",
+    "human_review_performed": false,
+    "manual_verified_rows_created": 0,
+    "groups": {
+        "uz-Latn": {
+            "content_ids": [
+                1,
+                4
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "uz-Cyrl": {
+            "content_ids": [
+                3,
+                5
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "ru": {
+            "content_ids": [
+                2,
+                24
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "law": {
+            "content_ids": [
+                41,
+                585
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "decision": {
+            "content_ids": [
+                4,
+                6
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "decree": {
+            "content_ids": [
+                600,
+                700
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "regulation": {
+            "content_ids": [
+                38,
+                54
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "code": {
+            "content_ids": [
+                1,
+                45
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "pdf": {
+            "content_ids": [
+                53,
+                56
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "ocr": {
+            "content_ids": [
+                360,
+                2026
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "needs_review": {
+            "content_ids": [
+                41,
+                43
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "table": {
+            "content_ids": [
+                19,
+                41
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        },
+        "very_large": {
+            "content_ids": [
+                592,
+                788
+            ],
+            "distinct_documents": 2,
+            "unavailable": false
+        }
+    },
+    "samples": [
+        {
+            "content_id": 1,
+            "document_id": 1,
+            "title": "O‘zbekiston Respublikasining Mehnat kodeksi",
+            "language": "uz-Latn",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "f4aa01ce50a5d59ae66c9525da0f97bec0a95cc5d809a640a5a60392441ad9bd",
+            "source_bytes": 732821,
+            "chunks": 700,
+            "source_url": "https://lex.uz/uz/docs/-6257288",
+            "boundaries": [
+                {
+                    "chunk_id": 4466,
+                    "chunk_index": 0,
+                    "section_type": "title",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 48,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n## UMUMIY QISM\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks xodimlar, ish beruvchilar va davlat manfaatlarining muvozanatini taʼminlash hamda ularni muvofiqlashtirish asosida yakka tartibdagi mehnatga oid munosabatlarni va ular bilan bevosita bogʻliq boʻlgan ijtimoiy munosabatlarni tartibga soladi.\n\n### 2-modda. Ushbu Kodeksning asosiy vazifalari\n\nUshbu Kodeksning asosiy vazifalari quyidagilardan iborat:\n\nxodimlar mehnat huquqlari va erkinliklarining, shu jumladan mehnat qilishga, erkin ish tanlashga, adolatli va xavfsiz mehnat sharoitlariga hamda i"
+                },
+                {
+                    "chunk_id": 4816,
+                    "chunk_index": 350,
+                    "section_type": "article",
+                    "section_number": "299",
+                    "quality_status": "structured",
+                    "start_byte": 394706,
+                    "end_byte": 396131,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "299-modda. Mehnat uchun ragʻbatlantirish",
+                            "number": "299"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "18-bob. Mehnat intizomi",
+                            "number": "18"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR",
+                            "number": "IV"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "MAXSUS QISM",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### 299-modda. Mehnat uchun ragʻbatlantirish\n\nIshdagi yutuqlar uchun xodimga nisbatan ragʻbatlantirish choralari qoʻllanilishi mumkin. Ragʻbatlantirish turlari, ularni qoʻllash tartibi jamoa kelishuvlarida, jamoa shartnomasida, ichki mehnat tartibi qoidalari hamda mehnat toʻgʻrisidagi boshqa huquqiy",
+                    "source_window_start_byte": 394586,
+                    "source_window": "shartnomasiga nisbatan yomonlashtiruvchi mehnat tartibini tartibga soluvchi ichki hujjatlar qoidalari haqiqiy emasdir.\n\n### 299-modda. Mehnat uchun ragʻbatlantirish\n\nIshdagi yutuqlar uchun xodimga nisbatan ragʻbatlantirish choralari qoʻllanilishi mumkin. Ragʻbatlantirish turlari, ularni qoʻllash tartibi jamoa kelishuvlarida, jamoa shartnomasida, ichki mehnat tartibi qoidalari hamda mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarda va mehnat shartnomasida belgilanadi.\n\nOʻziga nisbatan intizom haqidagi ustavlar va nizomlarning amal qilishi tatbiq etiladigan xodimlarga nisbatan ragʻbatlantirish turlari, ularni qoʻllash tartibi intizom toʻgʻrisidagi tegishli ustavlar va nizomlarda belg"
+                },
+                {
+                    "chunk_id": 5165,
+                    "chunk_index": 699,
+                    "section_type": "article",
+                    "section_number": "593",
+                    "quality_status": "structured",
+                    "start_byte": 732223,
+                    "end_byte": 732821,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "593-modda. Daʼvo xususiyatiga ega jamoaviy mehnat nizolarini sudda koʻrib chiqish",
+                            "number": "593"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "34-bob. Mehnat nizolarini koʻrib chiqish",
+                            "number": "34"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "VII BOʻLIM. XODIMLARNING MEHNAT HUQUQLARINI HIMOYA QILISH. MEHNAT NIZOLARINI KOʻRIB CHIQISH",
+                            "number": "VII"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "MAXSUS QISM",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### 593-modda. Daʼvo xususiyatiga ega jamoaviy mehnat nizolarini sudda koʻrib chiqish\n\nQonunchilikni, jamoa kelishuvlarini va jamoa shartnomasini, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishilgan holda qabul qilingan ichki hujjatlarni qoʻllash xususidagi jamoaviy mehnat nizolari s",
+                    "source_window_start_byte": 732103,
+                    "source_window": "k\n\nIsh tashlash toʻgʻrisidagi qonun hujjatlarini buzganlikda aybdor shaxslar belgilangan tartibda javobgar boʻladi.\n\n### 593-modda. Daʼvo xususiyatiga ega jamoaviy mehnat nizolarini sudda koʻrib chiqish\n\nQonunchilikni, jamoa kelishuvlarini va jamoa shartnomasini, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishilgan holda qabul qilingan ichki hujjatlarni qoʻllash xususidagi jamoaviy mehnat nizolari sud tomonidan koʻrib chiqilishi lozim.\n\nUshbu moddaning birinchi qismida koʻrsatilgan jamoaviy mehnat nizolarini sudlarda koʻrib chiqish hamda sud qarorlarini ijro etish chogʻida ushbu Kodeksda yakka tartibdagi mehnat nizolari uchun belgilangan tegishli qoidalar va muddatl"
+                },
+                {
+                    "chunk_id": 4470,
+                    "chunk_index": 4,
+                    "section_type": "article",
+                    "section_number": "1",
+                    "quality_status": "structured",
+                    "start_byte": 122,
+                    "end_byte": 446,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar",
+                            "number": "1"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "1-bob. Asosiy qoidalar",
+                            "number": "1"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "I BOʻLIM. UMUMIY QOIDALAR",
+                            "number": "I"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "UMUMIY QISM",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks xodimlar, ish beruvchilar va davlat manfaatlarining muvozanatini taʼminlash hamda ularni muvofiqlashtirish asosida yakka tartibdagi mehnatga oid munosabatlarni va ular bilan bevosita bogʻliq boʻlgan ijtimoiy munosabatlar",
+                    "source_window_start_byte": 2,
+                    "source_window": "Oʻzbekiston Respublikasining Mehnat kodeksi\n\n## UMUMIY QISM\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks xodimlar, ish beruvchilar va davlat manfaatlarining muvozanatini taʼminlash hamda ularni muvofiqlashtirish asosida yakka tartibdagi mehnatga oid munosabatlarni va ular bilan bevosita bogʻliq boʻlgan ijtimoiy munosabatlarni tartibga soladi.\n\n### 2-modda. Ushbu Kodeksning asosiy vazifalari\n\nUshbu Kodeksning asosiy vazifalari quyidagilardan iborat:\n\nxodimlar mehnat huquqlari va erkinliklarining, shu jumladan mehnat qilishga, erkin ish tanlashga, adolatli va xavfsiz mehnat sharoitlariga hamda ish"
+                }
+            ]
+        },
+        {
+            "content_id": 4,
+            "document_id": 2,
+            "title": "Qattiq maishiy chiqindilarini olib chiqish va hududlarni obodonlashtirish xizmatini ko‘rsatish bo‘yicha to‘lov tariflarini tasdiqlash to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "48aeb7b17f44f2c35d1671a7e0fe795b8c4b67428399bcf6ce8edc0dad9c5e27",
+            "source_bytes": 5272,
+            "chunks": 10,
+            "source_url": "https://lex.uz/uz/docs/8519448",
+            "boundaries": [
+                {
+                    "chunk_id": 6562,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 52,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "XALQ DEPUTATLARI DENOV TUMANI KENGASHINING\n\nqarori\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "XALQ DEPUTATLARI DENOV TUMANI KENGASHINING\n\nqarori\n\n# Qattiq maishiy chiqindilarini olib chiqish va hududlarni obodonlashtirish xizmatini koʻrsatish boʻyicha toʻlov tariflarini tasdiqlash toʻgʻrisida\n\nOʻzbekiston Respublikasi Prezidentining 2025-yil 26-dekabrdagi “Mahalliy budjetlar va budjet tashkilotlarining moliyaviy barqarorligini oshirish, budjet intizomini kuchaytirishga doir qoʻshimcha chora-tadbirlar toʻgʻrisida”gi PQ-387-sonli qarori 8-bandida 2026-yil 1-yanvardan boshlab obodonlashtirish boshqarmalari tomonidan tuman (shahar)lar markaziy koʻchalari boʻyidagi tadbirkorlik subyektlari bilan tuzilgan shartnoma asosida chiqindilarni olib chiqish va hududlarni obodonlasht"
+                },
+                {
+                    "chunk_id": 6567,
+                    "chunk_index": 5,
+                    "section_type": "point",
+                    "section_number": "4",
+                    "quality_status": "structured",
+                    "start_byte": 3575,
+                    "end_byte": 3868,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "4. Denov tumani hududida chiqindilarni olib chiqish va hududlarni obodonlashtirish xizmatini koʻrsatganlik boʻyicha tariflar toʻgʻrisidagi tuman hokimligining tuman Obodonlashtirish boshqarmasi va tuman Iqtisodiyot va moliya boʻlimi bilan kelishilgan holda bergan taklifi maʼqullansin.\n\n",
+                    "source_window_start_byte": 3455,
+                    "source_window": " xizmatini koʻrsatish boʻyicha qattiq va suyuq maishiy chiqindilarni toʻplash tariflari ilova muvofiq tasdiqlansin.\n\n4. Denov tumani hududida chiqindilarni olib chiqish va hududlarni obodonlashtirish xizmatini koʻrsatganlik boʻyicha tariflar toʻgʻrisidagi tuman hokimligining tuman Obodonlashtirish boshqarmasi va tuman Iqtisodiyot va moliya boʻlimi bilan kelishilgan holda bergan taklifi maʼqullansin.\n\n5. Tuman hokimi oʻrinbosari — Obodonlashtirish boshqarmasi boshligʻi (K. Kasimov)ga:\n\ntuman markaziy koʻchalari boʻyidagi tadbirkorlik subyektlari bilan tuzilgan shartnoma asosida chiqindilarni olib chiqish va hududlarni obodonlashtirish xizmatini koʻrsatish boʻyicha taqdim etga"
+                },
+                {
+                    "chunk_id": 6571,
+                    "chunk_index": 9,
+                    "section_type": "point",
+                    "section_number": "8",
+                    "quality_status": "structured",
+                    "start_byte": 5034,
+                    "end_byte": 5272,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "8. Mazkur qaror rasmiy eʼlon qilingan kundan eʼtiboran kuchga kiradi\n\nKengash raisi A. XOLMATOV\n\nSurxondaryo viloyati, Denov tumani,\n\n2026-yil 26-sentabr,\n\nVII-24-68-8-111-K/26-son\n\nHujjatni ilovasi bilan PDF shaklida tanishish mumkin.\n",
+                    "source_window_start_byte": 4914,
+                    "source_window": "kni rivojlantirish va iqtisodiy islohotlar masalalari boʻyicha doimiy komissiyasi (O. Niyazov) zimmasiga yuklatilsin.\n\n8. Mazkur qaror rasmiy eʼlon qilingan kundan eʼtiboran kuchga kiradi\n\nKengash raisi A. XOLMATOV\n\nSurxondaryo viloyati, Denov tumani,\n\n2026-yil 26-sentabr,\n\nVII-24-68-8-111-K/26-son\n\nHujjatni ilovasi bilan PDF shaklida tanishish mumkin.\n"
+                }
+            ]
+        },
+        {
+            "content_id": 3,
+            "document_id": 1,
+            "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+            "language": "uz-Cyrl",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "57aa68e6725200d239bef9e7c458eccc1aebfd377d6ae1cb3b1edc26015ae2fe",
+            "source_bytes": 1258522,
+            "chunks": 698,
+            "source_url": "https://lex.uz/uz/docs/6257288",
+            "boundaries": [
+                {
+                    "chunk_id": 5864,
+                    "chunk_index": 0,
+                    "section_type": "title",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 85,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n## УМУМИЙ ҚИСМ\n\n## I БЎЛИМ. УМУМИЙ ҚОИДАЛАР\n\n## 1-боб. Асосий қоидалар\n\n### 1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар\n\nУшбу Кодекс ходимлар, иш берувчилар ва давлат манфаатларининг мувозанатини таъминлаш ҳамда уларни мувофиқлаштириш асосида якка тартибдаги меҳнатга оид муносабатларни ва улар билан бевосита боғлиқ бўлган "
+                },
+                {
+                    "chunk_id": 6213,
+                    "chunk_index": 349,
+                    "section_type": "article",
+                    "section_number": "300",
+                    "quality_status": "structured",
+                    "start_byte": 681390,
+                    "end_byte": 683300,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "300-модда. Ходимнинг интизомий жавобгарлиги",
+                            "number": "300"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "18-боб. Меҳнат интизоми",
+                            "number": "18"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "IV БЎЛИМ. ЯККА ТАРТИБДАГИ МЕҲНАТГА ОИД МУНОСАБАТЛАР",
+                            "number": "IV"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "МАХСУС ҚИСМ",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### 300-модда. Ходимнинг интизомий жавобгарлиги\n\nИнтизомий жавобгарлик ходим томонидан интизомий қилмиш (ушбу Кодекс 301-моддасининг иккинчи қисми) содир этилганлиги учун юзага келадиган ва ушбу ходимга нисбатан интизомий жазо чораси қўлланилишида ифодаланадиган юридик жавобгарликдир.\n\nИнтизомий жав",
+                    "source_window_start_byte": 681269,
+                    "source_window": "рамлари, юбилейлар муносабати билан ва ҳоказолар) қўлланилмайди.\n\n### 300-модда. Ходимнинг интизомий жавобгарлиги\n\nИнтизомий жавобгарлик ходим томонидан интизомий қилмиш (ушбу Кодекс 301-моддасининг иккинчи қисми) содир этилганлиги учун юзага келадиган ва ушбу ходимга нисбатан интизомий жазо чораси қўлланилишида ифодаланадиган юридик жавобгарликдир.\n\nИнтизомий жавобгарликнинг ту"
+                },
+                {
+                    "chunk_id": 6561,
+                    "chunk_index": 697,
+                    "section_type": "article",
+                    "section_number": "593",
+                    "quality_status": "structured",
+                    "start_byte": 1257494,
+                    "end_byte": 1258522,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "593-модда. Даъво хусусиятига эга жамоавий меҳнат низоларини судда кўриб чиқиш",
+                            "number": "593"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "34-боб. Меҳнат низоларини кўриб чиқиш",
+                            "number": "34"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "VII БЎЛИМ. ХОДИМЛАРНИНГ МЕҲНАТ ҲУҚУҚЛАРИНИ ҲИМОЯ ҚИЛИШ. МЕҲНАТ НИЗОЛАРИНИ КЎРИБ ЧИҚИШ",
+                            "number": "VII"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "МАХСУС ҚИСМ",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### 593-модда. Даъво хусусиятига эга жамоавий меҳнат низоларини судда кўриб чиқиш\n\nҚонунчиликни, жамоа келишувларини ва жамоа шартномасини, иш берувчи томонидан касаба уюшмаси қўмитаси билан келишилган ҳолда қабул қилинган ички ҳужжатларни қўллаш хусусидаги жамоавий меҳнат низолари суд томонидан кўр",
+                    "source_window_start_byte": 1257373,
+                    "source_window": "узганликда айбдор шахслар белгиланган тартибда жавобгар бўлади.\n\n### 593-модда. Даъво хусусиятига эга жамоавий меҳнат низоларини судда кўриб чиқиш\n\nҚонунчиликни, жамоа келишувларини ва жамоа шартномасини, иш берувчи томонидан касаба уюшмаси қўмитаси билан келишилган ҳолда қабул қилинган ички ҳужжатларни қўллаш хусусидаги жамоавий меҳнат низолари суд томонидан кўриб чиқилиши ло"
+                },
+                {
+                    "chunk_id": 5868,
+                    "chunk_index": 4,
+                    "section_type": "article",
+                    "section_number": "1",
+                    "quality_status": "structured",
+                    "start_byte": 203,
+                    "end_byte": 778,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар",
+                            "number": "1"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "1-боб. Асосий қоидалар",
+                            "number": "1"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "I БЎЛИМ. УМУМИЙ ҚОИДАЛАР",
+                            "number": "I"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "УМУМИЙ ҚИСМ",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### 1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар\n\nУшбу Кодекс ходимлар, иш берувчилар ва давлат манфаатларининг мувозанатини таъминлаш ҳамда уларни мувофиқлаштириш асосида якка тартибдаги меҳнатга оид муносабатларни ва улар билан бевосита боғлиқ бўлган ижтимоий муносабатларни тартибг",
+                    "source_window_start_byte": 83,
+                    "source_window": "\n\n## УМУМИЙ ҚИСМ\n\n## I БЎЛИМ. УМУМИЙ ҚОИДАЛАР\n\n## 1-боб. Асосий қоидалар\n\n### 1-модда. Ушбу Кодекс билан тартибга солинадиган муносабатлар\n\nУшбу Кодекс ходимлар, иш берувчилар ва давлат манфаатларининг мувозанатини таъминлаш ҳамда уларни мувофиқлаштириш асосида якка тартибдаги меҳнатга оид муносабатларни ва улар билан бевосита боғлиқ бўлган ижтимоий муносабатларни тартибга солади.\n\n### 2"
+                }
+            ]
+        },
+        {
+            "content_id": 5,
+            "document_id": 2,
+            "title": "Қаттиқ маиший чиқиндиларини олиб чиқиш ва ҳудудларни ободонлаштириш хизматини кўрсатиш бўйича тўлов тарифларини тасдиқлаш тўғрисида",
+            "language": "uz-Cyrl",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "b2d2160b22f267636a9768631f834f60cc626eb2c9463f682be39299e70be975",
+            "source_bytes": 9041,
+            "chunks": 10,
+            "source_url": "https://lex.uz/uz/docs/-8519448",
+            "boundaries": [
+                {
+                    "chunk_id": 6572,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 94,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "ХАЛҚ ДЕПУТАТЛАРИ ДЕНОВ ТУМАНИ КЕНГАШИНИНГ\n\nқарори\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "ХАЛҚ ДЕПУТАТЛАРИ ДЕНОВ ТУМАНИ КЕНГАШИНИНГ\n\nқарори\n\n# Қаттиқ маиший чиқиндиларини олиб чиқиш ва ҳудудларни ободонлаштириш хизматини кўрсатиш бўйича тўлов тарифларини тасдиқлаш тўғрисида\n\nЎзбекистон Республикаси Президентининг 2025 йил 26 декабрдаги «Маҳаллий бюджетлар ва бюджет ташкилотларининг молиявий барқарорлигини ошириш, бюджет интизомини кучайтиришга доир қўшимча чора-т"
+                },
+                {
+                    "chunk_id": 6577,
+                    "chunk_index": 5,
+                    "section_type": "point",
+                    "section_number": "4",
+                    "quality_status": "structured",
+                    "start_byte": 6120,
+                    "end_byte": 6624,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "4. Денов тумани ҳудудида чиқиндиларни олиб чиқиш ва ҳудудларни ободонлаштириш хизматини кўрсатганлик бўйича тарифлар тўғрисидаги туман ҳокимлигининг туман Ободонлаштириш бошқармаси ва туман Иқтисодиёт ва молия бўлими билан келишилган ҳолда берган таклифи маъқуллансин.\n\n",
+                    "source_window_start_byte": 5999,
+                    "source_window": "аиший чиқиндиларни тўплаш тарифлари илова мувофиқ тасдиқлансин.\n\n4. Денов тумани ҳудудида чиқиндиларни олиб чиқиш ва ҳудудларни ободонлаштириш хизматини кўрсатганлик бўйича тарифлар тўғрисидаги туман ҳокимлигининг туман Ободонлаштириш бошқармаси ва туман Иқтисодиёт ва молия бўлими билан келишилган ҳолда берган таклифи маъқуллансин.\n\n5. Туман ҳокими ўринбосари — Ободонлашти"
+                },
+                {
+                    "chunk_id": 6581,
+                    "chunk_index": 9,
+                    "section_type": "point",
+                    "section_number": "8",
+                    "quality_status": "structured",
+                    "start_byte": 8653,
+                    "end_byte": 9041,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "8. Мазкур қарор расмий эълон қилинган кундан эътиборан кучга киради\n\nКенгаш раиси А. ХОЛМАТОВ\n\nСурхондарё вилояти, Денов тумани,\n\n2026 йил 26 сентябрь,\n\nVII-24-68-8-111-K/26-сон\n\nҲужжатни иловаси билан PDF шаклида танишиш мумкин.\n",
+                    "source_window_start_byte": 8532,
+                    "source_window": "лалари бўйича доимий комиссияси (О. Ниязов) зиммасига юклатилсин.\n\n8. Мазкур қарор расмий эълон қилинган кундан эътиборан кучга киради\n\nКенгаш раиси А. ХОЛМАТОВ\n\nСурхондарё вилояти, Денов тумани,\n\n2026 йил 26 сентябрь,\n\nVII-24-68-8-111-K/26-сон\n\nҲужжатни иловаси билан PDF шаклида танишиш мумкин.\n"
+                }
+            ]
+        },
+        {
+            "content_id": 2,
+            "document_id": 1,
+            "title": "Трудовой кодекс Республики Узбекистан",
+            "language": "ru",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "6a8eadeab8857f2dfcca71956dabff6f6ce9087237ac231dc038debfdef1efcd",
+            "source_bytes": 1229133,
+            "chunks": 698,
+            "source_url": "https://lex.uz/uz/docs/6257291",
+            "boundaries": [
+                {
+                    "chunk_id": 5166,
+                    "chunk_index": 0,
+                    "section_type": "title",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 75,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "# Трудовой кодекс Республики Узбекистан\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "# Трудовой кодекс Республики Узбекистан\n\n## ОБЩАЯ ЧАСТЬ\n\n## РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ\n\n## Глава 1. Основные положения\n\n### Статья 1. Отношения, регулируемые настоящим Кодексом\n\nНастоящий Кодекс регулирует индивидуальные трудовые отношения и непосредственно связанные с ними общественные отношения на основе обеспечения баланса и согласования интересов работников, работодателей и госуд"
+                },
+                {
+                    "chunk_id": 5515,
+                    "chunk_index": 349,
+                    "section_type": "article",
+                    "section_number": "300",
+                    "quality_status": "structured",
+                    "start_byte": 666686,
+                    "end_byte": 668851,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "Статья 300. Дисциплинарная ответственность работника",
+                            "number": "300"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "Глава 18. Трудовая дисциплина",
+                            "number": "18"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "РАЗДЕЛ IV. ИНДИВИДУАЛЬНЫЕ ТРУДОВЫЕ ОТНОШЕНИЯ",
+                            "number": "IV"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "ОСОБЕННАЯ ЧАСТЬ",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### Статья 300. Дисциплинарная ответственность работника\n\nДисциплинарной ответственностью является юридическая ответственность, наступающая за совершение работником дисциплинарного проступка (часть вторая статьи 301 настоящего Кодекса) и выражающаяся в применении к этому работнику мер дисциплинарног",
+                    "source_window_start_byte": 666565,
+                    "source_window": "офессиональными, юбилеями и другими), к работнику не применяются.\n\n### Статья 300. Дисциплинарная ответственность работника\n\nДисциплинарной ответственностью является юридическая ответственность, наступающая за совершение работником дисциплинарного проступка (часть вторая статьи 301 настоящего Кодекса) и выражающаяся в применении к этому работнику мер дисциплинарного взыскания.\n\n"
+                },
+                {
+                    "chunk_id": 5863,
+                    "chunk_index": 697,
+                    "section_type": "article",
+                    "section_number": "593",
+                    "quality_status": "structured",
+                    "start_byte": 1228020,
+                    "end_byte": 1229133,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "Статья 593. Рассмотрение в суде коллективных трудовых споров, носящих характер исковых требований",
+                            "number": "593"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "Глава 34. Рассмотрение трудовых споров",
+                            "number": "34"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "РАЗДЕЛ VII. ЗАЩИТА ТРУДОВЫХ ПРАВ РАБОТНИКОВ. РАССМОТРЕНИЕ ТРУДОВЫХ СПОРОВ",
+                            "number": "VII"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "ОСОБЕННАЯ ЧАСТЬ",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### Статья 593. Рассмотрение в суде коллективных трудовых споров, носящих характер исковых требований\n\nКоллективные трудовые споры о применении законодательства, коллективных соглашений и коллективного договора, а также внутренних документов, принятых работодателем по согласованию с комитетом профес",
+                    "source_window_start_byte": 1227899,
+                    "source_window": "ва о забастовках, несут ответственность в установленном порядке.\n\n### Статья 593. Рассмотрение в суде коллективных трудовых споров, носящих характер исковых требований\n\nКоллективные трудовые споры о применении законодательства, коллективных соглашений и коллективного договора, а также внутренних документов, принятых работодателем по согласованию с комитетом профессионального с"
+                },
+                {
+                    "chunk_id": 5170,
+                    "chunk_index": 4,
+                    "section_type": "article",
+                    "section_number": "1",
+                    "quality_status": "structured",
+                    "start_byte": 205,
+                    "end_byte": 714,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "Статья 1. Отношения, регулируемые настоящим Кодексом",
+                            "number": "1"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "Глава 1. Основные положения",
+                            "number": "1"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ",
+                            "number": "I"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "ОБЩАЯ ЧАСТЬ",
+                            "number": null
+                        }
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "### Статья 1. Отношения, регулируемые настоящим Кодексом\n\nНастоящий Кодекс регулирует индивидуальные трудовые отношения и непосредственно связанные с ними общественные отношения на основе обеспечения баланса и согласования интересов работников, работодателей и государства.\n\n",
+                    "source_window_start_byte": 84,
+                    "source_window": "АЯ ЧАСТЬ\n\n## РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ\n\n## Глава 1. Основные положения\n\n### Статья 1. Отношения, регулируемые настоящим Кодексом\n\nНастоящий Кодекс регулирует индивидуальные трудовые отношения и непосредственно связанные с ними общественные отношения на основе обеспечения баланса и согласования интересов работников, работодателей и государства.\n\n### Статья 2. Основные задачи настоящего"
+                }
+            ]
+        },
+        {
+            "content_id": 24,
+            "document_id": 10,
+            "title": "О некоторых вопросах применения экономическими судами норм Закона Республики Узбекистан «О неплатежеспособности»",
+            "language": "ru",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "cdd73bbe9388e577b5a550fac74dbae57d7a24df31d7f1a5acb7077fcbb23271",
+            "source_bytes": 132350,
+            "chunks": 65,
+            "source_url": "https://lex.uz/uz/docs/7613664",
+            "boundaries": [
+                {
+                    "chunk_id": 6930,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 116,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "Постановление\n\nПленума Верховного суда Республики Узбекистан\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "Постановление\n\nПленума Верховного суда Республики Узбекистан\n\n# О некоторых вопросах применения экономическими судами норм Закона Республики Узбекистан «О неплатежеспособности»\n\nВ целях устранения возникающих в судебной практике проблем, обеспечения правильного и единообразного применения норм Закона Республики Узбекистан «О неплатежеспособности» на основании статьи 22 За"
+                },
+                {
+                    "chunk_id": 6962,
+                    "chunk_index": 32,
+                    "section_type": "point",
+                    "section_number": "30",
+                    "quality_status": "structured",
+                    "start_byte": 67373,
+                    "end_byte": 69496,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "30. В соответствии со статьей 57 Закона определением суда производство по делу о неплатежеспособности прекращается в случаях: восстановления платежеспособности должника в ходе судебной санации или внешнего управления; заключения мирового соглашения и утверждения его судом; отказа всех кредиторов, уч",
+                    "source_window_start_byte": 67252,
+                    "source_window": "нании должника банкротом и начале ликвидационного производства.\n\n30. В соответствии со статьей 57 Закона определением суда производство по делу о неплатежеспособности прекращается в случаях: восстановления платежеспособности должника в ходе судебной санации или внешнего управления; заключения мирового соглашения и утверждения его судом; отказа всех кредиторов, участвующих в д"
+                },
+                {
+                    "chunk_id": 6994,
+                    "chunk_index": 64,
+                    "section_type": "point",
+                    "section_number": "55",
+                    "quality_status": "structured",
+                    "start_byte": 131535,
+                    "end_byte": 132350,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "55. В целях обеспечения своевременного и правильного разрешения дел о неплатежеспособности рекомендовать областным и приравненным к ним судам, Судебной коллегии по экономическим делам Верховного суда Республики Узбекистан регулярно обобщать судебную практику рассмотрения данной категории дел.\n\nПредс",
+                    "source_window_start_byte": 131414,
+                    "source_window": "способности и перехода к общим процедурам неплатежеспособности.\n\n55. В целях обеспечения своевременного и правильного разрешения дел о неплатежеспособности рекомендовать областным и приравненным к ним судам, Судебной коллегии по экономическим делам Верховного суда Республики Узбекистан регулярно обобщать судебную практику рассмотрения данной категории дел.\n\nПредседатель Ве"
+                }
+            ]
+        },
+        {
+            "content_id": 41,
+            "document_id": 17,
+            "title": "“Lotin yozuviga asoslangan o‘zbek alifbosini joriy etish to‘g‘risida”gi O‘zbekiston Respublikasi Qonuniga o‘zgartirish kiritish haqida",
+            "language": "uz-Latn",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "a25fcf8d7c489c0cf888003fd28d0812c766becbe543ed2c77836f5880093ddb",
+            "source_bytes": 4172,
+            "chunks": 7,
+            "source_url": "https://lex.uz/uz/docs/8548754",
+            "boundaries": [
+                {
+                    "chunk_id": 7296,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 38,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "Oʻzbekiston Respublikasining Qonuni\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "Oʻzbekiston Respublikasining Qonuni\n\n# “Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuniga oʻzgartirish kiritish haqida\n\nQonunchilik palatasi tomonidan 2026-yil 7-iyulda qabul qilingan\nSenat tomonidan 2026-yil 10-sentabrda maʼqullangan\n\nKeyingi yillarda oʻzbek tilini rivojlantirish, uning davlat tili sifatidagi nufuzini mustahkamlash borasida tizimli choralar koʻrilmoqda. Oʻzbek tili mamlakatimiz ijtimoiy hayotining barcha sohalarida faol qoʻllanilmoqda, shuningdek uning xalqaro maydondagi nufuzi tobora ortib bormoqda. Xorijiy mamlakatlarda oʻzbek tiliga alohida eʼtibor qaratilib, uni oʻrganishga boʻlgan qiziqish kuchay"
+                },
+                {
+                    "chunk_id": 7299,
+                    "chunk_index": 3,
+                    "section_type": "heading",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 1844,
+                    "end_byte": 2681,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "### “1-modda. Oʻzbekiston Respublikasida lotin yozuviga asoslangan, quyidagi 28 ta harf va 1 ta tutuq belgisidan iborat oʻzbek alifbosi joriy etilsin:\n\nLOTIN YOZUVIGA ASOSLANGAN\n\nÖZBEK ALIFBOSI\n\n| Bosma | Yozma | Talaffuz |  |\n| --- | --- | --- | --- |\n| А а |  | a |  |\n| B b |  | be |  |\n| D d |  |",
+                    "source_window_start_byte": 1724,
+                    "source_window": "on Respublikasi Oliy Majlisining Axborotnomasi, 1995-yil, № 6, 119-modda) 1-moddasi quyidagi tahrirda bayon etilsin:\n\n### “1-modda. Oʻzbekiston Respublikasida lotin yozuviga asoslangan, quyidagi 28 ta harf va 1 ta tutuq belgisidan iborat oʻzbek alifbosi joriy etilsin:\n\nLOTIN YOZUVIGA ASOSLANGAN\n\nÖZBEK ALIFBOSI\n\n| Bosma | Yozma | Talaffuz |  |\n| --- | --- | --- | --- |\n| А а |  | a |  |\n| B b |  | be |  |\n| D d |  | de |  |\n| E e |  | e |  |\n| F f |  | fe |  |\n| G g |  | ge |  |\n| Ğ ğ |  | ğe |  |\n| H h |  | he |  |\n| I i |  | i |  |\n| J j |  | je |  |\n| K k |  | ke |  |\n| L l |  | le |  |\n| M m |  | me |  |\n| N n |  | ne |  |\n| O o |  | o |  |\n| Ö ö |  | ö |  |\n| P p |  | pе "
+                },
+                {
+                    "chunk_id": 7302,
+                    "chunk_index": 6,
+                    "section_type": "article",
+                    "section_number": "4",
+                    "quality_status": "needs_review",
+                    "start_byte": 3969,
+                    "end_byte": 4172,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "4-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran olti oy oʻtgach kuchga kiradi.",
+                            "number": "4"
+                        },
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "4-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran olti oy oʻtgach kuchga kiradi.\n\nOʻzbekiston Respublikasining Prezidenti SH. MIRZIYOYEV\n\nToshkent sh.,\n\n2026-yil 21-oktabr,\n\nOʻRQ-1184-son\n",
+                    "source_window_start_byte": 3849,
+                    "source_window": "bu Qonunning ijrosini amalga oshirishga doir chora-tadbirlar dasturini ikki oy muddatda ishlab chiqsin va tasdiqlasin.\n\n4-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran olti oy oʻtgach kuchga kiradi.\n\nOʻzbekiston Respublikasining Prezidenti SH. MIRZIYOYEV\n\nToshkent sh.,\n\n2026-yil 21-oktabr,\n\nOʻRQ-1184-son\n"
+                },
+                {
+                    "chunk_id": 7298,
+                    "chunk_index": 2,
+                    "section_type": "article",
+                    "section_number": "1",
+                    "quality_status": "needs_review",
+                    "start_byte": 1447,
+                    "end_byte": 1844,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "1-modda. Oʻzbekiston Respublikasining 1993-yil 2-sentabrda qabul qilingan “Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi 931-XII-sonli Qonunining (Oʻzbekiston Respublikasi Oliy Kengashining Axborotnomasi, 1993-yil, № 9, 331-modda; Oʻzbekiston Respublikasi Oliy Majlisining Axborotnomasi, 1995-yil, № 6, 119-modda) 1-moddasi quyidagi tahrirda bayon etilsin:",
+                            "number": "1"
+                        },
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "1-modda. Oʻzbekiston Respublikasining 1993-yil 2-sentabrda qabul qilingan “Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi 931-XII-sonli Qonunining (Oʻzbekiston Respublikasi Oliy Kengashining Axborotnomasi, 1993-yil, № 9, 331-modda; Oʻzbekiston Respublikasi Oliy Majlisining Ax",
+                    "source_window_start_byte": 1327,
+                    "source_window": "omillashtirishga hamda davlat tilini qoʻllash va raqamlashtirish imkoniyatlarini yanada kengaytirishga xizmat qiladi.\n\n1-modda. Oʻzbekiston Respublikasining 1993-yil 2-sentabrda qabul qilingan “Lotin yozuviga asoslangan oʻzbek alifbosini joriy etish toʻgʻrisida”gi 931-XII-sonli Qonunining (Oʻzbekiston Respublikasi Oliy Kengashining Axborotnomasi, 1993-yil, № 9, 331-modda; Oʻzbekiston Respublikasi Oliy Majlisining Axborotnomasi, 1995-yil, № 6, 119-modda) 1-moddasi quyidagi tahrirda bayon etilsin:\n\n### “1-modda. Oʻzbekiston Respublikasida lotin yozuviga asoslangan, quyidagi 28 ta harf va 1 ta tutuq belgisidan iborat oʻzbek alifbosi joriy etilsin:\n\nLOTIN YOZUVIGA ASOSLANGAN\n\n"
+                }
+            ]
+        },
+        {
+            "content_id": 585,
+            "document_id": 247,
+            "title": "O‘zbekiston Respublikasining ayrim qonun hujjatlariga o‘zgartish va qo‘shimchalar kiritish to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "d798b93714c522ab0ab5ae7357d20c0cb49ac0e130aaa310a172f92d1bdd3bc7",
+            "source_bytes": 20917,
+            "chunks": 29,
+            "source_url": "https://lex.uz/uz/docs/-4708436",
+            "boundaries": [
+                {
+                    "chunk_id": 23104,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 38,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "Oʻzbekiston Respublikasining Qonuni\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "Oʻzbekiston Respublikasining Qonuni\n\n# Oʻzbekiston Respublikasining ayrim qonun hujjatlariga oʻzgartish va qoʻshimchalar kiritish toʻgʻrisida\n\nQonunchilik palatasi tomonidan 2019-yil 9-dekabrda qabul qilingan\n Senat tomonidan 2019-yil 14-dekabrda maʼqullangan\n\n2-modda. Oʻzbekiston Respublikasining 1992-yil 9-dekabrda qabul qilingan “Prokuratura toʻgʻrisida”gi 746-XII-sonli Qonuni (Oʻzbekiston Respublikasining 2001-yil 29-avgustda qabul qilingan 257-II-sonli Qonuni tahririda) (Oʻzbekiston Respublikasi Oliy Majlisining Axborotnomasi, 2001-yil, № 9-10, 168-modda; 2003-yil, № 5, 67-modda; 2005-yil, № 1, 18-modda; Oʻzbekiston Respublikasi Oliy Majlisi palatalarining Axborot"
+                },
+                {
+                    "chunk_id": 23118,
+                    "chunk_index": 14,
+                    "section_type": "subpoint",
+                    "section_number": "7",
+                    "quality_status": "structured",
+                    "start_byte": 10517,
+                    "end_byte": 11285,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "7) 147-moddaning birinchi qismi quyidagi tahrirda bayon etilsin:\n\n“Yoʻllarga, temir yoʻldan oʻtish joylariga, yoʻl harakatini tartibga soluvchi boshqa inshootlar yoki texnik vositalarga shikast yetkazish, shuningdek yoʻl harakatiga qasddan, shu jumladan yoʻl qoplamasini ifloslantirish yoʻli bilan xa",
+                    "source_window_start_byte": 10397,
+                    "source_window": ", mansabdor shaxslarga esa — yuz baravaridan bir yuz ellik baravarigacha miqdorda jarima solishga sabab boʻladi”;\n\n7) 147-moddaning birinchi qismi quyidagi tahrirda bayon etilsin:\n\n“Yoʻllarga, temir yoʻldan oʻtish joylariga, yoʻl harakatini tartibga soluvchi boshqa inshootlar yoki texnik vositalarga shikast yetkazish, shuningdek yoʻl harakatiga qasddan, shu jumladan yoʻl qoplamasini ifloslantirish yoʻli bilan xalal berish, xuddi shuningdek avtomobil yoʻllarini oʻzboshimchalik bilan qazish, ularda sunʼiy notekisliklar va toʻsiqlar yaratish, avtomobil yoʻlida ishlarni amalga oshirish uchun berilgan ruxsatnoma talablarini bajarmaslik, shuningdek yoʻllarni saqlash qoidalarini"
+                },
+                {
+                    "chunk_id": 23132,
+                    "chunk_index": 28,
+                    "section_type": "article",
+                    "section_number": "11",
+                    "quality_status": "structured",
+                    "start_byte": 20483,
+                    "end_byte": 20917,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "11-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran kuchga kiradi.",
+                            "number": "11"
+                        },
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "11-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran kuchga kiradi.\n\nUshbu Qonunning 1, 3-moddalari, 4-moddasining 1, 2, 3, 7-bandlari, 9-bandining uchinchi xatboshisi, 10, 11, 13, 14-bandlari, 8-moddasi, 9-moddasining 2-bandi mazkur Qonun rasmiy eʼlon qilingan kundan eʼtiboran uch oy oʻtgac",
+                    "source_window_start_byte": 20363,
+                    "source_window": "ing ijrosini, ijrochilarga yetkazilishini hamda mohiyati va ahamiyati aholi oʻrtasida tushuntirilishini taʼminlasin.\n\n11-modda. Ushbu Qonun rasmiy eʼlon qilingan kundan eʼtiboran kuchga kiradi.\n\nUshbu Qonunning 1, 3-moddalari, 4-moddasining 1, 2, 3, 7-bandlari, 9-bandining uchinchi xatboshisi, 10, 11, 13, 14-bandlari, 8-moddasi, 9-moddasining 2-bandi mazkur Qonun rasmiy eʼlon qilingan kundan eʼtiboran uch oy oʻtgach amalga kiritiladi.\n\nOʻzbekiston Respublikasining Prezidenti Sh. MIRZIYOYEV\n\nToshkent sh.,\n\n2020-yil 22-yanvar,\n\nOʻRQ-603-son\n"
+                },
+                {
+                    "chunk_id": 23106,
+                    "chunk_index": 2,
+                    "section_type": "article",
+                    "section_number": "2",
+                    "quality_status": "structured",
+                    "start_byte": 268,
+                    "end_byte": 1267,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "2-modda. Oʻzbekiston Respublikasining 1992-yil 9-dekabrda qabul qilingan “Prokuratura toʻgʻrisida”gi 746-XII-sonli Qonuni (Oʻzbekiston Respublikasining 2001-yil 29-avgustda qabul qilingan 257-II-sonli Qonuni tahririda) (Oʻzbekiston Respublikasi Oliy Majlisining Axborotnomasi, 2001-yil, № 9-10, 168-modda; 2003-yil, № 5, 67-modda; 2005-yil, № 1, 18-modda; Oʻzbekiston Respublikasi Oliy Majlisi palatalarining Axborotnomasi, 2007-yil, № 6, 249-modda; 2008-yil, № 9, 487-modda, № 12, 636-modda; 2011-yil, № 4, 101-modda; 2012-yil, № 9/2, 244-modda; 2015-yil, № 8, 310-modda; 2016-yil, № 9, 276-modda; 2017-yil, № 3, 47-modda, № 6, 300-modda, № 9, 510-modda, № 10, 605-modda; 2018-yil, № 4, 218-modda, № 7, 431-modda; 2019-yil, № 1, 1, 5-moddalar, № 5, 267-modda, № 11, 791-modda) 8-moddasining uchinchi qismiga quyidagi oʻzgartishlar kiritilsin:",
+                            "number": "2"
+                        },
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "2-modda. Oʻzbekiston Respublikasining 1992-yil 9-dekabrda qabul qilingan “Prokuratura toʻgʻrisida”gi 746-XII-sonli Qonuni (Oʻzbekiston Respublikasining 2001-yil 29-avgustda qabul qilingan 257-II-sonli Qonuni tahririda) (Oʻzbekiston Respublikasi Oliy Majlisining Axborotnomasi, 2001-yil, № 9-10, 168-m",
+                    "source_window_start_byte": 148,
+                    "source_window": "\nQonunchilik palatasi tomonidan 2019-yil 9-dekabrda qabul qilingan\n Senat tomonidan 2019-yil 14-dekabrda maʼqullangan\n\n2-modda. Oʻzbekiston Respublikasining 1992-yil 9-dekabrda qabul qilingan “Prokuratura toʻgʻrisida”gi 746-XII-sonli Qonuni (Oʻzbekiston Respublikasining 2001-yil 29-avgustda qabul qilingan 257-II-sonli Qonuni tahririda) (Oʻzbekiston Respublikasi Oliy Majlisining Axborotnomasi, 2001-yil, № 9-10, 168-modda; 2003-yil, № 5, 67-modda; 2005-yil, № 1, 18-modda; Oʻzbekiston Respublikasi Oliy Majlisi palatalarining Axborotnomasi, 2007-yil, № 6, 249-modda; 2008-yil, № 9, 487-modda, № 12, 636-modda; 2011-yil, № 4, 101-modda; 2012-yil, № 9/2, 244-modda; 2015-yi"
+                }
+            ]
+        },
+        {
+            "content_id": 6,
+            "document_id": 3,
+            "title": "Shahardagi ayrim koʻchalarni birlashtirgan holda qayta nomlash to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "9738138bbc429e427b20a2f1517aa14cb19898addf7a4b5ce2b799ab4e4d8947",
+            "source_bytes": 3363,
+            "chunks": 9,
+            "source_url": "https://lex.uz/uz/docs/8498641",
+            "boundaries": [
+                {
+                    "chunk_id": 6582,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 51,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "XALQ DEPUTATLARI XIVA SHAHAR KENGASHINING\n\nQARORI\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "XALQ DEPUTATLARI XIVA SHAHAR KENGASHINING\n\nQARORI\n\n# Shahardagi ayrim koʻchalarni birlashtirgan holda qayta nomlash toʻgʻrisida\n\nOʻzbekiston Respublikasining 2011-yil 12-oktabrdagi “Geografik obyektlarning nomlari toʻgʻrisida”gi OʻRQ-303-son qonunining 10-moddasi, Geografik obyektlarga nom berish va ularni qayta nomlash toʻgʻrisidagi takliflarni davlat ekspertizasidan oʻtkazish boʻyicha Urbanizatsiya va uy-joy bozorini barqaror rivojlantirish milliy qoʻmitasi huzuridagi Kadastr agentligi ekspert komissiyasining 2026-yil 25-avgustdagi yigʻilish bayoni va 2026-yil 25-avgustdagi 05-19-14813-sonli ekspert xulosasi, shahar hokimining maʼnaviyat va davlat tili masalalari boʻyich"
+                },
+                {
+                    "chunk_id": 6586,
+                    "chunk_index": 4,
+                    "section_type": "point",
+                    "section_number": "3",
+                    "quality_status": "structured",
+                    "start_byte": 1557,
+                    "end_byte": 1803,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "3. Kadastrlar palatasi shahar boʻlimi (A. Jalilov) ushbu ekspert xulosasi asosida koʻchalarni toifalari boʻyicha qayta koʻrib chiqsin hamda belgilangan tartibda tegishli kadastr, reyestr va elektron bazalarda zarur ishlarni amalga oshirsin.\n\n",
+                    "source_window_start_byte": 1437,
+                    "source_window": "lol koʻchasining bir qismini birlashtirgan holda “Hilol” deb qayta nomlash taklifi ilovaga muvofiq maʼqullansin.\n\n3. Kadastrlar palatasi shahar boʻlimi (A. Jalilov) ushbu ekspert xulosasi asosida koʻchalarni toifalari boʻyicha qayta koʻrib chiqsin hamda belgilangan tartibda tegishli kadastr, reyestr va elektron bazalarda zarur ishlarni amalga oshirsin.\n\n4. Shahar statistika boʻlimi v.v.b (S. Mamatsobirov), Kadastrlar palatasi shahar boʻlimi (A. Jalilov), shahar qurilish boʻlimi (Sh. Atajanov) hamda tegishli mutasaddi va davlat organlariga amaldagi tartibda nom berilgan va nomlari oʻzgartirilgan koʻchalarni davlat roʻyxatidan oʻtkazish va elektron bazasini shakllantirish, ish"
+                },
+                {
+                    "chunk_id": 6590,
+                    "chunk_index": 8,
+                    "section_type": "point",
+                    "section_number": "7",
+                    "quality_status": "structured",
+                    "start_byte": 3006,
+                    "end_byte": 3363,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "7. Mazkur qarorning ijrosini nazorat qilish xalq deputatlari shahar Kengashining agrar, suv xoʻjaligi va ekologiya masalalari boʻyicha doimiy komissiyasi (X. Xudayberganov) zimmasiga yuklansin.\n\nKengash raisi A. RAXIMOV\n\nXorazm viloyati, Xiva shahri,\n\n2026-yil 19-sentabr,\n\nVII-22-51-12-217-K/26-son\n",
+                    "source_window_start_byte": 2886,
+                    "source_window": "v) ushbu qarorning mazmun-mohiyatini ommaviy axborot vositalari va ijtimoiy tarmoqlarda yoritilishini taʼminlasinlar.\n\n7. Mazkur qarorning ijrosini nazorat qilish xalq deputatlari shahar Kengashining agrar, suv xoʻjaligi va ekologiya masalalari boʻyicha doimiy komissiyasi (X. Xudayberganov) zimmasiga yuklansin.\n\nKengash raisi A. RAXIMOV\n\nXorazm viloyati, Xiva shahri,\n\n2026-yil 19-sentabr,\n\nVII-22-51-12-217-K/26-son\n\nHujjatni ilovasi bilan PDF shaklida tanishish mumkin.\n"
+                }
+            ]
+        },
+        {
+            "content_id": 600,
+            "document_id": 252,
+            "title": "O‘zbekiston Respublikasida jismoniy tarbiya va sportni yanada takomillashtirish va ommalashtirish chora-tadbirlari to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "a7166c7f3ca550f43b2e51d48735c3c1bdae72e7e539a962c85ece5478b8c07f",
+            "source_bytes": 168314,
+            "chunks": 102,
+            "source_url": "https://lex.uz/uz/docs/-4711327",
+            "boundaries": [
+                {
+                    "chunk_id": 23367,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 51,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "Oʻzbekiston Respublikasi Prezidentining\n\nFarmoni\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "Oʻzbekiston Respublikasi Prezidentining\n\nFarmoni\n\n# Oʻzbekiston Respublikasida jismoniy tarbiya va sportni yanada takomillashtirish va ommalashtirish chora-tadbirlari toʻgʻrisida\n\nRespublikada oxirgi yillarda jismoniy tarbiya va sportni ommalashtirish, aholi oʻrtasida sogʻlom turmush tarzini targʻib qilish, imkoniyatlari cheklangan shaxslarning jismoniy reabilitatsiyasi uchun zarur shart-sharoitlar yaratish hamda mamlakatning xalqaro sport maydonlarida munosib ishtirok etishini taʼminlash borasida izchil chora-tadbirlar amalga oshirilmoqda.\n\nShu bilan birga, jismoniy tarbiya va sport sohasida aholi sogʻligʻini mustahkamlashga koʻmaklashadigan aniq dasturlarni amaliyotga joriy etis"
+                },
+                {
+                    "chunk_id": 23418,
+                    "chunk_index": 51,
+                    "section_type": "subpoint",
+                    "section_number": "g",
+                    "quality_status": "needs_review",
+                    "start_byte": 55721,
+                    "end_byte": 59218,
+                    "context": {
+                        "article": null,
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "3-bob. Jismoniy tarbiya va sport tizimining asosiy maqsadlari va rivojlanish yoʻnalishlari",
+                            "number": "3"
+                        },
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "g) oliy sport yutuqlarini rivojlantirish tizimini takomillashtirish:\n\nbarcha sport turlari boʻyicha milliy chempionatlar darajasi va sifatini oshirish, xalqaro va mintaqaviy musobaqalarni tashkil etish, nosogʻlom sport raqobatiga va taqiqlangan preparatlar ishlatilishiga qarshi choralar koʻrish;\n\nba",
+                    "source_window_start_byte": 55601,
+                    "source_window": "hilari, sport taʼlimi muassasalarining trenerlarini attestatsiyaga jalb etmagan holda ularga malaka toifalari berish;\n\ng) oliy sport yutuqlarini rivojlantirish tizimini takomillashtirish:\n\nbarcha sport turlari boʻyicha milliy chempionatlar darajasi va sifatini oshirish, xalqaro va mintaqaviy musobaqalarni tashkil etish, nosogʻlom sport raqobatiga va taqiqlangan preparatlar ishlatilishiga qarshi choralar koʻrish;\n\nbarcha turdagi sport maktablarida seleksiya boʻyicha trener, diyetolog, psixolog, farmakolog, massajchi lavozimlarini joriy etish;\n\nhududlarning oʻziga xos xususiyatlari, aholining qiziqishi va xohish-istaklaridan kelib chiqib, har bir tuman (shahar) umumtaʼlim maktablari ham"
+                },
+                {
+                    "chunk_id": 23468,
+                    "chunk_index": 101,
+                    "section_type": "appendix",
+                    "section_number": "5",
+                    "quality_status": "needs_review",
+                    "start_byte": 168023,
+                    "end_byte": 168314,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "Izoh: Loyihalar, ularning soni va kreditlar limitiga Qoraqalpogʻiston Respublikasi Vazirlar Kengashi, viloyatlar va Toshkent shahar hokimliklarining takliflariga asosan Oʻzbekiston Respublikasi jismoniy tarbiya va sport vaziri tomonidan oʻzgartirish va qoʻshimchalar kiritilishi mumkin.\n",
+                    "source_window_start_byte": 167903,
+                    "source_window": "pan=1] 269\n[T4:R18C8;rowspan=1;colspan=1] 139,9\n[T4:R18C9;rowspan=1;colspan=1] 32\n[T4:R18C10;rowspan=1;colspan=1] 40,5\n\nIzoh: Loyihalar, ularning soni va kreditlar limitiga Qoraqalpogʻiston Respublikasi Vazirlar Kengashi, viloyatlar va Toshkent shahar hokimliklarining takliflariga asosan Oʻzbekiston Respublikasi jismoniy tarbiya va sport vaziri tomonidan oʻzgartirish va qoʻshimchalar kiritilishi mumkin.\n"
+                },
+                {
+                    "chunk_id": 23429,
+                    "chunk_index": 62,
+                    "section_type": "appendix",
+                    "section_number": "2",
+                    "quality_status": "needs_review",
+                    "start_byte": 76226,
+                    "end_byte": 85425,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "oversize_atomic",
+                        "maximum_length_exceeded"
+                    ],
+                    "content_excerpt": "[T1:R1C1;rowspan=2;colspan=1] T/r\n[T1:R1C2;rowspan=2;colspan=1] Koʻrsatkichlar nomi\n[T1:R1C3;rowspan=2;colspan=1] Oʻlchov birligi\n[T1:R1C4;rowspan=1;colspan=6] Yillar kesimida\n[T1:R2C4;rowspan=1;colspan=1] 2020\n[T1:R2C5;rowspan=1;colspan=1] 2021\n[T1:R2C6;rowspan=1;colspan=1] 2022\n[T1:R2C7;rowspan=1;",
+                    "source_window_start_byte": 76106,
+                    "source_window": "spublikasi Jismoniy tarbiya va sport tizimini 2025-yilgacha rivojlantirish konsepsiyasining maqsadli\n\nkoʻrsatkichlari\n\n[T1:R1C1;rowspan=2;colspan=1] T/r\n[T1:R1C2;rowspan=2;colspan=1] Koʻrsatkichlar nomi\n[T1:R1C3;rowspan=2;colspan=1] Oʻlchov birligi\n[T1:R1C4;rowspan=1;colspan=6] Yillar kesimida\n[T1:R2C4;rowspan=1;colspan=1] 2020\n[T1:R2C5;rowspan=1;colspan=1] 2021\n[T1:R2C6;rowspan=1;colspan=1] 2022\n[T1:R2C7;rowspan=1;colspan=1] 2023\n[T1:R2C8;rowspan=1;colspan=1] 2024\n[T1:R2C9;rowspan=1;colspan=1] 2025\n[T1:R3C1;rowspan=1;colspan=9] I. Aholi oʻrtasida jismoniy tarbiya va sportni ommaviyligini oshirish\n[T1:R4C1;rowspan=1;colspan=1] 1.\n[T1:R4C2;rowspan=1;colspan=1] Jismoniy tarbiya va sport bi"
+                }
+            ]
+        },
+        {
+            "content_id": 700,
+            "document_id": 290,
+            "title": "О дополнительных мерах по ускоренному развитию национальной системы оказания государственных услуг",
+            "language": "ru",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "b595eaf34e1cc3a9922e228be3d5db4fa2c01df4d9e48e2154b2fd37988c89c3",
+            "source_bytes": 94803,
+            "chunks": 16,
+            "source_url": "https://lex.uz/uz/docs/4720391",
+            "boundaries": [
+                {
+                    "chunk_id": 25395,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 7011,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "Указ\n\nПрезидента Республики Узбекистан\n\n# О дополнительных мерах по ускоренному развитию национальной системы оказания государственных услуг\n\nЗа последние годы в стране последовательно и динамично реформируется и совершенствуется система оказания государственных услуг населению. В каждом районе (гор",
+                    "source_window_start_byte": 0,
+                    "source_window": "Указ\n\nПрезидента Республики Узбекистан\n\n# О дополнительных мерах по ускоренному развитию национальной системы оказания государственных услуг\n\nЗа последние годы в стране последовательно и динамично реформируется и совершенствуется система оказания государственных услуг населению. В каждом районе (городе) созданы Центры государственных услуг, которыми в течение 2019 года было ок"
+                },
+                {
+                    "chunk_id": 25403,
+                    "chunk_index": 8,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 50654,
+                    "end_byte": 56499,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "2020 года\n[T3:R36C1;rowspan=1;colspan=1] ХI.\n[T3:R36C2;rowspan=1;colspan=5] Государственный комитет Республики Узбекистан по земельным ресурсам, геодезии, картографии и государственному кадастру\n[T3:R37C1;rowspan=2;colspan=1] 15.\n[T3:R37C2;rowspan=2;colspan=1] Справка о наличии или отсутствии личног",
+                    "source_window_start_byte": 50534,
+                    "source_window": "ства, \nне запрещенные законодательством\n[T3:R35C6;rowspan=1;colspan=1] С 1 июля\n\n2020 года\n[T3:R36C1;rowspan=1;colspan=1] ХI.\n[T3:R36C2;rowspan=1;colspan=5] Государственный комитет Республики Узбекистан по земельным ресурсам, геодезии, картографии и государственному кадастру\n[T3:R37C1;rowspan=2;colspan=1] 15.\n[T3:R37C2;rowspan=2;colspan=1] Справка о наличии или отсутствии личного жилья у граждан.\n[T3:R37C3;rowspan=1;colspan=1] 1. Сроки выдачи справки не регламентиро"
+                },
+                {
+                    "chunk_id": 25410,
+                    "chunk_index": 15,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 93701,
+                    "end_byte": 94803,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "«средства в размере 10 процентов от суммы уплаченных государственных пошлин, сборов и всех видов платежей за государственные услуги, оказываемые на основании обращений заявителей, самостоятельно направленных через Единый портал интерактивных государственных услуг Республики Узбекистан, а также средс",
+                    "source_window_start_byte": 93581,
+                    "source_window": "ство»:\n\nа) абзац четвертый пункта 3 изложить в следующей редакции:\n\n«средства в размере 10 процентов от суммы уплаченных государственных пошлин, сборов и всех видов платежей за государственные услуги, оказываемые на основании обращений заявителей, самостоятельно направленных через Единый портал интерактивных государственных услуг Республики Узбекистан, а также средства в разме"
+                },
+                {
+                    "chunk_id": 25398,
+                    "chunk_index": 3,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 19905,
+                    "end_byte": 26814,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "| № | Наименование государственной услуги |\n| --- | --- |\n| 1. | Разрешение на ввоз и вывоз дикорастущих растений, не занесенных в Красную книгу Республики Узбекистан, и их частей |\n| 2. | Разрешение на ввоз и вывоз диких животных, не занесенных в Красную книгу Республики Узбекистан, а также их част",
+                    "source_window_start_byte": 19784,
+                    "source_window": "йственного управления, органов государственной власти на местах\n\n| № | Наименование государственной услуги |\n| --- | --- |\n| 1. | Разрешение на ввоз и вывоз дикорастущих растений, не занесенных в Красную книгу Республики Узбекистан, и их частей |\n| 2. | Разрешение на ввоз и вывоз диких животных, не занесенных в Красную книгу Республики Узбекистан, а также их частей, продуктов жизнедеятельнос"
+                }
+            ]
+        },
+        {
+            "content_id": 38,
+            "document_id": 16,
+            "title": "О признании утратившими силу приказа «Об утверждении Положения о порядке сертификации специалистов, претендующих на участие в области оценки соответствия в качестве персонала», а также изменений к нему",
+            "language": "ru",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "7b4925c6eaf968a3b618f574b162a476c98a6b7f1b46055eff8e60bbce1cd39e",
+            "source_bytes": 6016,
+            "chunks": 11,
+            "source_url": "https://lex.uz/uz/docs/8548643",
+            "boundaries": [
+                {
+                    "chunk_id": 7263,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 216,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "ПРИКАЗ\n\nДиректора узбекского агентства по техническому регулированию при Кабинете Министров Республики Узбекистан\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "ПРИКАЗ\n\nДиректора узбекского агентства по техническому регулированию при Кабинете Министров Республики Узбекистан\n\n# О признании утратившими силу приказа «Об утверждении Положения о порядке сертификации специалистов, претендующих на участие в области оценки соответствия в качестве персонала», а также изменений к нему\n\n[Зарегистрирован Министерством юстиции Республики Узбек"
+                },
+                {
+                    "chunk_id": 7268,
+                    "chunk_index": 5,
+                    "section_type": "point",
+                    "section_number": "1",
+                    "quality_status": "structured",
+                    "start_byte": 2127,
+                    "end_byte": 2792,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "1. Приказ генерального директора Узбекского агентства стандартизации, метрологии и сертификации от 11 декабря 2015 года № 697 «Об утверждении Положения о порядке сертификации специалистов, претендующих на участие в области оценки соответствия в качестве персонала» (рег. № 2748 от 30 декабря 2015 год",
+                    "source_window_start_byte": 2006,
+                    "source_window": "венных нормативно-правовых актов, признаваемых утратившими силу\n\n1. Приказ генерального директора Узбекского агентства стандартизации, метрологии и сертификации от 11 декабря 2015 года № 697 «Об утверждении Положения о порядке сертификации специалистов, претендующих на участие в области оценки соответствия в качестве персонала» (рег. № 2748 от 30 декабря 2015 года) (Собрание законодате"
+                },
+                {
+                    "chunk_id": 7273,
+                    "chunk_index": 10,
+                    "section_type": "point",
+                    "section_number": "6",
+                    "quality_status": "structured",
+                    "start_byte": 5524,
+                    "end_byte": 6016,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "6. Пункт 50 Изменений, вносимых в некоторые ведомственные нормативно-правовые акты, утвержденных приказом министра юстиции Республики Узбекистан от 25 декабря 2024 года № 34-мх (рег. № 3595 от 27 декабря 2024 года) (Национальная база данных законодательства, 28.12.2024 г., № 10/24/3595/1086).\n",
+                    "source_window_start_byte": 5404,
+                    "source_window": "Национальная база данных законодательства, 30.11.2021 г., № 10/21/3338/1117).\n\n6. Пункт 50 Изменений, вносимых в некоторые ведомственные нормативно-правовые акты, утвержденных приказом министра юстиции Республики Узбекистан от 25 декабря 2024 года № 34-мх (рег. № 3595 от 27 декабря 2024 года) (Национальная база данных законодательства, 28.12.2024 г., № 10/24/3595/1086).\n"
+                }
+            ]
+        },
+        {
+            "content_id": 54,
+            "document_id": 23,
+            "title": "Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida",
+            "language": "uz-Latn",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "e304c6c9c9ae26ae6871f0765dd4676412a04805a9e2153582a33cf4529515fc",
+            "source_bytes": 22848,
+            "chunks": 54,
+            "source_url": "https://lex.uz/uz/docs/8554315",
+            "boundaries": [
+                {
+                    "chunk_id": 10183,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 65,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "Oʻzbekiston Respublikasi Markaziy banki boshqaruvining\n\nqarori\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "Oʻzbekiston Respublikasi Markaziy banki boshqaruvining\n\nqarori\n\n# Toʻlov svitchi orqali chakana toʻlovlarni oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida\n\n[Oʻzbekiston Respublikasi Adliya vazirligi tomonidan 2026-yil 23-oktabrda roʻyxatdan oʻtkazildi, roʻyxat raqami 3960]\n\nOʻzbekiston Respublikasining “Oʻzbekiston Respublikasining Markaziy banki toʻgʻrisida”gi hamda “Toʻlovlar va toʻlov tizimlari toʻgʻrisida”gi qonunlari, Oʻzbekiston Respublikasi Prezidentining 2025-yil 27-noyabrdagi PQ-359-son “Oʻzbekistonda moliyaviy texnologiyalar sohasini yanada rivojlantirish chora-tadbirlari toʻgʻrisida”gi qaroriga muvofiq Oʻzbekiston Respublikasi Markaziy"
+                },
+                {
+                    "chunk_id": 10210,
+                    "chunk_index": 27,
+                    "section_type": "point",
+                    "section_number": "18",
+                    "quality_status": "structured",
+                    "start_byte": 13858,
+                    "end_byte": 14508,
+                    "context": {
+                        "article": null,
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "4-bob. Ishtirokchilar va ulangan subyektlarning vazifalari",
+                            "number": "4"
+                        },
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "18. Hisob-kitob banki quyidagilarni bajarishi lozim:\n\nulangan subyektning toʻlov svitchidagi operatsiyalari boʻyicha hisob-kitoblarni amalga oshirish;\n\nulangan subyekt bilan bogʻliq hisob-kitob va likvidlik tavakkalchiliklarini baholash va boshqarish (limitlarni belgilash, mablagʻlarni oldindan joyl",
+                    "source_window_start_byte": 13738,
+                    "source_window": "arkaziy bankini xabardor qilish;\n\nxizmat koʻrsatish tartibi, formatlar va ish rejimi haqidagi axborotni taqdim etish.\n\n18. Hisob-kitob banki quyidagilarni bajarishi lozim:\n\nulangan subyektning toʻlov svitchidagi operatsiyalari boʻyicha hisob-kitoblarni amalga oshirish;\n\nulangan subyekt bilan bogʻliq hisob-kitob va likvidlik tavakkalchiliklarini baholash va boshqarish (limitlarni belgilash, mablagʻlarni oldindan joylashtirishni talab qilish);\n\nulangan subyekt tomonidan hisob-kitob xizmati koʻrsatish toʻgʻrisidagi shartnoma shartlariga rioya etilishini nazorat qilish.\n\nBunda hisob-kitob bankining ulangan subyekt majburiyatlari boʻyicha kafilligi (kafillik summasi, muddati va qamrab ol"
+                },
+                {
+                    "chunk_id": 10236,
+                    "chunk_index": 53,
+                    "section_type": "point",
+                    "section_number": "39",
+                    "quality_status": "structured",
+                    "start_byte": 22712,
+                    "end_byte": 22848,
+                    "context": {
+                        "article": null,
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "9-bob. Yakunlovchi qoida",
+                            "number": "9"
+                        },
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "39. Mazkur Nizom talablarining buzilishida aybdor boʻlgan shaxslar qonunchilik hujjatlarida belgilangan tartibda javobgar boʻladilar.\n",
+                    "source_window_start_byte": 22592,
+                    "source_window": "iyatlar ulanish tugatilganidan keyin ham ular toʻliq bajarilgunga qadar saqlanib qoladi.\n\n## 9-bob. Yakunlovchi qoida\n\n39. Mazkur Nizom talablarining buzilishida aybdor boʻlgan shaxslar qonunchilik hujjatlarida belgilangan tartibda javobgar boʻladilar.\n"
+                }
+            ]
+        },
+        {
+            "content_id": 45,
+            "document_id": 19,
+            "title": "O‘zbekiston Respublikasining Suv kodeksi",
+            "language": "uz-Latn",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "aa2b27b59a1d6b8db60afd4fa8dc1cda866445adf30ef8b438ce6f9c78d3d4c7",
+            "source_bytes": 253443,
+            "chunks": 212,
+            "source_url": "https://lex.uz/uz/docs/-7655343",
+            "boundaries": [
+                {
+                    "chunk_id": 7346,
+                    "chunk_index": 0,
+                    "section_type": "title",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 45,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "# Oʻzbekiston Respublikasining Suv kodeksi\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "# Oʻzbekiston Respublikasining Suv kodeksi\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks suv, suv obyektlari, suv xoʻjaligi obyektlari va suv fondi yerlaridan oqilona foydalanish hamda ularni muhofaza qilish sohasidagi munosabatlarni tartibga soladi.\n\n### 2-modda. Ushbu Kodeksning asosiy vazifalari\n\nUshbu Kodeksning asosiy vazifalari quyidagilardan iborat:\n\naholini, iqtisodiyot tarmoqlarini va ekologik tizimlarni suv bilan barqaror taʼminlashga erishish hamda uni saqlab turish;\n\niqlim oʻzgarishini hisobga olgan holda suvlarni oqilona boshqarish va ulardan foydalanish hamda tejash;\n\nsuvlarni bulg"
+                },
+                {
+                    "chunk_id": 7452,
+                    "chunk_index": 106,
+                    "section_type": "article",
+                    "section_number": "87",
+                    "quality_status": "needs_review",
+                    "start_byte": 115868,
+                    "end_byte": 116888,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "87-modda. Gidrotexnika inshootlaridan foydalanish tartibi",
+                            "number": "87"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "13-bob. Suv va suv xoʻjaligi obyektlaridan foydalanish",
+                            "number": "13"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "IV BOʻLIM. SUV OBYEKTLARIDAN VA SUV XOʻJALIGI OBYEKTLARIDAN FOYDALANISH",
+                            "number": "IV"
+                        },
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "### 87-modda. Gidrotexnika inshootlaridan foydalanish tartibi\n\nSuv xoʻjaligining foydalanuvchi tashkilotlari tomonidan foydalaniladigan gidrotexnika inshootlari davlat mulki boʻlib, ulardan belgilangan tartibda foydalaniladi.\n\nDavlat-xususiy sheriklik prinsiplari asosida xususiy sektorga boshqarishg",
+                    "source_window_start_byte": 115748,
+                    "source_window": " hisobga olingan holda, ushbu Kodeksda va boshqa qonunchilik hujjatlarida nazarda tutilgan tartibda amalga oshiriladi.\n\n### 87-modda. Gidrotexnika inshootlaridan foydalanish tartibi\n\nSuv xoʻjaligining foydalanuvchi tashkilotlari tomonidan foydalaniladigan gidrotexnika inshootlari davlat mulki boʻlib, ulardan belgilangan tartibda foydalaniladi.\n\nDavlat-xususiy sheriklik prinsiplari asosida xususiy sektorga boshqarishga berilgan gidrotexnika inshootlari davlat-xususiy sheriklik toʻgʻrisidagi bitimda, shuningdek qonunchilikda belgilangan tartibda foydalaniladi.\n\nQoraqalpogʻiston Respublikasi Vazirlar Kengashi Raisining va viloyatlar hokimlarining qarorlariga koʻra qishloq xoʻjaligi ishla"
+                },
+                {
+                    "chunk_id": 7557,
+                    "chunk_index": 211,
+                    "section_type": "article",
+                    "section_number": "165",
+                    "quality_status": "needs_review",
+                    "start_byte": 253193,
+                    "end_byte": 253443,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "165-modda. Nizolarni hal etish",
+                            "number": "165"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "29-bob. Suv toʻgʻrisidagi qonunchilik buzilishining huquqiy oqibatlari",
+                            "number": "29"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "VI BOʻLIM. SUVDAN VA SUV OBYEKTLARIDAN OQILONA FOYDALANISHNI, ULARNI MUHOFAZA QILISHNI IQTISODIY JIHATDAN RAGʻBATLANTIRISH, SUVGA DOIR DAVLATLARARO MUNOSABATLAR, SUV TOʻGʻRISIDAGI QONUNCHILIKNI BUZGANLIK UCHUN JAVOBGARLIK VA SUVGA DOIR NIZOLARNI HAL ETISH",
+                            "number": "VI"
+                        },
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "### 165-modda. Nizolarni hal etish\n\nSuvdan va suv obyektlaridan, suv xoʻjaligi obyektlaridan, shuningdek suv fondi yerlaridan foydalanish hamda ularni muhofaza qilish sohasida yuzaga keladigan nizolar qonunchilikda belgilangan tartibda hal etiladi.\n",
+                    "source_window_start_byte": 253073,
+                    "source_window": "dik shaxslar tomonidan moliyaviy sanksiyalar summasi bir oylik muddatda ixtiyoriy ravishda toʻlangan hollar mustasno.\n\n### 165-modda. Nizolarni hal etish\n\nSuvdan va suv obyektlaridan, suv xoʻjaligi obyektlaridan, shuningdek suv fondi yerlaridan foydalanish hamda ularni muhofaza qilish sohasida yuzaga keladigan nizolar qonunchilikda belgilangan tartibda hal etiladi.\n"
+                },
+                {
+                    "chunk_id": 7349,
+                    "chunk_index": 3,
+                    "section_type": "article",
+                    "section_number": "1",
+                    "quality_status": "needs_review",
+                    "start_byte": 103,
+                    "end_byte": 347,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar",
+                            "number": "1"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "1-bob. Asosiy qoidalar",
+                            "number": "1"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "I BOʻLIM. UMUMIY QOIDALAR",
+                            "number": "I"
+                        },
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks suv, suv obyektlari, suv xoʻjaligi obyektlari va suv fondi yerlaridan oqilona foydalanish hamda ularni muhofaza qilish sohasidagi munosabatlarni tartibga soladi.\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "# Oʻzbekiston Respublikasining Suv kodeksi\n\n## I BOʻLIM. UMUMIY QOIDALAR\n\n## 1-bob. Asosiy qoidalar\n\n### 1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\n\nUshbu Kodeks suv, suv obyektlari, suv xoʻjaligi obyektlari va suv fondi yerlaridan oqilona foydalanish hamda ularni muhofaza qilish sohasidagi munosabatlarni tartibga soladi.\n\n### 2-modda. Ushbu Kodeksning asosiy vazifalari\n\nUshbu Kodeksning asosiy vazifalari quyidagilardan iborat:\n\naholini, iqtisodiyot tarmoqlarini va ekologik tizimlarni suv bilan barqaror taʼminlashga erishish hamda uni saqlab turish;\n\niqlim oʻzgarishini hisobga olgan holda suvlarni oqilona boshqarish va ulardan foydalanish hamda tejash;\n\nsuvlarni bulg"
+                },
+                {
+                    "chunk_id": 7504,
+                    "chunk_index": 158,
+                    "section_type": "article",
+                    "section_number": "126",
+                    "quality_status": "needs_review",
+                    "start_byte": 162073,
+                    "end_byte": 165270,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "126-modda. Suv obyektlarining suvni muhofaza qilish zonalari va sohil boʻyi mintaqalari, ichimlik va xoʻjalik-maishiy suv taʼminoti inshootlarining sanitariya muhofazasi zonalari",
+                            "number": "126"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "24-bob. Suv obyektlarining suvni muhofaza qilish zonalarida, sohil boʻyi mintaqalarida va sanitariya muhofazasi zonalarida ishlarni amalga oshirish",
+                            "number": "24"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "V BOʻLIM. SUVNI VA SUV OBYEKTLARINI MUHOFAZA QILISH, SUVNING ZARARLI TAʼSIRINING OLDINI OLISH",
+                            "number": "V"
+                        },
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "### 126-modda. Suv obyektlarining suvni muhofaza qilish zonalari va sohil boʻyi mintaqalari, ichimlik va xoʻjalik-maishiy suv taʼminoti inshootlarining sanitariya muhofazasi zonalari\n\nSuv obyektlarining suvni muhofaza qilish zonalari va sohil boʻyi mintaqalari, ichimlik va xoʻjalik-maishiy suv taʼmi",
+                    "source_window_start_byte": 161953,
+                    "source_window": "siya, sanitariya-texnika va boshqa suvni muhofaza qilish tadbirlarini rejalashtirish va amalga oshirish taʼminlanadi.\n\n### 126-modda. Suv obyektlarining suvni muhofaza qilish zonalari va sohil boʻyi mintaqalari, ichimlik va xoʻjalik-maishiy suv taʼminoti inshootlarining sanitariya muhofazasi zonalari\n\nSuv obyektlarining suvni muhofaza qilish zonalari va sohil boʻyi mintaqalari, ichimlik va xoʻjalik-maishiy suv taʼminoti inshootlarining sanitariya muhofazasi zonalari quyidagi normalar boʻyicha belgilanadi:\n\nSuv obyektlarining suvni muhofaza qilish zonalari\n\n[T1:R1C1;rowspan=1;colspan=1] T/r\n[T1:R1C2;rowspan=1;colspan=1] Suv obyektining nomi\n[T1:R1C3;rowspan=1;colspan=1] Kengligi, metr"
+                },
+                {
+                    "chunk_id": 7506,
+                    "chunk_index": 160,
+                    "section_type": "article",
+                    "section_number": "126",
+                    "quality_status": "needs_review",
+                    "start_byte": 167555,
+                    "end_byte": 174988,
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "126-modda. Suv obyektlarining suvni muhofaza qilish zonalari va sohil boʻyi mintaqalari, ichimlik va xoʻjalik-maishiy suv taʼminoti inshootlarining sanitariya muhofazasi zonalari",
+                            "number": "126"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "24-bob. Suv obyektlarining suvni muhofaza qilish zonalarida, sohil boʻyi mintaqalarida va sanitariya muhofazasi zonalarida ishlarni amalga oshirish",
+                            "number": "24"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "V BOʻLIM. SUVNI VA SUV OBYEKTLARINI MUHOFAZA QILISH, SUVNING ZARARLI TAʼSIRINING OLDINI OLISH",
+                            "number": "V"
+                        },
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "oversize_atomic"
+                    ],
+                    "content_excerpt": "[T3:R1C1;rowspan=1;colspan=1] T/r\n[T3:R1C2;rowspan=1;colspan=1] Obyektning nomi\n[T3:R1C3;rowspan=1;colspan=1] Kengligi, metr\n[T3:R2C1;rowspan=1;colspan=1] 1.\n[T3:R2C2;rowspan=1;colspan=2] Sanitariya muhofazasi zonalari (suv olish joyidan):\n[T3:R3C1;rowspan=1;colspan=1] 1.1.\n[T3:R3C2;rowspan=1;colspa",
+                    "source_window_start_byte": 167435,
+                    "source_window": "C3;rowspan=1;colspan=1] 1,0\n\nIchimlik va xoʻjalik-maishiy suv taʼminoti manbalarining sanitariya muhofazasi zonalari\n\n[T3:R1C1;rowspan=1;colspan=1] T/r\n[T3:R1C2;rowspan=1;colspan=1] Obyektning nomi\n[T3:R1C3;rowspan=1;colspan=1] Kengligi, metr\n[T3:R2C1;rowspan=1;colspan=1] 1.\n[T3:R2C2;rowspan=1;colspan=2] Sanitariya muhofazasi zonalari (suv olish joyidan):\n[T3:R3C1;rowspan=1;colspan=1] 1.1.\n[T3:R3C2;rowspan=1;colspan=2] Birinchi mintaqa\n[T3:R4C1;rowspan=1;colspan=1] 1.1.1.\n[T3:R4C2;rowspan=1;colspan=2] Daryolar va kanallar uchun:\n[T3:R5C1;rowspan=1;colspan=1] \n[T3:R5C2;rowspan=1;colspan=1] oqim boʻylab yuqoriga\n[T3:R5C3;rowspan=1;colspan=1] kamida 200\n[T3:R6C1;rowspan=1;colspan=1] \n[T3:R6C"
+                }
+            ]
+        },
+        {
+            "content_id": 53,
+            "document_id": 22,
+            "title": "Uran qazib olish bo‘yicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qo‘yiladigan talablarni tasdiqlash to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "needs_review",
+            "format": "pdf",
+            "source_checksum": "4983b656408fe94e88de727fee610ca60ed32e6ea1f7971e623473d617a8543c",
+            "source_bytes": 21537,
+            "chunks": 49,
+            "source_url": "https://lex.uz/uz/docs/8557098",
+            "boundaries": [
+                {
+                    "chunk_id": 10134,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 1493,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "<!-- page 1 -->\n\nQMMB: 10/26/3962/1077-son\n26.10.2026-y.\n\n\n\n\n                                                                        O'ZBEKISTON RESPUBLIKASI\n                                                                             ADLIYA VAZIRLIGIDA\n                                              ",
+                    "source_window_start_byte": 0,
+                    "source_window": "<!-- page 1 -->\n\nQMMB: 10/26/3962/1077-son\n26.10.2026-y.\n\n\n\n\n                                                                        O'ZBEKISTON RESPUBLIKASI\n                                                                             ADLIYA VAZIRLIGIDA\n                                                                     DAVLAT RO'YXATIDAN O'TKAZILDI\n                                                                     RO'YXAT RAQAMI:        3962\n                                                                     2026 - yil 23 - Oktabr\n\n\n\n\n            O‘ZBEKISTON RESPUBLIKASI VAZIRLAR MAHKAMASI HUZURIDAGI\n                SANOAT, RADIATSIYA VA YADRO XAVFSIZLIGI QOʻMITASINING\n              "
+                },
+                {
+                    "chunk_id": 10158,
+                    "chunk_index": 24,
+                    "section_type": "chapter",
+                    "section_number": "4",
+                    "quality_status": "needs_review",
+                    "start_byte": 14536,
+                    "end_byte": 14560,
+                    "context": {
+                        "article": null,
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "4-bob. Yakuniy qoida",
+                            "number": "4"
+                        },
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "## 4-bob. Yakuniy qoida\n",
+                    "source_window_start_byte": 14416,
+                    "source_window": "n nazoratni\n          tashkil etish tartibi;\n                  atrof-muhitga radiatsiyaviy ta’sirni baholash tartibi.\n## 4-bob. Yakuniy qoida\n                 12. Mazkur hujjatning buzilishida aybdor boʻlgan shaxslar qonunchilik hujjatlarida\n          belgilangan tartibda javobgar boʻladilar.\n\n\n\n\n                                                         6\n\n<!-- page 7 -->\n\nQMMB: 10/26/3962/1077-son\n26.10.2026-y.\n\n\n\n\n                                                                                                 Uran qazib olish bo‘yicha konchilik faoliyati\n                                                                                                    uchun radiatsiyani boshqarish re"
+                },
+                {
+                    "chunk_id": 10182,
+                    "chunk_index": 48,
+                    "section_type": "point",
+                    "section_number": "22",
+                    "quality_status": "needs_review",
+                    "start_byte": 20795,
+                    "end_byte": 21537,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "  22. Atrof-muhitga radiatsiyaviy ta’sirni baholash tartibi: _______________________________\n  VI. Radiatsiyani boshqarish rejasini amalga oshirish chora-tadbirlari\n                Chora-tadbir yoki                                    Bajarish\n   T/r        Radiatsiyani boshqarish          Mas’ul sha",
+                    "source_window_start_byte": 20675,
+                    "source_window": "oddalar chiqarilishi va radioaktiv tashlanmalar ustidan nazoratni tashkil etish tartibi:_______________________________\n  22. Atrof-muhitga radiatsiyaviy ta’sirni baholash tartibi: _______________________________\n  VI. Radiatsiyani boshqarish rejasini amalga oshirish chora-tadbirlari\n                Chora-tadbir yoki                                    Bajarish\n   T/r        Radiatsiyani boshqarish          Mas’ul shaxs          muddati         Zarur resurslar va bajarilganini tasdiqlovchi hujjat\n                   rejasi bandi                                      davriyligi\n      1\n      2\n      3\n      4\n      5\n      6\n      7\n      8\n  Rejani tayyorladi:\n\n\n                       Lavoz"
+                }
+            ]
+        },
+        {
+            "content_id": 56,
+            "document_id": 24,
+            "title": "Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga o‘zgartirish va qo‘shimchalar kiritish to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "needs_review",
+            "format": "pdf",
+            "source_checksum": "07555ca6b78ec9315af3e4d4c97c4f2ecec0acbfb43a44f969e9de67225452f2",
+            "source_bytes": 37746,
+            "chunks": 61,
+            "source_url": "https://lex.uz/uz/docs/8554432",
+            "boundaries": [
+                {
+                    "chunk_id": 10291,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 1602,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "<!-- page 1 -->\n\nQMMB: 10/26/2383-7/1075-son\n24.10.2026-y.\n\n\n\n\n                                                                     O'ZBEKISTON RESPUBLIKASI\n                                                                          ADLIYA VAZIRLIGIDA\n                                                  ",
+                    "source_window_start_byte": 0,
+                    "source_window": "<!-- page 1 -->\n\nQMMB: 10/26/2383-7/1075-son\n24.10.2026-y.\n\n\n\n\n                                                                     O'ZBEKISTON RESPUBLIKASI\n                                                                          ADLIYA VAZIRLIGIDA\n                                                                  DAVLAT RO'YXATIDAN O'TKAZILDI\n                                                                  RO'YXAT RAQAMI:        2383-7\n                                                                  2026 - yil 23 - Oktabr\n\n\n\n\n                                    O‘ZBEKISTON RESPUBLIKASI\n                 ISTIQBOLLI LOYIHALAR MILLIY AGENTLIGI DIREKTORINING\n                                 "
+                },
+                {
+                    "chunk_id": 10321,
+                    "chunk_index": 30,
+                    "section_type": "point",
+                    "section_number": "12",
+                    "quality_status": "needs_review",
+                    "start_byte": 18518,
+                    "end_byte": 19035,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "           12.                     SUG‘URTA KOMPANIYALARI UCHUN PUL MABLAG‘LARI HARAKATI\n                                                          (BILVOSITA USUL)\n                                                             (ming so‘mda)\n                  Ko‘rsatkichlar nomi      Satr kodi**   Izoh",
+                    "source_window_start_byte": 18398,
+                    "source_window": "-\n                                                                                    magan zarar)         nentlari\n\n\n\n\n           12.                     SUG‘URTA KOMPANIYALARI UCHUN PUL MABLAG‘LARI HARAKATI\n                                                          (BILVOSITA USUL)\n                                                             (ming so‘mda)\n                  Ko‘rsatkichlar nomi      Satr kodi**   Izoh***           20___ y. yil uchun      20___ y. yil uchun\n\n\n                                                         (izohning         tartib\n                                                         raqami)\n\n\n\n           13.                                 BANKLAR UCHUN MO"
+                },
+                {
+                    "chunk_id": 10351,
+                    "chunk_index": 60,
+                    "section_type": "point",
+                    "section_number": "6",
+                    "quality_status": "needs_review",
+                    "start_byte": 36268,
+                    "end_byte": 37746,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "            6.         INVESTITSIYA VOSITACHILARI UCHUN MOLIYAVIY\n                        NATIJALAR TO‘G‘RISIDAGI HISOBOT (ming so‘mda)\n                   Ko‘rsatkichlar nomi Satr    O‘tgan yilning shu   Hisobot davrida\n                                       kodi         davrida\n                    ",
+                    "source_window_start_byte": 36148,
+                    "source_window": " davri boshiga   Hisobot davri\n                                           kodi                               oxiriga\n\n\n\n            6.         INVESTITSIYA VOSITACHILARI UCHUN MOLIYAVIY\n                        NATIJALAR TO‘G‘RISIDAGI HISOBOT (ming so‘mda)\n                   Ko‘rsatkichlar nomi Satr    O‘tgan yilning shu   Hisobot davrida\n                                       kodi         davrida\n                                            Daromadla Xarajatlar Darom Xarajatlar\n                                             r (foyda) (zararlar) adlar    (zararlar)\n                                                                  (foyda)\n\n\n\n\n           Ijroiya organi rahbarining F.I.O."
+                }
+            ]
+        },
+        {
+            "content_id": 360,
+            "document_id": 158,
+            "title": "Шўрчи туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+            "language": "uz-Cyrl",
+            "source_quality": "needs_review",
+            "format": "ocr",
+            "source_checksum": "20cbb256c5300a5e8e463d29d8a8c7055320d35c074f285797da59f0c0455173",
+            "source_bytes": 12722,
+            "chunks": 2,
+            "source_url": "https://lex.uz/uz/docs/4797522",
+            "boundaries": [
+                {
+                    "chunk_id": 19968,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 6876,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "<!-- page 1 -->\n\n; б\n“O'ZBEKISTON RESPUBLIKASI РЕСПУБЛИКА УЗБЕКИСТАН\n\nSURXONDARYO VILOYATI SI, СУРХАНДАРБИНСКОЙ ОБЛАСТИ\nSHO'RCHI TUMAN\na i PE o ЕНИЕ\nQARORI ШУРЧИНСКОГО РАЙОНА\n\n191500, Sho`rchi tumani, Mustaqillik ko'chasi 72-uy, tel.: О(376)45-74-100, fax: 0(376)45-74-100\n\n20 20 yil “.06” январъ Қ-5",
+                    "source_window_start_byte": 0,
+                    "source_window": "<!-- page 1 -->\n\n; б\n“O'ZBEKISTON RESPUBLIKASI РЕСПУБЛИКА УЗБЕКИСТАН\n\nSURXONDARYO VILOYATI SI, СУРХАНДАРБИНСКОЙ ОБЛАСТИ\nSHO'RCHI TUMAN\na i PE o ЕНИЕ\nQARORI ШУРЧИНСКОГО РАЙОНА\n\n191500, Sho`rchi tumani, Mustaqillik ko'chasi 72-uy, tel.: О(376)45-74-100, fax: 0(376)45-74-100\n\n20 20 yil “.06” январъ Қ-57 - sonli\n\nШўрчи туманида дам олиш\n\nкунлари савдо ярмаркалари\n\nташкил этишни самарали\n\nйўлга қўйиш чора-тадбирлари\n\nтўғрисида 7\n\nЎзбекистон Республикасинингр \"Маҳаллий давлат ҳоки"
+                },
+                {
+                    "chunk_id": 19969,
+                    "chunk_index": 1,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 6876,
+                    "end_byte": 12722,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "УПРАВЛЕНИЕ ЮСТИЦИИ\nта ИЧИ ТУМАН СУРХАНДАРБИНСКОЙ ОБЛАСТИ\nЛИЯ БЎ ОТДЕЛ ЮСТИЦИИ\nАД JIM ШУРЧИНСКОГО РАЙОНА\nўрчи туман, yora Ф.Й. район Шурчи, Дустлик MOH.\nти аровон кўчаси «yil. - улица Фаравон, nom 11.\nел: 8-376-45-75-101; 45-75-103; Ten: 8-376-45-75-101; 45-75-103;\nshurchi-tQadliya.uz 7 shurchi-tadli",
+                    "source_window_start_byte": 6756,
+                    "source_window": "аси талабларига тўлиқ жавоб\n\nберади.\n\n<!-- page 4 -->\n\nСУРХОНДАРЁ ВИЛОЯТ\n\nУПРАВЛЕНИЕ ЮСТИЦИИ\nта ИЧИ ТУМАН СУРХАНДАРБИНСКОЙ ОБЛАСТИ\nЛИЯ БЎ ОТДЕЛ ЮСТИЦИИ\nАД JIM ШУРЧИНСКОГО РАЙОНА\nўрчи туман, yora Ф.Й. район Шурчи, Дустлик MOH.\nти аровон кўчаси «yil. - улица Фаравон, nom 11.\nел: 8-376-45-75-101; 45-75-103; Ten: 8-376-45-75-101; 45-75-103;\nshurchi-tQadliya.uz 7 shurchi-tadliyauz —\n2019 йил «22 » декабръ Шўрчи туман ҳокими\nNo -2/ =\n92-—31366 Б.Худойбергановга\n\n20"
+                }
+            ]
+        },
+        {
+            "content_id": 2026,
+            "document_id": 786,
+            "title": "Туман ҳудудида йўл ҳаракати хавфсизлигини таъминлаш тўғрисида",
+            "language": "uz-Cyrl",
+            "source_quality": "needs_review",
+            "format": "ocr",
+            "source_checksum": "ee70ff70529b2f92c9a25ccb707fa335fa610d2d5e21860519810677047af9d2",
+            "source_bytes": 11333,
+            "chunks": 3,
+            "source_url": "https://lex.uz/uz/docs/4847693",
+            "boundaries": [
+                {
+                    "chunk_id": 40357,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 3247,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "<!-- page 1 -->\n\nКАРАКАЛ ИАКСТ АН                                КОРАКДЛПОЕИСТОН\n РЕСПУБЛИКАСЫ                                     РЕСПУБЛИКАСИ\nШОМАНАЙ РАЙОНЫ                                  ШУМАНАЙ ТУМАНИ\n  ХЭКИМИНИЦ                                        ^ОКИМИНИНГ\n    ШЕШИМИ                     ",
+                    "source_window_start_byte": 0,
+                    "source_window": "<!-- page 1 -->\n\nКАРАКАЛ ИАКСТ АН                                КОРАКДЛПОЕИСТОН\n РЕСПУБЛИКАСЫ                                     РЕСПУБЛИКАСИ\nШОМАНАЙ РАЙОНЫ                                  ШУМАНАЙ ТУМАНИ\n  ХЭКИМИНИЦ                                        ^ОКИМИНИНГ\n    ШЕШИМИ                                            КАРОРИ\n\n                                                  ;<&Г           20Jto ж.и\n\n\n      Район аймагында жол хэрекети кэуипсизлигин тэмийинлеу\n                            хакщында\n\n       Шоманай ра"
+                },
+                {
+                    "chunk_id": 40358,
+                    "chunk_index": 1,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 3247,
+                    "end_byte": 6994,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "28-28,6 км аралыгына (районлык Хальщ билимлендириу белимине\nкараслы 12-санлы улыума билим бериу мектеп имараты алды\nтэрепине) еки тэреплеме 1.21 «Дьщкат балалар» жол белгиси,\n5.16.1, 5.16.2 «Пиядалар етиу орны» жол белгилери;\n      41,8-43 км аралыгына еки тэреплеме 42,5-42,7 км аралыгына\n5.16.1, 5.",
+                    "source_window_start_byte": 3127,
+                    "source_window": "ыныц 16-16,2 км аралыгына 1.21 «Дьщкат балалар»\n жол белгиси;\n\n<!-- page 2 -->\n\n28-28,6 км аралыгына (районлык Хальщ билимлендириу белимине\nкараслы 12-санлы улыума билим бериу мектеп имараты алды\nтэрепине) еки тэреплеме 1.21 «Дьщкат балалар» жол белгиси,\n5.16.1, 5.16.2 «Пиядалар етиу орны» жол белгилери;\n      41,8-43 км аралыгына еки тэреплеме 42,5-42,7 км аралыгына\n5.16.1, 5.16.2 «Пиядалар етиу орны» жол белгиси х,эм 3.27 «"
+                },
+                {
+                    "chunk_id": 40359,
+                    "chunk_index": 2,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 6994,
+                    "end_byte": 11333,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "b,4-6,7 км аралыгына (районльщ Хальщ билимлендириу белимине\nцараслы 10-санлы улыума билим бериу мектеп имараты алды тэрепине)\nеки тэреплеме 1.21 «Дьщцат балалар» жол белгилери орнатылсын;\n      ж)     «Кетенлер»   ауыл    пуцаралар    жыйынынан      етиуши\n4н76 автомобиль жолыныц 3,7-4 км аралыгына ",
+                    "source_window_start_byte": 6874,
+                    "source_window": "ол\nбелгиси, 5.16.1, 5.16.2 «Пиядалар етиу орны» жол белгилери;\n\n<!-- page 3 -->\n\nb,4-6,7 км аралыгына (районльщ Хальщ билимлендириу белимине\nцараслы 10-санлы улыума билим бериу мектеп имараты алды тэрепине)\nеки тэреплеме 1.21 «Дьщцат балалар» жол белгилери орнатылсын;\n      ж)     «Кетенлер»   ауыл    пуцаралар    жыйынынан      етиуши\n4н76 автомобиль жолыныц 3,7-4 км аралыгына (районльщ Хальщ\nбилимлендириу бели"
+                }
+            ]
+        },
+        {
+            "content_id": 43,
+            "document_id": 18,
+            "title": "Suv xo‘jaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va me’yorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "f81f4a13877a721dfc827fac00f2866d9061fa96488989278acd475e3e6f3a32",
+            "source_bytes": 515376,
+            "chunks": 18,
+            "source_url": "https://lex.uz/uz/docs/8554309",
+            "boundaries": [
+                {
+                    "chunk_id": 7310,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 58,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "content_excerpt": "Oʻzbekiston Respublikasi Vazirlar Mahkamasining\n\nqarori\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "Oʻzbekiston Respublikasi Vazirlar Mahkamasining\n\nqarori\n\n# Suv xoʻjaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va meʼyorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish toʻgʻrisida\n\nOʻzbekiston Respublikasining “Davlat tili haqida”gi va “Geografik obyektlarning nomlari toʻgʻrisida”gi qonunlariga muvofiq Suv xoʻjaligi vazirligi tizimidagi nasos stansiyalarining nomlarini davlat tili qoida va meʼyorlariga muvofiqlashtirish hamda ularning ayrimlariga yangi nom berish maqsadida Vazirlar Mahkamasi qaror qiladi:\n\n1. Quyidagilar:\n\nNomi davlat tili qoida va meʼyorlariga muvofiqlashtirilgan nasos stansiyalari roʻyxati 1-ilovaga"
+                },
+                {
+                    "chunk_id": 7319,
+                    "chunk_index": 9,
+                    "section_type": "appendix",
+                    "section_number": "1",
+                    "quality_status": "needs_review",
+                    "start_byte": 83723,
+                    "end_byte": 213888,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "oversize_atomic",
+                        "maximum_length_exceeded"
+                    ],
+                    "content_excerpt": "Jalolobod viloyati\n[T1:R282C4;rowspan=1;colspan=1] Norin daryosi oʻzanida joylashgan, “Doʻstlik” kanaliga suv chiqaradi\n[T1:R282C5;rowspan=1;colspan=1] Doʻstlik\n[T1:R283C1;rowspan=1;colspan=5] Buxoro viloyati\n[T1:R284C1;rowspan=1;colspan=1] 280.\n[T1:R284C2;rowspan=1;colspan=1] Харгуш\n[T1:R284C3;rows",
+                    "source_window_start_byte": 83603,
+                    "source_window": ";colspan=1] 279.\n[T1:R282C2;rowspan=1;colspan=1] Дўстлик\n[T1:R282C3;rowspan=1;colspan=1] Qirgʻiz Respublikasi,\n\nJalolobod viloyati\n[T1:R282C4;rowspan=1;colspan=1] Norin daryosi oʻzanida joylashgan, “Doʻstlik” kanaliga suv chiqaradi\n[T1:R282C5;rowspan=1;colspan=1] Doʻstlik\n[T1:R283C1;rowspan=1;colspan=5] Buxoro viloyati\n[T1:R284C1;rowspan=1;colspan=1] 280.\n[T1:R284C2;rowspan=1;colspan=1] Харгуш\n[T1:R284C3;rowspan=1;colspan=1] Buxoro tumani\n[T1:R284C4;rowspan=1;colspan=1] “Xargush” kollektorida joylashgan, ichki sugʻorish tarmogʻiga suv chiqaradi\n[T1:R284C5;rowspan=1;colspan=1] Xargush\n[T1:R285C1;rowspan=1;colspan=1] 281.\n[T1:R285C2;rowspan=1;colspan=1] Жондор\n"
+                },
+                {
+                    "chunk_id": 7327,
+                    "chunk_index": 17,
+                    "section_type": "appendix",
+                    "section_number": "2",
+                    "quality_status": "needs_review",
+                    "start_byte": 453403,
+                    "end_byte": 515376,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "oversize_atomic",
+                        "maximum_length_exceeded"
+                    ],
+                    "content_excerpt": "Lebab viloyati\n[T2:R187C4;rowspan=1;colspan=1] “Qarshi-5” mashina kanalida joylashgan, “Qarshi-6” va “Aylanma” mashina kanallariga suv chiqaradi\n[T2:R187C5;rowspan=1;colspan=1] Qarshi-6\n[T2:R188C1;rowspan=1;colspan=5] Navoiy viloyati\n[T2:R189C1;rowspan=1;colspan=1] 182.\n[T2:R189C2;rowspan=1;colspan=",
+                    "source_window_start_byte": 453283,
+                    "source_window": "an=1] 181.\n[T2:R187C2;rowspan=1;colspan=1] 6-nasos stansiya\n[T2:R187C3;rowspan=1;colspan=1] Turkmaniston Respublikasi,\n\nLebab viloyati\n[T2:R187C4;rowspan=1;colspan=1] “Qarshi-5” mashina kanalida joylashgan, “Qarshi-6” va “Aylanma” mashina kanallariga suv chiqaradi\n[T2:R187C5;rowspan=1;colspan=1] Qarshi-6\n[T2:R188C1;rowspan=1;colspan=5] Navoiy viloyati\n[T2:R189C1;rowspan=1;colspan=1] 182.\n[T2:R189C2;rowspan=1;colspan=1] Тосс\n[T2:R189C3;rowspan=1;colspan=1] Xatirchi tumani\n[T2:R189C4;rowspan=1;colspan=1] “Zarafshon — Xatirchi” kanalida joylashgan, ichki sugʻorish tarmogʻiga suv chiqaradi\n[T2:R189C5;rowspan=1;colspan=1] Toshquloq\n[T2:R190C1;rowspan=1;colspan=5] Namangan "
+                },
+                {
+                    "chunk_id": 7318,
+                    "chunk_index": 8,
+                    "section_type": "appendix",
+                    "section_number": "1",
+                    "quality_status": "needs_review",
+                    "start_byte": 2269,
+                    "end_byte": 83723,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "oversize_atomic",
+                        "maximum_length_exceeded"
+                    ],
+                    "content_excerpt": "[T1:R1C1;rowspan=1;colspan=1] T/r\n[T1:R1C2;rowspan=1;colspan=1] Nasos stansiyasining amaldagi nomi\n[T1:R1C3;rowspan=1;colspan=1] Nasos stansiyasi joylashgan hudud\n[T1:R1C4;rowspan=1;colspan=1] Nasos stansiyasining joylashuvi va bogʻlanishi\n[T1:R1C5;rowspan=1;colspan=1] Davlat tili qoida va meʼyorlar",
+                    "source_window_start_byte": 2149,
+                    "source_window": "87-son qaroriga\n1-ILOVA\n\nNomi davlat tili qoida va meʼyorlariga muvofiqlashtirilgan nasos stansiyalarining\n\nROʻYXATI\n\n[T1:R1C1;rowspan=1;colspan=1] T/r\n[T1:R1C2;rowspan=1;colspan=1] Nasos stansiyasining amaldagi nomi\n[T1:R1C3;rowspan=1;colspan=1] Nasos stansiyasi joylashgan hudud\n[T1:R1C4;rowspan=1;colspan=1] Nasos stansiyasining joylashuvi va bogʻlanishi\n[T1:R1C5;rowspan=1;colspan=1] Davlat tili qoida va meʼyorlariga muvofiqlashtirilgan nasos stansiyasi nomi\n[T1:R2C1;rowspan=1;colspan=5] Qoraqalpogʻiston Respublikasi\n[T1:R3C1;rowspan=1;colspan=1] 1.\n[T1:R3C2;rowspan=1;colspan=1] Агрoном-1\n[T1:R3C3;rowspan=1;colspan=1] Amudaryo tumani\n[T1:R3C4;rowspan=1;colspan=1] Amudaryo daryоs"
+                }
+            ]
+        },
+        {
+            "content_id": 19,
+            "document_id": 8,
+            "title": "ShNQ 3.01.01-22 “Qurilishda ishlab chiqarishni tashkil qilish” shaharsozlik normalari va qoidalariga o‘zgartirish va qo‘shimchalar kiritish to‘g‘risida",
+            "language": "uz-Latn",
+            "source_quality": "verified",
+            "format": "html",
+            "source_checksum": "88022e48131451431ec7bdd17a846462893e31999e5faf0a7284926bbefd701a",
+            "source_bytes": 16326,
+            "chunks": 41,
+            "source_url": "https://lex.uz/uz/docs/8520357",
+            "boundaries": [
+                {
+                    "chunk_id": 6742,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "structured",
+                    "start_byte": 0,
+                    "end_byte": 88,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "OʻZBEKISTON RESPUBLIKASI QURILISH VA UY-JOY KOMMUNAL XOʻJALIGI VAZIRINING\n\nBUYRUGʻI\n\n",
+                    "source_window_start_byte": 0,
+                    "source_window": "OʻZBEKISTON RESPUBLIKASI QURILISH VA UY-JOY KOMMUNAL XOʻJALIGI VAZIRINING\n\nBUYRUGʻI\n\n# ShNQ 3.01.01-22 “Qurilishda ishlab chiqarishni tashkil qilish” shaharsozlik normalari va qoidalariga oʻzgartirish va qoʻshimchalar kiritish toʻgʻrisida\n\n[Oʻzbekiston Respublikasi Adliya vazirligi tomonidan 2026-yil 2-oktabrda hisobga olindi, hisob raqami 415]\n\nOʻzbekiston Respublikasining Shaharsozlik kodeksi hamda Oʻzbekiston Respublikasi Prezidentining 2026-yil 4-iyundagi PF-104-son “Qurilish sohasida natijaga asoslangan boshqaruvni joriy etish hamda sohada davlat xizmatlarini soddalashtirish chora-tadbirlari toʻgʻrisida”gi Farmoniga muvofiq buyuraman:\n\n1. ShNQ 3.01.01-22 “Qurilishd"
+                },
+                {
+                    "chunk_id": 6762,
+                    "chunk_index": 20,
+                    "section_type": "point",
+                    "section_number": "31³",
+                    "quality_status": "structured",
+                    "start_byte": 5947,
+                    "end_byte": 6087,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "31³. QMVVT va MMT uskunalarining texnik parametrlari mazkur ShNQning 8-ilovasida belgilangan minimal talablardan past boʻlmasligi lozim.\n\n",
+                    "source_window_start_byte": 5827,
+                    "source_window": "asofaviy monitoring uchun maʼlumot almashish, masofadan ulanish hamda axborot xavfsizligini taʼminlash yechimlarini.\n\n31³. QMVVT va MMT uskunalarining texnik parametrlari mazkur ShNQning 8-ilovasida belgilangan minimal talablardan past boʻlmasligi lozim.\n\n31⁴. Qurilish obyektidagi QMVVT va MMT quyidagilarni taʼminlashi lozim:\n\nvideokuzatuv bilan qamrab olinishi lozim boʻlgan zonalarni real vaqt rejimida kuzatishni;\n\nvideoaxborotni uzluksiz yoki harakat aniqlanganda yozib borishni hamda arxivlashni;\n\nmasofadan ulanish imkoniyatini;\n\nvideoyozuvlar va tizim hodisalari vaqtining yagona vaqt manbai bilan sinxronlashtirilishini.\n\n31⁵. QMVVT va MMT uskunalari qurilish-montaj ishlarini baj"
+                },
+                {
+                    "chunk_id": 6782,
+                    "chunk_index": 40,
+                    "section_type": "appendix",
+                    "section_number": "8",
+                    "quality_status": "structured",
+                    "start_byte": 13601,
+                    "end_byte": 16326,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "8-ILOVA\n\nQMVVT VA MMTning minimal texnik parametrlari\n\n| Texnik koʻrsatkich | I murakkablik toifasi | II murakkablik toifasi | III-IV murakkablik toifalari |\n| --- | --- | --- | --- |\n| Videokuzatuv kamerasi turi | doimiy (statsionar) IP-kamera | doimiy (statsionar) IP-kamera va hisob-kitob asosida ",
+                    "source_window_start_byte": 13481,
+                    "source_window": "ga\n2-ILOVA\n\n“ShNQ 3.01.01-22 “Qurilishda ishlab chiqarishni tashkil qilish” shaharsozlik normalari va qoidalariga\n8-ILOVA\n\nQMVVT VA MMTning minimal texnik parametrlari\n\n| Texnik koʻrsatkich | I murakkablik toifasi | II murakkablik toifasi | III-IV murakkablik toifalari |\n| --- | --- | --- | --- |\n| Videokuzatuv kamerasi turi | doimiy (statsionar) IP-kamera | doimiy (statsionar) IP-kamera va hisob-kitob asosida PTZ-kamera | doimiy (statsionar) IP-kamera va hisob-kitob asosida PTZ-kamera yoki panoramali kamera |\n| Tasvirning ajratish qobiliyati | kamida 2 MP | kamida 4 MP | kamida 4 MP, identifikatsiya talab qilinadigan muhim zonalarda kamida 8 MP |\n| Kunduzgi va tungi rejim | avtomatik"
+                },
+                {
+                    "chunk_id": 6780,
+                    "chunk_index": 38,
+                    "section_type": "appendix",
+                    "section_number": "1¹",
+                    "quality_status": "structured",
+                    "start_byte": 11938,
+                    "end_byte": 13484,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [],
+                    "content_excerpt": "1¹-ILOVA\n\nBeton ishlari jurnali\n\n| Ishni bajarish sanasi | Inshoot va konstruktiv elementning betonlanayotgan qismining nomi (koordinata oʻqlari va balandlik belgilari koʻrsatiladi) | Olib kelingan beton qorishmasining sinfi (markasi) | Loyihada belgilangan beton sinfi (markasi) | Beton qorishmasini",
+                    "source_window_start_byte": 11818,
+                    "source_window": "ga\n1-ILOVA\n\n“ShNQ 3.01.01-22 “Qurilishda ishlab chiqarishni tashkil qilish” shaharsozlik normalari va qoidalariga\n1¹-ILOVA\n\nBeton ishlari jurnali\n\n| Ishni bajarish sanasi | Inshoot va konstruktiv elementning betonlanayotgan qismining nomi (koordinata oʻqlari va balandlik belgilari koʻrsatiladi) | Olib kelingan beton qorishmasining sinfi (markasi) | Loyihada belgilangan beton sinfi (markasi) | Beton qorishmasining quyish paytidagi harorati, °C | Joyiga quyilgan beton hajmi (bir smenada), m³ | Tashqi havo harorati, °C | Nazorat namunalarining tamgʻasi (markirovkasi) | Laboratoriya sinovlari natijalari |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |"
+                }
+            ]
+        },
+        {
+            "content_id": 592,
+            "document_id": 249,
+            "title": "О мерах по развитию социальной и производственной инфраструктуры Республики Узбекистан в 2020-2022 годах",
+            "language": "ru",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "717f00f936163268e5bbc8b93700e9672c777e2b5f7c0aba74a72f7998890be5",
+            "source_bytes": 1846960,
+            "chunks": 68,
+            "source_url": "https://lex.uz/uz/docs/4691320",
+            "boundaries": [
+                {
+                    "chunk_id": 23238,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 6974,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "Постановление\n\nПрезидента Республики Узбекистан\n\n# О мерах по развитию социальной и производственной инфраструктуры Республики Узбекистан в 2020 — 2022 годах\n\nВ целях последовательной реализации задач, определенных Стратегией действий по пяти приоритетным направлениям развития Республики Узбекистан ",
+                    "source_window_start_byte": 0,
+                    "source_window": "Постановление\n\nПрезидента Республики Узбекистан\n\n# О мерах по развитию социальной и производственной инфраструктуры Республики Узбекистан в 2020 — 2022 годах\n\nВ целях последовательной реализации задач, определенных Стратегией действий по пяти приоритетным направлениям развития Республики Узбекистан в 2017 — 2021 годах, а также дальнейшего развития социальной, инженерно-коммуникаци"
+                },
+                {
+                    "chunk_id": 23272,
+                    "chunk_index": 34,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 273463,
+                    "end_byte": 276223,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "гг.\n[T4:R153C5;rowspan=1;colspan=1] уч. мест\n[T4:R153C6;rowspan=1;colspan=1] 2500\n[T4:R153C7;rowspan=1;colspan=1] \n[T4:R153C8;rowspan=2;colspan=1] 15 000,0\n[T4:R153C9;rowspan=2;colspan=1] 2 700,0\n[T4:R153C10;rowspan=2;colspan=1] 5 400,0\n[T4:R153C11;rowspan=2;colspan=1] 5 400,0\n[T4:R153C12;rowspan=2;",
+                    "source_window_start_byte": 273342,
+                    "source_window": "районе (здание профколледжа педагогики)\n[T4:R153C4;rowspan=2;colspan=1] 2018 — 2021\n\nгг.\n[T4:R153C5;rowspan=1;colspan=1] уч. мест\n[T4:R153C6;rowspan=1;colspan=1] 2500\n[T4:R153C7;rowspan=1;colspan=1] \n[T4:R153C8;rowspan=2;colspan=1] 15 000,0\n[T4:R153C9;rowspan=2;colspan=1] 2 700,0\n[T4:R153C10;rowspan=2;colspan=1] 5 400,0\n[T4:R153C11;rowspan=2;colspan=1] 5 400,0\n[T4:R153C12;rowspan=2;colspan=1] 1 500,0\n[T4:R153C13;rowspan=2;colspan=1] Постановление Президента Республики Узбекистан от 20.04.2017 г. № ПП-2909\n[T4:R154C5;rowspan=1;colspan=1] мест. общ.\n[T4:R154C6;rowspan=1;colspan=1] 400\n[T4:R154C"
+                },
+                {
+                    "chunk_id": 23305,
+                    "chunk_index": 67,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 1843699,
+                    "end_byte": 1846960,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "ПРИЛОЖЕНИЕ № 18 \nк постановлению Президента Республики Узбекистан от 10 января 2020 года № ПП-4565\n\nСостав\n\nРабочей группы по внедрению эффективной системы реализации социальных и инфраструктурных проектов в Ташкентской области\n\n| Раматов А.Ж. | — | первый заместитель Премьер-министра Республики Узб",
+                    "source_window_start_byte": 1843579,
+                    "source_window": "ной медицины | Постановление Кабинета Министров от 03.10.2019 г. № 840 |\n\nПРИЛОЖЕНИЕ № 18 \nк постановлению Президента Республики Узбекистан от 10 января 2020 года № ПП-4565\n\nСостав\n\nРабочей группы по внедрению эффективной системы реализации социальных и инфраструктурных проектов в Ташкентской области\n\n| Раматов А.Ж. | — | первый заместитель Премьер-министра Республики Узбекистан — министр тра"
+                },
+                {
+                    "chunk_id": 23242,
+                    "chunk_index": 4,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 27498,
+                    "end_byte": 34435,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized",
+                        "oversize_atomic"
+                    ],
+                    "content_excerpt": "[T1:R1C1;rowspan=1;colspan=1] \n[T1:R1C2;rowspan=1;colspan=1] \n[T1:R1C3;rowspan=1;colspan=1] \n[T1:R1C4;rowspan=1;colspan=1] 1,169\n[T1:R1C5;rowspan=1;colspan=1] \n[T1:R1C6;rowspan=1;colspan=1] \n[T1:R1C7;rowspan=1;colspan=1] \n[T1:R1C8;rowspan=1;colspan=1] \n[T1:R1C9;rowspan=1;colspan=1] 1,119\n[T1:R1C10;r",
+                    "source_window_start_byte": 27377,
+                    "source_window": "одственной инфраструктуры Республики Узбекистан в 2020 — 2022 годах\n\n[T1:R1C1;rowspan=1;colspan=1] \n[T1:R1C2;rowspan=1;colspan=1] \n[T1:R1C3;rowspan=1;colspan=1] \n[T1:R1C4;rowspan=1;colspan=1] 1,169\n[T1:R1C5;rowspan=1;colspan=1] \n[T1:R1C6;rowspan=1;colspan=1] \n[T1:R1C7;rowspan=1;colspan=1] \n[T1:R1C8;rowspan=1;colspan=1] \n[T1:R1C9;rowspan=1;colspan=1] 1,119\n[T1:R1C10;rowspan=1;colspan=1] млрд сум\n[T1:R2C1;rowspan=4;colspan=1] №\n[T1:R2C2;rowspan=4;colspan=1] Направление использования средств\n[T1:R2C3;rowspan=4;colspan=1] Прогноз на 2020 — 2022 годы\n[T1:R2C4;rowspan=1;colspan=7] в том "
+                }
+            ]
+        },
+        {
+            "content_id": 788,
+            "document_id": 322,
+            "title": "О мерах по реализации Инвестиционной программы Республики Узбекистан на 2020-2022 годы",
+            "language": "ru",
+            "source_quality": "needs_review",
+            "format": "html",
+            "source_checksum": "eff4f4e06d0239e5d6bdefccdc0dce802e5e1098daf5bea355f0c7a5dc2e377f",
+            "source_bytes": 2269361,
+            "chunks": 154,
+            "source_url": "https://lex.uz/uz/docs/4689644",
+            "boundaries": [
+                {
+                    "chunk_id": 26523,
+                    "chunk_index": 0,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 0,
+                    "end_byte": 7118,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "Постановление\n\nПрезидента Республики Узбекистан\n\n# О мерах по реализации Инвестиционной программы Республики Узбекистан на 2020 — 2022 годы\n\nВ стране принимаются комплексные меры по дальнейшей активизации инвестиционной политики, направленной, в том числе, на модернизацию и создание высокотехнологич",
+                    "source_window_start_byte": 0,
+                    "source_window": "Постановление\n\nПрезидента Республики Узбекистан\n\n# О мерах по реализации Инвестиционной программы Республики Узбекистан на 2020 — 2022 годы\n\nВ стране принимаются комплексные меры по дальнейшей активизации инвестиционной политики, направленной, в том числе, на модернизацию и создание высокотехнологичных производств, обеспечивающих глубокую переработку отечественных сырьевых рес"
+                },
+                {
+                    "chunk_id": 26600,
+                    "chunk_index": 77,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 1408897,
+                    "end_byte": 1412965,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized"
+                    ],
+                    "content_excerpt": "«Tianrun» (КНР)\n[T8:R351C7;rowspan=1;colspan=1] 7,0\n[T8:R351C8;rowspan=1;colspan=1] 5,3\n[T8:R351C9;rowspan=1;colspan=1] 5,3\n[T8:R351C10;rowspan=1;colspan=1] 0,8\n[T8:R351C11;rowspan=1;colspan=1] 1,1\n[T8:R351C12;rowspan=1;colspan=1] 1,6\n[T8:R351C13;rowspan=1;colspan=1] 1,9\n[T8:R351C14;rowspan=1;colspa",
+                    "source_window_start_byte": 1408777,
+                    "source_window": "1;colspan=1] прямые иностранные инвестиции\n[T8:R351C6;rowspan=1;colspan=1] компания\n\n«Tianrun» (КНР)\n[T8:R351C7;rowspan=1;colspan=1] 7,0\n[T8:R351C8;rowspan=1;colspan=1] 5,3\n[T8:R351C9;rowspan=1;colspan=1] 5,3\n[T8:R351C10;rowspan=1;colspan=1] 0,8\n[T8:R351C11;rowspan=1;colspan=1] 1,1\n[T8:R351C12;rowspan=1;colspan=1] 1,6\n[T8:R351C13;rowspan=1;colspan=1] 1,9\n[T8:R351C14;rowspan=1;colspan=2] 5,3\n[T8:R352C1;rowspan=1;colspan=1] 289.\n[T8:R352C2;rowspan=1;colspan=1] Организация производства профильной продукции на ООО «Rexau Eurasia»\n[T8:R352C3;rowspan=1;colspan=1] Хокимият Ташкентской обл"
+                },
+                {
+                    "chunk_id": 26676,
+                    "chunk_index": 153,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 1916877,
+                    "end_byte": 2269361,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized",
+                        "oversize_atomic",
+                        "maximum_length_exceeded"
+                    ],
+                    "content_excerpt": "[T10:R1C1;rowspan=1;colspan=1] \n[T10:R1C2;rowspan=1;colspan=1] \n[T10:R1C3;rowspan=1;colspan=1] \n[T10:R1C4;rowspan=1;colspan=1] \n[T10:R1C5;rowspan=1;colspan=1] \n[T10:R1C6;rowspan=1;colspan=1] \n[T10:R1C7;rowspan=1;colspan=1] \n[T10:R1C8;rowspan=1;colspan=1] млн. долл.\n[T10:R2C1;rowspan=1;colspan=1] № п",
+                    "source_window_start_byte": 1916757,
+                    "source_window": "тивных инвестиционных проектов, подлежащих проработке в 2020 году\n\n[T10:R1C1;rowspan=1;colspan=1] \n[T10:R1C2;rowspan=1;colspan=1] \n[T10:R1C3;rowspan=1;colspan=1] \n[T10:R1C4;rowspan=1;colspan=1] \n[T10:R1C5;rowspan=1;colspan=1] \n[T10:R1C6;rowspan=1;colspan=1] \n[T10:R1C7;rowspan=1;colspan=1] \n[T10:R1C8;rowspan=1;colspan=1] млн. долл.\n[T10:R2C1;rowspan=1;colspan=1] № п/п\n[T10:R2C2;rowspan=1;colspan=1] Наименование инициаторов и проектов\n[T10:R2C3;rowspan=1;colspan=1] Наименование регионов (область)\n[T10:R2C4;rowspan=1;colspan=1] Проектная мощность\n[T10:R2C5;"
+                },
+                {
+                    "chunk_id": 26526,
+                    "chunk_index": 3,
+                    "section_type": "paragraph",
+                    "section_number": null,
+                    "quality_status": "needs_review",
+                    "start_byte": 18118,
+                    "end_byte": 29178,
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "review_reasons": [
+                        "source_needs_review",
+                        "structure_uncertain",
+                        "structure_unrecognized",
+                        "oversize_atomic",
+                        "maximum_length_exceeded"
+                    ],
+                    "content_excerpt": "[T1:R1C1;rowspan=2;colspan=1] №\nп/п\n[T1:R1C2;rowspan=2;colspan=1] Наименование источников финансирования\n[T1:R1C3;rowspan=2;colspan=1] Прогноз на 2020 год\n[T1:R1C4;rowspan=1;colspan=4] В том числе:\n[T1:R1C8;rowspan=1;colspan=2] Прогнозные параметры на:\n[T1:R2C4;rowspan=1;colspan=1] I кв-л\n[T1:R2C5;r",
+                    "source_window_start_byte": 17997,
+                    "source_window": "гнозные параметры\n\nосвоения капитальных вложений в 2020 — 2022 годах\n\n[T1:R1C1;rowspan=2;colspan=1] №\nп/п\n[T1:R1C2;rowspan=2;colspan=1] Наименование источников финансирования\n[T1:R1C3;rowspan=2;colspan=1] Прогноз на 2020 год\n[T1:R1C4;rowspan=1;colspan=4] В том числе:\n[T1:R1C8;rowspan=1;colspan=2] Прогнозные параметры на:\n[T1:R2C4;rowspan=1;colspan=1] I кв-л\n[T1:R2C5;rowspan=1;colspan=1] II кв-л\n[T1:R2C6;rowspan=1;colspan=1] III кв-л\n[T1:R2C7;rowspan=1;colspan=1] IV кв-л\n[T1:R2C8;rowspan=1;colspan=1] 2021 г. *\n[T1:R2C9;rowspan=1;colspan=1] 2022 г. "
+                }
+            ]
+        }
+    ]
+}

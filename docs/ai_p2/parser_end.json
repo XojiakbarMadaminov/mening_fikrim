@@ -1,0 +1,32 @@
+{
+    "at": "2026-11-02T16:19:53+05:00",
+    "read_only": "on",
+    "campaign": {
+        "campaign_id": "corpus-30000-20261030",
+        "status": "running",
+        "current_new_canonical_count": 6659,
+        "used_http_requests": 53162,
+        "stop_reason": null
+    },
+    "counts": {
+        "documents": 10343,
+        "contents": 26400,
+        "failed_jobs": 43,
+        "migrations": 13
+    },
+    "actors": [
+        {
+            "pid": 207663,
+            "command": "php artisan documents:campaign worker --id=corpus-30000-20261030",
+            "start_ticks": "1730125",
+            "cpu_ticks": 38654
+        },
+        {
+            "pid": 207665,
+            "command": "php artisan documents:campaign run --id=corpus-30000-20261030",
+            "start_ticks": "1730125",
+            "cpu_ticks": 21041
+        }
+    ],
+    "original_git_status": " M app/Console/Commands/ManageCampaign.php\n M app/Jobs/ImportDocumentJob.php\n M app/Scraping/LexUz/PdfTextExtractor.php\n M app/Services/Scraping/DurableCampaign.php\n M app/Services/Scraping/RunItemTracker.php\n M docs/LEX_SCRAPING_TASKS.md\n M docs/PROJECT_CONTEXT.md\n M docs/collection_30000/README.md\n M docs/collection_30000/RECOVERY_20261102.md\nA  docs/p0/__pycache__/discovery_probe.cpython-312.pyc\nA  docs/p0/__pycache__/http_probe.cpython-312.pyc\nA  docs/p0/__pycache__/sample_import.cpython-312.pyc\nA  docs/p0_1/__pycache__/pdf_checks.cpython-312.pyc\nA  docs/p0_1/__pycache__/rules.cpython-312.pyc\nA  docs/p0_1/__pycache__/store_probe.cpython-312.pyc\nA  docs/p0_1/__pycache__/support.cpython-312.pyc\n M tests/Feature/CampaignRecoveryTest.php\n M tests/Feature/DurableTrackingTest.php\n?? app/Console/Commands/ScrapingHealth.php\n?? app/Services/Scraping/ScrapingDependencyException.php\n?? app/Services/Scraping/ScrapingDependencyHealth.php\n?? docs/collection_30000/OCR_RECOVERY_20261102.md\n?? docs/collection_30000/ocr_recovery_20261102/\n?? docs/collection_30000/recovery_20261102_1212/\n?? tests/Feature/ScrapingDependencyHealthTest.php\n"
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-03T18:13:26.825624+05:00",
+  "phpunit": {
+    "passed": true,
+    "tests": 316,
+    "assertions": 9330,
+    "duration": "03:35.384",
+    "database": "mening_fikrim_active_test",
+    "source_calls": 0,
+    "source_call_guard": "Tests\\TestCase Factory::preventStrayRequests"
+  },
+  "pint": {
+    "tool": "pint",
+    "result": "passed"
+  },
+  "git_diff_check_passed": true,
+  "final_checked_at": "2026-11-03T18:20:15.619447+05:00"
+}

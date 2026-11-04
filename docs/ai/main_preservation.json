@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "read_only": true,
+    "database": true,
+    "counts": true,
+    "tables": true,
+    "schema_sha256": true,
+    "campaigns": true,
+    "failed_jobs_sha256": true,
+    "historical_campaigns_sha256": true
+  },
+  "all_passed": true
+}

@@ -1,0 +1,307 @@
+{
+    "at": "2026-11-02T15:17:20+05:00",
+    "database": "mening_fikrim_ai_dev",
+    "counts": {
+        "documents": 10036,
+        "contents": 25691,
+        "sets": 19,
+        "chunks": 2295,
+        "queued": 0
+    },
+    "source_quality": [
+        {
+            "language": "en",
+            "quality_status": "needs_review",
+            "format": "html",
+            "count": 36
+        },
+        {
+            "language": "en",
+            "quality_status": "verified",
+            "format": "html",
+            "count": 72
+        },
+        {
+            "language": "ru",
+            "quality_status": "needs_review",
+            "format": "html",
+            "count": 1319
+        },
+        {
+            "language": "ru",
+            "quality_status": "verified",
+            "format": "html",
+            "count": 4448
+        },
+        {
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "format": "html",
+            "count": 2319
+        },
+        {
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "format": "ocr",
+            "count": 50
+        },
+        {
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "format": "pdf",
+            "count": 63
+        },
+        {
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "format": "html",
+            "count": 7537
+        },
+        {
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "format": "html",
+            "count": 2365
+        },
+        {
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "format": "ocr",
+            "count": 5
+        },
+        {
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "format": "pdf",
+            "count": 35
+        },
+        {
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "format": "html",
+            "count": 7442
+        }
+    ],
+    "categories": [
+        {
+            "document_type": "Постановление",
+            "count": 6932
+        },
+        {
+            "document_type": "Решение",
+            "count": 1714
+        },
+        {
+            "document_type": "Приказ",
+            "count": 558
+        },
+        {
+            "document_type": "Указ",
+            "count": 402
+        },
+        {
+            "document_type": "Закон",
+            "count": 281
+        },
+        {
+            "document_type": "Распоряжение",
+            "count": 44
+        },
+        {
+            "document_type": "Закон Республики Каракалпакстан",
+            "count": 25
+        },
+        {
+            "document_type": "Соглашение",
+            "count": 22
+        },
+        {
+            "document_type": "Кодекс",
+            "count": 9
+        },
+        {
+            "document_type": "Правила",
+            "count": 9
+        },
+        {
+            "document_type": "Стандарт",
+            "count": 6
+        },
+        {
+            "document_type": "Меморандум",
+            "count": 6
+        },
+        {
+            "document_type": "Перечень",
+            "count": 5
+        },
+        {
+            "document_type": "Нормативы",
+            "count": 5
+        },
+        {
+            "document_type": "Решение (Конституционного суда)",
+            "count": 4
+        },
+        {
+            "document_type": "Программа",
+            "count": 3
+        },
+        {
+            "document_type": "Протокол",
+            "count": 2
+        },
+        {
+            "document_type": "Договор",
+            "count": 1
+        },
+        {
+            "document_type": "Декларация",
+            "count": 1
+        },
+        {
+            "document_type": "Qaror (Resheniye)",
+            "count": 1
+        },
+        {
+            "document_type": "Определение",
+            "count": 1
+        },
+        {
+            "document_type": "Коммюнике",
+            "count": 1
+        },
+        {
+            "document_type": "Изменения и дополнения",
+            "count": 1
+        },
+        {
+            "document_type": "Требования",
+            "count": 1
+        },
+        {
+            "document_type": "Приговор",
+            "count": 1
+        },
+        {
+            "document_type": "Положение",
+            "count": 1
+        }
+    ],
+    "lengths": {
+        "min": 73,
+        "max": 3789534,
+        "average": "19014.724728504145",
+        "bytes": 651169442
+    },
+    "largest": [
+        {
+            "id": 22725,
+            "document_id": 8872,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "chars": 3789534,
+            "document_type": "Постановление",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida"
+        },
+        {
+            "id": 25254,
+            "document_id": 9870,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "chars": 2636916,
+            "document_type": "Постановление",
+            "title": "Moddiy madaniy merosning ko‘chmas mulk obyektlari milliy ro‘yxatini tasdiqlash to‘g‘risida"
+        },
+        {
+            "id": 20503,
+            "document_id": 7998,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "chars": 2331342,
+            "document_type": "Постановление",
+            "title": "O‘zbekiston Respublikasining 2019-yilga mo‘ljallangan Investitsiya dasturini amalga oshirish chora-tadbirlari to‘g‘risida"
+        },
+        {
+            "id": 25255,
+            "document_id": 9870,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "chars": 2689241,
+            "document_type": "Постановление",
+            "title": "Moddiy madaniy merosning ko‘chmas mulk obyektlari milliy ro‘yxatini tasdiqlash to‘g‘risida"
+        },
+        {
+            "id": 15229,
+            "document_id": 6029,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "chars": 2004965,
+            "document_type": "Указ",
+            "title": "Hunarmandchilikni yanada rivojlantirish va hunarmandlarni har tomonlama qo‘llab-quvvatlash chora-tadbirlari to‘g‘risida"
+        },
+        {
+            "id": 15230,
+            "document_id": 6029,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "chars": 2005871,
+            "document_type": "Указ",
+            "title": "Hunarmandchilikni yanada rivojlantirish va hunarmandlarni har tomonlama qo‘llab-quvvatlash chora-tadbirlari to‘g‘risida"
+        },
+        {
+            "id": 788,
+            "document_id": 322,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "chars": 1894626,
+            "document_type": "Постановление",
+            "title": "O‘zbekiston Respublikasining 2020-2022-yillarga mo‘ljallangan Investitsiya dasturini amalga oshirish chora-tadbirlari to‘g‘risida"
+        },
+        {
+            "id": 8843,
+            "document_id": 3634,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "chars": 1866619,
+            "document_type": "Постановление",
+            "title": "O‘zbekiston Respublikasining 2022-2026-yillarga mo‘ljallangan investitsiya dasturini tasdiqlash hamda investitsiya loyihalarini boshqarishning yangi y"
+        },
+        {
+            "id": 4489,
+            "document_id": 1803,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "chars": 1916497,
+            "document_type": "Постановление",
+            "title": "“Obod qishloq” va “Obod mahalla” dasturlarini amalga oshirish bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida"
+        },
+        {
+            "id": 15231,
+            "document_id": 6029,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "chars": 2045957,
+            "document_type": "Указ",
+            "title": "Hunarmandchilikni yanada rivojlantirish va hunarmandlarni har tomonlama qo‘llab-quvvatlash chora-tadbirlari to‘g‘risida"
+        }
+    ],
+    "chunk_quality": [
+        {
+            "quality_status": "needs_review",
+            "count": 161
+        },
+        {
+            "quality_status": "structured",
+            "count": 2134
+        }
+    ],
+    "chunk_lengths": {
+        "min": 15,
+        "max": 3996,
+        "average": "955.4692810457516340",
+        "over_target": 0
+    },
+    "document_chunk_sets_sha256": "ef3f0c6d8b48405acab09d0a7d2439df5c8f0b8e543f7e27bbf13d2875dd5e57",
+    "document_chunks_sha256": "5ed03eb65ebed6fe333f22678103bca5dac6046998446fb530c281f068173668"
+}

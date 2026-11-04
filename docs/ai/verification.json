@@ -1,0 +1,389 @@
+{
+    "checked_at": "2026-11-02T11:58:44+05:00",
+    "database": "mening_fikrim_ai_dev",
+    "source_requests": 0,
+    "documents": [
+        {
+            "document_id": 1,
+            "title": "O‘zbekiston Respublikasining Mehnat kodeksi",
+            "languages": [
+                {
+                    "content_id": 1,
+                    "language": "uz-Latn",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 732821,
+                    "chunks": 700,
+                    "articles": 593,
+                    "quality_counts": {
+                        "structured": 700
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                },
+                {
+                    "content_id": 2,
+                    "language": "ru",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 1229133,
+                    "chunks": 698,
+                    "articles": 593,
+                    "quality_counts": {
+                        "structured": 698
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                },
+                {
+                    "content_id": 3,
+                    "language": "uz-Cyrl",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 1258522,
+                    "chunks": 698,
+                    "articles": 593,
+                    "quality_counts": {
+                        "structured": 698
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 2096
+        },
+        {
+            "document_id": 2,
+            "title": "Qattiq maishiy chiqindilarini olib chiqish va hududlarni obodonlashtirish xizmatini ko‘rsatish bo‘yicha to‘lov tariflarini tasdiqlash to‘g‘risida",
+            "languages": [
+                {
+                    "content_id": 4,
+                    "language": "uz-Latn",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 5272,
+                    "chunks": 10,
+                    "articles": 0,
+                    "quality_counts": {
+                        "structured": 10
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                },
+                {
+                    "content_id": 5,
+                    "language": "uz-Cyrl",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 9041,
+                    "chunks": 10,
+                    "articles": 0,
+                    "quality_counts": {
+                        "structured": 10
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 20
+        },
+        {
+            "document_id": 3,
+            "title": "Shahardagi ayrim koʻchalarni birlashtirgan holda qayta nomlash to‘g‘risida",
+            "languages": [
+                {
+                    "content_id": 6,
+                    "language": "uz-Latn",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 3363,
+                    "chunks": 9,
+                    "articles": 0,
+                    "quality_counts": {
+                        "structured": 9
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                },
+                {
+                    "content_id": 7,
+                    "language": "uz-Cyrl",
+                    "format": "html",
+                    "source_quality": "verified",
+                    "source_bytes": 5676,
+                    "chunks": 9,
+                    "articles": 0,
+                    "quality_counts": {
+                        "structured": 9
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 18
+        },
+        {
+            "document_id": 22,
+            "title": "Uran qazib olish bo‘yicha konchilik faoliyati uchun radiatsiyani boshqarish rejasiga qo‘yiladigan talablarni tasdiqlash to‘g‘risida",
+            "languages": [
+                {
+                    "content_id": 53,
+                    "language": "uz-Latn",
+                    "format": "pdf",
+                    "source_quality": "needs_review",
+                    "source_bytes": 21537,
+                    "chunks": 47,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 47
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 47
+        },
+        {
+            "document_id": 24,
+            "title": "Qimmatli qogʻozlar bozorida axborot taqdim etish va eʼlon qilish qoidalariga o‘zgartirish va qo‘shimchalar kiritish to‘g‘risida",
+            "languages": [
+                {
+                    "content_id": 56,
+                    "language": "uz-Latn",
+                    "format": "pdf",
+                    "source_quality": "needs_review",
+                    "source_bytes": 37746,
+                    "chunks": 60,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 60
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 60
+        },
+        {
+            "document_id": 25,
+            "title": "Kommunal xizmatlarga tariflarni shakllantirish boʻyicha nizomga oʻzgartirishlar kiritish toʻgʻrisida",
+            "languages": [
+                {
+                    "content_id": 57,
+                    "language": "uz-Latn",
+                    "format": "pdf",
+                    "source_quality": "needs_review",
+                    "source_bytes": 6733,
+                    "chunks": 10,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 10
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 10
+        },
+        {
+            "document_id": 8059,
+            "title": "Туманнинг Бўстон шаҳрида ҳаракат хавсизлигини таъминлаш тўғрисида",
+            "languages": [
+                {
+                    "content_id": 20638,
+                    "language": "uz-Latn",
+                    "format": "ocr",
+                    "source_quality": "needs_review",
+                    "source_bytes": 3805,
+                    "chunks": 1,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 1
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 1
+        },
+        {
+            "document_id": 8665,
+            "title": "Элликқалъа туман давлат ўрмон хўжалиги ўрмонзорларида ёнғинларнинг олдини олиш ва унга қарши курашни кучайтириш тўғрисида",
+            "languages": [
+                {
+                    "content_id": 22189,
+                    "language": "uz-Latn",
+                    "format": "ocr",
+                    "source_quality": "needs_review",
+                    "source_bytes": 4870,
+                    "chunks": 2,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 2
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 2
+        },
+        {
+            "document_id": 8683,
+            "title": "Районда 2019-жылда жумыссыз деп табылған пуқараларды жумысқа орналастырыў, жәмийетлик жумысларға қатнастырыў ҳаққында",
+            "languages": [
+                {
+                    "content_id": 22223,
+                    "language": "uz-Latn",
+                    "format": "ocr",
+                    "source_quality": "needs_review",
+                    "source_bytes": 10640,
+                    "chunks": 3,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 3
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 3
+        },
+        {
+            "document_id": 766,
+            "title": "Амударё туманидаги кўчалар ва шоҳ кўчаларга ном бериш ва айрим кўчаларнинг номларини ўзгартириш тўғрисида",
+            "languages": [
+                {
+                    "content_id": 1990,
+                    "language": "uz-Cyrl",
+                    "format": "pdf",
+                    "source_quality": "needs_review",
+                    "source_bytes": 3555,
+                    "chunks": 6,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 6
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 6
+        },
+        {
+            "document_id": 784,
+            "title": "Беруний туманида янгидан «Оби-ҳаёт», «Лолазор» ва «Саройкўл» маҳалла фуқаролар йиғинини ташкил қилиш, шунингдек тумандаги айрим фуқаролар йиғинларининг жойлашишини тартибга солиш тўғрисида",
+            "languages": [
+                {
+                    "content_id": 2023,
+                    "language": "uz-Cyrl",
+                    "format": "pdf",
+                    "source_quality": "needs_review",
+                    "source_bytes": 9935,
+                    "chunks": 19,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 19
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 19
+        },
+        {
+            "document_id": 834,
+            "title": "Туман ҳудудида йўл ҳаракати хавфсизлигини таъминлаш тўғрисида",
+            "languages": [
+                {
+                    "content_id": 2112,
+                    "language": "uz-Cyrl",
+                    "format": "pdf",
+                    "source_quality": "needs_review",
+                    "source_bytes": 3245,
+                    "chunks": 7,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 7
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 7
+        },
+        {
+            "document_id": 158,
+            "title": "Шўрчи туманида дам олиш кунлари савдо ярмаркалари ташкил этишни самарали йўлга қўйиш чора-тадбирлари тўғрисида",
+            "languages": [
+                {
+                    "content_id": 360,
+                    "language": "uz-Cyrl",
+                    "format": "ocr",
+                    "source_quality": "needs_review",
+                    "source_bytes": 12722,
+                    "chunks": 2,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 2
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 2
+        },
+        {
+            "document_id": 786,
+            "title": "Туман ҳудудида йўл ҳаракати хавфсизлигини таъминлаш тўғрисида",
+            "languages": [
+                {
+                    "content_id": 2026,
+                    "language": "uz-Cyrl",
+                    "format": "ocr",
+                    "source_quality": "needs_review",
+                    "source_bytes": 11333,
+                    "chunks": 3,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 3
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 3
+        },
+        {
+            "document_id": 802,
+            "title": "Туман худудидаги барча юридик ва жисмоний шахсларга тегишли бўлган автомототранспорт воситаларини 2020 йилда мажбурий техник кўрикдан ўтказиш ҳақида",
+            "languages": [
+                {
+                    "content_id": 2055,
+                    "language": "uz-Cyrl",
+                    "format": "ocr",
+                    "source_quality": "needs_review",
+                    "source_bytes": 5091,
+                    "chunks": 1,
+                    "articles": 0,
+                    "quality_counts": {
+                        "needs_review": 1
+                    },
+                    "oversize_chunks": 0,
+                    "coverage_verified": true
+                }
+            ],
+            "chunks": 1
+        }
+    ],
+    "errors": [],
+    "repeat_command_unchanged": true,
+    "processed_documents": 15,
+    "processed_contents": 19,
+    "total_chunks": 2295,
+    "queue_jobs": 0,
+    "quality_counts": {
+        "needs_review": 161,
+        "structured": 2134
+    },
+    "source_corpus_unchanged": true
+}

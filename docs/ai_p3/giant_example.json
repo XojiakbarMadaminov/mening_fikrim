@@ -1,0 +1,25 @@
+{
+    "source_chunk": {
+        "id": 188626,
+        "document_id": 3637,
+        "document_content_id": 8852,
+        "language": "uz-Latn",
+        "section_type": "appendix",
+        "source_url": "https://lex.uz/uz/docs/-5801444",
+        "characters": 748614
+    },
+    "derived": {
+        "passages": 251,
+        "max_body": 3022,
+        "total_body_bytes": 749020
+    },
+    "example": {
+        "id": 7152,
+        "start_byte": 388063,
+        "end_byte": 391066,
+        "start_char": 385528,
+        "end_char": 388528,
+        "suitability": "review",
+        "lineage": "[{\"end_byte\": 391066, \"start_byte\": 388063, \"section_type\": \"appendix\", \"section_number\": \"4\", \"source_chunk_id\": 188626, \"source_chunk_end_byte\": 1137083, \"source_chunk_start_byte\": 388063}]"
+    }
+}

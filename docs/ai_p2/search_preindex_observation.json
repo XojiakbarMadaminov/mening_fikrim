@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-11-02",
+  "method": "PostgreSQL EXPLAIN ANALYZE on real current structured Latin chunks, query mehnat, limit 10",
+  "result": "Cancelled the agents own AI-only benchmark after observing 44.84 seconds active execution; no result or precise completion time claimed.",
+  "backend_pid": 235398,
+  "main_database_touched": false,
+  "followup": "Build a concurrent partial GIN expression index only on structured AI chunks; remeasure with a fixed timeout and stable snapshot."
+}

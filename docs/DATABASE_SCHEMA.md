@@ -462,3 +462,19 @@ CREATE UNIQUE INDEX source_archive_observations_pkey ON public.source_archive_ob
 - `2026_10_29_000010_create_source_archives` (batch 4)
 - `2026_10_29_000012_allow_bounded_corpus_collection` (batch 5)
 - `2026_10_30_000013_allow_bounded_30000_collection` (batch 6)
+
+## Separate AI DEV schema — 2026-11-02
+
+The MAIN schema described above is unchanged:16tables/13migrations,no chunks. The user's separate AI task created `mening_fikrim_ai_dev` from only document_sources/documents/document_identifiers/document_contents. Its independent migration path adds document_chunk_sets,document_chunks,ai_jobs and a new AI-only migration repository; the source-content composite UNIQUE exists only in the AI copy. Do not regenerate this MAIN schema document from the AI connection. See [AI_DATABASE.md](AI_DATABASE.md) and [LEGAL_CHUNKING.md](LEGAL_CHUNKING.md) for exact separation, constraints and safeguards.
+
+
+AI DEV P2 adds migrations 000002–000004 only in database/ai-migrations: generation uniqueness now includes input fingerprint; is_current has a per-source partial UNIQUE and invalidation triggers on the AI source copy; attempts/error diagnostics are durable; one all-quality GIN expression index supports PostgreSQL lexical search. No new P2 business table, MAIN migration or embedding/vector index. AI has four applied AI migrations; current corpus generation metrics and schema decisions are in AI_CHUNKING_P2_REPORT.md.
+
+
+## AI DEV P3 only — retrieval layer
+
+AI-only migrations `2026_11_03_000005_create_retrieval_passages` and `000006_index_retrieval_keywords` run only through the guarded `legal:migrate` path. They do not affect MAIN or normal parser migrations. Existing sets gain `layer` (`source` default or `retrieval`) and nullable `source_generation_id` with a layer/parent check and self-FK. The unique partial current index is `(document_content_id,layer) WHERE is_current`; the original generation identity unique key remains.
+
+`retrieval_passages` stores generation/document/content/language IDs, passage index, exact body/hash, byte and character bounds, suitability, original-chunk `lineage` JSONB and context/input/quality `metadata` JSONB. Composite source/content/generation foreign keys protect translation identity; a generation/index unique key prevents duplicates. Body SQL limit is 32,000 characters for a schema ceiling; the pinned P3 application policy and verifier enforce the tighter 3,500 body / 4,096 contextual input bounds. Lineage references in JSON are independently checked against the original source generation/chunk IDs and exact bounds.
+
+The passage table has one simple-lexeme body GIN, added after pilot measurements; source chunks/indexes/history are retained. AI sets have separate current source-v2 and retrieval-v3 rows. A source mutation invalidates current rows in both layers. No embedding/vector storage or automatic sync is implemented. Full schema/behavior is described in [UNIVERSAL_CHUNKING.md](UNIVERSAL_CHUNKING.md).

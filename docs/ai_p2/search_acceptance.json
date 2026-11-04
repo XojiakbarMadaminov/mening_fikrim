@@ -1,0 +1,464 @@
+{
+    "at": "2026-11-02T16:17:47+05:00",
+    "source_requests": 0,
+    "checks": [
+        {
+            "query": "mehnat",
+            "language": "uz-Latn",
+            "quality": "structured",
+            "category": null,
+            "seconds": 0.055836,
+            "returned": 5,
+            "next_page": 2,
+            "result_ids": [
+                4466,
+                4471,
+                4472,
+                4473,
+                4474
+            ],
+            "first_result": {
+                "id": 4466,
+                "document_id": 1,
+                "document_content_id": 1,
+                "chunk_index": 0,
+                "section_type": "title",
+                "section_number": null,
+                "section_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+                "language": "uz-Latn",
+                "source_url": "https://lex.uz/uz/docs/-6257288",
+                "content_hash": "ee665744e725a01316fd70eaff2338cf8afe73337ab607f667ed9b4d066adf03",
+                "source_checksum": "f4aa01ce50a5d59ae66c9525da0f97bec0a95cc5d809a640a5a60392441ad9bd",
+                "chunking_version": "legal-v2",
+                "quality_status": "structured",
+                "metadata": {
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "end_byte": 48,
+                    "fallback": false,
+                    "oversize": false,
+                    "boundaries": [],
+                    "characters": 47,
+                    "start_byte": 0,
+                    "overlap_bytes": 0,
+                    "source_format": "html",
+                    "contains_table": false,
+                    "review_reasons": [],
+                    "source_quality": "verified",
+                    "estimated_tokens": 12,
+                    "maximum_characters": 8000,
+                    "token_count_method": "heuristic_chars_div_4",
+                    "structure_uncertain": false,
+                    "subdivision_context": {
+                        "part": null,
+                        "point": null,
+                        "subpoint": null
+                    },
+                    "source_quality_issues": []
+                },
+                "document_title": "O‘zbekiston Respublikasining Mehnat kodeksi",
+                "document_type": "Кодекс",
+                "legal_status": "active",
+                "excerpt": "# Oʻzbekiston Respublikasining Mehnat kodeksi\n\n"
+            }
+        },
+        {
+            "query": "huquq",
+            "language": "uz-Latn",
+            "quality": "structured",
+            "category": "Закон",
+            "seconds": 0.020016,
+            "returned": 5,
+            "next_page": 2,
+            "result_ids": [
+                30019,
+                30025,
+                36025,
+                36040,
+                47178
+            ],
+            "first_result": {
+                "id": 30019,
+                "document_id": 412,
+                "document_content_id": 1027,
+                "chunk_index": 31,
+                "section_type": "article",
+                "section_number": "22¹⁰",
+                "section_title": "22¹⁰-modda. Qoraqalpogʻiston Respublikasi Adliya vazirligining, adliya boshqarmalarining notariat sohasidagi vakolatlari",
+                "language": "uz-Latn",
+                "source_url": "https://lex.uz/uz/docs/-4697587",
+                "content_hash": "79e66110c8550480ff0b2ded68391a4fedd0fbee9a26af40c17c738620b13fda",
+                "source_checksum": "8eb597661f8689ee93adbca3584460fe1d01a78bb7d428297f6fd5a6521da598",
+                "chunking_version": "legal-v2",
+                "quality_status": "structured",
+                "metadata": {
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "22¹⁰-modda. Qoraqalpogʻiston Respublikasi Adliya vazirligining, adliya boshqarmalarining notariat sohasidagi vakolatlari",
+                            "number": "22¹⁰"
+                        },
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "end_byte": 44613,
+                    "fallback": false,
+                    "oversize": false,
+                    "boundaries": [
+                        {
+                            "type": "subpoint",
+                            "title": "25) 23-moddaning birinchi qismi:",
+                            "number": "25",
+                            "offset": 43797
+                        },
+                        {
+                            "type": "subpoint",
+                            "title": "26) 34-modda:",
+                            "number": "26",
+                            "offset": 44271
+                        },
+                        {
+                            "type": "subpoint",
+                            "title": "27) quyidagi mazmundagi 61¹-modda bilan toʻldirilsin:",
+                            "number": "27",
+                            "offset": 44556
+                        }
+                    ],
+                    "characters": 2594,
+                    "start_byte": 41963,
+                    "overlap_bytes": 0,
+                    "source_format": "html",
+                    "contains_table": false,
+                    "review_reasons": [],
+                    "source_quality": "verified",
+                    "estimated_tokens": 649,
+                    "maximum_characters": 8000,
+                    "token_count_method": "heuristic_chars_div_4",
+                    "structure_uncertain": false,
+                    "subdivision_context": {
+                        "part": null,
+                        "point": null,
+                        "subpoint": null
+                    },
+                    "source_quality_issues": []
+                },
+                "document_title": "Notariat tizimi tubdan isloh qilinishi munosabati bilan O‘zbekiston Respublikasining ayrim qonun hujjatlariga o‘zgartish va qo‘shimchalar kiritish to‘g‘risida",
+                "document_type": "Закон",
+                "legal_status": "active",
+                "excerpt": "### 22¹⁰-modda. Qoraqalpogʻiston Respublikasi Adliya vazirligining, adliya boshqarmalarining notariat sohasidagi vakolatlari\n\nQoraqalpogʻiston Respublikasi Adliya vazirligi, adliya boshqarmalari oʻz vakolatlari doirasida:\n\nnotariuslar tomonidan amalga oshirilgan notarial harakatlarning qonuniyligi ustidan nazoratni amalga oshiradi;\n\nnotariuslarga uslubiy va amaliy yordam koʻrsatadi;\n\nnotarial amaliyotni umumlashtiradi;\n\nmalaka komissiyasining faoliyatini tashkil etadi;\n\nxususiy amaliyot bilan shugʻullanuvchi notariuslar faoliyatini litsenziyalaydi;\n\nNotarial palata bilan birgalikda notarius st"
+            }
+        },
+        {
+            "query": "меҳнат",
+            "language": "uz-Cyrl",
+            "quality": "structured",
+            "category": null,
+            "seconds": 0.041733,
+            "returned": 5,
+            "next_page": 2,
+            "result_ids": [
+                5864,
+                5869,
+                5870,
+                5871,
+                5872
+            ],
+            "first_result": {
+                "id": 5864,
+                "document_id": 1,
+                "document_content_id": 3,
+                "chunk_index": 0,
+                "section_type": "title",
+                "section_number": null,
+                "section_title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+                "language": "uz-Cyrl",
+                "source_url": "https://lex.uz/uz/docs/6257288",
+                "content_hash": "5c0bbf741812ba09a364a531a71f760fde731409cb98a49ace51b7e044e9d78b",
+                "source_checksum": "57aa68e6725200d239bef9e7c458eccc1aebfd377d6ae1cb3b1edc26015ae2fe",
+                "chunking_version": "legal-v2",
+                "quality_status": "structured",
+                "metadata": {
+                    "context": {
+                        "article": null,
+                        "chapter": null,
+                        "section": null,
+                        "document_part": null
+                    },
+                    "end_byte": 85,
+                    "fallback": false,
+                    "oversize": false,
+                    "boundaries": [],
+                    "characters": 46,
+                    "start_byte": 0,
+                    "overlap_bytes": 0,
+                    "source_format": "html",
+                    "contains_table": false,
+                    "review_reasons": [],
+                    "source_quality": "verified",
+                    "estimated_tokens": 12,
+                    "maximum_characters": 8000,
+                    "token_count_method": "heuristic_chars_div_4",
+                    "structure_uncertain": false,
+                    "subdivision_context": {
+                        "part": null,
+                        "point": null,
+                        "subpoint": null
+                    },
+                    "source_quality_issues": []
+                },
+                "document_title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+                "document_type": "Кодекс",
+                "legal_status": "active",
+                "excerpt": "# Ўзбекистон Республикасининг Меҳнат кодекси\n\n"
+            }
+        },
+        {
+            "query": "ҳуқуқ",
+            "language": "uz-Cyrl",
+            "quality": "all",
+            "category": null,
+            "seconds": 0.025409,
+            "returned": 5,
+            "next_page": 2,
+            "result_ids": [
+                5890,
+                5891,
+                5894,
+                5911,
+                5917
+            ],
+            "first_result": {
+                "id": 5890,
+                "document_id": 1,
+                "document_content_id": 3,
+                "chunk_index": 26,
+                "section_type": "article",
+                "section_number": "19",
+                "section_title": "19-модда. Ходим ва иш берувчи якка тартибдаги меҳнатга оид муносабатларнинг субъектлари сифатида",
+                "language": "uz-Cyrl",
+                "source_url": "https://lex.uz/uz/docs/6257288",
+                "content_hash": "ad5d6d55617bfe279a4e9b202f695aaf1e92f8319027408f45d568f762c90fed",
+                "source_checksum": "57aa68e6725200d239bef9e7c458eccc1aebfd377d6ae1cb3b1edc26015ae2fe",
+                "chunking_version": "legal-v2",
+                "quality_status": "structured",
+                "metadata": {
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "19-модда. Ходим ва иш берувчи якка тартибдаги меҳнатга оид муносабатларнинг субъектлари сифатида",
+                            "number": "19"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "3-боб. Якка тартибдаги меҳнатга оид муносабатларнинг субъектлари ва юзага келиш асослари",
+                            "number": "3"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "I БЎЛИМ. УМУМИЙ ҚОИДАЛАР",
+                            "number": "I"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "УМУМИЙ ҚИСМ",
+                            "number": null
+                        }
+                    },
+                    "end_byte": 45467,
+                    "fallback": false,
+                    "oversize": false,
+                    "boundaries": [],
+                    "characters": 1322,
+                    "start_byte": 43020,
+                    "overlap_bytes": 0,
+                    "source_format": "html",
+                    "contains_table": false,
+                    "review_reasons": [],
+                    "source_quality": "verified",
+                    "estimated_tokens": 331,
+                    "maximum_characters": 8000,
+                    "token_count_method": "heuristic_chars_div_4",
+                    "structure_uncertain": false,
+                    "subdivision_context": {
+                        "part": null,
+                        "point": null,
+                        "subpoint": null
+                    },
+                    "source_quality_issues": []
+                },
+                "document_title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+                "document_type": "Кодекс",
+                "legal_status": "active",
+                "excerpt": "### 19-модда. Ходим ва иш берувчи якка тартибдаги меҳнатга оид муносабатларнинг субъектлари сифатида\n\nХодим ва иш берувчи якка тартибдаги меҳнатга оид муносабатларнинг субъектларидир.\n\nМеҳнатга оид ҳуқуқ лаёқатига ва муомала лаёқатига эга бўлган, ушбу Кодексда белгиланган ёшга етган ҳамда иш берувчи билан меҳнат шартномаси тузган Ўзбекистон Республикаси фуқаролари, шунингдек чет эл фуқаролари ва фуқаролиги бўлмаган шахслар ходимлар бўлиши мумкин.\n\nҚуйидагилар иш берувчилар сифатида иш юритиши мумкин:\n\nмулкчилик шаклидан ва идоравий мансублигидан қатъи назар, ташкилотлар;\n\nташкилотларнинг филиа"
+            }
+        },
+        {
+            "query": "труд",
+            "language": "ru",
+            "quality": "structured",
+            "category": null,
+            "seconds": 0.005728,
+            "returned": 5,
+            "next_page": 2,
+            "result_ids": [
+                5171,
+                5174,
+                5196,
+                5197,
+                5449
+            ],
+            "first_result": {
+                "id": 5171,
+                "document_id": 1,
+                "document_content_id": 2,
+                "chunk_index": 5,
+                "section_type": "article",
+                "section_number": "2",
+                "section_title": "Статья 2. Основные задачи настоящего Кодекса",
+                "language": "ru",
+                "source_url": "https://lex.uz/uz/docs/6257291",
+                "content_hash": "58f1ff4b6ca0df3b5957c2316f3cbfb83734df1a55489f2173bf41ad2f21f137",
+                "source_checksum": "6a8eadeab8857f2dfcca71956dabff6f6ce9087237ac231dc038debfdef1efcd",
+                "chunking_version": "legal-v2",
+                "quality_status": "structured",
+                "metadata": {
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "Статья 2. Основные задачи настоящего Кодекса",
+                            "number": "2"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "Глава 1. Основные положения",
+                            "number": "1"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ",
+                            "number": "I"
+                        },
+                        "document_part": {
+                            "type": "document_part",
+                            "title": "ОБЩАЯ ЧАСТЬ",
+                            "number": null
+                        }
+                    },
+                    "end_byte": 1837,
+                    "fallback": false,
+                    "oversize": false,
+                    "boundaries": [],
+                    "characters": 610,
+                    "start_byte": 714,
+                    "overlap_bytes": 0,
+                    "source_format": "html",
+                    "contains_table": false,
+                    "review_reasons": [],
+                    "source_quality": "verified",
+                    "estimated_tokens": 153,
+                    "maximum_characters": 8000,
+                    "token_count_method": "heuristic_chars_div_4",
+                    "structure_uncertain": false,
+                    "subdivision_context": {
+                        "part": null,
+                        "point": null,
+                        "subpoint": null
+                    },
+                    "source_quality_issues": []
+                },
+                "document_title": "Трудовой кодекс Республики Узбекистан",
+                "document_type": "Кодекс",
+                "legal_status": "active",
+                "excerpt": "### Статья 2. Основные задачи настоящего Кодекса\n\nОсновными задачами настоящего Кодекса являются:\n\nустановление государственных гарантий трудовых прав и свобод работников, включая право на труд, на свободный выбор работы, на справедливые и безопасные условия труда и на защиту от безработицы;\n\nобеспечение реализации прав работодателей в сфере подбора, расстановки кадров и организации эффективного трудового процесса;\n\nпоощрение и развитие социального партнерства в сфере труда;\n\nобеспечение защиты прав и законных интересов работников и работодателей;\n\nсодействие эффективному функционированию рынк"
+            }
+        },
+        {
+            "query": "право",
+            "language": "ru",
+            "quality": "needs_review",
+            "category": null,
+            "seconds": 0.02065,
+            "returned": 5,
+            "next_page": 2,
+            "result_ids": [
+                7566,
+                7574,
+                7575,
+                7577,
+                7578
+            ],
+            "first_result": {
+                "id": 7566,
+                "document_id": 19,
+                "document_content_id": 46,
+                "chunk_index": 8,
+                "section_type": "article",
+                "section_number": "4",
+                "section_title": "Статья 4. Основные понятия",
+                "language": "ru",
+                "source_url": "https://lex.uz/uz/docs/7658581",
+                "content_hash": "85975d086e038da76ba668ed7d7d255a4439665e99fe8d16f3c2db7a233dc604",
+                "source_checksum": "3a304b465a42a93a8820640ec21f8d5a220f6df4851c7e404f87547dae4db278",
+                "chunking_version": "legal-v2",
+                "quality_status": "needs_review",
+                "metadata": {
+                    "context": {
+                        "article": {
+                            "type": "article",
+                            "title": "Статья 4. Основные понятия",
+                            "number": "4"
+                        },
+                        "chapter": {
+                            "type": "chapter",
+                            "title": "Глава 1. Основные положения",
+                            "number": "1"
+                        },
+                        "section": {
+                            "type": "section",
+                            "title": "РАЗДЕЛ I. ОБЩИЕ ПОЛОЖЕНИЯ",
+                            "number": "I"
+                        },
+                        "document_part": null
+                    },
+                    "end_byte": 14612,
+                    "fallback": false,
+                    "oversize": false,
+                    "boundaries": [],
+                    "characters": 2575,
+                    "start_byte": 9821,
+                    "overlap_bytes": 0,
+                    "source_format": "html",
+                    "contains_table": false,
+                    "review_reasons": [
+                        "source_needs_review"
+                    ],
+                    "source_quality": "needs_review",
+                    "estimated_tokens": 644,
+                    "maximum_characters": 8000,
+                    "token_count_method": "heuristic_chars_div_4",
+                    "structure_uncertain": false,
+                    "subdivision_context": {
+                        "part": null,
+                        "point": null,
+                        "subpoint": null
+                    },
+                    "source_quality_issues": [
+                        "complex_table_semantics_review",
+                        "quality_review"
+                    ]
+                },
+                "document_title": "Водный кодекс Республики Узбекистан",
+                "document_type": "Кодекс",
+                "legal_status": "active",
+                "excerpt": "водное хозяйство — отрасль экономики, охватывающая изучение, учет, управление, использование, охрану водных ресурсов и водных объектов, а также борьбу с вредным воздействием вод;\n\nводный режим — изменение качества, уровня, скорости течения, расхода и объема воды в единице времени;\n\nводный сервитут — право ограниченного пользования водным объектом или его частью, включая водоохранные зоны;\n\nоросительная сеть — водохозяйственный объект, поставляющий воду из каналов и других водных объектов на орошаемые площади водопользователей, а также на другие объекты, предоставленные водопользователям в целе"
+            }
+        }
+    ],
+    "errors": [],
+    "passed": true
+}

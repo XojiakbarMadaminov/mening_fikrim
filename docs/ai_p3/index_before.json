@@ -1,0 +1,68 @@
+{
+    "at": "2026-11-03T17:17:14+05:00",
+    "passages": 28147,
+    "indexes": [
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_pkey",
+            "indexdef": "CREATE UNIQUE INDEX document_chunks_pkey ON public.document_chunks USING btree (id)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_chunk_set_id_chunk_index_unique",
+            "indexdef": "CREATE UNIQUE INDEX document_chunks_chunk_set_id_chunk_index_unique ON public.document_chunks USING btree (chunk_set_id, chunk_index)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_document_id_language_chunk_index_index",
+            "indexdef": "CREATE INDEX document_chunks_document_id_language_chunk_index_index ON public.document_chunks USING btree (document_id, language, chunk_index)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_quality_status_id_index",
+            "indexdef": "CREATE INDEX document_chunks_quality_status_id_index ON public.document_chunks USING btree (quality_status, id)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "ai_chunks_all_keywords",
+            "indexdef": "CREATE INDEX ai_chunks_all_keywords ON public.document_chunks USING gin (to_tsvector('simple'::regconfig, content))"
+        },
+        {
+            "tablename": "retrieval_passages",
+            "indexname": "retrieval_passages_pkey",
+            "indexdef": "CREATE UNIQUE INDEX retrieval_passages_pkey ON public.retrieval_passages USING btree (id)"
+        },
+        {
+            "tablename": "retrieval_passages",
+            "indexname": "retrieval_passages_chunk_set_id_passage_index_unique",
+            "indexdef": "CREATE UNIQUE INDEX retrieval_passages_chunk_set_id_passage_index_unique ON public.retrieval_passages USING btree (chunk_set_id, passage_index)"
+        },
+        {
+            "tablename": "retrieval_passages",
+            "indexname": "retrieval_passages_document_content_id_passage_index_index",
+            "indexdef": "CREATE INDEX retrieval_passages_document_content_id_passage_index_index ON public.retrieval_passages USING btree (document_content_id, passage_index)"
+        }
+    ],
+    "probes": [
+        {
+            "query": "fuqarolar",
+            "ms": 4863.48,
+            "results": 10
+        },
+        {
+            "query": "ҳуқуқ",
+            "ms": 4898.98,
+            "results": 10
+        },
+        {
+            "query": "порядок",
+            "ms": 4871.24,
+            "results": 10
+        }
+    ],
+    "explain": [
+        {
+            "QUERY PLAN": "[\n  {\n    \"Plan\": {\n      \"Node Type\": \"Seq Scan\",\n      \"Parallel Aware\": false,\n      \"Async Capable\": false,\n      \"Relation Name\": \"retrieval_passages\",\n      \"Alias\": \"retrieval_passages\",\n      \"Startup Cost\": 0.00,\n      \"Total Cost\": 11634.59,\n      \"Plan Rows\": 141,\n      \"Plan Width\": 8,\n      \"Filter\": \"(to_tsvector('simple'::regconfig, body) @@ '''fuqarolar'''::tsquery)\"\n    }\n  }\n]"
+        }
+    ]
+}

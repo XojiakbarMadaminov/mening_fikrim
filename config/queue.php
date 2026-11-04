@@ -44,6 +44,15 @@ return [
             'after_commit' => true,
         ],
 
+        'ai_database' => [
+            'driver' => 'database',
+            'connection' => 'pgsql_ai',
+            'table' => 'ai_jobs',
+            'queue' => 'legal-chunking',
+            'retry_after' => 960,
+            'after_commit' => true,
+        ],
+
         'beanstalkd' => [
             'driver' => 'beanstalkd',
             'host' => env('BEANSTALKD_QUEUE_HOST', 'localhost'),

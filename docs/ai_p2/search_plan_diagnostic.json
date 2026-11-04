@@ -1,0 +1,224 @@
+[
+    {
+        "Plan": {
+            "Node Type": "Limit",
+            "Parallel Aware": false,
+            "Async Capable": false,
+            "Startup Cost": 26432.1,
+            "Total Cost": 26432.1,
+            "Plan Rows": 1,
+            "Plan Width": 8,
+            "Plans": [
+                {
+                    "Node Type": "Bitmap Heap Scan",
+                    "Parent Relationship": "InitPlan",
+                    "Subplan Name": "CTE keyword_matches",
+                    "Parallel Aware": false,
+                    "Async Capable": false,
+                    "Relation Name": "document_chunks",
+                    "Alias": "matched",
+                    "Startup Cost": 8848.32,
+                    "Total Cost": 19217.96,
+                    "Plan Rows": 1040,
+                    "Plan Width": 8,
+                    "Recheck Cond": "((to_tsvector('simple'::regconfig, content) @@ '''mehnat'''::tsquery) AND ((quality_status)::text = 'structured'::text))",
+                    "Filter": "((language)::text = 'uz-Latn'::text)",
+                    "Plans": [
+                        {
+                            "Node Type": "BitmapAnd",
+                            "Parent Relationship": "Outer",
+                            "Parallel Aware": false,
+                            "Async Capable": false,
+                            "Startup Cost": 8848.32,
+                            "Total Cost": 8848.32,
+                            "Plan Rows": 2771,
+                            "Plan Width": 0,
+                            "Plans": [
+                                {
+                                    "Node Type": "Bitmap Index Scan",
+                                    "Parent Relationship": "Member",
+                                    "Parallel Aware": false,
+                                    "Async Capable": false,
+                                    "Index Name": "ai_chunks_all_keywords",
+                                    "Startup Cost": 0,
+                                    "Total Cost": 61.14,
+                                    "Plan Rows": 6308,
+                                    "Plan Width": 0,
+                                    "Index Cond": "(to_tsvector('simple'::regconfig, content) @@ '''mehnat'''::tsquery)"
+                                },
+                                {
+                                    "Node Type": "Bitmap Index Scan",
+                                    "Parent Relationship": "Member",
+                                    "Parallel Aware": false,
+                                    "Async Capable": false,
+                                    "Index Name": "document_chunks_quality_status_id_index",
+                                    "Startup Cost": 0,
+                                    "Total Cost": 8786.4,
+                                    "Plan Rows": 242397,
+                                    "Plan Width": 0,
+                                    "Index Cond": "((quality_status)::text = 'structured'::text)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Node Type": "Sort",
+                    "Parent Relationship": "Outer",
+                    "Parallel Aware": false,
+                    "Async Capable": false,
+                    "Startup Cost": 7214.14,
+                    "Total Cost": 7214.15,
+                    "Plan Rows": 1,
+                    "Plan Width": 8,
+                    "Sort Key": [
+                        "k.id"
+                    ],
+                    "Plans": [
+                        {
+                            "Node Type": "Nested Loop",
+                            "Parent Relationship": "Outer",
+                            "Parallel Aware": false,
+                            "Async Capable": false,
+                            "Join Type": "Inner",
+                            "Startup Cost": 4693.55,
+                            "Total Cost": 7214.13,
+                            "Plan Rows": 1,
+                            "Plan Width": 8,
+                            "Inner Unique": false,
+                            "Join Filter": "(k.id = m.id)",
+                            "Plans": [
+                                {
+                                    "Node Type": "Nested Loop",
+                                    "Parent Relationship": "Outer",
+                                    "Parallel Aware": false,
+                                    "Async Capable": false,
+                                    "Join Type": "Inner",
+                                    "Startup Cost": 4693.55,
+                                    "Total Cost": 7180.33,
+                                    "Plan Rows": 1,
+                                    "Plan Width": 8,
+                                    "Inner Unique": true,
+                                    "Join Filter": "(c.document_id = d.id)",
+                                    "Plans": [
+                                        {
+                                            "Node Type": "Nested Loop",
+                                            "Parent Relationship": "Outer",
+                                            "Parallel Aware": false,
+                                            "Async Capable": false,
+                                            "Join Type": "Inner",
+                                            "Startup Cost": 4693.27,
+                                            "Total Cost": 7180.02,
+                                            "Plan Rows": 1,
+                                            "Plan Width": 24,
+                                            "Inner Unique": false,
+                                            "Join Filter": "((c.id = k.document_content_id) AND (k.document_id = c.document_id))",
+                                            "Plans": [
+                                                {
+                                                    "Node Type": "Hash Join",
+                                                    "Parent Relationship": "Outer",
+                                                    "Parallel Aware": false,
+                                                    "Async Capable": false,
+                                                    "Join Type": "Inner",
+                                                    "Startup Cost": 4692.84,
+                                                    "Total Cost": 7161.27,
+                                                    "Plan Rows": 1,
+                                                    "Plan Width": 177,
+                                                    "Inner Unique": true,
+                                                    "Hash Cond": "((s.document_content_id = c.id) AND (s.source_checksum = c.content_hash))",
+                                                    "Plans": [
+                                                        {
+                                                            "Node Type": "Seq Scan",
+                                                            "Parent Relationship": "Outer",
+                                                            "Parallel Aware": false,
+                                                            "Async Capable": false,
+                                                            "Relation Name": "document_chunk_sets",
+                                                            "Alias": "s",
+                                                            "Startup Cost": 0,
+                                                            "Total Cost": 2333.65,
+                                                            "Plan Rows": 25672,
+                                                            "Plan Width": 90,
+                                                            "Filter": "(is_current AND ((status)::text = 'completed'::text) AND (profile_hash = 'da8834b38e162624ff53c2862f076f805b84a03c9286221745b22cf6aa0deac5'::bpchar))"
+                                                        },
+                                                        {
+                                                            "Node Type": "Hash",
+                                                            "Parent Relationship": "Inner",
+                                                            "Parallel Aware": false,
+                                                            "Async Capable": false,
+                                                            "Startup Cost": 4545.14,
+                                                            "Total Cost": 4545.14,
+                                                            "Plan Rows": 9847,
+                                                            "Plan Width": 87,
+                                                            "Plans": [
+                                                                {
+                                                                    "Node Type": "Seq Scan",
+                                                                    "Parent Relationship": "Outer",
+                                                                    "Parallel Aware": false,
+                                                                    "Async Capable": false,
+                                                                    "Relation Name": "document_contents",
+                                                                    "Alias": "c",
+                                                                    "Startup Cost": 0,
+                                                                    "Total Cost": 4545.14,
+                                                                    "Plan Rows": 9847,
+                                                                    "Plan Width": 87,
+                                                                    "Filter": "((language)::text = 'uz-Latn'::text)"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Node Type": "Index Scan",
+                                                    "Parent Relationship": "Inner",
+                                                    "Parallel Aware": false,
+                                                    "Async Capable": false,
+                                                    "Scan Direction": "Forward",
+                                                    "Index Name": "document_chunks_chunk_set_id_chunk_index_unique",
+                                                    "Relation Name": "document_chunks",
+                                                    "Alias": "k",
+                                                    "Startup Cost": 0.42,
+                                                    "Total Cost": 18.73,
+                                                    "Plan Rows": 1,
+                                                    "Plan Width": 112,
+                                                    "Index Cond": "(chunk_set_id = s.id)",
+                                                    "Filter": "(((language)::text = 'uz-Latn'::text) AND ((quality_status)::text = 'structured'::text) AND (s.document_content_id = document_content_id) AND (s.source_checksum = source_checksum) AND ((chunking_version)::text = (s.chunking_version)::text))"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Node Type": "Index Only Scan",
+                                            "Parent Relationship": "Inner",
+                                            "Parallel Aware": false,
+                                            "Async Capable": false,
+                                            "Scan Direction": "Forward",
+                                            "Index Name": "documents_pkey",
+                                            "Relation Name": "documents",
+                                            "Alias": "d",
+                                            "Startup Cost": 0.29,
+                                            "Total Cost": 0.3,
+                                            "Plan Rows": 1,
+                                            "Plan Width": 8,
+                                            "Index Cond": "(id = k.document_id)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Node Type": "CTE Scan",
+                                    "Parent Relationship": "Inner",
+                                    "Parallel Aware": false,
+                                    "Async Capable": false,
+                                    "CTE Name": "keyword_matches",
+                                    "Alias": "m",
+                                    "Startup Cost": 0,
+                                    "Total Cost": 20.8,
+                                    "Plan Rows": 1040,
+                                    "Plan Width": 8
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

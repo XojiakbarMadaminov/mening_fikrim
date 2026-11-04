@@ -1,0 +1,1234 @@
+{
+    "seed": "p3-diverse100",
+    "content_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        14,
+        19,
+        20,
+        23,
+        24,
+        25,
+        38,
+        41,
+        42,
+        43,
+        44,
+        46,
+        47,
+        49,
+        53,
+        56,
+        332,
+        343,
+        344,
+        360,
+        378,
+        504,
+        586,
+        600,
+        601,
+        602,
+        788,
+        1990,
+        2023,
+        2026,
+        3253,
+        3639,
+        5625,
+        6538,
+        6725,
+        7367,
+        7568,
+        8622,
+        8843,
+        8844,
+        8851,
+        8852,
+        8920,
+        9147,
+        10389,
+        10543,
+        10650,
+        10685,
+        10846,
+        10847,
+        11399,
+        12564,
+        13406,
+        13727,
+        14394,
+        14510,
+        14827,
+        14927,
+        15702,
+        15822,
+        16599,
+        16779,
+        17435,
+        17484,
+        17967,
+        18392,
+        18834,
+        19214,
+        19859,
+        19883,
+        20246,
+        20406,
+        20530,
+        20638,
+        21269,
+        21951,
+        22189,
+        22399,
+        22725,
+        22833,
+        23333,
+        23444,
+        23537,
+        24108,
+        24313,
+        24938,
+        25222,
+        25232,
+        25343,
+        25364,
+        25460
+    ],
+    "selection_reasons": {
+        "1": [
+            "language:uz-Latn",
+            "type:Кодекс:uz-Latn",
+            "short:chapter",
+            "short:chapter",
+            "short:chapter",
+            "short:title",
+            "quality_balance"
+        ],
+        "4": [
+            "language:uz-Latn",
+            "type:Решение:uz-Latn",
+            "short:paragraph"
+        ],
+        "3": [
+            "language:uz-Cyrl",
+            "type:Кодекс:uz-Cyrl",
+            "short:title",
+            "quality_balance"
+        ],
+        "5": [
+            "language:uz-Cyrl",
+            "type:Решение:uz-Cyrl",
+            "short:paragraph"
+        ],
+        "2": [
+            "language:ru",
+            "type:Кодекс:ru",
+            "short:title",
+            "quality_balance"
+        ],
+        "24": [
+            "language:ru",
+            "type:Постановление:ru"
+        ],
+        "11": [
+            "language:en",
+            "quality_balance"
+        ],
+        "14": [
+            "language:en"
+        ],
+        "41": [
+            "type:Закон:uz-Latn",
+            "quality_balance"
+        ],
+        "42": [
+            "type:Закон:uz-Cyrl",
+            "quality_balance"
+        ],
+        "586": [
+            "type:Закон:ru"
+        ],
+        "23": [
+            "type:Постановление:uz-Latn"
+        ],
+        "25": [
+            "type:Постановление:uz-Cyrl"
+        ],
+        "3639": [
+            "type:Решение:ru"
+        ],
+        "600": [
+            "type:Указ:uz-Latn"
+        ],
+        "602": [
+            "type:Указ:uz-Cyrl"
+        ],
+        "601": [
+            "type:Указ:ru"
+        ],
+        "19": [
+            "type:Приказ:uz-Latn"
+        ],
+        "20": [
+            "type:Приказ:uz-Cyrl"
+        ],
+        "38": [
+            "type:Приказ:ru"
+        ],
+        "344": [
+            "type:Положение:uz-Latn"
+        ],
+        "343": [
+            "type:Положение:uz-Cyrl"
+        ],
+        "53": [
+            "format:pdf:uz-Latn"
+        ],
+        "56": [
+            "format:pdf:uz-Latn"
+        ],
+        "1990": [
+            "format:pdf:uz-Cyrl"
+        ],
+        "2023": [
+            "format:pdf:uz-Cyrl"
+        ],
+        "20638": [
+            "format:ocr:uz-Latn"
+        ],
+        "22189": [
+            "format:ocr:uz-Latn"
+        ],
+        "360": [
+            "format:ocr:uz-Cyrl"
+        ],
+        "2026": [
+            "format:ocr:uz-Cyrl"
+        ],
+        "8852": [
+            "largest_atomic_tables"
+        ],
+        "8851": [
+            "largest_atomic_tables"
+        ],
+        "788": [
+            "largest_atomic_tables"
+        ],
+        "22725": [
+            "largest_atomic_tables",
+            "largest_atomic_tables"
+        ],
+        "10846": [
+            "largest_atomic_tables"
+        ],
+        "10847": [
+            "largest_atomic_tables"
+        ],
+        "8844": [
+            "largest_atomic_tables"
+        ],
+        "8843": [
+            "largest_atomic_tables"
+        ],
+        "12564": [
+            "largest_atomic_tables"
+        ],
+        "8": [
+            "short:point",
+            "short:point"
+        ],
+        "9": [
+            "short:point"
+        ],
+        "49": [
+            "short:subpoint",
+            "short:subpoint",
+            "short:subpoint"
+        ],
+        "6": [
+            "short:paragraph"
+        ],
+        "43": [
+            "short:appendix",
+            "short:appendix"
+        ],
+        "44": [
+            "short:appendix"
+        ],
+        "46": [
+            "quality_balance"
+        ],
+        "47": [
+            "quality_balance"
+        ],
+        "20246": [
+            "deterministic_supplement"
+        ],
+        "23444": [
+            "deterministic_supplement"
+        ],
+        "10543": [
+            "deterministic_supplement"
+        ],
+        "20530": [
+            "deterministic_supplement"
+        ],
+        "19859": [
+            "deterministic_supplement"
+        ],
+        "14827": [
+            "deterministic_supplement"
+        ],
+        "15822": [
+            "deterministic_supplement"
+        ],
+        "16779": [
+            "deterministic_supplement"
+        ],
+        "504": [
+            "deterministic_supplement"
+        ],
+        "18834": [
+            "deterministic_supplement"
+        ],
+        "17435": [
+            "deterministic_supplement"
+        ],
+        "24938": [
+            "deterministic_supplement"
+        ],
+        "6725": [
+            "deterministic_supplement"
+        ],
+        "25222": [
+            "deterministic_supplement"
+        ],
+        "23333": [
+            "deterministic_supplement"
+        ],
+        "6538": [
+            "deterministic_supplement"
+        ],
+        "8920": [
+            "deterministic_supplement"
+        ],
+        "21269": [
+            "deterministic_supplement"
+        ],
+        "25232": [
+            "deterministic_supplement"
+        ],
+        "22399": [
+            "deterministic_supplement"
+        ],
+        "10685": [
+            "deterministic_supplement"
+        ],
+        "25343": [
+            "deterministic_supplement"
+        ],
+        "11399": [
+            "deterministic_supplement"
+        ],
+        "21951": [
+            "deterministic_supplement"
+        ],
+        "3253": [
+            "deterministic_supplement"
+        ],
+        "23537": [
+            "deterministic_supplement"
+        ],
+        "7568": [
+            "deterministic_supplement"
+        ],
+        "5625": [
+            "deterministic_supplement"
+        ],
+        "24313": [
+            "deterministic_supplement"
+        ],
+        "25460": [
+            "deterministic_supplement"
+        ],
+        "332": [
+            "deterministic_supplement"
+        ],
+        "24108": [
+            "deterministic_supplement"
+        ],
+        "19214": [
+            "deterministic_supplement"
+        ],
+        "16599": [
+            "deterministic_supplement"
+        ],
+        "8622": [
+            "deterministic_supplement"
+        ],
+        "17967": [
+            "deterministic_supplement"
+        ],
+        "20406": [
+            "deterministic_supplement"
+        ],
+        "13727": [
+            "deterministic_supplement"
+        ],
+        "7367": [
+            "deterministic_supplement"
+        ],
+        "25364": [
+            "deterministic_supplement"
+        ],
+        "10389": [
+            "deterministic_supplement"
+        ],
+        "17484": [
+            "deterministic_supplement"
+        ],
+        "378": [
+            "deterministic_supplement"
+        ],
+        "18392": [
+            "deterministic_supplement"
+        ],
+        "10650": [
+            "deterministic_supplement"
+        ],
+        "9147": [
+            "deterministic_supplement"
+        ],
+        "14394": [
+            "deterministic_supplement"
+        ],
+        "22833": [
+            "deterministic_supplement"
+        ],
+        "14510": [
+            "deterministic_supplement"
+        ],
+        "19883": [
+            "deterministic_supplement"
+        ],
+        "14927": [
+            "deterministic_supplement"
+        ],
+        "13406": [
+            "deterministic_supplement"
+        ],
+        "15702": [
+            "deterministic_supplement"
+        ]
+    },
+    "details": [
+        {
+            "id": 1,
+            "document_id": 1,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Кодекс",
+            "format": "html"
+        },
+        {
+            "id": 2,
+            "document_id": 1,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Кодекс",
+            "format": "html"
+        },
+        {
+            "id": 3,
+            "document_id": 1,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Кодекс",
+            "format": "html"
+        },
+        {
+            "id": 4,
+            "document_id": 2,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 5,
+            "document_id": 2,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 6,
+            "document_id": 3,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 8,
+            "document_id": 4,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 9,
+            "document_id": 4,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 11,
+            "document_id": 5,
+            "language": "en",
+            "quality_status": "verified",
+            "document_type": "Декларация",
+            "format": "html"
+        },
+        {
+            "id": 14,
+            "document_id": 6,
+            "language": "en",
+            "quality_status": "verified",
+            "document_type": "Меморандум",
+            "format": "html"
+        },
+        {
+            "id": 19,
+            "document_id": 8,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 20,
+            "document_id": 8,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 23,
+            "document_id": 10,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 24,
+            "document_id": 10,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 25,
+            "document_id": 10,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 38,
+            "document_id": 16,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 41,
+            "document_id": 17,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Закон",
+            "format": "html"
+        },
+        {
+            "id": 42,
+            "document_id": 17,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Закон",
+            "format": "html"
+        },
+        {
+            "id": 43,
+            "document_id": 18,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 44,
+            "document_id": 18,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 46,
+            "document_id": 19,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Кодекс",
+            "format": "html"
+        },
+        {
+            "id": 47,
+            "document_id": 19,
+            "language": "en",
+            "quality_status": "needs_review",
+            "document_type": "Кодекс",
+            "format": "html"
+        },
+        {
+            "id": 49,
+            "document_id": 20,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 53,
+            "document_id": 22,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "pdf"
+        },
+        {
+            "id": 56,
+            "document_id": 24,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Приказ",
+            "format": "pdf"
+        },
+        {
+            "id": 332,
+            "document_id": 144,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 343,
+            "document_id": 150,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Положение",
+            "format": "html"
+        },
+        {
+            "id": 344,
+            "document_id": 150,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Положение",
+            "format": "html"
+        },
+        {
+            "id": 360,
+            "document_id": 158,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "ocr"
+        },
+        {
+            "id": 378,
+            "document_id": 167,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 504,
+            "document_id": 214,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 586,
+            "document_id": 247,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Закон",
+            "format": "html"
+        },
+        {
+            "id": 600,
+            "document_id": 252,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Указ",
+            "format": "html"
+        },
+        {
+            "id": 601,
+            "document_id": 252,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Указ",
+            "format": "html"
+        },
+        {
+            "id": 602,
+            "document_id": 252,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Указ",
+            "format": "html"
+        },
+        {
+            "id": 788,
+            "document_id": 322,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 1990,
+            "document_id": 766,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "pdf"
+        },
+        {
+            "id": 2023,
+            "document_id": 784,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "pdf"
+        },
+        {
+            "id": 2026,
+            "document_id": 786,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "ocr"
+        },
+        {
+            "id": 3253,
+            "document_id": 1289,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 3639,
+            "document_id": 1443,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 5625,
+            "document_id": 2284,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 6538,
+            "document_id": 2662,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 6725,
+            "document_id": 2736,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 7367,
+            "document_id": 3011,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 7568,
+            "document_id": 3091,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 8622,
+            "document_id": 3549,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 8843,
+            "document_id": 3634,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 8844,
+            "document_id": 3634,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 8851,
+            "document_id": 3637,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Указ",
+            "format": "html"
+        },
+        {
+            "id": 8852,
+            "document_id": 3637,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Указ",
+            "format": "html"
+        },
+        {
+            "id": 8920,
+            "document_id": 3666,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 9147,
+            "document_id": 3780,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 10389,
+            "document_id": 4275,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 10543,
+            "document_id": 4332,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 10650,
+            "document_id": 4374,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 10685,
+            "document_id": 4391,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 10846,
+            "document_id": 4453,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 10847,
+            "document_id": 4453,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 11399,
+            "document_id": 4654,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 12564,
+            "document_id": 5068,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 13406,
+            "document_id": 5373,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 13727,
+            "document_id": 5484,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 14394,
+            "document_id": 5724,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Указ",
+            "format": "html"
+        },
+        {
+            "id": 14510,
+            "document_id": 5764,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 14827,
+            "document_id": 5881,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 14927,
+            "document_id": 5916,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 15702,
+            "document_id": 6212,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 15822,
+            "document_id": 6258,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 16599,
+            "document_id": 6571,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 16779,
+            "document_id": 6636,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 17435,
+            "document_id": 6886,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 17484,
+            "document_id": 6904,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 17967,
+            "document_id": 7075,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 18392,
+            "document_id": 7227,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 18834,
+            "document_id": 7385,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 19214,
+            "document_id": 7524,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 19859,
+            "document_id": 7766,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 19883,
+            "document_id": 7775,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 20246,
+            "document_id": 7904,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 20406,
+            "document_id": 7962,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 20530,
+            "document_id": 8008,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 20638,
+            "document_id": 8059,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "ocr"
+        },
+        {
+            "id": 21269,
+            "document_id": 8304,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 21951,
+            "document_id": 8571,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 22189,
+            "document_id": 8665,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Решение",
+            "format": "ocr"
+        },
+        {
+            "id": 22399,
+            "document_id": 8749,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 22725,
+            "document_id": 8872,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 22833,
+            "document_id": 8912,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 23333,
+            "document_id": 9104,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Приказ",
+            "format": "html"
+        },
+        {
+            "id": 23444,
+            "document_id": 9148,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 23537,
+            "document_id": 9183,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 24108,
+            "document_id": 9408,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Решение",
+            "format": "html"
+        },
+        {
+            "id": 24313,
+            "document_id": 9484,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 24938,
+            "document_id": 9756,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 25222,
+            "document_id": 9858,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 25232,
+            "document_id": 9861,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 25343,
+            "document_id": 9908,
+            "language": "uz-Cyrl",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 25364,
+            "document_id": 9916,
+            "language": "uz-Latn",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        },
+        {
+            "id": 25460,
+            "document_id": 9950,
+            "language": "ru",
+            "quality_status": "verified",
+            "document_type": "Постановление",
+            "format": "html"
+        }
+    ]
+}

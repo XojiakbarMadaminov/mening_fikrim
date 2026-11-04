@@ -1,0 +1,16 @@
+{
+  "dataset_current_chunks": 549454,
+  "observed_failures": [
+    "Wide source/JSON projection with LIMIT reached the 5-second statement timeout on full corpus.",
+    "Initial structured-only index did not cover needs_review/all searches.",
+    "After all-quality indexing, redundant source-checksum joins still caused row-count underestimation and nested CTE scans for some common structured terms."
+  ],
+  "evidence": "search_plan_diagnostic.json",
+  "resolution": [
+    "Concurrent all-quality lexical GIN replaced the partial index after real oversized-text vector-size preflight.",
+    "Materialize bounded-query lexical matches, select candidate IDs through the durable current ledger, and hydrate only page IDs through every source-identity guard.",
+    "Use one repeatable-read/read-only snapshot and bound statement execution to five seconds."
+  ],
+  "final_real_checks": "search_acceptance.json",
+  "source_or_chunk_text_modified": false
+}

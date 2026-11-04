@@ -1,0 +1,717 @@
+{
+    "at": "2026-11-02T16:03:55+05:00",
+    "status": {
+        "database": "mening_fikrim_ai_dev",
+        "documents": 10036,
+        "contents": 25691,
+        "processed_contents": 25691,
+        "processed_documents": 10036,
+        "pending_contents": 0,
+        "failed_contents": 0,
+        "pending_includes_failed": true,
+        "historical_failed_generations": 0,
+        "retry_exhausted_contents": 0,
+        "source_needs_review": 6192,
+        "sets": 25691,
+        "current_chunks": 549454,
+        "chunks": 551749,
+        "queued": 0,
+        "profile_hash": "da8834b38e162624ff53c2862f076f805b84a03c9286221745b22cf6aa0deac5",
+        "chunking_version": "legal-v2",
+        "versions": [
+            {
+                "chunking_version": "legal-v2",
+                "sets": 25691
+            },
+            {
+                "chunking_version": "legal-v1",
+                "sets": 19
+            }
+        ]
+    },
+    "errors": [],
+    "checked_contents": 25691,
+    "checked_chunks": 549454,
+    "source_bytes": 651169442,
+    "source_preservation": {
+        "document_sources": {
+            "unchanged": true,
+            "rows": 2,
+            "sha256": "feb6aa4c01454add1767dca5b2760e3671152d8a82c0461178aee6022512f554"
+        },
+        "documents": {
+            "unchanged": true,
+            "rows": 10036,
+            "sha256": "6efbab74dba5975444f8fbda2f94f62360daca97c2b800056bb191f48f749fba"
+        },
+        "document_identifiers": {
+            "unchanged": true,
+            "rows": 31499,
+            "sha256": "eb3bb401a6dca71816c621c46c5d1e6c783cac99d6042f8fe3a8492ce504bdef"
+        },
+        "document_contents": {
+            "unchanged": true,
+            "rows": 25691,
+            "sha256": "c44878e3b4408c1c3f06d2153c73c6bd1f61c3cf370a8a46d9685b1ba950a9f4"
+        }
+    },
+    "quality": [
+        {
+            "quality_status": "needs_review",
+            "chunks": 308588
+        },
+        {
+            "quality_status": "structured",
+            "chunks": 240866
+        }
+    ],
+    "lengths": {
+        "minimum": 6,
+        "maximum": 748614,
+        "average": "889.0776898521077288",
+        "total_characters": 488507293
+    },
+    "under_80_chars": 68614,
+    "missing_source_urls": 0,
+    "table_chunks": 44080,
+    "review_reasons": [
+        {
+            "reason": "source_needs_review",
+            "chunks": 296478
+        },
+        {
+            "reason": "structure_unrecognized",
+            "chunks": 30457
+        },
+        {
+            "reason": "structure_uncertain",
+            "chunks": 16015
+        },
+        {
+            "reason": "oversize_atomic",
+            "chunks": 10392
+        },
+        {
+            "reason": "maximum_length_exceeded",
+            "chunks": 4844
+        },
+        {
+            "reason": "short_source",
+            "chunks": 1
+        }
+    ],
+    "over_target": 10392,
+    "over_maximum": 4844,
+    "oversize_examples": [
+        {
+            "id": 188626,
+            "document_id": 3637,
+            "document_content_id": 8852,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "Respublikada ko‘kalamzorlashtirish ishlarini jadallashtirish, daraxtlar muhofazasini yanada samarali tashkil etish chora-tadbirlari to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-5801444",
+            "characters": 748614
+        },
+        {
+            "id": 188560,
+            "document_id": 3637,
+            "document_content_id": 8851,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "Respublikada ko‘kalamzorlashtirish ishlarini jadallashtirish, daraxtlar muhofazasini yanada samarali tashkil etish chora-tadbirlari to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/5801444",
+            "characters": 747518
+        },
+        {
+            "id": 26534,
+            "document_id": 322,
+            "document_content_id": 788,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasining 2020-2022-yillarga mo‘ljallangan Investitsiya dasturini amalga oshirish chora-tadbirlari to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4689644",
+            "characters": 637968
+        },
+        {
+            "id": 487572,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 539564
+        },
+        {
+            "id": 234000,
+            "document_id": 4453,
+            "document_content_id": 10846,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikalarni, shuningdek mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-2923803",
+            "characters": 521475
+        },
+        {
+            "id": 234003,
+            "document_id": 4453,
+            "document_content_id": 10847,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikalarni, shuningdek mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/2923803",
+            "characters": 518521
+        },
+        {
+            "id": 487573,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 503743
+        },
+        {
+            "id": 188288,
+            "document_id": 3634,
+            "document_content_id": 8844,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasining 2022-2026-yillarga mo‘ljallangan investitsiya dasturini tasdiqlash hamda investitsiya loyihalarini boshqarishning yangi yondashuv va mexanizmlarini joriy etish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-5801123",
+            "characters": 491003
+        },
+        {
+            "id": 188213,
+            "document_id": 3634,
+            "document_content_id": 8843,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasining 2022-2026-yillarga mo‘ljallangan investitsiya dasturini tasdiqlash hamda investitsiya loyihalarini boshqarishning yangi yondashuv va mexanizmlarini joriy etish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/5801123",
+            "characters": 485508
+        },
+        {
+            "id": 262625,
+            "document_id": 5068,
+            "document_content_id": 12564,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "2017 - 2019-yillarda tayyor mahsulot turlari, butlovchi buyumlar va materiallar ishlab chiqarishni mahalliylashtirishning istiqbolli loyihalarini amalga oshirishni davom ettirish chora-tadbirlari to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/3122941",
+            "characters": 460104
+        },
+        {
+            "id": 504188,
+            "document_id": 9093,
+            "document_content_id": 23304,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "Aholi punktlarini obodonlashtirish sohasida ishlar samaradorligini oshirishga doir qo‘shimcha chora-tadbirlar to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4366339",
+            "characters": 436871
+        },
+        {
+            "id": 504220,
+            "document_id": 9093,
+            "document_content_id": 23305,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "Aholi punktlarini obodonlashtirish sohasida ishlar samaradorligini oshirishga doir qo‘shimcha chora-tadbirlar to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-4366332",
+            "characters": 435796
+        },
+        {
+            "id": 504177,
+            "document_id": 9093,
+            "document_content_id": 23303,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "Aholi punktlarini obodonlashtirish sohasida ishlar samaradorligini oshirishga doir qo‘shimcha chora-tadbirlar to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4366332",
+            "characters": 435350
+        },
+        {
+            "id": 487581,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 424882
+        },
+        {
+            "id": 487575,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 414971
+        },
+        {
+            "id": 487574,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 404577
+        },
+        {
+            "id": 487577,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 397854
+        },
+        {
+            "id": 432343,
+            "document_id": 7788,
+            "document_content_id": 19919,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "2018-2019-yillarda Toshkent viloyatini kompleks rivojlantirish chora-tadbirlari dasturi to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-4056411",
+            "characters": 397087
+        },
+        {
+            "id": 432359,
+            "document_id": 7788,
+            "document_content_id": 19920,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "2018-2019-yillarda Toshkent viloyatini kompleks rivojlantirish chora-tadbirlari dasturi to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4056411",
+            "characters": 393780
+        },
+        {
+            "id": 234211,
+            "document_id": 4462,
+            "document_content_id": 10865,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikalarni, shuningdek mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-2921691",
+            "characters": 388300
+        },
+        {
+            "id": 198351,
+            "document_id": 3964,
+            "document_content_id": 9556,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikalarni, shuningdek mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-2641082",
+            "characters": 386006
+        },
+        {
+            "id": 234205,
+            "document_id": 4462,
+            "document_content_id": 10864,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikalarni, shuningdek mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/2921691",
+            "characters": 384800
+        },
+        {
+            "id": 198362,
+            "document_id": 3964,
+            "document_content_id": 9557,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikalarni, shuningdek mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/2641082",
+            "characters": 384419
+        },
+        {
+            "id": 487578,
+            "document_id": 8872,
+            "document_content_id": 22725,
+            "language": "ru",
+            "quality_status": "needs_review",
+            "title": "O‘zbekiston Respublikasi maktabgacha ta’lim tizimini 2030-yilgacha rivojlantirish konsepsiyasini tasdiqlash to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4327240",
+            "characters": 379246
+        },
+        {
+            "id": 507706,
+            "document_id": 9134,
+            "document_content_id": 23408,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "2019-2021-yillarda Navoiy viloyatining Qiziltepa tumanini namunali tumanga aylantirish bo‘yicha ijtimoiy-iqtisodiy rivojlantirish chora-tadbirlari to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-4432249",
+            "characters": 376370
+        },
+        {
+            "id": 532688,
+            "document_id": 9577,
+            "document_content_id": 24563,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "2019-2022-yillarda Toshkent viloyatining sanoat salohiyatini rivojlantirish bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-4527638",
+            "characters": 374849
+        },
+        {
+            "id": 507668,
+            "document_id": 9134,
+            "document_content_id": 23407,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "2019-2021-yillarda Navoiy viloyatining Qiziltepa tumanini namunali tumanga aylantirish bo‘yicha ijtimoiy-iqtisodiy rivojlantirish chora-tadbirlari to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4432249",
+            "characters": 374777
+        },
+        {
+            "id": 203369,
+            "document_id": 4037,
+            "document_content_id": 9742,
+            "language": "uz-Latn",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikani, shuningdek, mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/-2652373",
+            "characters": 370239
+        },
+        {
+            "id": 532713,
+            "document_id": 9577,
+            "document_content_id": 24564,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "2019-2022-yillarda Toshkent viloyatining sanoat salohiyatini rivojlantirish bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/4527638",
+            "characters": 368317
+        },
+        {
+            "id": 203367,
+            "document_id": 4037,
+            "document_content_id": 9741,
+            "language": "uz-Cyrl",
+            "quality_status": "needs_review",
+            "title": "Tumandagi qishloq xo‘jaligi va meliorativ texnikani, shuningdek, mashina-traktor parklari, ustaxonalar va servis punktlarining asbob-uskunalarini texnik ko‘rikdan o‘tkazish to‘g‘risida",
+            "source_url": "https://lex.uz/uz/docs/2652373",
+            "characters": 367841
+        }
+    ],
+    "languages": [
+        {
+            "language": "en",
+            "chunks": 9479,
+            "contents": 108
+        },
+        {
+            "language": "ru",
+            "chunks": 116871,
+            "contents": 5767
+        },
+        {
+            "language": "uz-Cyrl",
+            "chunks": 215855,
+            "contents": 9969
+        },
+        {
+            "language": "uz-Latn",
+            "chunks": 207249,
+            "contents": 9847
+        }
+    ],
+    "categories": [
+        {
+            "document_type": "Qaror (Resheniye)",
+            "chunks": 3,
+            "documents": 1
+        },
+        {
+            "document_type": "Декларация",
+            "chunks": 20,
+            "documents": 1
+        },
+        {
+            "document_type": "Договор",
+            "chunks": 21,
+            "documents": 1
+        },
+        {
+            "document_type": "Закон",
+            "chunks": 31850,
+            "documents": 281
+        },
+        {
+            "document_type": "Закон Республики Каракалпакстан",
+            "chunks": 1282,
+            "documents": 25
+        },
+        {
+            "document_type": "Изменения и дополнения",
+            "chunks": 24,
+            "documents": 1
+        },
+        {
+            "document_type": "Кодекс",
+            "chunks": 13166,
+            "documents": 9
+        },
+        {
+            "document_type": "Коммюнике",
+            "chunks": 4,
+            "documents": 1
+        },
+        {
+            "document_type": "Меморандум",
+            "chunks": 198,
+            "documents": 6
+        },
+        {
+            "document_type": "Нормативы",
+            "chunks": 295,
+            "documents": 5
+        },
+        {
+            "document_type": "Определение",
+            "chunks": 3,
+            "documents": 1
+        },
+        {
+            "document_type": "Перечень",
+            "chunks": 10,
+            "documents": 5
+        },
+        {
+            "document_type": "Положение",
+            "chunks": 248,
+            "documents": 1
+        },
+        {
+            "document_type": "Постановление",
+            "chunks": 395574,
+            "documents": 6932
+        },
+        {
+            "document_type": "Правила",
+            "chunks": 2315,
+            "documents": 9
+        },
+        {
+            "document_type": "Приговор",
+            "chunks": 8,
+            "documents": 1
+        },
+        {
+            "document_type": "Приказ",
+            "chunks": 48235,
+            "documents": 558
+        },
+        {
+            "document_type": "Программа",
+            "chunks": 52,
+            "documents": 3
+        },
+        {
+            "document_type": "Протокол",
+            "chunks": 37,
+            "documents": 2
+        },
+        {
+            "document_type": "Распоряжение",
+            "chunks": 1581,
+            "documents": 44
+        },
+        {
+            "document_type": "Решение",
+            "chunks": 15831,
+            "documents": 1714
+        },
+        {
+            "document_type": "Решение (Конституционного суда)",
+            "chunks": 108,
+            "documents": 4
+        },
+        {
+            "document_type": "Соглашение",
+            "chunks": 832,
+            "documents": 22
+        },
+        {
+            "document_type": "Стандарт",
+            "chunks": 108,
+            "documents": 6
+        },
+        {
+            "document_type": "Требования",
+            "chunks": 132,
+            "documents": 1
+        },
+        {
+            "document_type": "Указ",
+            "chunks": 37517,
+            "documents": 402
+        }
+    ],
+    "legal_statuses": [
+        {
+            "status": "active",
+            "chunks": 548174
+        },
+        {
+            "status": "inactive",
+            "chunks": 672
+        },
+        {
+            "status": "pending",
+            "chunks": 608
+        }
+    ],
+    "section_types": [
+        {
+            "section_type": "appendix",
+            "chunks": 36030
+        },
+        {
+            "section_type": "article",
+            "chunks": 27021
+        },
+        {
+            "section_type": "chapter",
+            "chunks": 20356
+        },
+        {
+            "section_type": "document_part",
+            "chunks": 6
+        },
+        {
+            "section_type": "heading",
+            "chunks": 13622
+        },
+        {
+            "section_type": "paragraph",
+            "chunks": 40784
+        },
+        {
+            "section_type": "part",
+            "chunks": 16
+        },
+        {
+            "section_type": "point",
+            "chunks": 316853
+        },
+        {
+            "section_type": "section",
+            "chunks": 268
+        },
+        {
+            "section_type": "subpoint",
+            "chunks": 69344
+        },
+        {
+            "section_type": "title",
+            "chunks": 25154
+        }
+    ],
+    "fallback_contents": 4654,
+    "review_contents": 9991,
+    "source_quality_issues": [
+        {
+            "issue": "quality_review",
+            "contents": 6131
+        },
+        {
+            "issue": "complex_table_semantics_review",
+            "contents": 5228
+        },
+        {
+            "issue": "unextracted_images",
+            "contents": 1394
+        },
+        {
+            "issue": "invalid_text",
+            "contents": 890
+        },
+        {
+            "issue": "unsupported_superscript",
+            "contents": 385
+        },
+        {
+            "issue": "pdf_structure_unverified",
+            "contents": 153
+        },
+        {
+            "issue": "pdf_reading_order_unverified",
+            "contents": 153
+        },
+        {
+            "issue": "pdf_language_coverage_unconfirmed",
+            "contents": 153
+        },
+        {
+            "issue": "pdf_image_semantics_unverified",
+            "contents": 149
+        },
+        {
+            "issue": "image_backed_text_review",
+            "contents": 111
+        },
+        {
+            "issue": "ocr_source_identifier_not_certified",
+            "contents": 55
+        },
+        {
+            "issue": "uncertified_ocr",
+            "contents": 55
+        },
+        {
+            "issue": "low_ocr_confidence",
+            "contents": 53
+        },
+        {
+            "issue": "ocr_critical_tokens_unverified",
+            "contents": 51
+        },
+        {
+            "issue": "missing_document_heading",
+            "contents": 46
+        },
+        {
+            "issue": "declared_language_script_mismatch",
+            "contents": 34
+        },
+        {
+            "issue": "empty_pdf_page",
+            "contents": 5
+        },
+        {
+            "issue": "table_span_out_of_bounds",
+            "contents": 2
+        },
+        {
+            "issue": "table_span_overlap",
+            "contents": 2
+        }
+    ],
+    "duplicate_chunk_identity_groups": 0,
+    "multiple_current_contents": 0,
+    "repeated_hash_groups": 2852,
+    "repeated_hash_note": "Identical text can legitimately recur at different source offsets; exact reassembly validates that it was not introduced by chunking.",
+    "repeat_command": {
+        "exit_code": 0,
+        "output": "{\"selected_documents\":0,\"selected_contents\":0,\"errors\":0}",
+        "unchanged": true
+    },
+    "v1_chunk_rows_unchanged": true,
+    "selected_content_count": 25691,
+    "distinct_selected_content_count": 25691,
+    "skipped_contents": 0,
+    "skipped_reason": "All authoritative stored source representations were eligible; pending_candidate alternatives were not treated as authoritative sources.",
+    "human_review_performed": false,
+    "passed": true
+}

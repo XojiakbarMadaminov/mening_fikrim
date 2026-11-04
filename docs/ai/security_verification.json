@@ -1,0 +1,12 @@
+{
+    "database": "mening_fikrim_active",
+    "role": "mening_fikrim_ai_dev_owner",
+    "can_select": false,
+    "can_insert": false,
+    "can_update": false,
+    "can_delete": false,
+    "can_truncate": false,
+    "can_create_schema": false,
+    "superuser": false,
+    "checked_at": "2026-11-02T12:00:53+05:00"
+}

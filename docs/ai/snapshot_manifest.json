@@ -1,0 +1,28 @@
+{
+    "started_at": "2026-11-02T06:44:18+00:00",
+    "snapshot": "00000012-000002BD-1",
+    "source_database": "mening_fikrim_active",
+    "source_read_only": "on",
+    "tables": {
+        "document_sources": {
+            "rows": 2,
+            "sha256": "feb6aa4c01454add1767dca5b2760e3671152d8a82c0461178aee6022512f554"
+        },
+        "documents": {
+            "rows": 10036,
+            "sha256": "6efbab74dba5975444f8fbda2f94f62360daca97c2b800056bb191f48f749fba"
+        },
+        "document_identifiers": {
+            "rows": 31499,
+            "sha256": "eb3bb401a6dca71816c621c46c5d1e6c783cac99d6042f8fe3a8492ce504bdef"
+        },
+        "document_contents": {
+            "rows": 25691,
+            "sha256": "c44878e3b4408c1c3f06d2153c73c6bd1f61c3cf370a8a46d9685b1ba950a9f4"
+        }
+    },
+    "dump_sha256": "436271ec818ee13ea4e66137c8531d0bdb6a0a0d0877af6b8ae4eb42fa6bfbd0",
+    "verified_at": "2026-11-02T06:46:45+00:00",
+    "target_database": "mening_fikrim_ai_dev",
+    "operational_tables_copied": false
+}

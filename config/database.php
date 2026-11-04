@@ -99,6 +99,20 @@ return [
             'sslmode' => env('DB_SSLMODE', 'prefer'),
         ],
 
+        'pgsql_ai' => [
+            'driver' => 'pgsql',
+            'host' => env('AI_DB_HOST', '127.0.0.1'),
+            'port' => env('AI_DB_PORT', '5432'),
+            'database' => env('AI_DB_DATABASE', 'mening_fikrim_ai_dev'),
+            'username' => env('AI_DB_USERNAME', 'mening_fikrim_ai_dev_owner'),
+            'password' => env('AI_DB_PASSWORD', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'search_path' => 'public',
+            'sslmode' => env('AI_DB_SSLMODE', 'prefer'),
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DB_URL'),

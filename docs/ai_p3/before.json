@@ -1,0 +1,516 @@
+{
+    "at": "2026-11-03T16:50:40+05:00",
+    "status": {
+        "database": "mening_fikrim_ai_dev",
+        "documents": 10036,
+        "contents": 25691,
+        "processed_contents": 25691,
+        "processed_documents": 10036,
+        "pending_contents": 0,
+        "failed_contents": 0,
+        "pending_includes_failed": true,
+        "historical_failed_generations": 0,
+        "retry_exhausted_contents": 0,
+        "source_needs_review": 6192,
+        "sets": 25691,
+        "current_chunks": 549454,
+        "chunks": 551749,
+        "queued": 0,
+        "profile_hash": "da8834b38e162624ff53c2862f076f805b84a03c9286221745b22cf6aa0deac5",
+        "chunking_version": "legal-v2",
+        "versions": [
+            {
+                "chunking_version": "legal-v2",
+                "sets": 25691
+            },
+            {
+                "chunking_version": "legal-v1",
+                "sets": 19
+            }
+        ]
+    },
+    "disk_free_bytes": 113208176640,
+    "relations": [
+        {
+            "relname": "document_chunks",
+            "table_bytes": 1033723904,
+            "index_bytes": 241786880
+        },
+        {
+            "relname": "document_contents",
+            "table_bytes": 317071360,
+            "index_bytes": 3538944
+        },
+        {
+            "relname": "documents",
+            "table_bytes": 128974848,
+            "index_bytes": 1490944
+        },
+        {
+            "relname": "document_chunk_sets",
+            "table_bytes": 15998976,
+            "index_bytes": 9781248
+        },
+        {
+            "relname": "document_identifiers",
+            "table_bytes": 20094976,
+            "index_bytes": 2326528
+        },
+        {
+            "relname": "ai_jobs",
+            "table_bytes": 24576,
+            "index_bytes": 81920
+        },
+        {
+            "relname": "document_sources",
+            "table_bytes": 16384,
+            "index_bytes": 32768
+        },
+        {
+            "relname": "migrations",
+            "table_bytes": 8192,
+            "index_bytes": 16384
+        }
+    ],
+    "indexes": [
+        {
+            "tablename": "ai_jobs",
+            "indexname": "ai_jobs_pkey",
+            "indexdef": "CREATE UNIQUE INDEX ai_jobs_pkey ON public.ai_jobs USING btree (id)"
+        },
+        {
+            "tablename": "ai_jobs",
+            "indexname": "ai_jobs_queue_index",
+            "indexdef": "CREATE INDEX ai_jobs_queue_index ON public.ai_jobs USING btree (queue)"
+        },
+        {
+            "tablename": "document_chunk_sets",
+            "indexname": "chunk_sets_generation_unique",
+            "indexdef": "CREATE UNIQUE INDEX chunk_sets_generation_unique ON public.document_chunk_sets USING btree (document_content_id, profile_hash, input_fingerprint)"
+        },
+        {
+            "tablename": "document_chunk_sets",
+            "indexname": "chunk_sets_one_current",
+            "indexdef": "CREATE UNIQUE INDEX chunk_sets_one_current ON public.document_chunk_sets USING btree (document_content_id) WHERE is_current"
+        },
+        {
+            "tablename": "document_chunk_sets",
+            "indexname": "document_chunk_sets_pkey",
+            "indexdef": "CREATE UNIQUE INDEX document_chunk_sets_pkey ON public.document_chunk_sets USING btree (id)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "ai_chunks_all_keywords",
+            "indexdef": "CREATE INDEX ai_chunks_all_keywords ON public.document_chunks USING gin (to_tsvector('simple'::regconfig, content))"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_chunk_set_id_chunk_index_unique",
+            "indexdef": "CREATE UNIQUE INDEX document_chunks_chunk_set_id_chunk_index_unique ON public.document_chunks USING btree (chunk_set_id, chunk_index)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_document_id_language_chunk_index_index",
+            "indexdef": "CREATE INDEX document_chunks_document_id_language_chunk_index_index ON public.document_chunks USING btree (document_id, language, chunk_index)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_pkey",
+            "indexdef": "CREATE UNIQUE INDEX document_chunks_pkey ON public.document_chunks USING btree (id)"
+        },
+        {
+            "tablename": "document_chunks",
+            "indexname": "document_chunks_quality_status_id_index",
+            "indexdef": "CREATE INDEX document_chunks_quality_status_id_index ON public.document_chunks USING btree (quality_status, id)"
+        },
+        {
+            "tablename": "document_contents",
+            "indexname": "ai_content_identity",
+            "indexdef": "CREATE UNIQUE INDEX ai_content_identity ON public.document_contents USING btree (id, document_id, language)"
+        },
+        {
+            "tablename": "document_contents",
+            "indexname": "document_contents_document_id_language_unique",
+            "indexdef": "CREATE UNIQUE INDEX document_contents_document_id_language_unique ON public.document_contents USING btree (document_id, language)"
+        },
+        {
+            "tablename": "document_contents",
+            "indexname": "document_contents_pkey",
+            "indexdef": "CREATE UNIQUE INDEX document_contents_pkey ON public.document_contents USING btree (id)"
+        },
+        {
+            "tablename": "document_contents",
+            "indexname": "document_contents_quality_status_id_index",
+            "indexdef": "CREATE INDEX document_contents_quality_status_id_index ON public.document_contents USING btree (quality_status, id)"
+        },
+        {
+            "tablename": "document_identifiers",
+            "indexname": "document_identifiers_document_id_index",
+            "indexdef": "CREATE INDEX document_identifiers_document_id_index ON public.document_identifiers USING btree (document_id)"
+        },
+        {
+            "tablename": "document_identifiers",
+            "indexname": "document_identifiers_pkey",
+            "indexdef": "CREATE UNIQUE INDEX document_identifiers_pkey ON public.document_identifiers USING btree (id)"
+        },
+        {
+            "tablename": "document_identifiers",
+            "indexname": "document_identifiers_source_id_external_id_unique",
+            "indexdef": "CREATE UNIQUE INDEX document_identifiers_source_id_external_id_unique ON public.document_identifiers USING btree (source_id, external_id)"
+        },
+        {
+            "tablename": "document_sources",
+            "indexname": "document_sources_pkey",
+            "indexdef": "CREATE UNIQUE INDEX document_sources_pkey ON public.document_sources USING btree (id)"
+        },
+        {
+            "tablename": "document_sources",
+            "indexname": "document_sources_slug_unique",
+            "indexdef": "CREATE UNIQUE INDEX document_sources_slug_unique ON public.document_sources USING btree (slug)"
+        },
+        {
+            "tablename": "documents",
+            "indexname": "documents_id_source_id_unique",
+            "indexdef": "CREATE UNIQUE INDEX documents_id_source_id_unique ON public.documents USING btree (id, source_id)"
+        },
+        {
+            "tablename": "documents",
+            "indexname": "documents_pkey",
+            "indexdef": "CREATE UNIQUE INDEX documents_pkey ON public.documents USING btree (id)"
+        },
+        {
+            "tablename": "documents",
+            "indexname": "documents_source_id_external_id_unique",
+            "indexdef": "CREATE UNIQUE INDEX documents_source_id_external_id_unique ON public.documents USING btree (source_id, external_id)"
+        },
+        {
+            "tablename": "documents",
+            "indexname": "documents_source_id_status_last_checked_at_index",
+            "indexdef": "CREATE INDEX documents_source_id_status_last_checked_at_index ON public.documents USING btree (source_id, status, last_checked_at)"
+        },
+        {
+            "tablename": "documents",
+            "indexname": "documents_status_effective_at_index",
+            "indexdef": "CREATE INDEX documents_status_effective_at_index ON public.documents USING btree (status, effective_at)"
+        },
+        {
+            "tablename": "migrations",
+            "indexname": "migrations_pkey",
+            "indexdef": "CREATE UNIQUE INDEX migrations_pkey ON public.migrations USING btree (id)"
+        }
+    ],
+    "review_reasons": [
+        {
+            "reason": "source_needs_review",
+            "chunks": 296478
+        },
+        {
+            "reason": "structure_unrecognized",
+            "chunks": 30457
+        },
+        {
+            "reason": "structure_uncertain",
+            "chunks": 16015
+        },
+        {
+            "reason": "oversize_atomic",
+            "chunks": 10392
+        },
+        {
+            "reason": "maximum_length_exceeded",
+            "chunks": 4844
+        },
+        {
+            "reason": "short_source",
+            "chunks": 1
+        }
+    ],
+    "oversize_causes": [
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "appendix",
+            "chunks": 5663,
+            "max_chars": 748614
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "paragraph",
+            "chunks": 2691,
+            "max_chars": 637968
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "point",
+            "chunks": 1604,
+            "max_chars": 312118
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "subpoint",
+            "chunks": 358,
+            "max_chars": 128167
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "article",
+            "chunks": 22,
+            "max_chars": 92692
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "heading",
+            "chunks": 22,
+            "max_chars": 19890
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "chapter",
+            "chunks": 15,
+            "max_chars": 25525
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "title",
+            "chunks": 7,
+            "max_chars": 5876
+        },
+        {
+            "has_table": false,
+            "format": "html",
+            "section_type": "article",
+            "chunks": 4,
+            "max_chars": 8330
+        },
+        {
+            "has_table": true,
+            "format": "html",
+            "section_type": "section",
+            "chunks": 2,
+            "max_chars": 45367
+        },
+        {
+            "has_table": false,
+            "format": "pdf",
+            "section_type": "point",
+            "chunks": 1,
+            "max_chars": 4085
+        },
+        {
+            "has_table": false,
+            "format": "pdf",
+            "section_type": "paragraph",
+            "chunks": 1,
+            "max_chars": 4787
+        },
+        {
+            "has_table": true,
+            "format": "ocr",
+            "section_type": "paragraph",
+            "chunks": 1,
+            "max_chars": 7397
+        },
+        {
+            "has_table": true,
+            "format": "pdf",
+            "section_type": "subpoint",
+            "chunks": 1,
+            "max_chars": 7428
+        }
+    ],
+    "short_causes": [
+        {
+            "section_type": "paragraph",
+            "has_table": false,
+            "format": "html",
+            "chunks": 21979
+        },
+        {
+            "section_type": "point",
+            "has_table": false,
+            "format": "html",
+            "chunks": 16646
+        },
+        {
+            "section_type": "chapter",
+            "has_table": false,
+            "format": "html",
+            "chunks": 14677
+        },
+        {
+            "section_type": "subpoint",
+            "has_table": false,
+            "format": "html",
+            "chunks": 7371
+        },
+        {
+            "section_type": "heading",
+            "has_table": false,
+            "format": "html",
+            "chunks": 5040
+        },
+        {
+            "section_type": "appendix",
+            "has_table": false,
+            "format": "html",
+            "chunks": 2328
+        },
+        {
+            "section_type": "title",
+            "has_table": false,
+            "format": "html",
+            "chunks": 249
+        },
+        {
+            "section_type": "section",
+            "has_table": false,
+            "format": "html",
+            "chunks": 128
+        },
+        {
+            "section_type": "point",
+            "has_table": false,
+            "format": "pdf",
+            "chunks": 105
+        },
+        {
+            "section_type": "article",
+            "has_table": false,
+            "format": "html",
+            "chunks": 47
+        },
+        {
+            "section_type": "subpoint",
+            "has_table": false,
+            "format": "pdf",
+            "chunks": 19
+        },
+        {
+            "section_type": "part",
+            "has_table": false,
+            "format": "html",
+            "chunks": 8
+        },
+        {
+            "section_type": "chapter",
+            "has_table": false,
+            "format": "pdf",
+            "chunks": 6
+        },
+        {
+            "section_type": "document_part",
+            "has_table": false,
+            "format": "html",
+            "chunks": 6
+        },
+        {
+            "section_type": "appendix",
+            "has_table": false,
+            "format": "pdf",
+            "chunks": 3
+        },
+        {
+            "section_type": "paragraph",
+            "has_table": false,
+            "format": "pdf",
+            "chunks": 1
+        },
+        {
+            "section_type": "point",
+            "has_table": true,
+            "format": "html",
+            "chunks": 1
+        }
+    ],
+    "source_quality_issues": [
+        {
+            "issue": "quality_review",
+            "contents": 6131
+        },
+        {
+            "issue": "complex_table_semantics_review",
+            "contents": 5228
+        },
+        {
+            "issue": "unextracted_images",
+            "contents": 1394
+        },
+        {
+            "issue": "invalid_text",
+            "contents": 890
+        },
+        {
+            "issue": "unsupported_superscript",
+            "contents": 385
+        },
+        {
+            "issue": "pdf_language_coverage_unconfirmed",
+            "contents": 153
+        },
+        {
+            "issue": "pdf_reading_order_unverified",
+            "contents": 153
+        },
+        {
+            "issue": "pdf_structure_unverified",
+            "contents": 153
+        },
+        {
+            "issue": "pdf_image_semantics_unverified",
+            "contents": 149
+        },
+        {
+            "issue": "image_backed_text_review",
+            "contents": 111
+        },
+        {
+            "issue": "ocr_source_identifier_not_certified",
+            "contents": 55
+        },
+        {
+            "issue": "uncertified_ocr",
+            "contents": 55
+        },
+        {
+            "issue": "low_ocr_confidence",
+            "contents": 53
+        },
+        {
+            "issue": "ocr_critical_tokens_unverified",
+            "contents": 51
+        },
+        {
+            "issue": "missing_document_heading",
+            "contents": 46
+        },
+        {
+            "issue": "declared_language_script_mismatch",
+            "contents": 34
+        },
+        {
+            "issue": "empty_pdf_page",
+            "contents": 5
+        },
+        {
+            "issue": "table_span_out_of_bounds",
+            "contents": 2
+        },
+        {
+            "issue": "table_span_overlap",
+            "contents": 2
+        }
+    ],
+    "source_chunk_rows": {
+        "count": 551749,
+        "sha256": "c1330f1ec94226f1904685be678453ac677436bfc386493131bf1185e0a48e66"
+    },
+    "projected_additional_bytes": 2934350168,
+    "projection_note": "Conservative body/context/lineage/index allowance; actual pilot relation growth must be checked before full processing. No v2 chunk duplication is needed."
+}
