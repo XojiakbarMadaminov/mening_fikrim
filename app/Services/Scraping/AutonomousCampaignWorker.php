@@ -48,6 +48,9 @@ class AutonomousCampaignWorker
         if ($state['status'] === 'paused' || ($state['status'] === 'running' && (($state['control']['phase'] ?? null) !== 'wait' || ! DB::table('jobs')->where('queue', 'scraping')->exists()))) {
             return true;
         }
+        if ($state['transport_wait']['active'] ?? false) {
+            return true;
+        }
         try {
             $this->campaign->claim($id);
         } catch (RuntimeException $e) {

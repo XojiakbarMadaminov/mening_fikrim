@@ -6,6 +6,7 @@ use App\Services\Reporting\CampaignReportingService;
 use App\Services\Scraping\AutonomousCampaign;
 use App\Services\Scraping\AutonomousCampaignWorker;
 use App\Services\Scraping\DurableCampaign;
+use App\Services\Scraping\ScrapingDependencyHealth;
 use App\Services\Scraping\SourceArchive;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
@@ -13,7 +14,7 @@ use Illuminate\Support\Facades\DB;
 
 class ManageCampaign extends Command
 {
-    protected $signature = 'documents:campaign {action=status : status, report, prepare, run, worker, start, pause, resume, work, stop, recover-not-found, recover-network or probe-network} {--id=} {--requests=13000} {--sources=3300} {--target=1000} {--validation} {--reason=operator_stop} {--max-jobs=31} {--json} {--format=} {--snapshot=current} {--dry-run} {--failed-job=}';
+    protected $signature = 'documents:campaign {action=status : status, report, prepare, run, worker, start, pause, resume, work, stop, recover-not-found, recover-network, probe-network, recover-ocr, transport-wait or transport-probe} {--id=} {--requests=13000} {--sources=3300} {--target=1000} {--validation} {--reason=operator_stop} {--max-jobs=31} {--json} {--format=} {--snapshot=current} {--dry-run} {--failed-job=} {--failed-jobs=}';
 
     protected $description = 'Durable autonomous bounded corpus collection and read-only reports';
 
@@ -43,6 +44,24 @@ class ManageCampaign extends Command
                     throw new \RuntimeException('Raw retention must remain disabled.');
                 }
                 app(AutonomousCampaign::class)->prepare((string) $id);
+            } elseif ($action === 'transport-wait') {
+                $campaign->enableTransportWait((string) $id);
+            } elseif ($action === 'transport-probe') {
+                $this->liveGuard();
+                $campaign->claim((string) $id);
+                try {
+                    $campaign->serviceTransportWait();
+                } finally {
+                    if (in_array($campaign->state($id)['status'], ['stopped', 'failed', 'completed'], true)) {
+                        $campaign->recordFinalReport($reporting->campaign($id));
+                    }
+                }
+            } elseif ($action === 'recover-ocr') {
+                $raw = (string) $this->option('failed-jobs');
+                if (! preg_match('/^[1-9][0-9]*(,[1-9][0-9]*){0,29}$/D', $raw)) {
+                    throw new \InvalidArgumentException('Explicit --failed-jobs comma-separated positive IDs required.');
+                }
+                $campaign->recoverOcr((string) $id, array_map('intval', explode(',', $raw)));
             } elseif ($action === 'recover-network') {
                 $campaign->recoverNetwork((string) $id);
             } elseif ($action === 'probe-network') {
@@ -75,6 +94,7 @@ class ManageCampaign extends Command
                 if ($action === 'resume') {
                     $campaign->resume();
                 } else {
+                    $this->liveGuard();
                     if (! config('scraping.live_enabled') || (int) $this->option('max-jobs') < 1 || (int) $this->option('max-jobs') > 31) {
                         throw new \RuntimeException('Explicit live flag and --max-jobs=1..31 required.');
                     }
@@ -119,6 +139,7 @@ class ManageCampaign extends Command
 
     private function liveGuard(): void
     {
+        app(ScrapingDependencyHealth::class)->assertReady();
         if (! config('scraping.live_enabled') || config('scraping.scheduler_enabled') || config('scraping.workers') !== 1 || config('scraping.request_delay_ms') < 2000
             || config('scraping.request_budget') > 400 || config('queue.default') !== 'database' || config('cache.default') !== 'database' || config('source_archive.enabled')) {
             throw new \RuntimeException('Explicit live flag, one worker, >=2000ms, context<=400, database queue/cache, disabled scheduler/raw retention required.');

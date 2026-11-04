@@ -127,6 +127,9 @@ class AutonomousCampaign
             if ($this->campaign->acknowledgeSignals()) {
                 return false;
             }
+            if ($this->campaign->serviceTransportWait()) {
+                return true;
+            }
             $state = $this->campaign->assertOpen();
             $control = $state['control'] ?? throw new RuntimeException('Missing durable orchestrator control.');
             $pending = ScrapeRun::where('checkpoint->campaign_id', $this->id)->where(function ($q) {

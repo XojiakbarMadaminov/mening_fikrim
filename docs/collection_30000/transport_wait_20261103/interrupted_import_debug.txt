@@ -1,0 +1,35 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.12
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+[41;37mF[0m                                                                   1 / 1 (100%)
+
+Time: 00:01.136, Memory: 58.50 MB
+
+There was 1 failure:
+
+1) Tests\Feature\TransportWaitTest::test_interrupted_import_waits_then_resumes_with_same_source_attempt_history
+{"item":{"id":1,"scrape_run_id":1,"source_external_id":"8506802","document_id":null,"status":"retry_wait","attempts":1,"listing_status":null,"action":null,"review_reasons":null,"language_results":null,"outcome":null,"discovery_signatures":["88abfc0bc5518e80ded9013679d09e8528d86ef5842103a0711731ca65c6f030"],"queue_job_id":null,"dispatch_token":"88be41cd-f04c-4974-a09b-3ae7e1fd9e0a","available_at":"2026-11-03T10:15:44.000000Z","lease_expires_at":null,"last_error":"App\\Services\\Scraping\\PilotStoppedException: Pilot stopped: transport_cooldown","started_at":"2026-11-03T10:00:45.000000Z","finished_at":null,"created_at":"2026-11-03T10:00:45.000000Z","updated_at":"2026-11-03T10:00:45.000000Z"},"queue":[{"id":3,"queue":"scraping","payload":"{\"uuid\":\"c2365bed-74bb-435a-b8d1-d112e69eacdd\",\"displayName\":\"App\\\\Jobs\\\\ImportDocumentJob#1\",\"job\":\"Illuminate\\\\Queue\\\\CallQueuedHandler@call\",\"maxTries\":3,\"maxExceptions\":null,\"failOnTimeout\":false,\"countCrashesAsExceptions\":false,\"backoff\":\"10,30,60\",\"timeout\":900,\"retryUntil\":null,\"deleteWhenMissingModels\":false,\"data\":{\"commandName\":\"App\\\\Jobs\\\\ImportDocumentJob\",\"command\":\"O:26:\\\"App\\\\Jobs\\\\ImportDocumentJob\\\":12:{s:5:\\\"tries\\\";i:3;s:7:\\\"timeout\\\";i:900;s:8:\\\"sourceId\\\";i:1;s:9:\\\"candidate\\\";s:7:\\\"8506802\\\";s:9:\\\"checkedAt\\\";N;s:5:\\\"runId\\\";i:1;s:13:\\\"listingStatus\\\";N;s:6:\\\"itemId\\\";i:1;s:13:\\\"dispatchToken\\\";s:36:\\\"88be41cd-f04c-4974-a09b-3ae7e1fd9e0a\\\";s:10:\\\"connection\\\";s:8:\\\"database\\\";s:5:\\\"queue\\\";s:8:\\\"scraping\\\";s:11:\\\"afterCommit\\\";b:0;}\",\"batchId\":null},\"createdAt\":1793700045,\"delay\":null}","attempts":1,"reserved_at":null,"available_at":1793700944,"created_at":1793700045}],"state":{"active":true,"enabled":true,"version":1,"episodes":1,"enabled_at":"2026-11-03T15:00:45+05:00","started_at":"2026-11-03T15:00:45+05:00","source_path":"\/uz\/docs\/8506802","max_episodes":12,"total_probes":1,"next_probe_at":"2026-11-03T15:46:45+05:00","probe_attempts":1,"last_probe_status":0,"max_probes_per_episode":8}}
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'imported'
++'retry_wait'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/TransportWaitTest.php:306
+
+--
+
+There was 1 risky test:
+
+1) Tests\Feature\TransportWaitTest::test_interrupted_import_waits_then_resumes_with_same_source_attempt_history
+* Test code or tested code did not remove its own error handlers
+
+* Test code or tested code did not remove its own exception handlers
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/TransportWaitTest.php:275
+
+[37;41mFAILURES![0m
+[37;41mTests: 1[0m[37;41m, Assertions: 7[0m[37;41m, Failures: 1[0m[37;41m, Risky: 1[0m[37;41m.[0m

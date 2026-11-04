@@ -1,0 +1,103 @@
+{
+  "observed_at": "2026-11-03T15:09:02+05:00",
+  "policy": "bounded-transport-wait-v1",
+  "campaign": {
+    "id": "corpus-30000-20261030",
+    "status": "running",
+    "stop_reason": null,
+    "new_canonical": 11458,
+    "http_used": 83194,
+    "http_cap": 360000,
+    "selected_source_count": 17849,
+    "transport_wait": {
+      "active": false,
+      "enabled": true,
+      "version": 1,
+      "episodes": 1,
+      "enabled_at": "2026-11-03T15:04:37+05:00",
+      "resumed_at": "2026-11-03T15:05:01+05:00",
+      "source_path": "/uz/actinfo/card1/6240957",
+      "max_episodes": 12,
+      "total_probes": 1,
+      "next_probe_at": null,
+      "probe_attempts": 1,
+      "last_probe_status": 200,
+      "max_probes_per_episode": 8
+    },
+    "network_recovery_count": 3,
+    "recovery_count": 5,
+    "http_status_counts": {
+      "0": 29,
+      "200": 83160,
+      "404": 4
+    },
+    "control": {
+      "phase": "wait",
+      "run_id": 970,
+      "scope_index": 281
+    }
+  },
+  "counts": {
+    "documents": 15125,
+    "document_identifiers": 45579,
+    "document_contents": 37088,
+    "scrape_runs": 970,
+    "scrape_run_items": 23445,
+    "failed_jobs": 43,
+    "jobs": 17,
+    "quality": {
+      "needs_review": 8391,
+      "verified": 28697
+    }
+  },
+  "new_canonical_since_task": 2,
+  "new_contents_since_task": 5,
+  "http_since_task": 25,
+  "errors": [],
+  "tests": {
+    "tests": 279,
+    "assertions": 1432,
+    "result": "pass",
+    "changed_php_pint": "pass",
+    "whole_repo_pint": "pre-existing P3 content_audit.php formatting issue"
+  },
+  "actors": {
+    "started_at": "2026-11-03T15:07:52.341416+05:00",
+    "cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim",
+    "detached": true,
+    "actors": [
+      {
+        "role": "worker",
+        "pid": 794970,
+        "command": [
+          "php",
+          "artisan",
+          "documents:campaign",
+          "worker",
+          "--id=corpus-30000-20261030"
+        ],
+        "log": "/home/xojiakbar/PhpstormProjects/mening_fikrim/storage/logs/corpus-30000-worker.log",
+        "alive": true,
+        "cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim"
+      },
+      {
+        "role": "controller",
+        "pid": 794971,
+        "command": [
+          "php",
+          "artisan",
+          "documents:campaign",
+          "run",
+          "--id=corpus-30000-20261030"
+        ],
+        "log": "/home/xojiakbar/PhpstormProjects/mening_fikrim/storage/logs/corpus-30000-controller.log",
+        "alive": true,
+        "cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim"
+      }
+    ]
+  },
+  "new_campaign": false,
+  "migration": false,
+  "scope_budget_deadline_reset": false,
+  "ai_worktree_or_db_access": false
+}

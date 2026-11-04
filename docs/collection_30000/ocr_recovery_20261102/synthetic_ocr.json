@@ -1,0 +1,110 @@
+{
+    "language": "en",
+    "quality": {
+        "format": "ocr",
+        "complete": true,
+        "structure_verified": false,
+        "document_certified": false,
+        "issues": [
+            "ocr_source_identifier_not_certified",
+            "pdf_image_semantics_unverified",
+            "pdf_language_coverage_unconfirmed",
+            "pdf_reading_order_unverified",
+            "pdf_structure_unverified",
+            "uncertified_ocr"
+        ],
+        "pages_expected": 1,
+        "pages_extracted": 1,
+        "ocr_pages": [
+            1
+        ],
+        "page_stats": [
+            {
+                "page": 1,
+                "chars": 1802,
+                "ocr": true,
+                "image_coverage": 1,
+                "body_chars": 0,
+                "text_vertical_coverage": 0,
+                "layout": {
+                    "multi_column_suspected": false,
+                    "out_of_page_text_boxes": 0,
+                    "reading_order_verified": false,
+                    "missing_or_merged_lines_verified": false
+                },
+                "confidence": {
+                    "line_count": 32,
+                    "suspicious_word_boxes": 0,
+                    "review_regions": {
+                        "coordinate_space": "OCR raster pixels",
+                        "raster_size": {
+                            "width": 1769,
+                            "height": 2400
+                        },
+                        "region_count": 0,
+                        "regions": [],
+                        "sample_truncated": false,
+                        "line_count": 32,
+                        "tall_line_count": 0,
+                        "missing_or_merged_lines_verified": false
+                    },
+                    "tsv_sha256": "2424b78e75d7a3678bbf7aef6fe325cc8f4a85bc11f599c12ae06447199d3c19",
+                    "mean_confidence": 96.24,
+                    "low_confidence_fraction": 0,
+                    "words": 254,
+                    "model": "eng"
+                }
+            }
+        ],
+        "critical_tokens": [],
+        "validation_levels": {
+            "bytes_valid": true,
+            "page_accounting_valid": true,
+            "text_layer_extraction_valid": false,
+            "text_extraction_nonempty": true,
+            "reading_order_verified": false,
+            "table_section_structure_verified": false,
+            "language_coverage_verified": false,
+            "ocr_accuracy_verified": false
+        },
+        "layout_diagnostics": {
+            "engine": "pdfplumber",
+            "version": "0.11.10",
+            "pages": [
+                {
+                    "page": 1,
+                    "image_count": 1,
+                    "trials": [
+                        {
+                            "tolerance": 3,
+                            "tables": []
+                        },
+                        {
+                            "tolerance": 8,
+                            "tables": []
+                        }
+                    ],
+                    "settings_disagree": false,
+                    "table_relationships_verified": false
+                }
+            ],
+            "document_certified": false
+        },
+        "provenance": {
+            "parser": "P3-poppler-tesseract",
+            "source_sha256": "8714cf0d1561c4d7ee0966239a959e188810d71aac54622acbea6e1c63726d1f",
+            "markdown_sha256": "7c4e5fcff53f5056a68524e0c4df96a339d006ce2727835debbfd4dd3c45ff54",
+            "physical_language": "en",
+            "declared_language": "en",
+            "raster_max_pixels": 2400,
+            "ocr_dpi": 200
+        },
+        "timings": {
+            "pdf_parse_seconds": 4.249767,
+            "ocr_seconds": 3.714457
+        },
+        "source_id_check": "Source URL\/card identity is checked separately; OCR cannot certify the source identifier."
+    },
+    "synthetic_fixture": true,
+    "saved_markdown_characters": 1820
+}

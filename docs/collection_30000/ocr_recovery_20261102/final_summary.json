@@ -1,0 +1,92 @@
+{
+  "observed_at": "2026-11-02T14:49:46+05:00",
+  "campaign_id": "corpus-30000-20261030",
+  "status": "running",
+  "before": {
+    "documents": 10052,
+    "identifiers": 31551,
+    "contents": 25727,
+    "new_canonical": 6385,
+    "http": 50878
+  },
+  "after": {
+    "documents": 10074,
+    "document_identifiers": 31615,
+    "document_contents": 25790,
+    "scrape_runs": 700,
+    "scrape_run_items": 16458,
+    "failed_jobs": 43,
+    "jobs": 5,
+    "quality": {
+      "needs_review": 6208,
+      "verified": 19582
+    }
+  },
+  "new_canonical": 6407,
+  "new_this_task": 22,
+  "remaining_target": 23593,
+  "http_used": 51024,
+  "http_cap": 360000,
+  "new_failed_jobs": 0,
+  "failed_jobs_acknowledged_this_recovery": 18,
+  "failed_items_requeued": 1,
+  "completed_reviews_requeued": 0,
+  "health_ok": true,
+  "tests": {
+    "full": 267,
+    "assertions": 1315,
+    "failures": 0,
+    "focused": 39,
+    "focused_assertions": 242,
+    "pint_changed_files": "pass",
+    "pint_repository": "pre-existing P3 content_audit.php formatting issue"
+  },
+  "integrity_errors": [],
+  "history_errors": [],
+  "original_checkpoints_preserved": 193,
+  "original_failed_jobs_preserved": 43,
+  "actors": {
+    "started_at": "2026-11-02T14:44:06.612310+05:00",
+    "cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim",
+    "session_detached": true,
+    "actors": [
+      {
+        "role": "worker",
+        "pid": 207663,
+        "command": [
+          "php",
+          "artisan",
+          "documents:campaign",
+          "worker",
+          "--id=corpus-30000-20261030"
+        ],
+        "log": "/home/xojiakbar/PhpstormProjects/mening_fikrim/storage/logs/corpus-30000-worker.log",
+        "alive": true,
+        "actual_command": "php artisan documents:campaign worker --id=corpus-30000-20261030",
+        "actual_cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim"
+      },
+      {
+        "role": "controller",
+        "pid": 207665,
+        "command": [
+          "php",
+          "artisan",
+          "documents:campaign",
+          "run",
+          "--id=corpus-30000-20261030"
+        ],
+        "log": "/home/xojiakbar/PhpstormProjects/mening_fikrim/storage/logs/corpus-30000-controller.log",
+        "alive": true,
+        "actual_command": "php artisan documents:campaign run --id=corpus-30000-20261030",
+        "actual_cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim"
+      }
+    ]
+  },
+  "last_document": {
+    "id": 10074,
+    "external_id": "-5254988",
+    "created_at": "2026-11-02 14:49:30+05"
+  },
+  "scope_budget_time_reset": false,
+  "ai_worktree_or_database_accessed": false
+}

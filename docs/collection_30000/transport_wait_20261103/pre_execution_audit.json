@@ -1,0 +1,66 @@
+{
+    "observed_at": "2026-11-03T15:02:59+05:00",
+    "errors": [],
+    "counts": {
+        "documents": 15123,
+        "document_identifiers": 45571,
+        "document_contents": 37083,
+        "scrape_runs": 970,
+        "scrape_run_items": 23445,
+        "failed_jobs": 43,
+        "jobs": 20,
+        "quality": {
+            "needs_review": 8387,
+            "verified": 28696
+        }
+    },
+    "campaign": {
+        "id": "corpus-30000-20261030",
+        "status": "stopped",
+        "stop_reason": "source_http_0_repeated",
+        "new_canonical": 11456,
+        "http_used": 83169,
+        "http_cap": 360000,
+        "selected_source_count": 17849,
+        "transport_wait": null,
+        "network_recovery_count": 2,
+        "recovery_count": 4,
+        "http_status_counts": {
+            "0": 29,
+            "200": 83136,
+            "404": 4
+        },
+        "control": {
+            "phase": "wait",
+            "run_id": 970,
+            "scope_index": 281
+        }
+    },
+    "original_receipts": {
+        "24482": "unchanged",
+        "24463": "unchanged",
+        "24464": "unchanged",
+        "24465": "unchanged",
+        "24466": "unchanged",
+        "24467": "unchanged",
+        "24468": "unchanged",
+        "24469": "unchanged",
+        "24470": "unchanged",
+        "24471": "unchanged",
+        "24472": "unchanged",
+        "24473": "unchanged",
+        "24474": "unchanged",
+        "24475": "unchanged",
+        "24476": "unchanged",
+        "24477": "unchanged",
+        "24478": "unchanged",
+        "24479": "unchanged",
+        "24480": "unchanged",
+        "24481": "unchanged"
+    },
+    "last_document": {
+        "id": 15123,
+        "external_id": "-6247815",
+        "created_at": "2026-11-03 12:24:25+05"
+    }
+}

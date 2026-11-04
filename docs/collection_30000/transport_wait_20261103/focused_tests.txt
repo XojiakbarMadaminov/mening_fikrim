@@ -1,0 +1,20 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.12
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...................................[41;37mF[0m.....                         41 / 41 (100%)
+
+Time: 00:22.837, Memory: 88.50 MB
+
+There was 1 failure:
+
+1) Tests\Feature\TransportWaitTest::test_failed_probes_use_one_request_and_persist_backoff_then_stop_at_eight
+Failed asserting that actual size 0 matches expected size 8.
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Http/Client/Factory.php:561
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:364
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/TransportWaitTest.php:141
+
+[37;41mFAILURES![0m
+[37;41mTests: 41[0m[37;41m, Assertions: 317[0m[37;41m, Failures: 1[0m[37;41m.[0m

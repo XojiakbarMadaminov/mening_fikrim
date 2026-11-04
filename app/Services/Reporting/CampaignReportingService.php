@@ -162,6 +162,7 @@ class CampaignReportingService
                 'discovery' => ['scope' => $campaign->configuration_snapshot['scope'] ?? null, 'scope_metric_status' => isset($campaign->configuration_snapshot['scope']) ? 'durable_configuration' : 'unavailable_in_legacy_configuration; see historical scope evidence',
                     'partitions' => $checkpoints, 'coverage_gaps' => array_values($campaign->state['control']['coverage_gaps'] ?? []), 'global_coverage_verified' => false],
                 'recovery' => ['owner_generation' => $campaign->owner_generation, 'owner_registered' => $campaign->owner_token !== null,
+                    'transport_wait' => array_intersect_key($campaign->state['transport_wait'] ?? [], array_flip(['enabled', 'active', 'episodes', 'max_episodes', 'max_probes_per_episode', 'probe_attempts', 'total_probes', 'next_probe_at', 'last_probe_status'])),
                     'owner_session_live' => app(DurableCampaign::class)->hasLiveOwner($id),
                     'phase' => $campaign->state['control']['phase'] ?? 'unavailable_for_legacy_controller', 'checkpoint_count' => $campaign->checkpoints()->count(),
                     'recovery_count' => $campaign->state['recovery_count'] ?? 0, 'network_recovery_count' => $campaign->state['network_recovery_count'] ?? 0, 'network_probe_required' => $campaign->state['network_probe_required'] ?? false, 'acknowledged_failed_jobs' => count($campaign->state['acknowledged_failed_jobs'] ?? []), 'terminal_resume_allowed' => false],

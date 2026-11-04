@@ -12,12 +12,14 @@ use App\Models\ScrapeRun;
 use App\Scraping\LexUz\LexHttpClient;
 use App\Scraping\LexUz\LexRequestException;
 use App\Services\Reporting\CampaignReportingService;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 use RuntimeException;
+use Symfony\Component\Process\Exception\ProcessFailedException;
 
 /** Permanent P6 registry. Historical pilot cache entries are never changed here. */
 class DurableCampaign
@@ -35,6 +37,8 @@ class DurableCampaign
     private ?int $ownerGeneration = null;
 
     private ?int $backendPid = null;
+
+    private bool $transportProbe = false;
 
     public function exists(): bool
     {
@@ -270,6 +274,9 @@ class DurableCampaign
             $this->stop('campaign_duration_budget_exhausted');
             throw new PilotStoppedException('campaign_duration_budget_exhausted');
         }
+        if (($state['transport_wait']['active'] ?? false) && ! $this->transportProbe) {
+            throw new PilotStoppedException('transport_cooldown', max(1, (int) now()->diffInSeconds(Carbon::parse($state['transport_wait']['next_probe_at']), false)));
+        }
 
         return $state;
     }
@@ -333,6 +340,9 @@ class DurableCampaign
             }
             $state['contexts'][$context] = ($state['contexts'][$context] ?? 0) + 1;
             $state['last_reservation'] = ['context' => $context, 'method' => $method, 'source_path' => parse_url($url, PHP_URL_PATH)];
+            if ($method === 'GET' && $this->validTransportPath($state['last_reservation']['source_path'])) {
+                $state['last_observed_get_path'] = $state['last_reservation']['source_path'];
+            }
             $state['http_in_flight'] = true;
             $state['http_recovery_wait_seconds'] = max((int) config('scraping.http_timeout'), (int) config('scraping.pdf_timeout')) + 30;
             $campaign->update(['used_http_requests' => $campaign->used_http_requests + 1, 'state' => $state]);
@@ -357,11 +367,155 @@ class DurableCampaign
             $state['last_response_at'] = DB::selectOne('SELECT clock_timestamp() AS at')->at;
             $state['http_in_flight'] = false;
             $state['consecutive_errors'] = $status === 0 || $status >= 500 ? $state['consecutive_errors'] + 1 : 0;
+            $state['transport_error_streak'] = $status === 0 ? ($state['transport_error_streak'] ?? 0) + 1 : 0;
+            if ($status === 0 && ($state['transport_wait']['enabled'] ?? false) && $campaign->campaign_id === 'corpus-30000-20261030') {
+                if (! $this->transportProbe && $state['transport_error_streak'] >= 2 && ! ($state['transport_wait']['active'] ?? false)) {
+                    $wait = $state['transport_wait'];
+                    $path = $state['last_observed_get_path'] ?? null;
+                    if ($wait['episodes'] >= 12 || ! $this->validTransportPath($path)) {
+                        $campaign->update(['state' => $state]);
+                        $this->terminal($campaign, 'transport_episode_budget_exhausted_or_no_probe_path');
+
+                        return;
+                    }
+                    $state['transport_wait'] = [...$wait, 'active' => true, 'episodes' => $wait['episodes'] + 1,
+                        'probe_attempts' => 0, 'source_path' => $path, 'started_at' => now()->toAtomString(),
+                        'next_probe_at' => now()->addMinutes(15)->toAtomString()];
+                }
+                $campaign->update(['state' => $state]);
+
+                return; // Only opted-in HTTP0 uses a circuit; access/5xx remain terminal below.
+            }
             $campaign->update(['state' => $state]);
             if (in_array($status, [403, 429], true) || $state['consecutive_errors'] >= 2) {
                 $this->terminal($campaign, 'source_http_'.$status.($state['consecutive_errors'] >= 2 ? '_repeated' : ''));
             }
         });
+    }
+
+    private function validTransportPath(mixed $path): bool
+    {
+        return is_string($path) && str_starts_with($path, '/') && ! str_starts_with($path, '//')
+            && strlen($path) <= 2048 && strpbrk($path, "?#\r\n") === false;
+    }
+
+    public function transportProbeActive(): bool
+    {
+        return $this->transportProbe;
+    }
+
+    /** Explicit operator opt-in; no HTTP, counter reset, receipt changes or implicit terminal recovery. */
+    public function enableTransportWait(string $id): array
+    {
+        $this->claim($id);
+        try {
+            DB::transaction(function () use ($id) {
+                $row = $this->locked();
+                $state = $row->state;
+                if ($id !== 'corpus-30000-20261030' || ! in_array($row->status, ['paused', 'running'], true)
+                    || ($state['transport_wait']['enabled'] ?? false) || ($state['http_in_flight'] ?? false)
+                    || ($state['http_status_counts']['403'] ?? 0) || ($state['http_status_counts']['429'] ?? 0)
+                    || $row->used_http_requests >= $row->max_http_requests || $row->selected_source_count >= $row->max_source_selections
+                    || now()->diffInSeconds($row->started_at, true) >= $row->configuration_snapshot['max_campaign_seconds']) {
+                    throw new RuntimeException('Transport wait requires the exact eligible campaign and remaining original budgets; it cannot reopen a terminal stop.');
+                }
+                $baseline = $row->checkpoints()->where('name', 'preservation-baseline')->firstOrFail()->state['baseline'];
+                $audit = app(CampaignIntegrity::class)->audit($baseline, $id);
+                if ($audit['errors'] !== []) {
+                    throw new RuntimeException('Transport policy integrity audit failed: '.implode(',', $audit['errors']));
+                }
+                $adopt = ($state['network_probe_required'] ?? false) === true;
+                $path = $adopt ? ($state['network_probe_path'] ?? null) : ($state['last_observed_get_path'] ?? $state['last_reservation']['source_path'] ?? null);
+                if ($adopt && ! $this->validTransportPath($path)) {
+                    throw new RuntimeException('A previously reviewed network probe path is required.');
+                }
+                $policy = ['enabled' => true, 'version' => 1, 'active' => $adopt, 'episodes' => $adopt ? 1 : 0,
+                    'max_episodes' => 12, 'max_probes_per_episode' => 8, 'probe_attempts' => 0, 'total_probes' => 0,
+                    'source_path' => $path, 'next_probe_at' => $adopt ? now()->toAtomString() : null,
+                    'enabled_at' => now()->toAtomString()];
+                $row->checkpoints()->create(['name' => 'transport-wait-policy', 'bounds' => ['explicit-transport-wait-v1'],
+                    'owner_generation' => $row->owner_generation, 'state' => ['before' => $row->getRawOriginal(), 'policy' => $policy, 'audit' => $audit]]);
+                $state['transport_wait'] = $policy;
+                if ($adopt) {
+                    $state['network_probe_required'] = false; // The persistent circuit now fences all traffic until its probe succeeds.
+                }
+                $row->update(['state' => $state]);
+            });
+
+            return $this->state($id);
+        } finally {
+            $this->release();
+        }
+    }
+
+    /** Controller owns this one paced probe; worker/normal HTTP cannot pass an open circuit. */
+    public function serviceTransportWait(): bool
+    {
+        $state = $this->state();
+        if (! ($state['transport_wait']['active'] ?? false)) {
+            return false;
+        }
+        $this->transportProbe = true;
+        try {
+            $state = $this->assertOpen(); // Deadline/ownership are checked even while waiting without traffic.
+            $wait = $state['transport_wait'];
+            if (Carbon::parse($wait['next_probe_at'])->isFuture()) {
+                return true;
+            }
+            $baseline = ScrapeCampaign::where('campaign_id', $this->ownedId)->firstOrFail()->checkpoints()->where('name', 'preservation-baseline')->firstOrFail()->state['baseline'];
+            $audit = app(CampaignIntegrity::class)->audit($baseline, $this->ownedId);
+            if ($audit['errors'] !== []) {
+                $this->stop('stage_integrity_audit_failed');
+                throw new PilotStoppedException('stage_integrity_audit_failed');
+            }
+            if ($wait['probe_attempts'] >= 8 || $wait['episodes'] > 12 || ! $this->validTransportPath($wait['source_path'])) {
+                $this->stop('transport_probe_budget_exhausted');
+                throw new PilotStoppedException('transport_probe_budget_exhausted');
+            }
+            DB::transaction(function () {
+                $row = $this->locked();
+                $state = $row->state;
+                $state['transport_wait']['probe_attempts']++;
+                $state['transport_wait']['total_probes']++;
+                // Persist the next boundary BEFORE sending: a crash burns a probe and cannot send again immediately.
+                $delay = min(3600, 900 * 2 ** min(2, $state['transport_wait']['probe_attempts']));
+                $state['transport_wait']['next_probe_at'] = now()->addSeconds($delay)->toAtomString();
+                $row->update(['state' => $state]);
+            });
+            $attempt = $wait['probe_attempts'] + 1;
+            $client = app(LexHttpClient::class);
+            $client->context('transport-probe-'.$wait['episodes'].'-'.$attempt);
+            try {
+                $status = $client->get('https://lex.uz'.$wait['source_path'])->status();
+            } catch (LexRequestException $e) {
+                $status = $e->status;
+                if ($this->state()['status'] !== 'running') {
+                    throw $e;
+                }
+            }
+            $success = in_array($status, [200, 404], true);
+            $this->saveCheckpoint('transport-probe-'.$wait['episodes'].'-'.$attempt, ['paced-get-v1'], [
+                'source_path' => $wait['source_path'], 'status' => $status, 'transport_reachable' => $success,
+                'checked_at' => now()->toAtomString(), 'audit' => $audit]);
+            DB::transaction(function () use ($success, $status, $attempt) {
+                $row = $this->locked();
+                $state = $row->state;
+                $state['transport_wait']['last_probe_status'] = $status;
+                if ($success) {
+                    $state['transport_wait']['active'] = false;
+                    $state['transport_wait']['next_probe_at'] = null;
+                    $state['transport_wait']['resumed_at'] = now()->toAtomString();
+                }
+                $row->update(['state' => $state]);
+                if (! $success && ($status !== 0 || $attempt >= 8)) {
+                    $this->terminal($row, $status === 0 ? 'transport_probe_budget_exhausted' : 'transport_probe_http_'.$status);
+                }
+            });
+
+            return true;
+        } finally {
+            $this->transportProbe = false;
+        }
     }
 
     public function selectSources(array $ids): void
@@ -606,6 +760,95 @@ class DurableCampaign
                     'state' => ['authorized_action' => 'recover-not-found', 'failed_job_id' => $failedJobId,
                         'before' => $before, 'audit' => $audit, 'recovered_at' => now()->toAtomString()]]);
                 // Pause first: the operator then uses ordinary resume; elapsed/request/source budgets persist.
+                $campaign->update(['status' => 'paused', 'paused_at' => now(), 'stopped_at' => null, 'stop_reason' => null,
+                    'owner_token' => null, 'owner_backend_pid' => null, 'owner_claimed_at' => null]);
+            });
+
+            return $this->state($id);
+        } finally {
+            $this->unlock();
+        }
+    }
+
+    /** Repair-only operator recovery for the named campaign's missing native OCR dependency. */
+    public function recoverOcr(string $id, array $failureIds): array
+    {
+        $health = app(ScrapingDependencyHealth::class)->assertReady();
+        if ($failureIds === [] || count($failureIds) > 30 || count($failureIds) !== count(array_unique($failureIds))
+            || array_filter($failureIds, fn ($value) => ! is_int($value) || $value < 1)) {
+            throw new RuntimeException('Explicit unique OCR failed-job IDs (1..30) are required.');
+        }
+        $this->obtainLock();
+        try {
+            DB::transaction(function () use ($id, $failureIds, $health) {
+                $campaign = ScrapeCampaign::where('campaign_id', $id)->lockForUpdate()->firstOrFail();
+                $state = $campaign->state;
+                if ($id !== 'corpus-30000-20261030' || $this->id() !== $id || $campaign->status !== 'stopped'
+                    || ! in_array($campaign->stop_reason, ['stage_integrity_audit_failed', 'runtime_dependency_unavailable'], true)
+                    || ($state['recovery_count'] ?? 0) >= 10 || $this->hasLiveOwner($id)
+                    || ($state['http_status_counts']['403'] ?? 0) > 0 || ($state['http_status_counts']['429'] ?? 0) > 0
+                    || DB::table('jobs')->where('queue', 'scraping')->exists()
+                    || $campaign->used_http_requests >= $campaign->max_http_requests
+                    || $campaign->selected_source_count >= $campaign->max_source_selections
+                    || now()->diffInSeconds($campaign->started_at, true) >= $campaign->configuration_snapshot['max_campaign_seconds']) {
+                    throw new RuntimeException('OCR recovery requires the reviewed stopped campaign, settled queue and original remaining budgets.');
+                }
+                if ($campaign->checkpoints()->where('name', $campaign->finalReportName())->doesntExist()) {
+                    throw new RuntimeException('Original epoch terminal snapshot must be preserved.');
+                }
+                $before = $campaign->getRawOriginal();
+                $evidence = [];
+                $affected = [];
+                foreach ($failureIds as $failureId) {
+                    $failure = DB::table('failed_jobs')->where('id', $failureId)->first();
+                    $payload = $failure ? json_decode($failure->payload, true, flags: JSON_THROW_ON_ERROR) : [];
+                    if (! $failure || $failure->queue !== 'scraping'
+                        || ! str_starts_with($failure->exception, ProcessFailedException::class.': ')
+                        || ! str_contains($failure->exception, 'tesseract') || ! str_contains($failure->exception, 'Exit Code: 127')
+                        || ! str_contains($failure->exception, 'not found')
+                        || ($payload['data']['commandName'] ?? null) !== ImportDocumentJob::class
+                        || ! preg_match('/^App\\\\Jobs\\\\ImportDocumentJob#(\d+)$/D', $payload['displayName'] ?? '', $runMatch)
+                        || ! preg_match('/s:9:"candidate";s:\d+:"(-?\d+)";/', $payload['data']['command'] ?? '', $sourceMatch)
+                        || isset($state['acknowledged_failed_jobs'][(string) $failureId])) {
+                        throw new RuntimeException('Only explicitly reviewed missing-Tesseract failures may be acknowledged.');
+                    }
+                    $run = ScrapeRun::whereKey((int) $runMatch[1])->where('checkpoint->campaign_id', $id)->lockForUpdate()->firstOrFail();
+                    $item = $run->items()->where('source_external_id', $sourceMatch[1])->lockForUpdate()->firstOrFail();
+                    $affected[$item->id] = $item;
+                    $evidence[(string) $failureId] = ['sha256' => hash('sha256', json_encode($failure)),
+                        'source_external_id' => $item->source_external_id, 'item_id' => $item->id,
+                        'reason' => 'missing_tesseract_repaired', 'checked_at' => now()->toAtomString()];
+                }
+                $state['recovery_count'] = ($state['recovery_count'] ?? 0) + 1;
+                $state['acknowledged_failed_jobs'] = ($state['acknowledged_failed_jobs'] ?? []) + $evidence;
+                $itemBefore = [];
+                $requeued = [];
+                foreach ($affected as $item) {
+                    if ($item->status !== 'failed') {
+                        continue; // Completed/review/alias sources must not be imported again.
+                    }
+                    $itemBefore[(string) $item->id] = $item->getRawOriginal();
+                    app(RunItemTracker::class)->reopenFailed($item, $state['recovery_count']);
+                    $run = $item->run;
+                    $checkpoint = $run->checkpoint;
+                    $checkpoint['jobs_reconciled'] = false;
+                    $run->update(['status' => 'running', 'finished_at' => null, 'checkpoint' => $checkpoint]);
+                    $requeued[] = $item->id;
+                }
+                if ($requeued === []) {
+                    throw new RuntimeException('No failed OCR item requires explicit recovery.');
+                }
+                $campaign->update(['state' => $state]);
+                $baseline = $campaign->checkpoints()->where('name', 'preservation-baseline')->firstOrFail()->state['baseline'];
+                $audit = app(CampaignIntegrity::class)->audit($baseline, $id);
+                if ($audit['errors'] !== []) {
+                    throw new RuntimeException('OCR recovery integrity audit failed: '.implode(',', $audit['errors']));
+                }
+                $campaign->checkpoints()->create(['name' => 'operator-recovery-'.$state['recovery_count'],
+                    'bounds' => ['explicit-ocr-repair-v1'], 'owner_generation' => $campaign->owner_generation,
+                    'state' => ['authorized_action' => 'recover-ocr', 'before' => $before, 'item_before' => $itemBefore,
+                        'acknowledged_failures' => $evidence, 'requeued_item_ids' => $requeued,
+                        'health' => $health, 'audit' => $audit, 'recovered_at' => now()->toAtomString()]]);
                 $campaign->update(['status' => 'paused', 'paused_at' => now(), 'stopped_at' => null, 'stop_reason' => null,
                     'owner_token' => null, 'owner_backend_pid' => null, 'owner_claimed_at' => null]);
             });

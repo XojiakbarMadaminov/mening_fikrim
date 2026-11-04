@@ -1,5 +1,9 @@
 # 30,000 new canonical documents — controlled collection
 
+Latest transport policy: [2026-11-03 bounded automatic HTTP0 waiting](TRANSPORT_WAIT_20261103.md). Explicitly enabled for this same campaign: worker/controller stay alive through ordinary transport outages, wait15/30/60min and probe through the original budget/pacer. This narrowly supersedes older manual-only HTTP0 rules below. All other safety stops remain guarded. Inspect transport_wait.active/next_probe_at; running can mean waiting for network. No new campaign or budget/deadline reset.
+
+Latest operational update: [2026-11-02 OCR dependency and retry recovery](OCR_RECOVERY_20261102.md). Permanent native dependencies, `documents:health`, cumulative retry guards and an audited same-campaign recovery were implemented. A real previously failed OCR source was persisted; worker/controller were restarted after full tests and integrity checks. The historical launch evidence below remains unchanged. Always check current status before starting actors; do not repeat recovery commands blindly.
+
 Status: LIVE RUNNING from2026-10-30 10:03:59Asia/Tashkent. Actual launch and persistence evidence follows. This document does not claim that 30,000 documents have already been collected.
 
 ## Authorization and baseline

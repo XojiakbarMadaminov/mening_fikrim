@@ -1,0 +1,34 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.12
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...........................................[41;37mF[0m.                     45 / 45 (100%)
+
+Time: 00:25.238, Memory: 88.50 MB
+
+There was 1 failure:
+
+1) Tests\Feature\TransportWaitTest::test_interrupted_import_waits_then_resumes_with_same_source_attempt_history
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'imported'
++'retry_wait'
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/TransportWaitTest.php:306
+
+--
+
+There was 1 risky test:
+
+1) Tests\Feature\TransportWaitTest::test_interrupted_import_waits_then_resumes_with_same_source_attempt_history
+* Test code or tested code did not remove its own error handlers
+
+* Test code or tested code did not remove its own exception handlers
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/TransportWaitTest.php:275
+
+[37;41mFAILURES![0m
+[37;41mTests: 45[0m[37;41m, Assertions: 341[0m[37;41m, Failures: 1[0m[37;41m, Risky: 1[0m[37;41m.[0m

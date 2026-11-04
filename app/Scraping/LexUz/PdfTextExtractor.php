@@ -2,6 +2,8 @@
 
 namespace App\Scraping\LexUz;
 
+use App\Services\Scraping\ScrapingDependencyException;
+use App\Services\Scraping\ScrapingDependencyHealth;
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
@@ -218,6 +220,7 @@ class PdfTextExtractor
 
     private function ocr(string $directory, int $page, string $language): array
     {
+        app(ScrapingDependencyHealth::class)->assertOcr();
         $ocrStarted = hrtime(true);
         $prefix = 'page-'.$page;
         $this->run([config('scraping.pdftoppm_binary'), '-f', (string) $page, '-l', (string) $page, '-singlefile', '-scale-to', '2400', '-png', 'document.pdf', $prefix], $directory);
@@ -272,6 +275,9 @@ class PdfTextExtractor
                 usleep(100000);
             }
             if (! $process->isSuccessful()) {
+                if (in_array($process->getExitCode(), [126, 127], true) || preg_match('/Error opening data file|Failed loading language|no languages loaded/i', $process->getErrorOutput())) {
+                    throw new ScrapingDependencyException(['NATIVE_PROCESS_NOT_AVAILABLE']);
+                }
                 throw new ProcessFailedException($process);
             }
         } finally {

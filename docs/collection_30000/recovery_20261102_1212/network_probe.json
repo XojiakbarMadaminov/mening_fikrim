@@ -1,0 +1,2487 @@
+{
+    "campaign": {
+        "stages": [
+            30,
+            100,
+            300,
+            1000,
+            3000,
+            6000,
+            10000,
+            20000,
+            30000
+        ],
+        "prepared": false,
+        "audit_count": 6361,
+        "http_in_flight": false,
+        "recovery_count": 3,
+        "last_audited_at": "2026-11-02T09:53:24+05:00",
+        "last_reservation": {
+            "method": "GET",
+            "context": "operator-network-probe-3",
+            "source_path": "\/uz\/docs\/4601891"
+        },
+        "last_response_at": "2026-11-02 12:14:58.963642+05",
+        "consecutive_errors": 0,
+        "http_status_counts": {
+            "0": 11,
+            "200": 50468,
+            "404": 1
+        },
+        "network_probe_path": "\/uz\/docs\/4601891",
+        "legacy_predecessor_id": "p5-1-20261029",
+        "network_probe_required": false,
+        "network_recovery_count": 2,
+        "discovered_source_count": 21161,
+        "acknowledged_failed_jobs": {
+            "25": {
+                "sha256": "76a05a79352f82be709527f628d6da114fd252e0936cf6292170fc26c9eebce5",
+                "checked_at": "2026-11-01T14:13:13+05:00",
+                "resolved_item_id": 15717,
+                "source_external_id": "4602855"
+            }
+        },
+        "discovery_partition_count": 406,
+        "legacy_predecessor_sha256": "c2db5bddaebb2afd7aa7492bedbbf20af6b2c776d7c4cd30cf9ff0b2b6e54af2",
+        "predecessor_record_sha256": "4e6a6fbe92bebc5ae6648d7ac9815f3e2a90990ec1c46b28d105539936af091e",
+        "http_recovery_wait_seconds": 120,
+        "id": "corpus-30000-20261030",
+        "durable": true,
+        "status": "running",
+        "request_limit": 360000,
+        "used": 50480,
+        "target": 30000,
+        "stage": 10000,
+        "source_limit": 75000,
+        "selected_source_count": 10794,
+        "baseline_max_id": 3667,
+        "baseline_count": 3667,
+        "new_canonical_documents": 6369,
+        "persisted_new_canonical_count": 6369,
+        "started_at": "2026-10-30T10:04:00+05:00",
+        "paused_at": "2026-11-02T12:13:55+05:00",
+        "completed_at": null,
+        "last_request_started_at": "2026-11-02T12:14:56.780106+05:00",
+        "stopped": null,
+        "configuration_snapshot": {
+            "scope": [
+                {
+                    "to": "30.12.2021",
+                    "from": "30.12.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2015",
+                    "from": "01.01.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2015",
+                    "from": "01.01.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2015",
+                    "from": "01.01.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2015",
+                    "from": "01.02.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2015",
+                    "from": "01.02.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2015",
+                    "from": "01.02.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2015",
+                    "from": "01.03.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2015",
+                    "from": "01.03.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2015",
+                    "from": "01.03.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2015",
+                    "from": "01.04.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2015",
+                    "from": "01.04.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2015",
+                    "from": "01.04.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2015",
+                    "from": "01.05.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2015",
+                    "from": "01.05.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2015",
+                    "from": "01.05.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2015",
+                    "from": "01.06.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2015",
+                    "from": "01.06.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2015",
+                    "from": "01.06.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2015",
+                    "from": "01.07.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2015",
+                    "from": "01.07.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2015",
+                    "from": "01.07.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2015",
+                    "from": "01.08.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2015",
+                    "from": "01.08.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2015",
+                    "from": "01.08.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2015",
+                    "from": "01.09.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2015",
+                    "from": "01.09.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2015",
+                    "from": "01.09.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2015",
+                    "from": "01.10.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2015",
+                    "from": "01.10.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2015",
+                    "from": "01.10.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2015",
+                    "from": "01.11.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2015",
+                    "from": "01.11.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2015",
+                    "from": "01.11.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2015",
+                    "from": "01.12.2015",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2015",
+                    "from": "01.12.2015",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2015",
+                    "from": "01.12.2015",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2016",
+                    "from": "01.01.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2016",
+                    "from": "01.01.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2016",
+                    "from": "01.01.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "29.02.2016",
+                    "from": "01.02.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "29.02.2016",
+                    "from": "01.02.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "29.02.2016",
+                    "from": "01.02.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2016",
+                    "from": "01.03.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2016",
+                    "from": "01.03.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2016",
+                    "from": "01.03.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2016",
+                    "from": "01.04.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2016",
+                    "from": "01.04.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2016",
+                    "from": "01.04.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2016",
+                    "from": "01.05.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2016",
+                    "from": "01.05.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2016",
+                    "from": "01.05.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2016",
+                    "from": "01.06.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2016",
+                    "from": "01.06.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2016",
+                    "from": "01.06.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2016",
+                    "from": "01.07.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2016",
+                    "from": "01.07.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2016",
+                    "from": "01.07.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2016",
+                    "from": "01.08.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2016",
+                    "from": "01.08.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2016",
+                    "from": "01.08.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2016",
+                    "from": "01.09.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2016",
+                    "from": "01.09.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2016",
+                    "from": "01.09.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2016",
+                    "from": "01.10.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2016",
+                    "from": "01.10.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2016",
+                    "from": "01.10.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2016",
+                    "from": "01.11.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2016",
+                    "from": "01.11.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2016",
+                    "from": "01.11.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2016",
+                    "from": "01.12.2016",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2016",
+                    "from": "01.12.2016",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2016",
+                    "from": "01.12.2016",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2017",
+                    "from": "01.01.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2017",
+                    "from": "01.01.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2017",
+                    "from": "01.01.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2017",
+                    "from": "01.02.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2017",
+                    "from": "01.02.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2017",
+                    "from": "01.02.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2017",
+                    "from": "01.03.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2017",
+                    "from": "01.03.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2017",
+                    "from": "01.03.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2017",
+                    "from": "01.04.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2017",
+                    "from": "01.04.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2017",
+                    "from": "01.04.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2017",
+                    "from": "01.05.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2017",
+                    "from": "01.05.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2017",
+                    "from": "01.05.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2017",
+                    "from": "01.06.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2017",
+                    "from": "01.06.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2017",
+                    "from": "01.06.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2017",
+                    "from": "01.07.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2017",
+                    "from": "01.07.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2017",
+                    "from": "01.07.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2017",
+                    "from": "01.08.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2017",
+                    "from": "01.08.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2017",
+                    "from": "01.08.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2017",
+                    "from": "01.09.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2017",
+                    "from": "01.09.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2017",
+                    "from": "01.09.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2017",
+                    "from": "01.10.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2017",
+                    "from": "01.10.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2017",
+                    "from": "01.10.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2017",
+                    "from": "01.11.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2017",
+                    "from": "01.11.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2017",
+                    "from": "01.11.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2017",
+                    "from": "01.12.2017",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2017",
+                    "from": "01.12.2017",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2017",
+                    "from": "01.12.2017",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2018",
+                    "from": "01.01.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2018",
+                    "from": "01.01.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2018",
+                    "from": "01.01.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2018",
+                    "from": "01.02.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2018",
+                    "from": "01.02.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2018",
+                    "from": "01.02.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2018",
+                    "from": "01.03.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2018",
+                    "from": "01.03.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2018",
+                    "from": "01.03.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2018",
+                    "from": "01.04.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2018",
+                    "from": "01.04.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2018",
+                    "from": "01.04.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2018",
+                    "from": "01.05.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2018",
+                    "from": "01.05.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2018",
+                    "from": "01.05.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2018",
+                    "from": "01.06.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2018",
+                    "from": "01.06.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2018",
+                    "from": "01.06.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2018",
+                    "from": "01.07.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2018",
+                    "from": "01.07.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2018",
+                    "from": "01.07.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2018",
+                    "from": "01.08.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2018",
+                    "from": "01.08.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2018",
+                    "from": "01.08.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2018",
+                    "from": "01.09.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2018",
+                    "from": "01.09.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2018",
+                    "from": "01.09.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2018",
+                    "from": "01.10.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2018",
+                    "from": "01.10.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2018",
+                    "from": "01.10.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2018",
+                    "from": "01.11.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2018",
+                    "from": "01.11.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2018",
+                    "from": "01.11.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2018",
+                    "from": "01.12.2018",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2018",
+                    "from": "01.12.2018",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2018",
+                    "from": "01.12.2018",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2019",
+                    "from": "01.01.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2019",
+                    "from": "01.01.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2019",
+                    "from": "01.01.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2019",
+                    "from": "01.02.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2019",
+                    "from": "01.02.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2019",
+                    "from": "01.02.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2019",
+                    "from": "01.03.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2019",
+                    "from": "01.03.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2019",
+                    "from": "01.03.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2019",
+                    "from": "01.04.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2019",
+                    "from": "01.04.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2019",
+                    "from": "01.04.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2019",
+                    "from": "01.05.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2019",
+                    "from": "01.05.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2019",
+                    "from": "01.05.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2019",
+                    "from": "01.06.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2019",
+                    "from": "01.06.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2019",
+                    "from": "01.06.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2019",
+                    "from": "01.07.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2019",
+                    "from": "01.07.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2019",
+                    "from": "01.07.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2019",
+                    "from": "01.08.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2019",
+                    "from": "01.08.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2019",
+                    "from": "01.08.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2019",
+                    "from": "01.09.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2019",
+                    "from": "01.09.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2019",
+                    "from": "01.09.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2019",
+                    "from": "01.10.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2019",
+                    "from": "01.10.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2019",
+                    "from": "01.10.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2019",
+                    "from": "01.11.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2019",
+                    "from": "01.11.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2019",
+                    "from": "01.11.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2019",
+                    "from": "01.12.2019",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2019",
+                    "from": "01.12.2019",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2019",
+                    "from": "01.12.2019",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2020",
+                    "from": "01.01.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "29.02.2020",
+                    "from": "01.02.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "29.02.2020",
+                    "from": "01.02.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "29.02.2020",
+                    "from": "01.02.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2020",
+                    "from": "01.03.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2020",
+                    "from": "01.04.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2020",
+                    "from": "01.04.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2020",
+                    "from": "01.04.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2020",
+                    "from": "01.05.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2020",
+                    "from": "01.05.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2020",
+                    "from": "01.05.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2020",
+                    "from": "01.06.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2020",
+                    "from": "01.06.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2020",
+                    "from": "01.06.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2020",
+                    "from": "01.07.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2020",
+                    "from": "01.07.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2020",
+                    "from": "01.07.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2020",
+                    "from": "01.08.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2020",
+                    "from": "01.08.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2020",
+                    "from": "01.08.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2020",
+                    "from": "01.09.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2020",
+                    "from": "01.09.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2020",
+                    "from": "01.09.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2020",
+                    "from": "01.10.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2020",
+                    "from": "01.10.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2020",
+                    "from": "01.10.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2020",
+                    "from": "01.11.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2020",
+                    "from": "01.11.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2020",
+                    "from": "01.11.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2020",
+                    "from": "01.12.2020",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2020",
+                    "from": "01.12.2020",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2020",
+                    "from": "01.12.2020",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2021",
+                    "from": "01.01.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2021",
+                    "from": "01.02.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2021",
+                    "from": "01.02.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2021",
+                    "from": "01.02.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.03.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.03.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2021",
+                    "from": "01.03.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2021",
+                    "from": "01.04.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2021",
+                    "from": "01.05.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2021",
+                    "from": "01.05.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2021",
+                    "from": "01.05.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.06.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.06.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2021",
+                    "from": "01.06.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2021",
+                    "from": "01.07.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2021",
+                    "from": "01.07.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2021",
+                    "from": "01.07.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2021",
+                    "from": "01.08.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2021",
+                    "from": "01.08.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2021",
+                    "from": "01.08.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2021",
+                    "from": "01.09.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2021",
+                    "from": "01.09.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2021",
+                    "from": "01.09.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2021",
+                    "from": "01.10.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2021",
+                    "from": "01.10.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2021",
+                    "from": "01.10.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2021",
+                    "from": "01.11.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2021",
+                    "from": "01.11.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2021",
+                    "from": "01.11.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2021",
+                    "from": "01.12.2021",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2021",
+                    "from": "01.12.2021",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2021",
+                    "from": "01.12.2021",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2022",
+                    "from": "01.01.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2022",
+                    "from": "01.01.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2022",
+                    "from": "01.01.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2022",
+                    "from": "01.02.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2022",
+                    "from": "01.02.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2022",
+                    "from": "01.02.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2022",
+                    "from": "01.03.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2022",
+                    "from": "01.03.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2022",
+                    "from": "01.03.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2022",
+                    "from": "01.04.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2022",
+                    "from": "01.04.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2022",
+                    "from": "01.04.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2022",
+                    "from": "01.05.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2022",
+                    "from": "01.05.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2022",
+                    "from": "01.05.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2022",
+                    "from": "01.06.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2022",
+                    "from": "01.06.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2022",
+                    "from": "01.06.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2022",
+                    "from": "01.07.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2022",
+                    "from": "01.07.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2022",
+                    "from": "01.07.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2022",
+                    "from": "01.08.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2022",
+                    "from": "01.08.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2022",
+                    "from": "01.08.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2022",
+                    "from": "01.09.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2022",
+                    "from": "01.09.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2022",
+                    "from": "01.09.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2022",
+                    "from": "01.10.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2022",
+                    "from": "01.10.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2022",
+                    "from": "01.10.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2022",
+                    "from": "01.11.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2022",
+                    "from": "01.11.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2022",
+                    "from": "01.11.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2022",
+                    "from": "01.12.2022",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2022",
+                    "from": "01.12.2022",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2022",
+                    "from": "01.12.2022",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2023",
+                    "from": "01.01.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2023",
+                    "from": "01.01.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2023",
+                    "from": "01.01.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2023",
+                    "from": "01.02.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2023",
+                    "from": "01.02.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2023",
+                    "from": "01.02.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2023",
+                    "from": "01.03.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2023",
+                    "from": "01.03.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2023",
+                    "from": "01.03.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2023",
+                    "from": "01.04.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2023",
+                    "from": "01.04.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2023",
+                    "from": "01.04.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2023",
+                    "from": "01.05.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2023",
+                    "from": "01.05.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2023",
+                    "from": "01.05.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2023",
+                    "from": "01.06.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2023",
+                    "from": "01.06.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2023",
+                    "from": "01.06.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2023",
+                    "from": "01.07.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2023",
+                    "from": "01.07.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2023",
+                    "from": "01.07.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2023",
+                    "from": "01.08.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2023",
+                    "from": "01.08.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2023",
+                    "from": "01.08.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2023",
+                    "from": "01.09.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2023",
+                    "from": "01.09.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2023",
+                    "from": "01.09.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2023",
+                    "from": "01.10.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2023",
+                    "from": "01.10.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2023",
+                    "from": "01.10.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2023",
+                    "from": "01.11.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2023",
+                    "from": "01.11.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2023",
+                    "from": "01.11.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2023",
+                    "from": "01.12.2023",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2023",
+                    "from": "01.12.2023",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2023",
+                    "from": "01.12.2023",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2024",
+                    "from": "01.01.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2024",
+                    "from": "01.01.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2024",
+                    "from": "01.01.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "29.02.2024",
+                    "from": "01.02.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "29.02.2024",
+                    "from": "01.02.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "29.02.2024",
+                    "from": "01.02.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2024",
+                    "from": "01.03.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2024",
+                    "from": "01.03.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2024",
+                    "from": "01.03.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2024",
+                    "from": "01.04.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2024",
+                    "from": "01.04.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2024",
+                    "from": "01.04.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2024",
+                    "from": "01.05.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2024",
+                    "from": "01.05.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2024",
+                    "from": "01.05.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2024",
+                    "from": "01.06.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2024",
+                    "from": "01.06.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2024",
+                    "from": "01.06.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2024",
+                    "from": "01.07.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2024",
+                    "from": "01.07.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2024",
+                    "from": "01.07.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2024",
+                    "from": "01.08.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2024",
+                    "from": "01.08.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2024",
+                    "from": "01.08.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2024",
+                    "from": "01.09.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2024",
+                    "from": "01.09.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2024",
+                    "from": "01.09.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2024",
+                    "from": "01.10.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2024",
+                    "from": "01.10.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2024",
+                    "from": "01.10.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2024",
+                    "from": "01.11.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2024",
+                    "from": "01.11.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2024",
+                    "from": "01.11.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2024",
+                    "from": "01.12.2024",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2024",
+                    "from": "01.12.2024",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2024",
+                    "from": "01.12.2024",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.01.2025",
+                    "from": "01.01.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.01.2025",
+                    "from": "01.01.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.01.2025",
+                    "from": "01.01.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "28.02.2025",
+                    "from": "01.02.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "28.02.2025",
+                    "from": "01.02.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "28.02.2025",
+                    "from": "01.02.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.03.2025",
+                    "from": "01.03.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.03.2025",
+                    "from": "01.03.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.03.2025",
+                    "from": "01.03.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.04.2025",
+                    "from": "01.04.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.04.2025",
+                    "from": "01.04.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.04.2025",
+                    "from": "01.04.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.05.2025",
+                    "from": "01.05.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.05.2025",
+                    "from": "01.05.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.05.2025",
+                    "from": "01.05.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.06.2025",
+                    "from": "01.06.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.06.2025",
+                    "from": "01.06.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.06.2025",
+                    "from": "01.06.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.07.2025",
+                    "from": "01.07.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.07.2025",
+                    "from": "01.07.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.07.2025",
+                    "from": "01.07.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.08.2025",
+                    "from": "01.08.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.08.2025",
+                    "from": "01.08.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.08.2025",
+                    "from": "01.08.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.09.2025",
+                    "from": "01.09.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.09.2025",
+                    "from": "01.09.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.09.2025",
+                    "from": "01.09.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.10.2025",
+                    "from": "01.10.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.10.2025",
+                    "from": "01.10.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.10.2025",
+                    "from": "01.10.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "30.11.2025",
+                    "from": "01.11.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "30.11.2025",
+                    "from": "01.11.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "30.11.2025",
+                    "from": "01.11.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                },
+                {
+                    "to": "31.12.2025",
+                    "from": "01.12.2025",
+                    "status": "Y",
+                    "section": "nat"
+                },
+                {
+                    "to": "31.12.2025",
+                    "from": "01.12.2025",
+                    "status": "Y",
+                    "section": "loc"
+                },
+                {
+                    "to": "31.12.2025",
+                    "from": "01.12.2025",
+                    "status": "Y",
+                    "section": "oliy"
+                }
+            ],
+            "stages": [
+                30,
+                100,
+                300,
+                1000,
+                3000,
+                6000,
+                10000,
+                20000,
+                30000
+            ],
+            "workers": 1,
+            "page_cap": 8,
+            "autonomous": true,
+            "collect_once": true,
+            "prepare_only": true,
+            "campaign_type": "corpus_collection",
+            "max_partitions": 8192,
+            "max_discovered_ids": 500000,
+            "max_partition_depth": 10,
+            "request_interval_ms": 2000,
+            "single_day_page_cap": 64,
+            "discovery_gap_policy": "record_and_continue",
+            "max_campaign_seconds": 1814400,
+            "max_request_contexts": 16384,
+            "replace_consumed_pool": true,
+            "discovery_node_contexts": true,
+            "per_context_request_limit": 400,
+            "authorized_scope_successor": "corpus-10000-20261029"
+        },
+        "owner_generation": 22744,
+        "owner_backend_pid": null,
+        "owned_by_this_process": false,
+        "request_context_count": 858
+    },
+    "pending_scraping_jobs": 20
+}

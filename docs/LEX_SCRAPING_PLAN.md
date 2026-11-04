@@ -466,3 +466,7 @@ User requested continued parsing after5,993NEW stage-integrity stop. Import sour
 ## 26. Explicit transport recovery — 2026-11-02
 
 User requested continuation of the SAME30,000campaign after two transport failures at6,302NEW. Add guarded recover-network plus one probe-network through existing global pace/request budget. Original deadline/counters/scope/receipts retained;15mincooldown/max3network recoveries;no403/429bypass,automatic recovery loop or new campaign. Actor probe gates and epoch2snapshot preserve history. No migration/parser/OCR change. See collection_30000/RECOVERY_20261102.md.
+
+## 27. Explicit bounded automatic HTTP0 waiting — 2026-11-03
+
+User requested that source_http_0_repeated no longer require a manual restart. The exact current30,000campaign can opt into persisted transport waiting: two connection failures open a circuit; one worker waits; the same controller probes a source-observed GET after15min,then30/60min. Max8probes/episode and12episodes/campaign,all inside original360,000HTTP/75,000selections/21days; no counter reset or concurrency change. HTTP200/404only establishes transport reachability.403/429,repeated5xx,technical/source retry/identity/integrity/dependency/budget stops remain guarded. Existing terminal epoch4was explicitly recovered through the original audited recovery5before opt-in. No new campaign,table,migration,scheduler or extraction technology. See collection_30000/TRANSPORT_WAIT_20261103.md.

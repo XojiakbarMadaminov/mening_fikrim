@@ -1,0 +1,80 @@
+{
+    "observed_at": "2026-11-03T15:09:02+05:00",
+    "errors": [],
+    "counts": {
+        "documents": 15125,
+        "document_identifiers": 45579,
+        "document_contents": 37088,
+        "scrape_runs": 970,
+        "scrape_run_items": 23445,
+        "failed_jobs": 43,
+        "jobs": 17,
+        "quality": {
+            "needs_review": 8391,
+            "verified": 28697
+        }
+    },
+    "campaign": {
+        "id": "corpus-30000-20261030",
+        "status": "running",
+        "stop_reason": null,
+        "new_canonical": 11458,
+        "http_used": 83194,
+        "http_cap": 360000,
+        "selected_source_count": 17849,
+        "transport_wait": {
+            "active": false,
+            "enabled": true,
+            "version": 1,
+            "episodes": 1,
+            "enabled_at": "2026-11-03T15:04:37+05:00",
+            "resumed_at": "2026-11-03T15:05:01+05:00",
+            "source_path": "\/uz\/actinfo\/card1\/6240957",
+            "max_episodes": 12,
+            "total_probes": 1,
+            "next_probe_at": null,
+            "probe_attempts": 1,
+            "last_probe_status": 200,
+            "max_probes_per_episode": 8
+        },
+        "network_recovery_count": 3,
+        "recovery_count": 5,
+        "http_status_counts": {
+            "0": 29,
+            "200": 83160,
+            "404": 4
+        },
+        "control": {
+            "phase": "wait",
+            "run_id": 970,
+            "scope_index": 281
+        }
+    },
+    "original_receipts": {
+        "24482": "unchanged",
+        "24463": "consumed",
+        "24464": "consumed",
+        "24465": "consumed",
+        "24466": "updated",
+        "24467": "unchanged",
+        "24468": "unchanged",
+        "24469": "unchanged",
+        "24470": "unchanged",
+        "24471": "unchanged",
+        "24472": "unchanged",
+        "24473": "unchanged",
+        "24474": "unchanged",
+        "24475": "unchanged",
+        "24476": "unchanged",
+        "24477": "unchanged",
+        "24478": "unchanged",
+        "24479": "unchanged",
+        "24480": "unchanged",
+        "24481": "unchanged"
+    },
+    "last_document": {
+        "id": 15125,
+        "external_id": "-6241295",
+        "created_at": "2026-11-03 15:08:22+05"
+    }
+}

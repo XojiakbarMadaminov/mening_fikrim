@@ -12,25 +12,58 @@ use Throwable;
 
 class RunItemTracker
 {
-    /** Must run inside the discovery/recovery transaction. The receipt and queue row commit together. */
-    public function enqueue(ScrapeRunItem $item): void
+    public function retryAllowed(ScrapeRunItem $item): bool
     {
+        $control = $item->outcome['retry_control'] ?? [];
+        $base = (int) ($control['base_attempts'] ?? 0);
+        $limit = max(1, min(3, (int) ($control['limit'] ?? config('scraping.max_retries'))));
+
+        return $item->attempts < $base + $limit;
+    }
+
+    private function exhausted(ScrapeRunItem $item): void
+    {
+        $this->finish($item->scrape_run_id, $item->source_external_id, [
+            ...($item->outcome ?? []), 'state' => 'failed', 'complete' => false,
+            'failure_code' => 'SOURCE_RETRY_LIMIT_EXCEEDED', 'failure_classification' => 'retry_exhausted',
+            'error' => 'SOURCE_RETRY_LIMIT_EXCEEDED: cumulative source attempts cannot be reset by redispatch.',
+        ], $item->dispatch_token);
+    }
+
+    /** Must run inside the discovery/recovery transaction. The receipt and queue row commit together. */
+    public function enqueue(ScrapeRunItem $item): bool
+    {
+        if (! $this->retryAllowed($item)) {
+            if (! $item->terminal()) {
+                $this->exhausted($item);
+            }
+
+            return false;
+        }
         $token = (string) Str::uuid();
         $job = new ImportDocumentJob($item->run->source_id, $item->source_external_id, null, $item->scrape_run_id, $item->listing_status, $item->id, $token);
         $id = app(ScrapeRunManager::class)->push($job);
         $item->moveTo('queued', ['dispatch_token' => $token, 'queue_job_id' => $id, 'available_at' => now(), 'lease_expires_at' => null]);
+
+        return true;
     }
 
     /** A dispatch token fences an old delivery after explicit stale recovery. */
     public function claim(int $id, ?string $token, ?string $queueId): array
     {
         return DB::transaction(function () use ($id, $token, $queueId) {
+            ScrapeRun::lockForUpdate()->findOrFail(ScrapeRunItem::findOrFail($id)->scrape_run_id);
             $item = ScrapeRunItem::lockForUpdate()->findOrFail($id);
             if ($item->terminal() || $item->dispatch_token !== $token || ($queueId !== null && $item->queue_job_id !== null && (string) $item->queue_job_id !== $queueId)) {
                 return ['item' => null];
             }
             if ($item->status === 'processing' && $item->lease_expires_at?->isFuture()) {
                 return ['item' => null, 'wait' => max(1, (int) now()->diffInSeconds($item->lease_expires_at))];
+            }
+            if (! $this->retryAllowed($item)) {
+                $this->exhausted($item);
+
+                return ['item' => null];
             }
             $item->moveTo('processing', ['attempts' => $item->attempts + 1, 'queue_job_id' => $queueId ?? $item->queue_job_id, 'started_at' => $item->started_at ?? now(),
                 'lease_expires_at' => now()->addSeconds(config('scraping.job_timeout') + 30)]);
@@ -83,6 +116,9 @@ class RunItemTracker
             if (($result['complete'] ?? false) && ($result['action'] ?? null) !== 'skipped_alias' && ($alias = $this->confirmedAlias($item))) {
                 $result = $alias + ['quality' => $result['quality'] ?? [], 'metrics' => $result['metrics'] ?? []];
             }
+            if (isset($item->outcome['retry_control'])) {
+                $result['retry_control'] = $item->outcome['retry_control'];
+            }
             $status = match ($result['state'] ?? null) {
                 'failed' => 'failed', 'review' => 'review',
                 default => ($result['action'] ?? null) === 'skipped_alias' ? 'skipped_alias'
@@ -101,7 +137,7 @@ class RunItemTracker
         $item = ScrapeRunItem::lockForUpdate()->findOrFail($id);
         if ($item->dispatch_token === $token && $item->status === 'processing') {
             $item->update(['document_id' => $result['document_id'], 'action' => $item->action === 'created' ? 'created' : $result['action'],
-                'language_results' => $result['languages'], 'outcome' => $result + ['technical_retry_pending' => true]]);
+                'language_results' => $result['languages'], 'outcome' => $result + ['technical_retry_pending' => true, ...array_intersect_key($item->outcome ?? [], ['retry_control' => true])]]);
         }
     }
 
@@ -128,11 +164,32 @@ class RunItemTracker
         ]);
     }
 
+    /** Requires an audited operator recovery transaction holding run/item locks. */
+    public function reopenFailed(ScrapeRunItem $item, int $operatorEpoch): void
+    {
+        if ($item->status !== 'failed' || $item->run->items()->whereKey($item->id)->where('status', 'failed')->doesntExist()) {
+            throw new \RuntimeException('Only the explicitly selected failed item can be reopened.');
+        }
+        $outcome = $item->outcome ?? [];
+        $count = (int) ($outcome['retry_control']['recovery_count'] ?? 0);
+        if ($count >= 3) {
+            throw new \RuntimeException('Explicit source recovery limit exhausted.');
+        }
+        $outcome['retry_control'] = ['base_attempts' => $item->attempts,
+            'limit' => max(1, min(3, (int) config('scraping.max_retries'))),
+            'recovery_count' => $count + 1, 'operator_epoch' => $operatorEpoch];
+        $item->update(['outcome' => $outcome]);
+        if (! $this->enqueue($item)) {
+            throw new \RuntimeException('Failed item could not receive its explicit bounded recovery receipt.');
+        }
+        $this->counters($item->scrape_run_id);
+    }
+
     /** Called only by explicit resume; never retries old failed_jobs or terminal reviews. */
     public function recover(int $runId): int
     {
         $requeued = 0;
-        ScrapeRunItem::where('scrape_run_id', $runId)->whereIn('status', ['discovered', 'queued', 'processing', 'retry_wait', 'failed'])
+        ScrapeRunItem::where('scrape_run_id', $runId)->whereIn('status', ['discovered', 'queued', 'processing', 'retry_wait'])
             ->orderBy('id')->chunkById(100, function ($items) use (&$requeued) {
                 foreach ($items as $item) {
                     $item = ScrapeRunItem::lockForUpdate()->findOrFail($item->id);
@@ -147,8 +204,9 @@ class RunItemTracker
                     if ($job) {
                         DB::table('jobs')->where('id', $job->id)->delete(); // only this proven-expired receipt
                     }
-                    $this->enqueue($item);
-                    $requeued++;
+                    if ($this->enqueue($item)) {
+                        $requeued++;
+                    }
                 }
             });
 

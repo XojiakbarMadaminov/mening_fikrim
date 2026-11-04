@@ -175,6 +175,10 @@ class LexHttpClient
                 }
             });
             app(PilotCampaign::class)->assertOpen();
+            if (app(DurableCampaign::class)->transportProbeActive() && (! $response || ! $response->successful())) {
+                // One budgeted request per circuit probe: no inline retry or redirect chain.
+                throw new LexRequestException('Transport probe HTTP '.($response?->status() ?? 0), $response?->status() ?? 0);
+            }
             if ($response && $response->redirect()) {
                 if ($redirects >= 3 || ! $response->header('Location')) {
                     throw new LexRequestException('Invalid or excessive source redirects.', $response->status());

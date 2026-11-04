@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-11-02T14:44:06.612310+05:00",
+  "cwd": "/home/xojiakbar/PhpstormProjects/mening_fikrim",
+  "session_detached": true,
+  "actors": [
+    {
+      "role": "worker",
+      "pid": 207663,
+      "command": [
+        "php",
+        "artisan",
+        "documents:campaign",
+        "worker",
+        "--id=corpus-30000-20261030"
+      ],
+      "log": "/home/xojiakbar/PhpstormProjects/mening_fikrim/storage/logs/corpus-30000-worker.log"
+    },
+    {
+      "role": "controller",
+      "pid": 207665,
+      "command": [
+        "php",
+        "artisan",
+        "documents:campaign",
+        "run",
+        "--id=corpus-30000-20261030"
+      ],
+      "log": "/home/xojiakbar/PhpstormProjects/mening_fikrim/storage/logs/corpus-30000-controller.log"
+    }
+  ]
+}

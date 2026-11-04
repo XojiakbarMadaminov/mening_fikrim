@@ -1,0 +1,23 @@
+PHPUnit 12.5.42 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.12
+Configuration: /home/xojiakbar/PhpstormProjects/mening_fikrim/phpunit.xml
+
+...............................................................  63 / 256 ( 24%)
+............................................................... 126 / 256 ( 49%)
+............................................................... 189 / 256 ( 73%)
+............................................................... 252 / 256 ( 98%)
+...[31;1mE[0m                                                            256 / 256 (100%)
+
+Time: 01:48.860, Memory: 115.00 MB
+
+There was 1 error:
+
+1) Tests\Feature\SourceArchiveTest::test_archived_pdf_uses_existing_extractor_without_network
+ErrorException: Attempt to read property "quality_status" on null
+
+/home/xojiakbar/PhpstormProjects/mening_fikrim/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:265
+/home/xojiakbar/PhpstormProjects/mening_fikrim/tests/Feature/SourceArchiveTest.php:224
+
+[37;41mERRORS![0m
+[37;41mTests: 256[0m[37;41m, Assertions: 1229[0m[37;41m, Errors: 1[0m[37;41m.[0m

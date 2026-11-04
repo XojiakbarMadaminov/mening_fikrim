@@ -1,0 +1,56 @@
+{
+  "installation": "Ubuntu Noble apt-get download / dpkg-deb --extract, persistent user prefix; not system apt installation",
+  "sudo": "sudo -n requires password",
+  "packages": [
+    {
+      "file": "liblept5_1.82.0-3build4_amd64.deb",
+      "fields": "Package: liblept5\nVersion: 1.82.0-3build4\nArchitecture: amd64",
+      "sha256": "c2bb81d58f032b09917c0d50994cce905287a1596304a4e99681a03601456ea8"
+    },
+    {
+      "file": "libtesseract5_5.3.4-1build5_amd64.deb",
+      "fields": "Package: libtesseract5\nVersion: 5.3.4-1build5\nArchitecture: amd64",
+      "sha256": "a38438115dc203b5abc1e6a6b24eb5273ba82161a11faa2f619bf5f7622efb14"
+    },
+    {
+      "file": "tesseract-ocr-eng_1%3a4.1.0-2_all.deb",
+      "fields": "Package: tesseract-ocr-eng\nVersion: 1:4.1.0-2\nArchitecture: all",
+      "sha256": "b1996b3113c78663f4dd16cf18aa1f288b07e9624f8d4a0ddbd7d9b52a234ba7"
+    },
+    {
+      "file": "tesseract-ocr-osd_1%3a4.1.0-2_all.deb",
+      "fields": "Package: tesseract-ocr-osd\nVersion: 1:4.1.0-2\nArchitecture: all",
+      "sha256": "a266496b3268134493808c1595c9d16ac92c7e1c28e3e0bf46fdb322df95ca68"
+    },
+    {
+      "file": "tesseract-ocr-rus_1%3a4.1.0-2_all.deb",
+      "fields": "Package: tesseract-ocr-rus\nVersion: 1:4.1.0-2\nArchitecture: all",
+      "sha256": "a41091fb50a4f24e6f56119218c8688443b69e4bca6f3e4c6be82568eb436e53"
+    },
+    {
+      "file": "tesseract-ocr-uzb-cyrl_1%3a4.1.0-2_all.deb",
+      "fields": "Package: tesseract-ocr-uzb-cyrl\nVersion: 1:4.1.0-2\nArchitecture: all",
+      "sha256": "2049307570ab078963cf002a7ce0c1e930039d6ed474519457c48551c6b14763"
+    },
+    {
+      "file": "tesseract-ocr-uzb_1%3a4.1.0-2_all.deb",
+      "fields": "Package: tesseract-ocr-uzb\nVersion: 1:4.1.0-2\nArchitecture: all",
+      "sha256": "edda9538919c899e2ae7573b30f1def3f209e04e2fbdc4a981662a45efad8bbd"
+    },
+    {
+      "file": "tesseract-ocr_5.3.4-1build5_amd64.deb",
+      "fields": "Package: tesseract-ocr\nVersion: 5.3.4-1build5\nArchitecture: amd64",
+      "sha256": "2dfac382d77215aee0c3de4a2a2205505d5f2195e72e79b54ad32154fc08da77"
+    }
+  ],
+  "python_packages": [
+    "cffi==2.1.1",
+    "charset-normalizer==3.5.2",
+    "cryptography==50.0.2",
+    "pdfminer.six==20260107",
+    "pdfplumber==0.11.10",
+    "pillow==13.0.0",
+    "pycparser==3.12",
+    "pypdfium2==5.14.0"
+  ]
+}

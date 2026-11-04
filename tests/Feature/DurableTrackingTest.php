@@ -8,6 +8,7 @@ use App\Scraping\Contracts\DocumentScraper;
 use App\Scraping\LexUz\LexRequestException;
 use App\Services\Scraping\RunItemTracker;
 use App\Services\Scraping\ScrapeRunManager;
+use App\Services\Scraping\ScrapingDependencyException;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Queue\Events\JobFailed;
@@ -15,6 +16,8 @@ use Illuminate\Queue\WorkerOptions;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Queue;
 use Mockery;
+use Symfony\Component\Process\Exception\ProcessTimedOutException;
+use Symfony\Component\Process\Process;
 use Tests\Fixtures\FixtureInputs;
 use Tests\TestCase;
 
@@ -121,6 +124,70 @@ class DurableTrackingTest extends TestCase
         $this->assertSame(1, $run->fresh()->failed_count);
         $this->assertSame(1, $run->fresh()->processed_count);
         $this->assertSame(0, app(ScrapeRunManager::class)->summary($run->fresh())['review_required']);
+        for ($i = 0; $i < 4; $i++) {
+            app(ScrapeRunManager::class)->resume($run->id);
+        }
+        $this->assertDatabaseCount('jobs', 0);
+        $this->assertDatabaseCount('failed_jobs', 1);
+        $this->assertSame('SOURCE_RETRY_LIMIT_EXCEEDED', $item->fresh()->outcome['failure_code']);
+        $this->assertSame(3, $item->fresh()->attempts);
+    }
+
+    public function test_missing_ocr_dependency_fails_once_and_resume_never_redispatches_it(): void
+    {
+        Queue::failing(fn (JobFailed $event) => app('queue.failer')->log($event->connectionName, $event->job->getQueue(), $event->job->getRawBody(), $event->exception));
+        $run = $this->createRun();
+        $fake = Mockery::mock(DocumentScraper::class);
+        $fake->shouldReceive('fetch')->once()->andThrow(new ScrapingDependencyException(['TESSERACT_NOT_AVAILABLE']));
+        $this->app->instance(DocumentScraper::class, $fake);
+        $this->work();
+        $item = $run->items()->first();
+        $this->assertSame('failed', $item->status);
+        $this->assertSame(1, $item->attempts);
+        $this->assertSame('permanent_dependency', $item->outcome['failure_classification']);
+        $this->assertSame('OCR_DEPENDENCY_MISSING', $item->outcome['failure_code']);
+        app(ScrapeRunManager::class)->resume($run->id);
+        $this->assertDatabaseCount('jobs', 0);
+        $this->assertDatabaseCount('failed_jobs', 1);
+        $this->assertDatabaseCount('document_contents', 0);
+    }
+
+    public function test_stale_receipts_cannot_reset_cumulative_attempt_limit(): void
+    {
+        $run = $this->createRun();
+        $item = $run->items()->first();
+        $tracker = app(RunItemTracker::class);
+        for ($i = 1; $i <= 3; $i++) {
+            $item->refresh();
+            $this->assertNotNull($tracker->claim($item->id, $item->dispatch_token, null)['item']);
+            DB::table('jobs')->delete(); // synthetic crash; only the isolated test DB
+            $item->refresh()->update(['lease_expires_at' => now()->subSecond()]);
+            app(ScrapeRunManager::class)->resume($run->id);
+        }
+        $this->assertSame(3, $item->fresh()->attempts);
+        $this->assertSame('failed', $item->fresh()->status);
+        $this->assertSame('SOURCE_RETRY_LIMIT_EXCEEDED', $item->fresh()->outcome['failure_code']);
+        $this->assertDatabaseCount('jobs', 0);
+    }
+
+    public function test_transient_ocr_timeout_uses_backoff_then_can_succeed(): void
+    {
+        $run = $this->createRun();
+        $process = new Process(['tesseract', 'synthetic-scan.png', 'stdout'], timeout: 1);
+        $fake = Mockery::mock(DocumentScraper::class);
+        $fake->shouldReceive('fetch')->once()->ordered()->andThrow(new ProcessTimedOutException($process, ProcessTimedOutException::TYPE_GENERAL));
+        $fake->shouldReceive('fetch')->once()->ordered()->andReturn($this->candidate());
+        $this->app->instance(DocumentScraper::class, $fake);
+        $this->work();
+        $item = $run->items()->first();
+        $this->assertSame('retry_wait', $item->status);
+        $this->assertTrue($item->available_at->isFuture());
+        $this->assertSame(1, $item->attempts);
+        DB::table('jobs')->update(['available_at' => time() - 1]);
+        $this->work();
+        $this->assertSame('imported', $item->fresh()->status);
+        $this->assertSame(2, $item->fresh()->attempts);
+        $this->assertDatabaseCount('failed_jobs', 0);
     }
 
     public function test_resume_does_not_duplicate_a_delayed_database_queue_retry_receipt(): void

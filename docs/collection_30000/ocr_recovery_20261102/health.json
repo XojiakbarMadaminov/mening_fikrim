@@ -1,0 +1,70 @@
+{
+    "ok": true,
+    "checked_at": "2026-11-02T14:41:18+05:00",
+    "checks": {
+        "tesseract": {
+            "ok": true,
+            "path": "\/home\/xojiakbar\/.local\/share\/mening-fikrim\/ocr\/runtime\/usr\/bin\/tesseract",
+            "version": "tesseract 5.3.4",
+            "issue": null
+        },
+        "tessdata_prefix": {
+            "ok": true,
+            "path": "\/home\/xojiakbar\/.local\/share\/mening-fikrim\/ocr\/runtime\/usr\/share\/tesseract-ocr\/5\/tessdata",
+            "issue": "INVALID_TESSDATA_PREFIX"
+        },
+        "process_library_path": {
+            "ok": true,
+            "path": "\/home\/xojiakbar\/.local\/share\/mening-fikrim\/ocr\/runtime\/usr\/lib\/x86_64-linux-gnu",
+            "issue": "INVALID_PROCESS_LIBRARY_PATH"
+        },
+        "ocr_languages": {
+            "ok": true,
+            "available": [
+                "eng",
+                "osd",
+                "rus",
+                "uzb",
+                "uzb_cyrl"
+            ],
+            "missing": [],
+            "issue": "OCR_LANGUAGE_MISSING"
+        },
+        "pdfinfo_binary": {
+            "ok": true,
+            "path": "\/usr\/bin\/pdfinfo",
+            "version": "pdfinfo version 24.02.0",
+            "issue": null
+        },
+        "pdftotext_binary": {
+            "ok": true,
+            "path": "\/usr\/bin\/pdftotext",
+            "version": "pdftotext version 24.02.0",
+            "issue": null
+        },
+        "pdftohtml_binary": {
+            "ok": true,
+            "path": "\/usr\/bin\/pdftohtml",
+            "version": "pdftohtml version 24.02.0",
+            "issue": null
+        },
+        "pdftoppm_binary": {
+            "ok": true,
+            "path": "\/usr\/bin\/pdftoppm",
+            "version": "pdftoppm version 24.02.0",
+            "issue": null
+        },
+        "python": {
+            "ok": true,
+            "path": "\/home\/xojiakbar\/.local\/share\/mening-fikrim\/pdf-layout-venv\/bin\/python",
+            "version": "Python 3.12.3",
+            "issue": null
+        },
+        "pdfplumber": {
+            "ok": true,
+            "version": "0.11.10",
+            "issue": "PDF_LAYOUT_DEPENDENCY_MISSING"
+        }
+    },
+    "issues": []
+}

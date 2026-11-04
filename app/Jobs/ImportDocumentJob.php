@@ -15,11 +15,13 @@ use App\Services\Scraping\DurableCampaign;
 use App\Services\Scraping\PilotCampaign;
 use App\Services\Scraping\RunItemTracker;
 use App\Services\Scraping\ScrapeRunManager;
+use App\Services\Scraping\ScrapingDependencyException;
 use DateTimeImmutable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Queue\Queueable;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
+use Symfony\Component\Process\Exception\ProcessFailedException;
 use Throwable;
 
 class ImportDocumentJob implements ShouldQueue
@@ -157,6 +159,24 @@ class ImportDocumentJob implements ShouldQueue
                     'source_http_status' => 404, 'source_issue' => 'source_request_not_found',
                     'error' => 'source_request_not_found: HTTP 404; availability remains unconfirmed.',
                 ], $this->dispatchToken);
+
+                return;
+            }
+            $permanentDependency = $e instanceof ScrapingDependencyException;
+            $permanentExtraction = $e instanceof ProcessFailedException
+                && ! in_array($e->getProcess()->getExitCode(), [137, 143], true);
+            if ($permanentDependency || $permanentExtraction || ! $tracker->retryAllowed($item->fresh())) {
+                $manager->outcome($this->runId, (string) $this->candidate, [
+                    ...($result ?? []), 'state' => 'failed', 'action' => $result['action'] ?? 'rejected',
+                    'document_id' => $result['document_id'] ?? null, 'complete' => false,
+                    'identity_verified' => $result !== null, 'failure_classification' => $permanentDependency ? 'permanent_dependency' : ($permanentExtraction ? 'permanent_extraction' : 'retry_exhausted'),
+                    'failure_code' => $permanentDependency ? 'OCR_DEPENDENCY_MISSING' : ($permanentExtraction ? 'EXTRACTION_PROCESS_FAILED' : 'SOURCE_RETRY_LIMIT_EXCEEDED'),
+                    'error' => $e::class.': '.mb_substr($e->getMessage(), 0, 500),
+                ], $this->dispatchToken);
+                $this->fail($e);
+                if ($permanentDependency) {
+                    app(PilotCampaign::class)->stop('runtime_dependency_unavailable');
+                }
 
                 return;
             }

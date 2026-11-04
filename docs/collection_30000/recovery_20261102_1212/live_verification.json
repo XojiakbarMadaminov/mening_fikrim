@@ -1,0 +1,22 @@
+{
+    "observed_at": "2026-11-02T12:17:39+05:00",
+    "status": "running",
+    "new_canonical": 6372,
+    "target": 30000,
+    "documents": 10039,
+    "contents": 25698,
+    "http_used": 50530,
+    "http_max": 360000,
+    "pending_jobs": 10,
+    "failed_jobs": 25,
+    "technical_failed_items": 0,
+    "probe": {
+        "checked_at": "2026-11-02T12:14:59+05:00",
+        "http_status": 200,
+        "source_path": "\/uz\/docs\/4601891",
+        "transport_reachable": true
+    },
+    "preservation_errors": [],
+    "recovery_count": 3,
+    "network_recovery_count": 2
+}

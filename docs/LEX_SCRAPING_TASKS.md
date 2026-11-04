@@ -347,3 +347,28 @@ Report: collection_30000/RECOVERY_20261101.md. No new campaign,budget reset or a
 Report/evidence: collection_30000/RECOVERY_20261102.md,recovery_20261102/. No budget/time reset or automatic safety-stop bypass.
 
 - 2026-11-02 10:02: PostgreSQL/host shutdown left30,000campaignrunning without actors. Restarted existing worker/controller with original leases/budgets;10:02:35 verified6,367NEW/10,034totaldocs,freshpersistence,25failedjobs unchanged. No code/schema/config change. Evidence in recovery_20261102/database_shutdown_restart_verification.json.
+
+- 2026-11-02 12:12: user explicitly requested continuation if stopped. Existing recover-network passed fullaudit+20receipt/6history preservation;probe3HTTP200;actors restarted12:15:49. At2026-11-02T12:17:39+05:00:NEW6372,total10039docs/25698contents,no new failedjob. No code/schema/budget/scope/time reset. Evidence recovery_20261102_1212/.
+
+## 2026-11-02 — explicit OCR and retry recovery
+
+- [x] Confirm stopped6,385NEW campaign,43failedjobs; classify24historical quality errors,1historical404,18missing-Tesseract failures.
+- [x] Restore persistent native Tesseract5.3.4/eng/rus/uzb/uzb_cyrl and existing optional pdfplumber environment; no new extraction technology.
+- [x] Add offline documents:health and actor/OCR preflight with clear permanent dependency diagnostics.
+- [x] Enforce cumulative item retry budget (normal max3); no ordinary redispatch of terminal failed/review/completed items.
+- [x] Implement/test audited same-campaign recover-ocr; retain all43failedjobs,original budgets/checkpoints and historical final reports; requeue only failed16420.
+- [x] Full267tests/1,315assertions PASS; changedPHP Pint PASS. Whole-repo Pint has pre-existing historical docs/p3/content_audit.php format issue, left unchanged.
+- [x] Real4711963 PDF/OCR persisted needs_review at attempt25; audit errors[]; same worker/controller resumed and autonomous fresh persistence observed.
+
+Report: [OCR_RECOVERY_20261102.md](collection_30000/OCR_RECOVERY_20261102.md). Evidence: collection_30000/ocr_recovery_20261102/. No migration,new campaign,scope/time/budget reset,AI worktree/database change,automatic recovery or scheduling.
+
+## 2026-11-03 — explicitly authorized bounded HTTP0 waiting
+
+- [x] Confirm11,456NEW/15,123documents/37,083contents,43failedjobs,20pendingreceipts and83,169HTTP transport-only stop; record immutable baseline and clean preservation audit.
+- [x] Explicit same-campaign policy: durable transport circuit,15/30/60min waiting,one original-budget paced GET per probe,max8probes/episode/12episodes; worker leaves queued jobs untouched.
+- [x] Preserve403/429,repeated5xx,source retry/dependency/identity/integrity/budget/deadline safeguards; no general automatic terminal recovery or concurrency increase.
+- [x] Offline regression coverage,279tests/1,432assertions PASS. ChangedPHP Pint PASS; historical P3 format issue left untouched. Correct old OCR recovery test's legitimate check/fetch timestamp refresh assertion without removing identity/content/hash/quality equality.
+- [x] Original guarded recovery5and policy opt-in; real metadata probe HTTP200usingonecountedrequest,all20oldreceipts unchanged,original deadline/limits/history preserved.
+- [x] Bounded real import persistedoneNEW canonical/threecontents,failedjobs43unchanged,audit errors[]; same detached worker/controller restarted15:07:52+05 for continued collection.
+
+Report: [TRANSPORT_WAIT_20261103.md](collection_30000/TRANSPORT_WAIT_20261103.md). Evidence: collection_30000/transport_wait_20261103/. Samecampaign,no migration/reset/new scope/scheduler/AI change. HTTP0waiting is explicitly authorized here; unrelated terminal stops remain guarded.

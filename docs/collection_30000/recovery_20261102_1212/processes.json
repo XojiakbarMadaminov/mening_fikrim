@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-02T12:15:49.788023+05:00",
+  "campaign": "corpus-30000-20261030",
+  "recovery": 3,
+  "network_recovery": 2,
+  "worker": {
+    "pid": 145807,
+    "command": "php artisan documents:campaign worker --id=corpus-30000-20261030"
+  },
+  "controller": {
+    "pid": 145808,
+    "command": "php artisan documents:campaign run --id=corpus-30000-20261030"
+  }
+}
